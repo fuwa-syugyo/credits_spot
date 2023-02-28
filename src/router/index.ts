@@ -42,34 +42,6 @@ const routeSettings: RouteRecordRaw[] = [
   },
 ]
 
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  // {
-  //   path: '/recordings',
-  //   name: 'recording_search',
-  //   component: RecordingSearchView
-  // },
-  // {
-  //   path: '/artists',
-  //   name: 'artist_search',
-  //   component: ArtistSearchView
-  // },
-  // {
-  //   path: '/recording/:id',
-  //   name: 'recording',
-  //   component: RecordingView
-  // },
-  // {
-  //   path: '/artist/:id',
-  //   name: 'artist',
-  //   component: ArtistView
-  // },
-]
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: routeSettings
