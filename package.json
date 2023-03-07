@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.2.45",
+    "vue-awesome-paginate": "^1.1.46",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
