@@ -36,20 +36,22 @@
     onMounted(async () => {
       await onClickHandler(currentPage.value);
 
-      for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
-        const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${(i-1) * 100 + 1}&limit=100&fmt=json`)
-        const data = await res.json();
+      if(totalItems.value < 1000){
+        for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
+          const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${(i-1) * 100 + 1}&limit=100&fmt=json`)
+          const data = await res.json();
 
-        const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
-        id: item.id,
-        title: item.title,
-        artist: item["artist-credit"][0].name,
-        first_release_date: item["first-release-date"]
-      }))
-      all_recording_data.value.push(new_recording_data);
-      }
-      const flatted_recording_data = all_recording_data.value.flat();
-      console.log(flatted_recording_data);
+          const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
+          id: item.id,
+          title: item.title,
+          artist: item["artist-credit"][0].name,
+          first_release_date: item["first-release-date"]
+        }))
+        all_recording_data.value.push(new_recording_data);
+        }
+        const flatted_recording_data = all_recording_data.value.flat();
+        console.log(flatted_recording_data);
+     }
     })
 </script>
 
