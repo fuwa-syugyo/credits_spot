@@ -12,11 +12,11 @@
 
     const onClickHandler = async (page: number) => {
       console.log(page);
-      const term = "ありがとう"
+      const term = "yesterday"
       const offset = (page - 1) * 100 + 1
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${offset}&limit=100&fmt=json`)
       const data = await res.json();
-      
+
     const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
       id: item.id,
       title: item.title,
@@ -25,11 +25,13 @@
     }))
 
     recording_data.value = new_recording_data;
+    totalItems.value = data.count;
 
     console.log(recording_data.value)
   }
 
     const currentPage = ref(1);
+    const totalItems = ref(0);
 
     onMounted(async () => {
       await onClickHandler(currentPage.value)
@@ -54,7 +56,7 @@
     </tbody>
   </table>
   <vue-awesome-paginate
-    :total-items="1000"
+    :total-items="totalItems"
     :items-per-page="100"
     :max-pages-shown="5"
     v-model="currentPage"
