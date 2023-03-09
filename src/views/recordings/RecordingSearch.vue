@@ -13,9 +13,10 @@
     const onClickHandler = async (page: number) => {
       console.log(page);
       const term = "ありがとう"
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${page}&limit=100&fmt=json`)
+      const offset = (page - 1) * 100 + 1
+      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${offset}&limit=100&fmt=json`)
       const data = await res.json();
-
+      
     const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
       id: item.id,
       title: item.title,
