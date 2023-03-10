@@ -75,6 +75,31 @@
       }))
       console.log(staff)
 
+      let engineer: Engineer[] = data.relations.filter((item: Engineer) => item.artist)
+        engineer = engineer.filter((artists: Engineer) => artists.artist.disambiguation === "engineer").map((item: Engineer) => ({
+          id: item.artist.id,
+          job: item.artist.disambiguation,
+          type: item.type,
+          name: item.artist.name
+          }))
+        console.log(engineer)
+
+        const recording_data: RecordingData[] = {
+          id: data.id,
+          title: data.title,
+          release_date: data?.['first-release-date'],
+          attribute: data?.relations?.filter((item: RecordingData )=> item)[0].attributes,
+
+          credit: {
+            artist_credit: { artist_credit_id: data?.['artist-credit'][0].artist.id, artist_credit: data?.['artist-credit'][0].name},
+            songwriter_credit: songwriter,
+            staff_credit: staff,
+            player_credit: player,
+            engineer_credit: engineer,
+          }
+        }
+        console.log(recording_data)
+
     })
 </script>
 
