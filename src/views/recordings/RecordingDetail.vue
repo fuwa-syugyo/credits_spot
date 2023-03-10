@@ -68,6 +68,13 @@
       }))}
       console.log(songwriter)
 
+      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer").map((item: Staff) => ({
+        id: item.artist.id,
+        type: item.type,
+        name: item.artist.name
+      }))
+      console.log(staff)
+
     })
 </script>
 
