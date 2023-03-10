@@ -11,6 +11,7 @@
     id: string;
     type: string;
     name: string;
+    work: object;
   }
 
   type Player = {
@@ -55,8 +56,17 @@
         type: item.type,
         instrument: item.attributes[0],
         name: item.artist.name
-    }))
-    console.log(player)
+      }))
+      console.log(player)
+
+      let songwriter: Songwriter[] = data?.relations.filter((item: Songwriter) => item.work)
+      if(songwriter[0]){
+      songwriter = songwriter[0]?.work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist").map((item: Songwriter) => ({
+        id: item.artist.id,
+        type: item.type,
+        name: item.artist.name
+      }))}
+      console.log(songwriter)
 
     })
 </script>
