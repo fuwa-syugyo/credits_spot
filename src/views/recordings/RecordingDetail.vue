@@ -87,7 +87,7 @@
           id: data.id,
           title: data.title,
           release_date: data?.['first-release-date'],
-          attribute: data?.relations?.filter((item: RecordingData )=> item)[0].attributes,
+          attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
 
           credit: {
             artist_credit: { artist_credit_id: data?.['artist-credit'][0].artist.id, artist_credit: data?.['artist-credit'][0].name},
@@ -121,38 +121,40 @@
     </table>
 
     <br>
-    <table>
-      <thead>
-        <tr>
-          <th>担当</th>
-          <th>名前</th>
-        </tr>
-      </thead>
-      <tbody v-if="credit_data?.credit?.songwriter_credit">
-        <tr v-for="songwriter in credit_data?.credit?.songwriter_credit">
-          <td>{{ songwriter.type }}</td>
-          <td>{{ songwriter.name }}</td>
-            </tr>
-      </tbody>
-      <tbody v-if="credit_data?.credit?.staff_credit">
-        <tr v-for="staff in credit_data?.credit?.staff_credit">
-          <td>{{ staff.type }}</td>
-          <td>{{ staff.name }}</td>
-            </tr>
-      </tbody>
-      <tbody v-if="credit_data?.credit?.player_credit">
-        <tr v-for="player in credit_data?.credit?.player_credit">
-          <td>{{ player.instrument }}</td>
-          <td>{{ player.name }}</td>
-            </tr>
-      </tbody>
-      <tbody v-if="credit_data?.credit?.engineer_credit">
-        <tr v-for="engineer in credit_data?.credit?.engineer_credit">
-          <td>{{ engineer.type }}</td>
-          <td>{{ engineer.name }}</td>
-            </tr>
-      </tbody>
-    </table>
+    <div v-if="credit_data && credit_data.credit && (credit_data.credit.songwriter_credit.length !== 0 || credit_data.credit.staff_credit.length !== 0  || credit_data.credit.player_credit.length !== 0  || credit_data.credit.engineer_credit.length !== 0 )">
+      <table>
+        <thead>
+          <tr>
+            <th>担当</th>
+            <th>名前</th>
+          </tr>
+        </thead>
+        <tbody v-if="credit_data?.credit.songwriter_credit">
+          <tr v-for="songwriter in credit_data.credit.songwriter_credit">
+            <td>{{ songwriter.type }}</td>
+            <td>{{ songwriter.name }}</td>
+          </tr>
+        </tbody>
+        <tbody v-if="credit_data?.credit.staff_credit">
+          <tr v-for="staff in credit_data.credit.staff_credit">
+            <td>{{ staff.type }}</td>
+            <td>{{ staff.name }}</td>
+          </tr>
+        </tbody>
+        <tbody v-if="credit_data?.credit.player_credit">
+          <tr v-for="player in credit_data.credit.player_credit">
+            <td>{{ player.instrument }}</td>
+            <td>{{ player.name }}</td>
+          </tr>
+        </tbody>
+        <tbody v-if="credit_data?.credit.engineer_credit">
+          <tr v-for="engineer in credit_data.credit.engineer_credit">
+            <td>{{ engineer.type }}</td>
+            <td>{{ engineer.name }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
