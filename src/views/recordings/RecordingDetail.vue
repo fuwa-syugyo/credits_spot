@@ -1,6 +1,8 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
 
+  const credit_data = ref<RecordingData[]>([]);
+
   type Staff = {
     id: string;
     type: string;
@@ -29,18 +31,21 @@
   }
 
   type Credit = {
-    artist_credit: string;
-    songwriter_credit: Songwriter;
-    staff_credit: Staff;
-    player_credit: Player;
-    engineer_credit: Engineer;
+    artist_credit: {
+      artist_credit_id: string;
+      artist_credit: string;
+    }
+    songwriter_credit: Songwriter[];
+    staff_credit: Staff[];
+    player_credit: Player[];
+    engineer_credit: Engineer[];
   }
 
   type RecordingData = {
       id: string;
       title: string;
       attribute: string;
-      first_release_date: string;
+      release_date: string;
       credit: Credit;
     };
 
@@ -49,15 +54,12 @@
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
       const data = await res.json()
 
-      console.log(data)
-
       const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
         instrument: item.attributes[0],
         name: item.artist.name
       }))
-      console.log(player)
 
       let songwriter: Songwriter[] = data?.relations.filter((item: Songwriter) => item.work)
       if(songwriter[0]){
@@ -66,14 +68,12 @@
         type: item.type,
         name: item.artist.name
       }))}
-      console.log(songwriter)
 
       const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer").map((item: Staff) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
       }))
-      console.log(staff)
 
       let engineer: Engineer[] = data.relations.filter((item: Engineer) => item.artist)
         engineer = engineer.filter((artists: Engineer) => artists.artist.disambiguation === "engineer").map((item: Engineer) => ({
@@ -82,9 +82,8 @@
           type: item.type,
           name: item.artist.name
           }))
-        console.log(engineer)
 
-        const recording_data: RecordingData[] = {
+        const all_credit_data: RecordingData[] = {
           id: data.id,
           title: data.title,
           release_date: data?.['first-release-date'],
@@ -97,23 +96,73 @@
             player_credit: player,
             engineer_credit: engineer,
           }
-        }
-        console.log(recording_data)
+        };
+        credit_data.value = all_credit_data;
+        console.log(credit_data.value)
 
     })
 </script>
 
 <template>
-  <table>
-    <thead>
-      <tr>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+  <div v-if="credit_data">
+    <table>
+      <thead>
+        <tr>
+          <th>曲名</th>
+          <th>アーティスト</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-if="credit_data?.credit">
+          <td>{{ credit_data?.title }}</td>
+          <td>{{ credit_data?.credit.artist_credit.artist_credit }}</td>
+        </tr>
+      </tbody>
+    </table>
 
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>担当</th>
+          <th>名前</th>
+        </tr>
+      </thead>
+      <tbody v-if="credit_data?.credit?.songwriter_credit">
+        <tr v-for="songwriter in credit_data?.credit?.songwriter_credit">
+          <td>{{ songwriter.type }}</td>
+          <td>{{ songwriter.name }}</td>
+            </tr>
+      </tbody>
+      <tbody v-if="credit_data?.credit?.staff_credit">
+        <tr v-for="staff in credit_data?.credit?.staff_credit">
+          <td>{{ staff.type }}</td>
+          <td>{{ staff.name }}</td>
+            </tr>
+      </tbody>
+      <tbody v-if="credit_data?.credit?.player_credit">
+        <tr v-for="player in credit_data?.credit?.player_credit">
+          <td>{{ player.instrument }}</td>
+          <td>{{ player.name }}</td>
+            </tr>
+      </tbody>
+      <tbody v-if="credit_data?.credit?.engineer_credit">
+        <tr v-for="engineer in credit_data?.credit?.engineer_credit">
+          <td>{{ engineer.type }}</td>
+          <td>{{ engineer.name }}</td>
+            </tr>
+      </tbody>
+    </table>
+  </div>
 </template>
 
-<style>
+<style scoped>
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5em;
+}
 </style>
