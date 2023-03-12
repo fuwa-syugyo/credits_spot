@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import SearchForm from './SearchForm.vue';
 
 </script>
 
 <template>
-  ここに検索フォーム
+  <SearchForm />
 </template>
 
 <style scoped>
