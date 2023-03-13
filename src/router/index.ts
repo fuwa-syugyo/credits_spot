@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../components/HomeView.vue'
 
 const routeSettings: RouteRecordRaw[] = [
   {
@@ -13,7 +13,7 @@ const routeSettings: RouteRecordRaw[] = [
     path: '/recordings',
     name: 'RecordingSearch',
     component: () => {
-      return import("../views/recordings/RecordingSearch.vue");
+      return import("../components/recordings/RecordingSearch.vue");
     }
   },
 
@@ -21,7 +21,7 @@ const routeSettings: RouteRecordRaw[] = [
     path: '/artists',
     name: 'ArtistSearch',
     component: () => {
-      return import("../views/artists/ArtistSearch.vue");
+      return import("../components/artists/ArtistSearch.vue");
     }
   },
 
@@ -29,7 +29,7 @@ const routeSettings: RouteRecordRaw[] = [
     path: '/recordings/:id',
     name: 'RecordingDetail',
     component: () => {
-      return import("../views/recordings/RecordingDetail.vue");
+      return import("../components/recordings/RecordingDetail.vue");
     }
   },
 
@@ -37,7 +37,7 @@ const routeSettings: RouteRecordRaw[] = [
     path: '/artists/:id',
     name: 'ArtistDetail',
     component: () => {
-      return import("../views/artists/ArtistDetail.vue");
+      return import("../components/artists/ArtistDetail.vue");
     }
   },
 ]
