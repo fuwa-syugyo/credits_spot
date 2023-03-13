@@ -1,7 +1,9 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
+  import {useRoute} from "vue-router";
 
-  const term = "ありがとう"
+  const route = useRoute();
+  const recording_term = route.query.term;
 
   type RecordingData = {
       id: string;
@@ -15,8 +17,8 @@
 
     const onClickHandler = async (page: number) => {
       console.log(page);
-      const offset = (page - 1) * 100 + 1
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${offset}&limit=100&fmt=json`)
+      const offset = (page - 1) * 100
+      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
       const data = await res.json();
 
     const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
@@ -38,7 +40,7 @@
 
       if(totalItems.value < 1000){
         for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
-          const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${term}&offset=${(i-1) * 100 + 1}&limit=100&fmt=json`)
+          const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
           const data = await res.json();
 
           const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
@@ -51,7 +53,7 @@
         }
         const flatted_recording_data = all_recording_data.value.flat();
         console.log(flatted_recording_data);
-     }
+      }
     })
 </script>
 
