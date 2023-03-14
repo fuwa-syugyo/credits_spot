@@ -30,6 +30,12 @@ const routeSettings: RouteRecordRaw[] = [
     name: 'RecordingDetail',
     component: () => {
       return import("../components/recordings/RecordingDetail.vue");
+    },
+    props: (routes) => {
+      const idStr = String(routes.params.id);
+      return {
+        id: idStr
+      };
     }
   },
 
