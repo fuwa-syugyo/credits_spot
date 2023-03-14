@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import {useRoute} from "vue-router";
+  import { useRoute, RouterLink } from "vue-router";
 
   const route = useRoute();
   const recording_term = route.query.term;
@@ -68,7 +68,9 @@
     </thead>
     <tbody>
       <tr v-for="recording in recording_data" :key="recording.id">
+        <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
         <td>{{ recording.title }}</td>
+        </RouterLink>
         <td>{{ recording.artist }}</td>
         <td>{{ recording.first_release_date }}</td>
       </tr>

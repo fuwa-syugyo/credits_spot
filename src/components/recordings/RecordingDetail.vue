@@ -1,6 +1,11 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
 
+  interface Props {
+    id: string;
+  }
+  const props = defineProps<Props>();
+  const recording_id = props.id
   const credit_data = ref<RecordingData[]>([]);
 
   type Staff = {
@@ -50,7 +55,6 @@
     };
 
     onMounted(async () => {
-      const recording_id = "7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5"
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
       const data = await res.json()
 
@@ -98,7 +102,7 @@
           }
         };
         credit_data.value = all_credit_data;
-        console.log(credit_data.value)
+        console.log(all_credit_data)
 
     })
 </script>
