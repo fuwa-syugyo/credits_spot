@@ -1,14 +1,10 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink } from "vue-router";
+  import { ArtistData } from "../../types/artist/ArtistSearch"
 
   const route = useRoute();
   const artist_term = route.query.term;
-
-  type ArtistData = {
-      id: string;
-      name: string;
-    };
 
   const artist_data = ref<ArtistData[]>([]);
   const all_artist_data = ref<Array<ArtistData[]>>([]);

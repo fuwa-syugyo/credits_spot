@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { RecordingData, Staff, SongWriter, Player, Engineer } from "../../types/RecordingDetail"
+  import { RecordingData, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
 
   interface Props {
     id: string;
