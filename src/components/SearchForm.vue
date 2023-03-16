@@ -1,20 +1,15 @@
-<script lang="ts">
-import { defineComponent, ref } from 'vue';
-import { useRouter } from 'vue-router';
+<script setup lang="ts">
+import { ref } from 'vue';
+import { useRouter } from 'vue-router'
 
-export default defineComponent({
-  setup() {
-    const router = useRouter();
-    const term = ref('');
-    const searchType = ref('曲名')
+const router = useRouter();
+const term = ref('');
+const searchType = ref('曲名')
 
-    const search = (): void => {
-      const type = searchType.value === '曲名' ? 'Recording' : 'Artist';
-      router.push({ name: type + 'Search', query: { term: term.value} });
-    }
-    return { search, term, searchType }
-  }
-});
+const search = (): void => {
+  const type = searchType.value === '曲名' ? 'Recording' : 'Artist';
+  router.push({ name: type + 'Search', query: { term: term.value} });
+}
 </script>
 
 <template>
