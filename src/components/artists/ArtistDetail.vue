@@ -1,21 +1,16 @@
 <script setup lang="ts">
-  import { ref, onMounted } from "vue";
+  import { ref, onMounted, defineProps } from "vue";
   import { ArtistData, RecordingCredit, SongWriterCredit } from "../../types/artist/ArtistDetail"
 
   interface Props {
     id: string;
   }
   const props = defineProps<Props>();
-  // const artist_id = props.id 仮です
-  const artist_id = "36e2eeab-28c1-44e4-867e-1eb346cebd96"
   const artist_data = ref<ArtistData>();
 
   onMounted(async () => {
-    const res = await fetch(`https://musicbrainz.org/ws/2/artist/${artist_id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
+    const res = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
     const data = await res.json()
-
-    console.log(data)
-    console.log(res)
 
     const recording_credit: RecordingCredit[] = data.relations.filter((rec: RecordingCredit) => rec["target-type"] === "recording").map((item: RecordingCredit) => ({
       type: item.type,
@@ -81,7 +76,7 @@
     </div>
     <br>
 
-    <div v-if="artist_data && artist_data.credit && ( artist_data.credit.recording_credit.length !== 0 )">
+    <div v-if="artist_data && ( artist_data.credit.recording_credit.length !== 0 )">
       <table>
         <thead>
           <tr>
