@@ -1,58 +1,13 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
+  import { RecordingData, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
 
   interface Props {
     id: string;
   }
   const props = defineProps<Props>();
   const recording_id = props.id
-  const credit_data = ref<RecordingData[]>([]);
-
-  type Staff = {
-    id: string;
-    type: string;
-    name: string;
-  }
-
-  type Songwriter = {
-    id: string;
-    type: string;
-    name: string;
-    work: object;
-  }
-
-  type Player = {
-    id: string;
-    type: string;
-    instrument: string;
-    name: string;
-  }
-
-  type Engineer = {
-    id: string;
-    job: string;
-    type: string;
-    name: string;
-  }
-
-  type Credit = {
-    artist_credit: {
-      artist_credit_id: string;
-      artist_credit: string;
-    }
-    songwriter_credit: Songwriter[];
-    staff_credit: Staff[];
-    player_credit: Player[];
-    engineer_credit: Engineer[];
-  }
-
-  type RecordingData = {
-      id: string;
-      title: string;
-      attribute: string;
-      release_date: string;
-      credit: Credit;
-    };
+  const credit_data = ref<RecordingData>();
 
     onMounted(async () => {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
@@ -65,9 +20,9 @@
         name: item.artist.name
       }))
 
-      let songwriter: Songwriter[] = data?.relations.filter((item: Songwriter) => item.work)
-      if(songwriter[0]){
-      songwriter = songwriter[0]?.work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist").map((item: Songwriter) => ({
+      let songwriter: SongWriter[] = data?.relations.filter((item: SongWriter) => item.work) || [];
+      if(songwriter.length && songwriter[0].work){
+      songwriter = songwriter[0].work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist").map((item: {artist: {id: string, name: string}, type: string}) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
@@ -79,15 +34,15 @@
         name: item.artist.name
       }))
 
-      let engineer: Engineer[] = data.relations.filter((item: Engineer) => item.artist)
-        engineer = engineer.filter((artists: Engineer) => artists.artist.disambiguation === "engineer").map((item: Engineer) => ({
-          id: item.artist.id,
-          job: item.artist.disambiguation,
-          type: item.type,
-          name: item.artist.name
-          }))
+      const engineer: Engineer[] = data.relations.filter((item: Engineer) => item.job === "engineer").map((item: Engineer) => ({
+        id: item.artist.id,
+        job: item.artist.disambiguation,
+        type: item.type,
+        name: item.artist.name,
+        artist: item.artist
+      }))
 
-        const all_credit_data: RecordingData[] = {
+        const all_credit_data: RecordingData = {
           id: data.id,
           title: data.title,
           release_date: data?.['first-release-date'],
@@ -134,25 +89,25 @@
           </tr>
         </thead>
         <tbody v-if="credit_data?.credit.songwriter_credit">
-          <tr v-for="songwriter in credit_data.credit.songwriter_credit">
+          <tr v-for="songwriter in credit_data.credit.songwriter_credit" v-bind:key="songwriter.id">
             <td>{{ songwriter.type }}</td>
             <td>{{ songwriter.name }}</td>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.staff_credit">
-          <tr v-for="staff in credit_data.credit.staff_credit">
+          <tr v-for="staff in credit_data.credit.staff_credit" v-bind:key="staff.id">
             <td>{{ staff.type }}</td>
             <td>{{ staff.name }}</td>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.player_credit">
-          <tr v-for="player in credit_data.credit.player_credit">
+          <tr v-for="player in credit_data.credit.player_credit" v-bind:key="player.id">
             <td>{{ player.instrument }}</td>
             <td>{{ player.name }}</td>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.engineer_credit">
-          <tr v-for="engineer in credit_data.credit.engineer_credit">
+          <tr v-for="engineer in credit_data.credit.engineer_credit" v-bind:key="engineer.id">
             <td>{{ engineer.type }}</td>
             <td>{{ engineer.name }}</td>
           </tr>

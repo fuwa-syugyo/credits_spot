@@ -1,60 +1,60 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink } from "vue-router";
+  import { SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   const route = useRoute();
   const recording_term = route.query.term;
 
-  type RecordingData = {
-      id: string;
-      title: string;
-      artist: string;
-      first_release_date: string;
-    };
+  const recording_data = ref<SearchRecordingData[]>([]);
+  const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
-    const recording_data = ref<RecordingData[]>([]);
-    const all_recording_data = ref<Array<RecordingData[]>>([]);
+  const onClickHandler = async (page: number) => {
+    console.log(page);
+    const offset = (page - 1) * 100
+    const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
+    const data = await res.json();
 
-    const onClickHandler = async (page: number) => {
-      console.log(page);
-      const offset = (page - 1) * 100
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
-      const data = await res.json();
+  const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
+    id: item.id,
+    title: item.title,
+    artist: {
+      id:item["artist-credit"][0].id,
+      name: item["artist-credit"][0].name,
+    },
+    first_release_date: item["first-release-date"]
+  }))
 
-    const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
-      id: item.id,
-      title: item.title,
-      artist: item["artist-credit"][0].name,
-      first_release_date: item["first-release-date"]
-    }))
+  recording_data.value = new_recording_data;
+  totalItems.value = data.count - 1;
+}
 
-    recording_data.value = new_recording_data;
-    totalItems.value = data.count - 1;
-  }
+  const currentPage = ref(1);
+  const totalItems = ref(0);
 
-    const currentPage = ref(1);
-    const totalItems = ref(0);
+  onMounted(async () => {
+    await onClickHandler(currentPage.value);
 
-    onMounted(async () => {
-      await onClickHandler(currentPage.value);
+    if(totalItems.value < 1000){
+      for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
+        const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
+        const data = await res.json();
 
-      if(totalItems.value < 1000){
-        for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
-          const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
-          const data = await res.json();
-
-          const new_recording_data: RecordingData[] = data.recordings.filter((rec:RecordingData) => rec).map((item: RecordingData) => ({
+        const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
           id: item.id,
           title: item.title,
-          artist: item["artist-credit"][0].name,
+          artist: {
+            id:item["artist-credit"][0].id,
+            name: item["artist-credit"][0].name,
+          },
           first_release_date: item["first-release-date"]
-        }))
-        all_recording_data.value.push(new_recording_data);
-        }
-        const flatted_recording_data = all_recording_data.value.flat();
-        console.log(flatted_recording_data);
+      }))
+      all_recording_data.value.push(new_recording_data);
       }
-    })
+      const flatted_recording_data = all_recording_data.value.flat();
+      console.log(flatted_recording_data);
+    }
+  })
 </script>
 
 <template>
@@ -71,7 +71,7 @@
         <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
         <td>{{ recording.title }}</td>
         </RouterLink>
-        <td>{{ recording.artist }}</td>
+        <td>{{ recording.artist.name }}</td>
         <td>{{ recording.first_release_date }}</td>
       </tr>
     </tbody>
