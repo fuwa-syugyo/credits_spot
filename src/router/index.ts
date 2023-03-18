@@ -44,6 +44,12 @@ const routeSettings: RouteRecordRaw[] = [
     name: 'ArtistDetail',
     component: () => {
       return import("../components/artists/ArtistDetail.vue");
+    },
+    props: (routes) => {
+      const idStr = String(routes.params.id);
+      return {
+        id: idStr
+      };
     }
   },
 ]
