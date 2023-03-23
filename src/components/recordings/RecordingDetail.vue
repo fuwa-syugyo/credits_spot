@@ -80,11 +80,15 @@
       <tbody>
         <tr v-if="credit_data?.credit">
           <td>{{ credit_data?.title }}</td>
-          <td
-            v-for="(artist) in credit_data.credit.artist_credit" :key="artist.index"
-            v-bind:name="artist.artist.name"
-            v-bind:joinphrase="artist.joinphrase">
-            {{ artist.artist.name }}{{ artist.joinphrase }}
+          <td>
+            <span v-for="(artist) in credit_data.credit.artist_credit" :key="artist.index"
+              v-bind:name="artist.artist.name"
+              v-bind:joinphrase="artist.joinphrase">
+              <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.artist.id}}">
+                {{ artist.artist.name }}
+              </RouterLink>
+                {{ artist.joinphrase }}
+            </span>
           </td>
         </tr>
       </tbody>
