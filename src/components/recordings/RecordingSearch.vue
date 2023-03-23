@@ -46,7 +46,7 @@
         const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
           id: item.id,
           title: item.title,
-          "artist-credit": [item["artist-credit"]].flat().map(credit => ({
+          "artist-credit": item["artist-credit"].map(credit => ({
             id: credit.artist.id,
             name: credit.artist.name,
             join_phrase: credit.joinphrase,
@@ -122,7 +122,8 @@
   }
 
   td, th {
-    border: 1px solid black;
-    padding: 0.5em;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid black;
   }
 </style>

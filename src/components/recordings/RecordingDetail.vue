@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { RecordingData, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
+  import { RecordingData, Artists, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
 
   interface Props {
     id: string;
@@ -12,6 +12,12 @@
     onMounted(async () => {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
       const data = await res.json()
+
+      const artists: Artists[] = data["artist-credit"]
+
+      artists.forEach((element, index) => {
+        element.index = index + 1;
+      });
 
       const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
@@ -49,7 +55,7 @@
           attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
 
           credit: {
-            artist_credit: { artist_credit_id: data?.['artist-credit'][0].artist.id, artist_credit: data?.['artist-credit'][0].name},
+            artist_credit: artists,
             songwriter_credit: songwriter,
             staff_credit: staff,
             player_credit: player,
@@ -74,7 +80,12 @@
       <tbody>
         <tr v-if="credit_data?.credit">
           <td>{{ credit_data?.title }}</td>
-          <td>{{ credit_data?.credit.artist_credit.artist_credit }}</td>
+          <td
+            v-for="(artist) in credit_data.credit.artist_credit" :key="artist.index"
+            v-bind:name="artist.artist.name"
+            v-bind:joinphrase="artist.joinphrase">
+            {{ artist.artist.name }}{{ artist.joinphrase }}
+          </td>
         </tr>
       </tbody>
     </table>
