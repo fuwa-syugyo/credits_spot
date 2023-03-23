@@ -15,10 +15,6 @@
 
       const artists: Artists[] = data["artist-credit"]
 
-      artists.forEach((element, index) => {
-        element.index = index + 1;
-      });
-
       const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
@@ -81,7 +77,7 @@
         <tr v-if="credit_data?.credit">
           <td>{{ credit_data?.title }}</td>
           <td>
-            <span v-for="(artist) in credit_data.credit.artist_credit" :key="artist.index"
+            <span v-for="artist in credit_data.credit.artist_credit"
               v-bind:name="artist.artist.name"
               v-bind:joinphrase="artist.joinphrase">
               <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.artist.id}}">
