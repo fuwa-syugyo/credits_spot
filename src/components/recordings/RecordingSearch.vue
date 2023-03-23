@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink } from "vue-router";
-  import { SearchRecordingData } from "../../types/recording/RecordingSearch"
+  import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   const route = useRoute();
   const recording_term = route.query.term;
@@ -15,15 +15,18 @@
     const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
 
-  const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
-    id: item.id,
-    title: item.title,
-    artist: {
-      id:item["artist-credit"][0].id,
-      name: item["artist-credit"][0].name,
-    },
-    first_release_date: item["first-release-date"]
-  }))
+    const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
+          id: item.id,
+          title: item.title,
+          "artist-credit": item["artist-credit"].map(credit => ({
+            id: credit.artist.id,
+            name: credit.artist.name,
+            join_phrase: credit.joinphrase,
+            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
+          })),
+          first_release_date: item["first-release-date"]
+        }))
+  console.log(new_recording_data)
 
   recording_data.value = new_recording_data;
   totalItems.value = data.count - 1;
@@ -43,12 +46,15 @@
         const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
           id: item.id,
           title: item.title,
-          artist: {
-            id:item["artist-credit"][0].id,
-            name: item["artist-credit"][0].name,
-          },
+          "artist-credit": item["artist-credit"].map(credit => ({
+            id: credit.artist.id,
+            name: credit.artist.name,
+            join_phrase: credit.joinphrase,
+            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
+          })),
           first_release_date: item["first-release-date"]
-      }))
+        }))
+
       all_recording_data.value.push(new_recording_data);
       }
       const flatted_recording_data = all_recording_data.value.flat();
@@ -69,9 +75,9 @@
     <tbody>
       <tr v-for="recording in recording_data" :key="recording.id">
         <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-        <td>{{ recording.title }}</td>
+          <td>{{ recording.title }}</td>
         </RouterLink>
-        <td>{{ recording.artist.name }}</td>
+        <td>{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
         <td>{{ recording.first_release_date }}</td>
       </tr>
     </tbody>
@@ -85,7 +91,7 @@
   />
 </template>
 
-<style>
+<style scoped>
   .pagination-container {
     display: flex;
     column-gap: 10px;
@@ -109,5 +115,15 @@
   }
   .active-page:hover {
     background-color: #2988c8;
+  }
+
+  table {
+  border-collapse: collapse;
+  }
+
+  td, th {
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid black;
   }
 </style>

@@ -1,6 +1,12 @@
 export type ArtistCredit = {
   id: string;
   name: string;
+  artist: {
+    id: string;
+    name: string;
+  }
+  joinphrase: string;
+  all_name: string;
 }
 
 export type SearchRecordingData  = {
@@ -8,9 +14,5 @@ export type SearchRecordingData  = {
   title: string;
   "artist-credit": ArtistCredit[];
   "first-release-date": string;
-  artist: {
-    id: string;
-    name: string;
-  }
   first_release_date: string;
   };

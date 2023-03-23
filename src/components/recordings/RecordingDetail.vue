@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { RecordingData, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
+  import { RecordingData, Artists, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
 
   interface Props {
     id: string;
@@ -12,6 +12,8 @@
     onMounted(async () => {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
       const data = await res.json()
+
+      const artists: Artists[] = data["artist-credit"]
 
       const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
@@ -49,7 +51,7 @@
           attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
 
           credit: {
-            artist_credit: { artist_credit_id: data?.['artist-credit'][0].artist.id, artist_credit: data?.['artist-credit'][0].name},
+            artist_credit: artists,
             songwriter_credit: songwriter,
             staff_credit: staff,
             player_credit: player,
@@ -74,7 +76,16 @@
       <tbody>
         <tr v-if="credit_data?.credit">
           <td>{{ credit_data?.title }}</td>
-          <td>{{ credit_data?.credit.artist_credit.artist_credit }}</td>
+          <td>
+            <span v-for="artist in credit_data.credit.artist_credit"
+              v-bind:name="artist.artist.name"
+              v-bind:joinphrase="artist.joinphrase">
+              <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.artist.id}}">
+                {{ artist.artist.name }}
+              </RouterLink>
+                {{ artist.joinphrase }}
+            </span>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -91,25 +102,33 @@
         <tbody v-if="credit_data?.credit.songwriter_credit">
           <tr v-for="songwriter in credit_data.credit.songwriter_credit" v-bind:key="songwriter.id">
             <td>{{ songwriter.type }}</td>
-            <td>{{ songwriter.name }}</td>
+            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: songwriter.id}}">
+              <td>{{ songwriter.name }}</td>
+            </RouterLink>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.staff_credit">
           <tr v-for="staff in credit_data.credit.staff_credit" v-bind:key="staff.id">
             <td>{{ staff.type }}</td>
-            <td>{{ staff.name }}</td>
+            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: staff.id}}">
+              <td>{{ staff.name }}</td>
+            </RouterLink>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.player_credit">
           <tr v-for="player in credit_data.credit.player_credit" v-bind:key="player.id">
             <td>{{ player.instrument }}</td>
-            <td>{{ player.name }}</td>
+            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: player.id}}">
+              <td>{{ player.name }}</td>
+            </RouterLink>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.engineer_credit">
           <tr v-for="engineer in credit_data.credit.engineer_credit" v-bind:key="engineer.id">
             <td>{{ engineer.type }}</td>
-            <td>{{ engineer.name }}</td>
+            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: engineer.id}}">
+              <td>{{ engineer.name }}</td>
+            </RouterLink>
           </tr>
         </tbody>
       </table>

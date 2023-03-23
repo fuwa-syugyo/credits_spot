@@ -47,11 +47,17 @@ export type Engineer = {
   }
 }
 
-export type Credit = {
-  artist_credit: {
-    artist_credit_id: string;
-    artist_credit: string;
+export type Artists = {
+  index: number;
+  artist: {
+    id: string;
+    name: string;
   }
+  joinphrase: string;
+}
+
+export type Credit = {
+  artist_credit: Artists[];
   songwriter_credit: SongWriter[];
   staff_credit: Staff[];
   player_credit: Player[];
