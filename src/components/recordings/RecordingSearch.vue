@@ -16,21 +16,21 @@
     const data = await res.json();
 
     const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
-          id: item.id,
-          title: item.title,
-          "artist-credit": item["artist-credit"].map(credit => ({
-            id: credit.artist.id,
-            name: credit.artist.name,
-            join_phrase: credit.joinphrase,
-            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-          })),
-          first_release_date: item["first-release-date"]
-        }))
-  console.log(new_recording_data)
+      id: item.id,
+      title: item.title,
+      "artist-credit": item["artist-credit"].map(credit => ({
+        id: credit.artist.id,
+        name: credit.artist.name,
+        join_phrase: credit.joinphrase,
+        all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
+      })),
+      first_release_date: item["first-release-date"]
+    }))
+    console.log(new_recording_data)
 
-  recording_data.value = new_recording_data;
-  totalItems.value = data.count - 1;
-}
+    recording_data.value = new_recording_data;
+    totalItems.value = data.count - 1;
+    }
 
   const currentPage = ref(1);
   const totalItems = ref(0);

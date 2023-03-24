@@ -1,12 +1,31 @@
 <script setup lang="ts">
   import { ref, onMounted, defineProps } from "vue";
-  import { ArtistData, RecordingCredit, SongWriterCredit } from "../../types/artist/ArtistDetail"
+  import { ArtistData, RecordingCredit, SongWriterCredit, RecordInWork, ArtistCredit } from "../../types/artist/ArtistDetail"
+  // import WorkModal from "./WorkModal.vue";
 
   interface Props {
     id: string;
   }
   const props = defineProps<Props>();
   const artist_data = ref<ArtistData>();
+
+  const recordingInWork = async (work_id: string) => {
+    const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
+    const data = await res.json();
+
+    let recording_in_work: RecordInWork = data?.relations.filter((x: Array<object>) => x).map((item: RecordInWork) => ({
+        id: item.recording.id,
+        title: item.recording.title,
+        "artist-credit": item.recording["artist-credit"].map((credit: ArtistCredit) => ({
+            id: credit.artist.id,
+            name: credit.artist.name,
+            join_phrase: credit.joinphrase,
+            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
+          })),
+        attributes: item.attributes[0],
+      }))
+      console.log(recording_in_work)
+    }
 
   onMounted(async () => {
     const res = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
@@ -69,7 +88,7 @@
         <tbody v-if="artist_data?.credit.song_writer_credit">
           <tr v-for="songwriter in artist_data.credit.song_writer_credit" v-bind:key="songwriter.work.id">
             <td>{{ songwriter.type }}</td>
-            <td>{{ songwriter.work.title }}</td>
+            <td @click="recordingInWork(songwriter.work.id)">{{ songwriter.work.title }}</td>
           </tr>
         </tbody>
       </table>

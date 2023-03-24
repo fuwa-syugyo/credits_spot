@@ -25,3 +25,23 @@ export type ArtistData = {
   }
 }
 
+export type ArtistCredit = {
+  id: string;
+  name: string;
+  artist: {
+    id: string;
+    name: string;
+  }
+  joinphrase: string;
+  all_name: string;
+}
+
+export type RecordInWork = {
+  recording: {
+    id: string;
+    title: string;
+    "artist-credit": ArtistCredit[];
+  }
+  attributes: Array<string>;
+}
+
