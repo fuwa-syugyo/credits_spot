@@ -42,6 +42,9 @@ export type RecordInWork = {
     title: string;
     "artist-credit": ArtistCredit[];
   }
+  id: string;
+  title: string;
   attributes: Array<string>;
+  "artist-credit": ArtistCredit[];
 }
 

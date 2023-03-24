@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted, defineProps } from "vue";
   import { ArtistData, RecordingCredit, SongWriterCredit, RecordInWork, ArtistCredit } from "../../types/artist/ArtistDetail"
-  // import WorkModal from "./WorkModal.vue";
 
   interface Props {
     id: string;
@@ -88,7 +87,11 @@
         <tbody v-if="artist_data?.credit.song_writer_credit">
           <tr v-for="songwriter in artist_data.credit.song_writer_credit" v-bind:key="songwriter.work.id">
             <td>{{ songwriter.type }}</td>
-            <td @click="recordingInWork(songwriter.work.id)">{{ songwriter.work.title }}</td>
+            <td>
+            <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
+              {{ songwriter.work.title }}
+            </RouterLink>
+            </td>
           </tr>
         </tbody>
       </table>

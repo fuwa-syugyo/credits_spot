@@ -40,6 +40,20 @@ const routeSettings: RouteRecordRaw[] = [
   },
 
   {
+    path: '/recordings/work/:id',
+    name: 'RecordingInWork',
+    component: () => {
+      return import("../components/recordings/RecordingInWork.vue");
+    },
+    props: (routes) => {
+      const idStr = String(routes.params.id);
+      return {
+        id: idStr
+      };
+    }
+  },
+
+  {
     path: '/artists/:id',
     name: 'ArtistDetail',
     component: () => {
