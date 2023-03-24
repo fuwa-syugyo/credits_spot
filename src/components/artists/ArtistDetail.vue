@@ -8,24 +8,6 @@
   const props = defineProps<Props>();
   const artist_data = ref<ArtistData>();
 
-  const recordingInWork = async (work_id: string) => {
-    const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
-    const data = await res.json();
-
-    let recording_in_work: RecordInWork = data?.relations.filter((x: Array<object>) => x).map((item: RecordInWork) => ({
-        id: item.recording.id,
-        title: item.recording.title,
-        "artist-credit": item.recording["artist-credit"].map((credit: ArtistCredit) => ({
-            id: credit.artist.id,
-            name: credit.artist.name,
-            join_phrase: credit.joinphrase,
-            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-          })),
-        attributes: item.attributes[0],
-      }))
-      console.log(recording_in_work)
-    }
-
   onMounted(async () => {
     const res = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
     const data = await res.json()
