@@ -30,7 +30,7 @@
         name: item.artist.name
       }))}
 
-      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer").map((item: Staff) => ({
+      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer" || rec.type == "misc").map((item: Staff) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
