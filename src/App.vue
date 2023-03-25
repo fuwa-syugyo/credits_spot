@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router"
+import Header from "./components/Header.vue"
 
 </script>
 
 <template>
-  <header>
-    <h1>クレジットサーチプロトタイプ</h1>
-  </header>
+  <Header />
   <main>
     <RouterView/>
   </main>
