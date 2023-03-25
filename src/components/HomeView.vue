@@ -1,10 +1,5 @@
-<script setup lang="ts">
-import SearchForm from './SearchForm.vue';
-
-</script>
-
 <template>
-  <SearchForm />
+  <p>このサイトは、曲のクレジット情報を調べたり、人物名から関わった曲名を調べることができるサービスです。</p>
 </template>
 
 <style scoped>
