@@ -18,7 +18,7 @@
       const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
-        instrument: item.attributes[0],
+        instrument: item.attributes[0] || item.type,
         name: item.artist.name
       }))
 
