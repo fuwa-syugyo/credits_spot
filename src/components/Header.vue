@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import SearchForm from './SearchForm.vue';
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <h1>クレジットサーチプロトタイプ</h1>
+  <router-link to="/">
+    <h3>クレジットサーチプロトタイプ</h3>
+  </router-link>
   <SearchForm />
 </template>
