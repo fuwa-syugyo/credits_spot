@@ -35,18 +35,6 @@ export type Player = {
   attributes: Array<string>;
 }
 
-export type Engineer = {
-  id: string;
-  job: string;
-  type: string;
-  name: string;
-  artist: {
-    id: string;
-    name: string;
-    disambiguation: string;
-  }
-}
-
 export type Artists = {
   index: number;
   artist: {
@@ -61,7 +49,6 @@ export type Credit = {
   songwriter_credit: SongWriter[];
   staff_credit: Staff[];
   player_credit: Player[];
-  engineer_credit: Engineer[];
 }
 
 export type RecordingData = {
