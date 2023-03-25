@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { RecordingData, Artists, Staff, SongWriter, Player, Engineer } from "../../types/recording/RecordingDetail"
+  import { RecordingData, Artists, Staff, SongWriter, Player } from "../../types/recording/RecordingDetail"
 
   interface Props {
     id: string;
@@ -18,30 +18,22 @@
       const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
-        instrument: item.attributes[0],
+        instrument: item.attributes[0] || item.type,
         name: item.artist.name
       }))
 
       let songwriter: SongWriter[] = data?.relations.filter((item: SongWriter) => item.work) || [];
       if(songwriter.length && songwriter[0].work){
-      songwriter = songwriter[0].work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist").map((item: {artist: {id: string, name: string}, type: string}) => ({
+      songwriter = songwriter[0].work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist" || artists.type  === "writer").map((item: {artist: {id: string, name: string}, type: string}) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
       }))}
 
-      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer").map((item: Staff) => ({
+      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer" || rec.type == "misc" || rec.type == "recording" || rec.type == "mix" || rec.type == "orchestrator").map((item: Staff) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
-      }))
-
-      const engineer: Engineer[] = data.relations.filter((item: Engineer) => item.job === "engineer").map((item: Engineer) => ({
-        id: item.artist.id,
-        job: item.artist.disambiguation,
-        type: item.type,
-        name: item.artist.name,
-        artist: item.artist
       }))
 
         const all_credit_data: RecordingData = {
@@ -55,7 +47,6 @@
             songwriter_credit: songwriter,
             staff_credit: staff,
             player_credit: player,
-            engineer_credit: engineer,
           }
         };
         credit_data.value = all_credit_data;
@@ -91,7 +82,7 @@
     </table>
 
     <br>
-    <div v-if="credit_data && credit_data.credit && (credit_data.credit.songwriter_credit.length !== 0 || credit_data.credit.staff_credit.length !== 0  || credit_data.credit.player_credit.length !== 0  || credit_data.credit.engineer_credit.length !== 0 )">
+    <div v-if="credit_data && credit_data.credit && (credit_data.credit.songwriter_credit.length !== 0 || credit_data.credit.staff_credit.length !== 0  || credit_data.credit.player_credit.length !== 0 )">
       <table>
         <thead>
           <tr>
@@ -120,14 +111,6 @@
             <td>{{ player.instrument }}</td>
             <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: player.id}}">
               <td>{{ player.name }}</td>
-            </RouterLink>
-          </tr>
-        </tbody>
-        <tbody v-if="credit_data?.credit.engineer_credit">
-          <tr v-for="engineer in credit_data.credit.engineer_credit" v-bind:key="engineer.id">
-            <td>{{ engineer.type }}</td>
-            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: engineer.id}}">
-              <td>{{ engineer.name }}</td>
             </RouterLink>
           </tr>
         </tbody>
