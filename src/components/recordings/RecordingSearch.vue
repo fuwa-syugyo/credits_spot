@@ -64,21 +64,21 @@
 </script>
 
 <template>
-  <table>
+  <table class="table-auto border-collapse border">
     <thead>
       <tr>
-        <th>曲名</th>
-        <th>アーティスト</th>
-        <th>リリース日</th>
+        <th class="px-10 py-2 border">曲名</th>
+        <th class="px-10 py-2 border">アーティスト</th>
+        <th class="px-10 py-2 border">リリース日</th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="recording in recording_data" :key="recording.id">
         <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-          <td>{{ recording.title }}</td>
+          <td class="border px-4 py-2">{{ recording.title }}</td>
         </RouterLink>
-        <td>{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td>{{ recording.first_release_date }}</td>
+        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+        <td class="border px-4 py-2">{{ recording.first_release_date }}</td>
       </tr>
     </tbody>
   </table>
@@ -115,15 +115,5 @@
   }
   .active-page:hover {
     background-color: #2988c8;
-  }
-
-  table {
-  border-collapse: collapse;
-  }
-
-  td, th {
-    padding: 10px;
-    vertical-align: middle;
-    border-bottom: 1px solid black;
   }
 </style>
