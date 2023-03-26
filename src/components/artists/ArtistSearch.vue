@@ -48,7 +48,7 @@
 </script>
 
 <template>
-  <table>
+  <table class="table-auto">
     <thead>
       <tr>
         <th>人物名</th>
@@ -56,9 +56,11 @@
     </thead>
     <tbody>
       <tr v-for="artist in artist_data" :key="artist.id">
-        <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.id}}">
-        <td>{{ artist.name }}</td>
-        </RouterLink>
+        <td>
+          <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.id}}">
+            {{ artist.name }}
+          </RouterLink>
+        </td>
       </tr>
     </tbody>
   </table>

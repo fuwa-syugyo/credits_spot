@@ -33,7 +33,7 @@
 </script>
 
 <template>
-  <table>
+  <table class="table-auto">
     <thead>
       <tr>
         <th>曲名</th>
@@ -43,9 +43,11 @@
     </thead>
     <tbody>
       <tr v-for="recording in recording_list" :key="recording.id">
-        <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-          <td>{{ recording.title }}</td>
-        </RouterLink>
+        <td>
+          <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
+            {{ recording.title }}
+          </RouterLink>
+        </td>
         <td>{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
         <td>{{ recording.attributes }}</td>
       </tr>

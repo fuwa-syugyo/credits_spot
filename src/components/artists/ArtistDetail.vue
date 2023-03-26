@@ -44,7 +44,7 @@
 
 <template>
   <div v-if="artist_data">
-    <table>
+    <table class="table-auto">
       <thead>
         <tr>
           <th>人物名</th>
@@ -70,9 +70,9 @@
           <tr v-for="songwriter in artist_data.credit.song_writer_credit" v-bind:key="songwriter.work.id">
             <td>{{ songwriter.type }}</td>
             <td>
-            <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
-              {{ songwriter.work.title }}
-            </RouterLink>
+              <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
+                {{ songwriter.work.title }}
+              </RouterLink>
             </td>
           </tr>
         </tbody>
@@ -91,9 +91,11 @@
         <tbody v-if="artist_data?.credit.recording_credit">
           <tr v-for="recording in artist_data.credit.recording_credit" v-bind:key="recording.recording.id">
             <td>{{ recording.type }}</td>
-            <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
-              <td>{{ recording.recording.title }}</td>
-            </RouterLink>
+            <td>
+              <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
+                {{ recording.recording.title }}
+              </RouterLink>
+            </td>
           </tr>
         </tbody>
       </table>
