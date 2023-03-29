@@ -1,7 +1,13 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { useRoute, RouterLink } from "vue-router";
+  import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
+
+  // onBeforeRouteUpdate(async (to, from) => {
+  //   const second_recording_term = to.query.term;
+  //   console.log(second_recording_term);
+  //   location.reload()
+  // });
 
   const route = useRoute();
   const recording_term = route.query.term;
@@ -10,7 +16,6 @@
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
   const onClickHandler = async (page: number) => {
-    console.log(page);
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
