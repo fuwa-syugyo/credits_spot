@@ -66,8 +66,8 @@
       </thead>
       <tbody>
         <tr v-if="credit_data?.credit">
-          <td class="text-center px-4 py-2 border solid">{{ credit_data?.title }}</td>
-          <td class="text-center px-4 py-2 border solid">
+          <td class="px-4 py-2 border solid">{{ credit_data?.title }}</td>
+          <td class="px-4 py-2 border solid">
             <span v-for="artist in credit_data.credit.artist_credit"
               v-bind:name="artist.artist.name"
               v-bind:joinphrase="artist.joinphrase">
