@@ -120,10 +120,12 @@
   .paginate-buttons:hover {
     background-color: #d8d8d8;
   }
+
   .active-page {
     background-color: #3498db;
     color: white;
   }
+  
   .active-page:hover {
     background-color: #2988c8;
   }
