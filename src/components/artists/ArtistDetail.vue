@@ -44,10 +44,10 @@
 
 <template>
   <div v-if="artist_data">
-    <table class="table-auto">
+    <table class="table-auto my-2">
       <thead>
         <tr>
-          <th>人物名</th>
+          <th class="px-4 py-2 border  bg-red-100">人物名</th>
         </tr>
       </thead>
       <tbody>
@@ -59,16 +59,16 @@
 
     <br>
     <div v-if="artist_data && ( artist_data.credit.song_writer_credit.length !== 0 )">
-      <table>
+      <table class="table-auto my-4">
         <thead>
           <tr>
-            <th>担当</th>
-            <th>曲名</th>
+            <th class="px-4 py-2 border  bg-blue-100">担当</th>
+            <th class="px-4 py-2 border  bg-blue-100">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.song_writer_credit">
           <tr v-for="songwriter in artist_data.credit.song_writer_credit" v-bind:key="songwriter.work.id">
-            <td>{{ songwriter.type }}</td>
+            <td class="text-center">{{ songwriter.type }}</td>
             <td>
               <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
                 {{ songwriter.work.title }}
@@ -84,13 +84,13 @@
       <table>
         <thead>
           <tr>
-            <th>担当</th>
-            <th>曲名</th>
+            <th class="px-4 py-2 border  bg-blue-100">担当</th>
+            <th class="px-4 py-2 border  bg-blue-100">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.recording_credit">
           <tr v-for="recording in artist_data.credit.recording_credit" v-bind:key="recording.recording.id">
-            <td>{{ recording.type }}</td>
+            <td class="text-center">{{ recording.type }}</td>
             <td>
               <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
                 {{ recording.recording.title }}
