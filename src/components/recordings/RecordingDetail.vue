@@ -106,7 +106,7 @@
             <td class="px-4 py-2 border solid">
               <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: staff.id}}">
                 {{ staff.name }}
-            </RouterLink>
+              </RouterLink>
             </td>
           </tr>
         </tbody>
