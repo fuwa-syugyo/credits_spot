@@ -1,7 +1,13 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { useRoute, RouterLink } from "vue-router";
+  import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
+
+  // onBeforeRouteUpdate(async (to, from) => {
+  //   const second_recording_term = to.query.term;
+  //   console.log(second_recording_term);
+  //   location.reload()
+  // });
 
   const route = useRoute();
   const recording_term = route.query.term;
@@ -10,7 +16,6 @@
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
   const onClickHandler = async (page: number) => {
-    console.log(page);
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
@@ -64,21 +69,23 @@
 </script>
 
 <template>
-  <table>
+  <table class="table-auto my-4">
     <thead>
       <tr>
-        <th>曲名</th>
-        <th>アーティスト</th>
-        <th>リリース日</th>
+        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
+        <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
+        <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="recording in recording_data" :key="recording.id">
-        <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-          <td>{{ recording.title }}</td>
-        </RouterLink>
-        <td>{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td>{{ recording.first_release_date }}</td>
+        <td class="border px-4 py-2 max-w-[600px]">
+          <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
+            {{ recording.title }}
+          </RouterLink>
+        </td>
+        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+        <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
       </tr>
     </tbody>
   </table>
@@ -91,39 +98,35 @@
   />
 </template>
 
-<style scoped>
+<style>
   .pagination-container {
     display: flex;
     column-gap: 10px;
   }
+
   .paginate-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40px;
-    width: 40px;
-    border-radius: 20px;
+    width: 60px;
+    border-radius: 10px;
     cursor: pointer;
     background-color: rgb(242, 242, 242);
     border: 1px solid rgb(217, 217, 217);
     color: black;
   }
+
   .paginate-buttons:hover {
     background-color: #d8d8d8;
   }
+
   .active-page {
     background-color: #3498db;
-    border: 1px solid #3498db;
     color: white;
   }
+
   .active-page:hover {
     background-color: #2988c8;
-  }
-
-  table {
-  border-collapse: collapse;
-  }
-
-  td, th {
-    padding: 10px;
-    vertical-align: middle;
-    border-bottom: 1px solid black;
   }
 </style>

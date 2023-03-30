@@ -44,35 +44,35 @@
 
 <template>
   <div v-if="artist_data">
-    <table>
+    <table class="table-auto my-2">
       <thead>
         <tr>
-          <th>人物名</th>
+          <th class="px-4 py-2 border solid bg-red-100">人物名</th>
         </tr>
       </thead>
       <tbody>
         <tr v-if="artist_data?.credit">
-          <td>{{ artist_data?.name }}</td>
+          <td class="px-4 py-2 border solid">{{ artist_data?.name }}</td>
         </tr>
       </tbody>
     </table>
 
     <br>
     <div v-if="artist_data && ( artist_data.credit.song_writer_credit.length !== 0 )">
-      <table>
+      <table class="table-auto my-4">
         <thead>
           <tr>
-            <th>担当</th>
-            <th>曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.song_writer_credit">
           <tr v-for="songwriter in artist_data.credit.song_writer_credit" v-bind:key="songwriter.work.id">
-            <td>{{ songwriter.type }}</td>
-            <td>
-            <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
-              {{ songwriter.work.title }}
-            </RouterLink>
+            <td class="text-center px-4 py-2 border solid">{{ songwriter.type }}</td>
+            <td class="px-4 py-2 border solid">
+              <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
+                {{ songwriter.work.title }}
+              </RouterLink>
             </td>
           </tr>
         </tbody>
@@ -84,30 +84,21 @@
       <table>
         <thead>
           <tr>
-            <th>担当</th>
-            <th>曲名</th>
+            <th class="px-4 py-2 border solid  bg-blue-100">担当</th>
+            <th class="px-4 py-2 border solid  bg-blue-100">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.recording_credit">
           <tr v-for="recording in artist_data.credit.recording_credit" v-bind:key="recording.recording.id">
-            <td>{{ recording.type }}</td>
-            <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
-              <td>{{ recording.recording.title }}</td>
-            </RouterLink>
+            <td class="text-center px-4 py-2 border solid">{{ recording.type }}</td>
+            <td class="px-4 py-2 border solid">
+              <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
+                {{ recording.recording.title }}
+              </RouterLink>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 </template>
-
-<style scoped>
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 1px solid black;
-  padding: 0.5em;
-}
-</style>

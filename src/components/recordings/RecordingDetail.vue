@@ -57,17 +57,17 @@
 
 <template>
   <div v-if="credit_data">
-    <table>
+    <table class="table-auto my-2">
       <thead>
         <tr>
-          <th>曲名</th>
-          <th>アーティスト</th>
+          <th class="px-4 py-2 border solid bg-red-100">曲名</th>
+          <th class="px-4 py-2 border solid bg-red-100">アーティスト</th>
         </tr>
       </thead>
       <tbody>
         <tr v-if="credit_data?.credit">
-          <td>{{ credit_data?.title }}</td>
-          <td>
+          <td class="px-4 py-2 border solid">{{ credit_data?.title }}</td>
+          <td class="px-4 py-2 border solid">
             <span v-for="artist in credit_data.credit.artist_credit"
               v-bind:name="artist.artist.name"
               v-bind:joinphrase="artist.joinphrase">
@@ -83,49 +83,44 @@
 
     <br>
     <div v-if="credit_data && credit_data.credit && (credit_data.credit.songwriter_credit.length !== 0 || credit_data.credit.staff_credit.length !== 0  || credit_data.credit.player_credit.length !== 0 )">
-      <table>
+      <table class="table-auto">
         <thead>
           <tr>
-            <th>担当</th>
-            <th>名前</th>
+            <th class="px-4 py-2 border solid bg-blue-100">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100">名前</th>
           </tr>
         </thead>
         <tbody v-if="credit_data?.credit.songwriter_credit">
           <tr v-for="songwriter in credit_data.credit.songwriter_credit" v-bind:key="songwriter.id">
-            <td>{{ songwriter.type }}</td>
-            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: songwriter.id}}">
-              <td>{{ songwriter.name }}</td>
-            </RouterLink>
+            <td class="text-center px-4 py-2 border solid">{{ songwriter.type }}</td>
+            <td class="px-4 py-2 border solid">
+              <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: songwriter.id}}">
+                {{ songwriter.name }}
+              </RouterLink>
+            </td>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.staff_credit">
           <tr v-for="staff in credit_data.credit.staff_credit" v-bind:key="staff.id">
-            <td>{{ staff.type }}</td>
-            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: staff.id}}">
-              <td>{{ staff.name }}</td>
-            </RouterLink>
+            <td class="text-center px-4 py-2 border solid">{{ staff.type }}</td>
+            <td class="px-4 py-2 border solid">
+              <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: staff.id}}">
+                {{ staff.name }}
+              </RouterLink>
+            </td>
           </tr>
         </tbody>
         <tbody v-if="credit_data?.credit.player_credit">
           <tr v-for="player in credit_data.credit.player_credit" v-bind:key="player.id">
-            <td>{{ player.instrument }}</td>
-            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: player.id}}">
-              <td>{{ player.name }}</td>
-            </RouterLink>
+            <td class="text-center px-4 py-2 border solid">{{ player.instrument }}</td>
+            <td class="px-4 py-2 border solid">
+              <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: player.id}}">
+                {{ player.name }}
+              </RouterLink>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 </template>
-
-<style scoped>
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 1px solid black;
-  padding: 0.5em;
-}
-</style>

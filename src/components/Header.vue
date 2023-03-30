@@ -4,8 +4,12 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <router-link to="/">
-    <h3>クレジットサーチプロトタイプ</h3>
-  </router-link>
-  <SearchForm />
+  <div class="px-4 my-4 border-b-4">
+    <router-link to="/">
+      <h3>クレジットサーチプロトタイプ</h3>
+    </router-link>
+    <div class="px-4 my-4">
+      <SearchForm />
+    </div>
+  </div>
 </template>
