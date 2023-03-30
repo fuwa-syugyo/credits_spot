@@ -47,12 +47,12 @@
     <table class="table-auto my-2">
       <thead>
         <tr>
-          <th class="px-4 py-2 border  bg-red-100">人物名</th>
+          <th class="px-4 py-2 border solid bg-red-100">人物名</th>
         </tr>
       </thead>
       <tbody>
         <tr v-if="artist_data?.credit">
-          <td>{{ artist_data?.name }}</td>
+          <td class="px-4 py-2 border solid">{{ artist_data?.name }}</td>
         </tr>
       </tbody>
     </table>
@@ -62,14 +62,14 @@
       <table class="table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border  bg-blue-100">担当</th>
-            <th class="px-4 py-2 border  bg-blue-100">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.song_writer_credit">
           <tr v-for="songwriter in artist_data.credit.song_writer_credit" v-bind:key="songwriter.work.id">
-            <td class="text-center">{{ songwriter.type }}</td>
-            <td>
+            <td class="text-center px-4 py-2 border solid">{{ songwriter.type }}</td>
+            <td class="px-4 py-2 border solid">
               <RouterLink v-bind:to="{name: 'RecordingInWork', params: {id: songwriter.work.id}}">
                 {{ songwriter.work.title }}
               </RouterLink>
@@ -84,14 +84,14 @@
       <table>
         <thead>
           <tr>
-            <th class="px-4 py-2 border  bg-blue-100">担当</th>
-            <th class="px-4 py-2 border  bg-blue-100">曲名</th>
+            <th class="px-4 py-2 border solid  bg-blue-100">担当</th>
+            <th class="px-4 py-2 border solid  bg-blue-100">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.recording_credit">
           <tr v-for="recording in artist_data.credit.recording_credit" v-bind:key="recording.recording.id">
-            <td class="text-center">{{ recording.type }}</td>
-            <td>
+            <td class="text-center px-4 py-2 border solid">{{ recording.type }}</td>
+            <td class="text-center px-4 py-2 border solid">
               <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
                 {{ recording.recording.title }}
               </RouterLink>
@@ -102,14 +102,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 1px solid black;
-  padding: 0.5em;
-}
-</style>

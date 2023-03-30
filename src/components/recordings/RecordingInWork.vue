@@ -38,18 +38,18 @@
       <tr>
         <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
         <th class="px-4 py-2 border max-w-[600px] bg-blue-100">アーティスト</th>
-        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">属性</th>
+        <th class="px-4 py-2 border bg-blue-100">属性</th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="recording in recording_list" :key="recording.id">
-        <td class="border px-4 py-2 max-w-[600px]">
+        <td class="px-4 py-2 border max-w-[600px]">
           <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
             {{ recording.title }}
           </RouterLink>
         </td>
-        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td class="border px-4 py-2 text-center">{{ recording.attributes }}</td>
+        <td class="px-4 py-2 border">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+        <td class="px-4 py-2 border text-center">{{ recording.attributes }}</td>
       </tr>
     </tbody>
   </table>

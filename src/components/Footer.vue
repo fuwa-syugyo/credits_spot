@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 bg-green-300">
+  <div class="my-8 bg-green-300">
     <p class="font-bold">使用上の注意</p>
     <p>このサイトは
       <a href="https://musicbrainz.org/doc/MusicBrainz_API" class="text-blue-600 visited:text-purple-600">MusicBrainz API
