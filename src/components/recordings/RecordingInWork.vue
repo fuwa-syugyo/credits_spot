@@ -33,61 +33,24 @@
 </script>
 
 <template>
-  <table class="table-auto">
+  <table class="table-auto my-4">
     <thead>
       <tr>
-        <th>曲名</th>
-        <th>アーティスト</th>
-        <th>属性</th>
+        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
+        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">アーティスト</th>
+        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">属性</th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="recording in recording_list" :key="recording.id">
-        <td>
+        <td class="border px-4 py-2 max-w-[600px]">
           <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
             {{ recording.title }}
           </RouterLink>
         </td>
-        <td>{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td>{{ recording.attributes }}</td>
+        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+        <td class="border px-4 py-2 text-center">{{ recording.attributes }}</td>
       </tr>
     </tbody>
   </table>
 </template>
-
-<style scoped>
-  .pagination-container {
-    display: flex;
-    column-gap: 10px;
-  }
-  .paginate-buttons {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: rgb(242, 242, 242);
-    border: 1px solid rgb(217, 217, 217);
-    color: black;
-  }
-  .paginate-buttons:hover {
-    background-color: #d8d8d8;
-  }
-  .active-page {
-    background-color: #3498db;
-    border: 1px solid #3498db;
-    color: white;
-  }
-  .active-page:hover {
-    background-color: #2988c8;
-  }
-
-  table {
-  border-collapse: collapse;
-  }
-
-  td, th {
-    padding: 10px;
-    vertical-align: middle;
-    border-bottom: 1px solid black;
-  }
-</style>

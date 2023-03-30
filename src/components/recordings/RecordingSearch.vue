@@ -84,7 +84,7 @@
             {{ recording.title }}
           </RouterLink>
         </td>
-        <td class="border px-4 py-2 ">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
         <td class="border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
       </tr>
     </tbody>
@@ -125,7 +125,7 @@
     background-color: #3498db;
     color: white;
   }
-  
+
   .active-page:hover {
     background-color: #2988c8;
   }
