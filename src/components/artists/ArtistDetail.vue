@@ -91,7 +91,7 @@
         <tbody v-if="artist_data?.credit.recording_credit">
           <tr v-for="recording in artist_data.credit.recording_credit" v-bind:key="recording.recording.id">
             <td class="text-center px-4 py-2 border solid">{{ recording.type }}</td>
-            <td class="text-center px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid">
               <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.recording.id}}">
                 {{ recording.recording.title }}
               </RouterLink>
