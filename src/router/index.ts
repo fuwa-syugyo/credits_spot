@@ -14,6 +14,13 @@ const routeSettings: RouteRecordRaw[] = [
     name: 'RecordingSearch',
     component: () => {
       return import("../components/recordings/RecordingSearch.vue");
+    },
+  },
+    {
+    path: '/recordings/filter',
+    name: 'RecordingSearchFilter',
+    component: () => {
+      return import("../components/recordings/RecordingSearchFilter.vue");
     }
   },
 

@@ -1,62 +1,24 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
-  import router from "../../router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
-  // import { RecordingSearchFilter } from "./RecordingSearchFilter.vue"
-
-  onBeforeRouteUpdate((to, from, next) => {
-    const second_recording_term = to.query.term;
-    console.log(second_recording_term);
-    onClickHandler(currentPage.value).then(() => {
-      next();
-    });
-  });
 
   const route = useRoute();
   const recording_term = route.query.term;
+  const totalItems = ref(0);
 
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
-  const onClickHandler = async (page: number) => {
-    const offset = (page - 1) * 100
-    const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
-    const data = await res.json();
+  onMounted(async() => {
+    const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
+    const first_data = await first_res.json();
 
-    const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
-      id: item.id,
-      title: item.title,
-      "artist-credit": item["artist-credit"].map(credit => ({
-        id: credit.artist.id,
-        name: credit.artist.name,
-        join_phrase: credit.joinphrase,
-        all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-      })),
-      first_release_date: item["first-release-date"]
-    }))
+    totalItems.value = first_data.count - 1;
+    const repeat = totalItems.value < 1000 ? totalItems.value / 100  : 9;
 
-    recording_data.value = new_recording_data;
-    totalItems.value = data.count - 1;
-    }
-
-  const currentPage = ref(1);
-  const totalItems = ref(0);
-
-  const toFilter = (): void => {
-    router.push({
-    name: "RecordingSearchFilter",
-    query: { term: recording_term },
-  });
-  }
-
-  onMounted(async () => {
-    await onClickHandler(currentPage.value);
-
-    const repeat = totalItems.value < 1000 ? totalItems.value / 100 : 9;
-
-    for(let i = 1; i <= repeat + 1; i++) {
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
+    for(let i = 0; i < repeat + 1; i++) {
+      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${ i * 100 }&limit=100&fmt=json`)
       const data = await res.json();
 
       const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
@@ -74,13 +36,33 @@
     all_recording_data.value.push(new_recording_data);
     }
     const flatted_recording_data = all_recording_data.value.flat();
-    // console.log(flatted_recording_data);
-  })
+    console.log(flatted_recording_data)
+
+  });
+
+
+  const onClickHandler = async (page: number) => {
+  }
+
+  const artistFilter = (): void => {
+    //入力したアーティスト名が、flatted_recording_dataの「artist-credit」のnameに含まれているものの配列を返したい
+  }
+
+  const getRidOfInstrument = () => {
+  const cutData = all_recording_data.value.flat()
+    .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("Music video") && !data.title.includes("TV Size"));
+    console.log(cutData);
+  }
+
+
+  const currentPage = ref(1);
+  // const totalItems = ref(0);
+
 </script>
 
 <template>
   <div>
-    <button v-on:click="toFilter">絞り込み</button>
+    <button v-on:click="getRidOfInstrument">絞り込み実行</button>
   </div>
   <table class="table-auto my-4">
     <thead>
