@@ -30,7 +30,8 @@
           join_phrase: credit.joinphrase,
           all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
         })),
-        first_release_date: item["first-release-date"]
+        first_release_date: item["first-release-date"],
+        "secondary-types": item.releases?.[0]["release-group"]["secondary-types"]?.[0]
       }))
 
     all_recording_data.value.push(new_recording_data);
@@ -48,10 +49,11 @@
     //入力したアーティスト名が、flatted_recording_dataの「artist-credit」のnameに含まれているものの配列を返したい
   }
 
-  const getRidOfInstrument = () => {
-  const cutData = all_recording_data.value.flat()
-    .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("Music video") && !data.title.includes("TV Size"));
+  const getRidOfInstrumentAndLive = () => {
+  const cutData = recording_data.value
+    .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("Music video") && !data.title.includes("TV Size")&& data["secondary-types"]  !== "Live");
     recording_data.value = cutData
+    console.log(recording_data.value)
   }
 
 
@@ -62,7 +64,7 @@
 
 <template>
   <div>
-    <button v-on:click="getRidOfInstrument">インスト音源を除外</button>
+    <button v-on:click="getRidOfInstrumentAndLive">インストとライブ音源を除外</button>
   </div>
   <table class="table-auto my-4">
     <thead>
