@@ -56,6 +56,13 @@
     console.log(recording_data.value)
   }
 
+  const getExactMatch = () => {
+  const ExactMatchData = recording_data.value
+    .filter((data) => data.title == recording_term);
+    recording_data.value = ExactMatchData
+    console.log(recording_data.value)
+  }
+
 
   const currentPage = ref(1);
   // const totalItems = ref(0);
@@ -65,6 +72,9 @@
 <template>
   <div>
     <button v-on:click="getRidOfInstrumentAndLive">インストとライブ音源を除外</button>
+  </div>
+  <div>
+    <button v-on:click="getExactMatch">完全一致の曲のみ</button>
   </div>
   <table class="table-auto my-4">
     <thead>
