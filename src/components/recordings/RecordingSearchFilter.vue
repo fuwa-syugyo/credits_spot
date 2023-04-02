@@ -37,7 +37,7 @@
     }
     const flatted_recording_data = all_recording_data.value.flat();
     console.log(flatted_recording_data)
-
+    recording_data.value = flatted_recording_data
   });
 
 
@@ -51,7 +51,7 @@
   const getRidOfInstrument = () => {
   const cutData = all_recording_data.value.flat()
     .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("Music video") && !data.title.includes("TV Size"));
-    console.log(cutData);
+    recording_data.value = cutData
   }
 
 
@@ -62,7 +62,7 @@
 
 <template>
   <div>
-    <button v-on:click="getRidOfInstrument">絞り込み実行</button>
+    <button v-on:click="getRidOfInstrument">インスト音源を除外</button>
   </div>
   <table class="table-auto my-4">
     <thead>
