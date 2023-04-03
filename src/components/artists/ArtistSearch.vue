@@ -10,7 +10,6 @@
   const all_artist_data = ref<Array<ArtistData[]>>([]);
 
   const onClickHandler = async (page: number) => {
-    console.log(page);
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
@@ -40,6 +39,7 @@
           name: item.name,
       }))
       all_artist_data.value.push(new_artist_data);
+      totalItems.value = data.count - 1;
       }
       const flatted_artist_data = all_artist_data.value.flat();
       console.log(flatted_artist_data);

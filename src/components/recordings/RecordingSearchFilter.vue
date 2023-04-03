@@ -8,9 +8,9 @@
   const getRidOfInstrumentAndLiveValue = route.query.getRidOfInstrumentAndLive;
   const getPartialMatchValue = route.query.getPartialMatch;
   const artistName = route.query.artistName as string || '';
-  let totalItems: number;
-  let filteredDataLength: number;
-  let filteredData: SearchRecordingData[];
+  const totalItems = ref<number>(0);
+  let filteredDataLength: number = 0;
+  let filteredData: SearchRecordingData[] = [];
 
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
@@ -19,8 +19,8 @@
     const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
     const first_data = await first_res.json();
 
-    totalItems = first_data.count - 1;
-    const repeat = totalItems < 1000 ? totalItems / 100  : 9;
+    totalItems.value = first_data.count - 1;
+    const repeat = totalItems.value < 1000 ? totalItems.value / 100  : 9;
 
     for(let i = 0; i < repeat + 1; i++) {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${ i * 100 }&limit=100&fmt=json`)

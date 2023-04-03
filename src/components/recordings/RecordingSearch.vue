@@ -43,7 +43,7 @@
     }
 
   const currentPage = ref(1);
-  const totalItems = ref(0);
+  const totalItems = ref<number>(NaN);
 
   const applyFilter = () :void  => {
     const getRidOfInstrumentAndLiveValue = selectFilter.value.includes("getRidOfInstrumentAndLive")? 'true': 'false';
