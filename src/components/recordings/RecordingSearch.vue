@@ -1,19 +1,25 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
+  import router from "../../router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
-  // onBeforeRouteUpdate(async (to, from) => {
-  //   const second_recording_term = to.query.term;
-  //   console.log(second_recording_term);
-  //   location.reload()
-  // });
+  onBeforeRouteUpdate((to, from, next) => {
+    const second_recording_term = to.query.term;
+    console.log(second_recording_term);
+    onClickHandler(currentPage.value).then(() => {
+      next();
+    });
+  });
 
   const route = useRoute();
   const recording_term = route.query.term;
 
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
+
+  const selectFilter = ref<Array<string>>([]);
+  const artistName = ref();
 
   const onClickHandler = async (page: number) => {
     const offset = (page - 1) * 100
@@ -31,44 +37,68 @@
       })),
       first_release_date: item["first-release-date"]
     }))
-    console.log(new_recording_data)
 
     recording_data.value = new_recording_data;
     totalItems.value = data.count - 1;
     }
 
   const currentPage = ref(1);
-  const totalItems = ref(0);
+  const totalItems = ref<number>(NaN);
+
+  const applyFilter = () :void  => {
+    const getRidOfInstrumentAndLiveValue = selectFilter.value.includes("getRidOfInstrumentAndLive")? 'true': 'false';
+    const getPartialMatchValue = selectFilter.value.includes("getPartialMatch")? 'true': 'false';
+
+    router.push({
+    name: "RecordingSearchFilter",
+    query: { term: recording_term,
+            getRidOfInstrumentAndLive: getRidOfInstrumentAndLiveValue,
+            getPartialMatch: getPartialMatchValue,
+            artistName: artistName.value
+            },
+    });
+  }
 
   onMounted(async () => {
     await onClickHandler(currentPage.value);
 
-    if(totalItems.value < 1000){
-      for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
-        const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
-        const data = await res.json();
+    const repeat = totalItems.value < 1000 ? totalItems.value / 100 : 9;
 
-        const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
-          id: item.id,
-          title: item.title,
-          "artist-credit": item["artist-credit"].map(credit => ({
-            id: credit.artist.id,
-            name: credit.artist.name,
-            join_phrase: credit.joinphrase,
-            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-          })),
-          first_release_date: item["first-release-date"]
-        }))
+    for(let i = 1; i <= repeat + 1; i++) {
+      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
+      const data = await res.json();
 
-      all_recording_data.value.push(new_recording_data);
-      }
-      const flatted_recording_data = all_recording_data.value.flat();
-      console.log(flatted_recording_data);
+      const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
+        id: item.id,
+        title: item.title,
+        "artist-credit": item["artist-credit"].map(credit => ({
+          id: credit.artist.id,
+          name: credit.artist.name,
+          join_phrase: credit.joinphrase,
+          all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
+        })),
+        first_release_date: item["first-release-date"]
+      }))
+
+    all_recording_data.value.push(new_recording_data);
     }
   })
 </script>
 
 <template>
+  <div class="container px-4 my-4 border border-gray-700 py-4">
+    <form v-on:submit.prevent="applyFilter">
+      <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外   </label>
+      <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
+      <br>
+      <label>アーティスト名で絞り込み</label>
+      <div class="relative">
+        <input v-model="artistName" type="search" id="search" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
+          <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
+      </div>
+    </form>
+  </div>
   <table class="table-auto my-4">
     <thead>
       <tr>
