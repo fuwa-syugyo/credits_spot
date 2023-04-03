@@ -19,6 +19,9 @@
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
+  const selectFilter = ref<Array<string>>([]);
+  const artistName = ref();
+
   const onClickHandler = async (page: number) => {
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
@@ -43,12 +46,21 @@
   const currentPage = ref(1);
   const totalItems = ref(0);
 
-  const toFilter = (): void => {
+  const applyFilter = () :void  => {
+    const getRidOfInstrumentAndLiveValue = selectFilter.value.includes("getRidOfInstrumentAndLive")? 'true': 'false';
+    const getExactMatchValue = selectFilter.value.includes("getExactMatch")? 'true': 'false';
+
     router.push({
     name: "RecordingSearchFilter",
-    query: { term: recording_term },
-  });
+    query: { term: recording_term,
+            getRidOfInstrumentAndLive: getRidOfInstrumentAndLiveValue,
+            getExactMatch: getExactMatchValue,
+            artistName: artistName.value
+            },
+    });
   }
+
+
 
   onMounted(async () => {
     await onClickHandler(currentPage.value);
@@ -79,8 +91,18 @@
 </script>
 
 <template>
-  <div>
-    <button v-on:click="toFilter">絞り込み</button>
+  <div class="container px-4 my-4 border border-gray-700 py-4">
+    <form v-on:submit.prevent="applyFilter">
+      <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外  </label>
+      <label><input type="checkbox" v-model="selectFilter" value="getExactMatch">完全一致の曲のみ</label>
+      <br>
+      <label>アーティスト名で絞り込み</label>
+      <div class="relative">
+        <input v-model="artistName" type="search" id="search" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
+          <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
+      </div>
+    </form>
   </div>
   <table class="table-auto my-4">
     <thead>
