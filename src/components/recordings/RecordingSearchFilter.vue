@@ -1,26 +1,26 @@
 <script setup lang="ts">
-  import { ref, onMounted, reactive } from "vue";
+  import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   const route = useRoute();
-  const recording_term = route.query.term;
+  let recording_term = route.query.term as string || '';
   const getRidOfInstrumentAndLiveValue = route.query.getRidOfInstrumentAndLive;
-  const getExactMatchValue = route.query.getExactMatchValue;
-  const totalItems = ref(0);
+  const getPartialMatchValue = route.query.getPartialMatch;
+  const artistName = route.query.artistName;
+  let totalItems: number;
+  let filteredDataLength: number;
+  let filteredData: SearchRecordingData[];
 
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
-
-  const selectFilter = reactive<string[]>([]);
-  const artistName = ref();
 
   onMounted(async() => {
     const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
     const first_data = await first_res.json();
 
-    totalItems.value = first_data.count - 1;
-    const repeat = totalItems.value < 1000 ? totalItems.value / 100  : 9;
+    totalItems = first_data.count - 1;
+    const repeat = totalItems < 1000 ? totalItems / 100  : 9;
 
     for(let i = 0; i < repeat + 1; i++) {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${ i * 100 }&limit=100&fmt=json`)
@@ -41,22 +41,29 @@
 
     all_recording_data.value.push(new_recording_data);
     }
-    const flatted_recording_data = all_recording_data.value.flat();
-    console.log(flatted_recording_data)
-    recording_data.value = flatted_recording_data
+    recording_data.value = all_recording_data.value.flat();
+
+    if(getRidOfInstrumentAndLiveValue == "true"){
+      getRidOfInstrumentAndLive()
+    }
+
+    if(getPartialMatchValue == "true"){
+      getPartialMatch()
+    }
+    filteredData = recording_data.value;
+    filteredDataLength = filteredData.length;
+
   });
 
 
   const onClickHandler = (page: number) => {
-    const initialData = [...recording_data.value];
     let startIndex = (page - 1) * 100;
     let endIndex = startIndex + 99;
-    const dataPerPage = initialData.slice(startIndex , endIndex)
-    const newData = [...dataPerPage];
-    recording_data.value = newData;
+    const dataPerPage = filteredData.slice(startIndex , endIndex)
+    recording_data.value = dataPerPage;
   }
 
-  const artistFilter = (): void => {
+  const artistFilter = () => {
     //入力したアーティスト名が、flatted_recording_dataの「artist-credit」のnameに含まれているものの配列を返したい
   }
 
@@ -64,37 +71,23 @@
   const cutData = recording_data.value
     .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("(off vocal)") && !data.title.includes("Music video") && !data.title.includes("TV Size")&& data["secondary-types"]  !== "Live");
     recording_data.value = cutData
-    totalItems.value = cutData.length
   }
 
-  const getExactMatch = () => {
-  const ExactMatchData = recording_data.value
-    .filter((data) => data.title == recording_term);
-    recording_data.value = ExactMatchData
-    totalItems.value = ExactMatchData.length
+  const getPartialMatch = () => {
+  const partialMatchData = recording_data.value
+    .filter((data) => data.title.includes(recording_term));
+    recording_data.value = partialMatchData
   }
-
-  const applyFilter = () :void  => {
-    if(selectFilter.includes("getRidOfInstrumentAndLive")){
-      getRidOfInstrumentAndLive
-      console.log('inst')
-    }
-    if(selectFilter.includes("getExactMatch")){
-      getExactMatch
-      console.log('exact')
-    }
-  }
-
 
   const currentPage = ref(1);
 
 </script>
 
 <template>
-    <div class="container px-4 my-4 border border-gray-700 py-4">
+    <!-- <div class="container px-4 my-4 border border-gray-700 py-4">
       <form v-on:submit.prevent="applyFilter">
         <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外  </label>
-        <label><input type="checkbox" v-model="selectFilter" value="getExactMatch">完全一致の曲のみ</label>
+        <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">完全一致の曲のみ</label>
         <br>
         <label>アーティスト名で絞り込み</label>
         <div class="relative">
@@ -103,13 +96,13 @@
             <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
           </div>
       </form>
-    </div>
+    </div> -->
 
   <!-- <div>
     <button v-on:click="getRidOfInstrumentAndLive">インストとライブ音源を除外</button>
   </div>
   <div>
-    <button v-on:click="getExactMatch">完全一致の曲のみ</button>
+    <button v-on:click="getPartialMatch">完全一致の曲のみ</button>
   </div> -->
   <table class="table-auto my-4">
     <thead>
@@ -132,7 +125,7 @@
     </tbody>
   </table>
   <vue-awesome-paginate
-    :total-items="totalItems"
+    :total-items="filteredDataLength"
     :items-per-page="100"
     :max-pages-shown="5"
     v-model="currentPage"

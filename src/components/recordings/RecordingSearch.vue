@@ -48,13 +48,13 @@
 
   const applyFilter = () :void  => {
     const getRidOfInstrumentAndLiveValue = selectFilter.value.includes("getRidOfInstrumentAndLive")? 'true': 'false';
-    const getExactMatchValue = selectFilter.value.includes("getExactMatch")? 'true': 'false';
+    const getPartialMatchValue = selectFilter.value.includes("getPartialMatch")? 'true': 'false';
 
     router.push({
     name: "RecordingSearchFilter",
     query: { term: recording_term,
             getRidOfInstrumentAndLive: getRidOfInstrumentAndLiveValue,
-            getExactMatch: getExactMatchValue,
+            getPartialMatch: getPartialMatchValue,
             artistName: artistName.value
             },
     });
@@ -94,7 +94,7 @@
   <div class="container px-4 my-4 border border-gray-700 py-4">
     <form v-on:submit.prevent="applyFilter">
       <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外  </label>
-      <label><input type="checkbox" v-model="selectFilter" value="getExactMatch">完全一致の曲のみ</label>
+      <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
       <br>
       <label>アーティスト名で絞り込み</label>
       <div class="relative">
