@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
+  import { useRoute, RouterLink } from "vue-router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   const route = useRoute();
@@ -59,7 +59,6 @@
 
   });
 
-
   const onClickHandler = (page: number) => {
     let startIndex = (page - 1) * 100;
     let endIndex = startIndex + 99;
@@ -86,7 +85,6 @@
   }
 
   const currentPage = ref(1);
-
 </script>
 
 <template>

@@ -3,7 +3,6 @@
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import router from "../../router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
-  // import { RecordingSearchFilter } from "./RecordingSearchFilter.vue"
 
   onBeforeRouteUpdate((to, from, next) => {
     const second_recording_term = to.query.term;
@@ -60,8 +59,6 @@
     });
   }
 
-
-
   onMounted(async () => {
     await onClickHandler(currentPage.value);
 
@@ -85,15 +82,13 @@
 
     all_recording_data.value.push(new_recording_data);
     }
-    const flatted_recording_data = all_recording_data.value.flat();
-    // console.log(flatted_recording_data);
   })
 </script>
 
 <template>
   <div class="container px-4 my-4 border border-gray-700 py-4">
     <form v-on:submit.prevent="applyFilter">
-      <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外  </label>
+      <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外   </label>
       <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
       <br>
       <label>アーティスト名で絞り込み</label>
