@@ -7,7 +7,7 @@
   let recording_term = route.query.term as string || '';
   const getRidOfInstrumentAndLiveValue = route.query.getRidOfInstrumentAndLive;
   const getPartialMatchValue = route.query.getPartialMatch;
-  const artistName = route.query.artistName;
+  const artistName = route.query.artistName as string || '';
   let totalItems: number;
   let filteredDataLength: number;
   let filteredData: SearchRecordingData[];
@@ -50,6 +50,10 @@
     if(getPartialMatchValue == "true"){
       getPartialMatch()
     }
+
+    if(artistName !== ""){
+      artistFilter()
+    }
     filteredData = recording_data.value;
     filteredDataLength = filteredData.length;
 
@@ -64,7 +68,9 @@
   }
 
   const artistFilter = () => {
-    //入力したアーティスト名が、flatted_recording_dataの「artist-credit」のnameに含まれているものの配列を返したい
+    const includeArtistData = recording_data.value
+    .filter((data) => data["artist-credit"][0].all_name.includes(artistName));
+    recording_data.value = includeArtistData
   }
 
   const getRidOfInstrumentAndLive = () => {
@@ -84,26 +90,6 @@
 </script>
 
 <template>
-    <!-- <div class="container px-4 my-4 border border-gray-700 py-4">
-      <form v-on:submit.prevent="applyFilter">
-        <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外  </label>
-        <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">完全一致の曲のみ</label>
-        <br>
-        <label>アーティスト名で絞り込み</label>
-        <div class="relative">
-          <input v-model="artistName" type="search" id="search" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
-            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
-            <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
-          </div>
-      </form>
-    </div> -->
-
-  <!-- <div>
-    <button v-on:click="getRidOfInstrumentAndLive">インストとライブ音源を除外</button>
-  </div>
-  <div>
-    <button v-on:click="getPartialMatch">完全一致の曲のみ</button>
-  </div> -->
   <table class="table-auto my-4">
     <thead>
       <tr>
