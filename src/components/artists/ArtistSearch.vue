@@ -1,15 +1,20 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
-  import { useRoute, RouterLink } from "vue-router";
+  import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistData } from "../../types/artist/ArtistSearch"
 
+  onBeforeRouteUpdate((to, from, next) => {
+    artist_term = to.query.term as string || '';
+    onClickHandler(currentPage.value, artist_term).then(() => {
+      next();
+    });
+  });
+
   const route = useRoute();
-  const artist_term = route.query.term;
-
+  let artist_term = route.query.term as string || '';
   const artist_data = ref<ArtistData[]>([]);
-  const all_artist_data = ref<Array<ArtistData[]>>([]);
 
-  const onClickHandler = async (page: number) => {
+  const onClickHandler = async (page: number, artist_term: string) => {
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
@@ -26,24 +31,8 @@
   const currentPage = ref(1);
   const totalItems = ref(0);
 
-  onMounted(async () => {
-    await onClickHandler(currentPage.value);
-
-    if(totalItems.value < 1000){
-      for(let i = 1; i <= (totalItems.value / 100) + 1; i++) {
-        const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
-        const data = await res.json();
-
-        const new_artist_data: ArtistData[] = data.artists.filter((rec:ArtistData) => rec).map((item: ArtistData) => ({
-          id: item.id,
-          name: item.name,
-      }))
-      all_artist_data.value.push(new_artist_data);
-      totalItems.value = data.count - 1;
-      }
-      const flatted_artist_data = all_artist_data.value.flat();
-      console.log(flatted_artist_data);
-    }
+  onMounted(() => {
+    onClickHandler(currentPage.value, artist_term);
   })
 </script>
 
