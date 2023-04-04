@@ -86,7 +86,7 @@
 </script>
 
 <template>
-  <div class="container px-4 my-4 border border-gray-700 py-4">
+  <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
     <form v-on:submit.prevent="applyFilter">
       <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外   </label>
       <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
