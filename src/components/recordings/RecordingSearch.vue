@@ -5,23 +5,20 @@
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   onBeforeRouteUpdate((to, from, next) => {
-    const second_recording_term = to.query.term;
-    console.log(second_recording_term);
-    onClickHandler(currentPage.value).then(() => {
+    recording_term = to.query.term as string || '';
+    onClickHandler(currentPage.value, recording_term).then(() => {
       next();
     });
   });
 
   const route = useRoute();
-  const recording_term = route.query.term;
-
+  let recording_term = route.query.term as string || '';
   const recording_data = ref<SearchRecordingData[]>([]);
-  const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
   const selectFilter = ref<Array<string>>([]);
   const artistName = ref();
 
-  const onClickHandler = async (page: number) => {
+  const onClickHandler = async (page: number, recording_term: string) => {
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
@@ -59,34 +56,13 @@
     });
   }
 
-  onMounted(async () => {
-    await onClickHandler(currentPage.value);
-
-    const repeat = totalItems.value < 1000 ? totalItems.value / 100 : 9;
-
-    for(let i = 1; i <= repeat + 1; i++) {
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${(i-1) * 100 }&limit=100&fmt=json`)
-      const data = await res.json();
-
-      const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
-        id: item.id,
-        title: item.title,
-        "artist-credit": item["artist-credit"].map(credit => ({
-          id: credit.artist.id,
-          name: credit.artist.name,
-          join_phrase: credit.joinphrase,
-          all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-        })),
-        first_release_date: item["first-release-date"]
-      }))
-
-    all_recording_data.value.push(new_recording_data);
-    }
+  onMounted(() => {
+    onClickHandler(currentPage.value, recording_term);
   })
 </script>
 
 <template>
-  <div class="container px-4 my-4 border border-gray-700 py-4">
+  <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
     <form v-on:submit.prevent="applyFilter">
       <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrumentAndLive">インストとライブ音源を除外   </label>
       <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
