@@ -19,6 +19,7 @@
   const artistName = ref();
 
   const onClickHandler = async (page: number, recording_term: string) => {
+    recording_term = route.query.term as string || '';
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
