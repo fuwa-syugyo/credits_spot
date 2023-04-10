@@ -1,5 +1,6 @@
 export const recordingSearchResponse =
 {
+  kari: 'nazo',
   created: "2023-04-06T04:02:42.594Z",
   count: 22672,
   offset: 0,

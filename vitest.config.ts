@@ -1,6 +1,6 @@
 import { defineConfig } from "vitest/config";
 import Vue from "@vitejs/plugin-vue";
-import { fileURLToPath, URL } from "url";
+import path from "path";
 
 export default defineConfig({
   plugins: [
@@ -8,11 +8,14 @@ export default defineConfig({
   ],
   test: {
     globals: true,
-    environment: "jsdom"
+    environment: "jsdom",
+    "setupFiles": [
+      "./setupVitest.ts"
+    ]
   },
   resolve: {
     alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url))
+      "@": path.resolve(__dirname, "src")
     }
   }
 });

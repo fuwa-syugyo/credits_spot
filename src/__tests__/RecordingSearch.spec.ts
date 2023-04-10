@@ -1,22 +1,26 @@
-import { describe, expect, test } from 'vitest';
-import { mount } from "@vue/test-utils";
-import { handlers } from "../handlers";
-import RecordingSearch from "../components/recordings/RecordingSearch.vue";
-
+import { describe, expect, beforeAll, afterEach, it, beforeEach, afterAll } from 'vitest';
+import { server } from '../mocks/server';
+import { recordingSearchResponse } from "./data/response";
+import { RecordingSearch } from "../components/recordings/RecordingSearch.vue";
+import fetchMock from 'vitest-fetch-mock';
+import { mount } from "@vue/test-utils"
 
 describe('recording search test',
   () => {
-    test(
-      'response test',
-      async () => {
-        const wrapper = mount(RecordingSearch, {
-          props: {
-            term: 'Hello' // テストに適した検索テキストを指定する
-          }
-        });
-        // await wrapper.vm.onClickHandler(1, "残酷な天使のテーゼ");
-        const actual = wrapper
-        const expected = handlers[0];
-        expect(actual).toBe(expected);
-      })
-})
+    afterEach(cleanup)
+    beforeAll(() => server.listen());
+    afterAll(() => server.close());
+
+    it('fetch unit test', async() => {
+      const response = await fetch('https://musicbrainz.org/ws/2/recording/?query=recording:残酷な天使のテーゼ&offset=0&limit=2&fmt=json');
+      const data = await response.json();
+
+      expect(data).toEqual(recordingSearchResponse) }
+    ),
+    it('RecordingSearch onClickHandler test', async() => {
+      const wrapper = mount(RecordingSearch)
+
+      expect(data).toEqual(recordingSearchResponse) }
+    )
+  }
+)
