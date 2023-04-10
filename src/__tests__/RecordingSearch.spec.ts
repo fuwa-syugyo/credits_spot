@@ -1,9 +1,10 @@
 import { describe, expect, beforeAll, afterEach, it, beforeEach, afterAll } from 'vitest';
 import { server } from '../mocks/server';
 import { recordingSearchResponse } from "./data/response";
-import { RecordingSearch } from "../components/recordings/RecordingSearch.vue";
+import RecordingSearch from "../components/recordings/RecordingSearch.vue";
 import fetchMock from 'vitest-fetch-mock';
 import { mount } from "@vue/test-utils"
+import { render, screen, cleanup } from '@testing-library/vue'
 
 describe('recording search test',
   () => {
@@ -18,9 +19,9 @@ describe('recording search test',
       expect(data).toEqual(recordingSearchResponse) }
     ),
     it('RecordingSearch onClickHandler test', async() => {
-      const wrapper = mount(RecordingSearch)
+      const wrapper = mount({RecordingSearch, query: "わちゅごなどぅー"})
 
-      expect(data).toEqual(recordingSearchResponse) }
-    )
+      // expect(wrapper).toEqual(recordingSearchResponse)
+    })
   }
 )

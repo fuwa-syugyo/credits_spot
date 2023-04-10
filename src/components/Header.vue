@@ -6,7 +6,9 @@ import { RouterLink } from "vue-router";
 <template>
   <div class="px-4 my-4 border-b-4">
     <router-link to="/">
-      <h3>クレジットサーチプロトタイプ</h3>
+      <div class="header__logo-box">
+        <img src="../../public/logo.png" alt="Logo" class="header__logo" style="height: 100px; object-fit: cover; object-position: center top;">
+      </div>
     </router-link>
     <div class="px-4 my-4">
       <SearchForm />
