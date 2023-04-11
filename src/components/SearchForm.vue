@@ -14,7 +14,7 @@ const search = (): void => {
 </script>
 
 <template>
-  <div class="container px-4 my-4 w-1/3">
+  <div class="container px-4 my-4">
     <form v-on:submit.prevent="search" id="search-form">
       <input type="radio" v-model="searchType" value="曲名">曲名
       <input type="radio" v-model="searchType" value="人物名">人物名
