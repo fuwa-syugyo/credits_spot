@@ -21290,3 +21290,21717 @@ export const recordingSearchResponse =
       }
   ]
 }
+
+export const recordingSearchResponse2Page =
+{
+    "created": "2023-04-11T06:47:07.209Z",
+    "count": 22707,
+    "offset": 100,
+    "recordings": [
+        {
+            "id": "7e1bd6ba-aa15-4b3e-86a1-e3d122592d77",
+            "score": 100,
+            "title": "残酷な天使のテーゼ",
+            "length": 269960,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Hidetosi SATO",
+                    "artist": {
+                        "id": "f12498a6-cc9e-4e2b-ad3e-95d95af3ac87",
+                        "name": "佐藤英敏",
+                        "sort-name": "Satou, Hidetoshi",
+                        "aliases": [
+                            {
+                                "sort-name": "Satou Hidetoshi",
+                                "name": "Satou Hidetoshi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sato, Hidetoshi",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Hidetoshi Sato",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "さとう ひでとし",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "佐藤英敏",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "佐藤 英俊",
+                                "name": "佐藤 英俊",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hidetoshi Satō",
+                                "name": "Hidetoshi Satō",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2001-08-10",
+            "releases": [
+                {
+                    "id": "196b4fe8-86b7-4886-a974-92b69e8d29d7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "TECHNOGELION -FINAL ANGELS-",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Kings-Tower",
+                            "artist": {
+                                "id": "8428485a-5e77-4741-a469-43c234bc64c9",
+                                "name": "Kings-Tower",
+                                "sort-name": "Kings-Tower"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f6e49d76-4ed5-483b-85bd-f34e4ee9e5bd",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "TECHNOGELION -FINAL ANGELS-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "2001-08-10",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2001-08-10",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e06c5160-71fe-4231-80ed-afd20554d49e",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ",
+                                    "length": 269960
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a58c2931-f211-4dd6-9bd8-16551a9ee1e6",
+            "score": 91,
+            "title": "残酷な天使のテーゼ（SE）",
+            "length": 115000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "ANIMETAL",
+                    "artist": {
+                        "id": "08874e35-f5de-4864-88aa-cdc4248a7138",
+                        "name": "ANIMETAL",
+                        "sort-name": "ANIMETAL",
+                        "aliases": [
+                            {
+                                "sort-name": "アニメタル",
+                                "name": "アニメタル",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "アニメタル・レディー",
+                                "name": "アニメタル・レディー",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2004-06-23",
+            "releases": [
+                {
+                    "id": "cdd29db1-5eb4-4ce4-9d07-c9e075ca13de",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "THE PSYCHO MARATHON",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "ANIMETAL",
+                            "artist": {
+                                "id": "08874e35-f5de-4864-88aa-cdc4248a7138",
+                                "name": "ANIMETAL",
+                                "sort-name": "ANIMETAL"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "b0d186ff-7d32-432e-87ea-326c20d3f7a0",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "THE PSYCHO MARATHON",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2004-06-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-06-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 31,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "DVD",
+                            "track": [
+                                {
+                                    "id": "9fd07b70-8b37-37fc-85db-4e5eb8638eb7",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ（SE）",
+                                    "length": 115000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "29b9890f-97e5-4dd3-ab8f-130471e9f0bd",
+            "score": 91,
+            "title": "残酷な天使のテーゼ (カラオケ)",
+            "length": 246000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "影山一郎",
+                    "artist": {
+                        "id": "c3293f44-45c1-4fe9-95e7-cec70da75f0e",
+                        "name": "影山一郎",
+                        "sort-name": "Kageyama, Ichiro"
+                    }
+                }
+            ],
+            "first-release-date": "2012-09-26",
+            "releases": [
+                {
+                    "id": "5eb8ee4f-057f-4580-8c63-83977636eafd",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "もしアニソンがすべて昭和のロボットアニメ風だったら",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "8cf7a8a4-07c1-408a-a7c9-6d2f021a3c74",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "もしアニソンがすべて昭和のロボットアニメ風だったら",
+                        "primary-type": "Album"
+                    },
+                    "date": "2012-09-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-09-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 18,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "23d1b5cf-85b5-41b3-81ac-07f0ae231ea8",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ (カラオケ)",
+                                    "length": 246000
+                                }
+                            ],
+                            "track-count": 18,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPVI01220670"
+            ]
+        },
+        {
+            "id": "eaa12df6-259c-45fc-b478-66b68a092871",
+            "score": 91,
+            "title": "残酷な天使のテーゼ (live)",
+            "length": 230386,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "初音階段",
+                    "artist": {
+                        "id": "f2056345-5796-4c6c-a068-8708a37c742e",
+                        "name": "初音階段",
+                        "sort-name": "Hatsune Kaidan",
+                        "aliases": [
+                            {
+                                "sort-name": "Hatsunekaidan",
+                                "name": "Hatsunekaidan",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hatsune Kaidan",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Hatsune Kaidan",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "はつねかいだん",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "初音階段",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2014-02-19",
+            "releases": [
+                {
+                    "id": "56012ec6-3361-494d-b7ee-f51356eb78df",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "Kiss in the Darkness: Alchemy Ladies Best Collection",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "49c84b86-4b03-4e3e-96de-a8aa53da40e4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Kiss in the Darkness: Alchemy Ladies Best Collection",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2014-02-19",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2014-02-19",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 30,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "f2de5b8f-9fd8-408c-8135-ae55c9de4b9d",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (live)",
+                                    "length": 230386
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9c31a28a-f8d5-4491-8078-9a24ad029fc7",
+            "score": 91,
+            "title": "残酷な天使のテーゼ(カラオケ)",
+            "length": 226666,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "滝沢乃南",
+                    "artist": {
+                        "id": "cfeeaa80-1d85-44df-8460-46146f486826",
+                        "name": "滝沢乃南",
+                        "sort-name": "Takizawa, Nonami"
+                    }
+                }
+            ],
+            "first-release-date": "2007-07-04",
+            "releases": [
+                {
+                    "id": "1fbb9c72-edb1-44f4-a5b9-5c8c975419a1",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "のなみん天使 〜愛と正義のために〜",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "80a46f2c-3d75-4640-a914-66f18373d5db",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "のなみん天使 〜愛と正義のために〜",
+                        "primary-type": "Single"
+                    },
+                    "date": "2007-07-04",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2007-07-04",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c2c5e32f-0e7b-477f-afb8-b9bc35ed4634",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ(カラオケ)",
+                                    "length": 226666
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPC360700181"
+            ]
+        },
+        {
+            "id": "e37045f3-c0a7-4a67-a708-09cd856ac7a4",
+            "score": 91,
+            "title": "残酷な天使のテーゼ（オリジナルカラオケ）",
+            "length": 245160,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1995-10-25",
+            "releases": [
+                {
+                    "id": "48c1bdaf-ee8e-4603-9723-297a82cfe7f9",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION / SINGLE COLLECTION",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "160de663-f4b1-3dcc-bf90-465b3d193896",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION 〜THE BEST COLLECTION〜",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2003",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2003",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "2142ae95-4368-415e-8f0c-3ff99561bab2",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ (OFF VOCAL VERSION)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "d582b5ba-41f6-4ba8-921e-c16c44ec4e20",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION THE BEST COLLECTION",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "160de663-f4b1-3dcc-bf90-465b3d193896",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION 〜THE BEST COLLECTION〜",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2007",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2007",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "20413d3e-2d92-4826-b2c5-64ae3aebc4a2",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ (OFF VOCAL TRACKS)",
+                                    "length": 245160
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "ae1df107-7cb4-435b-ada6-982fa9619d44",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION 〜THE BEST COLLECTION〜",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "160de663-f4b1-3dcc-bf90-465b3d193896",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION 〜THE BEST COLLECTION〜",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1997",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "1997",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "b76a390b-b39c-3042-a09f-57e434ff84de",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ (OFF VOCAL TRACKS)",
+                                    "length": 245160
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "e122b2e1-776b-4806-b40e-1d24002ff067",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion: The Best Collection",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "160de663-f4b1-3dcc-bf90-465b3d193896",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION 〜THE BEST COLLECTION〜",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "750ec2bc-91ac-49f7-8679-2b7b4ba90761",
+                                    "number": "10",
+                                    "title": "Zankoku na tenshi no these (off vocal tracks)",
+                                    "length": 245160
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "209f9bb2-07e1-473f-be25-a63cba0fb0e7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        },
+                        {
+                            "name": "CLAIRE",
+                            "artist": {
+                                "id": "51c40c08-85f8-4fda-9e65-0814e8017b1f",
+                                "name": "Claire Littley",
+                                "sort-name": "Littley, Claire",
+                                "disambiguation": "UK singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c5ca1660-3c0c-40ec-98f4-465d9551aa84",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                        "primary-type": "Single",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2003-03-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2003-03-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "9d311228-f7a3-32f3-96c4-5fbe16bfd921",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ (OFF VOCAL Version)",
+                                    "length": 245240
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "59226ea2-ff84-4819-b4f7-f0a0618019c9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9840b298-c1a4-4a09-9746-36801ee86961",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ",
+                        "primary-type": "Single"
+                    },
+                    "date": "1995-10-25",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1995-10-25",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "8cm CD",
+                            "track": [
+                                {
+                                    "id": "d2277378-6fdc-3892-b8da-97dc6bd8db69",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ（オリジナルカラオケ）",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "a85bb6f8-a807-4b46-a06e-8cb0ac6d6727",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ / 魂のルフラン",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "aad581e6-dce7-453a-b058-26d7801a778b",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / 魂のルフラン",
+                        "primary-type": "Single"
+                    },
+                    "date": "2018-06-20",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2018-06-20",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "029c3b2c-520c-45e7-9287-2812db39cd2f",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ off vocal ver.",
+                                    "length": 246573
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "30df624a-dfaf-4294-a8e0-f3526b182468",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Zankoku na Tenshi no These",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Yōko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9840b298-c1a4-4a09-9746-36801ee86961",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ",
+                        "primary-type": "Single"
+                    },
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "f2977809-d059-3221-a891-7075eda4b69f",
+                                    "number": "3",
+                                    "title": "Zankoku na Tenshi no These (Original Karaoke)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "d3a12b89-f4d9-4a53-b4ad-9989dcbb63c4",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Zankoku na Tenshi no These / Fly Me to the Moon",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "Yoko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        },
+                        {
+                            "name": "Claire",
+                            "artist": {
+                                "id": "51c40c08-85f8-4fda-9e65-0814e8017b1f",
+                                "name": "Claire Littley",
+                                "sort-name": "Littley, Claire",
+                                "disambiguation": "UK singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c5ca1660-3c0c-40ec-98f4-465d9551aa84",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                        "primary-type": "Single",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "48526f66-9b56-3485-9707-75c2d76a09cf",
+                                    "number": "3",
+                                    "title": "Zankoku na Tenshi no These (Off Vocal Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "fdf5ad83-1e4c-451d-8748-255a991d8271",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ / 魂のルフラン",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "aad581e6-dce7-453a-b058-26d7801a778b",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / 魂のルフラン",
+                        "primary-type": "Single"
+                    },
+                    "date": "2021-01-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-01-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "0d60597e-0c59-48d9-8c93-7ff189483c1f",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ off vocal ver.",
+                                    "length": 246000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "474a2e14-c46e-417c-b2fc-6e78e803aa0a",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "The Cruel Angel's Thesis",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Yōko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9840b298-c1a4-4a09-9746-36801ee86961",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ",
+                        "primary-type": "Single"
+                    },
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "0c5f28ec-54f0-4ff0-91c4-0e8c46fc9942",
+                                    "number": "3",
+                                    "title": "The Cruel Angel's Thesis (Original Karaoke)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "a2f57fbf-1f75-42a2-9ed5-c30de1c92287",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        },
+                        {
+                            "name": "CLAIRE",
+                            "artist": {
+                                "id": "51c40c08-85f8-4fda-9e65-0814e8017b1f",
+                                "name": "Claire Littley",
+                                "sort-name": "Littley, Claire",
+                                "disambiguation": "UK singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c5ca1660-3c0c-40ec-98f4-465d9551aa84",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                        "primary-type": "Single",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "0e6bca8a-7ecc-4169-8f74-539688b98139",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ (OFF VOCAL Version)",
+                                    "length": 245240
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "22f54ecb-a60f-4ac7-9111-c0d8aacf1f4a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9840b298-c1a4-4a09-9746-36801ee86961",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ",
+                        "primary-type": "Single"
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "fa1c8856-888f-475d-82c1-ba23f82f6f61",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ (OFF VOCAL VERSION)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI09519959"
+            ]
+        },
+        {
+            "id": "e149253d-ff60-49ce-9b19-6ec5cc7426c7",
+            "score": 87,
+            "title": "残酷な天使",
+            "length": 292000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "ＣＯＲＰＯＲＡＴＥ災害",
+                    "artist": {
+                        "id": "9a217d63-d912-4eac-8308-d0e3dd6e03c6",
+                        "name": "ＣＯＲＰＯＲＡＴＥ災害",
+                        "sort-name": "ＣＯＲＰＯＲＡＴＥ災害"
+                    }
+                }
+            ],
+            "first-release-date": "2016-12-18",
+            "releases": [
+                {
+                    "id": "c07eb57d-7e06-46ce-afe8-c58c4a99028c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "95 Elements",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "40d336b9-cd3b-4bf9-8597-63f54202d40d",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "95 Elements",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2016-12-28",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2016-12-28",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 94,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "6cf6d1aa-6f50-4bba-9e84-e0c495be40ab",
+                                    "number": "89",
+                                    "title": "残酷な天使",
+                                    "length": 292000
+                                }
+                            ],
+                            "track-count": 94,
+                            "track-offset": 88
+                        }
+                    ]
+                },
+                {
+                    "id": "88367810-b7b2-4491-af70-6ec04bcf78a4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "95 Elements",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "40d336b9-cd3b-4bf9-8597-63f54202d40d",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "95 Elements",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2016-12-18",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2016-12-18",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 95,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "547303bc-8c86-4455-a6df-6be5e3dd7aff",
+                                    "number": "90",
+                                    "title": "残酷な天使",
+                                    "length": 292000
+                                }
+                            ],
+                            "track-count": 95,
+                            "track-offset": 89
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c902c6b4-61c6-4f4c-acb5-07ff41738012",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (AYANAMI Version)",
+            "length": 257706,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "林原めぐみ",
+                    "artist": {
+                        "id": "375a3c4c-7898-47f0-ad0e-443a75148c7a",
+                        "name": "林原めぐみ",
+                        "sort-name": "Hayashibara, Megumi",
+                        "aliases": [
+                            {
+                                "sort-name": "MEGUMI",
+                                "name": "MEGUMI",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Megumi Hayashibara",
+                                "name": "Megumi Hayashibara",
+                                "locale": "pl",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "はやしばらめぐみ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "林原めぐみ",
+                                "locale": "ja_JP",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Megumi Hyashibara",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Megumi Hyashibara",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hayashibara Megumi",
+                                "name": "Hayashibara Megumi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "林原 めぐみ",
+                                "name": "林原 めぐみ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "はやしばら めぐみ",
+                                "name": "はやしばら めぐみ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hayashibara, Megumi",
+                                "name": "Megumi Hayashibara",
+                                "locale": "en",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1996-11-01",
+            "releases": [
+                {
+                    "id": "7131bd67-297e-4b96-9f97-c694e45d74ab",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "bertemu",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "林原めぐみ",
+                            "artist": {
+                                "id": "375a3c4c-7898-47f0-ad0e-443a75148c7a",
+                                "name": "林原めぐみ",
+                                "sort-name": "Hayashibara, Megumi"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9f33c069-73b1-3d1b-9cc7-b2c6394af2fc",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "bertemu",
+                        "primary-type": "Album"
+                    },
+                    "date": "1996-11-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1996-11-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e6147550-d568-31c7-ac97-8a600c8b3179",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ (AYANAMI Version)",
+                                    "length": 257706
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "d3239c2f-72d4-4014-9d84-a3a6c2757aee",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "bertemu",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "林原めぐみ",
+                            "artist": {
+                                "id": "375a3c4c-7898-47f0-ad0e-443a75148c7a",
+                                "name": "林原めぐみ",
+                                "sort-name": "Hayashibara, Megumi"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9f33c069-73b1-3d1b-9cc7-b2c6394af2fc",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "bertemu",
+                        "primary-type": "Album"
+                    },
+                    "date": "2005-03-16",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2005-03-16",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "217e43ef-02d2-429e-898c-5e56ad034809",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ <AYANAMI Version>",
+                                    "length": 257693
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "ce2a2472-1d23-4b0f-9b2a-abb490dbb7ad",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Bertemu",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "林原めぐみ",
+                            "artist": {
+                                "id": "375a3c4c-7898-47f0-ad0e-443a75148c7a",
+                                "name": "林原めぐみ",
+                                "sort-name": "Hayashibara, Megumi"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9f33c069-73b1-3d1b-9cc7-b2c6394af2fc",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "bertemu",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "bdfc3d57-6980-3b02-952a-eb8c5a993ad4",
+                                    "number": "4",
+                                    "title": "Zankoku na Tenshi no Thesis (Ayanami version)",
+                                    "length": 257706
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 3
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI09618530"
+            ]
+        },
+        {
+            "id": "76b954ef-9aa0-44f0-9b97-1c93f1943688",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (TECHNO MIX)",
+            "length": 132000,
+            "disambiguation": "DJ-mixed: 夏物語2009",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Shihori",
+                    "artist": {
+                        "id": "017e63ad-2239-4696-a099-f99ccc86fca4",
+                        "name": "しほり",
+                        "sort-name": "Shihori",
+                        "disambiguation": "A-One; singer-songwriter",
+                        "aliases": [
+                            {
+                                "sort-name": "せな",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "瀬名",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Nakane, Shihori",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "中根しほり",
+                                "locale": "ja",
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "しほり",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "しほり",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2010-06-10",
+            "releases": [
+                {
+                    "id": "8f34b19a-e1fd-4bf2-873f-59a3e593bd72",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "Dancemania presents 夏物語2009",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "820e5ce7-db38-4261-8afe-0f2ae45005c8",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Dancemania presents 夏物語2009",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "DJ-mix"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+                        ]
+                    },
+                    "date": "2010-06-10",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2010-06-10",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 28,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "42fb7786-0651-3b49-8f4e-1112a2424191",
+                                    "number": "14",
+                                    "title": "残酷な天使のテーゼ (TECHNO MIX)",
+                                    "length": 132000
+                                }
+                            ],
+                            "track-count": 28,
+                            "track-offset": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "e49d198d-367b-4493-b6e4-ae4bc1cc52db",
+            "score": 84,
+            "title": "残酷な天使のテーゼ(Euro Mix)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "DJ・ケンボウ",
+                    "artist": {
+                        "id": "54ce8027-b0fe-45ce-9fb2-95f76f5ca754",
+                        "name": "DJ・ケンボウ",
+                        "sort-name": "DJ KEN-BO"
+                    }
+                }
+            ],
+            "first-release-date": "2007-01-31",
+            "releases": [
+                {
+                    "id": "99c25cd1-53a1-4837-9d1d-2c90a7a22ad1",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "FARMIX BEST HIT COUNT DOWN",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "a2cf9129-da7f-402f-80c6-47a269e6a0c4",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "FARMIX BEST HIT COUNT DOWN",
+                        "primary-type": "Album"
+                    },
+                    "date": "2007-01-31",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2007-01-31",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "fe836088-66ba-4fe5-ab94-5928ef5f636c",
+                                    "number": "17",
+                                    "title": "残酷な天使のテーゼ(Euro Mix)"
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a8c6db8b-4c72-4b8d-9d17-0f0f1b3b1ba1",
+            "score": 84,
+            "title": "残酷な天使のテーゼ(Eng Ver.)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "arlie Ray",
+                    "artist": {
+                        "id": "a01b0415-01c1-4c8f-8e03-41b359a6d1dd",
+                        "name": "arlie Ray",
+                        "sort-name": "arlie Ray"
+                    }
+                }
+            ],
+            "first-release-date": "2010-04-07",
+            "releases": [
+                {
+                    "id": "21fffc90-b2f4-4690-b983-f1c9371d09f4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "覚醒,そして降臨",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "7da4f496-5c16-4f85-97b5-9a2470dcba19",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "覚醒,そして降臨",
+                        "primary-type": "Album"
+                    },
+                    "date": "2010-04-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2010-04-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8315ce1b-a9cb-4594-9092-6dbf5325f2ec",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ(Eng Ver.)"
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "55a2ab7b-7950-4fa9-b8a8-42e04054ce76",
+            "score": 84,
+            "title": "残酷な天使のテーゼ(Jp Ver.)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "arlie Ray",
+                    "artist": {
+                        "id": "a01b0415-01c1-4c8f-8e03-41b359a6d1dd",
+                        "name": "arlie Ray",
+                        "sort-name": "arlie Ray"
+                    }
+                }
+            ],
+            "first-release-date": "2010-04-07",
+            "releases": [
+                {
+                    "id": "21fffc90-b2f4-4690-b983-f1c9371d09f4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "覚醒,そして降臨",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "7da4f496-5c16-4f85-97b5-9a2470dcba19",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "覚醒,そして降臨",
+                        "primary-type": "Album"
+                    },
+                    "date": "2010-04-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2010-04-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3f8d588c-d8ad-435d-84ad-e9e03f33ac5f",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ(Jp Ver.)"
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2da28c89-7184-4db2-9c02-612180aa8cf4",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (Alternative Version)",
+            "length": 227000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Skylark",
+                    "artist": {
+                        "id": "749e6353-60d5-45b3-a679-894f486aba44",
+                        "name": "Skylark",
+                        "sort-name": "Skylark",
+                        "disambiguation": "Italian symphonic power metal band"
+                    }
+                }
+            ],
+            "first-release-date": "2015-06-01",
+            "releases": [
+                {
+                    "id": "60468754-4791-43fa-9ee3-ab2326e7c688",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 4,
+                    "title": "The Storm & the Horizon",
+                    "status": "Official",
+                    "disambiguation": "digibook deluxe",
+                    "release-group": {
+                        "id": "99e268a0-d182-4882-9fb0-1a7a19bcef6e",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "The Storm & the Horizon",
+                        "primary-type": "Album"
+                    },
+                    "date": "2015-06-01",
+                    "country": "IT",
+                    "release-events": [
+                        {
+                            "date": "2015-06-01",
+                            "area": {
+                                "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                                "name": "Italy",
+                                "sort-name": "Italy",
+                                "iso-3166-1-codes": [
+                                    "IT"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 64,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "957cd70c-46ac-43bc-9aa8-bc9146e7cef9",
+                                    "number": "8",
+                                    "title": "残酷な天使のテーゼ (Alternative Version)",
+                                    "length": 227000
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d52857db-4269-4641-aaba-67c85ff2cdcd",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (ダミーヘッドマイク ver.)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "まらしぃ",
+                    "artist": {
+                        "id": "4938c8c5-14e4-4545-a5a7-5b324caaa542",
+                        "name": "まらしぃ",
+                        "sort-name": "Marasy",
+                        "aliases": [
+                            {
+                                "sort-name": "Honda, Eito",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "Eito Honda",
+                                "locale": null,
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "マラシィ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "まらしぃ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "marasy",
+                                "name": "marasy",
+                                "locale": "en",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2021-09-15",
+            "releases": [
+                {
+                    "id": "4db89f44-5f97-4025-9fa8-b7f9aac43335",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "まらしぃ",
+                            "artist": {
+                                "id": "4938c8c5-14e4-4545-a5a7-5b324caaa542",
+                                "name": "まらしぃ",
+                                "sort-name": "Marasy"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "83ceaf7c-feca-4349-a967-f93b26eae0a2",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ",
+                        "primary-type": "Single"
+                    },
+                    "date": "2021-09-15",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-09-15",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "2aee934b-2ec1-45f6-a44f-79757c9438d7",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (ダミーヘッドマイク ver.)"
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "daabbf0a-d82f-4401-b561-d4280ca21313",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (Quiqman Mix)",
+            "length": 206000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Nuts",
+                    "artist": {
+                        "id": "03f8fa7c-5e27-4572-9b91-5fe8511422fb",
+                        "name": "Nuts",
+                        "sort-name": "Nuts"
+                    }
+                }
+            ],
+            "first-release-date": "2006-07-19",
+            "releases": [
+                {
+                    "id": "79665f72-483d-4aba-9fc7-b860bfe0fdcb",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Anime Speed (Newtype Edition)",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3c787d2d-465c-483b-a51c-ba31557f3070",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "アニメ Speed (Newtype Edition)",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "2006-07-19",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2006-07-19",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8da5e860-d7ad-416c-adcf-e3576bc2f656",
+                                    "number": "1",
+                                    "title": "Zankoku na Tenshi no These (Quiqman Mix)",
+                                    "length": 206000
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "365f1267-433b-4287-ac16-82d991734dd9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "アニメ Speed (Newtype Edition)",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3c787d2d-465c-483b-a51c-ba31557f3070",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "アニメ Speed (Newtype Edition)",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "2006-07-19",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2006-07-19",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ebbd2010-5256-419b-91f3-3849804fd3d8",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Quiqman Mix)",
+                                    "length": 206000
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPTO00601123"
+            ]
+        },
+        {
+            "id": "efdccc09-d6fa-47cb-b3c4-2e3d6ddb81ff",
+            "score": 84,
+            "title": "残酷な天使のテーゼ - アカペラ",
+            "length": 291857,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Coco",
+                    "artist": {
+                        "id": "08dd83a1-4f29-4142-822e-b85fdf85e704",
+                        "name": "Coco",
+                        "sort-name": "Coco",
+                        "disambiguation": "Japan, appears on \"Technopop☆Anime\" compilation"
+                    }
+                }
+            ],
+            "first-release-date": "2008-12-03",
+            "releases": [
+                {
+                    "id": "73047d23-0736-4b29-b1e5-c24eae9d2bef",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "テクノポップ☆アニメ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9e40f93d-96bc-45d3-a410-b836ff75b267",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "テクノポップ☆アニメ",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2008-12-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2008-12-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 57,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "be957f73-0989-4e0d-8b8c-d12f96003266",
+                                    "number": "15",
+                                    "title": "残酷な天使のテーゼ - アカペラ",
+                                    "length": 291857
+                                }
+                            ],
+                            "track-count": 57,
+                            "track-offset": 14
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPTO00802340"
+            ]
+        },
+        {
+            "id": "0a2f192e-ba72-4d49-a013-0f52af284a11",
+            "score": 84,
+            "title": "残酷な天使のテーゼ - フル",
+            "length": 295285,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Coco",
+                    "artist": {
+                        "id": "08dd83a1-4f29-4142-822e-b85fdf85e704",
+                        "name": "Coco",
+                        "sort-name": "Coco",
+                        "disambiguation": "Japan, appears on \"Technopop☆Anime\" compilation"
+                    }
+                }
+            ],
+            "first-release-date": "2008-12-03",
+            "releases": [
+                {
+                    "id": "73047d23-0736-4b29-b1e5-c24eae9d2bef",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "テクノポップ☆アニメ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9e40f93d-96bc-45d3-a410-b836ff75b267",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "テクノポップ☆アニメ",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2008-12-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2008-12-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 57,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "6f5cc4a2-34c7-40cd-a283-c818ea5cab18",
+                                    "number": "13",
+                                    "title": "残酷な天使のテーゼ - フル",
+                                    "length": 295285
+                                }
+                            ],
+                            "track-count": 57,
+                            "track-offset": 12
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPTO00802338"
+            ]
+        },
+        {
+            "id": "edfc337f-a065-4712-8503-c75c94eb6696",
+            "score": 84,
+            "title": "残酷な天使のテーゼ - インスト",
+            "length": 291857,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Coco",
+                    "artist": {
+                        "id": "08dd83a1-4f29-4142-822e-b85fdf85e704",
+                        "name": "Coco",
+                        "sort-name": "Coco",
+                        "disambiguation": "Japan, appears on \"Technopop☆Anime\" compilation"
+                    }
+                }
+            ],
+            "first-release-date": "2008-12-03",
+            "releases": [
+                {
+                    "id": "73047d23-0736-4b29-b1e5-c24eae9d2bef",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "テクノポップ☆アニメ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9e40f93d-96bc-45d3-a410-b836ff75b267",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "テクノポップ☆アニメ",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2008-12-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2008-12-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 57,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "2f43f3ad-d4f9-4a3c-862b-18a85035d07a",
+                                    "number": "14",
+                                    "title": "残酷な天使のテーゼ - インスト",
+                                    "length": 291857
+                                }
+                            ],
+                            "track-count": 57,
+                            "track-offset": 13
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPTO00802339"
+            ]
+        },
+        {
+            "id": "d9081113-1f1a-49ce-b18f-d8749bf92377",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (Quiqman Mix)",
+            "length": 183000,
+            "disambiguation": "DJ-mixed: HAPPY SPEED",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "NUTS",
+                    "artist": {
+                        "id": "03f8fa7c-5e27-4572-9b91-5fe8511422fb",
+                        "name": "Nuts",
+                        "sort-name": "Nuts"
+                    }
+                }
+            ],
+            "first-release-date": "2007-04-18",
+            "releases": [
+                {
+                    "id": "6eabcb6b-96cc-4ee1-8c57-cae9644875d8",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "HAPPY SPEED〜The BEST of Dancemania SPEED G",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "96fafc1b-2f88-46df-ac7a-bd84038a7f05",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "HAPPY SPEED〜The BEST of Dancemania SPEED G",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "DJ-mix"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+                        ]
+                    },
+                    "date": "2007-04-18",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2007-04-18",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 35,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "9056b0ef-ca89-4903-8480-0e4fdb7769e1",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Quiqman Mix)",
+                                    "length": 183000
+                                }
+                            ],
+                            "track-count": 35,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "850373ed-15ed-4f38-bf2c-dfff41493953",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (Version '96)",
+            "length": 308000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1996-02-10",
+            "releases": [
+                {
+                    "id": "36e930fd-1064-47bd-90e8-f5a3782b8855",
+                    "count": 1,
+                    "title": "Best Pieces",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "6cc9c1f0-89d1-4df8-bc4e-91bd7fdb8d26",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Best Pieces",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "1996-02-10",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1996-02-10",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 15,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "005291fa-ab04-4675-97ab-e0a72a1ddc18",
+                                    "number": "12",
+                                    "title": "残酷な天使のテーゼ (Version '96)",
+                                    "length": 308000
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d9610b4a-7cf4-4caf-8199-a089f7a51797",
+            "score": 84,
+            "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+            "length": 273000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2019-07-24",
+            "releases": [
+                {
+                    "id": "bbdbd9df-fd94-4a6d-86ba-dceba3ee07cb",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                    "status": "Official",
+                    "disambiguation": "24bit/96kHz",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "51c5ffc6-bb32-4809-99fb-ef776b0ea500",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 1,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "7e9184f5-61cf-4bbe-ac20-578d0d17fd18",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                                    "length": 273000
+                                }
+                            ],
+                            "track-count": 1,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "ca74d219-412f-44ab-a2a3-49e8e07d440a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "51c5ffc6-bb32-4809-99fb-ef776b0ea500",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "d2cd9524-e834-4974-a557-cf350ff55723",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                                    "length": 273000
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "b035da5e-8624-42b2-91ea-5c5aef88192e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "51c5ffc6-bb32-4809-99fb-ef776b0ea500",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "ef1e0ecb-672b-4ca3-9983-50e4b6f68e69",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                                    "length": 273000
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "463574b4-777e-4e03-8b14-3a9c848a5aaa",
+            "score": 84,
+            "title": "残酷な天使のテーゼ (Ambivalence Mix)",
+            "length": 243506,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1997-11-06",
+            "releases": [
+                {
+                    "id": "71ce2412-9517-4495-89f3-df0c08464bda",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "〜refrain〜",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3ea9a479-7055-3d7a-a413-ea2d04ead8ac",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "～refrain～ The songs were inspired by “EVANGELION”",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "47c1be75-74dd-427b-8c1d-b156d6e8f191",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Ambivalence Mix)",
+                                    "length": 243506
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "642e7e06-de23-4a9f-92fc-fc0aeee06e81",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "〜refrain〜 The songs were inspired by “EVANGELION”",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Yoko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3ea9a479-7055-3d7a-a413-ea2d04ead8ac",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "～refrain～ The songs were inspired by “EVANGELION”",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "658f4ef2-cf2d-3ed1-956f-e0cc9cadf3b6",
+                                    "number": "2",
+                                    "title": "A Cruel Angel's Thesis (Ambivalence Mix)",
+                                    "length": 243506
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "89cd1335-81da-4c2e-a860-fc99323d0622",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "〜refrain〜 The songs were inspired by “EVANGELION”",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "Romaji titles",
+                    "artist-credit": [
+                        {
+                            "name": "Yoko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3ea9a479-7055-3d7a-a413-ea2d04ead8ac",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "～refrain～ The songs were inspired by “EVANGELION”",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "91419a75-7e5a-36fa-81cd-c311debfbf54",
+                                    "number": "2",
+                                    "title": "Zankoku na Tenshi no These (Ambivalence Mix)",
+                                    "length": 246000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "a01685a1-f44d-44a9-b5f6-a0a530a3693d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "～refrain～ The songs were inspired by “EVANGELION”",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3ea9a479-7055-3d7a-a413-ea2d04ead8ac",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "～refrain～ The songs were inspired by “EVANGELION”",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "1997-11-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1997-11-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3ccb01b7-d5c2-39c8-aca4-ca21ea8ab4bc",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Ambivalence Mix)",
+                                    "length": 243506
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "6b4b762c-1a40-47d9-a7d8-feb573d09356",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "〜refrain〜 The songs were inspired by “EVANGELION”",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "大森俊之",
+                            "artist": {
+                                "id": "099116a7-2c5a-410c-870f-8876031ce285",
+                                "name": "大森俊之",
+                                "sort-name": "Ōmori, Toshiyuki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3ea9a479-7055-3d7a-a413-ea2d04ead8ac",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "～refrain～ The songs were inspired by “EVANGELION”",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3c65fd58-c7be-45d7-b486-1a69c7f32ae2",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Ambivalence Mix)",
+                                    "length": 244000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI09718920"
+            ]
+        },
+        {
+            "id": "b0ac4111-a8ff-4deb-b683-b645d14b10d8",
+            "score": 84,
+            "title": "残酷な天使のテーゼ 2009 VERSION",
+            "length": 267653,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2009-05-13",
+            "releases": [
+                {
+                    "id": "2286e0ce-76c5-4e67-84f1-ea4dfc6d0ae2",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                    "status": "Official",
+                    "disambiguation": "regular edition",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f7bb1a51-44fd-4342-9d33-c27e25400c48",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ 2009 VERSION",
+                        "primary-type": "Single"
+                    },
+                    "date": "2009-05-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-05-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "99b8fee8-4208-449b-b710-0facdbda039b",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                                    "length": 267653
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1d355d1e-9eeb-4601-90d6-5ca4dda866ec",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION EXTREME",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "34d0d2e0-bc9b-419f-8902-0a3bbcb2231d",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "EVANGELION EXTREME",
+                        "primary-type": "EP"
+                    },
+                    "date": "2019-05-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-05-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "0d4f14dc-6834-4ea2-86b8-8dee35aa6207",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ 2009VERSION",
+                                    "length": 268080
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "abfae5ea-85c2-4b26-92be-5b9f183b8682",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f7bb1a51-44fd-4342-9d33-c27e25400c48",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ 2009 VERSION",
+                        "primary-type": "Single"
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "b6f17d3d-f2e6-4844-aefa-b90e8827b064",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                                    "length": 267653
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "0491da96-c3c5-45a1-b862-c543163f3aba",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "EVANGELION EXTREME",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "34d0d2e0-bc9b-419f-8902-0a3bbcb2231d",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "EVANGELION EXTREME",
+                        "primary-type": "EP"
+                    },
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "973b2ac9-3767-4fc6-bee9-bfbb44c86f11",
+                                    "number": "4",
+                                    "title": "The Cruel Angel's Thesis 2009VERSION",
+                                    "length": 268080
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "5a683bc7-05e4-4fe7-9d6e-8c70d6994bab",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION EXTREME",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "34d0d2e0-bc9b-419f-8902-0a3bbcb2231d",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "EVANGELION EXTREME",
+                        "primary-type": "EP"
+                    },
+                    "date": "2019-05-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-05-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "68a60284-f4b3-45fd-9cc1-6b391dba7b16",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ 2009VERSION",
+                                    "length": 265612
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "dd373dae-33a9-4850-b791-521558ac1d03",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION EXTREME",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "34d0d2e0-bc9b-419f-8902-0a3bbcb2231d",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "EVANGELION EXTREME",
+                        "primary-type": "EP"
+                    },
+                    "date": "2019-05-24",
+                    "country": "TH",
+                    "release-events": [
+                        {
+                            "date": "2019-05-24",
+                            "area": {
+                                "id": "ce209e56-cda5-358e-96db-830e3405b675",
+                                "name": "Thailand",
+                                "sort-name": "Thailand",
+                                "iso-3166-1-codes": [
+                                    "TH"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "59459517-d8c4-4819-ae9c-1d0ba624f7b5",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ 2009VERSION",
+                                    "length": 265612
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "5a508b69-a162-44db-b615-bc5c5af471b3",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "20th century Boys & Girls 〜20世紀少年少女〜",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "85d0fc3d-fa31-4f49-8696-bf7dd6df8a7e",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "20th century Boys & Girls 〜20世紀少年少女〜",
+                        "primary-type": "Album"
+                    },
+                    "date": "2010-06-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2010-06-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6a2a48e7-d0a7-4699-9e9a-37e64edec794",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                                    "length": 266000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "8ed34509-3990-4fb6-86b2-e471fd7aee4d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                    "status": "Official",
+                    "disambiguation": "first press edition",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f7bb1a51-44fd-4342-9d33-c27e25400c48",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ 2009 VERSION",
+                        "primary-type": "Single"
+                    },
+                    "date": "2009-05-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-05-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c82d53a8-76b7-31c9-9856-722ef75b822f",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                                    "length": 267653
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI00910702"
+            ]
+        },
+        {
+            "id": "b6ddff97-407e-4fcb-b1d4-c552261da64b",
+            "score": 84,
+            "title": "残酷な天使のテーゼ（Harmonia Version）",
+            "length": 313000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1997-11-06",
+            "releases": [
+                {
+                    "id": "c7a7c663-2314-4168-af92-372b68948364",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "ネコイズム～及川眠子作品集",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "862840dd-9d1d-4d7a-80e5-5fe215446b6e",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "ネコイズム～及川眠子作品集",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2018-02-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2018-02-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 30,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "54d99f88-d337-42ee-a2a9-4f7ece5e055e",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (HARMONIA Version)",
+                                    "length": 313000
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "dbaf6c60-9ade-410b-93c1-40b088aa3d77",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Li-La",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "2e2d1c3f-3ca3-33a5-bf4e-03e1d6874d89",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Li-La",
+                        "primary-type": "Album"
+                    },
+                    "date": "1997-11-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1997-11-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "b76074c9-37f9-37b9-8b95-c9c6f422954d",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ（Harmonia Version）",
+                                    "length": 313493
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "cf390308-c1bf-4115-9a11-f2c32fc7dbb4",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "Li-La",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "2e2d1c3f-3ca3-33a5-bf4e-03e1d6874d89",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Li-La",
+                        "primary-type": "Album"
+                    },
+                    "date": "",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "9b7e45ab-2609-4ab6-bb48-6def305738d1",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ（Harmonia Version）",
+                                    "length": 313493
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "6db1335e-81e8-48f9-bd97-606fc093eca8",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Li-La",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Yoko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "2e2d1c3f-3ca3-33a5-bf4e-03e1d6874d89",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Li-La",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "52249447-22d8-4640-a829-fd5129836a95",
+                                    "number": "1",
+                                    "title": "A Cruel Angel's Thesis (Harmonia Version)",
+                                    "length": 313000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKT09703301"
+            ]
+        },
+        {
+            "id": "448b2cbd-e0a4-4ccf-9156-8eab1aed999b",
+            "score": 78,
+            "title": "残酷な天使のテーゼ(DJ USE MIX)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "arlie Ray",
+                    "artist": {
+                        "id": "a01b0415-01c1-4c8f-8e03-41b359a6d1dd",
+                        "name": "arlie Ray",
+                        "sort-name": "arlie Ray"
+                    }
+                }
+            ],
+            "first-release-date": "2010-04-07",
+            "releases": [
+                {
+                    "id": "21fffc90-b2f4-4690-b983-f1c9371d09f4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "覚醒,そして降臨",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "7da4f496-5c16-4f85-97b5-9a2470dcba19",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "覚醒,そして降臨",
+                        "primary-type": "Album"
+                    },
+                    "date": "2010-04-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2010-04-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3a9a2be7-661a-4e2a-8e4d-1fa7fdec7ad4",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ(DJ USE MIX)"
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "504c297e-b533-4a3c-baf9-70201fadf74c",
+            "score": 78,
+            "title": "残酷な天使のテーゼ(Advent,Wieder Ver.)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "arlie Ray",
+                    "artist": {
+                        "id": "a01b0415-01c1-4c8f-8e03-41b359a6d1dd",
+                        "name": "arlie Ray",
+                        "sort-name": "arlie Ray"
+                    }
+                }
+            ],
+            "first-release-date": "2012-11-07",
+            "releases": [
+                {
+                    "id": "16f4fb9d-f46c-4fc1-bb0d-9d38fc7ca390",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "降臨,ふたたび",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "ccd2d390-9430-45c0-8971-3e98bc67deca",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "降臨,ふたたび",
+                        "primary-type": "Album"
+                    },
+                    "date": "2012-11-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-11-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "2d4e5259-b4a4-48bb-ba77-d35b6c2afd81",
+                                    "number": "8",
+                                    "title": "残酷な天使のテーゼ(Advent,Wieder Ver.)"
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d5851ae5-8836-4b38-a1ff-6129a0cf7e05",
+            "score": 78,
+            "title": "残酷な天使のテーゼ feat.若菜",
+            "video": null,
+            "artist-credit": [
+                {
+                    "joinphrase": " feat. ",
+                    "name": "コバソロ",
+                    "artist": {
+                        "id": "4981caf4-856a-4a2f-bdf1-3cfd65c6a532",
+                        "name": "コバソロ",
+                        "sort-name": "Kobasolo"
+                    }
+                },
+                {
+                    "name": "若菜",
+                    "artist": {
+                        "id": "99533c1b-96c9-483b-99a9-088497c5e350",
+                        "name": "若菜",
+                        "sort-name": "Wakana"
+                    }
+                }
+            ],
+            "first-release-date": "2019-05-28",
+            "releases": [
+                {
+                    "id": "581d0b08-9fba-4247-a516-c9afaadb85f5",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "歌うたいのバラッド",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "コバソロ",
+                            "artist": {
+                                "id": "4981caf4-856a-4a2f-bdf1-3cfd65c6a532",
+                                "name": "コバソロ",
+                                "sort-name": "Kobasolo"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "8396ddc4-b645-49a1-82fc-780298d75dde",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "歌うたいのバラッド",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-05-28",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-05-28",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 3,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "e01bdbf3-4306-4535-aa57-340c205f82de",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ feat.若菜"
+                                }
+                            ],
+                            "track-count": 3,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "e8f1b427-1399-4d16-a693-8c22c11c6c49",
+            "score": 78,
+            "title": "残酷な天使のテーゼ【A.D. 2001】",
+            "length": 285560,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Rei",
+                    "artist": {
+                        "id": "6f9c82e2-cd2a-43ea-9701-85476034db36",
+                        "name": "綾波レイ",
+                        "sort-name": "Ayanami, Rei",
+                        "disambiguation": "新世紀エヴァンゲリオン",
+                        "aliases": [
+                            {
+                                "sort-name": "あやなみレイ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "綾波レイ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "綾波レイ (林原めぐみ)",
+                                "name": "綾波レイ (林原めぐみ)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "あやなみ レイ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "綾波 レイ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Rei (林原めぐみ)",
+                                "name": "Rei (林原めぐみ)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ayanami, Rei",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Rei Ayanami",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2001-03-30",
+            "releases": [
+                {
+                    "id": "138b28ed-996e-4197-95fc-0570279b7e97",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                    "status": "Official",
+                    "disambiguation": "w/ hidden track",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "07082c18-02bc-3c6d-b5fc-97102d56ea67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2001-03-30",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2001-03-30",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 15,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "65eabe3f-d2fe-47a6-94b3-f260e9420cd4",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ【A.D. 2001】",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "7c86dae5-c9a1-436f-b1f4-8d9f31d3ad2b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                    "status": "Official",
+                    "disambiguation": "アルバムのみ",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "07082c18-02bc-3c6d-b5fc-97102d56ea67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 15,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "9c7182e4-3007-4231-b307-bd0fc8cdda8b",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ【A.D.2001】",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "91796a4b-19b6-4a2e-8585-c7efceec9913",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "07082c18-02bc-3c6d-b5fc-97102d56ea67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2001-03-30",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2001-03-30",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e4962e86-1bd8-3dfe-b976-8e3e2c06629f",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ【A.D. 2001】",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "cd2144e7-ad4a-4ea9-9969-da82bfb534cc",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Evangelion: The Birthday of Rei Ayanami",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "07082c18-02bc-3c6d-b5fc-97102d56ea67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "a6913024-639b-3515-af0f-47fec1f81c84",
+                                    "number": "1",
+                                    "title": "Zankoku na Tenshi no These (A.D. 2001)",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "f4f2da2e-b11d-4945-9623-b34be3b01627",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                    "status": "Official",
+                    "disambiguation": "単曲のみ",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "07082c18-02bc-3c6d-b5fc-97102d56ea67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "974e75cb-cbc5-4dd7-9592-009d98ed12cd",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ【A.D.2001】",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "b7a08fb1-f940-4b53-b31c-f06b160225e6",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "center color",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Megumi Hayashibara",
+                            "artist": {
+                                "id": "375a3c4c-7898-47f0-ad0e-443a75148c7a",
+                                "name": "林原めぐみ",
+                                "sort-name": "Hayashibara, Megumi"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "ab0af985-82aa-386c-a4bb-a40eb2ca389f",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "center color",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8d0f3dd1-0a3b-43d5-91bb-0b12f2b38b89",
+                                    "number": "14",
+                                    "title": "Zankoku na Tenshi no Thesis (A.D. 2001 mix)",
+                                    "length": 284000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 13
+                        }
+                    ]
+                },
+                {
+                    "id": "16dcf50a-0c68-4b05-8665-f0cd3e3e3950",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "center color",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "林原めぐみ",
+                            "artist": {
+                                "id": "375a3c4c-7898-47f0-ad0e-443a75148c7a",
+                                "name": "林原めぐみ",
+                                "sort-name": "Hayashibara, Megumi"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "ab0af985-82aa-386c-a4bb-a40eb2ca389f",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "center color",
+                        "primary-type": "Album"
+                    },
+                    "date": "2004-01-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-01-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "67d0acb8-754d-356e-8713-031c6915a310",
+                                    "number": "14",
+                                    "title": "残酷な天使のテーゼ (A.D.2001)",
+                                    "length": 284000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 13
+                        }
+                    ]
+                },
+                {
+                    "id": "0a6f8dd6-89fa-4fe7-836a-2c7847a2881d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "スターチャイルド ガールズキャラクターソングベスト",
+                    "status": "Official",
+                    "disambiguation": "ホシノ・ルリ 招き猫ヴァージョンフィギュアつき",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "0af7e5f1-0a2e-4526-871b-eab6ea662c47",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "スターチャイルド ガールズキャラクターソングベスト",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2002-05-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2002-05-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 17,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "b64e935c-eb5f-49a3-bbf7-74577f9eabbf",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ [A.D.2001]",
+                                    "length": 284933
+                                }
+                            ],
+                            "track-count": 17,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "29977754-83fc-4e28-9ca7-8ec47e7bd280",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "スターチャイルド ガールズキャラクターソングベスト",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "0af7e5f1-0a2e-4526-871b-eab6ea662c47",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "スターチャイルド ガールズキャラクターソングベスト",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2002-05-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2002-05-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 17,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "1bde48db-19d9-4d9a-a247-aee2b53d9b3b",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ [A.D.2001]"
+                                }
+                            ],
+                            "track-count": 17,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "3670b0f5-25a9-423e-bc47-476b1f8659a7",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "EVANGELION – THE BIRTHDAY OF Rei AYANAMI –",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "07082c18-02bc-3c6d-b5fc-97102d56ea67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION -THE BIRTHDAY OF Rei AYANAMI-",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2001",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2001",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8c8b10db-cd25-497c-a9e7-7a918bd674cc",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ【A.D.2001】",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI00104730"
+            ]
+        },
+        {
+            "id": "b7829507-b5a3-47d0-817c-5e9b814e8d05",
+            "score": 78,
+            "title": "残酷な天使のテーゼ 〜STAR ANNIVERSARY REMIX〜",
+            "length": 233653,
+            "video": null,
+            "artist-credit": [
+                {
+                    "joinphrase": " & ",
+                    "name": "安済知佳",
+                    "artist": {
+                        "id": "aacd167e-4d73-4055-99dd-ab92f473c4e8",
+                        "name": "安済知佳",
+                        "sort-name": "Anzai, Chika",
+                        "aliases": [
+                            {
+                                "sort-name": "あんざい ちか",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "安済知佳",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "目澤希世乃",
+                    "artist": {
+                        "id": "34438792-01d5-483c-ac1d-dba7391fd23a",
+                        "name": "安野希世乃",
+                        "sort-name": "Yasuno, Kiyono",
+                        "aliases": [
+                            {
+                                "sort-name": "Mezawa, Kiyono",
+                                "name": "目澤希世乃",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "やすの きよの",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "安野希世乃",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2009-12-23",
+            "releases": [
+                {
+                    "id": "478dfa0c-1ba9-4aef-b126-6a28e47142cb",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "スタ☆リミ STARCHILD REMIX COLLECTION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d400fda1-6b48-49c4-9a70-22a00c60466c",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "スタ☆リミ STARCHILD REMIX COLLECTION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2009-12-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-12-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 15,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6d0c3daf-7f9b-4beb-95e0-5016cf9c88e4",
+                                    "number": "15",
+                                    "title": "残酷な天使のテーゼ 〜STAR ANNIVERSARY REMIX〜",
+                                    "length": 233653
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 14
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI00917864"
+            ]
+        },
+        {
+            "id": "6a58ed86-ea87-4d19-a9ed-59db4de024e1",
+            "score": 78,
+            "title": "残酷な天使のテーゼ<REMIX FOR PEACE>",
+            "length": 275466,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2007-01-17",
+            "releases": [
+                {
+                    "id": "85768836-7d90-438e-bd0f-7c5c1573c06d",
+                    "count": 1,
+                    "title": "高橋洋子 ベスト10",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "510b8258-cb90-4f31-a1e0-6b9052acea39",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "高橋洋子 ベスト10",
+                        "primary-type": "Album"
+                    },
+                    "date": "2007-01-17",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2007-01-17",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8c25a9ed-9fbe-3ddc-ac04-a684e8560238",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ<REMIX FOR PEACE>",
+                                    "length": 275466
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "872799af-d6dd-498a-b5de-cd7759470409",
+            "score": 78,
+            "title": "残酷な天使のテーゼ <TV. Size Version>",
+            "length": 93000,
+            "disambiguation": "5.1 surround mix",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2004-12-22",
+            "releases": [
+                {
+                    "id": "4796318d-1617-359d-bd63-966bb8994bd7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-12-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-12-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 50,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "DVD-Audio",
+                            "track": [
+                                {
+                                    "id": "bb3e3071-1571-4aff-b2f0-75999e261657",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version> (5.1ch)",
+                                    "length": 93000
+                                }
+                            ],
+                            "track-count": 50,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "787c93a1-7fb8-4d89-b9df-babda53024af",
+            "score": 78,
+            "title": "残酷な天使のテーゼ <TV. Size Version>",
+            "length": 93186,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1996-02-16",
+            "releases": [
+                {
+                    "id": "1fdd5c7f-e475-4b3f-ab2a-5f3fc4070e38",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 5,
+                    "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7d003ed3-3f4d-44b8-8f05-840cafe01b67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2020-10-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2020-10-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 120,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "710046c3-07a3-4aaa-b795-6985bddd9c56",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version>",
+                                    "length": 93186
+                                }
+                            ],
+                            "track-count": 27,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "8354a69f-4720-4163-9f70-d6bc8c4d455f",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II 【2013 HR Remaster Ver.】",
+                    "status": "Official",
+                    "disambiguation": "24bit/192kHz",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2013-12-18",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-12-18",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "caf4c093-7d15-4715-beb4-5bc869ea9293",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (TV. Size Version)",
+                                    "length": 93333
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "4796318d-1617-359d-bd63-966bb8994bd7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-12-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-12-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 50,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "DVD-Audio",
+                            "track": [
+                                {
+                                    "id": "f9c0b1c0-53a9-3691-a8e1-73a40fd8bd73",
+                                    "number": "27",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version>",
+                                    "length": 93333
+                                }
+                            ],
+                            "track-count": 50,
+                            "track-offset": 26
+                        }
+                    ]
+                },
+                {
+                    "id": "71ae64cf-f808-47ca-b8a0-a4de71f27bb6",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion II",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "736021a3-724b-4951-800f-8975f0f56c61",
+                                    "number": "2",
+                                    "title": "The Cruel Angel’s Thesis (TV size version)",
+                                    "length": 93333
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "2b4d424c-2667-412e-b01d-b2ad5e521593",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion II",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Shiro Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-03-16",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "2004-03-16",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "eac8127e-a774-35b3-9322-38901669db7c",
+                                    "number": "2",
+                                    "title": "A Cruel Angel’s Thesis (TV Size version)",
+                                    "length": 91293
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "dcfaa869-062a-4caa-a17c-eaabafe25e3b",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 5,
+                    "title": "Neon Genesis Evangelion Soundtrack 25th Anniversary Box",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7d003ed3-3f4d-44b8-8f05-840cafe01b67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 120,
+                    "media": [
+                        {
+                            "position": 2,
+                            "track": [
+                                {
+                                    "id": "5db38f64-1eff-4c0b-b7c0-3ec46b2dbda5",
+                                    "number": "2",
+                                    "title": "The Cruel Angel's Thesis (TV Size Version)",
+                                    "length": 93186
+                                }
+                            ],
+                            "track-count": 27,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "eedf81c9-af02-4d34-8d53-f51e4656dd28",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Refrain of Evangelion",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "74a3f3e7-50ce-3ae3-9ccb-a56df157fb56",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Refrain of Evangelion",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 26,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "e3e6af91-1286-42a0-be2a-5c55c505621a",
+                                    "number": "16",
+                                    "title": "The Cruel Angel’s Thesis (TV Size version)",
+                                    "length": 91773
+                                }
+                            ],
+                            "track-count": 26,
+                            "track-offset": 15
+                        }
+                    ]
+                },
+                {
+                    "id": "ec7340fb-a73c-480b-8210-498c24b73e8c",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion II",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "17ab50a9-849c-3aa0-b9e8-e7858fd3b289",
+                                    "number": "2",
+                                    "title": "Zankoku na Tenshi no These (TV size version)",
+                                    "length": 97000
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "fe433e14-9831-428b-8f03-eeefbd76c8e4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Refrain of Evangelion",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "74a3f3e7-50ce-3ae3-9ccb-a56df157fb56",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Refrain of Evangelion",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 26,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "e01b3deb-4695-48f5-bffb-39a3af0c96f5",
+                                    "number": "16",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version>",
+                                    "length": 91773
+                                }
+                            ],
+                            "track-count": 26,
+                            "track-offset": 15
+                        }
+                    ]
+                },
+                {
+                    "id": "73d2f61c-547d-4069-b144-1eae4b62e22c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "エヴァンゲリオン・サウンドトラック",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "8e3ad12a-39f3-4437-a70a-2124875569b5",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (TV. Size Version)",
+                                    "length": 93333
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "2afd6bb6-e458-44b3-b3e7-bec347d19d96",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Refrain of Evangelion",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Shiro Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "74a3f3e7-50ce-3ae3-9ccb-a56df157fb56",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Refrain of Evangelion",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-11-09",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "2004-11-09",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 26,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8296341f-099c-3385-be41-74b52ffad680",
+                                    "number": "16",
+                                    "title": "A Cruel Angel’s Thesis [残酷な天使のテーゼ] (TV Size Version)",
+                                    "length": 90280
+                                }
+                            ],
+                            "track-count": 26,
+                            "track-offset": 15
+                        }
+                    ]
+                },
+                {
+                    "id": "d967bf1e-181b-41c5-9909-cc8e3ebc9bcf",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Refrain of Evangelion",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "74a3f3e7-50ce-3ae3-9ccb-a56df157fb56",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Refrain of Evangelion",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2003-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2003-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 26,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "89af6c44-5b43-3887-ba95-17c1c88b4fe2",
+                                    "number": "16",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version>",
+                                    "length": 91773
+                                }
+                            ],
+                            "track-count": 26,
+                            "track-offset": 15
+                        }
+                    ]
+                },
+                {
+                    "id": "d76d2393-be06-4826-864a-054666fae602",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1996-02-16",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1996-02-16",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "bded5019-b8ea-3da1-8be4-a17e98e9d10e",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version>",
+                                    "length": 91293
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "7da5b017-35d1-4415-b236-674a097bcee4",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2004",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "19d5d539-289c-4edf-8047-74d761fa4430",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ <TV. Size Version>",
+                                    "length": 93000
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "4c5a2e9a-2391-33c0-8cda-ca5e7c656525",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION II",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c1b5e3f5-f2cc-3764-8098-992821c6df3b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION II",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1996",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "1996",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "4e2b865b-6d7a-39ac-bf25-2f284138378c",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (TV. Size Version)",
+                                    "length": 93333
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI00409160",
+                "JPKI09519950"
+            ]
+        },
+        {
+            "id": "ecaf3ad0-687a-47df-a59f-922e73e71cc7",
+            "score": 78,
+            "title": "残酷な天使のテーゼ <Director’s Edit. Version>",
+            "length": 245000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1995-12-06",
+            "releases": [
+                {
+                    "id": "6ace3954-1ad8-4377-bf41-70830cbd4222",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "43ee26b5-908e-4c3c-bdce-88aecd2f3dc4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2000-09-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2000-09-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3cc8c23c-1826-4d71-9f6d-097a1de8e10f",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Director’s Edit. Version)",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "75d50f62-d9d1-4f6a-a91a-5236e81ecb42",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION DECADE",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2005-10-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2005-10-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e258919c-e44e-38e8-ac65-a2d7fab0a404",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director’s Edit. Version)",
+                                    "length": 245333
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "209f9bb2-07e1-473f-be25-a63cba0fb0e7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        },
+                        {
+                            "name": "CLAIRE",
+                            "artist": {
+                                "id": "51c40c08-85f8-4fda-9e65-0814e8017b1f",
+                                "name": "Claire Littley",
+                                "sort-name": "Littley, Claire",
+                                "disambiguation": "UK singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c5ca1660-3c0c-40ec-98f4-465d9551aa84",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                        "primary-type": "Single",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2003-03-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2003-03-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "9d4f09d4-4620-3f6d-8ec3-8f3d20c52f92",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ (Director’s Edit. Version)",
+                                    "length": 244306
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "7a38eb69-3c2e-47ba-b8f6-8a84870fcd10",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion: Original Series Soundtrack",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Shiro Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2019-06-21",
+                    "country": "FR",
+                    "release-events": [
+                        {
+                            "date": "2019-06-21",
+                            "area": {
+                                "id": "08310658-51eb-3801-80de-5a0739207115",
+                                "name": "France",
+                                "sort-name": "France",
+                                "iso-3166-1-codes": [
+                                    "FR"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 22,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "128f0bea-e41e-4a13-a30d-1e5fd974b807",
+                                    "number": "1",
+                                    "title": "A Cruel Angel’s Thesis",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 22,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "16c6ddfb-4336-4647-bc0d-867e75943b48",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion",
+                    "status": "Official",
+                    "disambiguation": "original series soundtrack",
+                    "artist-credit": [
+                        {
+                            "name": "Shiro Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2019-06-21",
+                    "country": "MX",
+                    "release-events": [
+                        {
+                            "date": "2019-06-21",
+                            "area": {
+                                "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+                                "name": "Mexico",
+                                "sort-name": "Mexico",
+                                "iso-3166-1-codes": [
+                                    "MX"
+                                ]
+                            }
+                        },
+                        {
+                            "date": "2019-06-21",
+                            "area": {
+                                "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                                "name": "Canada",
+                                "sort-name": "Canada",
+                                "iso-3166-1-codes": [
+                                    "CA"
+                                ]
+                            }
+                        },
+                        {
+                            "date": "2019-06-21",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 22,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "5e5b917a-324e-45e4-9679-1cf58a7c5dc2",
+                                    "number": "1",
+                                    "title": "A Cruel Angel’s Thesis",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 22,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1fdd5c7f-e475-4b3f-ab2a-5f3fc4070e38",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 5,
+                    "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7d003ed3-3f4d-44b8-8f05-840cafe01b67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2020-10-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2020-10-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 120,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c2ddac27-b4b8-476c-9dcd-4204a845cfb7",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ <Director's Edit. Version>",
+                                    "length": 245093
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "63401d6c-6d3e-4a76-880c-c3950306956d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1995-12-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1995-12-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "5479c476-a6db-3e9f-8729-1bcb3d9c6bb0",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ <Director's Edit. Version>",
+                                    "length": 242040
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "587ad813-2388-4480-88a3-01c1a1ffebf1",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION 【2013 HR Remaster Ver.】",
+                    "status": "Official",
+                    "disambiguation": "24bit/192kHz",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2013-12-18",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-12-18",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "d01b21a8-523a-478f-9d11-e212b44d5928",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director's Edit. Version)",
+                                    "length": 243000
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "05a34c09-aff4-41fe-8110-cbe626108725",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion Decade",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "357adf24-dab6-3bcb-9547-5851610066ef",
+                                    "number": "1",
+                                    "title": "Zankoku na Tenshi no These (Director’s Edit Version)",
+                                    "length": 245333
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "3b23821b-7821-3cf6-be45-e0a98362b92e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-12-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-12-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 46,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "DVD-Audio",
+                            "track": [
+                                {
+                                    "id": "465c9be8-0254-4524-8d96-21bfec21c5b4",
+                                    "number": "24",
+                                    "title": "残酷な天使のテーゼ <Director's Edit. Version>",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 46,
+                            "track-offset": 23
+                        }
+                    ]
+                },
+                {
+                    "id": "7aa006a6-8d44-4e0b-90d9-6e14720d1c76",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "638ba4ed-c33f-4d0d-a4b4-027b2fc44a4d",
+                                    "number": "1",
+                                    "title": "The Cruel Angel’s Thesis (director’s edit version)",
+                                    "length": 245093
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "f559e9c1-429e-4b2b-8819-90b9ce18c6d5",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Shiro Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-01-20",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "2004-01-20",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ce27c853-8668-35d2-88ce-0d3edd44b36c",
+                                    "number": "1",
+                                    "title": "A Cruel Angel’s Thesis (Director’s Edit Version)",
+                                    "length": 242040
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "dcfaa869-062a-4caa-a17c-eaabafe25e3b",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 5,
+                    "title": "Neon Genesis Evangelion Soundtrack 25th Anniversary Box",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7d003ed3-3f4d-44b8-8f05-840cafe01b67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 120,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "84c3a4a8-c923-49c5-a9b4-4a12b5ef4000",
+                                    "number": "1",
+                                    "title": "The Cruel Angel's Thesis (Director's Edit Version)",
+                                    "length": 245093
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "fd5d64c1-a2f6-459a-9bc2-e182e78fe771",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "8e5d69b7-52cc-3fee-9e9c-fb56eefba999",
+                                    "number": "1",
+                                    "title": "Zankoku na Tenshi no These (director's edit version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "d3a12b89-f4d9-4a53-b4ad-9989dcbb63c4",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Zankoku na Tenshi no These / Fly Me to the Moon",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "Yoko Takahashi",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        },
+                        {
+                            "name": "Claire",
+                            "artist": {
+                                "id": "51c40c08-85f8-4fda-9e65-0814e8017b1f",
+                                "name": "Claire Littley",
+                                "sort-name": "Littley, Claire",
+                                "disambiguation": "UK singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c5ca1660-3c0c-40ec-98f4-465d9551aa84",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                        "primary-type": "Single",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "3f22fa45-8eac-300d-84fe-e99ce8092a41",
+                                    "number": "5",
+                                    "title": "Zankoku na Tenshi no These (Director's Edit Version)",
+                                    "length": 244000
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "82184733-45d8-4f9f-b9ff-0abe4f2b30f4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION DECADE",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "9ce07c66-7a20-4d50-878f-b250ce7facc5",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director's Edit. Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "e6cb5c0f-bb79-4b7e-8850-0d46df2f7d56",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION -THE DAY OF SECOND IMPACT-",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "43ee26b5-908e-4c3c-bdce-88aecd2f3dc4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "9c25f824-cf4a-4ebe-86f6-f6677d6f9d89",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Director's Edit. Version)",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "2c312500-f0f8-4977-b563-cb716cca7a22",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "エヴァンゲリオン・オリジナルサウンドトラック",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "17ed6c42-5cc2-4c0c-bee2-4a23c7bc0702",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director's Edit. Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "a2f57fbf-1f75-42a2-9ed5-c30de1c92287",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        },
+                        {
+                            "name": "CLAIRE",
+                            "artist": {
+                                "id": "51c40c08-85f8-4fda-9e65-0814e8017b1f",
+                                "name": "Claire Littley",
+                                "sort-name": "Littley, Claire",
+                                "disambiguation": "UK singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c5ca1660-3c0c-40ec-98f4-465d9551aa84",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ / FLY ME TO THE MOON",
+                        "primary-type": "Single",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "93c546d6-5a5a-4a74-a3e1-fe09221a250f",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ (Director's Edit Version)",
+                                    "length": 244306
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "7e67da15-98b3-419f-90a4-fc596bc6a92c",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION DECADE",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2006",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2006",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e8a3e1a3-ac15-4beb-a300-5ac7b9f76215",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director's Edit Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "7f253e34-d0d1-4d7f-9908-9ee4760ebc48",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "EVANGELION -THE DAY OF SECOND IMPACT-",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "43ee26b5-908e-4c3c-bdce-88aecd2f3dc4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2000",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2000",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "261334c2-89d4-4f0b-9154-bfc6e3331bb0",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Director's Edit.Version)",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "2ba9cd99-3218-4f7f-9201-e26d38a9baad",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2004",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c1db17d5-92ae-41f4-8d19-b35555aac0fe",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director's Edit. Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "7959a427-3f3a-486d-bd3a-ad25e44d92c2",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "EVANGELION -THE DAY OF SECOND IMPACT-",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "43ee26b5-908e-4c3c-bdce-88aecd2f3dc4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e0d3f9d8-4460-4dc6-a03d-930c1ecb6ecc",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ (Director's Edit.Version)",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "5fef8c96-5bd7-4be0-a56d-7fe4b338c786",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2015-09-09",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2015-09-09",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "12\" Vinyl",
+                            "track": [
+                                {
+                                    "id": "5adb5766-ea44-41c5-950f-4993706d2e49",
+                                    "number": "A1",
+                                    "title": "残酷な天使のテーゼ (Directors Edit Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "c1cfcff1-b33e-4f3a-ac9c-44f858160c73",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "スターチャイルドSELECTION音楽編[TV作品集]",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "a2c13199-1dcc-3449-a37c-b3dd9f66089a",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "スターチャイルドSELECTION音楽編[TV作品集]",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2000-01-28",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2000-01-28",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 33,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "bcd69f3b-401f-3506-a58a-c22798193fa5",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ(ディレクターズ・エディット・ヴァージョン)",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 17,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "bb186a16-906b-39f5-99be-070192fb13d1",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "EVANGELION -THE DAY OF SECOND IMPACT-",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "43ee26b5-908e-4c3c-bdce-88aecd2f3dc4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "7d5960d1-58c5-35a7-bc13-31e286461837",
+                                    "number": "2",
+                                    "title": "A Cruel Angel's Thesis (Director's edit version)",
+                                    "length": 245200
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "61d0ebb9-8444-4089-94ca-453adea2e7e3",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "EVANGELION -THE DAY OF SECOND IMPACT-",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Shiro Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "43ee26b5-908e-4c3c-bdce-88aecd2f3dc4",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVANGELION –THE DAY OF SECOND IMPACT–",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2004-09-07",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "2004-09-07",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "be506b98-523e-36a9-931f-81506801aeae",
+                                    "number": "2",
+                                    "title": "A Cruel Angel's Thesis (Director's Edit. Version)",
+                                    "length": 242213
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "d9ae8db8-b26d-356e-8d89-8a3a6450cc15",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1996",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "1996",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 23,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "b13c6e77-03b1-360b-a030-f8feb1cc3a6d",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ (Director's Edit. Version)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 23,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI09522450"
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "anime"
+                }
+            ]
+        },
+        {
+            "id": "46f0b126-19af-4369-86ce-9b946ba5831e",
+            "score": 78,
+            "title": "残酷な天使のテーゼ (10TH ANNIVERSARY VERSION)",
+            "length": 292000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2005-10-26",
+            "releases": [
+                {
+                    "id": "75d50f62-d9d1-4f6a-a91a-5236e81ecb42",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION DECADE",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2005-10-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2005-10-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "2e14dad2-9877-396a-9519-295ee23953eb",
+                                    "number": "12",
+                                    "title": "残酷な天使のテーゼ (10TH ANNIVERSARY VERSION)",
+                                    "length": 292213
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "05a34c09-aff4-41fe-8110-cbe626108725",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion Decade",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "bd51d195-f704-3198-87f2-8e74801ab691",
+                                    "number": "12",
+                                    "title": "Zankoku na Tenshi no These (10th Anniversary Version)",
+                                    "length": 292213
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "82184733-45d8-4f9f-b9ff-0abe4f2b30f4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION DECADE",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "623237e9-d725-4501-a68d-5ca7aa35ab5a",
+                                    "number": "12",
+                                    "title": "残酷な天使のテーゼ (10TH ANNIVERSARY VERSION)",
+                                    "length": 292000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "7e67da15-98b3-419f-90a4-fc596bc6a92c",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION DECADE",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "d15020ed-4497-448f-9dae-22c874e12099",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION DECADE",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2006",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2006",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "89aec20b-3a85-41c7-af48-505d6a37ecb3",
+                                    "number": "12",
+                                    "title": "残酷な天使のテーゼ (10TH ANNIVERSARY VERSION)",
+                                    "length": 292000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 11
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI00507913"
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "jazz"
+                }
+            ]
+        },
+        {
+            "id": "8bd2ddbc-d40c-4c76-af44-162f7198f08c",
+            "score": 78,
+            "title": "残酷な天使のテーゼ <Director’s Edit. Version>",
+            "length": 245000,
+            "disambiguation": "5.1 surround mix",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2004-12-22",
+            "releases": [
+                {
+                    "id": "3b23821b-7821-3cf6-be45-e0a98362b92e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4b608935-0ed2-3ff3-9618-3dd07055d814",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-12-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-12-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 46,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "DVD-Audio",
+                            "track": [
+                                {
+                                    "id": "cae67ab3-a8e2-3aa2-a5a3-1d01365f9574",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ <Director's Edit. Version> (5.1ch)",
+                                    "length": 245000
+                                }
+                            ],
+                            "track-count": 46,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4ebd06c1-39f7-4eb9-86d0-64fabc17f4e2",
+            "score": 78,
+            "title": "残酷な天使のテーゼ-林原めぐみ",
+            "length": 285560,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "[unknown]",
+                    "artist": {
+                        "id": "125ec42a-7229-4250-afc5-e057484327fe",
+                        "name": "[unknown]",
+                        "sort-name": "[unknown]",
+                        "disambiguation": "Special Purpose Artist - Do not add releases here, if possible.",
+                        "aliases": [
+                            {
+                                "sort-name": "Melan-ryu, Kimpu-ryu, Tozan-ryu, Ikuta-ryu and Kikusue-ryu",
+                                "name": "Melan-ryu, Kimpu-ryu, Tozan-ryu, Ikuta-ryu and Kikusue-ryu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Movie Score",
+                                "name": "Movie Score",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ゲーム・ミュージック",
+                                "name": "ゲーム・ミュージック",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "unbekannt",
+                                "name": "unbekannt",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "neizvestny",
+                                "name": "неизвестный",
+                                "locale": "ru",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "オルゴール",
+                                "name": "オルゴール",
+                                "locale": "ja",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "童謡・唱歌",
+                                "name": "童謡・唱歌",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Forente Artister",
+                                "name": "Forente Artister",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Lucas Arts",
+                                "name": "Lucas Arts",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(Bolivia)",
+                                "name": "(Bolivia)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Children Favorites",
+                                "name": "Children Favorites",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Guitarists",
+                                "name": "Unknown Guitarists",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Scotland Yard (radio play)",
+                                "name": "Scotland Yard (radio play)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "B.O. Film",
+                                "name": "B.O. Film",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Christmas Spirit",
+                                "name": "Christmas Spirit",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Motion Picture Soundtrak",
+                                "name": "Original Motion Picture Soundtrak",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Allegro Corporation",
+                                "name": "Allegro Corporation",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "National Lampoon's Christmas Vacation Cast",
+                                "name": "National Lampoon's Christmas Vacation Cast",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cantonese Opera",
+                                "name": "Cantonese Opera",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown",
+                                "name": "Unknown",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Altın Şarkılar 03",
+                                "name": "Altın Şarkılar 03",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "幼児用",
+                                "name": "幼児用",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "TV Theme Songs",
+                                "name": "TV Theme Songs",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Pickin' on Series",
+                                "name": "Pickin' on Series",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Waorani singers",
+                                "name": "Waorani singers",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(Bolivia - Afroyungas)",
+                                "name": "(Bolivia - Afroyungas)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Panflöte & Orchestra",
+                                "name": "Panflöte & Orchestra",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Happy Birthday",
+                                "name": "Happy Birthday",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "White Label",
+                                "name": "White Label",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Silent Möbius",
+                                "name": "Silent Möbius",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Happy Anniversary",
+                                "name": "Happy Anniversary",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Pamplin Music",
+                                "name": "Pamplin Music",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "unnamed artist",
+                                "name": "unnamed artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[unkown]",
+                                "name": "[unkown]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ukendt",
+                                "name": "Ukendt",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Pickin' On",
+                                "name": "Pickin' On",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Masters Of The Roll Compilations",
+                                "name": "Masters Of The Roll Compilations",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Singer3",
+                                "name": "Singer3",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Prison Break",
+                                "name": "Prison Break",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[Unknow]",
+                                "name": "[Unknow]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sioni shaman & ayahuasca ritual participants",
+                                "name": "Sioni shaman & ayahuasca ritual participants",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[soundtrack]",
+                                "name": "[soundtrack]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Chinese Orchestra",
+                                "name": "Chinese Orchestra",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[instr.]",
+                                "name": "[instr.]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Film ST",
+                                "name": "Film ST",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cinema Century",
+                                "name": "Cinema Century",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "★カラオケ",
+                                "name": "★カラオケ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Trio",
+                                "name": "Unknown Trio",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(Unlisted 3 Second Track)",
+                                "name": "(Unlisted 3 Second Track)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Orchestra",
+                                "name": "Orchestra",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Moroccan Musicians",
+                                "name": "Unknown Moroccan Musicians",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Soundtrack Score",
+                                "name": "Original Soundtrack Score",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "アーティスト情報なし",
+                                "name": "アーティスト情報なし",
+                                "locale": "ja",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Maenner Trio",
+                                "name": "Männer Trio",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "{unknown]",
+                                "name": "{unknown]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[east african music]",
+                                "name": "[east african music]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Card Captor Sakura",
+                                "name": "Card Captor Sakura",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ＴＶサントラ",
+                                "name": "ＴＶサントラ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Just a Minute",
+                                "name": "Just a Minute",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Simply Yoga",
+                                "name": "Simply Yoga",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Artist",
+                                "name": "Unknown Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Public Domain (Latin Music)",
+                                "name": "Public Domain",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(Instrumental)",
+                                "name": "(Instrumental)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Avex Trax",
+                                "name": "Avex Trax",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "20th Century Fox",
+                                "name": "20th Century Fox",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[tiidmäldä]",
+                                "name": "[tiidmäldä]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Jule musikk",
+                                "name": "Jule musikk",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Various Malian Artists",
+                                "name": "Various Malian Artists",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Various Kannada Singers",
+                                "name": "Various Kannada Singers",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Book of Mormon",
+                                "name": "Book of Mormon",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[no artist listed]",
+                                "name": "[no artist listed]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Greece Artists",
+                                "name": "Unknown Greece Artists",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ベトナム曲",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "ベトナム曲",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "3D Realms",
+                                "name": "3D Realms",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Íåèçâåñòíûé èñïîëíèòåëü",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Íåèçâåñòíûé èñïîëíèòåëü",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[Instrumental]",
+                                "name": "[Instrumental]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Grease Soundtrack",
+                                "name": "Grease Soundtrack",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Movie Love Songs",
+                                "name": "Movie Love Songs",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Alto Saxophone",
+                                "name": "Alto Saxophone",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "New York Life presents",
+                                "name": "New York Life presents",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "HTOA Test CD",
+                                "name": "HTOA Test CD",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Sound Track",
+                                "name": "Original Sound Track",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[unknown female]",
+                                "name": "[unknown female]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "CLASSICS 100",
+                                "name": "CLASSICS 100",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instrumental Music",
+                                "name": "Instrumental Music",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Nursery Rhymes",
+                                "name": "Nursery Rhymes",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Dixieland",
+                                "name": "Dixieland",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Spooky Sounds",
+                                "name": "Spooky Sounds",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Latin hymn, 17th century",
+                                "name": "Latin hymn, 17th century",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kyoto Shakuhachi Master",
+                                "name": "Kyoto Shakuhachi Master",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Originaldarsteller",
+                                "name": "Originaldarsteller",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "New Age Artists",
+                                "name": "New Age Artists",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Copyright Control",
+                                "name": "Copyright Control",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "hidden artist",
+                                "name": "hidden artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Вокальный ансамбль",
+                                "name": "Вокальный ансамбль",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kurz vor Zwölf",
+                                "name": "Kurz vor Zwölf",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "World Premiere Song",
+                                "name": "World Premiere Song",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "not specified",
+                                "name": "not specified",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Popular Collection",
+                                "name": "Popular Collection",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Artist - Vocals:Tatiana",
+                                "name": "Unknown Artist - Vocals:Tatiana",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Colorado shaman",
+                                "name": "Colorado shaman",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "-",
+                                "name": "-",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Javanese Gamelan",
+                                "name": "Javanese Gamelan",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Soundtrack",
+                                "name": "Original Soundtrack",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "hòa tấu",
+                                "name": "hòa tấu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Camp Stories Soundtrack",
+                                "name": "Camp Stories Soundtrack",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Indian Artist",
+                                "name": "Unknown Indian Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Peru",
+                                "name": "(Peru)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Performers Unknown",
+                                "name": "Performers Unknown",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Dubstep",
+                                "name": "Dubstep",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[news report]",
+                                "name": "[news report]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "grup de copii",
+                                "name": "grup de copii",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Bakuretsu Hunters",
+                                "name": "Bakuretsu Hunters",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "未知の芸術家",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "未知の芸術家",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ルーカス芸術",
+                                "name": "ルーカス芸術",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Karaoke",
+                                "name": "Karaoke",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unlisted Artist",
+                                "name": "Unlisted Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instrumental Version",
+                                "name": "Instrumental Version",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Porter Music Box Company",
+                                "name": "Porter Music Box Company",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Onbekend",
+                                "name": "Onbekend",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Baby Genius",
+                                "name": "Baby Genius",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kuoro",
+                                "name": "Kuoro",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "PD",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "PD",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "inconnu",
+                                "name": "inconnu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Dancelife",
+                                "name": "Dancelife",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kindermusik",
+                                "name": "Kindermusik",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Saber Marionette J",
+                                "name": "Saber Marionette J",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Author Unknown",
+                                "name": "Author Unknown",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[uknown]",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "[uknown]",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Punk Covers",
+                                "name": "Punk Covers",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[inconnu]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[inconnu]",
+                                "locale": "fr",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[sconosciuto]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[sconosciuto]",
+                                "locale": "it",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[uncredited]",
+                                "name": "[uncredited]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Prism Leisure Corp.",
+                                "name": "Prism Leisure Corp.",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Singer",
+                                "name": "Unknown Singer",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "minddrops",
+                                "name": "minddrops",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Dong People",
+                                "name": "Dong People",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Romantic Christmas",
+                                "name": "Romantic Christmas",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Music of the Central African Pygmies",
+                                "name": "Music of the Central African Pygmies",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instrumental JK",
+                                "name": "Instrumental JK",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Happy Marriage",
+                                "name": "Happy Marriage",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Best of GuitarPlayer",
+                                "name": "Best of GuitarPlayer",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "カラオケ",
+                                "name": "カラオケ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "nhạc nước ngoại",
+                                "name": "nhạc nước ngoại",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cartoni animati",
+                                "name": "Cartoni animati",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Federico De Alvera",
+                                "name": "Federico De Alvera",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Artist, The",
+                                "name": "The Unknown Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "prisoners, Unidentified",
+                                "name": "Unidentified Prisoners",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Various Ghanaian Musicians",
+                                "name": "Various Ghanaian Musicians",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Mbuti Pygmies of the Ituri Rainforest",
+                                "name": "Mbuti Pygmies of the Ituri Rainforest",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Not Attributed",
+                                "name": "Not Attributed",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Karaoke Playback",
+                                "name": "Karaoke Playback",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Klassik",
+                                "name": "Klassik",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Jingle",
+                                "name": "Jingle",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(unknown)",
+                                "name": "(unknown)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Little Britain",
+                                "name": "Little Britain",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Coros",
+                                "name": "Coros",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "BBC Radio Collection",
+                                "name": "BBC Radio Collection",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Halloween Sounds",
+                                "name": "Halloween Sounds",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[12th century French processional]",
+                                "name": "[12th century French processional]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Several",
+                                "name": "Several",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "DJ Mix",
+                                "name": "DJ Mix",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Motion Picture Soundtrack",
+                                "name": "Original Motion Picture Soundtrack",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unutulmayan Ask Sarkilari",
+                                "name": "Unutulmayan Ask Sarkilari",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Scary Sounds",
+                                "name": "Scary Sounds",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ορχηστρικό",
+                                "name": "Ορχηστρικό",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kingsway Music",
+                                "name": "Kingsway Music",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Diverse koren en solisten",
+                                "name": "Diverse koren en solisten",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Intro",
+                                "name": "Intro",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Musafir Various",
+                                "name": "Musafir Various",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Outro",
+                                "name": "Outro",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Capitol Records Chorus",
+                                "name": "Capitol Records Chorus",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unkown",
+                                "name": "Unkown",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Total Guitar",
+                                "name": "Total Guitar",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Coros - La Bella y la Bestia",
+                                "name": "Coros - La Bella y la Bestia",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kinderlieder",
+                                "name": "Kinderlieder",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Associated Board of the Royal Schools of Music",
+                                "name": "The Associated Board of the Royal Schools of Music",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Twin Peaks Soundtrack",
+                                "name": "Twin Peaks Soundtrack",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[Unknown Orchestra]",
+                                "name": "[Unknown Orchestra]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Classical Chinese",
+                                "name": "Classical Chinese",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[instrumental]",
+                                "name": "[instrumental]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Minus One",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Minus One",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Group",
+                                "name": "Unknown Group",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ningún artista",
+                                "name": "Ningún artista",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Colorado man in his forties",
+                                "name": "Colorado man in his forties",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Artist",
+                                "name": "Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Piano & Orchestra",
+                                "name": "Piano & Orchestra",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Onegai Sensei",
+                                "name": "Onegai Sensei",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unidentified",
+                                "name": "Unidentified",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[classical music]",
+                                "name": "[classical music]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Various IHOP staff",
+                                "name": "Various IHOP staff",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cayapa singer",
+                                "name": "Cayapa singer",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kinderlieder-Klassiker",
+                                "name": "Kinderlieder-Klassiker",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[tautas dziesma]",
+                                "name": "[tautas dziesma]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Happy Graduation",
+                                "name": "Happy Graduation",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Full Cast",
+                                "name": "Full Cast",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Harp, Violin & Flute",
+                                "name": "Harp, Violin & Flute",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ｐ Ｄ",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Ｐ Ｄ",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Musical Interlude",
+                                "name": "Musical Interlude",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Olde English Carol",
+                                "name": "Olde English Carol",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "14th Century Carol",
+                                "name": "14th Century Carol",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "British Broadcasting Corporation",
+                                "name": "British Broadcasting Corporation",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "BBC SFX 16 .",
+                                "name": "BBC SFX 16 .",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Mohawk Carol",
+                                "name": "Mohawk Carol",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kofan shaman",
+                                "name": "Kofan shaman",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Anthologie Des Musiques De Bali",
+                                "name": "Anthologie Des Musiques De Bali",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "The World Of Flamenco",
+                                "name": "The World Of Flamenco",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[Christmas music]",
+                                "name": "[Christmas music]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "chorus (india)",
+                                "name": "chorus (india)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "LaserLight Digital",
+                                "name": "LaserLight Digital",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sierra On-Line",
+                                "name": "Sierra On-Line",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(Unidentified small jazz combo)",
+                                "name": "(Unidentified small jazz combo)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hunter X Hunter",
+                                "name": "Hunter X Hunter",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tuntetamon",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Tuntetamon",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Nickelodeon",
+                                "name": "Nickelodeon",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Guitar Techniques",
+                                "name": "Guitar Techniques",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "サントラ",
+                                "name": "サントラ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Happy Retirement",
+                                "name": "Happy Retirement",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sublime Frequencies",
+                                "name": "Sublime Frequencies",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Spiderman Theme",
+                                "name": "Spiderman Theme",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unidentified Performers",
+                                "name": "Unidentified Performers",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Neznámý",
+                                "name": "Neznámý",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "unown",
+                                "name": "unown",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instrumentaali",
+                                "name": "Instrumentaali",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "TV TOONS",
+                                "name": "TV TOONS",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Singer1",
+                                "name": "Singer1",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unblocked - Musik aus Osteuropa",
+                                "name": "Unblocked - Musik aus Osteuropa",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "unlisted",
+                                "name": "unlisted",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Buddhist Monks",
+                                "name": "Buddhist Monks",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Aut. nez.",
+                                "name": "Aut. nez.",
+                                "locale": "lv",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Autori nezināmi",
+                                "name": "Autori nezināmi",
+                                "locale": "lv",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Symphony Orchestra",
+                                "name": "Symphony Orchestra",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "DP",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "DP",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Изворна Народна",
+                                "name": "Изворна Народна",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Народна Песма",
+                                "name": "Народна Песма",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Un",
+                                "name": "Un",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Mystery Artist",
+                                "name": "Mystery Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Chromalox",
+                                "name": "Chromalox",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cayapa shaman",
+                                "name": "Cayapa shaman",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Numerous Artist",
+                                "name": "Numerous Artist",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Oh! My Goddess!",
+                                "name": "Oh! My Goddess!",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "geleneksel",
+                                "name": "geleneksel",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[interlude]",
+                                "name": "[interlude]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "BBC Radio 4",
+                                "name": "BBC Radio 4",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tv Theme",
+                                "name": "Tv Theme",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Have I Got News for You",
+                                "name": "Have I Got News for You",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tuntematon",
+                                "name": "Tuntematon",
+                                "locale": "fi",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "grup de soliști",
+                                "name": "grup de soliști",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[unkn.]",
+                                "name": "[unkn.]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Various Artists Children's Choir",
+                                "name": "Various Artists Children's Choir",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Desconhecido",
+                                "name": "Desconhecido",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "12 Exitazos Rancheros",
+                                "name": "12 Exitazos Rancheros",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "unspecified",
+                                "name": "unspecified",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(karaoke)",
+                                "name": "(karaoke)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "佚名",
+                                "name": "佚名",
+                                "locale": "zh",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Aka",
+                                "name": "Aka",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown (German version)",
+                                "name": "Unknown (German version)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "kor",
+                                "name": "kor",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Karaoke",
+                                "name": "オリジナル・カラオケ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown (Country Banjos)",
+                                "name": "Unknown (Country Banjos)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Uncredited",
+                                "name": "Uncredited",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[ukendt]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[ukendt]",
+                                "locale": "da",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Nieznany",
+                                "name": "Nieznany",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Motion Picture Cast",
+                                "name": "Original Motion Picture Cast",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hillsborough Various Artists",
+                                "name": "Hillsborough Various Artists",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "サウンドトラック",
+                                "name": "サウンドトラック",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unknown Composer",
+                                "name": "Unknown Composer",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Original Soundtack",
+                                "name": "Original Soundtack",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instrumental Score",
+                                "name": "Instrumental Score",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instr.",
+                                "name": "Instr.",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Various Korean Artists",
+                                "name": "Various Korean Artists",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Collections",
+                                "name": "Collections",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "news report",
+                                "name": "news report",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Female Secoya singers",
+                                "name": "Female Secoya singers",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Porter Twin Disc Music Box",
+                                "name": "Porter Twin Disc Music Box",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Singer2",
+                                "name": "Singer2",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "(none listed)",
+                                "name": "(none listed)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cartoon Network",
+                                "name": "Cartoon Network",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[Japanese Kouta]",
+                                "name": "[Japanese Kouta]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Pan Flute Favourites",
+                                "name": "Pan Flute Favourites",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Unforgettable Panpipes",
+                                "name": "Unforgettable Panpipes",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ukjent",
+                                "name": "ukjent",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "不詳",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "不詳",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Happy Divorce",
+                                "name": "Happy Divorce",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Bollywood",
+                                "name": "Bollywood",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Film Hits",
+                                "name": "Film Hits",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ACapella Classics",
+                                "name": "ACapella Classics",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "instrumental",
+                                "name": "instrumental",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[tautasdziesma]",
+                                "name": "[tautasdziesma]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Instrumental",
+                                "name": "Instrumental",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "OST",
+                                "name": "OST",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "LucasArts",
+                                "name": "LucasArts",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Chorus",
+                                "name": "Chorus",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "PLATINUMGAMES",
+                                "name": "PLATINUMGAMES",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[television theme songs]",
+                                "name": "[television theme songs]",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Bib",
+                                "name": "Bib",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "?",
+                                "name": "?",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Julemusikk",
+                                "name": "Julemusikk",
+                                "locale": "nb",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Mixed",
+                                "name": "Mixed",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Piano Solo",
+                                "name": "Piano Solo",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "okänd artist",
+                                "name": "okänd artist",
+                                "locale": "sv",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[onbekend]",
+                                "name": "[onbekend]",
+                                "locale": "nl",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[desconegut]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[desconegut]",
+                                "locale": "ca",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[ubekendt]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[ubekendt]",
+                                "locale": "da",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[неизвестный]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[неизвестный]",
+                                "locale": "ru",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[tundmatu]",
+                                "name": "[tundmatu]",
+                                "locale": "et",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[desconocido]",
+                                "name": "[desconocido]",
+                                "locale": "es",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "未知",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "未知",
+                                "locale": "zh",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "（カラオケ）",
+                                "name": "（カラオケ）",
+                                "locale": "ja",
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[tuntematon]",
+                                "name": "[tuntematon]",
+                                "locale": "fi",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[unknown]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[unknown]",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "[unbekannt]",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "[unbekannt]",
+                                "locale": "de",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "non connu",
+                                "name": "non connu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ion Storm",
+                                "name": "Ion Storm",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Cayapa harmonica player",
+                                "name": "Cayapa harmonica player",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "4a46e125-77ed-40fc-bd6e-8bf188373427",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 3,
+                    "title": "EVA十周年音乐纪念特典",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "ecb1e0af-eacf-457b-ae90-54cc48bd320f",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "EVA十周年音乐纪念特典",
+                        "primary-type": "Album"
+                    },
+                    "date": "",
+                    "country": "CN",
+                    "release-events": [
+                        {
+                            "date": "",
+                            "area": {
+                                "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+                                "name": "China",
+                                "sort-name": "China",
+                                "iso-3166-1-codes": [
+                                    "CN"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 50,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c67c5d3d-aca2-36de-b182-4960f0316645",
+                                    "number": "14",
+                                    "title": "残酷な天使のテーゼ-林原めぐみ",
+                                    "length": 285560
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2e841601-806d-40ab-81a3-131f9c1b5b0c",
+            "score": 78,
+            "title": "殘酷天使",
+            "length": 306000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "動力火車",
+                    "artist": {
+                        "id": "03fe65c7-b16f-4cce-9ab0-41907195bb3b",
+                        "name": "動力火車",
+                        "sort-name": "Power Station",
+                        "aliases": [
+                            {
+                                "sort-name": "°Ê¤O¤õ¨®",
+                                "name": "°Ê¤O¤õ¨®",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "动力火车",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "动力火车",
+                                "locale": "zh",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "¶¯Á¦»ð³µ",
+                                "name": "¶¯Á¦»ð³µ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "動力火車",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "動力火車",
+                                "locale": "zh_Hant",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Power Station",
+                                "name": "Power Station",
+                                "locale": "en",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1999-12-08",
+            "releases": [
+                {
+                    "id": "63efafad-68eb-4612-9d33-d28ebde57454",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "再見我的愛人",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "動力火車",
+                            "artist": {
+                                "id": "03fe65c7-b16f-4cce-9ab0-41907195bb3b",
+                                "name": "動力火車",
+                                "sort-name": "Power Station"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f1f137c1-9e4a-37d8-aee2-56dbe11567b0",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "再見我的愛人",
+                        "primary-type": "Album"
+                    },
+                    "date": "1999-12-08",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "1999-12-08",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "44ceb5ba-20f2-30d0-8fe1-104014c5900f",
+                                    "number": "9",
+                                    "title": "殘酷天使",
+                                    "length": 306000
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b1d17482-fbea-4f8e-b729-b791548e30cf",
+            "score": 73,
+            "title": "残酷な天使のテーゼ(新世紀エヴァンゲリオン)",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "ボーイ・ミーツ・ガール",
+                    "artist": {
+                        "id": "cfca0447-6072-4b7d-9b88-28a71c1d2598",
+                        "name": "ボーイ・ミーツ・ガール",
+                        "sort-name": "Boy Meets Girl"
+                    }
+                }
+            ],
+            "first-release-date": "2012-12-07",
+            "releases": [
+                {
+                    "id": "2df17473-55b8-4d73-a2ef-d0120c7cde0b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "ママと英語で歌おう!アニメBOSSA",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "36fbf7e0-e453-4086-af24-529c1a6b59b8",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "ママと英語で歌おう!アニメBOSSA",
+                        "primary-type": "Album"
+                    },
+                    "date": "2012-12-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-12-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 17,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "db2c83f8-909e-49bc-8681-f2d815f0f892",
+                                    "number": "9",
+                                    "title": "残酷な天使のテーゼ(新世紀エヴァンゲリオン)"
+                                }
+                            ],
+                            "track-count": 17,
+                            "track-offset": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b5556a99-3f18-4ee4-a248-44c8c0661501",
+            "score": 73,
+            "title": "残酷な天使のテーゼ <Director’s Edit. Version II>",
+            "length": 244093,
+            "video": null,
+            "artist-credit": [
+                {
+                    "joinphrase": "、",
+                    "name": "MISATO",
+                    "artist": {
+                        "id": "d055f2c6-4a20-43c3-a1cc-c39b9483def2",
+                        "name": "葛城ミサト",
+                        "sort-name": "Katsuragi, Misato",
+                        "disambiguation": "新世紀エヴァンゲリオン",
+                        "aliases": [
+                            {
+                                "sort-name": "葛城ミサト (三石琴乃)",
+                                "name": "葛城ミサト (三石琴乃)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "joinphrase": "、",
+                    "name": "Rei",
+                    "artist": {
+                        "id": "6f9c82e2-cd2a-43ea-9701-85476034db36",
+                        "name": "綾波レイ",
+                        "sort-name": "Ayanami, Rei",
+                        "disambiguation": "新世紀エヴァンゲリオン",
+                        "aliases": [
+                            {
+                                "sort-name": "あやなみレイ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "綾波レイ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "綾波レイ (林原めぐみ)",
+                                "name": "綾波レイ (林原めぐみ)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "あやなみ レイ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "綾波 レイ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Rei (林原めぐみ)",
+                                "name": "Rei (林原めぐみ)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ayanami, Rei",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Rei Ayanami",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "ASUKA",
+                    "artist": {
+                        "id": "894ef72e-c847-4992-b6f1-35cbb7c9f10c",
+                        "name": "惣流・アスカ・ラングレー",
+                        "sort-name": "Sōryū, Asuka Langley",
+                        "disambiguation": "新世紀エヴァンゲリオン",
+                        "aliases": [
+                            {
+                                "sort-name": "Asuka Langley Sohryu",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Asuka Langley Sohryu",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Asuka Langley Souryuu",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Asuka Langley Souryuu",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sōryū, Asuka Langley",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Asuka Langley Sōryū",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Soryu, Asuka Langley",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Asuka Langley Soryu",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1996-12-21",
+            "releases": [
+                {
+                    "id": "1fdd5c7f-e475-4b3f-ab2a-5f3fc4070e38",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 5,
+                    "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7d003ed3-3f4d-44b8-8f05-840cafe01b67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2020-10-07",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2020-10-07",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 120,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6df712fb-ce25-4481-a004-b40855f86974",
+                                    "number": "24",
+                                    "title": "残酷な天使のテーゼ <Director's Edit. Version II>",
+                                    "length": 244493
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 23
+                        }
+                    ]
+                },
+                {
+                    "id": "77b5b609-c1da-4767-8308-2d332e515dbe",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion: Addition",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "08506fd5-36d9-387a-b3b5-fca8f9996736",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION ADDITION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Audio drama",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "0eb547c2-8783-43e4-8f81-751c680e7b04",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "f50c3112-3a51-4819-807a-4ea301a74872",
+                                    "number": "1",
+                                    "title": "A Cruel Angel’s Thesis (director’s edit version II)",
+                                    "length": 244093
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "dcfaa869-062a-4caa-a17c-eaabafe25e3b",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 5,
+                    "title": "Neon Genesis Evangelion Soundtrack 25th Anniversary Box",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English translation",
+                    "artist-credit": [
+                        {
+                            "name": "Shirō Sagisu",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7d003ed3-3f4d-44b8-8f05-840cafe01b67",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION SOUNDTRACK 25th ANNIVERSARY BOX",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 120,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "a3d829b5-817b-4add-95be-6dc43226bcc4",
+                                    "number": "24",
+                                    "title": "The Cruel Angel's Thesis (Director's Edit Version II)",
+                                    "length": 244493
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 23
+                        }
+                    ]
+                },
+                {
+                    "id": "90065d26-74f2-4ae2-bb95-034dc26cebc9",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Neon Genesis Evangelion: Addition",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "English transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "08506fd5-36d9-387a-b3b5-fca8f9996736",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION ADDITION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Audio drama",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "0eb547c2-8783-43e4-8f81-751c680e7b04",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "aeea828b-7a15-38fa-82ee-a5439e93108b",
+                                    "number": "1",
+                                    "title": "Zankoku na Tenshi no These (director's edit version II)",
+                                    "length": 244093
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "85993d3c-0857-4e03-a763-d862571836c9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION ADDITION",
+                    "status": "Official",
+                    "disambiguation": "partial album",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "08506fd5-36d9-387a-b3b5-fca8f9996736",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION ADDITION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Audio drama",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "0eb547c2-8783-43e4-8f81-751c680e7b04",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 8,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "dc8c0467-b87a-4060-8be3-d900982a1801",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ <Director's Edit. Version II>",
+                                    "length": 244093
+                                }
+                            ],
+                            "track-count": 8,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "bd9675f5-fc96-4f70-8348-df4aa3df5d3c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION ADDITION",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "08506fd5-36d9-387a-b3b5-fca8f9996736",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION ADDITION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Audio drama",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "0eb547c2-8783-43e4-8f81-751c680e7b04",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1996-12-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1996-12-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "7fd160d2-4210-4316-933d-f3d341739831",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ <Director’s Edit. Version II>",
+                                    "length": 244093
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "5d74e1d0-45f1-42f5-8b31-4c7edb46a0db",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION ADDITION",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤(映画鑑賞券付)",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "08506fd5-36d9-387a-b3b5-fca8f9996736",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION ADDITION",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Audio drama",
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "0eb547c2-8783-43e4-8f81-751c680e7b04",
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1996-12-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1996-12-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "da64564e-3d08-3b25-b573-da82c1a2f7d9",
+                                    "number": "1",
+                                    "title": "残酷な天使のテーゼ <Director’s Edit. Version II>",
+                                    "length": 244093
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI02010720",
+                "JPKI09628690"
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "anime"
+                },
+                {
+                    "count": 1,
+                    "name": "neon genesis evangelion"
+                }
+            ]
+        },
+        {
+            "id": "afc893cc-7909-477f-9e18-e5fb16113a7e",
+            "score": 73,
+            "title": "残酷な天使のテーゼ 2009 VERSION (off vocal)",
+            "length": 267626,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2009-05-13",
+            "releases": [
+                {
+                    "id": "2286e0ce-76c5-4e67-84f1-ea4dfc6d0ae2",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                    "status": "Official",
+                    "disambiguation": "regular edition",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f7bb1a51-44fd-4342-9d33-c27e25400c48",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ 2009 VERSION",
+                        "primary-type": "Single"
+                    },
+                    "date": "2009-05-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-05-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "4a0e5526-0e9c-41d3-8eba-2905235d6cdd",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION (off vocal)",
+                                    "length": 267626
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "abfae5ea-85c2-4b26-92be-5b9f183b8682",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f7bb1a51-44fd-4342-9d33-c27e25400c48",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ 2009 VERSION",
+                        "primary-type": "Single"
+                    },
+                    "date": "2012-10-01",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-10-01",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "616a285f-05a9-42a0-9aaf-b11be6d17652",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION (off vocal)",
+                                    "length": 267626
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "8ed34509-3990-4fb6-86b2-e471fd7aee4d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ 2009 VERSION",
+                    "status": "Official",
+                    "disambiguation": "first press edition",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f7bb1a51-44fd-4342-9d33-c27e25400c48",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ 2009 VERSION",
+                        "primary-type": "Single"
+                    },
+                    "date": "2009-05-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-05-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3bb03a1c-9675-33cf-aa09-74e8d147bfc8",
+                                    "number": "4",
+                                    "title": "残酷な天使のテーゼ 2009 VERSION (off vocal)",
+                                    "length": 267626
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 3
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKI00910707"
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "karaoke"
+                },
+                {
+                    "count": 1,
+                    "name": "instrumental version"
+                }
+            ]
+        },
+        {
+            "id": "63e1a0cc-f107-43b6-ad3c-dd1a77c8a427",
+            "score": 69,
+            "title": "残酷な天使のテーゼ～新世紀エヴァンゲリオン より～",
+            "length": 178000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "RAYTO",
+                    "artist": {
+                        "id": "e4b3d463-0cef-4579-8d24-95b7a1b15867",
+                        "name": "Rayto",
+                        "sort-name": "Rayto",
+                        "disambiguation": "eurobeat"
+                    }
+                }
+            ],
+            "first-release-date": "2009-12-16",
+            "releases": [
+                {
+                    "id": "4ad4b8c4-4090-40f0-8ee3-ed841fde8d36",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "愛 LOVE Jユーロ: Japanese Euro Beat Hits!",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9d6a4cfb-a712-4c59-8b7d-bac13cca7a82",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "愛 LOVE Jユーロ: Japanese Euro Beat Hits!",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "DJ-mix",
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "0d47f47a-3fe5-3d69-ac9d-d566c23968bf",
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2009-12-16",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-12-16",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "f474fb6f-c64d-4eef-b55f-d849930f3090",
+                                    "number": "5",
+                                    "title": "残酷な天使のテーゼ～新世紀エヴァンゲリオン より～",
+                                    "length": 178000
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "08d21f3b-37fc-4645-b490-86ebf7fc5013",
+            "score": 69,
+            "title": "残酷な天使のテーゼ MATSURI SPIRIT (off vocal ver.)",
+            "length": 272000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "高橋洋子",
+                    "artist": {
+                        "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                        "name": "高橋洋子",
+                        "sort-name": "Takahashi, Yoko",
+                        "aliases": [
+                            {
+                                "sort-name": "高橋 洋子",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "高橋 洋子",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "타카하시 요코",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "타카하시 요코",
+                                "locale": "ko",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タカハシ ヨウコ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "高橋洋子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Takahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yohko",
+                                "name": "Yohko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yoko",
+                                "name": "Yoko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Yôko",
+                                "name": "Yôko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Youko",
+                                "name": "Youko Takahashi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2019-07-24",
+            "releases": [
+                {
+                    "id": "ca74d219-412f-44ab-a2a3-49e8e07d440a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "51c5ffc6-bb32-4809-99fb-ef776b0ea500",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c626f058-77e7-4f6a-83d8-457c79b65e72",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ MATSURI SPIRIT (off vocal ver.)",
+                                    "length": 272000
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "b035da5e-8624-42b2-91ea-5c5aef88192e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "高橋洋子",
+                            "artist": {
+                                "id": "7004bc31-23ee-4216-8d74-0d230e88079f",
+                                "name": "高橋洋子",
+                                "sort-name": "Takahashi, Yoko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "51c5ffc6-bb32-4809-99fb-ef776b0ea500",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な天使のテーゼ MATSURI SPIRIT",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "b2920e8f-7434-487c-b81c-54f266408715",
+                                    "number": "2",
+                                    "title": "残酷な天使のテーゼ MATSURI SPIRIT (off vocal ver.)",
+                                    "length": 272000
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dfcf567e-a703-485d-8764-e6458a2400b3",
+            "score": 65,
+            "title": "残酷な天使のテーゼ (We ♥ Happy Swing Live ver.)",
+            "length": 262000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "GLAY",
+                    "artist": {
+                        "id": "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+                        "name": "GLAY",
+                        "sort-name": "GLAY",
+                        "disambiguation": "rock band",
+                        "aliases": [
+                            {
+                                "sort-name": "グレイ",
+                                "name": "グレイ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2011-11-16",
+            "releases": [
+                {
+                    "id": "9a5d13d9-2329-4baf-80df-b36ececfa64b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "My Private \"Jealousy\"",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "GLAY",
+                            "artist": {
+                                "id": "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+                                "name": "GLAY",
+                                "sort-name": "GLAY",
+                                "disambiguation": "rock band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "59f53447-84ab-4ca6-b250-6ad75abc56a8",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "My Private \"Jealousy\"",
+                        "primary-type": "Single"
+                    },
+                    "date": "2011-11-16",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2011-11-16",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 3,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "a33872cc-c7d1-4362-b2f2-f1f47cef6db8",
+                                    "number": "3",
+                                    "title": "残酷な天使のテーゼ (We ♥ Happy Swing Live ver.)",
+                                    "length": 262000
+                                }
+                            ],
+                            "track-count": 3,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8bcfa50c-3ed2-4fb1-8a37-add046caf322",
+            "score": 65,
+            "title": "残酷な天使のテーゼ (『新世紀エヴァンゲリオン』より)",
+            "length": 369000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "吉田純也 / Lowland Jazz",
+                    "artist": {
+                        "id": "74aa3191-a0af-4b4e-8896-e0bebf92a600",
+                        "name": "Lowland Jazz",
+                        "sort-name": "Lowland Jazz",
+                        "disambiguation": "Japanese jazz band"
+                    }
+                }
+            ],
+            "first-release-date": "2015-03-04",
+            "releases": [
+                {
+                    "id": "71c1e277-e9ac-4d1c-bace-e81b53b65d69",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "BIGBAND FOR ANIME SONGS",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Lowland Jazz",
+                            "artist": {
+                                "id": "74aa3191-a0af-4b4e-8896-e0bebf92a600",
+                                "name": "Lowland Jazz",
+                                "sort-name": "Lowland Jazz",
+                                "disambiguation": "Japanese jazz band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "48060baa-af33-4753-8d03-d85f13718a73",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "BIGBAND FOR ANIME SONGS",
+                        "primary-type": "Album"
+                    },
+                    "date": "2015-03-04",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2015-03-04",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "dfc10315-dd1c-40b0-a396-06a19091fd09",
+                                    "number": "13",
+                                    "title": "残酷な天使のテーゼ (『新世紀エヴァンゲリオン』より)",
+                                    "length": 369000
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0b4d413f-87e9-49e3-9135-31582874d763",
+            "score": 65,
+            "title": "残酷な天使のテーゼ (A CAPPELLA) (VERSE-1〜CHORUS-1)",
+            "length": 66000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Kayoco",
+                    "artist": {
+                        "id": "47df516f-a43b-4210-8085-bf20e61a00a7",
+                        "name": "KAYOCO",
+                        "sort-name": "Kayoco",
+                        "disambiguation": "Japanese, appears on \"Technopop☆Anime\" compilation"
+                    }
+                }
+            ],
+            "first-release-date": "2009-04-22",
+            "releases": [
+                {
+                    "id": "eac8ed37-47e1-4f35-b176-6d1855087039",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "アニメ★MAX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "affc2801-09fb-4e0e-8463-3202dc1aabe3",
+                        "title": "アニメ★MAX"
+                    },
+                    "date": "2009-04-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-04-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 30,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "46854b69-022d-4e8a-acc6-ca402f9c9245",
+                                    "number": "21",
+                                    "title": "残酷な天使のテーゼ (A CAPPELLA) (VERSE-1〜CHORUS-1)",
+                                    "length": 66000
+                                }
+                            ],
+                            "track-count": 30,
+                            "track-offset": 20
+                        }
+                    ]
+                },
+                {
+                    "id": "c93211e1-b0ac-473b-9608-6cb59e77dd57",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "アニメ★MAX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "affc2801-09fb-4e0e-8463-3202dc1aabe3",
+                        "title": "アニメ★MAX"
+                    },
+                    "date": "2009-04-22",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2009-04-22",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 24,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "beb0c6f5-aed8-4c58-a1b9-c76d249f6711",
+                                    "number": "15",
+                                    "title": "残酷な天使のテーゼ(アカペラ・VERSE〜CHORUS1)",
+                                    "length": 66000
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 14
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPPI00904161"
+            ]
+        },
+        {
+            "id": "3e730286-9209-48eb-933b-95b7101e1e24",
+            "score": 65,
+            "title": "残酷な天使のテーゼ (A CAPPELLA) (VERSE-2〜CHORUS-2)",
+            "length": 75000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Kayoco",
+                    "artist": {
+                        "id": "47df516f-a43b-4210-8085-bf20e61a00a7",
+                        "name": "KAYOCO",
+                        "sort-name": "Kayoco",
+                        "disambiguation": "Japanese, appears on \"Technopop☆Anime\" compilation"
+                    }
+                }
+            ],
+            "first-release-date": "2009-04-22",
+            "releases": [
+                {
+                    "id": "eac8ed37-47e1-4f35-b176-6d1855087039",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "アニメ★MAX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "affc2801-09fb-4e0e-8463-3202dc1aabe3",
+                        "title": "アニメ★MAX"
+                    },
+                    "date": "2009-04-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-04-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 30,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "d9dadb96-79c4-4c68-8e4b-ecce0b30650f",
+                                    "number": "22",
+                                    "title": "残酷な天使のテーゼ (A CAPPELLA) (VERSE-2〜CHORUS-2)",
+                                    "length": 78000
+                                }
+                            ],
+                            "track-count": 30,
+                            "track-offset": 21
+                        }
+                    ]
+                },
+                {
+                    "id": "c93211e1-b0ac-473b-9608-6cb59e77dd57",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "アニメ★MAX",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "affc2801-09fb-4e0e-8463-3202dc1aabe3",
+                        "title": "アニメ★MAX"
+                    },
+                    "date": "2009-04-22",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2009-04-22",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 24,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "08386d77-7cba-4fb1-924c-725b01abc023",
+                                    "number": "16",
+                                    "title": "残酷な天使のテーゼ(アカペラ・VERSE〜CHORUS2)",
+                                    "length": 75000
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 15
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPPI00904162"
+            ]
+        },
+        {
+            "id": "ea7c9696-8908-4b0e-bf7c-d11e8bf2bb79",
+            "score": 62,
+            "title": "残酷な、きみに",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "LUCI'FER LUSCIOUS Violenoue",
+                    "artist": {
+                        "id": "638f554f-03cf-485c-a6d9-0445cce72543",
+                        "name": "LUCI'FER LUSCIOUS Violenoue",
+                        "sort-name": "LUCI'FER LUSCIOUS Violenoue",
+                        "aliases": [
+                            {
+                                "sort-name": "Lucifer Luscious Violenoue",
+                                "name": "Lucifer Luscious Violenoue",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2002-05",
+            "releases": [
+                {
+                    "id": "77252173-44ac-41e1-997a-2a0e4ac8138d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "妄執を葬り去るためのレクイエムファイル",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "LUCI'FER LUSCIOUS Violenoue",
+                            "artist": {
+                                "id": "638f554f-03cf-485c-a6d9-0445cce72543",
+                                "name": "LUCI'FER LUSCIOUS Violenoue",
+                                "sort-name": "LUCI'FER LUSCIOUS Violenoue"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "82358bf8-ebe3-35ac-bdf9-92215894ac8d",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "妄執を葬り去るためのレクイエムファイル",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2002-05",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2002-05",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "4c259138-5f9e-3a8d-8650-38dc7ce6c53e",
+                                    "number": "12",
+                                    "title": "残酷な、きみに"
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "32bcaf55-9905-44f3-a282-4b2a03f3f4b1",
+            "score": 62,
+            "title": "残酷な、きみに",
+            "length": 256866,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "GILLE' LOVES",
+                    "artist": {
+                        "id": "55959a13-141d-4faf-99b8-0a420cbd8fc5",
+                        "name": "GILLE' LOVES",
+                        "sort-name": "GILLE' LOVES"
+                    }
+                }
+            ],
+            "first-release-date": "1995-02-14",
+            "releases": [
+                {
+                    "id": "28be9458-e766-478f-b018-129e79601e2c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "My Bloody Valentine",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "c289c5fd-4bd7-4376-8bd6-df3239c01bb6",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "My Bloody Valentine",
+                        "primary-type": "Album"
+                    },
+                    "date": "1995-02-14",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1995-02-14",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "4f1653f5-0a03-424e-9fb2-b7dd0d26f471",
+                                    "number": "10",
+                                    "title": "残酷な、きみに",
+                                    "length": 256866
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7f27c213-7c0a-44f6-afdb-128b0aa9a361",
+            "score": 62,
+            "title": "残酷な神",
+            "length": 142000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "佐橋俊彦",
+                    "artist": {
+                        "id": "06830051-7031-4d4f-b879-27c1d7935800",
+                        "name": "佐橋俊彦",
+                        "sort-name": "Sahashi, Toshihiko",
+                        "aliases": [
+                            {
+                                "sort-name": "Sahashi Toshihiko",
+                                "name": "Sahashi Toshihiko",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "佐橋 俊彦",
+                                "name": "佐橋 俊彦",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sahashi, Toshihiko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Toshihiko Sahashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Full Metal Panic Fumoffu OST",
+                                "name": "Full Metal Panic Fumoffu OST",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tosihiko Sahasi",
+                                "name": "Tosihiko Sahasi",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1999-07-21",
+            "releases": [
+                {
+                    "id": "7687d1e8-fcef-4661-8944-6243f513cad9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "星方天使エンジェルリンクス オリジナルサウンドトラック Vol.2 TRUE MOON",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "佐橋俊彦",
+                            "artist": {
+                                "id": "06830051-7031-4d4f-b879-27c1d7935800",
+                                "name": "佐橋俊彦",
+                                "sort-name": "Sahashi, Toshihiko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "6e728ebb-0b77-466b-8261-e235bf41cc7e",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "星方天使エンジェルリンクス オリジナルサウンドトラック Vol.2 TRUE MOON",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1999-07-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1999-07-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 29,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "9efc00d9-4fb9-4d55-b9c3-4aceec115710",
+                                    "number": "17",
+                                    "title": "残酷な神",
+                                    "length": 142000
+                                }
+                            ],
+                            "track-count": 29,
+                            "track-offset": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fe704ddb-f417-47b8-9836-2f7fd942bf92",
+            "score": 62,
+            "title": "残酷な愛",
+            "length": 1112773,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Les Rallizes Dénudés",
+                    "artist": {
+                        "id": "1ba797b6-b445-4c04-b6b3-458ba9730ad9",
+                        "name": "裸のラリーズ",
+                        "sort-name": "Hadaka no Rallizes",
+                        "aliases": [
+                            {
+                                "sort-name": "Rallizes Dénudés, Les",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Les Rallizes Dénudés",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hadaka no Rallizes",
+                                "name": "Hadaka no Rallizes",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "はだかのラリーズ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "裸のラリーズ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Rallizes Dénudés, Les",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Les Rallizes Dénudés",
+                                "locale": "fr",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ralizes Denudes",
+                                "name": "Ralizes Denudes",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2008",
+            "releases": [
+                {
+                    "id": "8b961daf-3d72-4c27-ac21-023143608b83",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 3,
+                    "title": "Wild Trip in the West",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Les Rallizes Dénudés",
+                            "artist": {
+                                "id": "1ba797b6-b445-4c04-b6b3-458ba9730ad9",
+                                "name": "裸のラリーズ",
+                                "sort-name": "Hadaka no Rallizes"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "bc74f61b-2605-425f-8eac-718d0044644a",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Wild Trip in the West",
+                        "primary-type": "Album"
+                    },
+                    "date": "2008",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2008",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "1cc3dc3c-6f93-489f-9ab0-f197e1401171",
+                                    "number": "2",
+                                    "title": "残酷な愛",
+                                    "length": 1112773
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "75a0ecdd-7b24-4ee8-8f1b-5d3c56017d6f",
+            "score": 59,
+            "title": "ブレークCoreな天使のテーゼ",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Aliceffekt",
+                    "artist": {
+                        "id": "c368be33-c896-427e-94bd-f130385710cc",
+                        "name": "Aliceffekt",
+                        "sort-name": "Aliceffekt",
+                        "aliases": [
+                            {
+                                "sort-name": "Aliceeffekt",
+                                "name": "Aliceeffekt",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2009",
+            "releases": [
+                {
+                    "id": "874792ad-4bed-4743-a34b-98ccc8c22fb3",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "We Are (Not) Alone.",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "67b781ee-250c-4ead-97f9-2c2456f63258",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "We Are (Not) Alone.",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2009",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 22,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "d4219bb8-3a4c-4629-bbca-d3effa2abf68",
+                                    "number": "1",
+                                    "title": "ブレークCoreな天使のテーゼ"
+                                }
+                            ],
+                            "track-count": 22,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2ca7552e-f762-42a0-b0d3-d47afd9ff923",
+            "score": 56,
+            "title": "残酷な午後",
+            "length": 299973,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "b’Rouge",
+                    "artist": {
+                        "id": "a36a1d15-8dbd-41b5-ae32-242c2a69f4a7",
+                        "name": "b’Rouge",
+                        "sort-name": "b’Rouge"
+                    }
+                }
+            ],
+            "first-release-date": "1997-08-21",
+            "releases": [
+                {
+                    "id": "37479ef7-bcd0-41a3-a64f-d90e56c2a09a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Shadow Of Love",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "0feddd10-e7ec-4843-8af6-2beaa2841fe8",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "Shadow Of Love",
+                        "primary-type": "Single"
+                    },
+                    "date": "1997-08-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1997-08-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 3,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "8cm CD",
+                            "track": [
+                                {
+                                    "id": "6fecf170-2e1b-42cb-8394-b6e8673fa878",
+                                    "number": "2",
+                                    "title": "残酷な午後",
+                                    "length": 299973
+                                }
+                            ],
+                            "track-count": 3,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPKS09700524"
+            ]
+        },
+        {
+            "id": "236f4800-accc-4a0c-a21e-8102747d4344",
+            "score": 56,
+            "title": "残酷な現実",
+            "length": 124000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "井内舞子",
+                    "artist": {
+                        "id": "fa75f9fa-103c-4073-b8e0-d995040ac5cf",
+                        "name": "井内舞子",
+                        "sort-name": "Iuchi, Maiko",
+                        "aliases": [
+                            {
+                                "sort-name": "いうち まいこ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "井内舞子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "井内 舞子",
+                                "name": "井内 舞子",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "MAIKO IUCHI",
+                                "name": "MAIKO IUCHI",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Iuchi, Maiko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Maiko Iuchi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2013-07-24",
+            "releases": [
+                {
+                    "id": "ad1bc52c-7a74-4ffc-be98-d996b5a2fdba",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "とある科学の超電磁砲S ORIGINAL SOUNDTRACK Vol.1",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "井内舞子",
+                            "artist": {
+                                "id": "fa75f9fa-103c-4073-b8e0-d995040ac5cf",
+                                "name": "井内舞子",
+                                "sort-name": "Iuchi, Maiko"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "1acee0dd-0723-4d6d-bc09-b9da9fda6f6e",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "とある科学の超電磁砲S ORIGINAL SOUNDTRACK Vol.1",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2013-07-24",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-07-24",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 17,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "05beddca-18b9-4080-be37-a49384e6c3f9",
+                                    "number": "2",
+                                    "title": "残酷な現実",
+                                    "length": 124000
+                                }
+                            ],
+                            "track-count": 17,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1e554861-4de5-4924-91d0-d4310e55a1f1",
+            "score": 56,
+            "title": "残酷な問い",
+            "length": 82000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "藤澤慶昌",
+                    "artist": {
+                        "id": "2b41ab92-be82-4261-ac6c-b19789e07e46",
+                        "name": "藤澤慶昌",
+                        "sort-name": "Fujisawa, Yoshiaki",
+                        "aliases": [
+                            {
+                                "sort-name": "Yoshiaki Hujisawa",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Yoshiaki Hujisawa",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Yoshimasa Fujisawa",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Yoshimasa Fujisawa",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Fujisawa, Yoshiaki",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yoshiaki Fujisawa",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2018-02-23",
+            "releases": [
+                {
+                    "id": "d66c70a3-97fa-40dd-a6c8-e877992030d9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "ノーゲーム･ノーライフ ゼロ Original Soundtrack",
+                    "status": "Official",
+                    "disambiguation": "48kHz/24bit",
+                    "artist-credit": [
+                        {
+                            "name": "藤澤慶昌",
+                            "artist": {
+                                "id": "2b41ab92-be82-4261-ac6c-b19789e07e46",
+                                "name": "藤澤慶昌",
+                                "sort-name": "Fujisawa, Yoshiaki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "ed713eb5-8feb-4325-bc5c-bbdac0423fc4",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "「ノーゲーム・ノーライフ ゼロ」オリジナルサウンドトラック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2018-02-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2018-02-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 34,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "2c42c26a-cbd6-4915-83b4-719806db9883",
+                                    "number": "11",
+                                    "title": "残酷な問い",
+                                    "length": 82000
+                                }
+                            ],
+                            "track-count": 34,
+                            "track-offset": 10
+                        }
+                    ]
+                },
+                {
+                    "id": "ff5f6b39-ff57-4f3f-b52e-715f29a224e2",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "「ノーゲーム・ノーライフ ゼロ」オリジナルサウンドトラック",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "藤澤慶昌",
+                            "artist": {
+                                "id": "2b41ab92-be82-4261-ac6c-b19789e07e46",
+                                "name": "藤澤慶昌",
+                                "sort-name": "Fujisawa, Yoshiaki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "ed713eb5-8feb-4325-bc5c-bbdac0423fc4",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "「ノーゲーム・ノーライフ ゼロ」オリジナルサウンドトラック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2018-02-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2018-02-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 34,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "a6a6771d-dea7-44cc-af04-1bb74402b25d",
+                                    "number": "11",
+                                    "title": "残酷な問い",
+                                    "length": 82000
+                                }
+                            ],
+                            "track-count": 17,
+                            "track-offset": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c5d9ae23-589c-4f22-a7ad-528a41a6b491",
+            "score": 56,
+            "title": "残酷な攻略",
+            "length": 112480,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "七瀬光",
+                    "artist": {
+                        "id": "c9ba47ca-0bd2-4814-966d-ecfb06d032a3",
+                        "name": "七瀬光",
+                        "sort-name": "Nanase, Hikaru",
+                        "aliases": [
+                            {
+                                "sort-name": "Nanase Hikaru",
+                                "name": "Nanase Hikaru",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Mausmi Itou",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Mausmi Itou",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Itō, Masumi",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Masumi Itō",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "伊藤 真澄",
+                                "name": "伊藤 真澄",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "いとう ますみ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "伊藤真澄",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Nitta, Masumi",
+                                "name": "新田真澄",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "七瀨光",
+                                "name": "七瀨光",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "七瀬 光",
+                                "name": "七瀬 光",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Chrno Crusade",
+                                "name": "Chrno Crusade",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "七瀨 光",
+                                "name": "七瀨 光",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hikaru Nanase",
+                                "name": "Hikaru Nanase",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Nanase, Hikaru",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Hikaru Nanase",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ななせ ひかる",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "七瀬光",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Masumi Itou",
+                                "name": "Masumi Itou",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1999-04-21",
+            "releases": [
+                {
+                    "id": "6d784e62-6a69-4ee5-8516-6906955ecdf9",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Angel Sanctuary Soundtrack",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "七瀬光",
+                            "artist": {
+                                "id": "c9ba47ca-0bd2-4814-966d-ecfb06d032a3",
+                                "name": "七瀬光",
+                                "sort-name": "Nanase, Hikaru"
+                            }
+                        },
+                        {
+                            "name": "黒百合姉妹",
+                            "artist": {
+                                "id": "8e62e569-6410-4dff-ac2f-2b80834a4847",
+                                "name": "黒百合姉妹",
+                                "sort-name": "Kuroyuri Shimai"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76512521-d6e5-30de-b380-5905482ff86b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "天使禁猟区 オリジナルサウンドトラック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 32,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "740a3a4c-fbd8-3e91-aa5c-9dba6a910026",
+                                    "number": "20",
+                                    "title": "Cruel Tactics",
+                                    "length": 112173
+                                }
+                            ],
+                            "track-count": 32,
+                            "track-offset": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "778db3e6-6d4d-4803-b681-519349778ab6",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "天使禁猟区 オリジナルサウンドトラック",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "七瀬光",
+                            "artist": {
+                                "id": "c9ba47ca-0bd2-4814-966d-ecfb06d032a3",
+                                "name": "七瀬光",
+                                "sort-name": "Nanase, Hikaru"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76512521-d6e5-30de-b380-5905482ff86b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "天使禁猟区 オリジナルサウンドトラック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "1999-04-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1999-04-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 32,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "73ba8b6d-4f15-3cb5-bbe6-3b90f16d693a",
+                                    "number": "20",
+                                    "title": "残酷な攻略",
+                                    "length": 112480
+                                }
+                            ],
+                            "track-count": 32,
+                            "track-offset": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "ad47a23e-232e-3d73-bb2b-c32dda90b483",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "天使禁猟区 オリジナルサウンドトラック",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "七瀬光",
+                            "artist": {
+                                "id": "c9ba47ca-0bd2-4814-966d-ecfb06d032a3",
+                                "name": "七瀬光",
+                                "sort-name": "Nanase, Hikaru"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76512521-d6e5-30de-b380-5905482ff86b",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "天使禁猟区 オリジナルサウンドトラック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2004-04-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2004-04-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 32,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "7eb6ba3b-bcdf-3b23-b24b-3921253bb3c5",
+                                    "number": "20",
+                                    "title": "残酷な攻略",
+                                    "length": 112480
+                                }
+                            ],
+                            "track-count": 32,
+                            "track-offset": 19
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPC109901820"
+            ]
+        },
+        {
+            "id": "6da62979-c1a9-457c-b3d6-9151474c530f",
+            "score": 56,
+            "title": "残酷な愛 (ST)",
+            "length": 1088000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Les Rallizes Dénudés",
+                    "artist": {
+                        "id": "1ba797b6-b445-4c04-b6b3-458ba9730ad9",
+                        "name": "裸のラリーズ",
+                        "sort-name": "Hadaka no Rallizes",
+                        "aliases": [
+                            {
+                                "sort-name": "Rallizes Dénudés, Les",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Les Rallizes Dénudés",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hadaka no Rallizes",
+                                "name": "Hadaka no Rallizes",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "はだかのラリーズ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "裸のラリーズ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Rallizes Dénudés, Les",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Les Rallizes Dénudés",
+                                "locale": "fr",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ralizes Denudes",
+                                "name": "Ralizes Denudes",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2004",
+            "releases": [
+                {
+                    "id": "ee5fece9-5bd5-4076-9be1-35b1cd5157c6",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "count": 10,
+                    "title": "Studio & Soundboard",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "Les Rallizes Dénudés",
+                            "artist": {
+                                "id": "1ba797b6-b445-4c04-b6b3-458ba9730ad9",
+                                "name": "裸のラリーズ",
+                                "sort-name": "Hadaka no Rallizes"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "ef9fb829-929a-480e-8f79-4d95a2d635b7",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Studio & Sounboard",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2004",
+                    "country": "DE",
+                    "release-events": [
+                        {
+                            "date": "2004",
+                            "area": {
+                                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                "name": "Germany",
+                                "sort-name": "Germany",
+                                "iso-3166-1-codes": [
+                                    "DE"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 38,
+                    "media": [
+                        {
+                            "position": 8,
+                            "format": "CD-R",
+                            "track": [
+                                {
+                                    "id": "2531f215-1490-4fbc-8489-ada2d2e2d972",
+                                    "number": "2",
+                                    "title": "残酷な愛 (ST)",
+                                    "length": 1088000
+                                }
+                            ],
+                            "track-count": 3,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d8082f87-adc9-4677-9303-8c282a2e34b7",
+            "score": 56,
+            "title": "残酷な戯れ",
+            "length": 139000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "田中彰",
+                    "artist": {
+                        "id": "95ac0843-e3b5-4d2b-a927-81161baaaec2",
+                        "name": "田中彰",
+                        "sort-name": "Tanaka, Akira",
+                        "disambiguation": "producer"
+                    }
+                }
+            ],
+            "first-release-date": "2021-02-17",
+            "releases": [
+                {
+                    "id": "afdefa2b-da07-48a0-9386-4417c9925d06",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 3,
+                    "title": "PRINCESS CONNECT! Re:Dive ORIGINAL SOUNDTRACK VOL.3",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5b241240-de17-491d-9e76-f252b78c1754",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "PRINCESS CONNECT! Re:Dive ORIGINAL SOUNDTRACK VOL.3",
+                        "primary-type": "Album"
+                    },
+                    "date": "2021-02-17",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-02-17",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 75,
+                    "media": [
+                        {
+                            "position": 3,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "4f2dcc7b-7e6a-4081-8a5a-89336dfa3479",
+                                    "number": "12",
+                                    "title": "残酷な戯れ",
+                                    "length": 139000
+                                }
+                            ],
+                            "track-count": 24,
+                            "track-offset": 11
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPCO02036090"
+            ]
+        },
+        {
+            "id": "70ac6e4d-9a33-42d1-ab28-8bfbedcce6e8",
+            "score": 56,
+            "title": "残酷な世界",
+            "length": 82000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "佐藤直紀",
+                    "artist": {
+                        "id": "d4bdf226-79c0-46f5-a6b5-fbab3fe20826",
+                        "name": "佐藤直紀",
+                        "sort-name": "Satō, Naoki",
+                        "aliases": [
+                            {
+                                "sort-name": "Satō, Naoki",
+                                "name": "Naoki Satō",
+                                "locale": "en",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "サトウナオキ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "佐藤直紀",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Satou, Naoki",
+                                "name": "Naoki Satou",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "サトウ ナオキ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "佐藤 直紀",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Satou, Naoki",
+                                "name": "Satou Naoki",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Naoki Satô",
+                                "name": "Naoki Satô",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sato, Naoki",
+                                "name": "Sato Naoki",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2005-11-02",
+            "releases": [
+                {
+                    "id": "0e6f4e8b-d961-43cb-a065-79d1686d9c43",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "交響詩篇エウレカセブン OST 1",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "佐藤直紀",
+                            "artist": {
+                                "id": "d4bdf226-79c0-46f5-a6b5-fbab3fe20826",
+                                "name": "佐藤直紀",
+                                "sort-name": "Satō, Naoki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "79510764-7ec2-334f-b035-ddf5a22eb3f8",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "交響詩篇エウレカセブン OST 1",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2005-11-02",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2005-11-02",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 45,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "4dbad062-f085-3bba-a7e8-6829bc33cafe",
+                                    "number": "6",
+                                    "title": "残酷な世界",
+                                    "length": 82000
+                                }
+                            ],
+                            "track-count": 27,
+                            "track-offset": 5
+                        }
+                    ]
+                },
+                {
+                    "id": "df9e0776-3706-3653-ab64-7b6656be4fb8",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 2,
+                    "title": "Psalms of Planets: Eureka seveN OST 1",
+                    "status": "Pseudo-Release",
+                    "disambiguation": "romaji transliteration",
+                    "artist-credit": [
+                        {
+                            "name": "佐藤直紀",
+                            "artist": {
+                                "id": "d4bdf226-79c0-46f5-a6b5-fbab3fe20826",
+                                "name": "佐藤直紀",
+                                "sort-name": "Satō, Naoki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "79510764-7ec2-334f-b035-ddf5a22eb3f8",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "交響詩篇エウレカセブン OST 1",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "track-count": 45,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c9c3ca0d-8567-32eb-be45-2c4a324e6b39",
+                                    "number": "6",
+                                    "title": "Zankoku na Sekai",
+                                    "length": 82000
+                                }
+                            ],
+                            "track-count": 27,
+                            "track-offset": 5
+                        }
+                    ]
+                },
+                {
+                    "id": "c2bd4e6f-3820-308f-8cd4-3eaaa697940b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "Psalms of Planets: Eureka seveN Original Soundtrack 1",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Naoki Sato",
+                            "artist": {
+                                "id": "d4bdf226-79c0-46f5-a6b5-fbab3fe20826",
+                                "name": "佐藤直紀",
+                                "sort-name": "Satō, Naoki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "79510764-7ec2-334f-b035-ddf5a22eb3f8",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "交響詩篇エウレカセブン OST 1",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2006-06-27",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "2006-06-27",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 45,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "7ff98f3f-d1e4-30fc-b0b4-b0e30304cbca",
+                                    "number": "6",
+                                    "title": "Cruel World",
+                                    "length": 82320
+                                }
+                            ],
+                            "track-count": 27,
+                            "track-offset": 5
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPE300501504"
+            ]
+        },
+        {
+            "id": "d6021ce9-ab8d-44ec-b031-f0581a03e8e8",
+            "score": 55,
+            "title": "残酷な天使のテーゼ（新世紀エヴァンゲリオン OP主題歌）",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "TAMUSIC",
+                    "artist": {
+                        "id": "9f9a5476-22bd-48ef-8952-25cd8e3f1545",
+                        "name": "TAMUSIC",
+                        "sort-name": "TAMUSIC",
+                        "aliases": [
+                            {
+                                "sort-name": "Tamusic",
+                                "name": "タムシック",
+                                "locale": "ja",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2015-08-14",
+            "releases": [
+                {
+                    "id": "dcc6bc7a-ee33-4749-bfa7-7ad3ab6bac94",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "AnimeViolin EDM",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "TAMUSIC",
+                            "artist": {
+                                "id": "9f9a5476-22bd-48ef-8952-25cd8e3f1545",
+                                "name": "TAMUSIC",
+                                "sort-name": "TAMUSIC"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "6f58a37d-bd60-4962-a76c-dbd91747dfdd",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "AnimeViolin EDM",
+                        "primary-type": "Album"
+                    },
+                    "date": "2015-08-14",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2015-08-14",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c1ea36d5-94c3-4b73-bc85-8f4804e2d09c",
+                                    "number": "8",
+                                    "title": "残酷な天使のテーゼ（新世紀エヴァンゲリオン OP主題歌）"
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "842cadd6-8dc3-408b-b840-006a02562e48",
+            "score": 52,
+            "title": "\"残酷な天使のテーゼ\" 狂用音型決戦兵器 mix",
+            "video": true,
+            "artist-credit": [
+                {
+                    "joinphrase": " × ",
+                    "name": "DJ ISO",
+                    "artist": {
+                        "id": "c1e9b162-78ca-4477-96e0-4b7ee02a585b",
+                        "name": "DJ ISO",
+                        "sort-name": "Japanese DJ"
+                    }
+                },
+                {
+                    "name": "アサオヨシノリ",
+                    "artist": {
+                        "id": "d22407de-84f0-4119-b132-eaf3564466ad",
+                        "name": "アサオヨシノリ",
+                        "sort-name": "Asao, Yoshinori"
+                    }
+                }
+            ],
+            "first-release-date": "2006-08-12",
+            "releases": [
+                {
+                    "id": "b71185a0-a421-489e-821f-e7afcf8672dc",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "NEON GENESIS EVANGELION MUSIC & remix DVD ツインパック",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "4884a5d8-220b-4b3d-85ec-184e16f5152c",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION MUSIC & remix DVD ツインパック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "2006-08-12",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2006-08-12",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "DVD-Video",
+                            "track": [
+                                {
+                                    "id": "05fe62a7-554b-4e31-a841-74d308033342",
+                                    "number": "1",
+                                    "title": "\"残酷な天使のテーゼ\" 狂用音型決戦兵器 mix"
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "848913b1-b12a-40d8-927b-67208a9e4799",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "NEON GENESIS EVANGELION remix",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "10c8a310-a4a3-4a8b-80bd-cf147d9cf985",
+                        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "NEON GENESIS EVANGELION remix",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Remix"
+                        ],
+                        "secondary-type-ids": [
+                            "0c60f497-ff81-3818-befd-abfc84a4858b"
+                        ]
+                    },
+                    "date": "2006-08-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2006-08-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "DVD-Video",
+                            "track": [
+                                {
+                                    "id": "8de54daf-6f7f-4e72-b2e1-cd4a205ae4ea",
+                                    "number": "1",
+                                    "title": "\"残酷な天使のテーゼ\" 狂用音型決戦兵器 mix"
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "29e6f267-b028-458c-b20d-c7b02f1a1f78",
+            "score": 51,
+            "title": "たったひとつの残酷な希望",
+            "length": 249000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "IOSYS",
+                    "artist": {
+                        "id": "9a4cafe7-3349-404b-a268-780e911d1801",
+                        "name": "IOSYS",
+                        "sort-name": "IOSYS",
+                        "aliases": [
+                            {
+                                "sort-name": "IOSYS",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "IOSYS",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ioshisu",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "ioshisu",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "イオシス",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "IOSYS",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2011-03-13",
+            "releases": [
+                {
+                    "id": "467a73de-8673-438d-88e5-02256799043e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "東方メレンゲ少女夜行",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "IOSYS",
+                            "artist": {
+                                "id": "9a4cafe7-3349-404b-a268-780e911d1801",
+                                "name": "IOSYS",
+                                "sort-name": "IOSYS"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "879f9a81-7c86-4588-80fa-5693b8e3d1c5",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "東方メレンゲ少女夜行",
+                        "primary-type": "Album"
+                    },
+                    "date": "2011-03-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2011-03-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "1bc71b20-3aa2-4dd2-b42c-740dbb83774a",
+                                    "number": "1",
+                                    "title": "たったひとつの残酷な希望",
+                                    "length": 249300
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "3b850548-e510-41f9-8801-8a8907a4c54c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "東方メレンゲ少女夜行",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "IOSYS",
+                            "artist": {
+                                "id": "9a4cafe7-3349-404b-a268-780e911d1801",
+                                "name": "IOSYS",
+                                "sort-name": "IOSYS"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "879f9a81-7c86-4588-80fa-5693b8e3d1c5",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "東方メレンゲ少女夜行",
+                        "primary-type": "Album"
+                    },
+                    "date": "2011-03-13",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2011-03-13",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "92c77ac0-92c6-3865-bbcc-060cf7e5c3c4",
+                                    "number": "1",
+                                    "title": "たったひとつの残酷な希望",
+                                    "length": 249000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "37788ede-a0c2-40ae-b77f-ed2652b54e10",
+            "score": 51,
+            "title": "たったひとつの残酷な希望",
+            "length": 249000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "IOSYS",
+                    "artist": {
+                        "id": "9a4cafe7-3349-404b-a268-780e911d1801",
+                        "name": "IOSYS",
+                        "sort-name": "IOSYS",
+                        "aliases": [
+                            {
+                                "sort-name": "イオシス",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "IOSYS",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ioshisu",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "ioshisu",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "IOSYS",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "IOSYS",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2012-11-30",
+            "releases": [
+                {
+                    "id": "443bda05-61e8-4362-8823-2fb6143099cd",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 3,
+                    "title": "Grimoire of IOSYS - tōhō BEST ALBUM vol.3 -",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "IOSYS",
+                            "artist": {
+                                "id": "9a4cafe7-3349-404b-a268-780e911d1801",
+                                "name": "IOSYS",
+                                "sort-name": "IOSYS"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "790d2ec7-2273-43cd-ae97-986d178b327a",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Grimoire of IOSYS - 東方BEST ALBUM vol.3 -",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "track-count": 44,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ac19da11-5011-4d65-8225-aeb1b75c3f28",
+                                    "number": "13",
+                                    "title": "tatta hitotsu no zankokuna kibō",
+                                    "length": 249000
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 12
+                        }
+                    ]
+                },
+                {
+                    "id": "202bb550-1dcb-43c6-89ef-de0a68630031",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 3,
+                    "title": "Grimoire of IOSYS - 東方BEST ALBUM vol.3 -",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "IOSYS",
+                            "artist": {
+                                "id": "9a4cafe7-3349-404b-a268-780e911d1801",
+                                "name": "IOSYS",
+                                "sort-name": "IOSYS"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "790d2ec7-2273-43cd-ae97-986d178b327a",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Grimoire of IOSYS - 東方BEST ALBUM vol.3 -",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2012-11-30",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-11-30",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 44,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6db08d05-3281-410c-91f0-ae92978b6f26",
+                                    "number": "13",
+                                    "title": "たったひとつの残酷な希望",
+                                    "length": 249306
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "78b08f60-3d8a-422c-afc4-1aaa4f1ba037",
+            "score": 51,
+            "title": "残酷な隣人-ブリッジコレクション1-",
+            "length": 140000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "三沢郷",
+                    "artist": {
+                        "id": "02a7f2dd-f51b-4c10-abe4-b27e9de3f26a",
+                        "name": "三沢郷",
+                        "sort-name": "Misawa, Gō",
+                        "aliases": [
+                            {
+                                "sort-name": "Misuzawa, Gota",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Gota Misuzawa",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Teshima, Hiroishi",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "手島洋一",
+                                "locale": "ja",
+                                "type": "Legal name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "三沢 郷",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "三沢 郷",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Teshima, Hiroishi",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "Hiroishi Teshima",
+                                "locale": "en",
+                                "type": "Legal name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Misuzawa, Gota",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "三沢郷他",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2003-07-23",
+            "releases": [
+                {
+                    "id": "33bc589b-c18f-4bcf-9116-d152198222ff",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "ダイナミックプロフィルムズ ETERNAL EDITION File No.11 & 12 デビルマン",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " & ",
+                            "name": "三沢郷",
+                            "artist": {
+                                "id": "02a7f2dd-f51b-4c10-abe4-b27e9de3f26a",
+                                "name": "三沢郷",
+                                "sort-name": "Misawa, Gō"
+                            }
+                        },
+                        {
+                            "name": "都倉俊一",
+                            "artist": {
+                                "id": "0beb43fa-e2aa-41fb-a851-2e3ef9462c6d",
+                                "name": "都倉俊一",
+                                "sort-name": "Tokura, Shun'ichi"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3742ac7c-001e-4306-8299-6e31d71cbe39",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "ダイナミックプロフィルムズ ETERNAL EDITION File No.11 & 12 デビルマン",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2003-07-23",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2003-07-23",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 48,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "f5127b75-8f19-4964-9eb5-b7ac4255378c",
+                                    "number": "7",
+                                    "title": "残酷な隣人-ブリッジコレクション1-",
+                                    "length": 140000
+                                }
+                            ],
+                            "track-count": 27,
+                            "track-offset": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "93380311-494a-4b30-aa50-a1079cbf5b74",
+            "score": 51,
+            "title": "screen 3.残酷な夜",
+            "length": 349200,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "PIERROT",
+                    "artist": {
+                        "id": "c8ecc10a-8403-4702-a941-3ad9cde97839",
+                        "name": "PIERROT",
+                        "sort-name": "PIERROT",
+                        "disambiguation": "Japanese visual kei rock band",
+                        "aliases": [
+                            {
+                                "sort-name": "ピエロ",
+                                "name": "ピエロ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1998-04-22",
+            "releases": [
+                {
+                    "id": "8168f3fe-2648-487c-b31c-428cdf61fae7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Screen",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "PIERROT",
+                            "artist": {
+                                "id": "c8ecc10a-8403-4702-a941-3ad9cde97839",
+                                "name": "PIERROT",
+                                "sort-name": "PIERROT",
+                                "disambiguation": "Japanese visual kei rock band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "497d8579-090e-3296-bfec-0c3470bfc4e2",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "Screen",
+                        "primary-type": "Single"
+                    },
+                    "date": "1998-04-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1998-04-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 3,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "35f77daf-6316-3625-8ab5-54838b65bb28",
+                                    "number": "3",
+                                    "title": "screen 3.残酷な夜",
+                                    "length": 349200
+                                }
+                            ],
+                            "track-count": 3,
+                            "track-offset": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "c7412a30-170c-3e62-81d7-8e92e73a8738",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Screen",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "PIERROT",
+                            "artist": {
+                                "id": "c8ecc10a-8403-4702-a941-3ad9cde97839",
+                                "name": "PIERROT",
+                                "sort-name": "PIERROT",
+                                "disambiguation": "Japanese visual kei rock band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "497d8579-090e-3296-bfec-0c3470bfc4e2",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "Screen",
+                        "primary-type": "Single"
+                    },
+                    "date": "2001-12-19",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2001-12-19",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 3,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6bc69642-ba2c-331c-bfb5-c1cc4f305c38",
+                                    "number": "3",
+                                    "title": "screen 3.残酷な夜",
+                                    "length": 349200
+                                }
+                            ],
+                            "track-count": 3,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPBV09800323"
+            ]
+        },
+        {
+            "id": "d6582269-1599-4251-9860-34af740efcca",
+            "score": 49,
+            "title": "残酷のサロメ",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Lycaon",
+                    "artist": {
+                        "id": "333c36f5-22a9-44ef-80dd-5cbb0182b0cd",
+                        "name": "Lycaon",
+                        "sort-name": "Lycaon",
+                        "disambiguation": "Japanese band",
+                        "aliases": [
+                            {
+                                "sort-name": "リカオン",
+                                "name": "リカオン",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2013-11-06",
+            "releases": [
+                {
+                    "id": "268297a0-e2ad-4069-bf52-54284497a781",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "gossip-ゴシップ-",
+                    "status": "Official",
+                    "disambiguation": "A Type",
+                    "artist-credit": [
+                        {
+                            "name": "Lycaon",
+                            "artist": {
+                                "id": "333c36f5-22a9-44ef-80dd-5cbb0182b0cd",
+                                "name": "Lycaon",
+                                "sort-name": "Lycaon",
+                                "disambiguation": "Japanese band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "55a0e01a-c95b-4041-b546-59438c41939d",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "gossip-ゴシップ-",
+                        "primary-type": "Single"
+                    },
+                    "date": "2013-11-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-11-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "4c981326-6c96-4ee6-b7a3-688431656257",
+                                    "number": "2",
+                                    "title": "残酷のサロメ"
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d88b5fc6-3816-4528-9e9a-66afbb52ef88",
+            "score": 49,
+            "title": "残酷なInnocence",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "船越由佳",
+                    "artist": {
+                        "id": "2ddfbd56-6284-461d-babb-dd58069043da",
+                        "name": "船越由佳",
+                        "sort-name": "Funakoshi, Yuka"
+                    }
+                }
+            ],
+            "first-release-date": "1999-05-26",
+            "releases": [
+                {
+                    "id": "dc288620-0432-4bc9-a734-5255ab1d3fdd",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "SILENT SUN",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "fe611510-c472-4445-8e4a-acac4ad47e23",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "SILENT SUN",
+                        "primary-type": "Album"
+                    },
+                    "date": "1999-05-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1999-05-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "e3a23eaa-4f4e-4a86-840e-4a89cfdf77e7",
+                                    "number": "10",
+                                    "title": "残酷なInnocence"
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0ab39aa0-0085-44b7-8a80-b2a34b44a20d",
+            "score": 49,
+            "title": "残酷なペンシルのテーゼ",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "タク・ザ・コドナ",
+                    "artist": {
+                        "id": "40afdd0d-cfe1-4a9e-8c28-d71407bde2d5",
+                        "name": "タク・ザ・コドナ",
+                        "sort-name": "Tak The Codona"
+                    }
+                }
+            ],
+            "first-release-date": "2007-03-10",
+            "releases": [
+                {
+                    "id": "73eaa635-1687-48e7-833e-f6ef47864c5f",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "MINORITY REPORT",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "ec3ec4ec-5715-4808-9704-da14b82886aa",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "MINORITY REPORT",
+                        "primary-type": "Album"
+                    },
+                    "date": "2007-03-10",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2007-03-10",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 25,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "04408d87-ee28-4431-aa21-ca652fd6fa6e",
+                                    "number": "2",
+                                    "title": "残酷なペンシルのテーゼ"
+                                }
+                            ],
+                            "track-count": 25,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8170b4b8-7062-4a5f-9922-6158aed6e8d5",
+            "score": 49,
+            "title": "残酷なフィナーレ",
+            "length": 80091,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Note!",
+                    "artist": {
+                        "id": "e826a920-737d-4dea-a9fc-91d64576aa6d",
+                        "name": "Note!",
+                        "sort-name": "Note!",
+                        "disambiguation": "Chiptune musician from Brooklyn, NY"
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "ded8c649-be40-4139-8a95-ea77ab65208e",
+                    "count": 1,
+                    "title": "RAIBU 9.08",
+                    "release-group": {
+                        "id": "f8c3a1ce-8d53-4ab3-8d07-a59c24b1d827",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "RAIBU 9.08",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "c04a0266-5228-4ff6-86ff-2e6e3337a4a6",
+                                    "number": "5",
+                                    "title": "残酷なフィナーレ",
+                                    "length": 80091
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0a0c5e7e-e1d0-4cd4-949f-579125442a25",
+            "score": 49,
+            "title": "残酷のバベル",
+            "length": 360880,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "純情のアフィリア",
+                    "artist": {
+                        "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                        "name": "純情のアフィリア",
+                        "sort-name": "Junjou no Afilia",
+                        "disambiguation": "formerly known as アフィリア・サーガ",
+                        "aliases": [
+                            {
+                                "sort-name": "Afilia Saga",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Afilia Saga",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": "2013-02",
+                                "end-date": "2017-06"
+                            },
+                            {
+                                "sort-name": "Junjou no Afilia",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Junjou no Afilia",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": "2017-06",
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Afilia Saga East",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Afilia Saga East",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": "2008-11",
+                                "end-date": "2013-02"
+                            },
+                            {
+                                "sort-name": "ジュンジョウノアフィリア",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "純情のアフィリア",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": "2017-06",
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "アフィリア・サーガ・イースト",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "アフィリア・サーガ・イースト",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": "2008-11",
+                                "end-date": "2013-02"
+                            },
+                            {
+                                "sort-name": "アフィリア・サーガ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "アフィリア・サーガ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": "2013-02",
+                                "end-date": "2017-06"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2019-09-03",
+            "releases": [
+                {
+                    "id": "51057b6e-c56f-432d-8dcc-34ae48f0fcca",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷のバベル",
+                    "status": "Official",
+                    "disambiguation": "マホ卒業盤",
+                    "artist-credit": [
+                        {
+                            "name": "純情のアフィリア",
+                            "artist": {
+                                "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                                "name": "純情のアフィリア",
+                                "sort-name": "Junjou no Afilia",
+                                "disambiguation": "formerly known as アフィリア・サーガ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5556b87c-7616-4271-8a16-7bb7527f4b99",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷のバベル",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "4c6f05a5-2bca-436b-a924-b47e315d8a2a",
+                                    "number": "1",
+                                    "title": "残酷のバベル",
+                                    "length": 360880
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "9827b03a-f6a7-429f-8516-6a0437d3e415",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷のバベル",
+                    "status": "Official",
+                    "disambiguation": "通常盤D",
+                    "artist-credit": [
+                        {
+                            "name": "純情のアフィリア",
+                            "artist": {
+                                "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                                "name": "純情のアフィリア",
+                                "sort-name": "Junjou no Afilia",
+                                "disambiguation": "formerly known as アフィリア・サーガ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5556b87c-7616-4271-8a16-7bb7527f4b99",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷のバベル",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "819433c9-4c5d-41f9-94b5-f6e70827660a",
+                                    "number": "1",
+                                    "title": "残酷のバベル"
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "f2f1fef9-43b6-4287-bd4d-deadabe72fe7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷のバベル",
+                    "status": "Official",
+                    "disambiguation": "通常盤C",
+                    "artist-credit": [
+                        {
+                            "name": "純情のアフィリア",
+                            "artist": {
+                                "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                                "name": "純情のアフィリア",
+                                "sort-name": "Junjou no Afilia",
+                                "disambiguation": "formerly known as アフィリア・サーガ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5556b87c-7616-4271-8a16-7bb7527f4b99",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷のバベル",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "85daa8dc-3d49-4c2d-8fed-14edf38f3c4c",
+                                    "number": "1",
+                                    "title": "残酷のバベル"
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "8bbaab8a-07f9-4617-bbc7-105ef7a5cc6c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷のバベル",
+                    "status": "Official",
+                    "disambiguation": "通常盤B",
+                    "artist-credit": [
+                        {
+                            "name": "純情のアフィリア",
+                            "artist": {
+                                "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                                "name": "純情のアフィリア",
+                                "sort-name": "Junjou no Afilia",
+                                "disambiguation": "formerly known as アフィリア・サーガ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5556b87c-7616-4271-8a16-7bb7527f4b99",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷のバベル",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8b18afc7-cd76-4205-b5b9-4c81ca4615b9",
+                                    "number": "1",
+                                    "title": "残酷のバベル"
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "2f473f1b-7447-465a-8e49-0037fcf58a5b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷のバベル",
+                    "status": "Official",
+                    "disambiguation": "通常盤A",
+                    "artist-credit": [
+                        {
+                            "name": "純情のアフィリア",
+                            "artist": {
+                                "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                                "name": "純情のアフィリア",
+                                "sort-name": "Junjou no Afilia",
+                                "disambiguation": "formerly known as アフィリア・サーガ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5556b87c-7616-4271-8a16-7bb7527f4b99",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷のバベル",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "d54a3051-a0e8-4d30-986a-f0aa6e07fcd3",
+                                    "number": "1",
+                                    "title": "残酷のバベル"
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "c0826e28-5501-4a89-beb2-42b6ff03f62b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "残酷のバベル",
+                    "status": "Official",
+                    "disambiguation": "DVD付盤",
+                    "artist-credit": [
+                        {
+                            "name": "純情のアフィリア",
+                            "artist": {
+                                "id": "680708a1-9243-4891-a2fc-a69dd9168f27",
+                                "name": "純情のアフィリア",
+                                "sort-name": "Junjou no Afilia",
+                                "disambiguation": "formerly known as アフィリア・サーガ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5556b87c-7616-4271-8a16-7bb7527f4b99",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷のバベル",
+                        "primary-type": "Single"
+                    },
+                    "date": "2019-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 8,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3352996c-2060-4771-a4f5-86319a91007b",
+                                    "number": "1",
+                                    "title": "残酷のバベル"
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPK631905601"
+            ]
+        },
+        {
+            "id": "2ad16b9c-0843-4df2-b75f-b8888381a9b2",
+            "score": 49,
+            "title": "残酷なInvitation",
+            "length": 232000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "AbsoЯute Zero",
+                    "artist": {
+                        "id": "f103c3c9-26f7-4af6-a345-7202a2062fdf",
+                        "name": "AbsoЯute Zero",
+                        "sort-name": "Absorute Zero"
+                    }
+                }
+            ],
+            "first-release-date": "2018-05-06",
+            "releases": [
+                {
+                    "id": "947eb324-7bea-4d07-bdf8-1654845d34bc",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "究極 〜AbsoЯute Zero The Best 1〜",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "add3e704-064c-4352-9004-6e08bbf3b681",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "究極 〜AbsoЯute Zero The Best 1〜",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2018-05-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2018-05-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 19,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ee4b9858-7f71-4385-9e0e-809259b2c4f9",
+                                    "number": "4",
+                                    "title": "残酷なInvitation",
+                                    "length": 232000
+                                }
+                            ],
+                            "track-count": 19,
+                            "track-offset": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6d0a1e65-e606-448d-9982-728d131d691f",
+            "score": 49,
+            "title": "残酷シャングリラ",
+            "length": 298813,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "O★Z",
+                    "artist": {
+                        "id": "fc19ac49-fc6f-474b-969c-f270d2184360",
+                        "name": "O★Z",
+                        "sort-name": "O★Z",
+                        "disambiguation": "ヴィジュアルプリズン"
+                    }
+                }
+            ],
+            "first-release-date": "2021-10-06",
+            "releases": [
+                {
+                    "id": "e642b2a1-6041-426e-8c80-cb6a5ee39c35",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷シャングリラ / BLOODY KISS / 玉座のGEMINI",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": " / ",
+                            "name": "O★Z",
+                            "artist": {
+                                "id": "fc19ac49-fc6f-474b-969c-f270d2184360",
+                                "name": "O★Z",
+                                "sort-name": "O★Z",
+                                "disambiguation": "ヴィジュアルプリズン"
+                            }
+                        },
+                        {
+                            "joinphrase": " / ",
+                            "name": "LOS†EDEN",
+                            "artist": {
+                                "id": "31b0af42-32bb-4324-bfa5-526bd91f96b1",
+                                "name": "LOS†EDEN",
+                                "sort-name": "Lost Eden",
+                                "disambiguation": "ヴィジュアルプリズン"
+                            }
+                        },
+                        {
+                            "name": "ECLIPSE",
+                            "artist": {
+                                "id": "925b09a0-4cf8-40b5-829e-fba0b4ca91da",
+                                "name": "ECLIPSE",
+                                "sort-name": "ECLIPSE",
+                                "disambiguation": "ヴィジュアルプリズン"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "f2adb5c0-75a2-4428-b500-564df29f0dad",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷シャングリラ / BLOODY KISS / 玉座のGEMINI",
+                        "primary-type": "Single"
+                    },
+                    "date": "2021-10-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-10-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "c37bdfd6-6a01-4807-9b4e-c56ec9cb1f57",
+                                    "number": "1",
+                                    "title": "残酷シャングリラ",
+                                    "length": 298813
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "86438d03-fee0-41d6-86ec-2c7d65a05511",
+            "score": 48,
+            "title": "残酷な天使のテーゼ～MISATO～次回予告 F02～次回予告 F02 (アンコール)",
+            "length": 733000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "鷺巣詩郎",
+                    "artist": {
+                        "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                        "name": "鷺巣詩郎",
+                        "sort-name": "Sagisu, Shirō",
+                        "disambiguation": "anime & film music composer",
+                        "aliases": [
+                            {
+                                "sort-name": "さぎす しろう",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "さぎす しろう",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shirō",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Shirō Sagisu",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shirō",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "鷺巣詩郎",
+                                "locale": "ja",
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Siro",
+                                "name": "Siro Sagisu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "SAGISU, Shirou",
+                                "name": "SAGISU Shirou",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shiro",
+                                "name": "Shiro Sagisu (鷺巣詩郎)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "鷺巣 詩郎",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "鷺巣 詩郎",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shiroh",
+                                "name": "Shiroh Sagisu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "鷺巣詩朗",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "鷺巣詩朗",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Shiro Sagasu",
+                                "name": "Shiro Sagasu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "شيرو ساغيسو",
+                                "name": "شيرو ساغيسو",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shirou",
+                                "name": "Shirou Sagisu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "鷲巣詩郎",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "鷲巣詩郎",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shirô",
+                                "name": "Shirô Sagisu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sahisu, Shiro",
+                                "name": "Shiro Sahisu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sagisu, Shirow",
+                                "name": "Shirow Sagisu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "さぎす しろう",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "鷺巣詩郎",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2017-12-27",
+            "releases": [
+                {
+                    "id": "2f430822-b531-432c-8edd-ede831e37cf3",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                    "status": "Official",
+                    "disambiguation": "24bit/96kHz",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "e2738f79-05f7-45f3-805d-c85572174dc7",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2018-03-20",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2018-03-20",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 20,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "3059f212-7ae8-4228-ba9e-147aaa887ad0",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ～MISATO～次回予告 F02～次回予告 F02 (アンコール)",
+                                    "length": 733000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "e9f9d2d9-c78d-469b-86c5-b9219d7484c2",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "e2738f79-05f7-45f3-805d-c85572174dc7",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2017-12-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2017-12-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 20,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "3639e70a-a415-4c9b-82ea-2aff5bd7d0ad",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ～MISATO～次回予告 F02～次回予告 F02 (アンコール)",
+                                    "length": 733000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "afe119a5-7523-47d6-94cd-1c2c71b26200",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 2,
+                    "title": "Shin Godzilla vs. Evangelion Symphony",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "e2738f79-05f7-45f3-805d-c85572174dc7",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "track-count": 20,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "57a88e50-0bd8-4f85-a796-23fd09ae3e10",
+                                    "number": "10",
+                                    "title": "Zankoku Na Tenshi No Teze-Misato-Jikai Yokoku F02-Jikai Yokoku F02",
+                                    "length": 733000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "61b24b06-47a6-4311-8ebf-b5f8b86ab351",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤",
+                    "artist-credit": [
+                        {
+                            "name": "鷺巣詩郎",
+                            "artist": {
+                                "id": "9b127d23-f877-4541-83cd-44f46393dfb7",
+                                "name": "鷺巣詩郎",
+                                "sort-name": "Sagisu, Shirō",
+                                "disambiguation": "anime & film music composer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "e2738f79-05f7-45f3-805d-c85572174dc7",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "シン・ゴジラ対エヴァンゲリオン交響楽",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2017-12-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2017-12-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 20,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "1047e57c-d36b-4f2a-afc3-7f5b0f5cb5b8",
+                                    "number": "10",
+                                    "title": "残酷な天使のテーゼ～MISATO～次回予告 F02～次回予告 F02 (アンコール)",
+                                    "length": 733000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c642f7ec-7497-435c-81a5-ef0d30dc4c1c",
+            "score": 47,
+            "title": "孤独な天使",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "JULEPS",
+                    "artist": {
+                        "id": "1c2c24ef-1279-43c4-86c5-5dcb3364b797",
+                        "name": "JULEPS",
+                        "sort-name": "JULEPS",
+                        "disambiguation": "Japanese piano & chorus group"
+                    }
+                }
+            ],
+            "first-release-date": "2012-09-15",
+            "releases": [
+                {
+                    "id": "4153d569-d02d-4621-82c4-bfbf2f540e28",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "「I love you」song",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "368fe054-f36e-49c7-91d9-aea341b37f60",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "「I love you」song",
+                        "primary-type": "Album"
+                    },
+                    "date": "2012-09-15",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-09-15",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "a800c98c-f6f7-47cd-9a7d-b2df90214ad3",
+                                    "number": "9",
+                                    "title": "孤独な天使"
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "95de48c9-6d84-4e1e-8049-35dc647bb7f5",
+            "score": 47,
+            "title": "孤独な天使",
+            "length": 252499,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Kat McDowell",
+                    "artist": {
+                        "id": "823d2823-bfbe-46b4-aeb8-2e261d2eb14d",
+                        "name": "Kat McDowell",
+                        "sort-name": "McDowell, Kat"
+                    }
+                }
+            ],
+            "first-release-date": "2009",
+            "releases": [
+                {
+                    "id": "68256124-a127-4ce8-adf0-f4ae50c292f8",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Echoes over the Ocean",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "4529fc91-c049-4f4e-af32-b24c57fbfc95",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Echoes over the Ocean",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ae4ffcbe-718f-45a4-b5f1-3c4464252a1a",
+                                    "number": "11",
+                                    "title": "孤独な天使",
+                                    "length": 252499
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "59881af4-f155-4765-8cf2-fd6d3131e8ed",
+            "score": 47,
+            "title": "孤独な天使",
+            "length": 318000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "カルロス・トシキ",
+                    "artist": {
+                        "id": "f066ca1a-8cc0-45f5-b3e4-25231764651d",
+                        "name": "カルロス・トシキ",
+                        "sort-name": "Carlos Toshiki",
+                        "aliases": [
+                            {
+                                "sort-name": "Toshiki, Carlos",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Carlos Toshiki",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "たかはし カルロス としき",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "高橋カルロス敏樹",
+                                "locale": "ja",
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Takahashi, Carlos Toshiki",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "Carlos Toshiki Takahashi",
+                                "locale": "en",
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "たかはし としき",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "鷹橋敏輝",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": "1994",
+                                "end-date": "1995"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "1991-11-28",
+            "releases": [
+                {
+                    "id": "d8b19c9e-6c39-4b25-b027-331a25dcaa2c",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "夜明けまでBORDERLESS",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "カルロス・トシキ",
+                            "artist": {
+                                "id": "f066ca1a-8cc0-45f5-b3e4-25231764651d",
+                                "name": "カルロス・トシキ",
+                                "sort-name": "Carlos Toshiki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "c523dd18-4fe4-42ac-a59e-d6bb8b625cf0",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "夜明けまでBORDERLESS",
+                        "primary-type": "Single"
+                    },
+                    "date": "1991-11-28",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1991-11-28",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 2,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "8cm CD",
+                            "track": [
+                                {
+                                    "id": "42aa2def-f8f6-46fe-8acd-b400829fa636",
+                                    "number": "2",
+                                    "title": "孤独な天使"
+                                }
+                            ],
+                            "track-count": 2,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "052478d3-644e-4483-9e9e-0c7c3fa6bacc",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Emotional〜右側のハートたちへ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "カルロス・トシキ",
+                            "artist": {
+                                "id": "f066ca1a-8cc0-45f5-b3e4-25231764651d",
+                                "name": "カルロス・トシキ",
+                                "sort-name": "Carlos Toshiki"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "6d61a968-bcef-4772-a5d7-80469eec0a28",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Emotional〜右側のハートたちへ",
+                        "primary-type": "Album"
+                    },
+                    "date": "1991-12-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "1991-12-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 9,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6cb49e55-9f37-4b77-95e0-d178e53b1f0e",
+                                    "number": "6",
+                                    "title": "孤独な天使",
+                                    "length": 318000
+                                }
+                            ],
+                            "track-count": 9,
+                            "track-offset": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "96214635-98cb-432e-9427-f806cb5bd7a2",
+            "score": 46,
+            "title": "全国な天使のテーゼ（新世紀エヴァンゲリオン）",
+            "length": 290866,
+            "video": null,
+            "artist-credit": [
+                {
+                    "joinphrase": "×",
+                    "name": "H ZETT M(L)",
+                    "artist": {
+                        "id": "2e92e8ee-2519-485b-a5db-e58de6c3dec0",
+                        "name": "H ZETT M",
+                        "sort-name": "H ZETT M",
+                        "aliases": [
+                            {
+                                "sort-name": "H Zettrio pianist",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "H Zettrio pianist",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "joinphrase": "×",
+                    "name": "紅い流星(C)",
+                    "artist": {
+                        "id": "b18e70dd-b745-4a85-a74c-e1c76a40e97f",
+                        "name": "紅維流星",
+                        "sort-name": "Akai Ryūsei",
+                        "aliases": [
+                            {
+                                "sort-name": "アカイリュウセイ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "紅い流星",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": "2008-04-08",
+                                "end-date": "2019-04-09"
+                            },
+                            {
+                                "sort-name": "アカイリュウセイ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "紅維流星",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": "2019-04-09",
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Akai Ryusei",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Akai Ryusei",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "タケハナカズキ",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "竹花一希",
+                                "locale": "ja",
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "まらしぃ(R)",
+                    "artist": {
+                        "id": "4938c8c5-14e4-4545-a5a7-5b324caaa542",
+                        "name": "まらしぃ",
+                        "sort-name": "Marasy",
+                        "aliases": [
+                            {
+                                "sort-name": "Honda, Eito",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "Eito Honda",
+                                "locale": null,
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "マラシィ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "まらしぃ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "marasy",
+                                "name": "marasy",
+                                "locale": "en",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2012-07-25",
+            "releases": [
+                {
+                    "id": "5c169dcc-eb02-4cf9-933c-d878ec02d446",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "3D PIANO ANIME Theater!",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": "×",
+                            "name": "H ZETT M",
+                            "artist": {
+                                "id": "2e92e8ee-2519-485b-a5db-e58de6c3dec0",
+                                "name": "H ZETT M",
+                                "sort-name": "H ZETT M"
+                            }
+                        },
+                        {
+                            "joinphrase": "×",
+                            "name": "紅い流星",
+                            "artist": {
+                                "id": "b18e70dd-b745-4a85-a74c-e1c76a40e97f",
+                                "name": "紅維流星",
+                                "sort-name": "Akai Ryūsei"
+                            }
+                        },
+                        {
+                            "name": "まらしぃ",
+                            "artist": {
+                                "id": "4938c8c5-14e4-4545-a5a7-5b324caaa542",
+                                "name": "まらしぃ",
+                                "sort-name": "Marasy"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "8b452449-ea8f-4f6c-b9c6-f1ccc79b08c1",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "3D PIANO ANIME Theater!",
+                        "primary-type": "Album"
+                    },
+                    "date": "2012-07-25",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2012-07-25",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "0a99d340-1b64-4536-890f-c6afc317b608",
+                                    "number": "8",
+                                    "title": "全国な天使のテーゼ（新世紀エヴァンゲリオン）",
+                                    "length": 290866
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b2d8cfcb-1e27-40d5-9680-e46f5a7b0bea",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 293660,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "megane",
+                    "artist": {
+                        "id": "ed4905be-bdae-4166-aead-708179a79080",
+                        "name": "Studio Megaane",
+                        "sort-name": "Studio Megaane",
+                        "disambiguation": "8-bit Chiptunes of Anime Soundtracks",
+                        "aliases": [
+                            {
+                                "sort-name": "megaane",
+                                "name": "megaane",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2019-07-19",
+            "releases": [
+                {
+                    "id": "ce675227-85b8-43f0-b9e6-d3468ef7c6e9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "進撃の巨人8bit",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "megane",
+                            "artist": {
+                                "id": "ed4905be-bdae-4166-aead-708179a79080",
+                                "name": "Studio Megaane",
+                                "sort-name": "Studio Megaane",
+                                "disambiguation": "8-bit Chiptunes of Anime Soundtracks"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "a2e4c33f-a520-4c88-80c6-5b8f9215ad5e",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "進撃の巨人8bit",
+                        "primary-type": "Album"
+                    },
+                    "date": "2019-07-19",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-07-19",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "439f20e8-61c0-4f32-b35d-c08f0e35627f",
+                                    "number": "6",
+                                    "title": "美しき残酷な世界",
+                                    "length": 293660
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "70991e82-aae9-4df1-bb48-cfbf34e66b22",
+            "score": 46,
+            "title": "残酷な願いの中で",
+            "length": 252000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "joinphrase": "(",
+                    "name": "宮永咲",
+                    "artist": {
+                        "id": "f4938894-da71-4e44-a5b0-9c3fc00988ec",
+                        "name": "宮永咲",
+                        "sort-name": "Miyanaga, Saki",
+                        "disambiguation": "咲-Saki-",
+                        "aliases": [
+                            {
+                                "sort-name": "宮永咲(植田佳奈)",
+                                "name": "宮永咲(植田佳奈)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "joinphrase": ")・",
+                    "name": "植田佳奈",
+                    "artist": {
+                        "id": "6682a62e-5a4e-42a1-a32d-4e36b90f74ad",
+                        "name": "植田佳奈",
+                        "sort-name": "Ueda, Kana",
+                        "aliases": [
+                            {
+                                "sort-name": "うえだ かな",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "植田佳奈",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ueda, Kana",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Kana Ueda",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "joinphrase": "(",
+                    "name": "原村和",
+                    "artist": {
+                        "id": "e227750b-1f67-4ccc-b173-bc2f88206237",
+                        "name": "原村和",
+                        "sort-name": "Haramura, Nodoka",
+                        "disambiguation": "咲-Saki-",
+                        "aliases": [
+                            {
+                                "sort-name": "原村和(小清水亜美)",
+                                "name": "原村和(小清水亜美)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "joinphrase": ")",
+                    "name": "小清水亜美",
+                    "artist": {
+                        "id": "c9b49ba3-6f84-4f81-a315-791aab44230f",
+                        "name": "小清水亜美",
+                        "sort-name": "Koshimizu, Ami",
+                        "aliases": [
+                            {
+                                "sort-name": "Ami Koshimizu",
+                                "name": "Ami Koshimizu",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "こしみず あみ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "小清水亜美",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2009-05-27",
+            "releases": [
+                {
+                    "id": "8df04abc-bb5f-4fb0-a6fc-c04edfd61298",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Netsuretsu Kangei Wonderland",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "joinphrase": "(",
+                            "name": "宮永咲",
+                            "artist": {
+                                "id": "f4938894-da71-4e44-a5b0-9c3fc00988ec",
+                                "name": "宮永咲",
+                                "sort-name": "Miyanaga, Saki",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "植田佳奈",
+                            "artist": {
+                                "id": "6682a62e-5a4e-42a1-a32d-4e36b90f74ad",
+                                "name": "植田佳奈",
+                                "sort-name": "Ueda, Kana"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "原村和",
+                            "artist": {
+                                "id": "e227750b-1f67-4ccc-b173-bc2f88206237",
+                                "name": "原村和",
+                                "sort-name": "Haramura, Nodoka",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "小清水亜美",
+                            "artist": {
+                                "id": "c9b49ba3-6f84-4f81-a315-791aab44230f",
+                                "name": "小清水亜美",
+                                "sort-name": "Koshimizu, Ami"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "片岡優希",
+                            "artist": {
+                                "id": "7821a2a4-66a3-4c29-b641-c5ed29eea3d7",
+                                "name": "片岡優希",
+                                "sort-name": "Kataoka, Yuuki",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "釘宮理恵",
+                            "artist": {
+                                "id": "65ce56cd-784f-42f3-856a-d5c0683fd375",
+                                "name": "釘宮理恵",
+                                "sort-name": "Kugimiya, Rie"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "染谷まこ",
+                            "artist": {
+                                "id": "6b16f4a9-b0b7-4c3e-b0f2-cca94ce8d4c2",
+                                "name": "染谷まこ",
+                                "sort-name": "Someya, Mako",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "白石涼子",
+                            "artist": {
+                                "id": "c8ff33b4-04a7-4ecc-b4c7-0643a8a107de",
+                                "name": "白石涼子",
+                                "sort-name": "Shiraishi, Ryouko"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "竹井久",
+                            "artist": {
+                                "id": "cd03ae6b-02de-429f-8ebe-6ef021f76584",
+                                "name": "竹井久",
+                                "sort-name": "Takei, Hisa",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")",
+                            "name": "伊藤静",
+                            "artist": {
+                                "id": "0cd83f85-ba0e-46c0-9c48-1ef04fbcfd4f",
+                                "name": "伊藤静",
+                                "sort-name": "Itō, Shizuka"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "1d820d9a-4fcc-46e4-93da-3ab5076d14a9",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "熱烈歓迎わんだーらんど",
+                        "primary-type": "Single"
+                    },
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "6b881a3f-1207-3aa9-8a42-bff55e5d63be",
+                                    "number": "2",
+                                    "title": "Zankoku na Negai no Naka de",
+                                    "length": 252000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "c14505d0-738f-4b50-8e53-925b4ca95cb1",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "熱烈歓迎わんだーらんど",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "joinphrase": "(",
+                            "name": "宮永咲",
+                            "artist": {
+                                "id": "f4938894-da71-4e44-a5b0-9c3fc00988ec",
+                                "name": "宮永咲",
+                                "sort-name": "Miyanaga, Saki",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "植田佳奈",
+                            "artist": {
+                                "id": "6682a62e-5a4e-42a1-a32d-4e36b90f74ad",
+                                "name": "植田佳奈",
+                                "sort-name": "Ueda, Kana"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "原村和",
+                            "artist": {
+                                "id": "e227750b-1f67-4ccc-b173-bc2f88206237",
+                                "name": "原村和",
+                                "sort-name": "Haramura, Nodoka",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "小清水亜美",
+                            "artist": {
+                                "id": "c9b49ba3-6f84-4f81-a315-791aab44230f",
+                                "name": "小清水亜美",
+                                "sort-name": "Koshimizu, Ami"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "片岡優希",
+                            "artist": {
+                                "id": "7821a2a4-66a3-4c29-b641-c5ed29eea3d7",
+                                "name": "片岡優希",
+                                "sort-name": "Kataoka, Yuuki",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "釘宮理恵",
+                            "artist": {
+                                "id": "65ce56cd-784f-42f3-856a-d5c0683fd375",
+                                "name": "釘宮理恵",
+                                "sort-name": "Kugimiya, Rie"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "染谷まこ",
+                            "artist": {
+                                "id": "6b16f4a9-b0b7-4c3e-b0f2-cca94ce8d4c2",
+                                "name": "染谷まこ",
+                                "sort-name": "Someya, Mako",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")・",
+                            "name": "白石涼子",
+                            "artist": {
+                                "id": "c8ff33b4-04a7-4ecc-b4c7-0643a8a107de",
+                                "name": "白石涼子",
+                                "sort-name": "Shiraishi, Ryouko"
+                            }
+                        },
+                        {
+                            "joinphrase": "(",
+                            "name": "竹井久",
+                            "artist": {
+                                "id": "cd03ae6b-02de-429f-8ebe-6ef021f76584",
+                                "name": "竹井久",
+                                "sort-name": "Takei, Hisa",
+                                "disambiguation": "咲-Saki-"
+                            }
+                        },
+                        {
+                            "joinphrase": ")",
+                            "name": "伊藤静",
+                            "artist": {
+                                "id": "0cd83f85-ba0e-46c0-9c48-1ef04fbcfd4f",
+                                "name": "伊藤静",
+                                "sort-name": "Itō, Shizuka"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "1d820d9a-4fcc-46e4-93da-3ab5076d14a9",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "熱烈歓迎わんだーらんど",
+                        "primary-type": "Single"
+                    },
+                    "date": "2009-05-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2009-05-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "10029677-c025-387f-8b8a-c49cf80637e4",
+                                    "number": "2",
+                                    "title": "残酷な願いの中で",
+                                    "length": 253000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPI100900780"
+            ]
+        },
+        {
+            "id": "31e67b30-7028-469a-9527-c8c117327a5e",
+            "score": 46,
+            "title": "残酷な願いの中で",
+            "length": 277000,
+            "disambiguation": "CooRie Version",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "CooRie",
+                    "artist": {
+                        "id": "f073423a-8619-45b9-a672-04583e5d1c97",
+                        "name": "CooRie",
+                        "sort-name": "CooRie"
+                    }
+                }
+            ],
+            "first-release-date": "2013-12-18",
+            "releases": [
+                {
+                    "id": "15b4c7ec-1fe8-49b0-89dc-b631c12127cd",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "melodium",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "33042ccd-b4fd-441f-abbb-def961dfe0ca",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "melodium",
+                        "primary-type": "Album"
+                    },
+                    "date": "2013-12-18",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-12-18",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "b41e82fe-c7e4-4f5c-a5d3-3cd0a52b26a6",
+                                    "number": "7",
+                                    "title": "残酷な願いの中で",
+                                    "length": 277000
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "781cd3dd-1a6d-4e45-a914-ccb57dc60a3c",
+            "score": 46,
+            "title": "Jakarta 継母より残酷な",
+            "length": 195000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Cendana Heavy Industries",
+                    "artist": {
+                        "id": "32d6b1ba-48f7-43f6-8b92-048125db658a",
+                        "name": "Setsuko Suwa",
+                        "sort-name": "Setsuko Suwa"
+                    }
+                }
+            ],
+            "first-release-date": "2017-03-07",
+            "releases": [
+                {
+                    "id": "295ea247-3fa9-44f3-969e-0175d496b395",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "トランスジャカルタ past midnight",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "0446fea4-6637-4b51-8f13-c19828cd5a7b",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "トランスジャカルタ past midnight",
+                        "primary-type": "Album"
+                    },
+                    "date": "2017-03-07",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2017-03-07",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 7,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "c3d961e7-92dd-488a-a8b0-1bd10baed279",
+                                    "number": "3",
+                                    "title": "Jakarta 継母より残酷な",
+                                    "length": 195000
+                                }
+                            ],
+                            "track-count": 7,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7b524424-90a7-49e9-b486-07fb149e8274",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 82000,
+            "disambiguation": "DJ-mixed: 没入time",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "暁月凛",
+                    "artist": {
+                        "id": "2598b920-af00-4e29-b571-2bc053b9137f",
+                        "name": "暁月凛",
+                        "sort-name": "Akatsuki, Rin",
+                        "aliases": [
+                            {
+                                "sort-name": "あかつき りん",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "暁月凛",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2019-12-11",
+            "releases": [
+                {
+                    "id": "9ecc6472-3930-4058-bad6-880b13581f49",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "没入time mixed by DJ 和",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "暁月凛",
+                            "artist": {
+                                "id": "2598b920-af00-4e29-b571-2bc053b9137f",
+                                "name": "暁月凛",
+                                "sort-name": "Akatsuki, Rin"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9199228a-fabe-4eef-845b-99fd6650eccf",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "没入time mixed by DJ 和",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "DJ-mix"
+                        ],
+                        "secondary-type-ids": [
+                            "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+                        ]
+                    },
+                    "date": "2019-12-11",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-12-11",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 20,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "42f4eb52-d6a9-4d7c-9348-18da7faa63ed",
+                                    "number": "10",
+                                    "title": "美しき残酷な世界",
+                                    "length": 82000
+                                }
+                            ],
+                            "track-count": 20,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2dadc3f3-4123-4147-a919-b2fd32690752",
+            "score": 46,
+            "title": "この残酷な地上に",
+            "length": 253000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "藤澤健至",
+                    "artist": {
+                        "id": "0f288aad-efb5-4c00-9b22-76a16b704055",
+                        "name": "藤澤健至",
+                        "sort-name": "Fujisawa, Kenji"
+                    }
+                }
+            ],
+            "first-release-date": "2021-04-03",
+            "releases": [
+                {
+                    "id": "3e36e261-d871-4cac-bf05-a823552f3153",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "回復術士のやり直し Original Soundtrack CD 1",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "9e0718ef-e241-45f0-a7d2-e82c5d9131b0",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "回復術士のやり直し Original Soundtrack CD 1",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2021-04-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-04-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 21,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "66442cf0-4ecc-4374-87ae-3f5451f2b720",
+                                    "number": "16",
+                                    "title": "この残酷な地上に",
+                                    "length": 253000
+                                }
+                            ],
+                            "track-count": 21,
+                            "track-offset": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cb50b722-56f5-41f2-96e2-4ea3c37c0d17",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 294000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "柾花音",
+                    "artist": {
+                        "id": "66d009cf-6083-4b91-93c3-55c05c1895cf",
+                        "name": "柾花音",
+                        "sort-name": "Masaki, Kanon"
+                    }
+                }
+            ],
+            "first-release-date": "2021-06-02",
+            "releases": [
+                {
+                    "id": "68ec407d-4c2f-4d99-a2fa-1384e8f42f89",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "まかのんソングス～あにそん～",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "5dac2d01-5845-4673-9076-085785f7b2e4",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "まかのんソングス～あにそん～",
+                        "primary-type": "Album"
+                    },
+                    "date": "2021-06-02",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-06-02",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "b614c780-74aa-40e2-abda-57ae7120387e",
+                                    "number": "10",
+                                    "title": "美しき残酷な世界",
+                                    "length": 294000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cf94e020-072d-41fb-94a7-a74270a95206",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 289000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "森中花咲",
+                    "artist": {
+                        "id": "9c3926e3-48fe-4dfb-a05b-b331ad6b1705",
+                        "name": "森中花咲",
+                        "sort-name": "Morinaka, Kazaki",
+                        "disambiguation": "にじさんじ",
+                        "aliases": [
+                            {
+                                "sort-name": "もりなかかざき",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "もりなかかざき",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "もりなか かざき",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "もりなか かざき",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Morinaka, Kazaki",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Kazaki Morinaka",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "モリナカカザキ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "森中花咲",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2021-05-26",
+            "releases": [
+                {
+                    "id": "9fcd24fb-095f-434a-8d35-fffab0a6c89b",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "下剋上",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤",
+                    "artist-credit": [
+                        {
+                            "name": "森中花咲",
+                            "artist": {
+                                "id": "9c3926e3-48fe-4dfb-a05b-b331ad6b1705",
+                                "name": "森中花咲",
+                                "sort-name": "Morinaka, Kazaki",
+                                "disambiguation": "にじさんじ"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5bf9b21a-900a-457a-aaab-3169d69a3469",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "下剋上",
+                        "primary-type": "Album"
+                    },
+                    "date": "2021-05-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-05-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 15,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "312ec801-acf7-4b02-a911-cc77ed80e369",
+                                    "number": "2",
+                                    "title": "美しき残酷な世界",
+                                    "length": 289000
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPPI02100280"
+            ]
+        },
+        {
+            "id": "cec8e296-ff98-48dc-83a3-1d5bca3c834b",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 295000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Yami Tabby",
+                    "artist": {
+                        "id": "23c58bd8-0188-4a4a-b593-a14c2830fafd",
+                        "name": "Yami Tabby",
+                        "sort-name": "Yami Tabby"
+                    }
+                }
+            ],
+            "first-release-date": "2015-11-06",
+            "releases": [
+                {
+                    "id": "7b19d5c5-7d85-4be3-97dd-0260f727ace8",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Japani Beats! Yami Tabby Special Vol.1",
+                    "status": "Official",
+                    "disambiguation": "24bit/48kHz",
+                    "release-group": {
+                        "id": "2bddf96f-c4de-4679-b8d9-e4a2699e0d14",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Japani Beats! Yami Tabby Special Vol.1",
+                        "primary-type": "Album"
+                    },
+                    "date": "2015-11-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2015-11-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "69ac32ff-9696-44ad-8d4e-38f996cc098e",
+                                    "number": "4",
+                                    "title": "美しき残酷な世界",
+                                    "length": 295000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "856e4b9b-e560-484a-8d19-040af33b7d1e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Japani Beats! Yami Tabby Special Vol.1",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "2bddf96f-c4de-4679-b8d9-e4a2699e0d14",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Japani Beats! Yami Tabby Special Vol.1",
+                        "primary-type": "Album"
+                    },
+                    "date": "2015-11-06",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2015-11-06",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 10,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "c75f7e28-5fad-4141-bb7c-de3405ce8613",
+                                    "number": "4",
+                                    "title": "美しき残酷な世界",
+                                    "length": 295000
+                                }
+                            ],
+                            "track-count": 10,
+                            "track-offset": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "58951472-ec00-472e-9da5-cd544201cb0f",
+            "score": 46,
+            "title": "残酷な現実(M-46)",
+            "length": 49560,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "田中公平",
+                    "artist": {
+                        "id": "7805e018-4db0-46f9-96a6-8607995c26a8",
+                        "name": "田中公平",
+                        "sort-name": "Tanaka, Kouhei",
+                        "aliases": [
+                            {
+                                "sort-name": "たなか こうへい",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "田中公平",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tanaka, Kōhei",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Kōhei Tanaka",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tanaka, Kouhei",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Kouhei Tanaka",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Koohei Tanaka",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Koohei Tanaka",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Tanaka, Kohei",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Kohei Tanaka",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sakura Wars",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Sakura Wars",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Sakura Taisen",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Sakura Taisen",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "田中 公平",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "田中 公平",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2019-08-16",
+            "releases": [
+                {
+                    "id": "e03deb01-2773-4266-b91d-04f12e5117f0",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "TVアニメ『笑ゥせぇるすまん』 オリジナル・サウンドトラック",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "田中公平",
+                            "artist": {
+                                "id": "7805e018-4db0-46f9-96a6-8607995c26a8",
+                                "name": "田中公平",
+                                "sort-name": "Tanaka, Kouhei"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "61e3be1e-0341-4d6c-9bc0-aea27dd47100",
+                        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "TVアニメ『笑ゥせぇるすまん』 オリジナル・サウンドトラック",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Soundtrack"
+                        ],
+                        "secondary-type-ids": [
+                            "22a628ad-c082-3c4f-b1b6-d41665107b88"
+                        ]
+                    },
+                    "date": "2019-08-16",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2019-08-16",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 115,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "056f6fb4-5c90-4c6d-80c0-c7f7fc946fe2",
+                                    "number": "50",
+                                    "title": "残酷な現実(M-46)",
+                                    "length": 49560
+                                }
+                            ],
+                            "track-count": 69,
+                            "track-offset": 49
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f048ec90-01de-40f9-8505-8ae57dc1b05f",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 295765,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "小川美加",
+                    "artist": {
+                        "id": "50826f29-592a-4197-90b2-0dfa3e42c2d0",
+                        "name": "小川美加",
+                        "sort-name": "Ogawa, Mika"
+                    }
+                }
+            ],
+            "first-release-date": "2014-09-26",
+            "releases": [
+                {
+                    "id": "6089c2c6-2b82-457d-b78a-5972906bd3b5",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Japan Animesong Collection, Vol. 52 (アニソン ジャパン)",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3fd8e370-8ebe-465f-9009-f1c5dd178567",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Japan Animesong Collection, Vol. 52 (アニソン ジャパン)",
+                        "primary-type": "Album"
+                    },
+                    "date": "2014-09-26",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2014-09-26",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "4c446750-8a5a-4702-8f5b-affeb06941f5",
+                                    "number": "1",
+                                    "title": "美しき残酷な世界",
+                                    "length": 295765
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3ed9209e-3a3a-4f65-801b-1fe98a739c06",
+            "score": 46,
+            "title": "残酷な夢と眠れ",
+            "length": 264000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "栗林みな実",
+                    "artist": {
+                        "id": "d7218666-b9e2-420f-b24f-378ba6a0e067",
+                        "name": "栗林みな実",
+                        "sort-name": "Kuribayashi, Minami",
+                        "aliases": [
+                            {
+                                "sort-name": "くりばやしみなみ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "栗林みな実",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "栗林みな美",
+                                "name": "栗林みな美",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "くりばやし みなみ",
+                                "name": "くりばやし みなみ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "栗林 みな実",
+                                "name": "栗林 みな実",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Kuribayashi, Minami",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Minami Kuribayashi",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2021-01-27",
+            "releases": [
+                {
+                    "id": "bcdbcb42-e158-491c-a735-a32af0cf164a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な夢と眠れ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "栗林みな実",
+                            "artist": {
+                                "id": "d7218666-b9e2-420f-b24f-378ba6a0e067",
+                                "name": "栗林みな実",
+                                "sort-name": "Kuribayashi, Minami"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "1eb3362b-ebb0-44d4-8a14-ff7b89cc87d4",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な夢と眠れ",
+                        "primary-type": "Single"
+                    },
+                    "date": "2021-01-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-01-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "09b51265-18fe-4a7c-bf50-3c4678c52925",
+                                    "number": "1",
+                                    "title": "残酷な夢と眠れ",
+                                    "length": 263000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "994ae2c8-826a-497b-9150-ad93de441fe5",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "残酷な夢と眠れ",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤",
+                    "artist-credit": [
+                        {
+                            "name": "栗林みな実",
+                            "artist": {
+                                "id": "d7218666-b9e2-420f-b24f-378ba6a0e067",
+                                "name": "栗林みな実",
+                                "sort-name": "Kuribayashi, Minami"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "1eb3362b-ebb0-44d4-8a14-ff7b89cc87d4",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な夢と眠れ",
+                        "primary-type": "Single"
+                    },
+                    "date": "2021-01-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-01-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "87c331c9-5f92-4ff5-9caf-3fb739dc68c9",
+                                    "number": "1",
+                                    "title": "残酷な夢と眠れ",
+                                    "length": 264000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "fec3893a-4ceb-4637-9a68-8bde6000434e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "残酷な夢と眠れ",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "栗林みな実",
+                            "artist": {
+                                "id": "d7218666-b9e2-420f-b24f-378ba6a0e067",
+                                "name": "栗林みな実",
+                                "sort-name": "Kuribayashi, Minami"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "1eb3362b-ebb0-44d4-8a14-ff7b89cc87d4",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "残酷な夢と眠れ",
+                        "primary-type": "Single"
+                    },
+                    "date": "2021-01-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-01-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "cded4aee-9bbe-469c-9678-242279043507",
+                                    "number": "1",
+                                    "title": "残酷な夢と眠れ",
+                                    "length": 264000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPI102002284"
+            ]
+        },
+        {
+            "id": "2155ff27-42ac-4911-8d65-bd44f4e79907",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 293706,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "日笠陽子",
+                    "artist": {
+                        "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                        "name": "日笠陽子",
+                        "sort-name": "Hikasa, Yōko",
+                        "disambiguation": "Japanese actress and singer",
+                        "aliases": [
+                            {
+                                "sort-name": "Youko Hikasa",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Youko Hikasa",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "日笠 陽子",
+                                "name": "日笠 陽子",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hisaka Youko",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Hisaka Youko",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Hikasa, Yōko",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yōko Hikasa",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ひかさ ようこ",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "日笠陽子",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ひかさ ようこ",
+                                "name": "ひかさ ようこ",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2013-05-08",
+            "releases": [
+                {
+                    "id": "7d74dc05-fe44-4818-bf9f-e08f2e0bfae2",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Couleur",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Yoko Hikasa",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "afb39955-318a-49d7-a2b3-6c028184cb33",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Couleur",
+                        "primary-type": "Album"
+                    },
+                    "date": "2014-09-03",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2014-09-03",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "ccc9947f-3fdb-4d08-9cfd-300b909ebf81",
+                                    "number": "5",
+                                    "title": "Utsukushiki Zankokuna Sekai (from “Attack on Titan”)",
+                                    "length": 293707
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "d45545f3-e3bb-47d7-83a0-dfaa36fb6f7e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Couleur",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Yoko Hikasa",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "afb39955-318a-49d7-a2b3-6c028184cb33",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Couleur",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "03793d61-8e27-482b-909a-1a64602ba4a2",
+                                    "number": "5",
+                                    "title": "Utsukushiki Zankokuna Sekai (From “Attack on Titan”)",
+                                    "length": 293706
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "9408ce72-3f6e-4e63-9bae-55d7c55a88d7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "美しき残酷な世界",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "854f183d-7bc0-4c75-96c3-26a3ed7daf87",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "美しき残酷な世界",
+                        "primary-type": "Single"
+                    },
+                    "date": "2013-05-08",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-05-08",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "663b9b28-974e-42f5-9f3e-db625f82d686",
+                                    "number": "1",
+                                    "title": "美しき残酷な世界",
+                                    "length": 296573
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "125bfeae-515c-409c-9f28-c272f1ef9c4d",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "美しき残酷な世界",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "854f183d-7bc0-4c75-96c3-26a3ed7daf87",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "美しき残酷な世界",
+                        "primary-type": "Single"
+                    },
+                    "date": "2013-07",
+                    "country": "KR",
+                    "release-events": [
+                        {
+                            "date": "2013-07",
+                            "area": {
+                                "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+                                "name": "South Korea",
+                                "sort-name": "South Korea",
+                                "iso-3166-1-codes": [
+                                    "KR"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "b717454c-17f0-4ef2-a6a3-d8a5ef8a7aa4",
+                                    "number": "1",
+                                    "title": "美しき残酷な世界",
+                                    "length": 296573
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "10cd8681-2311-4c31-9306-b37b210f2b37",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "美しき残酷な世界",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "854f183d-7bc0-4c75-96c3-26a3ed7daf87",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "美しき残酷な世界",
+                        "primary-type": "Single"
+                    },
+                    "date": "2013-05-08",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-05-08",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "d4e23d5d-b634-3a5e-89fc-c7f3c2825e9d",
+                                    "number": "1",
+                                    "title": "美しき残酷な世界",
+                                    "length": 296573
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "02faf620-4f38-403e-a89b-a26f184b5b79",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Couleur",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "afb39955-318a-49d7-a2b3-6c028184cb33",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Couleur",
+                        "primary-type": "Album"
+                    },
+                    "date": "2014-09-03",
+                    "country": "AU",
+                    "release-events": [
+                        {
+                            "date": "2014-09-03",
+                            "area": {
+                                "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                                "name": "Australia",
+                                "sort-name": "Australia",
+                                "iso-3166-1-codes": [
+                                    "AU"
+                                ]
+                            }
+                        },
+                        {
+                            "date": "2014-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "d857092b-4da2-405b-9759-97aa98e4febd",
+                                    "number": "5",
+                                    "title": "美しき残酷な世界",
+                                    "length": 293706
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "2ae4cd36-1bbe-47f7-98a7-2db564e5e760",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Couleur",
+                    "status": "Official",
+                    "disambiguation": "通常盤",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "afb39955-318a-49d7-a2b3-6c028184cb33",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Couleur",
+                        "primary-type": "Album"
+                    },
+                    "date": "2014-09-03",
+                    "country": "XW",
+                    "release-events": [
+                        {
+                            "date": "2014-09-03",
+                            "area": {
+                                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                "name": "[Worldwide]",
+                                "sort-name": "[Worldwide]",
+                                "iso-3166-1-codes": [
+                                    "XW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "5fbedac5-2688-431b-9c76-167b3175ba27",
+                                    "number": "5",
+                                    "title": "美しき残酷な世界",
+                                    "length": 293000
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "173ceec5-8228-4f2e-98b5-864b6101d52e",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Utsukushiki Zankokuna Sekai",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Yōko Hikasa",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "854f183d-7bc0-4c75-96c3-26a3ed7daf87",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "美しき残酷な世界",
+                        "primary-type": "Single"
+                    },
+                    "date": "2014-07-31",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "2014-07-31",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "2b838abb-9d2e-4ba9-b378-d3facaa58438",
+                                    "number": "1",
+                                    "title": "Utsukushiki Zankokuna Sekai",
+                                    "length": 296573
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "cd860f42-3cbc-4148-b996-e7dc04f6de96",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Couleur",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤[CD+DVD]",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "afb39955-318a-49d7-a2b3-6c028184cb33",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Couleur",
+                        "primary-type": "Album"
+                    },
+                    "date": "2014-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2014-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "f95cdb0b-c4ab-4322-be84-6afdb9af6d55",
+                                    "number": "5",
+                                    "title": "美しき残酷な世界",
+                                    "length": 293000
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "1ef28f7e-2386-4c6e-b013-750aef496709",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Couleur",
+                    "status": "Official",
+                    "disambiguation": "初回限定盤[CD+Blu-ray]",
+                    "artist-credit": [
+                        {
+                            "name": "日笠陽子",
+                            "artist": {
+                                "id": "d5dfc690-732c-44c8-8b83-dfbddd1f42f3",
+                                "name": "日笠陽子",
+                                "sort-name": "Hikasa, Yōko",
+                                "disambiguation": "Japanese actress and singer"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "afb39955-318a-49d7-a2b3-6c028184cb33",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Couleur",
+                        "primary-type": "Album"
+                    },
+                    "date": "2014-09-03",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2014-09-03",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "989df02e-70ce-40f3-a4a2-6e54f43f64a9",
+                                    "number": "5",
+                                    "title": "美しき残酷な世界",
+                                    "length": 293706
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 4
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPPC01300484"
+            ]
+        },
+        {
+            "id": "22c39cb2-1101-47be-8c73-6b96a468f6f5",
+            "score": 46,
+            "title": "美しき残酷な世界",
+            "length": 320071,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "コロムビアオルゴール",
+                    "artist": {
+                        "id": "12b4b7e3-6404-4136-8288-b9d8ffc90ea4",
+                        "name": "コロムビアオルゴール",
+                        "sort-name": "Columbia Orgel"
+                    }
+                }
+            ],
+            "first-release-date": "2013-05-22",
+            "releases": [
+                {
+                    "id": "1df1ab32-63c5-40dc-a384-9963d51fa091",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Eternal 2013 19 (オルゴールミュージック)",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "5e3d65fe-09c1-4288-9509-e5858b06d173",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Eternal 2013 19 (オルゴールミュージック)",
+                        "primary-type": "Album"
+                    },
+                    "date": "2013-05-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2013-05-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 7,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "4c9ca365-eaff-431f-b7b3-0a6bf9e6396b",
+                                    "number": "4",
+                                    "title": "美しき残酷な世界",
+                                    "length": 320071
+                                }
+                            ],
+                            "track-count": 7,
+                            "track-offset": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d87143c7-7d7f-4f24-8fdd-45a5e3d00e5f",
+            "score": 44,
+            "title": "残骸、残想、残酷な貴方へ...",
+            "length": 263000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Chateau La tour",
+                    "artist": {
+                        "id": "d2cfc2c4-bb92-4cac-b9db-4c9f38cb015a",
+                        "name": "Chateau La tour",
+                        "sort-name": "Chateau La tour",
+                        "disambiguation": "Japanese Band"
+                    }
+                }
+            ],
+            "first-release-date": "2001-07-04",
+            "releases": [
+                {
+                    "id": "9441fce6-d01f-407a-b99f-6dd3bdec9eb7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Metem Psychosis",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "153e74b4-59d1-4544-adc0-1d5a8b0431b7",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Metem Psychosis",
+                        "primary-type": "Album"
+                    },
+                    "date": "2001-07-04",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2001-07-04",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "8501215c-1a98-4099-8dd4-f0e68a5a619c",
+                                    "number": "3",
+                                    "title": "残骸、残想、残酷な貴方へ...",
+                                    "length": 263000
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "94aa6979-d3b3-4ceb-93b8-a1a5391c6cd0",
+            "score": 44,
+            "title": "残酷な天秤と鳥籠の少女",
+            "length": 320000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Ariabl’eyeS",
+                    "artist": {
+                        "id": "af1683e6-9bc0-4e02-a9b3-0cd83a5e90dc",
+                        "name": "Ariabl'eyeS",
+                        "sort-name": "Ariabl'eyeS",
+                        "disambiguation": "Japanese symphonic power metal band",
+                        "aliases": [
+                            {
+                                "sort-name": "AriableyeS",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "AriableyeS",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ariabl’eyeS",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "アリアブルアイズ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2014-04-27",
+            "releases": [
+                {
+                    "id": "cb5fee3b-fafd-4664-9dc1-9ede2cbfe593",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "蒼月ラメント",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Ariabl’eyeS",
+                            "artist": {
+                                "id": "af1683e6-9bc0-4e02-a9b3-0cd83a5e90dc",
+                                "name": "Ariabl'eyeS",
+                                "sort-name": "Ariabl'eyeS",
+                                "disambiguation": "Japanese symphonic power metal band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "be340c7c-72a9-4dfc-b907-8aacbe9e325e",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "蒼月ラメント",
+                        "primary-type": "EP"
+                    },
+                    "date": "2014-04-27",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2014-04-27",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 6,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "94ba65ac-515a-4adf-9616-e68f51cf336f",
+                                    "number": "3",
+                                    "title": "残酷な天秤と鳥籠の少女",
+                                    "length": 320000
+                                }
+                            ],
+                            "track-count": 6,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "TCJPM2076943"
+            ]
+        },
+        {
+            "id": "0dc3498e-de90-4ae3-96f2-b152884011de",
+            "score": 44,
+            "title": "残酷な天秤と鳥籠の少女",
+            "length": 318000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Ariabl’eyeS",
+                    "artist": {
+                        "id": "af1683e6-9bc0-4e02-a9b3-0cd83a5e90dc",
+                        "name": "Ariabl'eyeS",
+                        "sort-name": "Ariabl'eyeS",
+                        "disambiguation": "Japanese symphonic power metal band",
+                        "aliases": [
+                            {
+                                "sort-name": "AriableyeS",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "AriableyeS",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Ariabl’eyeS",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "アリアブルアイズ",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2021-04-25",
+            "releases": [
+                {
+                    "id": "a5ccf86f-ea75-4a07-8e60-a91b719503ba",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Best of Aria [2011–2016]",
+                    "status": "Official",
+                    "disambiguation": "Disc2",
+                    "artist-credit": [
+                        {
+                            "name": "Ariabl’eyeS",
+                            "artist": {
+                                "id": "af1683e6-9bc0-4e02-a9b3-0cd83a5e90dc",
+                                "name": "Ariabl'eyeS",
+                                "sort-name": "Ariabl'eyeS",
+                                "disambiguation": "Japanese symphonic power metal band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "311c2210-3dc9-4cb7-94cb-9be727e8a3ad",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Best of Aria [2011-2016]",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2021-07-29",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-07-29",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "c2d6629b-ebcc-4221-9a22-4147decc7983",
+                                    "number": "2",
+                                    "title": "残酷な天秤と鳥籠の少女",
+                                    "length": 318000
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "df8d6de9-df59-420d-8590-b1ef97874c2a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "Best of Aria [2011-2016]",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Ariabl’eyeS",
+                            "artist": {
+                                "id": "af1683e6-9bc0-4e02-a9b3-0cd83a5e90dc",
+                                "name": "Ariabl'eyeS",
+                                "sort-name": "Ariabl'eyeS",
+                                "disambiguation": "Japanese symphonic power metal band"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "311c2210-3dc9-4cb7-94cb-9be727e8a3ad",
+                        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Best of Aria [2011-2016]",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Compilation"
+                        ],
+                        "secondary-type-ids": [
+                            "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+                        ]
+                    },
+                    "date": "2021-04-25",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2021-04-25",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 22,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "fef5c6ee-afc8-4a9b-b9b9-5734ceae6c56",
+                                    "number": "2",
+                                    "title": "残酷な天秤と鳥籠の少女"
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "TCJPP2130106"
+            ]
+        },
+        {
+            "id": "2f9d5475-bdbf-4fcc-8669-eb2f33da78c1",
+            "score": 44,
+            "title": "殘酷遊戲",
+            "length": 248000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "衛蘭",
+                    "artist": {
+                        "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                        "name": "衛蘭",
+                        "sort-name": "Vidal, Janice",
+                        "aliases": [
+                            {
+                                "sort-name": "卫兰",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "卫兰",
+                                "locale": "zh_Hans",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Vidal, Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice Vidal",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Wei Lan",
+                                "name": "Wei Lan",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice (衛蘭)",
+                                "name": "Janice (衛蘭)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2010-12-06",
+            "releases": [
+                {
+                    "id": "bc55a0d0-da22-4cc1-bb2f-bbe0d5470b77",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Fairy Concert 2010",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Various Artists",
+                            "artist": {
+                                "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                                "name": "Various Artists",
+                                "sort-name": "Various Artists",
+                                "disambiguation": "add compilations to this artist"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7508d866-ca46-4886-a053-6b1c6c978afc",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Fairy Concert 2010",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2010-12-06",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2010-12-06",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "9557cbc8-a8ee-3ecc-aa3d-d07cb4cf7e1c",
+                                    "number": "3",
+                                    "title": "殘酷遊戲",
+                                    "length": 248000
+                                }
+                            ],
+                            "track-count": 13,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b5d996dc-afba-4751-aa14-51d0f6405f81",
+            "score": 44,
+            "title": "殘酷劇場",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "谷祖琳",
+                    "artist": {
+                        "id": "eae52093-06d1-4c11-b3e2-177a16d3a6d2",
+                        "name": "谷祖琳",
+                        "sort-name": "Koo, Jo",
+                        "aliases": [
+                            {
+                                "sort-name": "Jo Koo",
+                                "name": "Jo Koo",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Gu Zulin",
+                                "name": "Gu Zulin",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Jo Kuk",
+                                "name": "Jo Kuk",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2002-05-10",
+            "releases": [
+                {
+                    "id": "6c1e1270-980b-474c-8a2f-a93d46ee2ae5",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Jo Koo",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "谷祖琳",
+                            "artist": {
+                                "id": "eae52093-06d1-4c11-b3e2-177a16d3a6d2",
+                                "name": "谷祖琳",
+                                "sort-name": "Koo, Jo"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "79202022-8f30-3688-b178-f79f6ebe2602",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Jo Koo",
+                        "primary-type": "Album"
+                    },
+                    "date": "2002-05-10",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2002-05-10",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 9,
+                    "media": [
+                        {
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "1ca93ca2-844b-3e8d-bcd9-c2a96a6f84fb",
+                                    "number": "9",
+                                    "title": "殘酷劇場"
+                                }
+                            ],
+                            "track-count": 9,
+                            "track-offset": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5e3ec2e7-7966-444a-a239-b1a4a7fb97f8",
+            "score": 44,
+            "title": "殘酷月光",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "林宥嘉",
+                    "artist": {
+                        "id": "6985a488-8a39-44ab-93f1-1525c7490831",
+                        "name": "林宥嘉",
+                        "sort-name": "Lin, Yoga",
+                        "aliases": [
+                            {
+                                "sort-name": "Lin, Yoga",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Yoga Lin",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Lin, You Jia",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Lin You Jia",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "林宥嘉",
+                                "name": "林宥嘉",
+                                "locale": "zh",
+                                "type": null,
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Lin, James",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "James Lin",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2008-06-03",
+            "releases": [
+                {
+                    "id": "54a84491-55df-4be7-b190-7b659b5e564a",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Shen Mi Jia Bin",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "林宥嘉",
+                            "artist": {
+                                "id": "6985a488-8a39-44ab-93f1-1525c7490831",
+                                "name": "林宥嘉",
+                                "sort-name": "Lin, Yoga"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "73205915-0c5e-3a30-8d10-3d8a178f0732",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "神秘嘉賓",
+                        "primary-type": "Album"
+                    },
+                    "date": "2008-06-03",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2008-06-03",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 11,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6aa3245f-2f2c-3f01-b143-9a8fde49540f",
+                                    "number": "7",
+                                    "title": "Can Ku Yue Guang"
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 6
+                        }
+                    ]
+                },
+                {
+                    "id": "6d657d02-7d47-4399-9238-270ed1788645",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "神秘嘉賓",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "林宥嘉",
+                            "artist": {
+                                "id": "6985a488-8a39-44ab-93f1-1525c7490831",
+                                "name": "林宥嘉",
+                                "sort-name": "Lin, Yoga"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "73205915-0c5e-3a30-8d10-3d8a178f0732",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "神秘嘉賓",
+                        "primary-type": "Album"
+                    },
+                    "date": "2008-06-03",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2008-06-03",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 13,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ea998d7d-9e8a-3662-9106-adae4c7b3aff",
+                                    "number": "7",
+                                    "title": "殘酷月光"
+                                }
+                            ],
+                            "track-count": 11,
+                            "track-offset": 6
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "TWD950834107"
+            ]
+        },
+        {
+            "id": "cd717c87-c09b-4091-b361-5643e7e66015",
+            "score": 44,
+            "title": "殘酷遊戲",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "安心亞",
+                    "artist": {
+                        "id": "da7d20a8-7b75-4bdd-958c-12800efa9be6",
+                        "name": "安心亞",
+                        "sort-name": "An, Amber",
+                        "aliases": [
+                            {
+                                "sort-name": "Liao, Ching-ling",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "廖婧伶",
+                                "locale": "zh",
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2013-01-18",
+            "releases": [
+                {
+                    "id": "4552d1ad-6135-48a0-bd3f-1646a51f5bb7",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Sing for You",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "安心亞",
+                            "artist": {
+                                "id": "da7d20a8-7b75-4bdd-958c-12800efa9be6",
+                                "name": "安心亞",
+                                "sort-name": "An, Amber"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "5b3bebed-48b3-4c22-bebb-133e1337e72d",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Sing for You",
+                        "primary-type": "Album"
+                    },
+                    "date": "2013-01-18",
+                    "country": "TW",
+                    "release-events": [
+                        {
+                            "date": "2013-01-18",
+                            "area": {
+                                "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+                                "name": "Taiwan",
+                                "sort-name": "Taiwan",
+                                "iso-3166-1-codes": [
+                                    "TW"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "581d2f3f-b2b0-4d06-82c0-3ba7b29149c1",
+                                    "number": "6",
+                                    "title": "殘酷遊戲"
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "479fc195-d8ab-438a-b0d9-5901bf30d360",
+            "score": 44,
+            "title": "殘酷遊戲",
+            "length": 251013,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "衛蘭",
+                    "artist": {
+                        "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                        "name": "衛蘭",
+                        "sort-name": "Vidal, Janice",
+                        "aliases": [
+                            {
+                                "sort-name": "Wei Lan",
+                                "name": "Wei Lan",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Vidal, Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice Vidal",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "卫兰",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "卫兰",
+                                "locale": "zh_Hans",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice (衛蘭)",
+                                "name": "Janice (衛蘭)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2009-11-27",
+            "releases": [
+                {
+                    "id": "36a75fcd-6802-41f5-a54e-e37c99503532",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "Wish",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "衛蘭",
+                            "artist": {
+                                "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                                "name": "衛蘭",
+                                "sort-name": "Vidal, Janice"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "89856284-ae81-4d36-95c7-57b5b8714a22",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Wish",
+                        "primary-type": "Album"
+                    },
+                    "date": "2010-02-05",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2010-02-05",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 37,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "62a668be-804f-4409-96da-3107c265af28",
+                                    "number": "1",
+                                    "title": "殘酷遊戲",
+                                    "length": 251013
+                                }
+                            ],
+                            "track-count": 18,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "38022230-5238-4fb8-9645-090b54a35675",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 3,
+                    "title": "WISH",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "衛蘭",
+                            "artist": {
+                                "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                                "name": "衛蘭",
+                                "sort-name": "Vidal, Janice"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "89856284-ae81-4d36-95c7-57b5b8714a22",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Wish",
+                        "primary-type": "Album"
+                    },
+                    "date": "2009-11-27",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2009-11-27",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 49,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "ac59fe12-061c-44b0-a3e8-7f056cf6c8a3",
+                                    "number": "1",
+                                    "title": "殘酷遊戲",
+                                    "length": 251013
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "3a910351-c6b9-40ec-8ee2-5812b6cd1a00",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 3,
+                    "title": "WISH",
+                    "status": "Official",
+                    "disambiguation": "第二版",
+                    "artist-credit": [
+                        {
+                            "name": "衛蘭",
+                            "artist": {
+                                "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                                "name": "衛蘭",
+                                "sort-name": "Vidal, Janice"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "89856284-ae81-4d36-95c7-57b5b8714a22",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Wish",
+                        "primary-type": "Album"
+                    },
+                    "date": "2010-02-05",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2010-02-05",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 55,
+                    "media": [
+                        {
+                            "position": 2,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "d95491c2-fce1-4f6b-ab0d-ea503be65d0c",
+                                    "number": "1",
+                                    "title": "殘酷遊戲",
+                                    "length": 251013
+                                }
+                            ],
+                            "track-count": 18,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0705258c-47c2-416a-b721-e7b8d92af367",
+            "score": 44,
+            "title": "殘酷遊戲",
+            "length": 218813,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "衛蘭",
+                    "artist": {
+                        "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                        "name": "衛蘭",
+                        "sort-name": "Vidal, Janice",
+                        "aliases": [
+                            {
+                                "sort-name": "卫兰",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "卫兰",
+                                "locale": "zh_Hans",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Vidal, Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice Vidal",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice (衛蘭)",
+                                "name": "Janice (衛蘭)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Wei Lan",
+                                "name": "Wei Lan",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2012",
+            "releases": [
+                {
+                    "id": "9a0b0dcf-7d8a-4090-bd76-883f73b2bce3",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "Janice 3000 Day & Night Concert",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "衛蘭",
+                            "artist": {
+                                "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                                "name": "衛蘭",
+                                "sort-name": "Vidal, Janice"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "72e62c89-a190-4ec2-ace5-e7eef96c8698",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Janice 3000 Day & Night Concert",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2012",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2012",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 26,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "0333e02b-bfd7-404e-99d8-843de4121092",
+                                    "number": "8",
+                                    "title": "殘酷遊戲",
+                                    "length": 218813
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f7e7359f-9014-419b-bce9-c463c1cca28e",
+            "score": 44,
+            "title": "殘酷遊戲",
+            "video": true,
+            "artist-credit": [
+                {
+                    "name": "衛蘭",
+                    "artist": {
+                        "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                        "name": "衛蘭",
+                        "sort-name": "Vidal, Janice",
+                        "aliases": [
+                            {
+                                "sort-name": "卫兰",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "卫兰",
+                                "locale": "zh_Hans",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Wei Lan",
+                                "name": "Wei Lan",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Vidal, Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice Vidal",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Janice",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Janice (衛蘭)",
+                                "name": "Janice (衛蘭)",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2010-12-06",
+            "releases": [
+                {
+                    "id": "35918b4d-7657-422f-8746-5f00b2bbdbb8",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 4,
+                    "title": "Fairy Concert 2010",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "衛蘭",
+                            "artist": {
+                                "id": "7e5b5c8a-bd9f-4106-bce0-e97fd14f6a6d",
+                                "name": "衛蘭",
+                                "sort-name": "Vidal, Janice"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "7508d866-ca46-4886-a053-6b1c6c978afc",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Fairy Concert 2010",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2010-12-06",
+                    "country": "HK",
+                    "release-events": [
+                        {
+                            "date": "2010-12-06",
+                            "area": {
+                                "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+                                "name": "Hong Kong",
+                                "sort-name": "Hong Kong",
+                                "iso-3166-1-codes": [
+                                    "HK"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 54,
+                    "media": [
+                        {
+                            "position": 4,
+                            "format": "DVD-Video",
+                            "track": [
+                                {
+                                    "id": "4a48a073-46c0-40ce-84be-e5d9389edf5e",
+                                    "number": "3",
+                                    "title": "殘酷遊戲"
+                                }
+                            ],
+                            "track-count": 15,
+                            "track-offset": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

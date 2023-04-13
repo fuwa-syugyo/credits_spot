@@ -1,9 +1,12 @@
-import { describe, expect, beforeAll, afterEach, it, afterAll } from 'vitest';
+import { describe, expect, beforeAll, afterEach, it, afterAll, vi } from 'vitest';
 import { server } from '../mocks/server';
-import { recordingSearchResponse } from "./data/recordingSearchResponse";
+import { recordingSearchResponse, recordingSearchResponse2Page } from "./data/recordingSearchResponse";
 import RecordingSearch from "../components/recordings/RecordingSearch.vue";
-import { mount } from "@vue/test-utils"
+import { mount, shallowMount, RouterLinkStub } from "@vue/test-utils"
 import { render, screen, cleanup } from '@testing-library/vue'
+import { useRouter } from 'vue-router'
+import { createApp } from 'vue'
+import router from "../router";
 
 describe('recording search test',
   () => {
@@ -16,6 +19,10 @@ describe('recording search test',
       const data = await response.json();
 
       expect(data).toEqual(recordingSearchResponse) }
-    )
+    ),
+    
+    it('RecordingSearch onClickHandler test', async() => {
+
+    })
   }
 )
