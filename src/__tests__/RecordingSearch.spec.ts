@@ -12,7 +12,7 @@ describe('recording search test',
   () => {
     afterEach(cleanup)
     beforeAll(() => server.listen());
-    afterAll(() => server.close());
+    // afterAll(() => server.close());
 
     it('fetch unit test', async() => {
       const response = await fetch('https://musicbrainz.org/ws/2/recording/?query=recording:残酷な天使のテーゼ&offset=0&limit=100&fmt=json');
@@ -22,7 +22,22 @@ describe('recording search test',
     ),
     
     it('RecordingSearch onClickHandler test', async() => {
+      const $route = {
+        path: '/recordings',
+        hash: '',
+        query: {term: '残酷な天使のテーゼ'}
+      }
 
+      const wrapper = mount(RecordingSearch, {
+        props: {
+          query: {term: '残酷な天使のテーゼ'}
+        }
+      })
+
+      const result = wrapper.vm
+      console.log(result)
+
+      expect(result).toEqual(recordingSearchResponse2Page)
     })
   }
 )
