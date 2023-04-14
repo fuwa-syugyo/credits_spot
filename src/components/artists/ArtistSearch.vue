@@ -4,18 +4,17 @@
   import { ArtistData } from "../../types/artist/ArtistSearch"
 
   onBeforeRouteUpdate((to, from, next) => {
-    artist_term = to.query.term as string || '';
-    onClickHandler(currentPage.value, artist_term).then(() => {
+    artist_term.value = to.query.term as string || '';
+    onClickHandler(currentPage.value, artist_term.value).then(() => {
       next();
     });
   });
 
   const route = useRoute();
-  let artist_term = route.query.term as string || '';
+  const artist_term = ref(route.query.term as string || '');
   const artist_data = ref<ArtistData[]>([]);
 
   const onClickHandler = async (page: number, artist_term: string) => {
-    artist_term = route.query.term as string || '';
     const offset = (page - 1) * 100
     const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
     const data = await res.json();
@@ -33,7 +32,7 @@
   const totalItems = ref(0);
 
   onMounted(() => {
-    onClickHandler(currentPage.value, artist_term);
+    onClickHandler(currentPage.value, artist_term.value);
   })
 </script>
 

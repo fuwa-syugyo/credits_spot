@@ -5,24 +5,24 @@
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   onBeforeRouteUpdate((to, from, next) => {
-    recording_term = to.query.term as string || '';
-    onClickHandler(currentPage.value, recording_term).then(() => {
+    recording_term.value = to.query.term as string || '';
+    onClickHandler(currentPage.value, recording_term.value).then(() => {
       next();
     });
   });
 
   const route = useRoute();
-  let recording_term = route.query.term as string || '';
+  const recording_term = ref(route.query.term as string || '');
   const recording_data = ref<SearchRecordingData[]>([]);
 
   const selectFilter = ref<Array<string>>([]);
   const artistName = ref();
 
   const onClickHandler = async (page: number, recording_term: string) => {
-    recording_term = route.query.term as string || '';
     const offset = (page - 1) * 100
-    const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`)
-    const data = await res.json();
+    const data = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`).then((res) =>
+      res.json()
+    );
 
     const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
       id: item.id,
@@ -49,7 +49,7 @@
 
     router.push({
     name: "RecordingSearchFilter",
-    query: { term: recording_term,
+    query: { term: recording_term.value,
             getRidOfInstrumentAndLive: getRidOfInstrumentAndLiveValue,
             getPartialMatch: getPartialMatchValue,
             artistName: artistName.value
@@ -58,7 +58,7 @@
   }
 
   onMounted(() => {
-    onClickHandler(currentPage.value, recording_term);
+    onClickHandler(currentPage.value, recording_term.value);
   })
 </script>
 
