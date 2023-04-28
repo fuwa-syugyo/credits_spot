@@ -8,9 +8,11 @@
   const props = defineProps<Props>();
   const recording_id = props.id
   const credit_data = ref<RecordingData>();
+  const clientId = import.meta.env.VITE_CLIENT_ID;
+  const secretId = import.meta.env.VITE_CLIENT_SECRET;
 
     onMounted(async () => {
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
+      const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
       const data = await res.json()
 
       const artists: Artists[] = data["artist-credit"]
@@ -41,6 +43,7 @@
           title: data.title,
           release_date: data?.['first-release-date'],
           attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
+          isrcs: data.isrcs[0],
 
           credit: {
             artist_credit: artists,
@@ -50,7 +53,6 @@
           }
         };
         credit_data.value = all_credit_data;
-        console.log(all_credit_data)
 
     })
 </script>
