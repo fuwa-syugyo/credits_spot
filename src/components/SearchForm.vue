@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useRouter, NavigationFailureType, isNavigationFailure } from 'vue-router'
+import { useRouter } from 'vue-router'
 
 const router = useRouter();
 const term = ref('');
