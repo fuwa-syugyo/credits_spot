@@ -44,7 +44,7 @@
           title: data.title,
           release_date: data?.['first-release-date'],
           attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
-          isrcs: data.isrcs[0],
+          isrcs: data?.isrcs[0],
 
           credit: {
             artist_credit: artists,
@@ -74,7 +74,7 @@
           .then(async data => {
             const token = data.access_token;
             try {
-              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3AJPPC02210469&type=track&offset=0&limit=20`, {
+              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3A${credit_data.value?.isrcs}&type=track&offset=0&limit=20`, {
                 headers: {
                   'Authorization': `Bearer ${token}`
                 }
@@ -160,7 +160,7 @@
           </tr>
         </tbody>
       </table>
-      <div>
+      <div v-if="spotifyLink">
         <a :href="spotifyLink" target="_blank">Spotifyで聴く</a>
       </div>
     </div>
