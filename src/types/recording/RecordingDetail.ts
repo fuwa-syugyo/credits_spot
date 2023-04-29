@@ -56,6 +56,7 @@ export type RecordingData = {
     title: string;
     attribute: string;
     release_date: string;
+    isrcs: Array<string>;
     credit: Credit;
   };
 

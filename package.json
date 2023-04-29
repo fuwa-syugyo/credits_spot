@@ -12,11 +12,14 @@
     "tsc": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@types/vue-router": "^2.0.0",
+    "dotenv": "^16.0.3",
     "vue": "^3.2.45",
     "vue-awesome-paginate": "^1.1.46",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@testing-library/user-event": "^14.4.3",
     "@testing-library/vue": "^7.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.3.2",

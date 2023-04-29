@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
 import HomeView from '../components/HomeView.vue'
 
-const routeSettings: RouteRecordRaw[] = [
+export const routeSettings: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'home',
@@ -75,9 +75,10 @@ const routeSettings: RouteRecordRaw[] = [
   },
 ]
 
-const router = createRouter({
+const routes = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  // history: createWebHistory(),
   routes: routeSettings
 })
 
-export default router
+export default routes

@@ -8,9 +8,12 @@
   const props = defineProps<Props>();
   const recording_id = props.id
   const credit_data = ref<RecordingData>();
+  const spotifyLink = ref<string>();
+  const clientId = import.meta.env.VITE_CLIENT_ID;
+  const secretId = import.meta.env.VITE_CLIENT_SECRET;
 
     onMounted(async () => {
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels&fmt=json`)
+      const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
       const data = await res.json()
 
       const artists: Artists[] = data["artist-credit"]
@@ -41,6 +44,7 @@
           title: data.title,
           release_date: data?.['first-release-date'],
           attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
+          isrcs: data?.isrcs[0],
 
           credit: {
             artist_credit: artists,
@@ -50,7 +54,40 @@
           }
         };
         credit_data.value = all_credit_data;
-        console.log(all_credit_data)
+
+        const authOptions = {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Basic ' + btoa(clientId + ':' + secretId),
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: 'grant_type=client_credentials'
+      };
+
+        fetch('https://accounts.spotify.com/api/token', authOptions)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Failed to authenticate');
+            }
+            return response.json();
+          })
+          .then(async data => {
+            const token = data.access_token;
+            try {
+              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3A${credit_data.value?.isrcs}&type=track&offset=0&limit=20`, {
+                headers: {
+                  'Authorization': `Bearer ${token}`
+                }
+              });
+              const spotifyData = await spotifyRes.json()
+              spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
+            } catch (error) {
+              console.error(error);
+    }
+          })
+          .catch(error => {
+            console.error(error);
+          });
 
     })
 </script>
@@ -121,6 +158,15 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <br>
+    <div v-if="spotifyLink">
+      <div style="display: inline-block; vertical-align: middle;">
+        <img src="../../../public/Spotify_Icon_RGB_Green.png" alt="SpotifyIcon" class="spotify__icon" style="height: 25px;">
+      </div>
+      <div style="display: inline-block; vertical-align: middle;">
+        <a :href="spotifyLink" target="_blank">Spotifyで聴く</a>
+      </div>
     </div>
   </div>
 </template>
