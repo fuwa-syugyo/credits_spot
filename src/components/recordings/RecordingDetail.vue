@@ -8,6 +8,7 @@
   const props = defineProps<Props>();
   const recording_id = props.id
   const credit_data = ref<RecordingData>();
+  const spotifyLink = ref<string>();
   const clientId = import.meta.env.VITE_CLIENT_ID;
   const secretId = import.meta.env.VITE_CLIENT_SECRET;
 
@@ -73,13 +74,15 @@
           .then(async data => {
             const token = data.access_token;
             try {
-              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3AJPPC02210469&type=track&locale=ja%2Cen-US%3Bq%3D0.9%2Cen%3Bq%3D0.8&offset=0&limit=20`, {
+              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3AJPPC02210469&type=track&offset=0&limit=20`, {
                 headers: {
                   'Authorization': `Bearer ${token}`
                 }
               });
               const spotifyData = await spotifyRes.json()
               console.log(spotifyData)
+              spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
+              console.log(spotifyLink.value)
             } catch (error) {
               console.error(error);
     }
@@ -157,6 +160,9 @@
           </tr>
         </tbody>
       </table>
+      <div>
+        <a :href="spotifyLink" target="_blank">Spotifyで聴く</a>
+      </div>
     </div>
   </div>
 </template>
