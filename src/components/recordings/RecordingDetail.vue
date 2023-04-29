@@ -80,9 +80,7 @@
                 }
               });
               const spotifyData = await spotifyRes.json()
-              console.log(spotifyData)
               spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
-              console.log(spotifyLink.value)
             } catch (error) {
               console.error(error);
     }
