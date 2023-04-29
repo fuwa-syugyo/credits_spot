@@ -54,6 +54,40 @@
         };
         credit_data.value = all_credit_data;
 
+        const authOptions = {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Basic ' + btoa(clientId + ':' + secretId),
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: 'grant_type=client_credentials'
+      };
+
+        fetch('https://accounts.spotify.com/api/token', authOptions)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Failed to authenticate');
+            }
+            return response.json();
+          })
+          .then(async data => {
+            const token = data.access_token;
+            try {
+              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3AJPPC02210469&type=track&locale=ja%2Cen-US%3Bq%3D0.9%2Cen%3Bq%3D0.8&offset=0&limit=20`, {
+                headers: {
+                  'Authorization': `Bearer ${token}`
+                }
+              });
+              const spotifyData = await spotifyRes.json()
+              console.log(spotifyData)
+            } catch (error) {
+              console.error(error);
+    }
+          })
+          .catch(error => {
+            console.error(error);
+          });
+
     })
 </script>
 
