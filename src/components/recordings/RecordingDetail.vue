@@ -160,7 +160,13 @@
           </tr>
         </tbody>
       </table>
-      <div v-if="spotifyLink">
+    </div>
+    <br>
+    <div v-if="spotifyLink">
+      <div style="display: inline-block; vertical-align: middle;">
+        <img src="../../../public/Spotify_Icon_RGB_Green.png" alt="SpotifyIcon" class="spotify__icon" style="height: 25px;">
+      </div>
+      <div style="display: inline-block; vertical-align: middle;">
         <a :href="spotifyLink" target="_blank">Spotifyで聴く</a>
       </div>
     </div>
