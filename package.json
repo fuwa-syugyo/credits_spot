@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "tsc": "vue-tsc --noEmit"
+    "tsc": "vue-tsc --noEmit",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@types/vue-router": "^2.0.0",
@@ -24,6 +25,7 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.3.2",
     "autoprefixer": "^10.4.13",
+    "cypress": "^12.11.0",
     "jsdom": "^21.1.1",
     "msw": "^1.2.1",
     "postcss": "^8.4.21",
