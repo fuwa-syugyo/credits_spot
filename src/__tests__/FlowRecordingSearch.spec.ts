@@ -23,6 +23,7 @@ beforeEach(async () => {
   })
   router.push('/')
   await router.isReady()
+  console.log(router)
 });
 
 describe('楽曲の検索', () => {
@@ -46,7 +47,12 @@ describe('楽曲の検索', () => {
     await userEvent.type(input, '残酷な天使のテーゼ');
     await searchFormWrapper.findComponent({ name: 'SearchForm' }).trigger('submit')
 
+    console.log('???!!' + router)
     //ここでfetchのモックテスト？
+  //   await fetch('https://musicbrainz.org/ws/2/recording/?query=recording:残酷な天使のテーゼ&offset=0&limit=100&fmt=json').then((res) =>
+  //   res.json()
+  // );
+  console.log('???' + useRoute())
 
     await nextTick()
     expect(recordingSearchWrapper.text()).toContain("河井英里") //ここで「河井英里が表示されていない」というエラー
