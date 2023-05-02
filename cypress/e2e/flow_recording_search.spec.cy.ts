@@ -20,6 +20,18 @@ describe('Recording search and lookup artist', () => {
     cy.contains('drums (drum set)')
     cy.contains('比田井修')
     cy.contains('Spotifyで聴く')
+
+    cy.contains('結束バンド').click()
+    cy.contains('結束バンド')
+    cy.contains('青春コンプレックス')
+    cy.go('back')
+
+    cy.contains('結束バンド').click()
+    cy.contains('結束バンド')
+    cy.contains('青春コンプレックス')
+    cy.go('back')
+
+
   })
 
   it('Visits recording search result has not Spotify link', () => {

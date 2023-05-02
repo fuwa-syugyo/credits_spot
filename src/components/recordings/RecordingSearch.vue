@@ -6,6 +6,7 @@
 
   onBeforeRouteUpdate((to, from, next) => {
     recording_term.value = to.query.term as string || '';
+    currentPage.value = 1
     onClickHandler(currentPage.value, recording_term.value).then(() => {
       next();
     });
@@ -19,6 +20,10 @@
   const artistName = ref();
 
   const onClickHandler = async (page: number, recording_term: string) => {
+    if (!recording_term) {
+      recording_term = route.query.term as string || ''
+    }
+
     const offset = (page - 1) * 100
     const data = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`).then((res) =>
       res.json()
