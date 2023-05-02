@@ -57,13 +57,15 @@
       </tr>
     </tbody>
   </table>
-  <vue-awesome-paginate
-    :total-items="totalItems"
-    :items-per-page="100"
-    :max-pages-shown="5"
-    v-model="currentPage"
-    :on-click="onClickHandler"
-  />
+  <div v-if="totalItems > 100">
+    <vue-awesome-paginate
+      :total-items="totalItems"
+      :items-per-page="100"
+      :max-pages-shown="5"
+      v-model="currentPage"
+      :on-click="onClickHandler"
+    />
+  </div>
 </template>
 
 <style>
