@@ -14,18 +14,18 @@
 
     onMounted(async () => {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
-      const data = await res.json()
+      const relationshipsData = await res.json()
 
-      const artists: Artists[] = data["artist-credit"]
+      const artists: Artists[] = relationshipsData["artist-credit"]
 
-      const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
+      const player: Player[] = relationshipsData.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
         instrument: item.attributes[0] || item.type,
         name: item.artist.name
       }))
 
-      let songwriter: SongWriter[] = data?.relations.filter((item: SongWriter) => item.work) || [];
+      let songwriter: SongWriter[] = relationshipsData?.relations.filter((item: SongWriter) => item.work) || [];
       if(songwriter.length && songwriter[0].work){
       songwriter = songwriter[0].work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist" || artists.type  === "writer").map((item: {artist: {id: string, name: string}, type: string}) => ({
         id: item.artist.id,
@@ -33,18 +33,18 @@
         name: item.artist.name
       }))}
 
-      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer" || rec.type == "misc" || rec.type == "recording" || rec.type == "mix" || rec.type == "orchestrator").map((item: Staff) => ({
+      const staff: Staff[] = relationshipsData.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer" || rec.type == "misc" || rec.type == "recording" || rec.type == "mix" || rec.type == "orchestrator").map((item: Staff) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
       }))
 
         const all_credit_data: RecordingData = {
-          id: data.id,
-          title: data.title,
-          release_date: data?.['first-release-date'],
-          attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
-          isrcs: data?.isrcs[0],
+          id: relationshipsData.id,
+          title: relationshipsData.title,
+          release_date: relationshipsData?.['first-release-date'],
+          attribute: relationshipsData?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
+          isrcs: relationshipsData?.isrcs[0],
 
           credit: {
             artist_credit: artists,
