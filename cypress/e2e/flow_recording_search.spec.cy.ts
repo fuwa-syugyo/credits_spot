@@ -1,21 +1,34 @@
 describe('Recording search and lookup artist', () => {
-  it('Visits recording search result', () => {
+  it('Visits recording search result has Spotify link', () => {
     cy.visit('http://127.0.0.1:5173/')
 
-    cy.get('input[type="search"]').should('be.visible').type('ミックスナッツ', {force: true})
+    cy.get('input[type="search"]').should('be.visible').type('青春コンプレックス', {force: true})
     cy.get('button[type="submit"]').click()
 
     cy.url().should('include', '/recordings')
-    cy.contains('ミックスナッツ')
-    cy.contains('Official髭男dism')
+    cy.contains('青春コンプレックス')
+    cy.contains('結束バンド')
 
-    cy.contains('ミックスナッツ').click()
-    cy.url().should('include', '/recordings/30ed18b6-d95b-4efe-a332-6fcc0e07b087')
-    cy.contains('ミックスナッツ')
-    cy.contains('Official髭男dism')
+    cy.contains('青春コンプレックス').click()
+    cy.url().should('include', '/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
+    cy.contains('青春コンプレックス')
+    cy.contains('結束バンド')
     cy.contains('composer')
-    cy.contains('藤原聡')
-    cy.contains('trombone')
-    cy.contains('川島稔弘')
+    cy.contains('音羽-otoha-')
+    cy.contains('arranger')
+    cy.contains('三井律郎')
+    cy.contains('drums (drum set)')
+    cy.contains('比田井修')
+    cy.contains('Spotifyで聴く')
+  })
+
+  it('Visits recording search result has not Spotify link', () => {
+    cy.visit('http://127.0.0.1:5173/')
+
+    cy.get('input[type="search"]').should('be.visible').type('青春コンプレックス', {force: true})
+    cy.get('button[type="submit"]').click()
+
+    cy.contains('青春コンプレックス (ノンクレジットOP)').click()
+    cy.get('body').should('not.contain', 'Spotifyで聴く')
   })
 })
