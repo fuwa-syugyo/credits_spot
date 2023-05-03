@@ -13,8 +13,8 @@
   const secretId = import.meta.env.VITE_CLIENT_SECRET;
 
     onMounted(async () => {
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
-      const relationshipsData = await res.json()
+      const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
+      const relationshipsData = await relationshipsRes.json()
 
       const artists: Artists[] = relationshipsData["artist-credit"]
 

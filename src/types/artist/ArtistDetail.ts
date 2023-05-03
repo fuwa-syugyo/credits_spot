@@ -48,3 +48,8 @@ export type RecordInWork = {
   "artist-credit": ArtistCredit[];
 }
 
+export type ArtistRecording = {
+  id: string;
+  title: string;
+}
+
