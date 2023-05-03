@@ -13,50 +13,58 @@
   const totalItems = ref<number>(NaN);
 
   onMounted(async () => {
-    const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
-    const relationshipsData = await relationshipsRes.json()
+    try {
+      const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
+      const relationshipsData = await relationshipsRes.json()
 
-    const recording_credit: RecordingCredit[] = relationshipsData.relations.filter((rec: RecordingCredit) => rec["target-type"] === "recording").map((item: RecordingCredit) => ({
-      type: item.type === 'instrument' ? item.attributes[0] : item.type,
-      recording: {
-        id: item.recording.id,
-        title: item.recording.title
-      }
-    }))
+      const recording_credit: RecordingCredit[] = relationshipsData.relations.filter((rec: RecordingCredit) => rec["target-type"] === "recording").map((item: RecordingCredit) => ({
+        type: item.type === 'instrument' ? item.attributes[0] : item.type,
+        recording: {
+          id: item.recording.id,
+          title: item.recording.title
+        }
+      }))
 
-    const song_writer_credit: SongWriterCredit[] = relationshipsData.relations.filter((rec: SongWriterCredit) => rec["target-type"] === "work").map((item: SongWriterCredit) => ({
-      type: item.type,
-      work: {
-        id: item.work.id,
-        title: item.work.title
-      }
-    }))
+      const song_writer_credit: SongWriterCredit[] = relationshipsData.relations.filter((rec: SongWriterCredit) => rec["target-type"] === "work").map((item: SongWriterCredit) => ({
+        type: item.type,
+        work: {
+          id: item.work.id,
+          title: item.work.title
+        }
+      }))
 
-    const all_artist_data: ArtistData = {
-      id: relationshipsData.id,
-      name: relationshipsData.name,
-      credit: {
-        song_writer_credit: song_writer_credit,
-        recording_credit: recording_credit
-      }
-    };
-    artist_data.value = all_artist_data;
-    onClickHandler(1);
+      const all_artist_data: ArtistData = {
+        id: relationshipsData.id,
+        name: relationshipsData.name,
+        credit: {
+          song_writer_credit: song_writer_credit,
+          recording_credit: recording_credit
+        }
+      };
+      artist_data.value = all_artist_data;
+      onClickHandler(1);
+    } catch {
+      console.error('Error fetching data:', Error);
+    }
   })
 
   const onClickHandler = async (page: number) => {
     const offset = (page - 1) * 100
-    const recordingRes = await fetch(`https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`)
-    const recordingData = await recordingRes.json()
+    try {
+      const recordingRes = await fetch(`https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`)
+      const recordingData = await recordingRes.json()
 
-    const artistRecordingData: ArtistRecording[] = recordingData.recordings.map((item: ArtistRecording) => ({
-      id: item.id,
-      title: item.title
-    }))
+      const artistRecordingData: ArtistRecording[] = recordingData.recordings.map((item: ArtistRecording) => ({
+        id: item.id,
+        title: item.title
+      }))
 
-    artistRecording.value = artistRecordingData;
-    totalItems.value = recordingData["recording-count"];
-    }
+      artistRecording.value = artistRecordingData;
+      totalItems.value = recordingData["recording-count"];
+    } catch {
+      console.error('Error fetching data:', Error);
+      }
+  }
 
 </script>
 

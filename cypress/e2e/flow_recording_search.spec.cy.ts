@@ -57,6 +57,7 @@ describe('Recording search and lookup artist', () => {
     cy.visit('http://127.0.0.1:5173/')
 
     cy.get('input[type="search"]').should('be.visible').type('青春', {force: true})
+    cy.wait(5000)
     cy.get('button[type="submit"]').click()
 
     cy.contains('青春青春').click()

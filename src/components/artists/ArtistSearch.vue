@@ -19,18 +19,22 @@
     if (!artist_term) {
       artist_term = route.query.term as string || ''
     }
-    const offset = (page - 1) * 100
-    const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
-    const data = await res.json();
+    try {
+      const offset = (page - 1) * 100
+      const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
+      const data = await res.json();
 
-  const new_artist_data: ArtistData[] = data.artists.filter((rec:ArtistData) => rec).map((item: ArtistData) => ({
-    id: item.id,
-    name: item.name,
-  }))
+      const new_artist_data: ArtistData[] = data.artists.filter((rec:ArtistData) => rec).map((item: ArtistData) => ({
+        id: item.id,
+        name: item.name,
+      }))
 
-  artist_data.value = new_artist_data;
-  totalItems.value = data.count - 1;
-}
+      artist_data.value = new_artist_data;
+      totalItems.value = data.count - 1;
+    } catch {
+      console.error('Error fetching data:', Error);
+    }
+  }
 
   const currentPage = ref(1);
   const totalItems = ref(0);
