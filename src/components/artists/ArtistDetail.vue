@@ -17,7 +17,7 @@
     const relationshipsData = await relationshipsRes.json()
 
     const recording_credit: RecordingCredit[] = relationshipsData.relations.filter((rec: RecordingCredit) => rec["target-type"] === "recording").map((item: RecordingCredit) => ({
-      type: item.type,
+      type: item.type === 'instrument' ? item.attributes[0] : item.type,
       recording: {
         id: item.recording.id,
         title: item.recording.title
@@ -121,7 +121,7 @@
       </table>
     </div>
 
-    <div v-if="artistRecording">
+    <div v-if="artistRecording?.length !== 0">
       <br>
       アーティストとして関わった楽曲
       <table class="table-auto my-4">

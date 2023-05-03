@@ -31,16 +31,35 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.go('back')
 
+    cy.contains('音羽-otoha-').click()
+    cy.get('table tbody tr')
+    .contains('青春コンプレックス')
+    .parent().parent()
+    .contains('composer');
+    cy.go('back')
 
+    cy.contains('三井律郎').click()
+    cy.get('table tbody tr')
+    .contains('青春コンプレックス')
+    .parent().parent()
+    .contains('arranger');
+    cy.go('back')
+
+    cy.contains('比田井修').click()
+    cy.get('table tbody tr')
+    .contains('青春コンプレックス')
+    .parent().parent()
+    .contains('drums (drum set)');
   })
+
 
   it('Visits recording search result has not Spotify link', () => {
     cy.visit('http://127.0.0.1:5173/')
 
-    cy.get('input[type="search"]').should('be.visible').type('青春コンプレックス', {force: true})
+    cy.get('input[type="search"]').should('be.visible').type('青春', {force: true})
     cy.get('button[type="submit"]').click()
 
-    cy.contains('青春コンプレックス (ノンクレジットOP)').click()
+    cy.contains('青春青春').click()
     cy.get('body').should('not.contain', 'Spotifyで聴く')
   })
 })

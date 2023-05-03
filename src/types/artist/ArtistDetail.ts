@@ -1,4 +1,5 @@
 export type RecordingCredit = {
+  attributes: Array<string>;
   type: string;
   recording: {
     id: string;

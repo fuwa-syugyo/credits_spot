@@ -25,11 +25,10 @@
     }
 
     const offset = (page - 1) * 100
-    const data = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`).then((res) =>
-      res.json()
-    );
+    try {
+      const data = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`).then((res) => res.json());
 
-    const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
+      const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
       id: item.id,
       title: item.title,
       "artist-credit": item["artist-credit"].map(credit => ({
@@ -37,13 +36,16 @@
         name: credit.artist.name,
         join_phrase: credit.joinphrase,
         all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-      })),
-      first_release_date: item["first-release-date"]
-    }))
+        })),
+        first_release_date: item["first-release-date"]
+      }))
 
-    recording_data.value = new_recording_data;
-    totalItems.value = data.count - 1;
+      recording_data.value = new_recording_data;
+      totalItems.value = data.count - 1;
+    } catch {
+      console.error('Error fetching data:', Error);
     }
+  }
 
   const currentPage = ref(1);
   const totalItems = ref<number>(NaN);
