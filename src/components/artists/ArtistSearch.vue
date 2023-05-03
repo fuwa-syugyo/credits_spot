@@ -5,6 +5,7 @@
 
   onBeforeRouteUpdate((to, from, next) => {
     artist_term.value = to.query.term as string || '';
+    currentPage.value = 1
     onClickHandler(currentPage.value, artist_term.value).then(() => {
       next();
     });
@@ -15,18 +16,25 @@
   const artist_data = ref<ArtistData[]>([]);
 
   const onClickHandler = async (page: number, artist_term: string) => {
-    const offset = (page - 1) * 100
-    const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
-    const data = await res.json();
+    if (!artist_term) {
+      artist_term = route.query.term as string || ''
+    }
+    try {
+      const offset = (page - 1) * 100
+      const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
+      const data = await res.json();
 
-  const new_artist_data: ArtistData[] = data.artists.filter((rec:ArtistData) => rec).map((item: ArtistData) => ({
-    id: item.id,
-    name: item.name,
-  }))
+      const new_artist_data: ArtistData[] = data.artists.filter((rec:ArtistData) => rec).map((item: ArtistData) => ({
+        id: item.id,
+        name: item.name,
+      }))
 
-  artist_data.value = new_artist_data;
-  totalItems.value = data.count - 1;
-}
+      artist_data.value = new_artist_data;
+      totalItems.value = data.count - 1;
+    } catch {
+      console.error('Error fetching data:', Error);
+    }
+  }
 
   const currentPage = ref(1);
   const totalItems = ref(0);
@@ -53,13 +61,15 @@
       </tr>
     </tbody>
   </table>
-  <vue-awesome-paginate
-    :total-items="totalItems"
-    :items-per-page="100"
-    :max-pages-shown="5"
-    v-model="currentPage"
-    :on-click="onClickHandler"
-  />
+  <div v-if="totalItems > 100">
+    <vue-awesome-paginate
+      :total-items="totalItems"
+      :items-per-page="100"
+      :max-pages-shown="5"
+      v-model="currentPage"
+      :on-click="onClickHandler"
+    />
+  </div>
 </template>
 
 <style>

@@ -15,7 +15,8 @@
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
-  onMounted(async() => {
+  onMounted(async() => { 
+    try {
     const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
     const first_data = await first_res.json();
 
@@ -56,6 +57,9 @@
     }
     filteredData = recording_data.value;
     filteredDataLength = filteredData.length;
+  } catch {
+    console.error('Error fetching data:', Error);
+  }
 
   });
 
@@ -108,13 +112,15 @@
       </tr>
     </tbody>
   </table>
-  <vue-awesome-paginate
-    :total-items="filteredDataLength"
-    :items-per-page="100"
-    :max-pages-shown="5"
-    v-model="currentPage"
-    :on-click="onClickHandler"
-  />
+  <div v-if="filteredDataLength > 100">
+    <vue-awesome-paginate
+      :total-items="filteredDataLength"
+      :items-per-page="100"
+      :max-pages-shown="5"
+      v-model="currentPage"
+      :on-click="onClickHandler"
+    />
+  </div>
 </template>
 
 <style>

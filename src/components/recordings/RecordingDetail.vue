@@ -12,84 +12,87 @@
   const clientId = import.meta.env.VITE_CLIENT_ID;
   const secretId = import.meta.env.VITE_CLIENT_SECRET;
 
-    onMounted(async () => {
-      const res = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
-      const data = await res.json()
+  onMounted(async () => {
+    try {
+      const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
+      const relationshipsData = await relationshipsRes.json()
 
-      const artists: Artists[] = data["artist-credit"]
+      const artists: Artists[] = relationshipsData["artist-credit"]
 
-      const player: Player[] = data.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
+      const player: Player[] = relationshipsData.relations.filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal").map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
         instrument: item.attributes[0] || item.type,
         name: item.artist.name
       }))
 
-      let songwriter: SongWriter[] = data?.relations.filter((item: SongWriter) => item.work) || [];
+      let songwriter: SongWriter[] = relationshipsData?.relations.filter((item: SongWriter) => item.work) || [];
       if(songwriter.length && songwriter[0].work){
-      songwriter = songwriter[0].work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist" || artists.type  === "writer").map((item: {artist: {id: string, name: string}, type: string}) => ({
-        id: item.artist.id,
-        type: item.type,
-        name: item.artist.name
+        songwriter = songwriter[0].work.relations.filter(artists => artists.type  === "composer" || artists.type  === "lyricist" || artists.type  === "writer").map((item: {artist: {id: string, name: string}, type: string}) => ({
+          id: item.artist.id,
+          type: item.type,
+          name: item.artist.name
       }))}
 
-      const staff: Staff[] = data.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer" || rec.type == "misc" || rec.type == "recording" || rec.type == "mix" || rec.type == "orchestrator").map((item: Staff) => ({
+      const staff: Staff[] = relationshipsData.relations.filter((rec: Staff) => rec.type == "arranger" || rec.type == "producer" || rec.type == "misc" || rec.type == "recording" || rec.type == "mix" || rec.type == "orchestrator").map((item: Staff) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name
       }))
 
-        const all_credit_data: RecordingData = {
-          id: data.id,
-          title: data.title,
-          release_date: data?.['first-release-date'],
-          attribute: data?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
-          isrcs: data?.isrcs[0],
+      const all_credit_data: RecordingData = {
+        id: relationshipsData.id,
+        title: relationshipsData.title,
+        release_date: relationshipsData?.['first-release-date'],
+        attribute: relationshipsData?.relations?.filter((item: RecordingData )=> item)[0]?.attributes,
+        isrcs: relationshipsData?.isrcs[0],
 
-          credit: {
-            artist_credit: artists,
-            songwriter_credit: songwriter,
-            staff_credit: staff,
-            player_credit: player,
-          }
-        };
-        credit_data.value = all_credit_data;
+        credit: {
+          artist_credit: artists,
+          songwriter_credit: songwriter,
+          staff_credit: staff,
+          player_credit: player,
+        }
+      };
+      credit_data.value = all_credit_data;
 
-        const authOptions = {
-        method: 'POST',
-        headers: {
-          'Authorization': 'Basic ' + btoa(clientId + ':' + secretId),
-          'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: 'grant_type=client_credentials'
+      const authOptions = {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Basic ' + btoa(clientId + ':' + secretId),
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: 'grant_type=client_credentials'
       };
 
-        fetch('https://accounts.spotify.com/api/token', authOptions)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Failed to authenticate');
-            }
-            return response.json();
-          })
-          .then(async data => {
-            const token = data.access_token;
-            try {
-              const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3A${credit_data.value?.isrcs}&type=track&offset=0&limit=20`, {
-                headers: {
-                  'Authorization': `Bearer ${token}`
-                }
-              });
-              const spotifyData = await spotifyRes.json()
-              spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
-            } catch (error) {
-              console.error(error);
-    }
-          })
+      fetch('https://accounts.spotify.com/api/token', authOptions)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Failed to authenticate');
+          }
+          return response.json();
+        })
+        .then(async data => {
+          const token = data.access_token;
+          try {
+            const spotifyRes = await fetch(`https://api.spotify.com/v1/search?query=isrc%3A${credit_data.value?.isrcs}&type=track&offset=0&limit=20`, {
+              headers: {
+                'Authorization': `Bearer ${token}`
+              }
+            });
+            const spotifyData = await spotifyRes.json()
+            spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
+          } catch (error) {
+            console.error(error);
+          }
+            })
           .catch(error => {
             console.error(error);
           });
-
-    })
+    } catch {
+      console.error('Error fetching data:', Error);
+    }
+  })
 </script>
 
 <template>

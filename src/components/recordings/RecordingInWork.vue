@@ -13,22 +13,26 @@
   const recording_list = ref<RecordInWork[]>();
 
   onMounted(async () => {
-    const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
-    const data = await res.json()
+    try {
+      const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
+      const data = await res.json()
 
-    const recording_in_work: RecordInWork[] = data?.relations.filter((x: Array<object>) => x).map((item: RecordInWork) => ({
-      id: item.recording.id,
-      title: item.recording.title,
-      "artist-credit": item.recording["artist-credit"].map((credit: ArtistCredit) => ({
-          id: credit.artist.id,
-          name: credit.artist.name,
-          join_phrase: credit.joinphrase,
-          all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-        })),
-      attributes: item.attributes[0],
-    }))
-    console.log(recording_in_work)
-    recording_list.value = recording_in_work;
+      const recording_in_work: RecordInWork[] = data?.relations.filter((x: Array<object>) => x).map((item: RecordInWork) => ({
+        id: item.recording.id,
+        title: item.recording.title,
+        "artist-credit": item.recording["artist-credit"].map((credit: ArtistCredit) => ({
+            id: credit.artist.id,
+            name: credit.artist.name,
+            join_phrase: credit.joinphrase,
+            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
+          })),
+        attributes: item.attributes[0],
+      }))
+      console.log(recording_in_work)
+      recording_list.value = recording_in_work;
+    } catch {
+      console.error('Error fetching data:', Error);
+    }
   })
 </script>
 
