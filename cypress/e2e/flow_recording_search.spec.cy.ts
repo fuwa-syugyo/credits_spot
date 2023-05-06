@@ -45,7 +45,6 @@ describe('Recording search and lookup artist', () => {
     .contains('drums (drum set)');
   })
 
-
   it('Visits recording search result has not Spotify link', () => {
     cy.visit('http://127.0.0.1:5173/')
 
@@ -55,5 +54,18 @@ describe('Recording search and lookup artist', () => {
 
     cy.contains('青春青春').click()
     cy.get('body').should('not.contain', 'Spotifyで聴く')
+  })
+
+  it('Continuously recording search', () => {
+    cy.visit('http://127.0.0.1:5173/')
+
+    cy.get('#search').type('ミックスナッツ{enter}', {force: true});
+    cy.contains('検索').click();
+    cy.contains('ミックスナッツ')
+
+    cy.get('#search').focus().clear()
+    .type('マリーゴールド{enter}', {force: true});
+    cy.contains('検索').first().click();
+    cy.contains('マリーゴールド')
   })
 })
