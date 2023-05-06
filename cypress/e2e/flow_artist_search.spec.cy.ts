@@ -13,6 +13,14 @@ describe('template spec', () => {
 
     cy.get(':nth-child(1) > .border > a').click();
     cy.contains('小室哲哉')
+
+    cy.get('.artist-table > tbody > :nth-child(1) > td > a ').click();
+    cy.url().should('include', '/recordings/08cea5ad-09af-466a-b2f4-46ec63dd2d09')
+    cy.get('table tbody tr')
+    .contains('Dのテーマ (別れ)').parent()
+    .contains('小室哲哉')
+    cy.go('back')
+
     cy.get('.songwriter-table > tbody > :nth-child(43) > :nth-child(2) > a').click();
     cy.get(':nth-child(2) > .max-w-\\[600px\\] > a').click();
     cy.get('table tbody tr')
@@ -28,11 +36,11 @@ describe('template spec', () => {
     .contains('小室哲哉')
     cy.go('back')
 
-    cy.get('.staff-table > tbody').contains('keyboard').parent().next().find('a').click();
+    cy.wait(5000) //通信回数制限回避のため待機
+    cy.get('.staff-table > tbody').contains('keyboard').parent().find('a').click();
     cy.url().should('include', '/recordings/fb9f4ec9-c0e5-4834-8ce7-7c3ede8dcef8')
     cy.get('table tbody tr')
     .contains('keyboard').parent()
     .contains('小室哲哉')
-    cy.go('back')
   });
 })
