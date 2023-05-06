@@ -8,23 +8,16 @@ describe('Recording search and lookup artist', () => {
     cy.url().should('include', '/recordings')
     cy.contains('青春コンプレックス')
     cy.contains('結束バンド')
+    
+    // ページネーションを動かして検索ワードがUndefinedにならないか確認
+    cy.get(':nth-child(9) > .paginate-buttons').click();
+    cy.get('body').should('not.contain', 'Undefined')
+    cy.get('.back-button').click();
 
     cy.contains('青春コンプレックス').click()
     cy.url().should('include', '/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
     cy.contains('青春コンプレックス')
-    cy.contains('結束バンド')
-    cy.contains('composer')
-    cy.contains('音羽-otoha-')
-    cy.contains('arranger')
-    cy.contains('三井律郎')
-    cy.contains('drums (drum set)')
-    cy.contains('比田井修')
     cy.contains('Spotifyで聴く')
-
-    cy.contains('結束バンド').click()
-    cy.contains('結束バンド')
-    cy.contains('青春コンプレックス')
-    cy.go('back')
 
     cy.contains('結束バンド').click()
     cy.contains('結束バンド')

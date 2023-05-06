@@ -86,7 +86,7 @@
     <br>
     <div v-if="artist_data && ( artist_data.credit.song_writer_credit.length !== 0 )">
       作詞作曲した楽曲
-      <table class="table-auto my-4">
+      <table class="songwriter-table table-auto my-4">
         <thead>
           <tr>
             <th class="px-4 py-2 border solid bg-blue-100">担当</th>
@@ -109,7 +109,7 @@
 
     <div v-if="artist_data && ( artist_data.credit.recording_credit.length !== 0 )">
       スタッフとして関わった楽曲
-      <table>
+      <table class="staff-table table-auto my-4">
         <thead>
           <tr>
             <th class="px-4 py-2 border solid  bg-blue-100">担当</th>
@@ -132,7 +132,7 @@
     <div v-if="artistRecording?.length !== 0">
       <br>
       アーティストとして関わった楽曲
-      <table class="table-auto my-4">
+      <table class="artist-table table-auto my-4">
         <thead>
           <tr>
             <th class="px-4 py-2 border solid bg-blue-100">曲名</th>
@@ -160,3 +160,36 @@
     </div>
   </div>
 </template>
+
+<style>
+  .pagination-container {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .paginate-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(217, 217, 217);
+    color: black;
+  }
+
+  .paginate-buttons:hover {
+    background-color: #d8d8d8;
+  }
+
+  .active-page {
+    background-color: #3498db;
+    color: white;
+  }
+
+  .active-page:hover {
+    background-color: #2988c8;
+  }
+</style>
