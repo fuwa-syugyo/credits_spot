@@ -43,4 +43,18 @@ describe('template spec', () => {
     .contains('keyboard').parent()
     .contains('小室哲哉')
   });
+
+  it('Continuously artist search', () => {
+    cy.visit('http://127.0.0.1:5173/')
+
+    cy.get('[value="人物名"]').check();
+    cy.get('#search').type('YOASOBI{enter}', {force: true});
+    cy.contains('検索').click();
+    cy.contains('YOASOBI')
+
+    cy.get('#search').focus().clear()
+    .type('the band apart{enter}', {force: true});
+    cy.contains('検索').first().click();
+    cy.contains('the band apart')
+  })
 })
