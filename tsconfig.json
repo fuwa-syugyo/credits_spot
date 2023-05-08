@@ -10,6 +10,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
+    "types": ["cypress", "node", "vue-router"],
     "skipLibCheck": true,
     "noEmit": true
   },

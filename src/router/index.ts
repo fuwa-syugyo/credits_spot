@@ -75,10 +75,9 @@ export const routeSettings: RouteRecordRaw[] = [
   },
 ]
 
-const routes = createRouter({
+const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  // history: createWebHistory(),
   routes: routeSettings
 })
 
-export default routes
+export default router
