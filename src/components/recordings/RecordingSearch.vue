@@ -2,6 +2,7 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import router from "../../router";
+  import NotFound from "../NotFound.vue";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   onBeforeRouteUpdate((to, from, next) => {
@@ -70,47 +71,52 @@
 </script>
 
 <template>
-  <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
-    <form v-on:submit.prevent="applyFilter">
-      <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument">インスト音源を除外   </label>
-      <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
-      <br>
-      <label>アーティスト名で絞り込み</label>
-      <div class="relative">
-        <input v-model="artistName" type="search" id="filter" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
-          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
-          <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
-      </div>
-    </form>
+  <div v-if="recording_data">
+    <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
+      <form v-on:submit.prevent="applyFilter">
+        <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument">インスト音源を除外   </label>
+        <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
+        <br>
+        <label>アーティスト名で絞り込み</label>
+        <div class="relative">
+          <input v-model="artistName" type="search" id="filter" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
+            <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
+        </div>
+      </form>
+    </div>
+    <table class="table-auto my-4">
+      <thead>
+        <tr>
+          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
+          <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="recording in recording_data" :key="recording.id">
+          <td class="border px-4 py-2 max-w-[600px]">
+            <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
+              {{ recording.title }}
+            </RouterLink>
+          </td>
+          <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+          <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div v-if="totalItems > 100">
+      <vue-awesome-paginate
+        :total-items="totalItems"
+        :items-per-page="100"
+        :max-pages-shown="5"
+        v-model="currentPage"
+        :on-click="onClickHandler"
+      />
+    </div>
   </div>
-  <table class="table-auto my-4">
-    <thead>
-      <tr>
-        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
-        <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
-        <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="recording in recording_data" :key="recording.id">
-        <td class="border px-4 py-2 max-w-[600px]">
-          <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-            {{ recording.title }}
-          </RouterLink>
-        </td>
-        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
-      </tr>
-    </tbody>
-  </table>
-  <div v-if="totalItems > 100">
-    <vue-awesome-paginate
-      :total-items="totalItems"
-      :items-per-page="100"
-      :max-pages-shown="5"
-      v-model="currentPage"
-      :on-click="onClickHandler"
-    />
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>
 

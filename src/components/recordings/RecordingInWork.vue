@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { RouterLink } from "vue-router";
+  import NotFound from "../NotFound.vue";
   import { RecordInWork } from "../../types/artist/ArtistDetail"
   import { ArtistCredit } from "../../types/recording/RecordingSearch"
 
@@ -37,24 +38,29 @@
 </script>
 
 <template>
-  <table class="table-auto my-4">
-    <thead>
-      <tr>
-        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
-        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">アーティスト</th>
-        <th class="px-4 py-2 border bg-blue-100">属性</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="recording in recording_list" :key="recording.id">
-        <td class="px-4 py-2 border max-w-[600px]">
-          <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-            {{ recording.title }}
-          </RouterLink>
-        </td>
-        <td class="px-4 py-2 border">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td class="px-4 py-2 border text-center">{{ recording.attributes }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div v-if="recording_list">
+    <table class="table-auto my-4">
+      <thead>
+        <tr>
+          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
+          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border bg-blue-100">属性</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="recording in recording_list" :key="recording.id">
+          <td class="px-4 py-2 border max-w-[600px]">
+            <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
+              {{ recording.title }}
+            </RouterLink>
+          </td>
+          <td class="px-4 py-2 border">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+          <td class="px-4 py-2 border text-center">{{ recording.attributes }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
+  </div>
 </template>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink } from "vue-router";
+  import NotFound from "../NotFound.vue";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   const route = useRoute();
@@ -57,10 +58,9 @@
     }
     filteredData = recording_data.value;
     filteredDataLength = filteredData.length;
-  } catch {
-    console.error('Error fetching data:', Error);
-  }
-
+    } catch {
+      console.error('Error fetching data:', Error);
+    }
   });
 
   const onClickHandler = (page: number) => {
@@ -92,34 +92,39 @@
 </script>
 
 <template>
-  <table class="table-auto my-4">
-    <thead>
-      <tr>
-        <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
-        <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
-        <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="recording in recording_data" :key="recording.id">
-        <td class="border px-4 py-2 max-w-[600px]">
-          <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
-            {{ recording.title }}
-          </RouterLink>
-        </td>
-        <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-        <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
-      </tr>
-    </tbody>
-  </table>
-  <div v-if="filteredDataLength > 100">
-    <vue-awesome-paginate
-      :total-items="filteredDataLength"
-      :items-per-page="100"
-      :max-pages-shown="5"
-      v-model="currentPage"
-      :on-click="onClickHandler"
-    />
+  <div v-if="recording_data">
+    <table class="table-auto my-4">
+      <thead>
+        <tr>
+          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
+          <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="recording in recording_data" :key="recording.id">
+          <td class="border px-4 py-2 max-w-[600px]">
+            <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
+              {{ recording.title }}
+            </RouterLink>
+          </td>
+          <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
+          <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div v-if="filteredDataLength > 100">
+      <vue-awesome-paginate
+        :total-items="filteredDataLength"
+        :items-per-page="100"
+        :max-pages-shown="5"
+        v-model="currentPage"
+        :on-click="onClickHandler"
+      />
+    </div>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>
 

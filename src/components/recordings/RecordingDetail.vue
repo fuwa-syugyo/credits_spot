@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
+  import NotFound from "../NotFound.vue";
   import { RecordingData, Artists, Staff, SongWriter, Player } from "../../types/recording/RecordingDetail"
 
   interface Props {
@@ -81,7 +82,7 @@
               }
             });
             const spotifyData = await spotifyRes.json()
-            spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
+            spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
           } catch (error) {
             console.error(error);
           }
@@ -171,5 +172,8 @@
         <a :href="spotifyLink" target="_blank">Spotifyで聴く</a>
       </div>
     </div>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>
