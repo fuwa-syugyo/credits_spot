@@ -81,7 +81,7 @@
               }
             });
             const spotifyData = await spotifyRes.json()
-            spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
+            spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
           } catch (error) {
             console.error(error);
           }
