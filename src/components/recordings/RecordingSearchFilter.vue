@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink } from "vue-router";
-  import NotFound from "../NotFound.vue";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   const route = useRoute();
@@ -92,7 +91,7 @@
 </script>
 
 <template>
-  <div v-if="recording_data">
+  <div v-if="filteredDataLength !== 0">
     <table class="table-auto my-4">
       <thead>
         <tr>
@@ -124,7 +123,7 @@
     </div>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <p>条件に該当する楽曲はありませんでした。</p>
   </div>
 </template>
 
