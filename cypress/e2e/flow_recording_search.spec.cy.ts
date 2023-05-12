@@ -79,7 +79,6 @@ describe('Recording search and lookup artist', () => {
     //フィルター1(インスト音源除外フィルター)のみ
     cy.get('form > :nth-child(1) > input').check();
     cy.get('main > .container > form > .relative > .text-white').click();
-
     cy.wait(5000)
     cy.contains('天体観測')
     cy.get('table tbody tr').should('not.contain', '天体観測(Instrumental Version)')
