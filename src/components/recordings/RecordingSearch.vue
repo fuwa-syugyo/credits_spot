@@ -2,7 +2,6 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import router from "../../router";
-  import NotFound from "../NotFound.vue";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
 
   onBeforeRouteUpdate((to, from, next) => {
@@ -71,7 +70,7 @@
 </script>
 
 <template>
-  <div v-if="recording_data">
+  <div v-if="recording_data.length !== 0">
     <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
       <form v-on:submit.prevent="applyFilter">
         <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument">インスト音源を除外   </label>
@@ -116,7 +115,8 @@
     </div>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <p>該当する楽曲は見つかりませんでした。</p>
+    <p>条件を変更して再度検索を行なってください。</p>
   </div>
 </template>
 

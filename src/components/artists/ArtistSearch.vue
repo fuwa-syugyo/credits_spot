@@ -2,7 +2,6 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistData } from "../../types/artist/ArtistSearch"
-  import NotFound from "../NotFound.vue";
 
   onBeforeRouteUpdate((to, from, next) => {
     artist_term.value = to.query.term as string || '';
@@ -46,7 +45,7 @@
 </script>
 
 <template>
-  <div v-if="artist_data">
+  <div v-if="artist_data.length !== 0">
     <table class="table-auto my-4">
       <thead>
         <tr>
@@ -74,7 +73,8 @@
     </div>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <p>該当する人物は見つかりませんでした。</p>
+    <p>条件を変更して再度検索を行なってください。</p>
   </div>
 </template>
 
