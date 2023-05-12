@@ -78,7 +78,7 @@
 
   const getRidOfInstrument = () => {
   const cutData = recording_data.value
-    .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("(off vocal)")  && !data.title.includes("(off Vocal)") && !data.title.includes("(カラオケ)") && !data.title.includes("(オリジナル・カラオケ)")  &&  !data.title.includes("(karaoke)") &&  !data.title.includes("(Karaoke)")  && !data.title.includes("Music video") && !data.title.includes("MUSIC VIDEO") && !data.title.includes("TV Size"));
+    .filter((data) => !data.title.toLocaleLowerCase().includes("instrumental") && !data.title.toLocaleLowerCase().includes("(off vocal)") && !data.title.includes("(カラオケ)") && !data.title.includes("(オリジナル・カラオケ)")  &&  !data.title.toLocaleLowerCase().includes("(karaoke)") && !data.title.toLocaleLowerCase().includes("music video")  && !data.title.toLocaleLowerCase().includes("tv size"));
     recording_data.value = cutData
   }
 
