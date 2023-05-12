@@ -84,7 +84,7 @@
 
   const getPartialMatch = () => {
   const partialMatchData = recording_data.value
-    .filter((data) => data.title.toLocaleLowerCase().includes(recording_term.toLocaleLowerCase()));
+    .filter((data) => data.title.includes(recording_term));
     recording_data.value = partialMatchData
   }
 
