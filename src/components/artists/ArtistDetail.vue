@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import { ref, onMounted, defineProps } from "vue";
+  import NotFound from "../NotFound.vue";
   import { ArtistData, RecordingCredit, SongWriterCredit, RecordInWork, ArtistCredit, ArtistRecording } from "../../types/artist/ArtistDetail"
 
   interface Props {
@@ -158,6 +159,9 @@
         :on-click="onClickHandler"
       />
     </div>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>
 

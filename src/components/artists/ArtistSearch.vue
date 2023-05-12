@@ -2,6 +2,7 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistData } from "../../types/artist/ArtistSearch"
+  import NotFound from "../NotFound.vue";
 
   onBeforeRouteUpdate((to, from, next) => {
     artist_term.value = to.query.term as string || '';
@@ -45,30 +46,35 @@
 </script>
 
 <template>
-  <table class="table-auto my-4">
-    <thead>
-      <tr>
-        <th class="px-4 py-2 border  bg-blue-100">人物名</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="artist in artist_data" :key="artist.id">
-        <td class="border px-4 py-2">
-          <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.id}}">
-            {{ artist.name }}
-          </RouterLink>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <div v-if="totalItems > 100">
-    <vue-awesome-paginate
-      :total-items="totalItems"
-      :items-per-page="100"
-      :max-pages-shown="5"
-      v-model="currentPage"
-      :on-click="onClickHandler"
-    />
+  <div v-if="artist_data">
+    <table class="table-auto my-4">
+      <thead>
+        <tr>
+          <th class="px-4 py-2 border  bg-blue-100">人物名</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="artist in artist_data" :key="artist.id">
+          <td class="border px-4 py-2">
+            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.id}}">
+              {{ artist.name }}
+            </RouterLink>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div v-if="totalItems > 100">
+      <vue-awesome-paginate
+        :total-items="totalItems"
+        :items-per-page="100"
+        :max-pages-shown="5"
+        v-model="currentPage"
+        :on-click="onClickHandler"
+      />
+    </div>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>
 
