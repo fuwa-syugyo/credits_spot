@@ -5,7 +5,7 @@
 
   const route = useRoute();
   let recording_term = route.query.term as string || '';
-  const getRidOfInstrumentValue = route.query.getRidOfInstrument;
+  const getRidOfInstrumentAndLiveValue = route.query.getRidOfInstrumentAndLive;
   const getPartialMatchValue = route.query.getPartialMatch;
   const artistName = route.query.artistName as string || '';
   const totalItems = ref<number>(0);
@@ -21,7 +21,7 @@
     const first_data = await first_res.json();
 
     totalItems.value = first_data.count - 1;
-    const repeat = totalItems.value < 500 ? totalItems.value / 100  : 4;
+    const repeat = totalItems.value < 1000 ? totalItems.value / 100  : 9;
 
     for(let i = 0; i < repeat + 1; i++) {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${ i * 100 }&limit=100&fmt=json`)
@@ -44,8 +44,8 @@
     }
     recording_data.value = all_recording_data.value.flat();
 
-    if(getRidOfInstrumentValue == "true"){
-      getRidOfInstrument()
+    if(getRidOfInstrumentAndLiveValue == "true"){
+      getRidOfInstrumentAndLive()
     }
 
     if(getPartialMatchValue == "true"){
@@ -76,9 +76,9 @@
     recording_data.value = includeArtistData
   }
 
-  const getRidOfInstrument = () => {
+  const getRidOfInstrumentAndLive = () => {
   const cutData = recording_data.value
-    .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("(off vocal)")  && !data.title.includes("(off Vocal)") && !data.title.includes("(カラオケ)") && !data.title.includes("(オリジナル・カラオケ)")  &&  !data.title.includes("(karaoke)") &&  !data.title.includes("(Karaoke)")  && !data.title.includes("Music video") && !data.title.includes("MUSIC VIDEO") && !data.title.includes("TV Size"));
+    .filter((data) => !data.title.includes("Instrumental") && !data.title.includes("instrumental") && !data.title.includes("(Off Vocal)") && !data.title.includes("(off vocal)") && !data.title.includes("Music video") && !data.title.includes("TV Size")&& data["secondary-types"]  !== "Live");
     recording_data.value = cutData
   }
 
