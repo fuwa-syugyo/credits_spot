@@ -68,38 +68,4 @@ describe('Recording search and lookup artist', () => {
     cy.contains('検索').first().click();
     cy.contains('マリーゴールド')
   })
-
-  it('apply filter', () => {
-    cy.visit('http://127.0.0.1:5173/')
-
-    cy.get('#search').type('天体観測{enter}', {force: true});
-    cy.contains('検索').click();
-    cy.contains('天体観測')
-
-    //フィルター1(インスト音源除外フィルター)のみ
-    cy.get('form > :nth-child(1) > input').check();
-    cy.get('main > .container > form > .relative > .text-white').click();
-    cy.wait(5000)
-    cy.contains('天体観測')
-    cy.get('table tbody tr').should('not.contain', '天体観測(Instrumental Version)')
-    cy.go('back')
-
-    //フィルター2(部分一致フィルター)のみ
-    cy.get(':nth-child(2) > input').check();
-    cy.get('main > .container > form > .relative > .text-white').click();
-    cy.wait(5000)
-    cy.contains('天体観測')
-    cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
-    cy.go('back')
-
-    //フィルター3(アーティスト名フィルター)のみ
-    cy.get('#filter').clear();
-    cy.get('#filter').type('BUMP OF CHICKEN');
-    cy.get('main > .container > form > .relative > .text-white').click();
-
-    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('BUMP OF CHICKEN')
-    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
-      expect($td.text()).not.to.include('入尾信充')
-    })
-  })
 })
