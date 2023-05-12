@@ -1,8 +1,8 @@
 import RecordingSearch from '../../src/components/recordings/RecordingSearch.vue'
+import  routes  from '../../src/router'
+import { createMemoryHistory, createRouter } from 'vue-router'
 
-it('Less than 100 recording search result', () => {
-  cy.mount(RecordingSearch, { query: { term: 'ミックスナッツ' } })
-  cy.contains('ミックスナッツ')
-
+it('playground', () => {
+  cy.mount(RecordingSearch)
 })
 

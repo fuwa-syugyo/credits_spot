@@ -13,13 +13,5 @@ export default defineConfig({
       framework: "vue",
       bundler: "vite",
     },
-    setupNodeEvents(on, config) {
-      on('task', {
-        // deconstruct the individual properties
-        setOptions() {
-          return null
-        },
-      })
-    },
   },
 });

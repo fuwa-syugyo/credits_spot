@@ -22,7 +22,7 @@
 // import './component';
 
 import { mount } from 'cypress/vue'
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createMemoryHistory, createRouter, createWebHistory } from 'vue-router'
 import { routeSettings as routes }  from '../../src/router'
 
 Cypress.Commands.add('mount', (component, options = {}) => {
@@ -44,13 +44,6 @@ Cypress.Commands.add('mount', (component, options = {}) => {
       app.use(options.router)
     },
   })
-
-  if (options.query) {
-    options.router.push({
-      query: options.query,
-    })
-  }
-  cy.task('setOptions') //options.queryをマウント前に反映させるため何もしないタスクを実行
 
   return mount(component, options)
 })
