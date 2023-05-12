@@ -19,7 +19,7 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.contains('Spotifyで聴く')
 
-    cy.contains('結束バンド').click()
+    cy.get('.my-2 > tbody > tr > :nth-child(2)').click()
     cy.contains('結束バンド')
     cy.contains('青春コンプレックス')
     cy.go('back')
@@ -67,5 +67,109 @@ describe('Recording search and lookup artist', () => {
     .type('マリーゴールド{enter}', {force: true});
     cy.contains('検索').first().click();
     cy.contains('マリーゴールド')
+  })
+
+  it('apply filter', () => {
+    cy.visit('http://127.0.0.1:5173/')
+
+    cy.get('#search').type('天体観測{enter}', {force: true});
+    cy.contains('検索').click();
+    cy.contains('天体観測')
+
+    //フィルター1(インスト音源除外フィルター)のみ
+    cy.get('form > :nth-child(1) > input').check();
+    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.wait(5000)
+    cy.contains('天体観測')
+    cy.get('table tbody tr').should('not.contain', '天体観測(Instrumental Version)')
+    cy.go('back')
+
+    //フィルター2(部分一致フィルター)のみ
+    cy.get('#filter').clear();
+    cy.get('form > :nth-child(2) > input').check();
+    cy.get('main > .container > form > .relative > .text-white').click();
+
+    cy.wait(5000)
+    cy.contains('天体観測')
+    cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
+    cy.go('back')
+
+    //フィルター3(アーティスト名フィルター)のみ
+    cy.get('#filter').clear();
+    cy.get('#filter').type('BUMP OF CHICKEN');
+    cy.get('main > .container > form > .relative > .text-white').click();
+
+    cy.wait(5000)
+    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('BUMP OF CHICKEN')
+    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+      expect($td.text()).not.to.include('入尾信充')
+    })
+    cy.go('back')
+
+    //フィルター1と2
+    cy.get('#filter').clear();
+    cy.get('form > :nth-child(1) > input').check();
+    cy.get('form > :nth-child(2) > input').check();
+    cy.get('main > .container > form > .relative > .text-white').click();
+
+    cy.wait(5000)
+    cy.contains('真夏の天体観測')
+    cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
+    cy.get('tbody').should('not.contain', '真夏の天体観測 ～Instrumental～')
+    cy.go('back')
+
+    //フィルター1と3
+    cy.get('#search').focus().clear()
+    cy.get('#search').type('can you celebrate{enter}', {force: true});
+    cy.contains('検索').click();
+    cy.contains('CAN YOU CELEBRATE?')
+
+    cy.get('#filter').clear();
+    cy.get('form > :nth-child(1) > input').check();
+    cy.get('#filter').type('安室奈美恵');
+    cy.get('main > .container > form > .relative > .text-white').click();
+
+    cy.wait(5000)
+    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
+    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+      expect($td.text()).not.to.include('白鳥英美子')
+    })
+    cy.contains('CAN YOU CELEBRATE?')
+    cy.contains('Dreaming I was dreaming (Subconscious mix)')
+    cy.get('tbody').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
+    cy.go('back')
+
+    //フィルター2と3
+    cy.get('#filter').clear();
+    cy.get('form > :nth-child(2) > input').check();
+    cy.get('#filter').type('安室奈美恵');
+    cy.get('main > .container > form > .relative > .text-white').click();
+
+    cy.wait(5000)
+    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
+    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+      expect($td.text()).not.to.include('白鳥英美子')
+    })
+    cy.contains('CAN YOU CELEBRATE?')
+    cy.contains('CAN YOU CELEBRATE? (instrumental)')
+    cy.get('tbody').should('not.contain', 'Dreaming I was dreaming (Subconscious mix)')
+    cy.go('back')
+
+    //フィルター1と2と3
+    cy.get('#filter').clear();
+    cy.get('form > :nth-child(1) > input').check();
+    cy.get('form > :nth-child(2) > input').check();
+    cy.get('#filter').type('安室奈美恵');
+    cy.get('main > .container > form > .relative > .text-white').click();
+
+    cy.wait(5000)
+    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
+    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+      expect($td.text()).not.to.include('白鳥英美子')
+    })
+    cy.contains('CAN YOU CELEBRATE?')
+    cy.get('tbody').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
+    cy.get('tbody').should('not.contain', 'Dreaming I was dreaming (Subconscious mix)')
+    cy.go('back')
   })
 })
