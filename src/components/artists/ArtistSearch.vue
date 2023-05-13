@@ -2,6 +2,8 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistData } from "../../types/artist/ArtistSearch"
+  import NowLoading from "../NowLoading.vue"
+  import NoResults  from "../NoResults.vue"
 
   onBeforeRouteUpdate((to, from, next) => {
     artist_term.value = to.query.term as string || '';
@@ -14,12 +16,14 @@
   const route = useRoute();
   const artist_term = ref(route.query.term as string || '');
   const artist_data = ref<ArtistData[]>([]);
+  const isLoading = ref(false);
 
   const onClickHandler = async (page: number, artist_term: string) => {
     if (!artist_term) {
       artist_term = route.query.term as string || ''
     }
     try {
+      isLoading.value = true;
       const offset = (page - 1) * 100
       const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
       const data = await res.json();
@@ -33,6 +37,8 @@
       totalItems.value = data.count - 1;
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   }
 
@@ -45,7 +51,10 @@
 </script>
 
 <template>
-  <div v-if="artist_data.length !== 0">
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="artist_data.length !== 0">
     <table class="table-auto my-4">
       <thead>
         <tr>
@@ -73,8 +82,7 @@
     </div>
   </div>
   <div v-else>
-    <p>該当する人物は見つかりませんでした。</p>
-    <p>条件を変更して再度検索を行なってください。</p>
+    <NoResults></NoResults>
   </div>
 </template>
 

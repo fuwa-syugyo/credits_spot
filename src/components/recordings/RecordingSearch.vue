@@ -23,7 +23,6 @@
   const isLoading = ref(false);
 
   const onClickHandler = async (page: number, recording_term: string) => {
-    isLoading.value = false;
     if (!recording_term) {
       recording_term = route.query.term as string || ''
     }
