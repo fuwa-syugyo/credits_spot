@@ -2,6 +2,7 @@
   import { ref, onMounted } from "vue";
   import { RouterLink } from "vue-router";
   import NotFound from "../NotFound.vue";
+  import NowLoading from "../NowLoading.vue"
   import { RecordInWork } from "../../types/artist/ArtistDetail"
   import { ArtistCredit } from "../../types/recording/RecordingSearch"
 
@@ -10,11 +11,12 @@
   }
   const props = defineProps<Props>();
   const work_id = props.id
-
   const recording_list = ref<RecordInWork[]>();
+  const isLoading = ref(false);
 
   onMounted(async () => {
     try {
+      isLoading.value = true;
       const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
       const data = await res.json()
 
@@ -29,16 +31,20 @@
           })),
         attributes: item.attributes[0],
       }))
-      console.log(recording_in_work)
       recording_list.value = recording_in_work;
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   })
 </script>
 
 <template>
-  <div v-if="recording_list">
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="recording_list">
     <table class="table-auto my-4">
       <thead>
         <tr>
