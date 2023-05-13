@@ -3,6 +3,8 @@
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import router from "../../router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
+  import NowLoading from "../NowLoading.vue"
+  import NoResults  from "../NoResults.vue"
 
   onBeforeRouteUpdate((to, from, next) => {
     recording_term.value = to.query.term as string || '';
@@ -18,14 +20,17 @@
 
   const selectFilter = ref<Array<string>>([]);
   const artistName = ref();
+  const isLoading = ref(false);
 
   const onClickHandler = async (page: number, recording_term: string) => {
+    isLoading.value = false;
     if (!recording_term) {
       recording_term = route.query.term as string || ''
     }
 
     const offset = (page - 1) * 100
     try {
+      isLoading.value = true;
       const data = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`).then((res) => res.json());
 
       const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
@@ -44,6 +49,8 @@
       totalItems.value = data.count - 1;
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   }
 
@@ -70,7 +77,10 @@
 </script>
 
 <template>
-  <div v-if="recording_data.length !== 0">
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="recording_data.length !== 0">
     <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
       <form v-on:submit.prevent="applyFilter">
         <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument">インスト音源を除外   </label>
@@ -115,8 +125,7 @@
     </div>
   </div>
   <div v-else>
-    <p>該当する楽曲は見つかりませんでした。</p>
-    <p>条件を変更して再度検索を行なってください。</p>
+    <NoResults></NoResults>
   </div>
 </template>
 
