@@ -2,6 +2,7 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink } from "vue-router";
   import { ArtistCredit, SearchRecordingData } from "../../types/recording/RecordingSearch"
+  import NowLoading from "../NowLoading.vue"
 
   const route = useRoute();
   let recording_term = route.query.term as string || '';
@@ -11,17 +12,19 @@
   const totalItems = ref<number>(0);
   let filteredDataLength: number = 0;
   let filteredData: SearchRecordingData[] = [];
+  const isLoading = ref(false);
 
   const recording_data = ref<SearchRecordingData[]>([]);
   const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
 
   onMounted(async() => { 
     try {
-    const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
-    const first_data = await first_res.json();
+      isLoading.value = true;
+      const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
+      const first_data = await first_res.json();
 
-    totalItems.value = first_data.count - 1;
-    const repeat = totalItems.value < 500 ? totalItems.value / 100  : 4;
+      totalItems.value = first_data.count - 1;
+      const repeat = totalItems.value < 500 ? totalItems.value / 100  : 4;
 
     for(let i = 0; i < repeat + 1; i++) {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${ i * 100 }&limit=100&fmt=json`)
@@ -59,6 +62,8 @@
     filteredDataLength = filteredData.length;
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   });
 
@@ -91,7 +96,10 @@
 </script>
 
 <template>
-  <div v-if="filteredDataLength !== 0">
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="filteredDataLength !== 0">
     <table class="table-auto my-4">
       <thead>
         <tr>
