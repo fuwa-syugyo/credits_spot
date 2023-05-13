@@ -1,5 +1,7 @@
 <script setup lang="ts">
   import { ref, onMounted, defineProps } from "vue";
+  import NotFound from "../NotFound.vue";
+  import NowLoading from "../NowLoading.vue"
   import { ArtistData, RecordingCredit, SongWriterCredit, RecordInWork, ArtistCredit, ArtistRecording } from "../../types/artist/ArtistDetail"
 
   interface Props {
@@ -8,12 +10,14 @@
   const props = defineProps<Props>();
   const artist_data = ref<ArtistData>();
   const artistRecording = ref<ArtistRecording[]>();
+  const isLoading = ref(false);
 
   const currentPage = ref(1);
   const totalItems = ref<number>(NaN);
 
   onMounted(async () => {
     try {
+      isLoading.value = true;
       const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
       const relationshipsData = await relationshipsRes.json()
 
@@ -45,6 +49,8 @@
       onClickHandler(1);
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   })
 
@@ -69,7 +75,10 @@
 </script>
 
 <template>
-  <div v-if="artist_data">
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="artist_data">
     <table class="table-auto my-2">
       <thead>
         <tr>
@@ -84,7 +93,7 @@
     </table>
 
     <br>
-    <div v-if="artist_data && ( artist_data.credit.song_writer_credit.length !== 0 )">
+    <div v-if="artist_data?.credit.song_writer_credit.length !== 0">
       作詞作曲した楽曲
       <table class="songwriter-table table-auto my-4">
         <thead>
@@ -107,7 +116,7 @@
     </div>
     <br>
 
-    <div v-if="artist_data && ( artist_data.credit.recording_credit.length !== 0 )">
+    <div v-if="artist_data?.credit.recording_credit.length !== 0">
       スタッフとして関わった楽曲
       <table class="staff-table table-auto my-4">
         <thead>
@@ -129,8 +138,8 @@
       </table>
     </div>
 
+    <br>
     <div v-if="artistRecording?.length !== 0">
-      <br>
       アーティストとして関わった楽曲
       <table class="artist-table table-auto my-4">
         <thead>
@@ -158,6 +167,9 @@
         :on-click="onClickHandler"
       />
     </div>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>
 

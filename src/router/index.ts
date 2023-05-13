@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
 import HomeView from '../components/HomeView.vue'
+import NotFound from '../components/NotFound.vue'
 
 export const routeSettings: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
 
@@ -72,6 +73,11 @@ export const routeSettings: RouteRecordRaw[] = [
         id: idStr
       };
     }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: NotFound
   },
 ]
 

@@ -1,5 +1,7 @@
 <script setup lang="ts">
   import { ref, onMounted } from "vue";
+  import NotFound from "../NotFound.vue";
+  import NowLoading from "../NowLoading.vue"
   import { RecordingData, Artists, Staff, SongWriter, Player } from "../../types/recording/RecordingDetail"
 
   interface Props {
@@ -11,9 +13,11 @@
   const spotifyLink = ref<string>();
   const clientId = import.meta.env.VITE_CLIENT_ID;
   const secretId = import.meta.env.VITE_CLIENT_SECRET;
+  const isLoading = ref(false);
 
   onMounted(async () => {
     try {
+      isLoading.value = true;
       const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
       const relationshipsData = await relationshipsRes.json()
 
@@ -81,7 +85,7 @@
               }
             });
             const spotifyData = await spotifyRes.json()
-            spotifyLink.value = spotifyData.tracks.items[0].external_urls.spotify
+            spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
           } catch (error) {
             console.error(error);
           }
@@ -91,12 +95,17 @@
           });
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   })
 </script>
 
 <template>
-  <div v-if="credit_data">
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="credit_data">
     <table class="table-auto my-2">
       <thead>
         <tr>
@@ -171,5 +180,8 @@
         <a :href="spotifyLink" target="_blank">Spotifyで聴く</a>
       </div>
     </div>
+  </div>
+  <div v-else>
+    <NotFound></NotFound>
   </div>
 </template>

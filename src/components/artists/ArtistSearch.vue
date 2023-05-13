@@ -2,6 +2,8 @@
   import { ref, onMounted } from "vue";
   import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
   import { ArtistData } from "../../types/artist/ArtistSearch"
+  import NowLoading from "../NowLoading.vue"
+  import NoResults  from "../NoResults.vue"
 
   onBeforeRouteUpdate((to, from, next) => {
     artist_term.value = to.query.term as string || '';
@@ -14,12 +16,14 @@
   const route = useRoute();
   const artist_term = ref(route.query.term as string || '');
   const artist_data = ref<ArtistData[]>([]);
+  const isLoading = ref(false);
 
   const onClickHandler = async (page: number, artist_term: string) => {
     if (!artist_term) {
       artist_term = route.query.term as string || ''
     }
     try {
+      isLoading.value = true;
       const offset = (page - 1) * 100
       const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
       const data = await res.json();
@@ -33,6 +37,8 @@
       totalItems.value = data.count - 1;
     } catch {
       console.error('Error fetching data:', Error);
+    } finally {
+      isLoading.value = false;
     }
   }
 
@@ -45,30 +51,38 @@
 </script>
 
 <template>
-  <table class="table-auto my-4">
-    <thead>
-      <tr>
-        <th class="px-4 py-2 border  bg-blue-100">人物名</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="artist in artist_data" :key="artist.id">
-        <td class="border px-4 py-2">
-          <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.id}}">
-            {{ artist.name }}
-          </RouterLink>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <div v-if="totalItems > 100">
-    <vue-awesome-paginate
-      :total-items="totalItems"
-      :items-per-page="100"
-      :max-pages-shown="5"
-      v-model="currentPage"
-      :on-click="onClickHandler"
-    />
+  <div v-if="isLoading">
+    <NowLoading></NowLoading>
+  </div>
+  <div v-else-if="artist_data.length !== 0">
+    <table class="table-auto my-4">
+      <thead>
+        <tr>
+          <th class="px-4 py-2 border  bg-blue-100">人物名</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="artist in artist_data" :key="artist.id">
+          <td class="border px-4 py-2">
+            <RouterLink v-bind:to="{name: 'ArtistDetail', params: {id: artist.id}}">
+              {{ artist.name }}
+            </RouterLink>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div v-if="totalItems > 100">
+      <vue-awesome-paginate
+        :total-items="totalItems"
+        :items-per-page="100"
+        :max-pages-shown="5"
+        v-model="currentPage"
+        :on-click="onClickHandler"
+      />
+    </div>
+  </div>
+  <div v-else>
+    <NoResults></NoResults>
   </div>
 </template>
 
