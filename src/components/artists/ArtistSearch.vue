@@ -34,7 +34,7 @@
       }))
 
       artist_data.value = new_artist_data;
-      totalItems.value = data.count - 1;
+      totalItems.value = data.count;
     } catch {
       console.error('Error fetching data:', Error);
     } finally {
@@ -55,6 +55,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="artist_data.length !== 0">
+    {{ '検索結果 '+ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + artist_data.length)+ '件'  }}
     <table class="table-auto my-4">
       <thead>
         <tr>
