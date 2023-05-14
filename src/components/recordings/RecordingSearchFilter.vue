@@ -23,7 +23,7 @@
       const first_res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`)
       const first_data = await first_res.json();
 
-      totalItems.value = first_data.count - 1;
+      totalItems.value = first_data.count;
       const repeat = totalItems.value < 500 ? totalItems.value / 100  : 4;
 
     for(let i = 0; i < repeat + 1; i++) {
@@ -100,6 +100,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="filteredDataLength !== 0">
+    {{ '検索結果 '+ filteredDataLength + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
     <table class="table-auto my-4">
       <thead>
         <tr>

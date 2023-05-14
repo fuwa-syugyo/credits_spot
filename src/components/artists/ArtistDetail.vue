@@ -141,6 +141,8 @@
     <br>
     <div v-if="artistRecording?.length !== 0">
       アーティストとして関わった楽曲
+      <br>
+      {{ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + (artistRecording?.length ?? 0))+ '件'  }}
       <table class="artist-table table-auto my-4">
         <thead>
           <tr>

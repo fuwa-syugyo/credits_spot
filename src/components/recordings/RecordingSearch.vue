@@ -45,7 +45,7 @@
       }))
 
       recording_data.value = new_recording_data;
-      totalItems.value = data.count - 1;
+      totalItems.value = data.count;
     } catch {
       console.error('Error fetching data:', Error);
     } finally {
@@ -93,6 +93,7 @@
         </div>
       </form>
     </div>
+    {{ '検索結果 '+ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
     <table class="table-auto my-4">
       <thead>
         <tr>
