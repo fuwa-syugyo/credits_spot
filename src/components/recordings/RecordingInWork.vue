@@ -48,8 +48,8 @@
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
           <th class="px-4 py-2 border bg-blue-100">属性</th>
         </tr>
       </thead>

@@ -104,20 +104,20 @@
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
           <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="recording in recording_data" :key="recording.id">
-          <td class="border px-4 py-2 max-w-[600px]">
+          <td class="border px-4 py-2">
             <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
               {{ recording.title }}
             </RouterLink>
           </td>
           <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-          <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
+          <td class="text-center border px-4 py-2">{{ recording.first_release_date }}</td>
         </tr>
       </tbody>
     </table>

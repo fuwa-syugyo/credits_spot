@@ -79,11 +79,18 @@
   <div v-if="isLoading">
     <NowLoading></NowLoading>
   </div>
-  <div v-else-if="recording_data.length !== 0">
-    <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
+  <div v-else-if="recording_data.length !== 0" class="container">
+    <div class="px-4 my-4 border border-gray-500 py-4 w-[400px] rounded-md">
       <form v-on:submit.prevent="applyFilter">
-        <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument">インスト音源を除外   </label>
-        <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
+        <p class="text-xl mb-2">絞り込み</p>
+        <div class="bg-slate-100">
+          <label for="inst" class="mr-[10px]"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
+            <span>インスト音源を除外</span>
+          </label>
+          <label for="partial"><input type="checkbox" v-model="selectFilter" value="getPartialMatch" id="partial">
+            <span>部分一致の曲のみ</span>
+          </label>
+        </div>
         <br>
         <label>アーティスト名で絞り込み</label>
         <div class="relative">
@@ -97,8 +104,8 @@
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border max-w-[600px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border  bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
           <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
         </tr>
       </thead>
