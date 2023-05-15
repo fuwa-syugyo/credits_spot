@@ -106,7 +106,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="credit_data">
-    <p class="text-2xl my-4">{{ credit_data?.title }}</p>
+    <p class="text-2xl my-4 max-w-xl">{{ credit_data?.title }}</p>
     <table class="table-auto my-2 max-w-xl">
       <thead>
         <tr>

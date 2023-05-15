@@ -2,7 +2,7 @@
   import { ref, onMounted, defineProps } from "vue";
   import NotFound from "../NotFound.vue";
   import NowLoading from "../NowLoading.vue"
-  import { ArtistData, RecordingCredit, SongWriterCredit, RecordInWork, ArtistCredit, ArtistRecording } from "../../types/artist/ArtistDetail"
+  import { ArtistData, RecordingCredit, SongWriterCredit, ArtistRecording } from "../../types/artist/ArtistDetail"
 
   interface Props {
     id: string;
@@ -79,27 +79,15 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="artist_data">
-    <table class="table-auto my-2">
-      <thead>
-        <tr>
-          <th class="px-4 py-2 border solid bg-red-100">人物名</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-if="artist_data?.credit">
-          <td class="px-4 py-2 border solid">{{ artist_data?.name }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <p class="text-2xl my-4 max-w-xl">{{ artist_data?.name }}</p>
 
-    <br>
     <div v-if="artist_data?.credit.song_writer_credit.length !== 0">
-      作詞作曲した楽曲
+      <p class="text-lg my-4">作詞作曲した楽曲</p>
       <table class="songwriter-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.song_writer_credit">
@@ -117,12 +105,12 @@
     <br>
 
     <div v-if="artist_data?.credit.recording_credit.length !== 0">
-      スタッフとして関わった楽曲
+      <p class="text-lg my-4">スタッフとして関わった楽曲</p>
       <table class="staff-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid  bg-blue-100">担当</th>
-            <th class="px-4 py-2 border solid  bg-blue-100">曲名</th>
+            <th class="px-4 py-2 border solid  bg-blue-100 max-w-xs">担当</th>
+            <th class="px-4 py-2 border solid  bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.recording_credit">
@@ -140,13 +128,12 @@
 
     <br>
     <div v-if="artistRecording?.length !== 0">
-      アーティストとして関わった楽曲
-      <br>
+      <p class="text-lg my-4">アーティストとして関わった楽曲</p>
       {{ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + (artistRecording?.length ?? 0))+ '件'  }}
       <table class="artist-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
         <tbody>
