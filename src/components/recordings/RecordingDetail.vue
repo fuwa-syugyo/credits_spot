@@ -106,16 +106,15 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="credit_data">
-    <table class="table-auto my-2">
+    <p class="text-2xl my-4">{{ credit_data?.title }}</p>
+    <table class="table-auto my-2 max-w-xl">
       <thead>
         <tr>
-          <th class="px-4 py-2 border solid bg-red-100">曲名</th>
           <th class="px-4 py-2 border solid bg-red-100">アーティスト</th>
         </tr>
       </thead>
       <tbody>
         <tr v-if="credit_data?.credit">
-          <td class="px-4 py-2 border solid">{{ credit_data?.title }}</td>
           <td class="px-4 py-2 border solid">
             <span v-for="artist in credit_data.credit.artist_credit"
               v-bind:name="artist.artist.name"
@@ -135,8 +134,8 @@
       <table class="table-auto">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100">名前</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
           </tr>
         </thead>
         <tbody v-if="credit_data?.credit.songwriter_credit">
