@@ -80,23 +80,23 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="recording_data.length !== 0" class="container">
-    <div class="px-4 my-4 border border-gray-500 py-4 w-[400px] rounded-md">
+    <div class="px-4 my-4 border border-gray-500 py-4  md:w-[350px] w-[250px] rounded-md">
       <form v-on:submit.prevent="applyFilter">
         <p class="text-xl mb-2">絞り込み</p>
-        <div class="bg-slate-100">
-          <label for="inst" class="mr-[10px]"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
-            <span>インスト音源を除外</span>
+        <div class="bg-slate-100 flex-col">
+          <label for="inst" class="mr-[10px] flex"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
+            <span>インスト音源以外</span>
           </label>
-          <label for="partial"><input type="checkbox" v-model="selectFilter" value="getPartialMatch" id="partial">
-            <span>部分一致の曲のみ</span>
+          <label for="partial" class="flex"><input type="checkbox" v-model="selectFilter" value="getPartialMatch" id="partial">
+            <span>部分一致の曲</span>
           </label>
         </div>
         <br>
-        <label>アーティスト名で絞り込み</label>
+        <label>アーティスト名</label>
         <div class="relative">
-          <input v-model="artistName" type="search" id="filter" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
+          <input v-model="artistName" type="search" id="filter" class=" p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 my-2" placeholder="アーティスト名を入力" />
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
-            <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
+            <button type="submit" class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800 md:mx-2">適用</button>
         </div>
       </form>
     </div>
