@@ -79,10 +79,11 @@
   <div v-if="isLoading">
     <NowLoading></NowLoading>
   </div>
-  <div v-else-if="recording_data.length !== 0">
-    <div class="container px-4 my-4 border border-gray-700 py-4 w-1/4">
+  <div v-else-if="recording_data.length !== 0" class="container">
+    <div class="px-4 my-4 border border-gray-500 py-4 w-[400px] rounded-md">
       <form v-on:submit.prevent="applyFilter">
-        <div>
+        <p class="text-xl mb-2">絞り込み</p>
+        <div class="bg-slate-100">
           <label for="inst" class="mr-[10px]"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
             <span>インスト音源を除外</span>
           </label>
