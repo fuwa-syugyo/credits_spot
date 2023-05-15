@@ -80,10 +80,16 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="recording_data.length !== 0">
-    <div class="container px-4 my-4 border border-gray-700 py-4 w-1/2">
+    <div class="container px-4 my-4 border border-gray-700 py-4 w-1/4">
       <form v-on:submit.prevent="applyFilter">
-        <label><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument">インスト音源を除外   </label>
-        <label><input type="checkbox" v-model="selectFilter" value="getPartialMatch">部分一致の曲のみ</label>
+        <div>
+          <label for="inst" class="mr-[10px]"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
+            <span>インスト音源を除外</span>
+          </label>
+          <label for="partial"><input type="checkbox" v-model="selectFilter" value="getPartialMatch" id="partial">
+            <span>部分一致の曲のみ</span>
+          </label>
+        </div>
         <br>
         <label>アーティスト名で絞り込み</label>
         <div class="relative">
