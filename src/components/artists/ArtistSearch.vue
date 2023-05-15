@@ -56,7 +56,7 @@
   </div>
   <div v-else-if="artist_data.length !== 0">
     {{ '検索結果 '+ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + artist_data.length)+ '件'  }}
-    <table class="table-auto my-4">
+    <table class="table-auto my-4 max-w-xl">
       <thead>
         <tr>
           <th class="px-4 py-2 border  bg-blue-100">人物名</th>
