@@ -60,6 +60,7 @@
     }
     filteredData = recording_data.value;
     filteredDataLength = filteredData.length;
+    onClickHandler(currentPage.value)
     } catch {
       console.error('Error fetching data:', Error);
     } finally {
@@ -69,7 +70,7 @@
 
   const onClickHandler = (page: number) => {
     let startIndex = (page - 1) * 100;
-    let endIndex = startIndex + 99;
+    let endIndex = startIndex + 100;
     const dataPerPage = filteredData.slice(startIndex , endIndex)
     recording_data.value = dataPerPage;
   }
