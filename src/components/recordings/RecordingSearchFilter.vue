@@ -106,7 +106,7 @@
         <tr>
           <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
           <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
-          <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
+          <th class="px-4 py-2 border w-[130px] bg-blue-100 hidden md:inline-block">リリース日</th>
         </tr>
       </thead>
       <tbody>
@@ -117,7 +117,7 @@
             </RouterLink>
           </td>
           <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-          <td class="text-center border px-4 py-2">{{ recording.first_release_date }}</td>
+          <td class="text-center border px-4 py-2 hidden md:inline-block">{{ recording.first_release_date }}</td>
         </tr>
       </tbody>
     </table>
@@ -125,7 +125,7 @@
       <vue-awesome-paginate
         :total-items="filteredDataLength"
         :items-per-page="100"
-        :max-pages-shown="5"
+        :max-pages-shown="3"
         v-model="currentPage"
         :on-click="onClickHandler"
       />
@@ -167,4 +167,39 @@
   .active-page:hover {
     background-color: #2988c8;
   }
+  
+  /* スマートフォン用のスタイル */
+   @media (max-width: 768px) {
+    .pagination-container {
+      display: flex;
+      column-gap: 5px;
+    }
+
+    .paginate-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 25px;
+      width: 35px;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: rgb(242, 242, 242);
+      border: 1px solid rgb(217, 217, 217);
+      color: black;
+    }
+
+    .paginate-buttons:hover {
+      background-color: #d8d8d8;
+    }
+
+    .active-page {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .active-page:hover {
+      background-color: #2988c8;
+    }
+  }
+
 </style>
