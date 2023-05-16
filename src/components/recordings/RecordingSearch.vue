@@ -80,23 +80,22 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="recording_data.length !== 0" class="container">
-    <div class="px-4 my-4 border border-gray-500 py-4 w-[400px] rounded-md">
+    <div class="px-4 my-4 border border-gray-500 py-4  md:w-[350px] w-[250px] rounded-md">
       <form v-on:submit.prevent="applyFilter">
         <p class="text-xl mb-2">絞り込み</p>
-        <div class="bg-slate-100">
-          <label for="inst" class="mr-[10px]"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
-            <span>インスト音源を除外</span>
+        <div class="bg-slate-100 flex-col mb-2">
+          <label for="inst" class="mr-[10px] flex"><input type="checkbox" v-model="selectFilter" value="getRidOfInstrument" id="inst">
+            <span>インスト音源以外</span>
           </label>
-          <label for="partial"><input type="checkbox" v-model="selectFilter" value="getPartialMatch" id="partial">
-            <span>部分一致の曲のみ</span>
+          <label for="partial" class="flex"><input type="checkbox" v-model="selectFilter" value="getPartialMatch" id="partial">
+            <span>部分一致の曲</span>
           </label>
         </div>
-        <br>
-        <label>アーティスト名で絞り込み</label>
+        <label>アーティスト名</label>
         <div class="relative">
-          <input v-model="artistName" type="search" id="filter" class=" p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="アーティスト名を入力" />
+          <input v-model="artistName" type="search" id="filter" class=" p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 my-1" placeholder="アーティスト名を入力" />
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"></div>
-            <button type="submit" class="text-white absolute right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800">適用</button>
+            <button type="submit" class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800 md:mx-2">適用</button>
         </div>
       </form>
     </div>
@@ -106,7 +105,7 @@
         <tr>
           <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
           <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
-          <th class="px-4 py-2 border w-[130px] bg-blue-100">リリース日</th>
+          <th class="px-4 py-2 border w-[130px] bg-blue-100 hidden md:inline-block">リリース日</th>
         </tr>
       </thead>
       <tbody>
@@ -117,7 +116,7 @@
             </RouterLink>
           </td>
           <td class="border px-4 py-2">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-          <td class="text-center border px-4 py-2 w-[130px]">{{ recording.first_release_date }}</td>
+          <td class="text-center border px-4 py-2 w-[130px] hidden md:inline-block">{{ recording.first_release_date }}</td>
         </tr>
       </tbody>
     </table>
@@ -125,7 +124,7 @@
       <vue-awesome-paginate
         :total-items="totalItems"
         :items-per-page="100"
-        :max-pages-shown="5"
+        :max-pages-shown="3"
         v-model="currentPage"
         :on-click="onClickHandler"
       />
@@ -166,5 +165,39 @@
 
   .active-page:hover {
     background-color: #2988c8;
+  }
+
+    /* スマートフォン用のスタイル */
+  @media (max-width: 768px) {
+    .pagination-container {
+      display: flex;
+      column-gap: 5px;
+    }
+
+    .paginate-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 25px;
+      width: 35px;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: rgb(242, 242, 242);
+      border: 1px solid rgb(217, 217, 217);
+      color: black;
+    }
+
+    .paginate-buttons:hover {
+      background-color: #d8d8d8;
+    }
+
+    .active-page {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .active-page:hover {
+      background-color: #2988c8;
+    }
   }
 </style>
