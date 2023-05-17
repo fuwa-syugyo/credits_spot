@@ -26,7 +26,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import { routeSettings as routes }  from '../../src/router'
 import '../../src/style.css'
 import VueAwesomePaginate from "vue-awesome-paginate";
-import "vue-awesome-paginate/dist/style.css";
+// import "vue-awesome-paginate/dist/style.css";
 
 Cypress.Commands.add('mount', (component, options = {}) => {
   // Setup options object
