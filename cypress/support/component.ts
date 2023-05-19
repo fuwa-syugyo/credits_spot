@@ -32,6 +32,7 @@ Cypress.Commands.add('mount', (component, options = {}) => {
   // Setup options object
   options.global = options.global || {}
   options.global.plugins = options.global.plugins || []
+  options.global.plugins.push(VueAwesomePaginate)
 
   // create router if one is not provided
   if (!options.router) {
