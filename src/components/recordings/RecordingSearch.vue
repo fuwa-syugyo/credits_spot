@@ -100,7 +100,9 @@
         </div>
       </form>
     </div>
-    {{ '検索結果 '+ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
+    <p>
+      {{ '検索結果 '+ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
+    </p>
     <table class="table-auto my-4">
       <thead>
         <tr>
