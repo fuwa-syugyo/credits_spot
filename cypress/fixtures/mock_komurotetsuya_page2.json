@@ -1,0 +1,4808 @@
+{
+  "created": "2023-05-21T02:32:24.351Z",
+  "count": 2479,
+  "offset": 100,
+  "artists": [
+      {
+          "id": "7d82cdda-85ae-4996-a2bc-fbe0fbfd345b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小久保隆",
+          "sort-name": "Kokubo, Takashi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Japanese New Age and ambient composer",
+          "ipis": [
+              "00168510173"
+          ],
+          "isnis": [
+              "0000000476231825"
+          ],
+          "life-span": {
+              "begin": "1956-03-03",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kokubo, Takashi",
+                  "name": "Takashi Kokubo",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "ambient"
+              },
+              {
+                  "count": 1,
+                  "name": "new age"
+              },
+              {
+                  "count": 1,
+                  "name": "kankyō ongaku"
+              }
+          ]
+      },
+      {
+          "id": "2911df51-bf17-4e1b-9cd3-f0ad08a8fe92",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "渋谷哲平",
+          "sort-name": "Shibuya, Teppei",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "805ccce6-4760-4076-a2b2-dfbbd5d237cc",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Yokohama",
+              "sort-name": "Yokohama",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1961-05-05",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Teppei Shibuya",
+                  "name": "Teppei Shibuya",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 0,
+                  "name": "likedis auto"
+              }
+          ]
+      },
+      {
+          "id": "3305d1ad-c935-45ea-b79d-b4d1caba8757",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小田和正",
+          "sort-name": "Oda, Kazumasa",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "d1db842d-f999-4f2c-b7e1-8df406babffa",
+              "type": "District",
+              "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+              "name": "Kanazawa-ku",
+              "sort-name": "Kanazawa-ku",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00084282466"
+          ],
+          "isnis": [
+              "000000005400418X"
+          ],
+          "life-span": {
+              "begin": "1947-09-20",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "オダ カズマサ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小田和正",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小田 和正",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "小田 和正",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Oda, Kazumasa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kazumasa Oda",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 0,
+                  "name": "fixme label mess"
+              },
+              {
+                  "count": 0,
+                  "name": "likedis auto"
+              }
+          ]
+      },
+      {
+          "id": "acadf16e-36f7-467f-bdac-f13b832b0e1c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小蟲",
+          "sort-name": "Chen, Johnny",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "03be6fde-7d55-4dea-ab29-1791782cb858",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kaohsiung",
+              "sort-name": "Kaohsiung",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00187660042"
+          ],
+          "life-span": {
+              "begin": "1958-03-03",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Hsiao Chung",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Hsiao Chung",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Xiao Chong",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Xiao Chong",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "陈焕昌",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "陈焕昌",
+                  "locale": "zh_Hans",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "陳煥昌",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "陳煥昌",
+                  "locale": "zh_Hant",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小蟲",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小蟲",
+                  "locale": "zh_Hant",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小虫",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小虫",
+                  "locale": "zh_Hans",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Chen, Huan-chang",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Chen Huan-chang",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Chen, Johnny",
+                  "name": "Johnny Chen",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "chinese"
+              }
+          ]
+      },
+      {
+          "id": "3048e395-3bec-443f-b8ec-803b763d3da5",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "山中季哉",
+          "sort-name": "Yamanaka, Toshiya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Yamanaka, Toshiya",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Toshiya Yamanaka",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "ヤマナカ トシヤ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "山中季哉",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "f140af7f-481b-4bb8-bd1f-d4dd97278de1",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "堀浩哉",
+          "sort-name": "Hori, Kosai",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "d04b38d3-3dd7-4aef-952e-2dc3ef7b7dcf",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Takaoka",
+              "sort-name": "Takaoka",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "000000037454402X"
+          ],
+          "life-span": {
+              "begin": "1947-09-28",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "ほりこうさい",
+                  "name": "堀浩哉",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Hori, Kosai",
+                  "name": "Kosai Hori",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "d044add8-4fd2-4c8a-8c13-0aef18fdfe01",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "櫻井哲夫",
+          "sort-name": "Sakurai, Tetsuo",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000372759588"
+          ],
+          "life-span": {
+              "begin": "1957-11-13",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Tetsuo Sakurai",
+                  "name": "Tetsuo Sakurai",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "さくらい てつお",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "櫻井哲夫",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "jazz"
+              }
+          ]
+      },
+      {
+          "id": "981a83c3-914f-49ac-8137-3771eff4e97d",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小池令",
+          "sort-name": "Koike, Ryo",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f6ee740c-c951-4220-9568-f443ac667a83",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Sapporo",
+              "sort-name": "Sapporo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "こいけ りょう",
+                  "name": "こいけ りょう",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "d2dc3378-ae2c-4be0-99a1-7ed16425bcea",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 44,
+          "name": "小虎隊",
+          "sort-name": "Little Tigers, The",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Taiwanese boy band",
+          "life-span": {
+              "begin": "1988",
+              "end": "1998",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "小虎队",
+                  "name": "小虎队",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "teen pop"
+              },
+              {
+                  "count": 1,
+                  "name": "boy band"
+              },
+              {
+                  "count": 1,
+                  "name": "mandopop"
+              }
+          ]
+      },
+      {
+          "id": "2eaaf82d-b712-421c-b8fd-24e3b79388f2",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "幸克哉",
+          "sort-name": "Yuki, Katsuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "幸 克哉",
+                  "name": "幸 克哉",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Katsuya Yuki",
+                  "name": "Katsuya Yuki",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "ゆき かつや",
+                  "name": "ゆき かつや",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "38e33fbb-7daf-4f09-90b4-8b32ecbf7fd8",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小雪",
+          "sort-name": "Choi, Elle",
+          "gender": "female",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "This one is a singer, the other one is a lyricist",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "4646bf56-5f87-4764-abbf-5a2e35ab17ea",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 44,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "劉小慧",
+          "sort-name": "Lau, Winnie",
+          "gender": "female",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Hong Kong singer",
+          "life-span": {
+              "begin": "1971-07-24",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "刘小慧",
+                  "name": "刘小慧",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Winnie Lau",
+                  "name": "Winnie Lau",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "chinese"
+              },
+              {
+                  "count": 1,
+                  "name": "cantopop"
+              }
+          ]
+      },
+      {
+          "id": "193e5536-3758-4342-b051-83bfc0cd2859",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 43,
+          "name": "小野小町",
+          "sort-name": "onono komachi",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "ccf8de62-0b62-40bd-952f-f5d23339fe7b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小松未歩",
+          "sort-name": "Komatsu, Miho",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "230b4d56-82b4-4538-84fc-fc8312235e5d",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kobe",
+              "sort-name": "Kobe",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1974-03-30",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Komatsu, Miho",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Miho Komatsu",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "singer-songwriter"
+              },
+              {
+                  "count": 1,
+                  "name": "j-pop"
+              },
+              {
+                  "count": 1,
+                  "name": "nazo"
+              },
+              {
+                  "count": 1,
+                  "name": "likedis auto"
+              }
+          ]
+      },
+      {
+          "id": "c8b34634-2865-4227-9e15-1cafbbc4f30b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "name": "森琢哉",
+          "sort-name": "Mori, Takuya",
+          "disambiguation": "violinist",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "28f33bc5-643c-4b7d-9626-8a86461cea1e",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "ミヤハラ信哉",
+          "sort-name": "Shinya, Miyahara",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "f3707710-8c95-44bd-9a21-20b58f0fa258",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "奥浩哉",
+          "sort-name": "Oku, Hiroya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "ac0f32ec-8342-409a-b97f-6ace1f21b438",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Fukuoka",
+              "sort-name": "Fukuoka",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000014655906"
+          ],
+          "life-span": {
+              "begin": "1967-09-16",
+              "ended": null
+          }
+      },
+      {
+          "id": "3b6d6e28-9972-4f3a-b2ec-e8811f60983a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "岸達哉",
+          "sort-name": "Kishi, Tatsuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "680024c4-6d19-407e-a131-757599b6e3be",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "name": "梯拓哉",
+          "sort-name": "Kakehashi, Takuya",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "HIGHWAY STAR",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d7fefce7-a8f4-405d-910a-4f44671f773d",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "粂絢哉",
+          "sort-name": "Kume, Junya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Japanese musician / guitarist.",
+          "life-span": {
+              "begin": "1984-03-19",
+              "ended": null
+          }
+      },
+      {
+          "id": "e53ea6f0-d53d-4b9a-ac70-c0b1bdbf76e8",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "内田哉",
+          "sort-name": "Uchida, Hajime",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Uchida, Hajime",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Hajime Uchida",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "ウチダ ハジメ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "内田哉",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "1a9fa260-4f97-43d7-8c0f-33314193d4ce",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小林啓樹",
+          "sort-name": "Kobayashi, Keiki",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Composer",
+          "life-span": {
+              "begin": "1974-06-26",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小林 啓樹",
+                  "name": "小林 啓樹",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "コバヤシ ケイキ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小林啓樹",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こばやし けいき",
+                  "name": "こばやし けいき",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kobayashi, Keiki",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Keiki Kobayashi",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "8767bb3a-c7ae-4451-8848-fe96bade6420",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "張鎬哲",
+          "sort-name": "Jang, Ho-Cheol",
+          "gender": "male",
+          "country": "KR",
+          "area": {
+              "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "South Korea",
+              "sort-name": "South Korea",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8bf652ee-a640-4d61-98b3-b37303c2213e",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Gwangju",
+              "sort-name": "Gwangju",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000400006074"
+          ],
+          "life-span": {
+              "begin": "1962-01-12",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Jang, Ho-Cheol",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "張鎬哲",
+                  "locale": "zh_Hant",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Chang Ho Chirl",
+                  "name": "Chang Ho Chirl",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Chang, Ho-chirl",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Chang Ho-chirl",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "장호철",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "장호철",
+                  "locale": "ko",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "張鎬哲",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "張鎬哲",
+                  "locale": "zh_Hant",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "张镐哲",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "张镐哲",
+                  "locale": "zh_Hans",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "ballad"
+              },
+              {
+                  "count": 1,
+                  "name": "korean ballad"
+              }
+          ]
+      },
+      {
+          "id": "5db64085-3161-409c-a671-c71b79007bcb",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小林ゆう",
+          "sort-name": "Kobayashi, Yū",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "voice actor & singer",
+          "ipis": [
+              "00551085270"
+          ],
+          "isnis": [
+              "0000000372565839"
+          ],
+          "life-span": {
+              "begin": "1982-02-02",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kobayashi Yuu",
+                  "name": "Kobayashi Yuu",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kobayashi, Yu",
+                  "name": "Yu Kobayashi",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こばやし ゆう",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小林ゆう",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "be431331-e58c-4019-89c0-5aa10954bd82",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "郭小霖",
+          "sort-name": "Kwok, Alvin",
+          "gender": "male",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kwok, Siu Lam",
+                  "name": "Kwok Siu Lam",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kwok, Alvin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Alvin Kwok",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "singer-songwriter"
+              },
+              {
+                  "count": 1,
+                  "name": "cantopop"
+              }
+          ]
+      },
+      {
+          "id": "c3119f2c-3521-459b-8958-bda19ad289eb",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小森茂生",
+          "sort-name": "Komori, Shigeo",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "da2427f0-1b44-4d2c-8925-0b46bc33fed5",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Takayama",
+              "sort-name": "Takayama",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "F.M.F",
+          "life-span": {
+              "begin": "1956-05-05",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Komori, Shigeo “SK55”",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Shigeo “SK55” Komori",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こもり しげお",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小森茂生",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Komori, Shigeo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Shigeo Komori",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "16abfae8-2890-4a0a-8d86-7706b1ecd6cc",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小野寺小咲",
+          "sort-name": "Onodera, Kosaki",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "ニセコイ",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3e94b7c1-093c-458c-8ea6-4b52244f01c5",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "name": "戸室仁人",
+          "sort-name": "Tomuro, Yoshito",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Tomuro, Yoshito",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Yoshito Tomuro",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "トムロ ヨシト",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "戸室仁人",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "0a2082f6-5e5b-4f51-bd31-575c20e6427a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小坂りゆ",
+          "sort-name": "Kosaka, Riyu",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1985-01-17",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "RIYU from BeForU",
+                  "name": "RIYU from BeForU",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kosaka Riyu",
+                  "name": "Kosaka Riyu",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Riyu Kosaka",
+                  "name": "Riyu Kosaka",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "りゆ",
+                  "name": "りゆ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "401099b9-b72a-4673-b093-27838b620114",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小倉久佳",
+          "sort-name": "Ogura, Hisayoshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1954-06-02",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "OGR",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "OGR",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Ogura, Hisayoshi",
+                  "name": "Hisayoshi Ogura",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "オグラ ヒサヨシ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小倉久佳",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 2,
+                  "name": "vgm"
+              },
+              {
+                  "count": 1,
+                  "name": "bgm"
+              },
+              {
+                  "count": 1,
+                  "name": "industrial"
+              },
+              {
+                  "count": 1,
+                  "name": "video game music"
+              },
+              {
+                  "count": 1,
+                  "name": "video game soundtrack"
+              },
+              {
+                  "count": 1,
+                  "name": "ogr"
+              }
+          ]
+      },
+      {
+          "id": "8d06e358-309a-4aed-812c-a62838bdc881",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小枝",
+          "sort-name": "Sae",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1985-08-09",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Sae",
+                  "name": "Sae",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "617206fc-60a1-4ca8-b955-6f5fc9ee1ee0",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小山ルミ",
+          "sort-name": "Koyama, Rumi",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f6ee740c-c951-4220-9568-f443ac667a83",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Sapporo",
+              "sort-name": "Sapporo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1952-08-11",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小山 ルミ",
+                  "name": "小山 ルミ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こやま るみ",
+                  "name": "こやま るみ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Rumi Koyama",
+                  "name": "Rumi Koyama",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "likedis auto"
+              }
+          ]
+      },
+      {
+          "id": "03aa958e-26e6-4d6d-991b-5640dbcc250d",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "大室櫻子",
+          "sort-name": "Oomuro, Sakurako",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "ゆるゆり",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "おおむろ さくらこ",
+                  "name": "おおむろ さくらこ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "大室 櫻子",
+                  "name": "大室 櫻子",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "ゆるゆり"
+              }
+          ]
+      },
+      {
+          "id": "398270df-4baf-46a0-8102-44c00b809171",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "黃小琥",
+          "sort-name": "Wong, Tiger",
+          "gender": "female",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "03be6fde-7d55-4dea-ab29-1791782cb858",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kaohsiung",
+              "sort-name": "Kaohsiung",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000360147808"
+          ],
+          "life-span": {
+              "begin": "1963-06-21",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Huang, Chun-feng",
+                  "name": "Huang Chun-feng",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "黄春凤",
+                  "name": "黄春凤",
+                  "locale": "zh_Hans",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "黃春鳳",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "黃春鳳",
+                  "locale": "zh_Hant",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "黄小琥",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "黄小琥",
+                  "locale": "zh_Hans",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Wong, Tiger",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Tiger Wong",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Huang Hsiao Hu",
+                  "name": "Huang Hsiao Hu",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "chinese"
+              },
+              {
+                  "count": 1,
+                  "name": "ballad"
+              },
+              {
+                  "count": 1,
+                  "name": "mandopop"
+              }
+          ]
+      },
+      {
+          "id": "6b60a6d5-dc9b-4fd8-8ff7-aa8bfe527131",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小林泉美",
+          "sort-name": "Kobayashi, Izumi",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "9b029488-2f96-480d-bf14-df362e1c9f8e",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Funabashi",
+              "sort-name": "Funabashi",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "MIMI",
+          "ipis": [
+              "00044094298"
+          ],
+          "isnis": [
+              "000000040666166X"
+          ],
+          "life-span": {
+              "begin": "1957-03-25",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小林 泉美",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "小林 泉美",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kobayashi, Izumi",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Izumi Kobayashi",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "03f3839d-adb0-425f-bf19-61c6c3750dfd",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小比類巻かほる",
+          "sort-name": "Kohiruimaki, Kahoru",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00166634356"
+          ],
+          "isnis": [
+              "0000000376237701"
+          ],
+          "life-span": {
+              "begin": "1967-03-16",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kohhy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kohhy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こひるいまき かほる",
+                  "name": "こひるいまき かほる",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kohiruimaki, Kahoru",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kahoru Kohiruimaki",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小比類巻 かほる",
+                  "name": "小比類巻 かほる",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こひるいまきかほる",
+                  "name": "こひるいまきかほる",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 0,
+                  "name": "likedis auto"
+              },
+              {
+                  "count": 1,
+                  "name": "city pop"
+              }
+          ]
+      },
+      {
+          "id": "874037be-bdae-490c-9a2a-74724133ea95",
+          "score": 43,
+          "name": "小龍",
+          "sort-name": "小龍",
+          "life-span": {
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "likedis auto"
+              }
+          ]
+      },
+      {
+          "id": "d6726173-a711-4201-9bb1-f36f984985a3",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小野大輔",
+          "sort-name": "Ono, Daisuke",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "841b2296-4515-4a5b-b2bc-28fdcb4f0767",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Sakawa",
+              "sort-name": "Sakawa",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1978-05-04",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Daisuke, Ono",
+                  "name": "Daisuke, Ono",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "おの だいすけ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小野大輔",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "c5fca188-d7d6-4499-951f-7c8d378eb5bf",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小高直樹",
+          "sort-name": "Kodaka, Naoki",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kodaka, Naoki",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Naoki Kodaka",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こたか なおき",
+                  "name": "こたか なおき",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "N. Kodaka",
+                  "name": "N. Kodaka",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小高 直樹",
+                  "name": "小高 直樹",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Naoki Kotaka",
+                  "name": "Naoki Kotaka",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こだか なおき",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小高直樹",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こだか なおき",
+                  "name": "こだか なおき",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "87f84260-ae39-4a15-a1ba-50b5873608ee",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "和田昌哉",
+          "sort-name": "Wada, Masaya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00175109867",
+              "00602235595",
+              "00462698712"
+          ],
+          "isnis": [
+              "0000000466232525"
+          ],
+          "life-span": {
+              "begin": "1973-08-10",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "contemporary r&b"
+              },
+              {
+                  "count": 1,
+                  "name": "singer-songwriter"
+              },
+              {
+                  "count": 1,
+                  "name": "likedis auto"
+              }
+          ]
+      },
+      {
+          "id": "fb66963b-e868-4ef8-9647-66dd678634a6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小肥",
+          "sort-name": "Chui, Terence",
+          "gender": "male",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "ed4e8ad9-2b33-3133-b105-28bb719d6ce8",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Macao",
+              "sort-name": "Macao",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1976-06-13",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Siufay",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Siufay",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Chui, Terrence",
+                  "name": "Terrence Chui",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "徐智勇",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "徐智勇",
+                  "locale": "zh",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小肥",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小肥",
+                  "locale": "zh",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "cantopop"
+              }
+          ]
+      },
+      {
+          "id": "a7e45ba7-612c-497a-847d-04273c2ca787",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "白鳥哲",
+          "sort-name": "Shiratori, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1972-03-21",
+              "ended": null
+          }
+      },
+      {
+          "id": "8fde815f-fcb0-42be-8382-f1a32adb3597",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小森まなみ",
+          "sort-name": "Komori, Manami",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f19902db-479c-4b7b-a167-1f0dcd1dc2b6",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Shibuya",
+              "sort-name": "Shibuya",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00166889900"
+          ],
+          "isnis": [
+              "0000000380625053"
+          ],
+          "life-span": {
+              "begin": "1959-10-16",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小森 まなみ",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "小森 まなみ",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Komori, Manami",
+                  "name": "Manami Komori",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こもり まなみ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小森まなみ",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "j-pop"
+              }
+          ]
+      },
+      {
+          "id": "8a193d6b-05f1-4487-bc16-bc958d300d0b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "久住小春",
+          "sort-name": "Kusumi, Koharu",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "6e21f76e-ebf2-46c1-9cc0-8e3788f27d62",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Nagaoka",
+              "sort-name": "Nagaoka",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1992-07-15",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "くすみ こはる",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "久住 小春",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Jiǔ Zhù Xiǎo Chūn",
+                  "name": "Jiǔ Zhù Xiǎo Chūn",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Jiǔzhù Xiǎochūn",
+                  "name": "Jiǔzhù Xiǎochūn",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kusumi Koharu",
+                  "name": "Kusumi Koharu",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "くすみこはる",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "久住小春",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こはっピンク",
+                  "name": "こはっピンク",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "久住小春(モーニング娘。)",
+                  "name": "久住小春(モーニング娘。)",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kusumi, Koharu",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Koharu Kusumi",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "久住小春（モーニング娘。）",
+                  "name": "久住小春（モーニング娘。）",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "hello project"
+              },
+              {
+                  "count": 1,
+                  "name": "つんく♂プロデュース"
+              }
+          ]
+      },
+      {
+          "id": "4df49779-1934-4f7a-a4f6-ed10bda40b4c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "name": "潘哲玄",
+          "sort-name": "Pan, Zhe-Xuan",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Pan Zhe Xuan",
+                  "name": "Pan Zhe Xuan",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Pan Zhexuan",
+                  "name": "Pan Zhexuan",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "chinese"
+              }
+          ]
+      },
+      {
+          "id": "cc8c8787-3993-4e79-aad9-878c0dc84046",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 43,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "吉永小百合",
+          "sort-name": "Yoshinaga, Sayuri",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f19902db-479c-4b7b-a167-1f0dcd1dc2b6",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Shibuya",
+              "sort-name": "Shibuya",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000082959397"
+          ],
+          "life-span": {
+              "begin": "1945-03-13",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Okada, Sayuri",
+                  "name": "岡田小百合",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "おかだ さゆり",
+                  "name": "おかだ さゆり",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Sayuri Okada",
+                  "name": "Sayuri Okada",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "岡田 小百合",
+                  "name": "岡田 小百合",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Sayuri Yoshinaga",
+                  "name": "Sayuri Yoshinaga",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "吉永 小百合",
+                  "name": "吉永 小百合",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "よしなが さゆり",
+                  "name": "よしなが さゆり",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 0,
+                  "name": "likedis auto"
+              },
+              {
+                  "count": 1,
+                  "name": "kayōkyoku"
+              }
+          ]
+      },
+      {
+          "id": "c09f744c-d0ef-4034-a546-67def0a92720",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "徐哲緯",
+          "sort-name": "Hsu, Voter",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "4739aefb-8730-460f-a107-ba399ca14a98",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Longtan",
+              "sort-name": "Longtan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "7693fefe-ee88-4f27-b831-0975c41da635",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小曽根真",
+          "sort-name": "Ozone, Makoto",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "230b4d56-82b4-4538-84fc-fc8312235e5d",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kobe",
+              "sort-name": "Kobe",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000080058085"
+          ],
+          "life-span": {
+              "begin": "1961-03-25",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "おぞね まこと",
+                  "name": "小曽根真",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Ozone, Makoto",
+                  "name": "Makoto Ozone",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 2,
+                  "name": "jazz"
+              }
+          ]
+      },
+      {
+          "id": "bdfcb42a-e8e4-45b6-92af-3a931a96cd31",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "弦哲也",
+          "sort-name": "Gen, Tetsuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "c6851b04-8412-460f-bfc3-22c9cbaa8aca",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Chōshi",
+              "sort-name": "Chōshi",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1947-09-25",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "弦 哲也",
+                  "name": "弦 哲也",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Tamura, Masatoshi",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "田村正稔",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "田村 正稔",
+                  "name": "田村 正稔",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Tetsuya Gen",
+                  "name": "Tetsuya Gen",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "たむら まさとし",
+                  "name": "たむら まさとし",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Masatoshi Tamura",
+                  "name": "Masatoshi Tamura",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "げん てつや",
+                  "name": "げん てつや",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "f0b490e7-66f6-492f-81e2-6be1834962bb",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "林暐哲",
+          "sort-name": "Lin, Wei-che",
+          "gender": "male",
+          "ipis": [
+              "00457225550"
+          ],
+          "life-span": {
+              "begin": "1965-06-06",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "林瑋哲",
+                  "name": "林瑋哲",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "林韪哲",
+                  "name": "林韪哲",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Lin Wei Zhe",
+                  "name": "Lin Wei Zhe",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "林喡哲",
+                  "name": "林喡哲",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "36afd710-a735-4faa-8cb1-14523dbfc34e",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "张哲瀚",
+          "sort-name": "Zhang, Zhehan",
+          "gender": "male",
+          "life-span": {
+              "begin": "1991-05-11",
+              "ended": null
+          }
+      },
+      {
+          "id": "e10218c2-8eec-410b-8702-986fa7e1417c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "幸崎達哉",
+          "sort-name": "Kouzaki, Tatsuya",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kouzaki, Tatsuya",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Tatsuya, Kouzaki",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "コウザキ タツヤ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "幸崎達哉",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "950e5d02-b74f-4105-832f-5432870cd7bc",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "西岡和哉",
+          "sort-name": "Nishioka, Kazuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "1a15a240-0d03-4776-962f-b2d9b2942a29",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Yaizu",
+              "sort-name": "Yaizu",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00172137977"
+          ],
+          "life-span": {
+              "begin": "1974-08-01",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "西岡 和哉",
+                  "name": "西岡 和哉",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kazuya Nishioka",
+                  "name": "Kazuya Nishioka",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Nishioka, Kazuya",
+                  "name": "西岡和也",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "にしおか かずや",
+                  "name": "にしおか かずや",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "289eb25b-f0a0-481b-b8d9-646ba82b97aa",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小林美代子",
+          "sort-name": "Kobayashi, Miyoko",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "b5e32d87-3990-48c1-b6c7-a3d113fb423e",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kisarazu",
+              "sort-name": "Kisarazu",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00171119397"
+          ],
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Miyoko Kobayashi",
+                  "name": "Miyoko Kobayashi",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "4204e567-2e07-4f26-88ec-fc564a8f5747",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "高野哲",
+          "sort-name": "Takano, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "aa6ae0d5-dc0d-4148-87d8-b9f7f867e4fe",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Obihiro",
+              "sort-name": "Obihiro",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1972-12-12",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "rock"
+              }
+          ]
+      },
+      {
+          "id": "7528b85c-a191-456b-a11b-b6085d28450d",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "中村哲",
+          "sort-name": "Nakamura, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "6ccc62d1-bdd8-4f08-8fae-bfaa5310e5ef",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Vancouver",
+              "sort-name": "Vancouver",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "actor",
+          "life-span": {
+              "begin": "1908-09-19",
+              "end": "1992-08-03",
+              "ended": true
+          }
+      },
+      {
+          "id": "339fac76-631e-4307-8506-7360ec843f97",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "中村哲",
+          "sort-name": "Nakamura, Satoshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "06eaa9d4-99f9-4188-89a4-859a14fb0798",
+              "type": "District",
+              "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+              "name": "Ōmiya-ku",
+              "sort-name": "Ōmiya-ku",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "musician",
+          "ipis": [
+              "00521453191",
+              "00021990199"
+          ],
+          "life-span": {
+              "begin": "1954-09-16",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "なかむら さとし",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "中村さとし",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "中村 哲",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "中村 哲",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Nakamura, Satoshi",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Satoshi Nakamura",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "11a748c2-5912-4c01-8925-77e2e711fa29",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "李汪哲",
+          "sort-name": "Lee, Chavy",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "0a8f57bc-6a6b-4423-b2f2-c0c1231e1432",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "菊地哲",
+          "sort-name": "Kikuchi, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "TETSU from D'ERLANGER",
+          "life-span": {
+              "begin": "1969-02-22",
+              "ended": null
+          }
+      },
+      {
+          "id": "9d8ea9f2-342b-4d05-bf47-ec0483199f34",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "李權哲",
+          "sort-name": "Li, Chuan Che",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "d7089183-0ad8-42f1-b6e4-fff99ee6d1bf",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Taipei",
+              "sort-name": "Taipei",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1997-04-20",
+              "ended": null
+          }
+      },
+      {
+          "id": "a3267f3b-f7ba-4e38-a841-7112658be73d",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "志村哲",
+          "sort-name": "Satoshi, Shimura",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "42857829-7e27-4477-9997-f77125e31dc5",
+          "score": 42,
+          "name": "魏哲鸣",
+          "sort-name": "魏哲鸣",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "e5b29f6a-ee6f-4def-ae46-6716ec162e12",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小川典子",
+          "sort-name": "Ogawa, Noriko",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "48a7d649-71b8-4b5e-82f2-234e53879a9a",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kawasaki",
+              "sort-name": "Kawasaki",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "pianist",
+          "isnis": [
+              "0000000050006858"
+          ],
+          "life-span": {
+              "begin": "1962-01-28",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Ogawa, Noriko",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Noriko Ogawa",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "おがわ のりこ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小川典子",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "classical"
+              },
+              {
+                  "count": 0,
+                  "name": "pianist"
+              },
+              {
+                  "count": 0,
+                  "name": "japanese pianist"
+              }
+          ]
+      },
+      {
+          "id": "bcc636b0-6c59-4de8-a22d-17a674110e46",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "李哲藝",
+          "sort-name": "Che-Yi, Lee",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1970",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Che-Yi, Lee",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Lee Che-Yi",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "b2037a30-f6db-4d16-99b1-29acd5820327",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 42,
+          "name": "狐の工作室",
+          "sort-name": "Kitsune no Kousakushitsu",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000469689547"
+          ],
+          "life-span": {
+              "begin": "2005-02-01",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "キツネノコウサクシツ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "狐の工作室",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "FOX LABORATORY",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "FOX LABORATORY",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "foxfactory",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "foxfactory",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "同人"
+              },
+              {
+                  "count": 1,
+                  "name": "東方project"
+              },
+              {
+                  "count": 1,
+                  "name": "同人サークル"
+              }
+          ]
+      },
+      {
+          "id": "0222a9f7-bf6d-46e7-a259-5de9c46a35c8",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小林裕",
+          "sort-name": "Kobayashi, Hiroshi",
+          "gender": "male",
+          "area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1966-10-06",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Devi Kobayashi",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Devi Kobayashi",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こばやし でび",
+                  "name": "小林でび",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "コバヤシ デビ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小林でび",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "こばやし ひろし",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小林裕",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "デビコバヤシ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "でび小林",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Devi Kobayashi",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Devi Kobayashi",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "コバヤシ ヒロシ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小林裕",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kobayashi, Hiroshi",
+                  "name": "小林ひろし",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "でびこばやし",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "でび小林",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "76c88652-efa0-4b8a-b873-4f093de8c836",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "平哲夫",
+          "sort-name": "Taira, Tetsuo",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "0d809703-927b-441d-9be0-7de0ecd301a1",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "陳哲鴻",
+          "sort-name": "Chen, Zhe Hong",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "51e87cde-6038-4b11-97f6-722c24d6ba94",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "原哲夫",
+          "sort-name": "Hara, Tetsuo",
+          "disambiguation": "jazz producer / Venus Records founder",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Hara, Tetsuo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Tetsuo Hara",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "957da2a1-0da5-43d2-9ce1-e32439e6a717",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "段木哲",
+          "sort-name": "Danboku, Satoshi",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "だんぼく さとし",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "段木 哲",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Danboku, Satoshi",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Satoshi Danboku",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "だんぼくさとし",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "段木哲",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "ebdde972-f26d-455b-8273-acadcdf628bd",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "森康哲",
+          "sort-name": "Mori, Yasunori",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "もり かん あきら",
+                  "name": "森 康哲",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "4a8b6540-ef67-4957-9887-b1209ded7c55",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "林哲民",
+          "sort-name": "Lin, Che-min",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3cee410e-9c92-4a29-b99d-92fa3e7b49ec",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "吴哲晗",
+          "sort-name": "Wu, ZheHan",
+          "gender": "female",
+          "country": "CN",
+          "area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "c298ca08-d206-4729-9ecc-fb063d6a17e7",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Jiaxing",
+              "sort-name": "Jiaxing",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1995-08-26",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "ウー・チェーハン",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ウー・チェーハン",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "related-akb48"
+              }
+          ]
+      },
+      {
+          "id": "b95634dd-3a7c-424d-9e25-65a274d94f8a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "許哲毓",
+          "sort-name": "Hsu, Che-yu",
+          "gender": "male",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00540261587"
+          ],
+          "life-span": {
+              "end": "2018-01-22",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "Hsu, Levon",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Levon Hsu",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "许哲毓",
+                  "name": "许哲毓",
+                  "locale": "zh_Hans",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Xu, Zheyu",
+                  "name": "Xu Zheyu",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "5e8be4c1-5a87-4b09-9c46-8797debc4c0e",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "ちあき哲也",
+          "sort-name": "Chiaki, Tetsuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "b19e46f0-6733-41fe-80f8-cc8cacca2cce",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Fujisawa",
+              "sort-name": "Fujisawa",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "end-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00067399922"
+          ],
+          "life-span": {
+              "begin": "1948-06-11",
+              "end": "2015-05-10",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "Chiaki, Tetsuya",
+                  "name": "千明哲也",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "ちあき てつや",
+                  "name": "ちあき てつや",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "ちあき 哲也",
+                  "name": "ちあき 哲也",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Tetsuya Chiaki",
+                  "name": "Tetsuya Chiaki",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kobayashi, Chiaki",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "小林千明",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "5fd1a553-7325-421b-b79e-82431ada5a44",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "香山哲",
+          "sort-name": "Kayama, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "039cd102-05dc-47e0-922f-4e746f83a0b7",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "三森哲",
+          "sort-name": "Mitsumori, Satoru",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "みつもり さとる",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "三森哲",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "fdf9117f-dd7d-4ee0-92c9-addf13fd95e6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "何哲圖",
+          "sort-name": "Ho, Chit To",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "01c6a60e-fc93-4936-8e7e-f2c23cd66df3",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "水島哲",
+          "sort-name": "Mizushima, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "6b14201f-d101-4609-9632-b610aac29173",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Sendai",
+              "sort-name": "Sendai",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "end-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "ipis": [
+              "00021044935"
+          ],
+          "life-span": {
+              "begin": "1929-02-03",
+              "end": "2015-06-27",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "ミズシマ テツ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "水島 哲",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Mizushima, Tetsu",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Tetsu Mizushima",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "ミズシマテツ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "水島哲",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "ae0bba46-1d01-458a-ac9f-364d1645f0a6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "宮哲之",
+          "sort-name": "Miya, Tetsuyuki",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "30523d6a-5d3c-42ff-aec1-39c931d3c573",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "三上哲",
+          "sort-name": "Mikami, Satoshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1968-06-08",
+              "ended": null
+          }
+      },
+      {
+          "id": "dd5243a5-055f-4e14-9cc7-b4e531302b7b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "前田哲",
+          "sort-name": "Maeda, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "6f90d138-ccc9-4018-a78e-d84ae04e8ca8",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kashiwara",
+              "sort-name": "Kashiwara",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "8fc0a4b2-c11b-4176-8f0d-44ffcdf22e62",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "陳瑩哲",
+          "sort-name": "Chen, Ying-Che",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d178da2b-ab9d-411a-963e-638c441bdea3",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "浅田哲",
+          "sort-name": "Asada, Tetsu",
+          "gender": "male",
+          "area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1950-12-15",
+              "end": "2000-08-17",
+              "ended": true
+          }
+      },
+      {
+          "id": "45c3555f-00b5-4591-878c-fb4415d0f199",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "雨宮哲",
+          "sort-name": "Amemiya, Akira",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "8c67c979-c479-4e21-83e6-0fa4fb0d416e",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "name": "樊哲忠",
+          "sort-name": "樊哲忠",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "0c8b69b3-84a3-47c4-8e88-f37365c0c200",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "高原哲",
+          "sort-name": "Takahara, Satoshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "b1827976-d3e9-45fa-9b13-56ca2206d541",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "谭伊哲",
+          "sort-name": "Tan, Yizhe",
+          "gender": "male",
+          "country": "CN",
+          "area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "5f4d5eda-0a2c-4a1b-a7f8-445524329dea",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Chengdu",
+              "sort-name": "Chengdu",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d2ec57fd-c667-4f70-b65b-8c8b5447172f",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "蘇道哲",
+          "sort-name": "So, To Chit",
+          "gender": "male",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "446c628f-0152-4015-abcd-a71ac68a1801",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "喜早哲",
+          "sort-name": "Kisou, Tetsu",
+          "gender": "male",
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1930-11-08",
+              "end": "2016-03-26",
+              "ended": true
+          }
+      },
+      {
+          "id": "a3445785-dcf2-4c19-a6f3-829516ff1ed5",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "宮哲郎",
+          "sort-name": "Miyazaki, Tetsuro",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d048c6c8-8e4b-478f-9f64-6affe6858dde",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "かとう哲也",
+          "sort-name": "Katou, Tetsuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1941-01-15",
+              "end": "1983-10-24",
+              "ended": true
+          }
+      },
+      {
+          "id": "9c70787f-9b80-4e50-bc82-2a236f8bbc6f",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "鬼頭哲",
+          "sort-name": "Kito, Akira",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "ee1edd68-621b-4a37-b668-d7cd55d5cd48",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "たちばな哲也",
+          "sort-name": "Tachibana, Tetsuya",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "47b7f705-4f9d-48f2-adf6-2d414b5e5c33",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kutchan",
+              "sort-name": "Kutchan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1966-11-18",
+              "ended": null
+          }
+      },
+      {
+          "id": "e5cf4f95-014e-41cf-b24d-eea0ca044a29",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "中尾哲",
+          "sort-name": "Nakao, Satoshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "46408daa-bb58-4536-9cf6-c0380d052a6b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "雁屋哲",
+          "sort-name": "Kariya, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "96dd7db4-d3ef-4d7f-a1c8-d89c7db89181",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Beijing",
+              "sort-name": "Beijing",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000084744592"
+          ],
+          "life-span": {
+              "begin": "1941-10-06",
+              "ended": null
+          }
+      },
+      {
+          "id": "a24d1bba-ed08-4bfc-903c-68b4b8240cd2",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "堀哲平",
+          "sort-name": "Hori, Teppei",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "78860ea7-35ab-4aa4-a2b1-066b015034fe",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Hamada",
+              "sort-name": "Hamada",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1981",
+              "ended": null
+          }
+      },
+      {
+          "id": "dac24fc6-d50a-4d2e-a877-d4628c72adaf",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "林哲儀",
+          "sort-name": "Zheyi, Lin",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "DJ Mykal",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ Mykal",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "05ace015-5ffc-4e34-8637-1a41eadbf9f2",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "木下哲",
+          "sort-name": "Kinoshita, Tetsu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "d25d8f03-fc97-445a-8d9e-378910271b86",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Machida",
+              "sort-name": "Machida",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "6a32425a-d671-48bc-b742-5c4b9643b033",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 42,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "長哲也",
+          "sort-name": "Cho, Tetsuya",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Cho, Tetsuya",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Tetsuya Cho",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      }
+  ]
+}

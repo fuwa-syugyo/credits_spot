@@ -1,0 +1,2082 @@
+{
+  "created": "2023-05-21T02:42:53.106Z",
+  "count": 2479,
+  "offset": 2400,
+  "artists": [
+      {
+          "id": "7159e333-ddc7-445e-95e8-3d7a637350f6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 34,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小山田祐治",
+          "sort-name": "Oyamada, Yūji",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d30e065d-e9d4-45b4-93b4-f2e25319c73a",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "小鳥遊靴店",
+          "sort-name": "Takanashi Shoe Store",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "7aa65ea2-347b-48c0-ae73-ff90b9be21d0",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 34,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小林ファンキ風格",
+          "sort-name": "Kobayashi Funki Fukaku",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "511adb06-ff4d-40ce-a12e-f203cafdd251",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 34,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小野木海斗",
+          "sort-name": "おのぎ かいと",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "ツルネ",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "f45c97cd-668b-4949-ac38-bd0c10bf77fe",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "小野満とスイング・ヒーバーズ",
+          "sort-name": "Ono, Mitsuru and Swing Fevers",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "6fc1854e-f9da-41a3-a280-91e240596ab3",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 34,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小野木久美子",
+          "sort-name": "Onogi, Kumiko",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000406770153"
+          ],
+          "life-span": {
+              "begin": "1957-07-20",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "おのぎ くみこ",
+                  "name": "おのぎ くみこ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kumiko Onogi",
+                  "name": "Kumiko Onogi",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小野木 久美子",
+                  "name": "小野木 久美子",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "51201ac8-4680-40ed-9aa2-0380e7872a47",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 34,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小坂井祐莉絵",
+          "sort-name": "Kozakai, Yurie",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "97f06f56-fa71-4238-9e80-fa33a19d4db1",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Higashiura",
+              "sort-name": "Higashiura",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Japanese voice actress",
+          "life-span": {
+              "begin": "1995-07-06",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Kozakai, Yurie",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小坂井祐莉絵",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "12475922-82d7-4cab-a661-65de4e1d81f8",
+          "score": 34,
+          "name": "ライプツィヒ放送室内管弦楽団",
+          "sort-name": "Leipzig Radio Chamber Orchestra",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "c84d08ab-adb0-427b-8506-4fc760732b95",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 34,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "三遊亭小圓朝",
+          "sort-name": "Sanyūtei, Koenchō",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the 3rd",
+          "life-span": {
+              "begin": "1892-08-08",
+              "end": "1973-07-11",
+              "ended": true
+          }
+      },
+      {
+          "id": "efe8788a-cf73-47ab-b0ce-2677d34f2840",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 34,
+          "name": "東京室内混声合唱団",
+          "sort-name": "Tokyo Shitsunai Konsei Gasshōdan",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "7dadd6fb-b30e-4e9d-8b56-5fa53caec072",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 34,
+          "name": "上海彩虹室内合唱团",
+          "sort-name": "Shanghai Rainbow Chamber Singers",
+          "country": "CN",
+          "area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "合唱团",
+          "life-span": {
+              "begin": "2010",
+              "ended": null
+          }
+      },
+      {
+          "id": "61e84207-d589-4cc8-bb00-9db66697963c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "三遊亭小遊三",
+          "sort-name": "Sanyūtei, Koyūza",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the 2nd",
+          "life-span": {
+              "begin": "1947-03-02",
+              "ended": null
+          }
+      },
+      {
+          "id": "fd46c0b8-9731-4a8c-819b-d7e5c9d07e7d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "小坂一也とワゴン・マスターズ",
+          "sort-name": "Kosaka, Kazuya and the Wagon Masters",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "こさか かずや と ワゴン マスターズ",
+                  "name": "こさか かずや と ワゴン マスターズ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小坂一也とワゴンマスター",
+                  "name": "小坂一也とワゴンマスター",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "KOSAKA Kazuya to Wagon Masters",
+                  "name": "KOSAKA Kazuya to Wagon Masters",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小坂 一也 と ワゴン マスターズ",
+                  "name": "小坂 一也 と ワゴン マスターズ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小坂一也とワゴンマスターズ",
+                  "name": "小坂一也とワゴンマスターズ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小坂一也とワゴン・マスター",
+                  "name": "小坂一也とワゴン・マスター",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Kazuya Kosaka and the Wagon Masters",
+                  "name": "Kazuya Kosaka and the Wagon Masters",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "223e2869-7006-4e17-ad52-acdca7ca30cb",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "三遊亭小遊三",
+          "sort-name": "Sanyūtei, Koyūza",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the 1st",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "023694d4-2c55-4ee5-a3fa-07882a871b39",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 33,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "琵琶小路乙葉",
+          "sort-name": "Biwakouji, Otoha",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "きみの声をとどけたい",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "191d8f42-c1b9-4396-9859-f97858de1f0c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "开张伍哲之开心龙",
+          "sort-name": "KZWZZKXL",
+          "country": "CN",
+          "area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "来看我们的演唱会组合",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "66978123-c0a7-4901-be41-03f91ef3186c",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小悪魔な誘惑",
+          "sort-name": "Shouakumana yuuwaku",
+          "gender": "male",
+          "disambiguation": "Inma Series",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "24031ce6-b5cd-4177-b0ce-39ea766551da",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "小倉唯 with ぷるぷるいゃ〜ん",
+          "sort-name": "Ogura Yui with Purupuruyan",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2010",
+              "ended": null
+          }
+      },
+      {
+          "id": "f9b3e299-00d0-4fe2-bb24-33aa88baa258",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "name": "小笠原美都子",
+          "sort-name": "Ogasawara, Mitsuko",
+          "life-span": {
+              "begin": "1920-03-25",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小笠原 美都子",
+                  "name": "小笠原 美都子",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "おがさわら みつこ",
+                  "name": "おがさわら みつこ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Mitsuko Ogasawara",
+                  "name": "Mitsuko Ogasawara",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "c43259e1-1d75-4121-9836-d075a172f1d3",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "春風亭小柳枝",
+          "sort-name": "Syunpūtei, Koryūshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the 9th",
+          "life-span": {
+              "begin": "1936-01-18",
+              "ended": null
+          }
+      },
+      {
+          "id": "c299e512-2cf8-4f1d-a37c-3d6f29b551db",
+          "score": 33,
+          "name": "友枝小学校コーラス部",
+          "sort-name": "Tomoeda Shougakkou Chorus",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "03e7a21b-693c-40ce-9aa5-55413e45ae78",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "神保小学校のみなさん",
+          "sort-name": "Jinbou shougakkou no minasan",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "People of Jinbo Elementary School",
+                  "name": "People of Jinbo Elementary School",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "27865459-b4c8-4087-8644-d775962bc0d1",
+          "score": 33,
+          "name": "小松真知子とタンゴクリスタル",
+          "sort-name": "Komatsu, Machiko and Tango Crystal",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小松真知子とタンゴクリスタル (Matiko Komatsu and Tango Crystal)",
+                  "name": "小松真知子とタンゴクリスタル (Matiko Komatsu and Tango Crystal)",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Matiko Komatsu and Tango Crystal",
+                  "name": "Matiko Komatsu and Tango Crystal",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "MachikoKomatsu & Tango cristal",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "MachikoKomatsu & Tango cristal",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Komatsu Machiko & Tango Cristal",
+                  "name": "Komatsu Machiko & Tango Cristal",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "040b2f40-a938-4639-8b1e-5da1931fac1f",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "name": "小野寺麻理子",
+          "sort-name": "Onodera, Mariko",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "884d4a48-c134-4311-830e-38e7ee4100a5",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Osaka",
+              "sort-name": "Osaka",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1973-02-22",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Onodera, Mariko",
+                  "name": "Mariko Onodera",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "048d5711-c859-4b12-a5cf-57efe926b8ad",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "春風亭小柳枝",
+          "sort-name": "Syunpūtei, Koryūshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the 7th",
+          "life-span": {
+              "begin": "1921-01-02",
+              "end": "1962-09-27",
+              "ended": true
+          }
+      },
+      {
+          "id": "27e35bac-dab1-40ff-a9d5-ea6af8a2c4db",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "佐久間小太郎",
+          "sort-name": "Sakuma, Kotaro",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d21dbb40-0c81-4ccc-a3bb-d8fbac52e2b9",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 33,
+          "name": "有栖川小枝子",
+          "sort-name": "Arisugawa, Saeko",
+          "disambiguation": "ガールフレンド(仮)",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "48d3712d-d40f-4a2c-ba39-5267dfeda323",
+          "score": 33,
+          "name": "小学生時伐のひかり",
+          "sort-name": "小学生時伐のひかり",
+          "disambiguation": "appears on the \"Persona Q2 New Cinema Labyrinth Original Soundtrack\"",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "27fc60a2-86b0-4ba6-8d36-2d897e80b103",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "name": "万里小路麗音",
+          "sort-name": "万里小路麗音",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "08f06e75-d4db-45cc-b9cf-bb49aedb3b21",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "小高健司とザ・ローズ",
+          "sort-name": "Odaka Kenji to The Rose",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": true
+          }
+      },
+      {
+          "id": "a8c053fd-adea-45b2-a40a-9775722bc4f0",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "矢野小百合ストリングス",
+          "sort-name": "Yano, Sayuri Strings",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "71f8ba44-4a8a-4989-bcdf-28cf9fc28ff1",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "小林太郎とYE$MAN",
+          "sort-name": "Kobayashi, Taro and YE$MAN",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2011-07-22",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "kobayashi taro and YE$MAN",
+                  "name": "kobayashi taro and YE$MAN",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "bc7ac935-b46b-4ea1-b9d5-255cc604f75a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小笠原亜里沙",
+          "sort-name": "Ogasawara, Arisa",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1980-09-30",
+              "ended": null
+          }
+      },
+      {
+          "id": "432341dd-af33-4048-b8f5-c2b19e79f6e7",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小嶋“ojjy”淳一朗",
+          "sort-name": "Ojima, Junichiro \"ojjy\"",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小嶋淳一朗",
+                  "name": "小嶋淳一朗",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Junichiro”ojjy”ojima",
+                  "name": "Junichiro”ojjy”ojima",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Ojima \"Ojjy\" Jyunichiro",
+                  "name": "Ojima \"Ojjy\" Jyunichiro",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Ojima\"Ojjy\"Jyunichiro",
+                  "name": "Ojima\"Ojjy\"Jyunichiro",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Junichiro ”ojjy” ojima",
+                  "name": "Junichiro ”ojjy” ojima",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "小嶋 淳一朗",
+                  "name": "小嶋 淳一朗",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "daad955f-ef01-476d-a487-9e492945742b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小数賀芙由香",
+          "sort-name": "Kosuga, Fuyuka",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1997-11-19",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "6 kanji name"
+              }
+          ]
+      },
+      {
+          "id": "26b8beee-c27a-444a-af0f-3d862d8d4567",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小田切マーク洋平",
+          "sort-name": "Yohei Mark Odagiri",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "ab0372d0-cc62-44d3-9af0-aaed0bb140ea",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "雲夏的小盆栽",
+          "sort-name": "雲夏的小盆栽",
+          "gender": "male",
+          "country": "CN",
+          "area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1998",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "雲夏",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "雲夏",
+                  "locale": "zh_Hant",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "云夏",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "云夏",
+                  "locale": "zh_Hans",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "a776fa49-931a-431a-b108-f97580054cef",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "name": "ゴンザレス吉永小百合",
+          "sort-name": "Gonzalez Yoshinaga Sayuri",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "aa88ad24-baa1-4b30-9958-74374fcf8651",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "小田切一巳・トリオ",
+          "sort-name": "Odagiri, Kazumi, Trio",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "c696217f-2cde-49b7-a267-ea5024470e80",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 33,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小球(莊鵑瑛)",
+          "sort-name": "小球(莊鵑瑛)",
+          "gender": "female",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1985-02-28",
+              "ended": null
+          }
+      },
+      {
+          "id": "1894e8f5-fab3-43f1-b100-910523d26040",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "川崎純情小町☆",
+          "sort-name": "Kawasaki Junjou Komachi",
+          "area": {
+              "id": "48a7d649-71b8-4b5e-82f2-234e53879a9a",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Kawasaki",
+              "sort-name": "Kawasaki",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "かわさきじゅんじょうこまち",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "川崎純情小町☆",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "u.m.u × bemani"
+              }
+          ]
+      },
+      {
+          "id": "5d30c46e-b035-4990-bb0a-c3a88eb7dd3d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "小一堂宣伝社社中",
+          "sort-name": "Koichido Advertising Company",
+          "area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "47533887-5e0e-4ce1-9b0f-e9e7491516a4",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 32,
+          "name": "阿妮 (小妮妮)",
+          "sort-name": "阿妮 (小妮妮)",
+          "country": "MY",
+          "area": {
+              "id": "305d19c7-c040-349c-8d5f-6ac75d2d2a09",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Malaysia",
+              "sort-name": "Malaysia",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Ah Ni (Angeline Xiao Ni Ni)",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ah Ni (Angeline Xiao Ni Ni)",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Ah Ni (Xiao Ni Ni)",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ah Ni (Xiao Ni Ni)",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "阿妮 (小妮妮)",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "阿妮 (小妮妮)",
+                  "locale": "zh",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "532848e8-219b-484d-83b9-ca3ae8b314f4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "小谷美紗子Trio＋100s",
+          "sort-name": "Odani, Misako Trio＋100s",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "4673b84c-4b43-4669-9ce5-34fb57f1aa98",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "ここから先、34小節目。",
+          "sort-name": "Koko kara saki 34 shousetsu me",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "ココカラサキ34ショウセツメ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ここから先、34小節目。",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "東方project"
+              },
+              {
+                  "count": 1,
+                  "name": "同人サークル"
+              },
+              {
+                  "count": 1,
+                  "name": "同人"
+              }
+          ]
+      },
+      {
+          "id": "04ca489f-dd45-4ed1-a04e-a7114eb53443",
+          "score": 32,
+          "name": "愉快な小悪魔達",
+          "sort-name": "愉快な小悪魔達",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3e01c1c3-c798-4264-a798-00f3ffcbb382",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 32,
+          "name": "小島食品工場スタッフ",
+          "sort-name": "Kojima Syokuhin Koujou Staff",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "ゾンビランドサガ",
+          "life-span": {
+              "begin": "2021",
+              "ended": null
+          }
+      },
+      {
+          "id": "dd8c393c-678e-4d07-8146-d29dab5c5a31",
+          "type": "Orchestra",
+          "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+          "score": 32,
+          "name": "小巨人絲竹樂團",
+          "sort-name": "Little Giant Chinese Chamber Orchestra",
+          "country": "TW",
+          "area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Taiwan",
+              "sort-name": "Taiwan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Taiwan-based orchestra with Chinese instruments",
+          "life-span": {
+              "begin": "2000-10",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "gCO",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "gCO",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "LGCCO",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "LGCCO",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Little Giant Chinese Chamber Orchestra",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Little Giant Chinese Chamber Orchestra",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "14e0b9f7-51a0-471a-a163-ba5420fe0486",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 32,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "小此野木七枝子",
+          "sort-name": "Okonogi, Naeko",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "小此野木 七枝子",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "小此野木 七枝子",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "cf4f3b44-634e-4167-adf3-a4b4f3526f36",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "小野江音楽工房",
+          "sort-name": "Onoe Ongaku Koubou",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "おのえおんがくこうぼう",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小野江音楽工房",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "9c492f8c-2014-41e2-8b19-d3e7ac666748",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "本郷小学校生徒",
+          "sort-name": "Hongou-shogakkou Seito",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "e245d15d-c18a-4c7d-bff6-28ca913ac099",
+          "score": 32,
+          "name": "小道具屋・進一",
+          "sort-name": "Kodouguya Shinichi",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3598c971-7500-4db1-a886-3a642b8f0f77",
+          "type": "Orchestra",
+          "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+          "score": 32,
+          "name": "横浜天音学園高校室内楽部",
+          "sort-name": "Yokohama Amane Gakuen Koko Shitunaigaku-Bu",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "金色のコルダ",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "5d3be1e1-9275-49d3-abea-cfdea1afc8a5",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 31,
+          "name": "小太陽兒童合唱團",
+          "sort-name": "Little Sun Children Choir",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "9a5fbd58-6a62-46d0-a3f3-260ebe50199a",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 31,
+          "name": "小童群益會合唱團",
+          "sort-name": "BGCA Choir",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "6a2eb00c-f752-43c9-9b38-05c97f182a12",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 31,
+          "name": "小森啓資 技巧派組",
+          "sort-name": "Keisuke Komori Fashion Collection Technique",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "dbec9480-28e8-488a-bbb6-58da0b0ee43a",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 31,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "綾乃花丸小路智美",
+          "sort-name": "Ayanohanamarukouji, Tomomi",
+          "gender": "female",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "da25ff89-7be8-4359-a950-808019a4531d",
+          "score": 31,
+          "name": "聖夜学園小合唱隊",
+          "sort-name": "聖夜学園小合唱隊",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "しゅごキャラ!",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "4aa2f60e-9fd4-4ff5-a417-f21ea786a142",
+          "score": 31,
+          "name": "拔萃女小學合唱團",
+          "sort-name": "拔萃女小學合唱團",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "09ba8403-8079-45ea-b445-c2c7593f2661",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 31,
+          "name": "小天使兒童合唱團",
+          "sort-name": "Little Angels Children’s Choir",
+          "disambiguation": "Little Angels Children’s Choir",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "a5d23c08-9c81-4675-b406-1c98a65988a0",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 31,
+          "name": "小鱒魚兒童合唱團",
+          "sort-name": "Little Trout Children’s Choir",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "1dcce736-61f0-47cc-9772-5b9bf8555f09",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 31,
+          "name": "守護天使・小学生チーム",
+          "sort-name": "Guardian Angels Elementary School Team",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "211eda96-6326-4cbd-be0d-630b797ffa7d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 31,
+          "name": "小平市立上宿小学校 音楽委員会・音楽クラブ",
+          "sort-name": "Kodaira Shiritsu Kamijuku Shogakko Ongaku Iinkai Ongaku Club",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "108eceb7-a4aa-449e-9b20-6ca073fd62c8",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 30,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "小倉久佳音画制作所",
+          "sort-name": "Ogura, Hisayoshi Onga-Seisakusho",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Ogura Hisayoshi Onga-Seisakusho",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ogura Hisayoshi Onga-Seisakusho",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "オグラ ヒサヨシ オンガセイサクショ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "小倉久佳音画制作所",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "6ea848c1-72e1-4058-8182-756bd5af36f4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 30,
+          "name": "穂群原学園小等部のみんな",
+          "sort-name": "Homurahara Gakuen Shoutoubu no Minna",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Fate/kaleid liner Prisma☆Illya プリズマ☆ファンタズム",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3381de54-4c5a-4bbd-a125-ec346cc3d4a4",
+          "type": "Character",
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "score": 30,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "結城希亜 (夏和小)",
+          "sort-name": "結城希亜 (夏和小)",
+          "gender": "female",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "89eb6858-5bc2-4b57-b842-f16596b3daf8",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 30,
+          "name": "清水原小学校6年2組",
+          "sort-name": "Shimizuhara Elementary School 6 Nen 2 Kumi",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d617935b-3c5d-44a5-8215-9d0cf7291e1a",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 30,
+          "name": "中国京剧院张火丁艺术工作室乐队",
+          "sort-name": "Zhongguo jingjuyuan Zhang Huoding yishu gongzuoshi yuedui",
+          "country": "CN",
+          "area": {
+              "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "China",
+              "sort-name": "China",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "4c86a84e-c8ac-4caa-bcf5-bde4ea95c5b3",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 29,
+          "name": "矢下勇, 小沢秀水, 矢下勇厳",
+          "sort-name": "Yaoroshi Yuu, Ozawa Shigeru Sui, Yaoroshi Isamu Gen",
+          "life-span": {
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "splitme"
+              }
+          ]
+      },
+      {
+          "id": "3121619c-04f9-479e-bdfa-0249b6160c8c",
+          "score": 29,
+          "name": "屏東泰武國小古謠傳唱隊",
+          "sort-name": "Pingtung Taiwu Elementary School Folk Singers",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "0bff696b-3d6a-4993-8e1e-ca533200767e",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 29,
+          "name": "道教青松小學兒童合唱團",
+          "sort-name": "Taoist Ching Chung Primary School Children’s Choir",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "ac781ee5-c3bb-494e-a7f6-109c3ee7687f",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 29,
+          "name": "東京都豊島区立仰高小学校",
+          "sort-name": "Tokyo Toshima Kuritsu Gyoko Elementary School",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "e0088988-e0b8-4f56-ae54-61e6bb7e0aa5",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 29,
+          "name": "郡山市立大島小学校 合唱部",
+          "sort-name": "Kōriyama Shiritsu Ōshima Shōgakkō Gasshō-bu",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "04d82db3-a3e0-44ed-abd7-ba14752323db",
+          "score": 28,
+          "name": "聖士提反書院附屬小學手鈴隊",
+          "sort-name": "聖士提反書院附屬小學手鈴隊",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "abe257f3-8d9d-4963-b57c-53faa32c44c5",
+          "score": 28,
+          "name": "聖士提反書院附屬小學合唱團",
+          "sort-name": "聖士提反書院附屬小學合唱團",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d4260cea-e9b1-496f-a6d4-d59f0994d456",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 28,
+          "name": "東京都立小金井北高等学校コーラス部",
+          "sort-name": "Tōkyōto Tachi Koganei Kita kōtō gakkō kōrasu-bu",
+          "area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "c68ed4fe-c0f9-4370-806d-05a70ff532ed",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 28,
+          "name": "東京都日野市立七生緑小学校合唱団",
+          "sort-name": "東京都日野市立七生緑小学校合唱団",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "日野市立七生緑小学校合唱団",
+                  "name": "日野市立七生緑小学校合唱団",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "d26fc2d3-76c2-4e44-88e5-ebc98146020c",
+          "score": 28,
+          "name": "糸魚川市立根知小学校３・４・５・６年生 33名",
+          "sort-name": "糸魚川市立根知小学校３・４・５・６年生 33名",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "13ba5b74-61bd-48b1-8adc-14c0d1d406aa",
+          "type": "Choir",
+          "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+          "score": 27,
+          "name": "香港小童群益會駱克道兒童中心合唱團",
+          "sort-name": "BGCA Lockhart Road Children’s Centre Choir",
+          "country": "HK",
+          "area": {
+              "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Hong Kong",
+              "sort-name": "Hong Kong",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      }
+  ]
+}
