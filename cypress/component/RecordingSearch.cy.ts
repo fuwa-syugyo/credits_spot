@@ -80,7 +80,7 @@ describe('RecordingSearch tests', () => {
   })
 
   it('More than 100 recording search result 3 page', () => {
-    //2ページ目
+    //3ページ目
     cy.viewport('iphone-se2')
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=0&limit=100&fmt=json', { fixture: 'mock_idol_page3.json' }).as('idol3PageRequest');
     cy.mount(RecordingSearch, { query: { term: 'アイドル' } })
