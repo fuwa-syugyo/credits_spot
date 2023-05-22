@@ -1,0 +1,4944 @@
+{
+  "type": "Song",
+  "title": "Waltz for Debby",
+  "language": "zxx",
+  "id": "30a33711-0db8-3fc7-a3c8-f42426bdf43b",
+  "disambiguation": "instrumental",
+  "languages": [
+      "zxx"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "relations": [
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": true,
+          "direction": "backward",
+          "begin": "1956-09-18",
+          "target-credit": "",
+          "attribute-values": {},
+          "end": "1956-09-27",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "id": "1cc9acb5-dc96-4ae7-8f96-e57265a3cd0b",
+              "length": 79093,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          }
+      },
+      {
+          "direction": "backward",
+          "begin": "1956-09-27",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans",
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36"
+                      }
+                  }
+              ],
+              "title": "Waltz for Debbie",
+              "video": false,
+              "disambiguation": "",
+              "id": "6569450e-7c32-44c1-b0e1-d04bb5ef194f",
+              "length": 79106
+          },
+          "end": "1956-09-27",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "video": false,
+              "title": "Waltz for Debby",
+              "disambiguation": "",
+              "id": "09cce449-cf3d-4f8f-9197-9f7f9c04c0dc",
+              "length": 79000
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1956-09-27",
+          "target-credit": "",
+          "begin": "1956-09-27",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": []
+      },
+      {
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz for Debby (take 2)",
+              "video": false,
+              "id": "c29a37a2-477f-4f00-a2e3-39affd1e8fbe",
+              "length": 416826,
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans",
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36"
+                      },
+                      "name": "Bill Evans"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1962",
+          "target-credit": "",
+          "begin": "1956",
+          "direction": "backward",
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1960-06-25",
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "id": "30b43e9b-9d3f-4da4-b94b-e883ff797b68",
+              "length": 409426,
+              "disambiguation": "live, 1960-06-25: Village Vanguard, New York, NY, USA",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Bill Evans Trio",
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null,
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "target-credit": "",
+          "begin": "1960-06-25",
+          "direction": "backward"
+      },
+      {
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1961-03-13",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "1961-03-13",
+          "attribute-values": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Adderley, Cannonball",
+                          "name": "Cannonball Adderley",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8"
+                      },
+                      "name": "Cannonball Adderley",
+                      "joinphrase": " with "
+                  },
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 307000,
+              "disambiguation": "mono",
+              "id": "31383228-e87d-4f43-8f43-940995099d0b",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1961-03-13",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "disambiguation": "",
+              "length": 315066,
+              "id": "1e63106f-6eb6-41d9-80c1-f1280eb6974c",
+              "title": "Waltz for Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": "1961-03-13",
+          "source-credit": ""
+      },
+      {
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1961-03-13",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1961-03-13",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "sort-name": "Adderley, Cannonball",
+                          "type-id": null,
+                          "name": "Cannonball Adderley",
+                          "type": null,
+                          "id": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+                          "disambiguation": ""
+                      },
+                      "name": "Cannonball Adderley",
+                      "joinphrase": " with "
+                  },
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      }
+                  }
+              ],
+              "video": false,
+              "title": "Waltz for Debby",
+              "disambiguation": "",
+              "length": 315027,
+              "id": "15d555cc-f0c7-4464-b263-2bdc8a063128"
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio",
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "type": null
+                      },
+                      "name": "Bill Evans Trio"
+                  }
+              ],
+              "length": 419640,
+              "disambiguation": "",
+              "id": "0931b221-1b41-451a-8f3a-98d59a6bfe99",
+              "video": false,
+              "title": "Waltz for Debbie"
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": []
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio",
+                          "name": "Bill Evans Trio",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6"
+                      }
+                  }
+              ],
+              "video": false,
+              "title": "Waltz for Debby",
+              "disambiguation": "",
+              "length": 420960,
+              "id": "8ded6845-34ab-4c75-be66-84f7f954e9b9"
+          },
+          "end": "1961-06-25",
+          "attribute-values": {},
+          "source-credit": "",
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true
+      },
+      {
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "1bad6e78-1b66-4336-999f-06e50950be77",
+              "disambiguation": "",
+              "length": 417000,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio"
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": ""
+      },
+      {
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "id": "404c2404-588f-4afa-b6e9-1ddb43d12314",
+              "disambiguation": "",
+              "length": 409506,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio"
+                      },
+                      "name": "Bill Evans Trio"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": "1961-06-25",
+          "attribute-values": {}
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1961-06-25",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "disambiguation": "",
+              "length": 409000,
+              "id": "07385a6e-e2c6-4ce6-98e1-9a13b3c747c7",
+              "video": false,
+              "title": "Waltz For Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans",
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist"
+                      }
+                  }
+              ]
+          },
+          "end": "1961-06-25",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz For Debby",
+              "video": false,
+              "id": "fe3f1506-433b-457f-866d-b8579df08fc3",
+              "disambiguation": "",
+              "length": 424000,
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": "1961-06-25",
+          "attribute-values": {},
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "direction": "backward",
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "end": "1961-06-25",
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby (alternate take)",
+              "video": false,
+              "id": "c3338cb7-8fc1-4de3-b701-8324f27b420e",
+              "disambiguation": "",
+              "length": 409000,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio"
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": ""
+      },
+      {
+          "target-credit": "",
+          "begin": "1961-06-25",
+          "direction": "backward",
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "recording": {
+              "length": 408000,
+              "disambiguation": "",
+              "id": "c0a8a5ee-7d89-4e34-8c1c-6ead7a4a2f20",
+              "video": false,
+              "title": "Waltz for Debby (take 1)",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null,
+                          "name": "Bill Evans Trio",
+                          "type": null,
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": ""
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1961-06-25"
+      },
+      {
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "1961-06-25",
+          "attribute-values": {},
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "title": "Waltz For Debby (take 1)",
+              "video": false,
+              "length": 409000,
+              "disambiguation": "",
+              "id": "3dd905f1-ab18-486d-9f4f-3a6b2b159311",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio",
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "type": null
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": " With "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "name": "Scott LaFaro",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "LaFaro, Scott",
+                          "name": "Scott LaFaro",
+                          "type": null,
+                          "id": "97cc902a-2850-4db8-8218-186f3b5a1ea5",
+                          "disambiguation": ""
+                      }
+                  },
+                  {
+                      "name": "Paul Motian",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Motian, Paul",
+                          "name": "Paul Motian",
+                          "type": null,
+                          "id": "9be59e25-f609-46b2-90cb-2db39b1a1910",
+                          "disambiguation": "US jazz drummer, percussionist & composer"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 410986,
+              "disambiguation": "",
+              "id": "f0ada043-60dd-478b-8a40-e317576fb368",
+              "title": "Waltz For Debby (Take 1)",
+              "video": false
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "target-credit": "",
+          "begin": "1961-06-25",
+          "direction": "backward"
+      },
+      {
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby (take 2)",
+              "video": false,
+              "length": 419373,
+              "id": "d72be96c-21e4-4a98-9fb0-3dcfd4a9cb81",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null,
+                          "name": "Bill Evans Trio",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6"
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "source-credit": ""
+      },
+      {
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "title": "Waltz for Debby (take 2)",
+              "video": false,
+              "id": "1df80d5d-4b17-4924-b30d-18a1d4550fa3",
+              "length": 419693,
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null,
+                          "name": "Bill Evans Trio",
+                          "type": null,
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "source-credit": ""
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby (take 2)",
+              "disambiguation": "1961-06-25 evening set",
+              "length": 415946,
+              "id": "f9574c8a-72c1-4147-af9b-c4ff2832f460",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "direction": "backward"
+      },
+      {
+          "attribute-values": {},
+          "end": "1961-06-25",
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "joinphrase": " With "
+                  },
+                  {
+                      "artist": {
+                          "name": "Scott LaFaro",
+                          "type-id": null,
+                          "sort-name": "LaFaro, Scott",
+                          "disambiguation": "",
+                          "id": "97cc902a-2850-4db8-8218-186f3b5a1ea5",
+                          "type": null
+                      },
+                      "name": "Scott LaFaro",
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": "",
+                      "name": "Paul Motian",
+                      "artist": {
+                          "sort-name": "Motian, Paul",
+                          "type-id": null,
+                          "name": "Paul Motian",
+                          "type": null,
+                          "disambiguation": "US jazz drummer, percussionist & composer",
+                          "id": "9be59e25-f609-46b2-90cb-2db39b1a1910"
+                      }
+                  }
+              ],
+              "length": 420000,
+              "disambiguation": "",
+              "id": "d31d4528-14cf-48d9-960d-6a07eae19760",
+              "video": false,
+              "title": "Waltz For Debby (take 2)"
+          },
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": ""
+      },
+      {
+          "direction": "backward",
+          "begin": "1961-06-25",
+          "target-credit": "",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Waltz For Debby (Take 2)",
+              "video": false,
+              "disambiguation": "",
+              "length": 416626,
+              "id": "b44e3743-5764-44e0-b796-c6287b808c87"
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "end": "1961-06-25",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "sort-name": "Peterson, Oscar, Trio, The",
+                          "type-id": null,
+                          "name": "The Oscar Peterson Trio",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "b083ec9b-27e0-4fda-801d-cb40861a0578"
+                      },
+                      "name": "The Oscar Peterson Trio",
+                      "joinphrase": ""
+                  }
+              ],
+              "video": false,
+              "title": "Waltz for Debby",
+              "length": 354960,
+              "disambiguation": "",
+              "id": "25c8977d-b7cc-49a2-9724-f62a27f5959e"
+          },
+          "attribute-values": {},
+          "end": "1962-09-25",
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1962-09-25",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": true
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "begin": "1964-07-14",
+          "target-credit": "",
+          "attribute-values": {},
+          "end": "1964-07-14",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "length": 266210,
+              "disambiguation": "",
+              "id": "e60fd5bd-fdf2-47d1-9f51-cc65db503471",
+              "artist-credit": [
+                  {
+                      "joinphrase": " Under the Direction of Benny Golson",
+                      "name": "The International Jazz Orchestra",
+                      "artist": {
+                          "name": "Benny Golson",
+                          "type-id": null,
+                          "sort-name": "Golson, Benny",
+                          "id": "486bfccd-e9d5-4d7e-96b1-b9bbc6218743",
+                          "disambiguation": "",
+                          "type": null
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {}
+      },
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1964-07-29",
+          "end": "1964-07-29",
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "disambiguation": "",
+              "length": 531400,
+              "id": "6132a567-ab7d-4c77-b26f-3629636d511c",
+              "title": "Waltz for Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "The Oscar Peterson Trio",
+                          "sort-name": "Peterson, Oscar, Trio, The",
+                          "type-id": null,
+                          "disambiguation": "",
+                          "id": "b083ec9b-27e0-4fda-801d-cb40861a0578",
+                          "type": null
+                      },
+                      "name": "The Oscar Peterson Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          }
+      },
+      {
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "target-credit": "",
+          "begin": "1966-03",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "1966-03",
+          "attribute-values": {},
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "disambiguation": "",
+              "length": 264000,
+              "id": "2fdd1f63-fbf7-4097-928a-390198117ce6",
+              "title": "Waltz for Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "direction": "backward",
+          "begin": "1967-05-19",
+          "target-credit": "",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "length": 344000,
+              "disambiguation": "",
+              "id": "3453cfc8-0c28-467a-a89e-b5997cad994d",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "end": "1967-05-19",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "direction": "backward",
+          "begin": "1968-02-04",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "length": 323000,
+              "disambiguation": "",
+              "id": "a81e96ce-afd5-4992-80eb-4409b8ea7c87",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "attribute-values": {},
+          "end": "1968-02-04",
+          "source-credit": ""
+      },
+      {
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "Dijk, van, Louis",
+                          "type-id": null,
+                          "name": "Louis van Dijk",
+                          "type": null,
+                          "id": "d9127852-3c72-432d-9757-c1428ffb36be",
+                          "disambiguation": ""
+                      },
+                      "name": "Louis Van Dyke"
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "eb045e85-5a0e-43c4-86f0-a4ea6257da47",
+              "length": 321000,
+              "disambiguation": ""
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": "1968-06-25",
+          "attribute-values": {},
+          "target-credit": "",
+          "begin": "1968-06-24",
+          "direction": "backward",
+          "ended": true,
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "length": 298000,
+              "disambiguation": "",
+              "id": "cfeb795c-898c-45bb-a3fc-7acebfc1272e",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      },
+                      "name": "Bill Evans"
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1968-07",
+          "target-credit": "",
+          "begin": "1968-07",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ]
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "length": 371931,
+              "disambiguation": "",
+              "id": "f7cc9a19-5270-4bbd-b3c8-7aa629da7040",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio"
+                      }
+                  }
+              ]
+          },
+          "end": "1969-03-26",
+          "attribute-values": {},
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1969-03-26",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "direction": "backward",
+          "begin": "1969-11-24",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "disambiguation": "",
+              "id": "94e978bc-4636-4af5-a356-03306129bdcc",
+              "length": 331240,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      },
+                      "name": "Bill Evans"
+                  }
+              ]
+          },
+          "end": "1969-11-24",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "begin": "1969-12",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1969-12",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "id": "8608bb56-b6e6-490e-bab7-d416e316af80",
+              "length": 479000,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      }
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1970-11-04",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "length": 282778,
+              "disambiguation": "",
+              "id": "0882652e-33e3-47f0-b529-4921dfb2c09f",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "end": "1970-11-04",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1970-11-24",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "1970-11-24",
+          "attribute-values": {},
+          "recording": {
+              "length": 313000,
+              "id": "d21f28ab-6184-4861-9cb9-72ec4c3772c9",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": true,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1971",
+          "attribute-values": {},
+          "end": "1971",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "length": 472733,
+              "disambiguation": "",
+              "id": "68a08328-ca30-4ba3-9813-d8a927e9f2ed",
+              "title": "Waltz for Debby (alternate)",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          }
+      },
+      {
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1972-02-06",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1972-02-06",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "length": 540000,
+              "disambiguation": "",
+              "id": "af98f382-b989-48e7-aeb4-31860e48cf63",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      }
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "target-credit": "",
+          "begin": "1972-02-06",
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1972-02-06",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      },
+                      "name": "Bill Evans"
+                  }
+              ],
+              "length": 522000,
+              "id": "3cb853ec-82a8-4258-981c-2036876a232b",
+              "disambiguation": "",
+              "title": "Waltz For Debby",
+              "video": false
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "source-credit": "",
+          "end": "1972-12-17",
+          "attribute-values": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans",
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist"
+                      }
+                  }
+              ],
+              "title": "Waltz for Debbie",
+              "video": false,
+              "length": 400640,
+              "disambiguation": "",
+              "id": "e342819e-cb3e-47b7-9358-b6feb187c86d"
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "begin": "1972-12-17",
+          "target-credit": "",
+          "direction": "backward"
+      },
+      {
+          "attribute-values": {},
+          "end": "1972-12-17",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans"
+                  }
+              ],
+              "disambiguation": "",
+              "id": "a0501c38-137c-428a-9493-26bc5a203206",
+              "length": 360000,
+              "video": false,
+              "title": "Waltz For Debby"
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1972-12-17"
+      },
+      {
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 377000,
+              "id": "953ebdb9-3ed9-4813-b468-db2b518f34f6",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": "1973-11-04",
+          "attribute-values": {},
+          "begin": "1973-11-04",
+          "target-credit": "",
+          "direction": "backward",
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1974",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "type": "performance",
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "type": null,
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio",
+                          "name": "Bill Evans Trio"
+                      }
+                  }
+              ],
+              "id": "9b89daf6-cbf2-4cd2-be87-9054961a2885",
+              "length": 299000,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "end": "1974",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "source-credit": "",
+          "end": "1975-01-26",
+          "attribute-values": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 471000,
+              "id": "db592238-f93e-46a3-a869-9506e1498767",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "target-credit": "",
+          "begin": "1975-01-26",
+          "direction": "backward"
+      },
+      {
+          "type": "performance",
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio"
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "length": 357933,
+              "id": "793c8eb3-3b21-434b-9e4c-71c33ba4f50d",
+              "disambiguation": ""
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "attribute-values": {},
+          "end": "1975-02-06",
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1975-02-06",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "source-credit": "",
+          "end": "1975",
+          "attribute-values": {},
+          "recording": {
+              "disambiguation": "",
+              "id": "0a9ea382-02a7-4821-b10f-2488a11a43b5",
+              "length": 384000,
+              "title": "Waltz for Debbie",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "type": null,
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1975",
+          "target-credit": "",
+          "direction": "backward"
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "disambiguation": "",
+              "id": "52114362-ceec-43b7-a9d5-0e4becebacfe",
+              "length": 332000,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans"
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": "1976-11-05",
+          "source-credit": "",
+          "direction": "backward",
+          "begin": "1976-11-05",
+          "target-credit": "",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "attribute-values": {},
+          "end": "1976-11-05",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "video": false,
+              "title": "Waltz For Debby",
+              "disambiguation": "",
+              "length": 336000,
+              "id": "1bf4b94b-932e-4afc-a0f5-84999f2c29a1",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans",
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1976-11-05"
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "disambiguation": "",
+              "length": 3495733,
+              "id": "26af644d-eae6-440c-baff-3e8caff3e9ac",
+              "video": false,
+              "title": "Marian McPartland’s Piano Jazz Interview",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": "1978-11-06",
+          "source-credit": "",
+          "direction": "backward",
+          "begin": "1978-11-06",
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1978-11-06",
+          "recording": {
+              "length": 94200,
+              "id": "2898ea20-763c-4d72-aea9-21be53f1e6d1",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Marian McPartland",
+                      "artist": {
+                          "name": "Marian McPartland",
+                          "sort-name": "McPartland, Marian",
+                          "type-id": null,
+                          "id": "8833389f-b7fa-47f4-affe-f2e96d056dc2",
+                          "disambiguation": "",
+                          "type": null
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1978-11-06",
+          "target-credit": "",
+          "direction": "backward"
+      },
+      {
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "begin": "1979-07",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1979-07",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Gordon Beck",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "c6fa6746-ebd5-41c5-8424-cf08788114d4",
+                          "sort-name": "Beck, Gordon",
+                          "type-id": null,
+                          "name": "Gordon Beck"
+                      },
+                      "joinphrase": " · "
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "1bc69d6e-5bfb-4014-8fae-5689c22bb73e",
+                          "disambiguation": "",
+                          "sort-name": "Mathewson, Ron",
+                          "type-id": null,
+                          "name": "Ron Mathewson"
+                      },
+                      "name": "Ron Mathewson",
+                      "joinphrase": " · "
+                  },
+                  {
+                      "joinphrase": " · ",
+                      "artist": {
+                          "sort-name": "Oxley, Tony",
+                          "type-id": null,
+                          "name": "Tony Oxley",
+                          "type": null,
+                          "id": "2c45c141-a928-40cb-b709-04986a439858",
+                          "disambiguation": ""
+                      },
+                      "name": "Tony Oxley"
+                  },
+                  {
+                      "name": "Stan Sulzmann",
+                      "artist": {
+                          "sort-name": "Sulzmann, Stan",
+                          "type-id": null,
+                          "name": "Stan Sulzmann",
+                          "type": null,
+                          "id": "5ddfc355-79b3-4ca4-a690-e7ac3f1b7f10",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": " · "
+                  },
+                  {
+                      "joinphrase": "",
+                      "name": "Kenny Wheeler",
+                      "artist": {
+                          "id": "b3f8b449-af84-4766-bced-ff9aa6ba6f2b",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "Kenny Wheeler",
+                          "type-id": null,
+                          "sort-name": "Wheeler, Kenny"
+                      }
+                  }
+              ],
+              "length": 333000,
+              "disambiguation": "",
+              "id": "878a8788-8fdf-4b92-85e0-a793956da71b",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "direction": "backward",
+          "begin": "1980-03-20",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "Jamal, Ahmad",
+                          "type-id": null,
+                          "name": "Ahmad Jamal",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "cf816800-4e0e-4d80-9cca-50a725e93787"
+                      },
+                      "name": "Ahmad Jamal"
+                  }
+              ],
+              "title": "Waltz for Debbie",
+              "video": false,
+              "disambiguation": "",
+              "length": 366000,
+              "id": "0c9b07cd-2553-4899-8451-fcd74a53a739"
+          },
+          "attribute-values": {},
+          "end": "1980-03-20",
+          "source-credit": ""
+      },
+      {
+          "direction": "backward",
+          "begin": "1980-08-15",
+          "target-credit": "",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans",
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ],
+              "disambiguation": "",
+              "length": 434133,
+              "id": "62b47976-2db6-459b-b9a9-577ea72be03c",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "attribute-values": {},
+          "end": "1980-08-15",
+          "source-credit": ""
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1980-09-07",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "length": 380626,
+              "id": "89c88c1b-f9b2-41a3-85e1-640ef4cfed89",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null,
+                          "name": "Bill Evans Trio"
+                      },
+                      "name": "Bill Evans Trio",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "end": "1980-09-07",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "ended": true,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1985-06-25",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "1985-06-25",
+          "attribute-values": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Stanley Cowell",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "a569ac3b-f21b-4773-84a6-f180a2b2aaf0",
+                          "type": null,
+                          "name": "Stanley Cowell",
+                          "type-id": null,
+                          "sort-name": "Cowell, Stanley"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 329000,
+              "id": "a274ae5d-8455-4458-9dcc-0790ce6e9a55",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debbie"
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "attribute-ids": {},
+          "recording": {
+              "length": 285000,
+              "disambiguation": "",
+              "id": "b459cb21-91ba-496a-90c8-8e40592a0148",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Andy LaVerne",
+                          "type-id": null,
+                          "sort-name": "LaVerne, Andy",
+                          "disambiguation": "",
+                          "id": "e88ae791-cd20-4298-943a-66fd6d222698",
+                          "type": null
+                      },
+                      "name": "Andy LaVerne",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1988-03-07",
+          "begin": "1988-03-07",
+          "target-credit": "",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": []
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "US jazz woodwind player",
+                          "id": "df555225-0856-4cd9-ae46-b4734ee1418d",
+                          "sort-name": "Woods, Phil",
+                          "type-id": null,
+                          "name": "Phil Woods"
+                      },
+                      "name": "Phil Woods",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "c2066720-59c0-4edd-a145-41013cf3e572",
+              "length": 318000,
+              "disambiguation": "",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "attribute-values": {},
+          "end": "1988-12-21",
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1988-12-20",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "disambiguation": "",
+              "length": 519000,
+              "id": "daad9957-c697-4686-866c-69066e3bfa5e",
+              "title": "Waltz for Debbie",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "name": "George Cables Trio",
+                      "artist": {
+                          "id": "96e7ee07-d8ba-4bc4-a2c5-d9590888c686",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "George Cables Trio",
+                          "sort-name": "Cables, George, Trio",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": "1991-03",
+          "source-credit": "",
+          "direction": "backward",
+          "begin": "1991-03",
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": true
+      },
+      {
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "1991-12",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "1991-12",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "recording": {
+              "length": 373000,
+              "disambiguation": "",
+              "id": "886a1b86-0e9f-48d7-b990-42c25070b6ff",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "name": "John Abercrombie",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "American jazz guitarist",
+                          "id": "80c75300-9cf2-4daf-bb23-5fe15964e671",
+                          "sort-name": "Abercrombie, John",
+                          "type-id": null,
+                          "name": "John Abercrombie"
+                      },
+                      "joinphrase": " & "
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "LaVerne, Andy",
+                          "type-id": null,
+                          "name": "Andy LaVerne",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "e88ae791-cd20-4298-943a-66fd6d222698"
+                      },
+                      "name": "Andy LaVerne"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "disambiguation": "",
+              "id": "6d359c41-47e9-4474-a783-6ab6b9b347dd",
+              "length": 282000,
+              "artist-credit": [
+                  {
+                      "name": "Mitchel Forman",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "6d63ffc2-1d2e-4a9c-a66b-083394605563",
+                          "type": null,
+                          "name": "Mitchel Forman",
+                          "type-id": null,
+                          "sort-name": "Forman, Mitchel"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1992-12",
+          "begin": "1992-12",
+          "target-credit": "",
+          "direction": "backward",
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1993-03-25",
+          "end": "1993-03-28",
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "McLaughlin, John",
+                          "type-id": null,
+                          "name": "John McLaughlin",
+                          "type": null,
+                          "id": "fcbc2086-5863-4659-b03d-44be704697d2",
+                          "disambiguation": "guitarist"
+                      },
+                      "name": "John McLaughlin"
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "length": 295466,
+              "disambiguation": "",
+              "id": "d23eedf1-0916-4e2c-aa5c-202256329ffc"
+          },
+          "attribute-ids": {}
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "id": "f8a19850-9284-4298-a9c8-6cdaa045157a",
+              "length": 257000,
+              "disambiguation": "",
+              "title": "Waltz for Debbie",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Herbie Mann",
+                          "sort-name": "Mann, Herbie",
+                          "type-id": null,
+                          "id": "04271c28-b9a7-4724-b7fd-022409fbce60",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "name": "Herbie Mann"
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": "1995",
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "1995",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "source-credit": "",
+          "end": "1996-07-29",
+          "attribute-values": {},
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Thibaudet, Jean‐Yves",
+                          "name": "Jean‐Yves Thibaudet",
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "519e9293-89ad-4413-af85-f00d4816bd46"
+                      },
+                      "name": "Jean‐Yves Thibaudet",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "372c3e88-cd25-426b-8c99-4a3859da4d13",
+              "length": 116733,
+              "disambiguation": "",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "target-credit": "",
+          "begin": "1996-07-26",
+          "direction": "backward"
+      },
+      {
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Alan Barnes",
+                          "type-id": null,
+                          "sort-name": "Barnes, Alan",
+                          "disambiguation": "English jazz musician",
+                          "id": "92db0f94-1c9f-4841-8baf-2b7ea823b20a",
+                          "type": null
+                      },
+                      "name": "Alan Barnes",
+                      "joinphrase": " & "
+                  },
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Newton, David, Trio, The",
+                          "name": "The David Newton Trio",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "72d18cf1-11c7-4f39-ad95-73d4d955b99d"
+                      },
+                      "name": "The David Newton Trio",
+                      "joinphrase": ""
+                  }
+              ],
+              "video": false,
+              "title": "Waltz for Debbie",
+              "disambiguation": "",
+              "length": 332000,
+              "id": "df130c91-9302-4f2b-adc6-54f26273996b"
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "1997-11-30",
+          "target-credit": "",
+          "begin": "1997-11-30",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": []
+      },
+      {
+          "ended": true,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": "2002-05-28",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "2002-05-28",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Don Friedman Trio",
+                      "artist": {
+                          "sort-name": "Friedman, Don Trio",
+                          "type-id": null,
+                          "name": "Don Friedman Trio",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "8569e48b-f758-4d26-8114-53abbc75f133"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "049f35a0-ef33-4d7e-a53e-195cec413536",
+              "disambiguation": "",
+              "length": 274200,
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "target-credit": "",
+          "begin": "2003-11-14",
+          "direction": "backward",
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "recording": {
+              "length": 752693,
+              "disambiguation": "",
+              "id": "515d5fd5-66d3-4c35-900f-fd9edbf76ebb",
+              "title": "Waltz For Debbie",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Anthony Braxton",
+                          "type-id": null,
+                          "sort-name": "Braxton, Anthony",
+                          "id": "4e5f99db-d181-4317-9124-602b776f5306",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "name": "Anthony Braxton"
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": "2003-11-14"
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "begin": "2004-02-27",
+          "target-credit": "",
+          "attribute-values": {},
+          "end": "2004-02-27",
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "2f98d952-8c09-4c4f-b6d4-7436a4be2f34",
+              "length": 343960,
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "Anthony Wonsey Trio",
+                          "type-id": null,
+                          "name": "Anthony Wonsey Trio",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "c48b8848-2bad-432a-90c2-76d657fca6eb"
+                      },
+                      "name": "Anthony Wonsey Trio"
+                  }
+              ]
+          },
+          "attribute-ids": {}
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": "2004",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "ended": true,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Jarreau, Al",
+                          "name": "Al Jarreau",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "3e54ba8b-f4cc-4192-9813-890d570e2b7a"
+                      },
+                      "name": "Al Jarreau",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "1bfebade-fbd2-4e58-b78d-50dd4b13f8a2",
+              "disambiguation": "",
+              "length": 284000,
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "end": "2004",
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "ended": true,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "begin": "2005-05-28",
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": "2005-05-28",
+          "attribute-values": {},
+          "recording": {
+              "id": "4946746e-0083-4a95-9dcc-3d1ad495be39",
+              "length": 324800,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "The Bud Shank Big Band",
+                      "artist": {
+                          "id": "a9cf399f-4b18-4e9a-a202-e3abc807bd63",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "The Bud Shank Big Band",
+                          "sort-name": "Shank, Bud, Big Band, The",
+                          "type-id": null
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "attribute-values": {},
+          "end": "2007-07-06",
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "The Great Jazz Trio",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "dd6af85b-f886-43ff-aab0-65a24cff7c14",
+                          "type-id": null,
+                          "sort-name": "Great Jazz Trio, The",
+                          "name": "The Great Jazz Trio"
+                      }
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "f4ccf700-2c47-4dd1-85b3-e244a42057c0",
+              "length": 421000,
+              "disambiguation": ""
+          },
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true,
+          "direction": "backward",
+          "begin": "2007-07-06",
+          "target-credit": ""
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Shani Diluka",
+                      "artist": {
+                          "id": "f2add51a-eba8-4b82-9110-121b6970afd6",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Shani Diluka",
+                          "sort-name": "Diluka, Shani",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "length": 129627,
+              "disambiguation": "",
+              "id": "0b39afd6-e1db-471a-863c-1f4ecacef49b"
+          },
+          "end": "2013-09",
+          "attribute-values": {},
+          "source-credit": "",
+          "direction": "backward",
+          "begin": "2013-09",
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": true
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "fc49ffde-8673-4d34-80e1-fa344a548d21",
+                          "type": null,
+                          "name": "Bo Sundström",
+                          "sort-name": "Sundström, Bo",
+                          "type-id": null
+                      },
+                      "name": "Bo Sundström"
+                  }
+              ],
+              "length": 223586,
+              "disambiguation": "",
+              "id": "b584ca13-99a1-45bd-9f74-66c924f5c2bc",
+              "video": false,
+              "title": "Monicas Vals"
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": false,
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward"
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "disambiguation": "",
+              "length": 196000,
+              "id": "70f62e72-6182-4c8c-a73c-df49112d4d31",
+              "video": false,
+              "title": "Waltz for Debbie",
+              "artist-credit": [
+                  {
+                      "name": "Mario Rusca Trio",
+                      "artist": {
+                          "id": "43522388-3484-4228-b99b-6c68ee4c7a12",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "Mario Rusca Trio",
+                          "type-id": null,
+                          "sort-name": "Rusca, Mario, Trio"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans",
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ],
+              "video": false,
+              "title": "Waltz for Debbie",
+              "length": 411706,
+              "disambiguation": "",
+              "id": "86be326e-a9ff-4d1d-831c-67543cd6b817"
+          },
+          "attribute-ids": {}
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Oscar Peterson",
+                          "type-id": null,
+                          "sort-name": "Peterson, Oscar",
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "type": null
+                      },
+                      "name": "Oscar Peterson"
+                  }
+              ],
+              "id": "9c02aada-bc3b-44d7-81cd-bb6ff4e5ef52",
+              "length": 342226,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debbie"
+          },
+          "attribute-ids": {}
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "recording": {
+              "length": 79000,
+              "disambiguation": "",
+              "id": "f25d32c6-b889-4e59-94e2-6cbfc74a056b",
+              "title": "Waltz for Debbie",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": null
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Ralph Dollimore",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "d359314a-1bf0-44c5-8cff-516be51c5ff9",
+                          "type": null,
+                          "name": "Ralph Dollimore",
+                          "sort-name": "Dollimore, Ralph",
+                          "type-id": null
+                      }
+                  }
+              ],
+              "title": "Waltz for Debbie",
+              "video": false,
+              "length": null,
+              "disambiguation": "",
+              "id": "fe78975e-6f80-4457-ae80-a8079980d603"
+          },
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz for Debbie",
+              "video": false,
+              "length": 369000,
+              "id": "e41d601c-a401-465a-ad16-e054004a1c88",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "cf816800-4e0e-4d80-9cca-50a725e93787",
+                          "type-id": null,
+                          "sort-name": "Jamal, Ahmad",
+                          "name": "Ahmad Jamal"
+                      },
+                      "name": "Ahmad Jamal"
+                  }
+              ]
+          },
+          "end": null,
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "351d8bdf-33a1-45e2-8c04-c85fad20da55",
+                          "sort-name": "Vaughan, Sarah",
+                          "type-id": null,
+                          "name": "Sarah Vaughan"
+                      },
+                      "name": "Sarah Vaughan",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Waltz for Debbie",
+              "video": false,
+              "length": 125893,
+              "id": "07c28e33-b81b-4646-881c-00f289d5813a",
+              "disambiguation": ""
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {}
+      },
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "id": "34832720-12d3-44b4-bb80-8f06bcfb09ba",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "David Benoit",
+                          "sort-name": "Benoit, David",
+                          "type-id": null
+                      },
+                      "name": "David Benoit",
+                      "joinphrase": ""
+                  }
+              ],
+              "disambiguation": "",
+              "length": 302000,
+              "id": "20933371-a243-4ead-a5bf-96288f70b4cb",
+              "video": false,
+              "title": "Waltz for Debbie"
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          }
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Sarah Vaughan",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "351d8bdf-33a1-45e2-8c04-c85fad20da55",
+                          "type": null,
+                          "name": "Sarah Vaughan",
+                          "type-id": null,
+                          "sort-name": "Vaughan, Sarah"
+                      }
+                  }
+              ],
+              "disambiguation": "",
+              "length": 126000,
+              "id": "9c043fee-73d0-4a3e-bfaa-e9eb34702615",
+              "title": "Waltz for Debbie",
+              "video": false
+          },
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Sarah Vaughan",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Vaughan, Sarah",
+                          "name": "Sarah Vaughan",
+                          "type": null,
+                          "id": "351d8bdf-33a1-45e2-8c04-c85fad20da55",
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "title": "Waltz for Debbie",
+              "video": false,
+              "id": "1bcc2603-3527-4a8a-9fea-47f239346627",
+              "length": 124426,
+              "disambiguation": ""
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "end": null,
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz For Debbie",
+              "video": false,
+              "id": "96b62d39-999c-4c27-bb9e-cce62ea25946",
+              "disambiguation": "",
+              "length": 355000,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Oscar Peterson",
+                      "artist": {
+                          "type": null,
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "sort-name": "Peterson, Oscar",
+                          "type-id": null,
+                          "name": "Oscar Peterson"
+                      }
+                  }
+              ]
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {}
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "disambiguation": "",
+              "id": "6d04b232-2e01-407f-8bc1-0fc5385225fe",
+              "length": 401000,
+              "title": "Waltz For Debbie",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      }
+                  }
+              ]
+          },
+          "end": null,
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "length": 419880,
+              "disambiguation": "",
+              "id": "e6f0e657-fd01-4f30-a9d9-fd35b0f9dc60",
+              "title": "Waltz for Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "name": "Bill Evans Trio",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill, Trio",
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "end": null,
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "disambiguation": "",
+              "length": 294000,
+              "id": "51753c98-55f8-470a-9b57-bb088d8d7b2f",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "disambiguation": "",
+              "length": 79000,
+              "id": "7b94a47a-8607-49ff-9ee2-d08b4127c74e",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans",
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          }
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "sort-name": "Peterson, Oscar",
+                          "type-id": null,
+                          "name": "Oscar Peterson"
+                      },
+                      "name": "Oscar Peterson"
+                  }
+              ],
+              "disambiguation": "",
+              "length": 354920,
+              "id": "ec519133-b72f-4767-bfb5-94ecdb8d8ddb",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "7da48e85-0aca-4ee4-b637-c3f3cc7a6a5b",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Copeland, Keith",
+                          "name": "Keith Copeland"
+                      },
+                      "name": "Keith Copeland",
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "name": "David Gazarov",
+                          "sort-name": "Gazarov, David",
+                          "type-id": null,
+                          "id": "2ddf9518-1d86-4f22-a807-4302e707de04",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "name": "David Gazarov"
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "name": "Chris Lachotta",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "76cb2179-55cc-4312-b88f-ece0401b75ab",
+                          "type": null,
+                          "name": "Chris Lachotta",
+                          "type-id": null,
+                          "sort-name": "Lachotta, Chris"
+                      }
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "id": "efbb9383-e5a8-48e9-8016-c6cc37b9ebed",
+                          "disambiguation": "clarinetist and conductor",
+                          "type": null,
+                          "name": "Karl‐Heinz Steffens",
+                          "sort-name": "Steffens, Karl‐Heinz",
+                          "type-id": null
+                      },
+                      "name": "Karl‐Heinz Steffens"
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "a46be5e5-8148-4788-8ae6-8b5b2aa81f38",
+                          "type-id": null,
+                          "sort-name": "Zehn Martin",
+                          "name": "Martin Zehn"
+                      },
+                      "name": "Martin Zehn"
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "disambiguation": "",
+              "length": 535000,
+              "id": "85eecb78-047a-45b9-8655-423ea4f9557f"
+          },
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "sort-name": "Peterson, Oscar",
+                          "type-id": null,
+                          "name": "Oscar Peterson"
+                      },
+                      "name": "Oscar Peterson",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "e575ebab-7f0d-4743-83d4-f2ea6a0270c6",
+              "length": 242000,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "attribute-values": {},
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": null,
+          "recording": {
+              "length": 413000,
+              "disambiguation": "",
+              "id": "780c6cba-bff8-4fc6-903b-f04ca1bc8ffe",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "name": "Ramsey Lewis",
+                          "type-id": null,
+                          "sort-name": "Lewis, Ramsey",
+                          "id": "fe19b809-e86c-4736-882a-53b72e23171b",
+                          "disambiguation": "",
+                          "type": null
+                      },
+                      "name": "Ramsey Lewis"
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "80855d0f-b173-432a-8882-178cdec7fd71",
+                          "disambiguation": "jazz/bop pianist",
+                          "type-id": null,
+                          "sort-name": "Taylor, Billy",
+                          "name": "Billy Taylor"
+                      },
+                      "name": "Billy Taylor",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward"
+      },
+      {
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Allen Toussaint",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "ec21cced-2d22-4883-9ee3-f642e6e52f58",
+                          "type": null,
+                          "name": "Allen Toussaint",
+                          "type-id": null,
+                          "sort-name": "Toussaint, Allen"
+                      }
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "disambiguation": "",
+              "id": "611ebd05-d843-4fd5-8d01-eb43a5a5f298",
+              "length": 197040
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "length": null,
+              "id": "0c2fb895-5807-46a4-91eb-1334d07664b7",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Sarah Vaughan",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "351d8bdf-33a1-45e2-8c04-c85fad20da55",
+                          "sort-name": "Vaughan, Sarah",
+                          "type-id": null,
+                          "name": "Sarah Vaughan"
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          }
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Jamey Aebersold",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "11703636-99d0-48d5-a4b5-2338ab1dbd08",
+                          "type": null,
+                          "name": "Jamey Aebersold",
+                          "sort-name": "Aebersold, Jamey",
+                          "type-id": null
+                      }
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "df38e568-c787-442e-999d-8efe7e0f277e",
+              "length": 354000,
+              "disambiguation": ""
+          },
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "disambiguation": "",
+              "length": 286826,
+              "id": "abb52336-6fe1-4b66-a43c-62d19b9ce5b1",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Sebesky, Don",
+                          "name": "Don Sebesky",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "7524bc67-cdc8-4210-ac74-dc6b1d94d788"
+                      },
+                      "name": "Don Sebesky"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {}
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "type": "performance",
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans Trio",
+                      "artist": {
+                          "type": null,
+                          "id": "d0630a08-3b40-4cb4-9f48-7d525262c1f6",
+                          "disambiguation": "",
+                          "sort-name": "Evans, Bill, Trio",
+                          "type-id": null,
+                          "name": "Bill Evans Trio"
+                      }
+                  }
+              ],
+              "id": "6af343e5-e33b-4dbe-9e3c-4d6539b252be",
+              "disambiguation": "",
+              "length": 417373,
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "attribute-ids": {},
+          "end": null,
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "jazz pianist",
+                          "id": "55a95705-8d03-4478-b57c-de976206f3cf",
+                          "type": null,
+                          "name": "山下洋輔",
+                          "type-id": null,
+                          "sort-name": "Yamashita, Yosuke"
+                      },
+                      "name": "山下洋輔",
+                      "joinphrase": " with "
+                  },
+                  {
+                      "name": "斎藤ネコ・クァルテット",
+                      "artist": {
+                          "id": "be5fd1f6-45bc-44e1-9e87-1c90be04ba9a",
+                          "disambiguation": "",
+                          "type": null,
+                          "name": "斎藤ネコカルテット",
+                          "type-id": null,
+                          "sort-name": "Saitō, Neko, Quartet"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "disambiguation": "",
+              "id": "f3dfeb7e-f84e-4207-b766-d12c8465cd3b",
+              "length": 424000,
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": null,
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "length": 533800,
+              "disambiguation": "",
+              "id": "a8e8456d-22f3-4e9c-88ea-b095558f57aa",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "type": null,
+                          "name": "Oscar Peterson",
+                          "type-id": null,
+                          "sort-name": "Peterson, Oscar"
+                      },
+                      "name": "Oscar Peterson"
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "ended": false,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward"
+      },
+      {
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Hinrich Franck",
+                      "artist": {
+                          "name": "Hinrich Franck",
+                          "type-id": null,
+                          "sort-name": "Franck, Hinrich",
+                          "disambiguation": "keyboards, vocals, composer, Franckband",
+                          "id": "ea9f1a03-0512-443a-92b0-66ba545f7f41",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Waltz for Debby",
+              "video": false,
+              "disambiguation": "",
+              "length": 216000,
+              "id": "68fb6d99-e600-4110-85c8-23def8855963"
+          },
+          "attribute-values": {},
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "length": 351733,
+              "id": "8e556490-68ea-42c3-a4b7-fca58789df60",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Oscar Peterson",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Peterson, Oscar",
+                          "name": "Oscar Peterson",
+                          "type": null,
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "disambiguation": "Canadian jazz pianist and composer"
+                      }
+                  }
+              ]
+          },
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "id": "16e5d2cb-e331-4fe1-9119-0082d1ed2f48",
+              "disambiguation": "",
+              "length": 378000,
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "name": "Ahmad Jamal",
+                      "artist": {
+                          "sort-name": "Jamal, Ahmad",
+                          "type-id": null,
+                          "name": "Ahmad Jamal",
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "cf816800-4e0e-4d80-9cca-50a725e93787"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "length": 384413,
+              "disambiguation": "",
+              "id": "249414c5-9d9d-4201-902e-c4ed31c6b579",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Ahmad Jamal",
+                      "artist": {
+                          "type": null,
+                          "id": "cf816800-4e0e-4d80-9cca-50a725e93787",
+                          "disambiguation": "",
+                          "sort-name": "Jamal, Ahmad",
+                          "type-id": null,
+                          "name": "Ahmad Jamal"
+                      }
+                  }
+              ]
+          },
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "live"
+          ],
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "recording": {
+              "length": 534533,
+              "disambiguation": "",
+              "id": "4b136c4c-4cb9-4f6e-bd0d-89a59c58a341",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "disambiguation": "",
+                          "id": "b083ec9b-27e0-4fda-801d-cb40861a0578",
+                          "sort-name": "Peterson, Oscar, Trio, The",
+                          "type-id": null,
+                          "name": "The Oscar Peterson Trio"
+                      },
+                      "name": "The Oscar Peterson Trio"
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "type": "performance",
+          "target-type": "recording"
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "attribute-ids": {},
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby",
+              "disambiguation": "",
+              "length": 166426,
+              "id": "54023953-5f65-4afd-82f4-63558f2d3eaf",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      }
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {}
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "eaf722ab-699e-4009-88e3-5cfef59ad905",
+              "disambiguation": "",
+              "length": 416000,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      }
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward",
+          "ended": false,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans",
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36"
+                      },
+                      "name": "Bill Evans"
+                  }
+              ],
+              "disambiguation": "",
+              "length": 417549,
+              "id": "aff83634-486b-4aa8-bb1a-78b3ccaacacd",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {}
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward",
+          "ended": false,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attribute-ids": {},
+          "recording": {
+              "id": "eaad20bf-3d60-4ee2-bb29-be91127b8b66",
+              "length": 80047,
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attribute-values": {},
+          "end": null
+      },
+      {
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "disambiguation": "",
+              "length": 595253,
+              "id": "0ae01f57-98f3-4d4f-9320-ac0f09b0b9bb",
+              "title": "Waltz for Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "jazz pianist",
+                          "id": "8446fcca-109e-4c6d-a2ff-5a269b32b4c2",
+                          "type": null,
+                          "name": "Chick Corea",
+                          "sort-name": "Corea, Chick",
+                          "type-id": null
+                      },
+                      "name": "Corea",
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "5ab6ca23-9e17-43f2-ad92-869d28bdbf11",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Clarke, Stanley",
+                          "name": "Stanley Clarke"
+                      },
+                      "name": "Clarke",
+                      "joinphrase": " & "
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "296a6a56-033f-42cb-a170-188b532f6c14",
+                          "disambiguation": "",
+                          "sort-name": "White, Lenny",
+                          "type-id": null,
+                          "name": "Lenny White"
+                      },
+                      "name": "White",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "attribute-values": {},
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null
+                      }
+                  }
+              ],
+              "disambiguation": "",
+              "length": 418573,
+              "id": "2d22160d-e424-4ce1-9502-4cadb7ad2ac0",
+              "title": "Waltz for Debby",
+              "video": false
+          },
+          "type": "performance",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": []
+      },
+      {
+          "type": "performance",
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "disambiguation": "",
+              "length": 463000,
+              "id": "c788c9cc-c2f1-4585-ae90-057519b9ae7b",
+              "video": false,
+              "title": "Waltz for Debby"
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans",
+                          "type": null,
+                          "disambiguation": "pianist",
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36"
+                      }
+                  }
+              ],
+              "length": 409000,
+              "disambiguation": "",
+              "id": "9d913178-c2cf-4287-a47c-3cc162e8b745",
+              "title": "Waltz for Debby",
+              "video": false
+          }
+      },
+      {
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "recording": {
+              "length": 206933,
+              "disambiguation": "",
+              "id": "aefaf690-033b-4464-8258-f361bb6d0cfc",
+              "video": false,
+              "title": "Waltz for Debby",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Lisa Hilton",
+                          "sort-name": "Hilton, Lisa",
+                          "type-id": null,
+                          "id": "e2af8c5b-c9ef-4df2-b598-5ed675841b51",
+                          "disambiguation": "US jazz pianist",
+                          "type": null
+                      },
+                      "name": "Lisa Hilton",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "ended": false,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [
+              "cover"
+          ],
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward"
+      },
+      {
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "499e0498-edf4-48d4-b80d-2be6e5fd5831",
+              "length": 223240,
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Giora Feidman",
+                      "artist": {
+                          "sort-name": "Feidman, Giora",
+                          "type-id": null,
+                          "name": "Giora Feidman",
+                          "type": null,
+                          "id": "16501378-eeed-44e9-bc8f-46f0508a2fed",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {},
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "1212c715-51bc-46cd-9a00-10bf82d23552",
+              "length": 304000,
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Jim Hall",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Hall, Jim",
+                          "name": "Jim Hall",
+                          "type": null,
+                          "id": "8c12559e-ddcf-472a-8a8c-0f0c3fc91c6a",
+                          "disambiguation": "US jazz guitarist, composer & arranger"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "id": "ad2cf955-2e0d-4951-8c8a-f52e498ddc31",
+              "disambiguation": "",
+              "length": 213000,
+              "title": "Waltz for Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Mead, David",
+                          "name": "David Mead",
+                          "type": null,
+                          "disambiguation": "acoustic guitarist",
+                          "id": "f700f3c0-884c-439c-9a60-940f8d01b0d9"
+                      },
+                      "name": "David Mead"
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "ended": false,
+          "attributes": [
+              "cover"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "recording": {
+              "title": "Waltz for Debby",
+              "video": false,
+              "id": "9f9b4473-8af5-4d28-b8b2-55a765eb4f37",
+              "disambiguation": "",
+              "length": 163000,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "bce6f3f4-8db1-4fbb-9dbe-8a1224b57dfb",
+                          "type": null,
+                          "name": "Helen Merrill",
+                          "type-id": null,
+                          "sort-name": "Merrill, Helen"
+                      },
+                      "name": "Helen Merrill"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance"
+      },
+      {
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "disambiguation": "",
+              "id": "b97e9611-07a2-4ba7-b463-471dce3251bb",
+              "length": 380880,
+              "video": false,
+              "title": "Waltz For Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Ahmad Jamal",
+                      "artist": {
+                          "type": null,
+                          "id": "cf816800-4e0e-4d80-9cca-50a725e93787",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Jamal, Ahmad",
+                          "name": "Ahmad Jamal"
+                      }
+                  }
+              ]
+          },
+          "end": null,
+          "attribute-values": {},
+          "source-credit": ""
+      },
+      {
+          "source-credit": "",
+          "attribute-values": {},
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Oscar Peterson",
+                      "artist": {
+                          "sort-name": "Peterson, Oscar",
+                          "type-id": null,
+                          "name": "Oscar Peterson",
+                          "type": null,
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "disambiguation": "",
+              "id": "88b8578d-8ae7-406d-8b0b-e9bdeaffb73f",
+              "length": 544000,
+              "video": false,
+              "title": "Waltz For Debby"
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "ended": false,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward"
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "video": false,
+              "title": "Waltz For Debby",
+              "length": 534577,
+              "disambiguation": "",
+              "id": "317dfe0c-78be-46e4-9d0f-7b5a080b1db2",
+              "artist-credit": [
+                  {
+                      "name": "Oscar Peterson",
+                      "artist": {
+                          "type": null,
+                          "id": "ed801bdd-f057-41c0-94fb-76cb5676cd59",
+                          "disambiguation": "Canadian jazz pianist and composer",
+                          "sort-name": "Peterson, Oscar",
+                          "type-id": null,
+                          "name": "Oscar Peterson"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          }
+      },
+      {
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Bill Evans",
+                      "artist": {
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null
+                      }
+                  }
+              ],
+              "title": "Waltz For Debby",
+              "video": false,
+              "disambiguation": "",
+              "length": 420000,
+              "id": "8cde6241-9923-4f10-a689-99a4cd214e14"
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "attribute-ids": {},
+          "recording": {
+              "video": false,
+              "title": "Waltz For Debby",
+              "id": "4571128a-4f3d-408a-b59e-164ee0ea64b8",
+              "disambiguation": "",
+              "length": 315493,
+              "artist-credit": [
+                  {
+                      "joinphrase": ", ",
+                      "name": "Cannonball Adderley",
+                      "artist": {
+                          "name": "Cannonball Adderley",
+                          "sort-name": "Adderley, Cannonball",
+                          "type-id": null,
+                          "disambiguation": "",
+                          "id": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+                          "type": null
+                      }
+                  },
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "target-credit": "",
+          "begin": null,
+          "direction": "backward",
+          "ended": false,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+      },
+      {
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "attribute-ids": {},
+          "recording": {
+              "length": 314800,
+              "id": "d21137a3-707a-475e-9f99-1ccc70359b2d",
+              "disambiguation": "",
+              "video": false,
+              "title": "Waltz For Debby",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+                          "type": null,
+                          "name": "Cannonball Adderley",
+                          "type-id": null,
+                          "sort-name": "Adderley, Cannonball"
+                      },
+                      "name": "Cannonball Adderley"
+                  }
+              ]
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "length": 315653,
+              "disambiguation": "",
+              "id": "f09cec84-0846-46e3-a0a0-122fce196667",
+              "title": "Waltz For Debby",
+              "video": false,
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "id": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+                          "disambiguation": "",
+                          "sort-name": "Adderley, Cannonball",
+                          "type-id": null,
+                          "name": "Cannonball Adderley"
+                      },
+                      "name": "Cannonball Adderley"
+                  }
+              ]
+          },
+          "attribute-ids": {}
+      },
+      {
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "recording": {
+              "disambiguation": "",
+              "id": "e201296a-6ccb-4c20-9a97-fd35a7a6dbf0",
+              "length": 422000,
+              "video": false,
+              "title": "Waltz for Debby (live)",
+              "artist-credit": [
+                  {
+                      "name": "Bill Evans",
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "direction": "backward",
+          "begin": null,
+          "target-credit": "",
+          "attributes": [
+              "live"
+          ],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "recording": {
+              "title": "Waltz for Debby (Quartet)",
+              "video": false,
+              "disambiguation": "",
+              "length": 312000,
+              "id": "cf41f896-47de-4da9-9116-e0938b667b88",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null,
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {}
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-type": "recording",
+          "type": "performance",
+          "recording": {
+              "title": "Waltz for Debby (Solo)",
+              "video": false,
+              "disambiguation": "",
+              "length": 79000,
+              "id": "b7e33972-53bb-4502-8d0e-be69b891315c",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type": null,
+                          "name": "Bill Evans",
+                          "sort-name": "Evans, Bill",
+                          "type-id": null
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-ids": {},
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-ids": {},
+          "recording": {
+              "video": false,
+              "title": "Waltz for Debby (take 2)",
+              "disambiguation": "",
+              "length": 417160,
+              "id": "8eff5451-ae40-49dc-a572-3ef49fca8683",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "8247a3f2-3a8e-4256-b322-6c57b03a4e36",
+                          "disambiguation": "pianist",
+                          "type-id": null,
+                          "sort-name": "Evans, Bill",
+                          "name": "Bill Evans"
+                      },
+                      "name": "Bill Evans",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "target-credit": ""
+      }
+  ],
+  "iswcs": []
+}
