@@ -1,0 +1,2361 @@
+{
+  "name": "反田恭平",
+  "end-area": null,
+  "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+  "area": {
+      "disambiguation": "",
+      "name": "Japan",
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "type": null,
+      "type-id": null,
+      "sort-name": "Japan"
+  },
+  "sort-name": "Kyohei Sorita",
+  "ipis": [],
+  "relations": [
+      {
+          "artist": {
+              "disambiguation": "pianist",
+              "name": "小林愛実",
+              "sort-name": "Kobayashi, Aimi",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "id": "c8dc03ed-2ea6-4a97-ac95-26b0000b492c",
+              "type": "Person"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {},
+          "ended": false,
+          "attributes": [],
+          "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+          "target-type": "artist",
+          "end": null,
+          "direction": "forward",
+          "type": "married"
+      },
+      {
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {},
+          "recording": {
+              "length": 9000,
+              "video": false,
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 1. Introduction. Allegro vivace",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      }
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "name": "Andrea Battistoni"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "id": "b100718f-2944-44f6-a649-39f27aab483c"
+          }
+      },
+      {
+          "recording": {
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 2. Variation 1. (Precendente)",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "反田恭平",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      }
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "name": "東京フィルハーモニー交響楽団"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 20226,
+              "video": false,
+              "id": "426e7211-ba4c-49ee-8532-810fe0ef03ad"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          }
+      },
+      {
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "begin": "2015-09-11",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "attribute-values": {},
+          "target-credit": "",
+          "attribute-credits": {},
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "name": "Сергей Рахманинов",
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei"
+                      },
+                      "joinphrase": "; "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "name": "反田恭平"
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "name": "東京フィルハーモニー交響楽団"
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 3. Thema. L'istesso tempo",
+              "length": 19000,
+              "video": false,
+              "id": "3f65055f-6156-4f89-bc85-6364abf1848e"
+          }
+      },
+      {
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": "",
+          "recording": {
+              "id": "a1d8410b-a665-441e-9098-b05d953eaad7",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 4. Variation 2. L'istesso tempo",
+              "disambiguation": "",
+              "video": false,
+              "length": 19000
+          },
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward"
+      },
+      {
+          "recording": {
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 5. Variation 3. L'istesso tempo",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "artist": {
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "joinphrase": "; "
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "反田恭平",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "name": "Andrea Battistoni"
+                      },
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "name": "東京フィルハーモニー交響楽団"
+                      },
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "video": false,
+              "length": 25000,
+              "id": "4f2b4d00-9819-4f21-b341-257bb6dfaf45"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "begin": "2015-09-11"
+      },
+      {
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "id": "57a56674-9be5-4870-939e-aed90fa783e4",
+              "video": false,
+              "length": 29000,
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null
+                      }
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "name": "Andrea Battistoni",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null
+                      },
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 6. Variation 4. Piú vivo"
+          },
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": ""
+      },
+      {
+          "attribute-values": {},
+          "target-credit": "",
+          "attribute-credits": {},
+          "recording": {
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 7. Variation 5. Tempo precendente",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      }
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "name": "反田恭平",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "disambiguation": ""
+                      }
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "disambiguation": "conductor"
+                      }
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "video": false,
+              "length": 28000,
+              "id": "2af9c20a-fd42-4b00-9b02-12785a093e1c"
+          },
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11",
+          "type": "instrument",
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attributes": [
+              "piano"
+          ],
+          "ended": true
+      },
+      {
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": "",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов"
+                      }
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "disambiguation": "conductor"
+                      },
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "artist": {
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 8. Variation 6. L'istesso tempo",
+              "disambiguation": "",
+              "video": false,
+              "length": 69000,
+              "id": "1f39190b-14c3-4c5c-90c5-22a5410d4985"
+          },
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11"
+      },
+      {
+          "begin": "2015-09-11",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "recording": {
+              "video": false,
+              "length": 70000,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "name": "Сергей Рахманинов"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "disambiguation": ""
+                      },
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 9. Variation 7. Meno mosso, a tempo moderato",
+              "disambiguation": "",
+              "id": "7f10c7f8-a047-414c-8ff3-eb946f8c2399"
+          }
+      },
+      {
+          "recording": {
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 10. Variation 8. Tempo I",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "disambiguation": "Russian composer"
+                      }
+                  },
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "name": "Andrea Battistoni"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "video": false,
+              "length": 33000,
+              "id": "7668f102-78f5-458c-8447-4e267c793679"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {},
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11"
+      },
+      {
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "begin": "2015-09-11",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "recording": {
+              "id": "5acbcb58-c4a1-412d-a01c-a50c82b12560",
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 11. Variation 9. L'istesso tempo",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "name": "Andrea Battistoni"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "video": false,
+              "length": 31000
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "begin": "2015-09-11",
+          "recording": {
+              "id": "a1eac893-efd4-451c-99a4-cc7f0bec6c1f",
+              "video": false,
+              "length": 51000,
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 12. Variation 10",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "name": "Сергей Рахманинов"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "name": "東京フィルハーモニー交響楽団"
+                      },
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ]
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {}
+      },
+      {
+          "recording": {
+              "id": "f1225717-1217-487c-9748-3a37a87dd764",
+              "video": false,
+              "length": 84000,
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 13. Variation 11. Moderato",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "disambiguation": "Russian composer"
+                      }
+                  },
+                  {
+                      "artist": {
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ]
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type": "instrument",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          }
+      },
+      {
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "id": "03195ab6-470d-4cc3-bd58-a2d3cf334e9c",
+              "length": 82000,
+              "video": false,
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 14. Variation 12. Tempo di minuetto",
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": ""
+      },
+      {
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "begin": "2015-09-11",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "direction": "forward",
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "attribute-values": {},
+          "target-credit": "",
+          "attribute-credits": {},
+          "recording": {
+              "length": 28000,
+              "video": false,
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 15. Variation 13. Allegro",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      }
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "name": "Andrea Battistoni",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "disambiguation": ""
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "id": "ee8d65ef-8c01-4db3-aca6-83be69d8d183"
+          }
+      },
+      {
+          "recording": {
+              "id": "c9053af7-9f7d-44b9-8139-258a52e364fc",
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "name": "反田恭平",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 16. Variation 14. L'istesso tempo",
+              "disambiguation": "",
+              "length": 44000,
+              "video": false
+          },
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "direction": "forward",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          }
+      },
+      {
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "direction": "forward",
+          "type": "instrument",
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "recording": {
+              "id": "7d91fc28-2044-4c32-b7a8-b0490103b498",
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 17. Variation 15. (Orchestra tacet) Piú vivo. Scherzando",
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "name": "Сергей Рахманинов"
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "video": false,
+              "length": 67000
+          }
+      },
+      {
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {},
+          "recording": {
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 18. Variation 16. Allegretto",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "disambiguation": "Russian composer"
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "video": false,
+              "length": 107000,
+              "id": "6660998a-873a-473c-8486-712017eb1336"
+          },
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ]
+      },
+      {
+          "type": "instrument",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11",
+          "recording": {
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 19. Variation 17",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "disambiguation": "Russian composer"
+                      }
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "name": "Andrea Battistoni",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea"
+                      }
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra"
+                      },
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "length": 113000,
+              "video": false,
+              "id": "5089636f-eec6-4d02-82f9-7330d0ad9e93"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "type": "instrument",
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11",
+          "recording": {
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 20. Variation 18. Andante cantabile",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "name": "Сергей Рахманинов"
+                      },
+                      "joinphrase": "; "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      }
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "length": 195000,
+              "video": false,
+              "id": "b76e8632-67f0-40c6-8c67-0abf8ce18653"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "recording": {
+              "id": "7ef33418-657c-4933-96c8-c4efab39fa40",
+              "video": false,
+              "length": 26000,
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 21. Variation 19. L'istesso tempo",
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "name": "Сергей Рахманинов"
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ]
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "begin": "2015-09-11",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita"
+      },
+      {
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "id": "2990ea7f-b1a2-4e67-86a3-641ce96917cf",
+              "video": false,
+              "length": 34066,
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 22. Variation 20. Un poco piú vivo",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "反田恭平",
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "name": "Andrea Battistoni"
+                      }
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "disambiguation": ""
+                      }
+                  }
+              ]
+          },
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": ""
+      },
+      {
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "recording": {
+              "id": "246055d0-2abe-40db-9d85-b71824106776",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 23. Variation 21. Un poco piú vivo",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "artist": {
+                          "name": "Сергей Рахманинов",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "disambiguation": "Russian composer"
+                      },
+                      "joinphrase": "; "
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "反田恭平",
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "name": "Andrea Battistoni"
+                      },
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "name": "東京フィルハーモニー交響楽団"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 25000,
+              "video": false
+          },
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "direction": "forward",
+          "type": "instrument"
+      },
+      {
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "direction": "forward",
+          "target-type": "recording",
+          "end": "2015-09-11",
+          "type": "instrument",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 24. Variation 22. Un poco piú vivo (alla breve)",
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "name": "Сергей Рахманинов",
+                          "disambiguation": "Russian composer"
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      },
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "length": 96000,
+              "video": false,
+              "id": "351dd609-780f-4123-b8ac-0bab732a768e"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "attributes": [
+              "piano"
+          ],
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "type": "instrument",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": "2015-09-11",
+          "begin": "2015-09-11",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "id": "6d751bd2-ba75-4d2d-b135-e9a5b013e536",
+              "video": false,
+              "length": 50000,
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 25. Variation 23. L'istesso tempo",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null,
+                          "name": "Сергей Рахманинов"
+                      },
+                      "joinphrase": "; "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "name": "Andrea Battistoni",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null
+                      },
+                      "joinphrase": ", ",
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type-id": null,
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "attribute-credits": {},
+          "attribute-values": {},
+          "target-credit": ""
+      },
+      {
+          "end": "2015-09-11",
+          "target-type": "recording",
+          "direction": "forward",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "begin": "2015-09-11",
+          "recording": {
+              "id": "dee00fe2-0897-4543-9b6d-f13073e7eece",
+              "video": false,
+              "length": 78000,
+              "disambiguation": "",
+              "title": "Rhapsody on a Theme of Paganini, op. 43: 26. Variation 24. A tempo un poco meno mosso",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "name": "Сергей Рахманинов",
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null
+                      }
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type-id": null,
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "name": "Andrea Battistoni"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "name": "東京フィルハーモニー交響楽団",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ]
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {}
+      },
+      {
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "recording",
+          "end": "2016-07-07",
+          "direction": "forward",
+          "type": "instrument",
+          "begin": "2016-07-07",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "id": "0e6e1bf4-88ff-4c8d-a5a8-a0147b5a26f5",
+              "video": false,
+              "length": 696000,
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type-id": null,
+                          "sort-name": "Rachmaninoff, Sergei"
+                      },
+                      "joinphrase": "; ",
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "joinphrase": ", ",
+                      "artist": {
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "sort-name": "Battistoni, Andrea",
+                          "type-id": null,
+                          "name": "Andrea Battistoni",
+                          "disambiguation": "conductor"
+                      }
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "type": null,
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db"
+                      },
+                      "joinphrase": "",
+                      "name": "Tokyo Philharmonic Orchestra"
+                  }
+              ],
+              "disambiguation": "",
+              "title": "Piano Concerto no. 2 in C minor, op. 18: I. Moderato"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "recording": {
+              "length": 781000,
+              "video": false,
+              "title": "Piano Concerto no. 2 in C minor, op. 18: II. Adagio sostenuto",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "name": "Rachmaninov",
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "name": "Сергей Рахманинов",
+                          "type": null,
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null
+                      }
+                  },
+                  {
+                      "name": "Kyohei Sorita",
+                      "artist": {
+                          "disambiguation": "",
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "joinphrase": ", ",
+                      "artist": {
+                          "disambiguation": "conductor",
+                          "name": "Andrea Battistoni",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b"
+                      },
+                      "name": "Andrea Battistoni"
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "422048dc-3063-43ab-8a13-4c7277185dd9"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2016-07-07",
+          "target-type": "recording",
+          "direction": "forward",
+          "type": "instrument",
+          "begin": "2016-07-07",
+          "source-credit": "Kyohei Sorita",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          }
+      },
+      {
+          "begin": "2016-07-07",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "source-credit": "Kyohei Sorita",
+          "ended": true,
+          "attributes": [
+              "piano"
+          ],
+          "target-type": "recording",
+          "end": "2016-07-07",
+          "direction": "forward",
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "recording": {
+              "video": false,
+              "length": 751000,
+              "artist-credit": [
+                  {
+                      "joinphrase": "; ",
+                      "artist": {
+                          "disambiguation": "Russian composer",
+                          "name": "Сергей Рахманинов",
+                          "id": "44b16e44-da77-4580-b851-0d765904573e",
+                          "type": null,
+                          "sort-name": "Rachmaninoff, Sergei",
+                          "type-id": null
+                      },
+                      "name": "Rachmaninov"
+                  },
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "name": "反田恭平"
+                      },
+                      "joinphrase": ", ",
+                      "name": "Kyohei Sorita"
+                  },
+                  {
+                      "name": "Andrea Battistoni",
+                      "artist": {
+                          "name": "Andrea Battistoni",
+                          "type": null,
+                          "id": "70551fe5-b966-4e40-a784-e51ad8981f1b",
+                          "type-id": null,
+                          "sort-name": "Battistoni, Andrea",
+                          "disambiguation": "conductor"
+                      },
+                      "joinphrase": ", "
+                  },
+                  {
+                      "name": "Tokyo Philharmonic Orchestra",
+                      "artist": {
+                          "name": "東京フィルハーモニー交響楽団",
+                          "type-id": null,
+                          "sort-name": "Tokyo Philharmonic Orchestra",
+                          "id": "2273a0e7-0db2-49dd-941a-8ac2984b29db",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Piano Concerto no. 2 in C minor, op. 18: III. Allegro scherzando",
+              "disambiguation": "",
+              "id": "f9be2566-3fe0-45f0-9dd3-d7c0e7c71a99"
+          }
+      },
+      {
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-credits": {},
+          "recording": {
+              "length": 212000,
+              "video": false,
+              "title": "エリーゼのために",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "type": null,
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "反田恭平"
+                  }
+              ],
+              "id": "9a14b86c-15c4-4e6f-b029-14befdef22b6"
+          },
+          "source-credit": "",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "begin": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "recording",
+          "direction": "forward",
+          "end": null,
+          "type": "instrument",
+          "ended": false,
+          "attributes": [
+              "piano"
+          ]
+      },
+      {
+          "ended": false,
+          "attributes": [
+              "piano"
+          ],
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "recording",
+          "end": null,
+          "direction": "forward",
+          "type": "instrument",
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "recording": {
+              "video": false,
+              "length": 109000,
+              "title": "ワルツ第6番 変ニ長調 作品64-1 「小犬のワルツ」",
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "sort-name": "Kyohei Sorita",
+                          "type": null,
+                          "id": "6c0e22e8-e707-4b4b-b3e7-8c4135583aed",
+                          "name": "反田恭平",
+                          "disambiguation": ""
+                      },
+                      "name": "反田恭平"
+                  }
+              ],
+              "id": "0a9aefaa-74ad-44bc-8a86-256b93ed44f7"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-values": {}
+      }
+  ],
+  "begin_area": {
+      "iso-3166-2-codes": [
+          "JP-13"
+      ],
+      "disambiguation": "",
+      "sort-name": "Tokyo",
+      "type-id": null,
+      "type": null,
+      "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+      "name": "Tokyo"
+  },
+  "begin-area": {
+      "iso-3166-2-codes": [
+          "JP-13"
+      ],
+      "disambiguation": "",
+      "sort-name": "Tokyo",
+      "type-id": null,
+      "type": null,
+      "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+      "name": "Tokyo"
+  },
+  "country": "JP",
+  "type": "Person",
+  "end_area": null,
+  "life-span": {
+      "end": null,
+      "begin": "1994-09-01",
+      "ended": false
+  },
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "gender": "Male",
+  "disambiguation": "",
+  "isnis": []
+}

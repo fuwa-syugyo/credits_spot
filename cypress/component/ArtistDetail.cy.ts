@@ -114,7 +114,7 @@ describe('ArtistDetail tests', () => {
     cy.get(':nth-child(5) > .paginate-buttons').should('not.be')
   })
 
-  it.only('Artist have songwriter and staff tables', () => {
+  it('Artist have songwriter and staff tables', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/779f1dee-35ca-4b75-8db5-9ae3ce3b16c8?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_otoha_relationship.json'}).as('otohaRelationshipRequest')
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=779f1dee-35ca-4b75-8db5-9ae3ce3b16c8&offset=0&limit=100&fmt=json', {fixture: 'mock_otoha_recording.json'}).as('otohaRecordingRequest')
 
@@ -140,8 +140,65 @@ describe('ArtistDetail tests', () => {
       .contains('【LIVE映像】「青春コンプレックス」/ ぼっち・ざ・ろっく！-SPECIAL STUDIO LIVE-')
 
     //アーティスト楽曲の表が存在していないかどうか
-    cy.get(':nth-child(6) > .text-lg').should('not.be')
     cy.get('.artist-table > tbody').should('not.be')
+
+    //ページネーションのコンポーネントが表示されていないかどうか
+    cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
+  })
+
+  it('Artist have songwriter and artist tables', () => {
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/ae6c957d-c33e-4028-abdd-688bddec3be8?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_higuchiai_relationship.json'}).as('higuchiaiRelationshipRequest')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=ae6c957d-c33e-4028-abdd-688bddec3be8&offset=0&limit=100&fmt=json', {fixture: 'mock_higuchiai_recording.json'}).as('higuchiaiRecordingRequest')
+    cy.mount(ArtistDetail, { props: { id: 'ae6c957d-c33e-4028-abdd-688bddec3be8' } } as OptionsParam )
+    cy.wait('@higuchiaiRelationshipRequest');
+    cy.wait('@higuchiaiRecordingRequest');
+
+    cy.get('.text-2xl')
+      .contains('ヒグチアイ')
+
+    cy.get(':nth-child(2) > .text-lg')
+      .contains('作詞作曲した楽曲')
+    cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center')
+      .contains('composer')
+    cy.get('.songwriter-table > tbody > :nth-child(1) > :nth-child(2)')
+      .contains('悪魔の子')
+
+    cy.get(':nth-child(5) > .text-lg')
+      .contains('アーティストとして関わった楽曲')
+    cy.get('.artist-table > tbody > :nth-child(1) > .px-4')
+      .contains('妄想悩殺お手ガール')
+
+    //スタッフ楽曲の表が存在していないかどうか
+    cy.get('.staff-table > tbody').should('not.be')
+
+    //ページネーションのコンポーネントが表示されていないかどうか
+    cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
+  })
+
+  it('Artist have staff and artist tables', () => {
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/6c0e22e8-e707-4b4b-b3e7-8c4135583aed?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_sorita_relationship.json'}).as('soritaRelationshipRequest')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=6c0e22e8-e707-4b4b-b3e7-8c4135583aed&offset=0&limit=100&fmt=json', {fixture: 'mock_sorita_recording.json'}).as('soritaRecordingRequest')
+    cy.mount(ArtistDetail, { props: { id: '6c0e22e8-e707-4b4b-b3e7-8c4135583aed' } } as OptionsParam )
+    cy.wait('@soritaRelationshipRequest');
+    cy.wait('@soritaRecordingRequest');
+
+    cy.get('.text-2xl')
+      .contains('反田恭平')
+
+    cy.get(':nth-child(3) > .text-lg')
+      .contains('スタッフとして関わった楽曲')
+    cy.get('.staff-table > tbody > :nth-child(1) > .text-center')
+      .contains('piano')
+    cy.get('.staff-table > tbody > :nth-child(1) > :nth-child(2)')
+      .contains('Rhapsody on a Theme of Paganini, op. 43: 1. Introduction. Allegro vivace')
+
+    cy.get(':nth-child(5) > .text-lg')
+      .contains('アーティストとして関わった楽曲')
+    cy.get('.artist-table > tbody > :nth-child(2) > .px-4')
+      .contains('ワルツ第6番 変ニ長調 作品64-1 「小犬のワルツ」')
+
+    //作詞作曲の楽曲の表が存在していないかどうか
+    cy.get('.songwriter-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか
     cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
