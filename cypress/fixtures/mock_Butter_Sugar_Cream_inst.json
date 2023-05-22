@@ -1,0 +1,208 @@
+{
+  "artist-credit": [
+      {
+          "name": "Tomggg",
+          "joinphrase": " feat. ",
+          "artist": {
+              "id": "36e2eeab-28c1-44e4-867e-1eb346cebd96",
+              "disambiguation": "",
+              "sort-name": "Tomggg",
+              "name": "Tomggg",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          }
+      },
+      {
+          "name": "tsvaci",
+          "joinphrase": "",
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "type": "Person",
+              "name": "tsvaci",
+              "disambiguation": "つばし",
+              "sort-name": "tsvaci",
+              "id": "a0f3d993-8216-4fbb-9542-99fd8057738d"
+          }
+      }
+  ],
+  "length": 297000,
+  "title": "Butter Sugar Cream (instrumental)",
+  "id": "1aa67948-6be8-4d51-9526-054c75c651c4",
+  "disambiguation": "",
+  "relations": [
+      {
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "type": "mix",
+          "attributes": [],
+          "attribute-values": {},
+          "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+          "artist": {
+              "name": "Tomggg",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "type": "Person",
+              "sort-name": "Tomggg",
+              "disambiguation": "",
+              "id": "36e2eeab-28c1-44e4-867e-1eb346cebd96"
+          },
+          "attribute-ids": {},
+          "target-type": "artist",
+          "target-credit": "",
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "type": "producer",
+          "attributes": [],
+          "attribute-values": {},
+          "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+          "artist": {
+              "name": "Tomggg",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "id": "36e2eeab-28c1-44e4-867e-1eb346cebd96",
+              "disambiguation": "",
+              "sort-name": "Tomggg"
+          },
+          "attribute-ids": {},
+          "target-type": "artist",
+          "target-credit": "",
+          "end": null,
+          "source-credit": ""
+      },
+      {
+          "type": "karaoke",
+          "attributes": [],
+          "direction": "backward",
+          "begin": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "id": "36e2eeab-28c1-44e4-867e-1eb346cebd96",
+                          "sort-name": "Tomggg",
+                          "disambiguation": "",
+                          "type": null,
+                          "type-id": null,
+                          "name": "Tomggg"
+                      },
+                      "joinphrase": " feat. ",
+                      "name": "Tomggg"
+                  },
+                  {
+                      "name": "tsvaci",
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "a0f3d993-8216-4fbb-9542-99fd8057738d",
+                          "disambiguation": "つばし",
+                          "sort-name": "tsvaci",
+                          "type": null,
+                          "type-id": null,
+                          "name": "tsvaci"
+                      }
+                  }
+              ],
+              "length": 296880,
+              "id": "2efc3a84-5375-4d6b-b373-f140c3b446c9",
+              "title": "Butter Sugar Cream",
+              "disambiguation": "",
+              "video": false,
+              "isrcs": []
+          },
+          "ended": false,
+          "target-credit": "",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "39a08d0e-26e4-44fb-ae19-906f5fe9435d",
+          "attribute-values": {}
+      },
+      {
+          "attributes": [
+              "karaoke"
+          ],
+          "type": "performance",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "source-credit": "",
+          "target-type": "work",
+          "target-credit": "",
+          "work": {
+              "type": "Song",
+              "language": "jpn",
+              "attributes": [],
+              "relations": [
+                  {
+                      "end": null,
+                      "source-credit": "",
+                      "target-type": "artist",
+                      "target-credit": "",
+                      "attribute-ids": {},
+                      "attribute-values": {},
+                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                      "artist": {
+                          "name": "Tomggg",
+                          "type": "Person",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "id": "36e2eeab-28c1-44e4-867e-1eb346cebd96",
+                          "sort-name": "Tomggg",
+                          "disambiguation": ""
+                      },
+                      "attributes": [],
+                      "type": "composer",
+                      "begin": null,
+                      "direction": "backward",
+                      "ended": false
+                  },
+                  {
+                      "artist": {
+                          "sort-name": "tsvaci",
+                          "disambiguation": "つばし",
+                          "id": "a0f3d993-8216-4fbb-9542-99fd8057738d",
+                          "name": "tsvaci",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "type": "Person"
+                      },
+                      "attribute-values": {},
+                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                      "target-credit": "",
+                      "target-type": "artist",
+                      "source-credit": "",
+                      "end": null,
+                      "attribute-ids": {},
+                      "direction": "backward",
+                      "begin": null,
+                      "ended": false,
+                      "type": "lyricist",
+                      "attributes": []
+                  }
+              ],
+              "languages": [
+                  "jpn"
+              ],
+              "title": "Butter Sugar Cream",
+              "id": "bf911c08-0174-46d5-8723-006ce047305c",
+              "disambiguation": "",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [
+                  "T-918.838.651-8"
+              ]
+          },
+          "attribute-ids": {
+              "karaoke": "3d984f6e-bbe2-4620-9425-5f32e945b60d"
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attribute-values": {}
+      }
+  ],
+  "video": false,
+  "isrcs": [],
+  "first-release-date": "2015-03-18"
+}

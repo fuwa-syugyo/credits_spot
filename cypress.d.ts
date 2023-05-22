@@ -1,8 +1,8 @@
 import { mount } from 'cypress/vue';
-import { Router, RouterHistory, LocationQuery } from 'vue-router'
+import { Router, LocationQuery } from 'vue-router'
 
 type MountParams = Parameters<typeof mount>;
-type OptionsParam = MountParams[1] & { router?: Router, query?: LocationQuery}
+type OptionsParam = MountParams[1] & { router?: Router, query?: LocationQuery, props?: {id: string}}
 
 declare global {
   namespace Cypress {

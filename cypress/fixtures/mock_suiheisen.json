@@ -1,0 +1,911 @@
+{
+  "disambiguation": "",
+  "isrcs": [
+      "JPPO02100907"
+  ],
+  "relations": [
+      {
+          "type": "arranger",
+          "artist": {
+              "disambiguation": "",
+              "id": "f35bfbe2-d30e-402c-9ac1-fa5f90b72ec2",
+              "type": "Group",
+              "name": "back number",
+              "sort-name": "back number",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "attribute-ids": {},
+          "target-credit": "",
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "attribute-values": {},
+          "target-type": "artist",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "direction": "backward",
+          "attributes": [],
+          "begin": null
+      },
+      {
+          "begin": null,
+          "attributes": [],
+          "direction": "backward",
+          "target-type": "artist",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "attribute-values": {},
+          "target-credit": "島田 昌典",
+          "attribute-ids": {},
+          "artist": {
+              "sort-name": "Shimada, Masanori",
+              "name": "島田昌典",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "disambiguation": "",
+              "id": "38463ce8-bc1f-4eb3-a855-d8b5e648ab50",
+              "type": "Person"
+          },
+          "type": "arranger"
+      },
+      {
+          "attribute-values": {},
+          "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+          "target-credit": "小島 聖平",
+          "attribute-ids": {
+              "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+          },
+          "artist": {
+              "type": "Person",
+              "id": "a6d96333-ca9e-410e-addb-391436de73e5",
+              "disambiguation": "",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Kojima, Shohei",
+              "name": "小島聖平"
+          },
+          "type": "engineer",
+          "begin": null,
+          "attributes": [
+              "assistant"
+          ],
+          "direction": "backward",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist"
+      },
+      {
+          "artist": {
+              "name": "山口詩織",
+              "sort-name": "Yamaguchi, Shiori",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "id": "fd79a803-b257-48bd-a2a8-f74b7c8c273a",
+              "disambiguation": "",
+              "type": "Person"
+          },
+          "type": "engineer",
+          "attribute-ids": {
+              "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+          },
+          "target-credit": "山口 詩織",
+          "attribute-values": {},
+          "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist",
+          "direction": "backward",
+          "attributes": [
+              "assistant"
+          ],
+          "begin": null
+      },
+      {
+          "direction": "backward",
+          "target-type": "artist",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "begin": null,
+          "attributes": [
+              "violin"
+          ],
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "attribute-credits": {
+              "violin": "1st violin"
+          },
+          "artist": {
+              "type": "Person",
+              "id": "abb8800c-2851-46ef-93ec-d0c4ef441a2f",
+              "disambiguation": "",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "ビルマン聡平",
+              "sort-name": "Birmann, Sohei"
+          },
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-credit": "ビルマン 聡平"
+      },
+      {
+          "begin": null,
+          "attributes": [
+              "viola"
+          ],
+          "direction": "backward",
+          "target-type": "artist",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-credit": "萩谷 金太郎",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "viola": "377e007a-33fe-4825-9bef-136cf5cf581a"
+          },
+          "artist": {
+              "name": "萩谷金太郎",
+              "sort-name": "Hagiya, Kintarou",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "id": "5bb7e90b-a8d9-4410-b949-cb47d8056753",
+              "disambiguation": "violist",
+              "type": "Person"
+          },
+          "type": "instrument"
+      },
+      {
+          "direction": "backward",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "target-type": "artist",
+          "begin": null,
+          "attributes": [
+              "cello"
+          ],
+          "attribute-ids": {
+              "cello": "0db03a60-1142-4b25-ab1b-72027d0dc357"
+          },
+          "attribute-credits": {},
+          "artist": {
+              "type": "Person",
+              "id": "014aa6b5-41d2-4df6-a5e7-0f0ee455479a",
+              "disambiguation": "",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "堀沢真己",
+              "sort-name": "Horisawa, Masami"
+          },
+          "type": "instrument",
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-credit": "堀沢 真己"
+      },
+      {
+          "target-type": "artist",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "direction": "backward",
+          "attributes": [
+              "violin"
+          ],
+          "begin": null,
+          "type": "instrument",
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "小寺里枝",
+              "sort-name": "Kodera, Rie",
+              "type": "Person",
+              "id": "2666599a-1744-4b2e-a2d0-9c4d4b4b171d",
+              "disambiguation": "violin"
+          },
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "attribute-credits": {
+              "violin": "2nd violin"
+          },
+          "target-credit": "小寺 里枝",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {}
+      },
+      {
+          "begin": null,
+          "attributes": [
+              "bass guitar"
+          ],
+          "direction": "backward",
+          "target-type": "artist",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-credit": "小島 和他",
+          "attribute-ids": {
+              "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+          },
+          "attribute-credits": {},
+          "artist": {
+              "disambiguation": "bassist of back number",
+              "id": "4a4e61bf-7965-4678-bb62-64f9f45ae965",
+              "type": "Person",
+              "name": "小島和也",
+              "sort-name": "Kojima, Kazuya",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "type": "instrument"
+      },
+      {
+          "artist": {
+              "sort-name": "Kurihara, Hisashi",
+              "name": "栗原寿",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "disambiguation": "drummer of back number",
+              "id": "1a2b6296-6afe-4567-ad15-51597096d461",
+              "type": "Person"
+          },
+          "type": "instrument",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+          },
+          "target-credit": "栗原 寿",
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist",
+          "direction": "backward",
+          "attributes": [
+              "drums (drum set)"
+          ],
+          "begin": null
+      },
+      {
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-credit": "馬渕 昌子",
+          "attribute-ids": {
+              "viola": "377e007a-33fe-4825-9bef-136cf5cf581a"
+          },
+          "attribute-credits": {},
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Mabuchi, Shōko",
+              "name": "馬渕昌子",
+              "type": "Person",
+              "disambiguation": "",
+              "id": "196b5e95-b939-4d0a-b5df-ed565bfde10e"
+          },
+          "type": "instrument",
+          "begin": null,
+          "attributes": [
+              "viola"
+          ],
+          "direction": "backward",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "target-type": "artist"
+      },
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-credit": "水野 由紀",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "cello": "0db03a60-1142-4b25-ab1b-72027d0dc357"
+          },
+          "type": "instrument",
+          "artist": {
+              "type": "Person",
+              "disambiguation": "",
+              "id": "b122f6cb-db97-4f0e-83d1-5d7acf3cd707",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "水野由紀",
+              "sort-name": "Mizuno, Yuki"
+          },
+          "begin": null,
+          "attributes": [
+              "cello"
+          ],
+          "direction": "backward",
+          "target-type": "artist",
+          "source-credit": "",
+          "end": null,
+          "ended": false
+      },
+      {
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-credit": "室屋 光一郎",
+          "attribute-credits": {
+              "violin": "1st violin"
+          },
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "artist": {
+              "name": "室屋光一郎",
+              "sort-name": "Muroya, Kōichirō",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "disambiguation": "",
+              "id": "7c35b3b2-f607-4c67-b5c5-573fe2790c5f",
+              "type": "Person"
+          },
+          "type": "instrument",
+          "begin": null,
+          "attributes": [
+              "violin"
+          ],
+          "direction": "backward",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "target-type": "artist"
+      },
+      {
+          "target-credit": "楢村 海香",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "type": "instrument",
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Naramura, Mika",
+              "name": "楢村海香",
+              "type": "Person",
+              "id": "9a554b33-2526-4adc-86ea-489b69eca4ae",
+              "disambiguation": ""
+          },
+          "attribute-credits": {
+              "violin": "1st violin"
+          },
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "attributes": [
+              "violin"
+          ],
+          "begin": null,
+          "target-type": "artist",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "direction": "backward"
+      },
+      {
+          "begin": null,
+          "attributes": [
+              "piano"
+          ],
+          "direction": "backward",
+          "target-type": "artist",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-credit": "島田 昌典",
+          "attribute-ids": {
+              "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+          },
+          "attribute-credits": {},
+          "artist": {
+              "id": "38463ce8-bc1f-4eb3-a855-d8b5e648ab50",
+              "disambiguation": "",
+              "type": "Person",
+              "sort-name": "Shimada, Masanori",
+              "name": "島田昌典",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "type": "instrument"
+      },
+      {
+          "direction": "backward",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist",
+          "begin": null,
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Shimizu, Iyori",
+              "name": "清水依与吏",
+              "type": "Person",
+              "disambiguation": "vocalist, guitarist of back number",
+              "id": "614de0ea-9a65-4a53-963a-8525ef060e02"
+          },
+          "type": "instrument",
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-credit": "清水 依与吏"
+      },
+      {
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist",
+          "direction": "backward",
+          "attributes": [
+              "violin"
+          ],
+          "begin": null,
+          "type": "instrument",
+          "artist": {
+              "id": "dac53211-09cc-474a-b75d-6ed6d1f17a81",
+              "disambiguation": "",
+              "type": "Person",
+              "sort-name": "Shin, Eai-Sung",
+              "name": "申愛聖",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "attribute-credits": {
+              "violin": "2nd violin"
+          },
+          "target-credit": "申 愛聖",
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+      },
+      {
+          "direction": "backward",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "target-type": "artist",
+          "begin": null,
+          "attributes": [
+              "violin"
+          ],
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "attribute-credits": {
+              "violin": "1st violin"
+          },
+          "type": "instrument",
+          "artist": {
+              "name": "徳永友美",
+              "sort-name": "Tokunaga, Tomomi",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "id": "7d383ca8-31dd-4fc5-bd8b-eac256adbaac",
+              "disambiguation": "Japanese violinist",
+              "type": "Person"
+          },
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-credit": "徳永 友美"
+      },
+      {
+          "attribute-credits": {
+              "violin": "2nd violin"
+          },
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "type": "instrument",
+          "artist": {
+              "disambiguation": "",
+              "id": "68de82e6-42dc-4e46-ae02-bdd67f5ef9fb",
+              "type": "Person",
+              "sort-name": "Uesato, Hanako",
+              "name": "上里はな子",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-credit": "上里 はな子",
+          "direction": "backward",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "target-type": "artist",
+          "begin": null,
+          "attributes": [
+              "violin"
+          ]
+      },
+      {
+          "target-credit": "柳原 有弥",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "type": "instrument",
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "柳原有弥",
+              "sort-name": "Yanagihara, Yuuya",
+              "type": "Person",
+              "disambiguation": "",
+              "id": "d6d7de33-9cab-4351-8365-8b0de7a4bb2c"
+          },
+          "attribute-credits": {
+              "violin": "1st violin"
+          },
+          "attribute-ids": {
+              "violin": "089f123c-0f7d-4105-a64e-49de81ca8fa4"
+          },
+          "attributes": [
+              "violin"
+          ],
+          "begin": null,
+          "target-type": "artist",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "direction": "backward"
+      },
+      {
+          "target-credit": "島田 昌典",
+          "attribute-values": {},
+          "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+          "type": "instrument arranger",
+          "artist": {
+              "disambiguation": "",
+              "id": "38463ce8-bc1f-4eb3-a855-d8b5e648ab50",
+              "type": "Person",
+              "sort-name": "Shimada, Masanori",
+              "name": "島田昌典",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "attribute-credits": {},
+          "attribute-ids": {
+              "strings": "32eca297-dde6-45d0-9305-ae479947c2a8"
+          },
+          "attributes": [
+              "strings"
+          ],
+          "begin": null,
+          "end": null,
+          "source-credit": "",
+          "ended": false,
+          "target-type": "artist",
+          "direction": "backward"
+      },
+      {
+          "direction": "backward",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist",
+          "begin": null,
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "artist": {
+              "type": "Person",
+              "id": "f1a2ebd9-51bb-4a98-9a05-fdd6e7a09850",
+              "disambiguation": "",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Terakawa, Masayuki",
+              "name": "寺川暢之"
+          },
+          "type": "instrument technician",
+          "attribute-values": {},
+          "type-id": "e88fefc3-042b-4f28-83af-6a79793b630b",
+          "target-credit": "寺川 暢之"
+      },
+      {
+          "begin": null,
+          "attributes": [
+              "drums (drum set)"
+          ],
+          "direction": "backward",
+          "target-type": "artist",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "type-id": "e88fefc3-042b-4f28-83af-6a79793b630b",
+          "attribute-values": {},
+          "target-credit": "冨安 徹",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+          },
+          "type": "instrument technician",
+          "artist": {
+              "type": "Person",
+              "disambiguation": "",
+              "id": "387dbb8e-4f20-43a5-a48f-df8280aa802c",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "冨安徹",
+              "sort-name": "Tomiyasu, Tohru"
+          }
+      },
+      {
+          "end": null,
+          "source-credit": "",
+          "ended": false,
+          "target-type": "artist",
+          "direction": "backward",
+          "attributes": [
+              "task"
+          ],
+          "begin": null,
+          "type": "misc",
+          "artist": {
+              "name": "久富美紗代",
+              "sort-name": "Kutomi, Misayo",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "disambiguation": "",
+              "id": "7f3e4e19-5f97-47e2-83b8-e9c18da1d178",
+              "type": "Person"
+          },
+          "attribute-ids": {
+              "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+          },
+          "target-credit": "久富 美紗代",
+          "attribute-values": {
+              "task": "musician coordination"
+          },
+          "type-id": "68330a36-44cf-4fa2-84e8-533c6fe3fc23"
+      },
+      {
+          "begin": null,
+          "attributes": [],
+          "direction": "backward",
+          "end": null,
+          "source-credit": "",
+          "ended": false,
+          "target-type": "artist",
+          "attribute-values": {},
+          "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+          "target-credit": "渡辺 敏広",
+          "attribute-ids": {},
+          "type": "mix",
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "渡辺敏広",
+              "sort-name": "Watanabe, Toshihiro",
+              "type": "Person",
+              "disambiguation": "engineer",
+              "id": "799efb76-5100-4acd-8d3b-9c0852390e3b"
+          }
+      },
+      {
+          "begin": null,
+          "attributes": [],
+          "direction": "backward",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "target-type": "artist",
+          "attribute-values": {},
+          "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+          "target-credit": "島田 昌典",
+          "attribute-ids": {},
+          "artist": {
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Shimada, Masanori",
+              "name": "島田昌典",
+              "type": "Person",
+              "disambiguation": "",
+              "id": "38463ce8-bc1f-4eb3-a855-d8b5e648ab50"
+          },
+          "type": "producer"
+      },
+      {
+          "begin": null,
+          "attributes": [],
+          "direction": "backward",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "target-type": "artist",
+          "attribute-values": {},
+          "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+          "target-credit": "渡辺 敏広",
+          "attribute-ids": {},
+          "type": "recording",
+          "artist": {
+              "id": "799efb76-5100-4acd-8d3b-9c0852390e3b",
+              "disambiguation": "engineer",
+              "type": "Person",
+              "sort-name": "Watanabe, Toshihiro",
+              "name": "渡辺敏広",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          }
+      },
+      {
+          "artist": {
+              "type": "Person",
+              "disambiguation": "vocalist, guitarist of back number",
+              "id": "614de0ea-9a65-4a53-963a-8525ef060e02",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Shimizu, Iyori",
+              "name": "清水依与吏"
+          },
+          "type": "vocal",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+          },
+          "target-credit": "清水 依与吏",
+          "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+          "attribute-values": {},
+          "target-type": "artist",
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "direction": "backward",
+          "attributes": [
+              "background vocals"
+          ],
+          "begin": null
+      },
+      {
+          "attribute-credits": {},
+          "attribute-ids": {
+              "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+          },
+          "type": "vocal",
+          "artist": {
+              "type": "Person",
+              "id": "614de0ea-9a65-4a53-963a-8525ef060e02",
+              "disambiguation": "vocalist, guitarist of back number",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Shimizu, Iyori",
+              "name": "清水依与吏"
+          },
+          "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+          "attribute-values": {},
+          "target-credit": "清水 依与吏",
+          "direction": "backward",
+          "target-type": "artist",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "begin": null,
+          "attributes": [
+              "lead vocals"
+          ]
+      },
+      {
+          "type": "music video",
+          "attribute-ids": {},
+          "target-credit": "",
+          "type-id": "ce3de655-7451-44d1-9224-87eb948c205d",
+          "attribute-values": {},
+          "target-type": "recording",
+          "source-credit": "",
+          "ended": false,
+          "end": null,
+          "direction": "forward",
+          "recording": {
+              "id": "bd6bf5c2-47cb-466b-97c6-a12cd3531a06",
+              "video": true,
+              "artist-credit": [
+                  {
+                      "name": "back number",
+                      "artist": {
+                          "type": null,
+                          "id": "f35bfbe2-d30e-402c-9ac1-fa5f90b72ec2",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "name": "back number",
+                          "sort-name": "back number"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "length": null,
+              "title": "水平線",
+              "disambiguation": "",
+              "isrcs": []
+          },
+          "attributes": [],
+          "begin": null
+      },
+      {
+          "begin": null,
+          "attributes": [],
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "source-credit": "",
+          "target-type": "work",
+          "attribute-values": {},
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "target-credit": "",
+          "work": {
+              "id": "7c89a76c-1e1c-45d9-b822-3f96cd0f473d",
+              "relations": [
+                  {
+                      "direction": "backward",
+                      "target-type": "artist",
+                      "end": null,
+                      "source-credit": "",
+                      "ended": false,
+                      "begin": null,
+                      "attributes": [],
+                      "attribute-ids": {},
+                      "type": "composer",
+                      "artist": {
+                          "id": "614de0ea-9a65-4a53-963a-8525ef060e02",
+                          "disambiguation": "vocalist, guitarist of back number",
+                          "type": "Person",
+                          "sort-name": "Shimizu, Iyori",
+                          "name": "清水依与吏",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                      "attribute-values": {},
+                      "target-credit": ""
+                  },
+                  {
+                      "target-type": "artist",
+                      "ended": false,
+                      "source-credit": "",
+                      "end": null,
+                      "direction": "backward",
+                      "attributes": [],
+                      "begin": null,
+                      "artist": {
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "sort-name": "Shimizu, Iyori",
+                          "name": "清水依与吏",
+                          "type": "Person",
+                          "id": "614de0ea-9a65-4a53-963a-8525ef060e02",
+                          "disambiguation": "vocalist, guitarist of back number"
+                      },
+                      "type": "lyricist",
+                      "attribute-ids": {},
+                      "target-credit": "",
+                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                      "attribute-values": {}
+                  }
+              ],
+              "attributes": [],
+              "iswcs": [
+                  "T-302.423.354-9"
+              ],
+              "language": "jpn",
+              "title": "水平線",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "disambiguation": "",
+              "languages": [
+                  "jpn"
+              ],
+              "type": "Song"
+          },
+          "attribute-ids": {},
+          "type": "performance"
+      }
+  ],
+  "id": "02689e6a-9a9f-4415-9218-bb3da1dc1a87",
+  "first-release-date": "2023-01-17",
+  "video": false,
+  "artist-credit": [
+      {
+          "artist": {
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "sort-name": "back number",
+              "name": "back number",
+              "type": "Group",
+              "id": "f35bfbe2-d30e-402c-9ac1-fa5f90b72ec2",
+              "disambiguation": ""
+          },
+          "joinphrase": "",
+          "name": "back number"
+      }
+  ],
+  "length": 288000,
+  "title": "水平線"
+}
