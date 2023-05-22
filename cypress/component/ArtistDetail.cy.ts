@@ -58,7 +58,7 @@ describe('ArtistDetail tests', () => {
     cy.get(':nth-child(5) > .paginate-buttons').should('not.be')
   })
 
-  it.only('Artist have 3 tables page2', () => {
+  it('Artist have 3 tables page2', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/53bfc28e-2c48-4776-8949-1953c78dd187?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_nakatayasutaka_relationship.json'}).as('yasutakaRelationshipRequest')
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=0&limit=100&fmt=json', {fixture: 'mock_nakatayasutaka_recording_page2.json'}).as('yasutakaRecording2PageRequest')
     cy.mount(ArtistDetail, { props: { id: '53bfc28e-2c48-4776-8949-1953c78dd187' } } as OptionsParam )
@@ -114,20 +114,37 @@ describe('ArtistDetail tests', () => {
     cy.get(':nth-child(5) > .paginate-buttons').should('not.be')
   })
 
-  it('Recording have not Spotify link test', () => {
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/1aa67948-6be8-4d51-9526-054c75c651c4?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json', {fixture: 'mock_Butter_Sugar_Cream_inst.json'}).as('butterSugarCreamRequest')
-    cy.intercept('GET', 'https://api.spotify.com/v1/search?query=isrc%3Aundefined&type=track&offset=0&limit=20', {fixture: 'mock_spotify_Butter_Sugar_Cream.json'}).as('butterSugarCreamSpotifyRequest')
-    cy.mount(ArtistDetail, { props: { id: '1aa67948-6be8-4d51-9526-054c75c651c4' } } as OptionsParam )
-    cy.wait('@butterSugarCreamRequest');
-    cy.wait('@butterSugarCreamSpotifyRequest');
+  it.only('Artist have songwriter and staff tables', () => {
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/779f1dee-35ca-4b75-8db5-9ae3ce3b16c8?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_otoha_relationship.json'}).as('otohaRelationshipRequest')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=779f1dee-35ca-4b75-8db5-9ae3ce3b16c8&offset=0&limit=100&fmt=json', {fixture: 'mock_otoha_recording.json'}).as('otohaRecordingRequest')
+
+    cy.mount(ArtistDetail, { props: { id: '779f1dee-35ca-4b75-8db5-9ae3ce3b16c8' } } as OptionsParam )
+    cy.wait('@otohaRelationshipRequest');
+    cy.wait('@otohaRecordingRequest');
 
     cy.get('.text-2xl')
-      .contains('Butter Sugar Cream (instrumental)')
-    cy.get('.my-2 > tbody > tr > .px-4')
-    .contains('Tomggg feat. tsvaci')
+      .contains('音羽-otoha-')
 
-    cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a')
-    .should('not.be')
+    cy.get(':nth-child(2) > .text-lg')
+      .contains('作詞作曲した楽曲')
+    cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center')
+      .contains('composer')
+    cy.get('.songwriter-table > tbody > :nth-child(1) > :nth-child(2)')
+      .contains('ギターと孤独と蒼い惑星')
+
+    cy.get(':nth-child(4) > .text-lg')
+    .contains('スタッフとして関わった楽曲')
+    cy.get('.staff-table > tbody > :nth-child(1) > .text-center')
+      .contains('guitar')
+    cy.get('.staff-table > tbody > :nth-child(1) > :nth-child(2)')
+      .contains('【LIVE映像】「青春コンプレックス」/ ぼっち・ざ・ろっく！-SPECIAL STUDIO LIVE-')
+
+    //アーティスト楽曲の表が存在していないかどうか
+    cy.get(':nth-child(6) > .text-lg').should('not.be')
+    cy.get('.artist-table > tbody').should('not.be')
+
+    //ページネーションのコンポーネントが表示されていないかどうか
+    cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
   })
 })
 
