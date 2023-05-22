@@ -203,6 +203,85 @@ describe('ArtistDetail tests', () => {
     //ページネーションのコンポーネントが表示されていないかどうか
     cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
   })
+
+  it('Artist have only songwriter table', () => {
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/02df3556-05b8-47a2-bfba-ef657fbcfca6?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_hinata_relationship.json'}).as('hinataRelationshipRequest')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=02df3556-05b8-47a2-bfba-ef657fbcfca6&offset=0&limit=100&fmt=json', {fixture: 'mock_hinata_recording.json'}).as('hinataRecordingRequest')
+    cy.mount(ArtistDetail, { props: { id: '02df3556-05b8-47a2-bfba-ef657fbcfca6' } } as OptionsParam )
+    cy.wait('@hinataRelationshipRequest');
+    cy.wait('@hinataRecordingRequest');
+
+    cy.get('.text-2xl')
+      .contains('仰木日向')
+
+    cy.get(':nth-child(2) > .text-lg')
+      .contains('作詞作曲した楽曲')
+    cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center')
+      .contains('composer')
+    cy.get('.songwriter-table > tbody > :nth-child(1) > :nth-child(2)')
+      .contains('彩花囃子（イロドリハナバヤシ）')
+
+    //スタッフ楽曲の表が存在していないかどうか
+    cy.get('.staff-table > tbody').should('not.be')
+
+    //アーティスト楽曲の表が存在していないかどうか
+    cy.get('.artist-table > tbody').should('not.be')
+
+    //ページネーションのコンポーネントが表示されていないかどうか
+    cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
+  })
+
+  it('Artist have only staff table', () => {
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/6427deef-235d-4ddd-bc0a-4b40a25482e1?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_kawasaki_relationship.json'}).as('kawasakiRelationshipRequest')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=6427deef-235d-4ddd-bc0a-4b40a25482e1&offset=0&limit=100&fmt=json', {fixture: 'mock_kawasaki_recording.json'}).as('kawasakiRecordingRequest')
+    cy.mount(ArtistDetail, { props: { id: '6427deef-235d-4ddd-bc0a-4b40a25482e1' } } as OptionsParam )
+    cy.wait('@kawasakiRelationshipRequest');
+    cy.wait('@kawasakiRecordingRequest');
+
+    cy.get('.text-2xl')
+      .contains('川崎亘一')
+
+    cy.get(':nth-child(3) > .text-lg')
+      .contains('スタッフとして関わった楽曲')
+    cy.get('.staff-table > tbody > :nth-child(1) > .text-center')
+      .contains('guitar')
+    cy.get('.staff-table > tbody > :nth-child(1) > :nth-child(2)')
+      .contains('Be mine!')
+
+    //作詞作曲の楽曲の表が存在していないかどうか
+    cy.get('.songwriter-table > tbody').should('not.be')
+
+    //アーティスト楽曲の表が存在していないかどうか
+    cy.get('.artist-table > tbody').should('not.be')
+
+    //ページネーションのコンポーネントが表示されていないかどうか
+    cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
+  })
+
+  it('Artist have only artist table', () => {
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/b784fc16-3467-4a5f-91e1-a231d9ca34ab?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_aragaki_relationship.json'}).as('aragakiRelationshipRequest')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=b784fc16-3467-4a5f-91e1-a231d9ca34ab&offset=0&limit=100&fmt=json', {fixture: 'mock_aragaki_recording.json'}).as('aragakiRecordingRequest')
+    cy.mount(ArtistDetail, { props: { id: 'b784fc16-3467-4a5f-91e1-a231d9ca34ab' } } as OptionsParam )
+    cy.wait('@aragakiRelationshipRequest');
+    cy.wait('@aragakiRecordingRequest');
+
+    cy.get('.text-2xl')
+      .contains('新垣結衣')
+
+    cy.get('.text-lg')
+      .contains('アーティストとして関わった楽曲')
+    cy.get('.artist-table > tbody > :nth-child(1) > .px-4')
+      .contains('あいたい')
+
+    //作詞作曲の楽曲の表が存在していないかどうか
+    cy.get('.songwriter-table > tbody').should('not.be')
+
+    //スタッフ楽曲の表が存在していないかどうか
+    cy.get('.staff-table > tbody').should('not.be')
+
+    //ページネーションのコンポーネントが表示されていないかどうか
+    cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
+  })
 })
 
 

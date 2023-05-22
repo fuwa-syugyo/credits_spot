@@ -1,0 +1,598 @@
+{
+  "recording-count": 74,
+  "recording-offset": 0,
+  "recordings": [
+      {
+          "video": false,
+          "id": "0479d5c8-c310-4efd-9a9e-3b560a21841c",
+          "title": "あいたい",
+          "disambiguation": "",
+          "length": 269000,
+          "first-release-date": "2008-10-15"
+      },
+      {
+          "id": "04ad9336-2b32-429d-a17f-59819ed31899",
+          "title": "la la...",
+          "disambiguation": "",
+          "video": false,
+          "length": 185000,
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2008-07-16",
+          "length": 268000,
+          "disambiguation": "",
+          "id": "055f2b83-0412-42d0-ba16-911cd257ff8e",
+          "title": "ソバニ",
+          "video": false
+      },
+      {
+          "first-release-date": "2008-07-16",
+          "length": 94506,
+          "video": false,
+          "id": "060cdf1a-5901-4aba-954f-52c17dfd26e1",
+          "title": "Make my day (naked voice ver.)",
+          "disambiguation": ""
+      },
+      {
+          "video": false,
+          "disambiguation": "",
+          "id": "0a4f2188-fbf3-45c5-a458-fb2f8a24bdba",
+          "title": "I believe",
+          "length": 307000,
+          "first-release-date": "2008-07-16"
+      },
+      {
+          "first-release-date": "2009-02-25",
+          "length": 262506,
+          "video": false,
+          "id": "0e0420a5-8021-42a1-bf82-fefbd843783d",
+          "title": "piece (instrumental)",
+          "disambiguation": ""
+      },
+      {
+          "video": false,
+          "id": "0e9e3cc0-e791-4ba7-936a-68513bf7457a",
+          "title": "陽のかげる丘",
+          "disambiguation": "",
+          "length": 313000,
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "first-release-date": "2009-05-27",
+          "length": 320906,
+          "video": false,
+          "title": "うつし絵 (instrumental)",
+          "id": "0ff32c22-6e3a-42af-8d22-cecf85241978",
+          "disambiguation": ""
+      },
+      {
+          "length": 191000,
+          "video": false,
+          "id": "14d81a12-e785-48c2-8d50-a9dc5b9a9d37",
+          "title": "巣箱 (naked voice version)",
+          "disambiguation": "",
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "video": false,
+          "disambiguation": "",
+          "id": "15a676a8-78f0-4e35-87ef-1dbf75a0ebac",
+          "title": "hug",
+          "length": 257000
+      },
+      {
+          "first-release-date": "2009-05-27",
+          "length": 324493,
+          "video": false,
+          "disambiguation": "",
+          "id": "172029fd-2f00-4686-92cf-05a1db82a947",
+          "title": "うつし絵"
+      },
+      {
+          "length": 240280,
+          "id": "177e53a8-0ca9-4ea5-b171-0333d6400739",
+          "title": "てくてく",
+          "disambiguation": "",
+          "video": false,
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "disambiguation": "",
+          "title": "つないだ手",
+          "id": "18e5ac86-be4d-4a37-9c91-408a8bd6a99c",
+          "video": false,
+          "length": 292493,
+          "first-release-date": "2008-10-15"
+      },
+      {
+          "length": 240000,
+          "video": false,
+          "title": "レインボウ",
+          "id": "1fcd8e61-fcde-4bed-a3b6-e9f9710838c5",
+          "disambiguation": "",
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "length": 324453,
+          "id": "210bf96e-155b-455e-8d6b-24cf7e83a08d",
+          "title": "小さな恋のうた",
+          "disambiguation": "",
+          "video": false,
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "video": false,
+          "id": "26c91cea-0714-4467-8826-1f13e8712af6",
+          "title": "WALK",
+          "disambiguation": "",
+          "length": 313013,
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "length": 213000,
+          "video": false,
+          "disambiguation": "",
+          "id": "28e47f05-8242-49e2-bf14-0e0b4ae4baef",
+          "title": "オレンジ",
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "length": 327600,
+          "video": false,
+          "title": "ハナミズキ",
+          "id": "2954b085-5410-46ff-84b1-2e6e7b460c79",
+          "disambiguation": "",
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "length": 235146,
+          "video": false,
+          "disambiguation": "",
+          "title": "Days",
+          "id": "2b2cb0da-c559-4606-8d45-6175acad52ce"
+      },
+      {
+          "video": false,
+          "disambiguation": "",
+          "title": "そら",
+          "id": "2c20da21-fc87-4b4a-952b-11e6b4170168",
+          "length": 288000,
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "video": false,
+          "title": "虹",
+          "id": "31ae0c47-fe08-4ad4-bc95-f16a3ef165bb",
+          "disambiguation": "",
+          "length": 318333
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "length": null,
+          "disambiguation": "",
+          "title": "Yui MAKING",
+          "id": "32a228b5-0809-483e-9de8-bb5285062eb8",
+          "video": true
+      },
+      {
+          "disambiguation": "",
+          "id": "3743e9f5-1d21-490d-a4a1-fdfadd08ab6c",
+          "title": "Make my day (instrumental)",
+          "video": false,
+          "length": 225133,
+          "first-release-date": "2008-07-16"
+      },
+      {
+          "length": null,
+          "disambiguation": "",
+          "id": "3fa7daa6-12e7-47ac-afbb-1a3dec4786f4",
+          "title": "「WALK」",
+          "video": true,
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "video": false,
+          "title": "la la... (naked voice version)",
+          "id": "4595f82f-c3e4-4da6-8658-ecc021a3438e",
+          "disambiguation": "",
+          "length": 168000
+      },
+      {
+          "first-release-date": "2009-05-27",
+          "length": 235506,
+          "disambiguation": "",
+          "title": "うつし絵 (naked voice ver.)",
+          "id": "4a1c1abd-0dfd-412b-9947-f276c43e34a1",
+          "video": false
+      },
+      {
+          "first-release-date": "2007-12-05",
+          "length": 298000,
+          "video": false,
+          "disambiguation": "",
+          "title": "ペアリング",
+          "id": "4e09d99c-3b5c-4e66-bec8-55cf98af161a"
+      },
+      {
+          "first-release-date": "2007-12-05",
+          "disambiguation": "",
+          "id": "54c832fa-62fe-44fe-b56d-f1c809b432ad",
+          "title": "メモリーズ",
+          "video": false,
+          "length": 267000
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "length": 230000,
+          "id": "59edfee1-e1a1-452f-84ba-90637478d2e0",
+          "title": "Only you (naked voice version)",
+          "disambiguation": "",
+          "video": false
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "length": 139000,
+          "disambiguation": "",
+          "title": "フリーバード (naked voice version)",
+          "id": "5b8571f4-9de5-46ca-9585-4a79deff916b",
+          "video": false
+      },
+      {
+          "length": 134000,
+          "video": false,
+          "disambiguation": "",
+          "title": "レインボウ (naked voice version)",
+          "id": "5db78bfc-22d3-4422-9821-9b34f548f6c5",
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "length": 248000,
+          "video": false,
+          "disambiguation": "",
+          "title": "愛を知りたくて",
+          "id": "62a3e034-5db0-4320-ac51-d44bdb30279d",
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "first-release-date": "2009-02-25",
+          "length": 170000,
+          "video": false,
+          "title": "piece (naked voice ver.)",
+          "id": "64340ba3-949e-43f8-b9e3-56fe9f342e07",
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "length": 250000,
+          "video": false,
+          "disambiguation": "",
+          "id": "66de25a8-371d-4ef7-aa6a-79bf2062481e",
+          "title": "Heart will drive"
+      },
+      {
+          "length": 275000,
+          "video": false,
+          "disambiguation": "",
+          "id": "726eed1f-e4f0-49d5-841c-78be5b1e8285",
+          "title": "heavenly days",
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "disambiguation": "",
+          "title": "フリーバード",
+          "id": "72e14427-8a4b-499a-839b-44e564f82233",
+          "video": false,
+          "length": 346000,
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2009-05-27",
+          "video": false,
+          "disambiguation": "",
+          "title": "言えない「スキ」",
+          "id": "777e4536-4dd8-4924-8807-e4bf6fe96751",
+          "length": 274506
+      },
+      {
+          "first-release-date": "2009-11-06",
+          "title": "小さな恋のうた",
+          "id": "7b2f8ad4-993f-41ac-8a1e-620606068e1b",
+          "disambiguation": "",
+          "video": false,
+          "length": 326000
+      },
+      {
+          "video": false,
+          "id": "7c95a886-848a-4aa8-a81a-74a9b0966d8d",
+          "title": "ひかり",
+          "disambiguation": "",
+          "length": 351000,
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "length": null,
+          "title": "「赤い糸」Music Video",
+          "id": "7df78b34-8411-4bcd-9950-1fb26578d90a",
+          "disambiguation": "",
+          "video": true,
+          "first-release-date": "2008-10-15"
+      },
+      {
+          "first-release-date": "2009-02-25",
+          "disambiguation": "",
+          "id": "7e5d52ac-229c-4389-97b3-974311aff06d",
+          "title": "スパークル",
+          "video": false,
+          "length": 253493
+      },
+      {
+          "video": false,
+          "disambiguation": "",
+          "title": "進化論 (naked voice version)",
+          "id": "7ec6bc87-7a6f-4c60-80d3-123fc3e8ece6",
+          "length": 200000,
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2008-07-16",
+          "length": null,
+          "id": "80fea2a9-2384-4009-9c09-17a50eb5dfbb",
+          "title": "そら",
+          "disambiguation": "",
+          "video": true
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "length": 232000,
+          "disambiguation": "",
+          "id": "83c91f0a-59a5-4cd7-9475-7437532325f5",
+          "title": "うつし絵 (naked voice version)",
+          "video": false
+      },
+      {
+          "length": 264000,
+          "video": false,
+          "disambiguation": "",
+          "id": "8464027a-4d44-45a9-bc91-918c2a86aab9",
+          "title": "piece",
+          "first-release-date": "2009-02-25"
+      },
+      {
+          "length": 237000,
+          "video": false,
+          "disambiguation": "",
+          "title": "スターライト",
+          "id": "86300bf8-9145-42b7-8cbe-5f864a8d9d8a",
+          "first-release-date": "2007-12-05"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "disambiguation": "",
+          "id": "865ca243-6160-4fde-98c1-8c262cdcb775",
+          "title": "うつし絵",
+          "video": false,
+          "length": 323000
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "title": "プレゼント",
+          "id": "8c6b22c4-f644-439b-983d-809264bf0444",
+          "disambiguation": "",
+          "video": false,
+          "length": 308573
+      },
+      {
+          "id": "8c8e06fc-5bf4-4021-a05b-fd70faff151a",
+          "title": "「ハナミズキ」",
+          "disambiguation": "",
+          "video": true,
+          "length": null,
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "length": 385000,
+          "video": false,
+          "title": "赤い糸",
+          "id": "936c7e4b-f61a-465e-b76c-b34741ecea03",
+          "disambiguation": "",
+          "first-release-date": "2008-10-15"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "length": 128000,
+          "video": false,
+          "disambiguation": "",
+          "title": "Heart will drive (naked voice version)",
+          "id": "99e5cd3f-0290-4254-b66b-a25149181d71"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "disambiguation": "",
+          "title": "hug (naked voice version)",
+          "id": "9cdb8e50-d4f2-479f-9dd2-b8368aa27496",
+          "video": false,
+          "length": 167000
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "length": 286386,
+          "disambiguation": "",
+          "title": "扉",
+          "id": "9ee40121-94dc-4a54-9a39-376ebac3f965",
+          "video": false
+      },
+      {
+          "length": 287000,
+          "video": false,
+          "title": "ハチミツ",
+          "id": "9f9b2dc7-9664-4c52-927c-9a41d20355aa",
+          "disambiguation": "",
+          "first-release-date": "2009-05-27"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "length": 168000,
+          "video": false,
+          "id": "a2057bd7-1078-4799-a3ab-0a64c1aa3118",
+          "title": "piece (naked voice version)",
+          "disambiguation": ""
+      },
+      {
+          "length": null,
+          "video": true,
+          "disambiguation": "",
+          "title": "「小さな恋のうた」",
+          "id": "a319da1c-f769-4828-b89a-d44972cfb86d",
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "length": null,
+          "disambiguation": "",
+          "title": "「赤い糸」Music Video オフショット映像",
+          "id": "b915fd0b-d630-4621-aed9-a6f8eef7b64b",
+          "video": true,
+          "first-release-date": "2008-10-15"
+      },
+      {
+          "disambiguation": "",
+          "title": "オレンジ",
+          "id": "c088cd03-b8e6-49f2-ba4b-946f8d47e24f",
+          "video": true,
+          "length": null,
+          "first-release-date": "2008-07-16"
+      },
+      {
+          "first-release-date": "2009-02-25",
+          "id": "c11dfb0e-6617-4ff8-9ee5-ecec19b9d0c1",
+          "title": "あなたに",
+          "disambiguation": "",
+          "video": false,
+          "length": 258000
+      },
+      {
+          "first-release-date": "2008-10-15",
+          "disambiguation": "",
+          "title": "赤い糸(naked voice ver.)",
+          "id": "c9264dd7-7f66-46e5-adf0-ffce54ebf805",
+          "video": false,
+          "length": 188506
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "video": false,
+          "disambiguation": "",
+          "id": "cd804d2c-f59c-45d1-9a2c-1e416f45cc8f",
+          "title": "進化論",
+          "length": 255000
+      },
+      {
+          "length": 186000,
+          "video": false,
+          "id": "ce35f355-b135-4374-b5be-733e0b9bf9cc",
+          "title": "赤い糸 (naked voice version)",
+          "disambiguation": "",
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "length": 258880,
+          "title": "ふわり",
+          "id": "d21bab86-24d6-49e4-844a-9b5094ff3093",
+          "disambiguation": "",
+          "video": false
+      },
+      {
+          "length": 381733,
+          "video": false,
+          "title": "赤い糸(instrumental)",
+          "id": "d21bd56a-9d0a-4133-8faf-1d5d65b00e94",
+          "disambiguation": "",
+          "first-release-date": "2008-10-15"
+      },
+      {
+          "id": "d2e2c279-375d-4c24-b064-bef11a2b2aa2",
+          "title": "Only you",
+          "disambiguation": "",
+          "video": false,
+          "length": 223000,
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "video": false,
+          "id": "d68d7034-8339-4862-b8e9-9426d35f38a0",
+          "title": "Make my day (naked voice version)",
+          "disambiguation": "",
+          "length": 96000,
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2008-07-16",
+          "length": 228493,
+          "video": false,
+          "title": "Make my day",
+          "id": "d7ac74bd-3f4d-47f9-959d-b139053ff6e0",
+          "disambiguation": ""
+      },
+      {
+          "length": 228000,
+          "video": false,
+          "id": "e9b19d17-9feb-4d88-b135-3094d75d73fd",
+          "title": "Make my day",
+          "disambiguation": "",
+          "first-release-date": "2009-06-17"
+      },
+      {
+          "first-release-date": "2010-09-22",
+          "length": 284266,
+          "id": "edcefd7f-6471-4c62-9371-f2bdf79da134",
+          "title": "Collage",
+          "disambiguation": "",
+          "video": false
+      },
+      {
+          "video": false,
+          "disambiguation": "",
+          "id": "f0bcaf41-6c0a-4f1f-b8e1-6586593014f3",
+          "title": "No problem!",
+          "length": 181066,
+          "first-release-date": "2010-09-22"
+      },
+      {
+          "first-release-date": "2009-06-17",
+          "video": false,
+          "disambiguation": "",
+          "id": "f554817c-376f-4ec6-9592-0bf67cd78b08",
+          "title": "巣箱",
+          "length": 323000
+      },
+      {
+          "first-release-date": "2007-12-05",
+          "video": false,
+          "disambiguation": "",
+          "id": "f8878964-c202-4830-b232-29f80de0cc9a",
+          "title": "Sign of the moon 〜interlude〜",
+          "length": 119000
+      },
+      {
+          "length": null,
+          "id": "fb7c0471-2135-49b3-9e24-346681ebc4f4",
+          "title": "heavenly days",
+          "disambiguation": "",
+          "video": true,
+          "first-release-date": "2008-07-16"
+      },
+      {
+          "length": 143000,
+          "id": "ff0908e3-194d-4647-84c9-c2f8011c1712",
+          "title": "ハチミツ (naked voice version)",
+          "disambiguation": "",
+          "video": false,
+          "first-release-date": "2009-06-17"
+      }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "relations": [
+      {
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "target-type": "work",
+          "direction": "forward",
+          "type": "composer",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "id": "79096236-0205-4551-967a-07538ef01084",
+              "language": "jpn",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "iswcs": [],
+              "disambiguation": "",
+              "title": "彩花囃子（イロドリハナバヤシ）"
+          }
+      },
+      {
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "language": "jpn",
+              "id": "49599606-cd64-4800-b92d-374a41bf4165",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "Chant de Vérité",
+              "disambiguation": "",
+              "iswcs": []
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type": "lyricist",
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {}
+      },
+      {
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "target-type": "work",
+          "direction": "forward",
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "work": {
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "language": "jpn",
+              "id": "58868afb-e236-4128-8e42-c0443faf539a",
+              "disambiguation": "",
+              "title": "I Say,I Love",
+              "iswcs": []
+          },
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "end": null,
+          "target-type": "work",
+          "direction": "forward",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "language": "jpn",
+              "id": "20fb3269-973b-433d-a75d-310f84671a6c",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "iswcs": [],
+              "title": "Nothing Funny at all",
+              "disambiguation": ""
+          }
+      },
+      {
+          "direction": "forward",
+          "target-type": "work",
+          "end": null,
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "ended": false,
+          "attributes": [],
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "work": {
+              "disambiguation": "",
+              "title": "Seasons of Silence",
+              "iswcs": [],
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "type": "Song",
+              "language": "jpn",
+              "id": "d1601054-0d88-43b7-b860-ebca62fcad0d",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+          },
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "title": "Sewing My MODE",
+              "disambiguation": "",
+              "iswcs": [],
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "type": "Song",
+              "language": "jpn",
+              "id": "7ffcd2a8-c11d-46ba-8c5f-1b43b2ca08e2",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+          },
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "type": "lyricist",
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attributes": [],
+          "ended": false
+      },
+      {
+          "work": {
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "language": "jpn",
+              "id": "0294630a-bfdd-4523-ac9f-87a1c91a5e50",
+              "type": "Song",
+              "disambiguation": "",
+              "title": "Smile Day",
+              "iswcs": []
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "end": null,
+          "target-type": "work",
+          "direction": "forward",
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null
+      },
+      {
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "title": "Startin' My Re:STAGE!!",
+              "disambiguation": "Re:ステージ！",
+              "iswcs": [],
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "id": "04a64d20-ff76-4e3e-ad10-e8f5479fcdf7",
+              "language": "jpn",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "ended": false,
+          "attributes": [],
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+      },
+      {
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "type": "lyricist",
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "language": "jpn",
+              "id": "b641aef4-9cce-4aa8-8ab2-a3d068eee834",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "disambiguation": "",
+              "title": "Velvet Rays",
+              "iswcs": [
+                  "T-917.900.116-2"
+              ]
+          }
+      },
+      {
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "title": "コイビトマフラー",
+              "disambiguation": "",
+              "iswcs": [
+                  "T-916.837.659-8"
+              ],
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "type": "Song",
+              "language": "jpn",
+              "id": "7879576e-318c-41b9-92f6-935eecfa7057",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "ended": false,
+          "attributes": [],
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+      },
+      {
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {},
+          "attributes": [],
+          "ended": false,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "direction": "forward",
+          "target-type": "work",
+          "end": null,
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "iswcs": [],
+              "title": "スキャンダルは如何?",
+              "disambiguation": "",
+              "type": "Song",
+              "id": "09a3c543-0a82-4256-bc32-60a1c76e9a1e",
+              "language": "jpn",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": []
+          }
+      },
+      {
+          "attributes": [],
+          "ended": false,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {},
+          "work": {
+              "iswcs": [],
+              "title": "そよ風のピルエット",
+              "disambiguation": "",
+              "language": "jpn",
+              "id": "347b18e1-29fc-49a4-98a7-e6dc7903ff2f",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": []
+          },
+          "attribute-values": {},
+          "target-credit": ""
+      },
+      {
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type": "lyricist",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "type": "Song",
+              "id": "ba185451-0f1a-4cae-ba39-7ee70cdc0f63",
+              "language": "jpn",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "disambiguation": "",
+              "title": "ティーアップ!",
+              "iswcs": []
+          }
+      },
+      {
+          "direction": "forward",
+          "target-type": "work",
+          "end": null,
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "ended": false,
+          "attributes": [],
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "work": {
+              "title": "トラブル◎ボタン",
+              "disambiguation": "",
+              "iswcs": [],
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "type": "Song",
+              "id": "ff4cc393-0618-4443-a5ba-d220b0ba7a4e",
+              "language": "jpn",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+          },
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "work": {
+              "iswcs": [],
+              "disambiguation": "",
+              "title": "ハートエイド",
+              "type": "Song",
+              "language": "jpn",
+              "id": "0d944a40-99a8-4bf6-8458-77605c590b8a",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": []
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "direction": "forward",
+          "target-type": "work",
+          "end": null,
+          "type": "lyricist",
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {}
+      },
+      {
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "iswcs": [],
+              "disambiguation": "Re:ステージ！",
+              "title": "リメンバーズ！",
+              "language": "jpn",
+              "id": "60a6e946-510e-4992-8e28-32a9da777fe0",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": []
+          },
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "ended": false,
+          "attributes": []
+      },
+      {
+          "type": "lyricist",
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attributes": [],
+          "ended": false,
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "work": {
+              "iswcs": [],
+              "disambiguation": "",
+              "title": "ロボティクス∞",
+              "id": "550715c0-7879-4d02-b1df-ac8f7382da89",
+              "language": "jpn",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": []
+          },
+          "attribute-values": {},
+          "target-credit": ""
+      },
+      {
+          "work": {
+              "disambiguation": "",
+              "title": "わたし音頭",
+              "iswcs": [
+                  "T-921.458.164-3"
+              ],
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "language": "jpn",
+              "id": "65a9f31a-a72e-4e62-bfcd-5a5f21a037cc"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "ended": false,
+          "attributes": [],
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null
+      },
+      {
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "direction": "forward",
+          "target-type": "work",
+          "end": null,
+          "type": "lyricist",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "title": "二人で綴る物語",
+              "disambiguation": "",
+              "iswcs": [],
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "language": "jpn",
+              "id": "cf1fcf09-5214-42a0-9f48-7abdabdfb8f7"
+          }
+      },
+      {
+          "work": {
+              "iswcs": [],
+              "disambiguation": "",
+              "title": "俺の心が燃えているのさ…!～宮内のテーマ～",
+              "id": "ba2fc459-9169-4954-bdb5-6b32c3e3a38a",
+              "language": "jpn",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": []
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "type": "lyricist",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "ended": false,
+          "attributes": [],
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null
+      },
+      {
+          "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "language": "jpn",
+              "id": "4af59d7d-6d21-49fd-8859-dc4fd7a93b66",
+              "type": "Song",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "iswcs": [
+                  "T-920.740.307-4"
+              ],
+              "disambiguation": "",
+              "title": "十六夜ゐ雪洞唄"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null
+      },
+      {
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "type": "lyricist",
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "type": "Song",
+              "id": "7d7cb7be-0a59-4ede-9c0a-43064fca72a0",
+              "language": "jpn",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "iswcs": [],
+              "disambiguation": "Re:ステージ！",
+              "title": "君に贈るAngel Yell"
+          }
+      },
+      {
+          "work": {
+              "iswcs": [
+                  "T-922.359.297-0"
+              ],
+              "title": "夏の約束",
+              "disambiguation": "Re:ステージ！",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "language": "jpn",
+              "id": "5afe4cfe-6511-450c-a6b2-5b547cd28729",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ]
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "type": "lyricist",
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {}
+      },
+      {
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {},
+          "ended": false,
+          "attributes": [],
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type": "lyricist",
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "language": "jpn",
+              "id": "79096236-0205-4551-967a-07538ef01084",
+              "type": "Song",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "iswcs": [],
+              "disambiguation": "",
+              "title": "彩花囃子（イロドリハナバヤシ）"
+          }
+      },
+      {
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "attributes": [],
+          "ended": false,
+          "type": "lyricist",
+          "target-type": "work",
+          "direction": "forward",
+          "end": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "disambiguation": "",
+              "title": "成りて花一匁",
+              "iswcs": [],
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "language": "jpn",
+              "id": "831a8381-e918-41ae-a765-4ceadfc415d1",
+              "type": "Song"
+          }
+      },
+      {
+          "work": {
+              "disambiguation": "",
+              "title": "旅路宵酔ゐ夢花火",
+              "iswcs": [
+                  "T-917.382.805-2"
+              ],
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "id": "a5d17f9f-f397-4e5f-9f54-391e9b895426",
+              "language": "jpn"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "end": null,
+          "target-type": "work",
+          "direction": "forward",
+          "type": "lyricist",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null
+      },
+      {
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "attributes": [],
+          "ended": false,
+          "type": "lyricist",
+          "target-type": "work",
+          "end": null,
+          "direction": "forward",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "iswcs": [],
+              "disambiguation": "",
+              "title": "未来Episode",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "id": "5db36641-58c3-4060-a495-7933087e72cb",
+              "language": "jpn",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ]
+          }
+      },
+      {
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "end": null,
+          "target-type": "work",
+          "direction": "forward",
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "attribute-ids": {},
+          "begin": null,
+          "work": {
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "id": "157b975a-3f06-42bf-97ee-fa55aa4d6ece",
+              "language": "jpn",
+              "title": "甘利の生贄スプラッター",
+              "disambiguation": "",
+              "iswcs": []
+          },
+          "attribute-values": {},
+          "target-credit": ""
+      }
+  ],
+  "begin-area": null,
+  "begin_area": null,
+  "ipis": [],
+  "area": {
+      "name": "Japan",
+      "type": null,
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "type-id": null,
+      "sort-name": "Japan",
+      "disambiguation": ""
+  },
+  "id": "02df3556-05b8-47a2-bfba-ef657fbcfca6",
+  "sort-name": "Ogi, Hinata",
+  "name": "仰木日向",
+  "end-area": null,
+  "isnis": [],
+  "gender": "Male",
+  "disambiguation": "",
+  "type": "Person",
+  "end_area": null,
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "life-span": {
+      "ended": false,
+      "begin": "1985",
+      "end": null
+  },
+  "country": "JP"
+}
