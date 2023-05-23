@@ -101,7 +101,9 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="filteredDataLength !== 0">
-    {{ '検索結果 '+ filteredDataLength + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
+    <p>
+      {{ '検索結果 '+ filteredDataLength + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
+    </p>
     <table class="table-auto my-4">
       <thead>
         <tr>
