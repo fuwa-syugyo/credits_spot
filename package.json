@@ -8,8 +8,7 @@
     "build": "npm run && vite build",
     "preview": "vite preview",
     "tsc": "vue-tsc --noEmit",
-    "cypress:open": "cypress open",
-    "start": "node index.js"
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
