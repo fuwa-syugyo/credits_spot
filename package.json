@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "tsc": "vue-tsc --noEmit",
     "cypress:open": "cypress open",
-    "start": ""
+    "start": "cypress open"
   },
   "dependencies": {
     "@types/vue-router": "^2.0.0",
