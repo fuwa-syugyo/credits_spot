@@ -1,0 +1,277 @@
+{
+  "gender": "Female",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "country": "JP",
+  "end-area": null,
+  "ipis": [],
+  "type": "Person",
+  "isnis": [
+      "000000047847787X"
+  ],
+  "name": "ヒグチアイ",
+  "sort-name": "Higuchi, Ai",
+  "area": {
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "disambiguation": "",
+      "type": null,
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "type-id": null,
+      "sort-name": "Japan",
+      "name": "Japan"
+  },
+  "end_area": null,
+  "id": "ae6c957d-c33e-4028-abdd-688bddec3be8",
+  "disambiguation": "",
+  "begin-area": {
+      "disambiguation": "",
+      "type": null,
+      "id": "df6bafde-24e7-4724-a242-c56dd7fbef4e",
+      "type-id": null,
+      "sort-name": "Kagawa",
+      "iso-3166-2-codes": [
+          "JP-37"
+      ],
+      "name": "Kagawa"
+  },
+  "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+  "life-span": {
+      "ended": false,
+      "end": null,
+      "begin": "1989-11-28"
+  },
+  "relations": [
+      {
+          "begin": null,
+          "attributes": [],
+          "type": "composer",
+          "target-type": "work",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "work": {
+              "language": "jpn",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "disambiguation": "",
+              "type": "Song",
+              "id": "2506ad88-1db3-454a-aed0-32cd5162fa1e",
+              "iswcs": [
+                  "T-309.230.043-7"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "悪魔の子"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "ended": false,
+          "attribute-ids": {}
+      },
+      {
+          "begin": null,
+          "attributes": [],
+          "end": null,
+          "target-type": "work",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "type": "composer",
+          "source-credit": "",
+          "direction": "forward",
+          "ended": false,
+          "attribute-ids": {},
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "language": "jpn",
+              "attributes": [],
+              "type": "Song",
+              "disambiguation": "",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "title": "透明人間",
+              "id": "43fd9ea5-0a6f-4cbc-b541-7043002c30dd"
+          },
+          "target-credit": "",
+          "attribute-values": {}
+      },
+      {
+          "attribute-ids": {},
+          "ended": false,
+          "work": {
+              "language": "jpn",
+              "attributes": [],
+              "languages": [
+                  "jpn"
+              ],
+              "id": "be864074-98ca-4861-9dee-eee9ea17d130",
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "あのバンド",
+              "disambiguation": "",
+              "type": "Song"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "樋口愛",
+          "direction": "forward",
+          "end": null,
+          "target-type": "work",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "begin": null,
+          "attributes": []
+      },
+      {
+          "attribute-ids": {},
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "work": {
+              "type": "Song",
+              "disambiguation": "",
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "ひとりぼっち東京",
+              "id": "4fd14407-787a-4f3c-9481-9a3a1e372d0d",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "language": "jpn"
+          },
+          "source-credit": "樋口愛",
+          "direction": "forward",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "target-type": "work",
+          "end": null,
+          "type": "lyricist",
+          "attributes": [],
+          "begin": null
+      },
+      {
+          "direction": "forward",
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "language": "jpn",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [
+                  "T-309.230.043-7"
+              ],
+              "title": "悪魔の子",
+              "id": "2506ad88-1db3-454a-aed0-32cd5162fa1e",
+              "type": "Song",
+              "disambiguation": ""
+          },
+          "ended": false,
+          "attribute-ids": {},
+          "attributes": [],
+          "begin": null,
+          "type": "lyricist",
+          "end": null,
+          "target-type": "work",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+      },
+      {
+          "direction": "forward",
+          "source-credit": "樋口愛",
+          "work": {
+              "type": "Song",
+              "disambiguation": "",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "title": "星座になれたら",
+              "id": "5a3ddf8a-e905-4b57-b179-b922c8503058",
+              "languages": [
+                  "jpn"
+              ],
+              "attributes": [],
+              "language": "jpn"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "ended": false,
+          "begin": null,
+          "attributes": [],
+          "type": "lyricist",
+          "end": null,
+          "target-type": "work",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+      },
+      {
+          "target-type": "work",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "end": null,
+          "type": "lyricist",
+          "begin": null,
+          "attributes": [],
+          "attribute-ids": {},
+          "ended": false,
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "language": "jpn",
+              "attributes": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "title": "透明人間",
+              "id": "43fd9ea5-0a6f-4cbc-b541-7043002c30dd",
+              "type": "Song",
+              "disambiguation": ""
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "source-credit": "",
+          "direction": "forward"
+      },
+      {
+          "ended": false,
+          "attribute-ids": {},
+          "work": {
+              "type": "Song",
+              "disambiguation": "",
+              "title": "青春コンプレックス",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "id": "115f2677-39a8-4db9-bda3-381118765d32",
+              "languages": [
+                  "jpn"
+              ],
+              "language": "jpn",
+              "attributes": []
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "樋口愛",
+          "direction": "forward",
+          "end": null,
+          "target-type": "work",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "type": "lyricist",
+          "begin": null,
+          "attributes": []
+      }
+  ],
+  "begin_area": {
+      "disambiguation": "",
+      "type": null,
+      "id": "df6bafde-24e7-4724-a242-c56dd7fbef4e",
+      "type-id": null,
+      "sort-name": "Kagawa",
+      "iso-3166-2-codes": [
+          "JP-37"
+      ],
+      "name": "Kagawa"
+  }
+}

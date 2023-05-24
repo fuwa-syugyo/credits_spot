@@ -1,0 +1,237 @@
+{
+  "begin_area": null,
+  "area": {
+      "type-id": null,
+      "name": "Japan",
+      "sort-name": "Japan",
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "type": null,
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "disambiguation": ""
+  },
+  "disambiguation": "Japanese singer-songwriter and guitarist",
+  "ipis": [],
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "id": "779f1dee-35ca-4b75-8db5-9ae3ce3b16c8",
+  "relations": [
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "target-type": "recording",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Various Artists",
+                          "type-id": null,
+                          "type": null,
+                          "sort-name": "Various Artists",
+                          "disambiguation": "add compilations to this artist",
+                          "id": "89ad4ac3-39f7-470e-963a-56509c546377"
+                      },
+                      "name": "Various Artists",
+                      "joinphrase": ""
+                  }
+              ],
+              "length": 227000,
+              "id": "ad62e849-04ad-40ad-bb35-f02a0e468220",
+              "title": "【LIVE映像】「青春コンプレックス」/ ぼっち・ざ・ろっく！-SPECIAL STUDIO LIVE-",
+              "disambiguation": "",
+              "video": true
+          },
+          "begin": null,
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ]
+      },
+      {
+          "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "language": "jpn",
+              "type": "Song",
+              "attributes": [],
+              "disambiguation": "",
+              "languages": [
+                  "jpn"
+              ],
+              "title": "ギターと孤独と蒼い惑星",
+              "id": "bdbb3b17-eb71-426e-a2c1-81bae653397f"
+          },
+          "attribute-ids": {},
+          "target-type": "work",
+          "target-credit": "",
+          "end": null,
+          "source-credit": "",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "attribute-values": {},
+          "type": "composer",
+          "attributes": [],
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+      },
+      {
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "attributes": [],
+          "type": "composer",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "languages": [
+                  "jpn"
+              ],
+              "title": "フラッシュバッカー",
+              "id": "5eeefe26-56b5-4ed7-adbe-3401cead0a9f",
+              "disambiguation": "",
+              "language": "jpn",
+              "type": "Song",
+              "attributes": []
+          },
+          "source-credit": "",
+          "end": null,
+          "target-credit": "",
+          "target-type": "work"
+      },
+      {
+          "attribute-values": {},
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "source-credit": "",
+          "end": null,
+          "target-credit": "",
+          "target-type": "work",
+          "attribute-ids": {},
+          "work": {
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "language": "jpn",
+              "type": "Song",
+              "attributes": [],
+              "disambiguation": "",
+              "title": "小さな海",
+              "languages": [
+                  "jpn"
+              ],
+              "id": "b48d35de-4211-4369-9c1c-f6d28acfc78d"
+          },
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "attributes": [],
+          "type": "composer"
+      },
+      {
+          "type": "composer",
+          "attributes": [],
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "target-credit": "",
+          "target-type": "work",
+          "source-credit": "音羽-otoha-",
+          "end": null,
+          "attribute-ids": {},
+          "work": {
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "disambiguation": "",
+              "languages": [
+                  "jpn"
+              ],
+              "title": "青春コンプレックス",
+              "id": "115f2677-39a8-4db9-bda3-381118765d32",
+              "language": "jpn",
+              "type": "Song",
+              "attributes": []
+          },
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "attribute-values": {}
+      },
+      {
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attribute-values": {},
+          "work": {
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "attributes": [],
+              "type": "Song",
+              "language": "jpn",
+              "languages": [
+                  "jpn"
+              ],
+              "title": "フラッシュバッカー",
+              "id": "5eeefe26-56b5-4ed7-adbe-3401cead0a9f",
+              "disambiguation": ""
+          },
+          "attribute-ids": {},
+          "target-type": "work",
+          "target-credit": "",
+          "end": null,
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "lyricist",
+          "attributes": []
+      },
+      {
+          "attributes": [],
+          "type": "lyricist",
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "attribute-ids": {},
+          "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "id": "b48d35de-4211-4369-9c1c-f6d28acfc78d",
+              "title": "小さな海",
+              "languages": [
+                  "jpn"
+              ],
+              "disambiguation": "",
+              "attributes": [],
+              "type": "Song",
+              "language": "jpn"
+          },
+          "source-credit": "",
+          "end": null,
+          "target-credit": "",
+          "target-type": "work",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "attribute-values": {}
+      }
+  ],
+  "begin-area": null,
+  "end_area": null,
+  "type": "Person",
+  "gender-id": null,
+  "country": "JP",
+  "isnis": [],
+  "sort-name": "Otoha",
+  "end-area": null,
+  "gender": null,
+  "life-span": {
+      "end": null,
+      "begin": null,
+      "ended": false
+  },
+  "name": "音羽-otoha-"
+}

@@ -1,0 +1,805 @@
+{
+  "recordings": [
+      {
+          "title": "一番歌 (Extend-mix)",
+          "first-release-date": "2020-01-09",
+          "id": "093a34dd-5696-4299-8ee0-3a0ced6c3b48",
+          "length": 389000,
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "title": "FREE FREE (extended mix)",
+          "disambiguation": "",
+          "video": false,
+          "id": "0c3b5552-6b0c-4fc6-90d7-bbdd0bdb26f4",
+          "length": 457160,
+          "first-release-date": "2007-08-22"
+      },
+      {
+          "first-release-date": "2016-10-05",
+          "disambiguation": "",
+          "video": false,
+          "length": 345000,
+          "id": "0da03035-f65a-4a33-af3d-e162c1f46c52",
+          "title": "NANIMONO -TeddyLoid remix-"
+      },
+      {
+          "title": "Electrode Spark 0102",
+          "disambiguation": "",
+          "length": 241253,
+          "id": "1066cc0c-3277-4d7d-bbee-d412db57c118",
+          "video": false,
+          "first-release-date": "2010-03-03"
+      },
+      {
+          "title": "TOKYO A NETSU-TIGHT NIGHT",
+          "disambiguation": "",
+          "video": false,
+          "length": 256000,
+          "id": "11912bf6-bc6c-4cce-84e6-40fc458e7623",
+          "first-release-date": "2003-10-22"
+      },
+      {
+          "first-release-date": "2017-04-24",
+          "disambiguation": "",
+          "video": false,
+          "id": "141e52cf-20c2-443a-9bfa-1cb26ab6ce2f",
+          "length": 141000,
+          "title": "せいせせいせいせいせせいせい"
+      },
+      {
+          "title": "Never Smiles",
+          "disambiguation": "",
+          "id": "1762322f-548b-4eb8-bff0-5afa08b0cc6b",
+          "length": 89000,
+          "video": false,
+          "first-release-date": "2012-03-02"
+      },
+      {
+          "video": false,
+          "length": 147000,
+          "id": "17d22444-9332-4463-b12b-8633977b3e55",
+          "disambiguation": "",
+          "first-release-date": "2016-10-05",
+          "title": "何者〜モンタージュ〜"
+      },
+      {
+          "first-release-date": "2018-11-28",
+          "video": false,
+          "id": "1b7a0845-3462-4f6d-8725-eebf22cff73f",
+          "length": 371000,
+          "disambiguation": "",
+          "title": "Game Changers (LAST BOSS Mix)"
+      },
+      {
+          "first-release-date": "2007-05-23",
+          "video": false,
+          "length": 156133,
+          "id": "1ba19b3a-863c-4e2e-8828-b48d3a16888a",
+          "disambiguation": "",
+          "title": "Dizziness"
+      },
+      {
+          "disambiguation": "",
+          "id": "1c775cd5-e68b-4222-985a-86cae6eea88f",
+          "length": 288573,
+          "video": false,
+          "first-release-date": "2010-03-03",
+          "title": "Electric Circuit"
+      },
+      {
+          "title": "Rise Again",
+          "first-release-date": "2012-03-02",
+          "disambiguation": "",
+          "video": false,
+          "length": 188000,
+          "id": "1da5aac6-4fe0-4884-98b5-6027c94a652b"
+      },
+      {
+          "video": false,
+          "id": "1eb6e177-8c44-4703-9cc4-cad4c5e36324",
+          "length": 301000,
+          "disambiguation": "",
+          "first-release-date": "2020-01-09",
+          "title": "一番歌 (Instrumental)"
+      },
+      {
+          "title": "SUPER MUSIC MAKER (radio edit)",
+          "video": false,
+          "length": 303000,
+          "id": "1f01125c-13d4-47ae-adb5-5f4f58d5f93d",
+          "disambiguation": "",
+          "first-release-date": "2007-08-22"
+      },
+      {
+          "length": 60000,
+          "id": "1fe92f33-57c7-449b-9610-7029a6a0935e",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2018-08-22",
+          "title": "再生 saisei"
+      },
+      {
+          "title": "恋愛リアリティー症 -extended mix-",
+          "disambiguation": "",
+          "video": false,
+          "id": "20c0a92e-3873-4211-b201-185320619a8c",
+          "length": 328733,
+          "first-release-date": "2020-01-22"
+      },
+      {
+          "video": false,
+          "id": "20fad731-94b5-4817-88f2-105d0f839cf4",
+          "length": 301000,
+          "disambiguation": "",
+          "first-release-date": "2020-01-09",
+          "title": "一番歌"
+      },
+      {
+          "first-release-date": "2018-11-17",
+          "video": false,
+          "length": 217306,
+          "id": "218b6927-48ef-4ec5-b989-75d27ed96ba3",
+          "disambiguation": "",
+          "title": "ぼくらのネットワーク"
+      },
+      {
+          "disambiguation": "",
+          "id": "22411a5a-cfb0-42da-92ec-4d054a3b4bd6",
+          "length": 119146,
+          "video": false,
+          "first-release-date": "2007-05-23",
+          "title": "Mist"
+      },
+      {
+          "first-release-date": "2004-12-08",
+          "disambiguation": "",
+          "video": false,
+          "length": 15266,
+          "id": "25122549-6979-49e7-b91e-0fbd8c057943",
+          "title": "interlude"
+      },
+      {
+          "title": "Strategy Meeting",
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "length": 125160,
+          "id": "25710c82-90b0-429c-b142-9e567160b989",
+          "video": false
+      },
+      {
+          "first-release-date": "2017-04-24",
+          "length": 28000,
+          "id": "27f3651e-2193-4c95-b394-4c35510366b4",
+          "video": false,
+          "disambiguation": "",
+          "title": "せいせせいせいせいせせいせい (short ver.)"
+      },
+      {
+          "title": "ギンジとのやりとり",
+          "disambiguation": "",
+          "length": 142000,
+          "id": "2aacd60f-8da7-4e13-b6f3-26d4677b1905",
+          "video": false,
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "title": "拓人の想い",
+          "length": 96000,
+          "id": "2dc00faa-cf07-4f70-9054-3cef8caaf3c5",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "title": "Into Darkness (digital edit)",
+          "disambiguation": "",
+          "video": false,
+          "id": "30c241bd-a2b3-4f2a-8211-8ee45abadfb6",
+          "length": 202000,
+          "first-release-date": "2013-07-10"
+      },
+      {
+          "title": "Breakthrough",
+          "first-release-date": "2007-05-23",
+          "disambiguation": "",
+          "length": 455280,
+          "id": "31a0a4aa-245d-48af-880c-8c2b8f30d073",
+          "video": false
+      },
+      {
+          "first-release-date": "2016-10-05",
+          "id": "33a8a99b-f697-4a76-b7fa-a3f6dab39d62",
+          "length": 105000,
+          "video": false,
+          "disambiguation": "",
+          "title": "就活スタート"
+      },
+      {
+          "title": "LIAR GAME",
+          "first-release-date": "2007-05-23",
+          "disambiguation": "",
+          "video": false,
+          "length": 302746,
+          "id": "37d3e4c3-3cda-4b03-9365-440eed1be47c"
+      },
+      {
+          "title": "Digital Native",
+          "first-release-date": "2018-02-07",
+          "video": false,
+          "id": "3d73079e-caf3-4eb3-b6fa-87ef9503b374",
+          "length": 201000,
+          "disambiguation": ""
+      },
+      {
+          "title": "Silent Revive",
+          "disambiguation": "",
+          "length": 148360,
+          "id": "3e3b7d75-7503-4033-aff4-e1d43e946b04",
+          "video": false,
+          "first-release-date": "2010-03-03"
+      },
+      {
+          "first-release-date": "2003-10-22",
+          "disambiguation": "",
+          "length": 77000,
+          "id": "3eb3821d-4cd8-4d17-b09c-c5c5bc096372",
+          "video": false,
+          "title": "contemode F.M. 〜コンテモードの休日〜"
+      },
+      {
+          "first-release-date": "2012-03-02",
+          "video": false,
+          "length": 218000,
+          "id": "4821eb08-ca32-4c2c-a421-39361ad92c92",
+          "disambiguation": "",
+          "title": "Mastermind"
+      },
+      {
+          "title": "LIAR GAME (REBORN - Edit)",
+          "first-release-date": "2012-03-02",
+          "disambiguation": "",
+          "length": 252000,
+          "id": "49106c60-0b9e-4816-bf12-c5f026415730",
+          "video": false
+      },
+      {
+          "disambiguation": "",
+          "video": false,
+          "length": 302000,
+          "id": "491427ab-9f7e-4fac-8114-96bd27143ba7",
+          "first-release-date": "2012-03-02",
+          "title": "Tapping Beats (Instrumental Dub Mix)"
+      },
+      {
+          "first-release-date": "2018-02-07",
+          "disambiguation": "",
+          "video": false,
+          "length": 286000,
+          "id": "4b914675-a961-4060-92ca-5b0d4ef210be",
+          "title": "Level Up"
+      },
+      {
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "id": "541617f8-56a2-48a1-9f25-de03fe953d5e",
+          "length": 238333,
+          "video": false,
+          "title": "Paradise Lost"
+      },
+      {
+          "title": "熱愛発覚中",
+          "first-release-date": "2013-11-13",
+          "video": false,
+          "length": 208000,
+          "id": "5494f2f7-7c0c-4217-a8ee-2f65ea6ba5bb",
+          "disambiguation": ""
+      },
+      {
+          "disambiguation": "",
+          "length": 206000,
+          "id": "56df6b42-5cfb-48de-a07b-0aeb853e3cfb",
+          "video": false,
+          "first-release-date": "2019-03-06",
+          "title": "あいがたりない"
+      },
+      {
+          "first-release-date": "2012-03-02",
+          "video": false,
+          "id": "57a3a127-5902-4e60-b789-cfe71c97118f",
+          "length": 313000,
+          "disambiguation": "",
+          "title": "The Battle Begins"
+      },
+      {
+          "title": "White Cube",
+          "first-release-date": "2018-02-07",
+          "video": false,
+          "id": "5848d24f-cdf1-4084-b30a-10d1c007d1ae",
+          "length": 214000,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2017-01-18",
+          "disambiguation": "",
+          "video": false,
+          "length": 226000,
+          "id": "594d18a8-3617-45df-8e01-e24a45c0d535",
+          "title": "Crazy Crazy"
+      },
+      {
+          "title": "Scramble",
+          "first-release-date": "2012-03-02",
+          "length": 284000,
+          "id": "5d1af472-4ffb-46ed-99df-e061b6da3a14",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "title": "一番歌 (メガドライブ-mix)",
+          "disambiguation": "",
+          "length": 306000,
+          "id": "5ece0084-f575-4f88-baf1-cb9b46cd3d22",
+          "video": false,
+          "first-release-date": "2020-01-09"
+      },
+      {
+          "first-release-date": "2020-01-09",
+          "id": "5fc4f18c-04f7-49ed-b230-2a27026664b5",
+          "length": 304000,
+          "video": false,
+          "disambiguation": "",
+          "title": "一番歌 (メガドライブ ver.)"
+      },
+      {
+          "first-release-date": "2019-05-17",
+          "disambiguation": "",
+          "id": "5ff8ad50-99f6-4868-9ab7-5678cc28ed23",
+          "length": 195000,
+          "video": false,
+          "title": "ぴこぴこ東京"
+      },
+      {
+          "title": "Strangers",
+          "first-release-date": "2010-03-03",
+          "length": 194920,
+          "id": "6445a9bf-4a05-470b-867d-d699043babff",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "title": "Garden of Eden",
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "video": false,
+          "length": 349280,
+          "id": "666fa01c-b87b-4540-a9a4-81057886e6ac"
+      },
+      {
+          "title": "就活対策本部結成",
+          "video": false,
+          "id": "6c03e1aa-05db-4d87-abad-255fdd0abdba",
+          "length": 80000,
+          "disambiguation": "",
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "first-release-date": "2018-02-07",
+          "length": 135000,
+          "id": "6cd1786f-011d-48d5-bfab-52aafb025364",
+          "video": false,
+          "disambiguation": "",
+          "title": "Jump in Tonight"
+      },
+      {
+          "title": "グルディス",
+          "first-release-date": "2016-10-05",
+          "video": false,
+          "id": "6ee914eb-45fb-4eda-88e7-ee4e6f88463f",
+          "length": 71000,
+          "disambiguation": ""
+      },
+      {
+          "title": "Love Don't Lie",
+          "first-release-date": "2018-02-07",
+          "id": "71134ac2-38d7-4850-b244-408244949145",
+          "length": 225000,
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "id": "797800e2-6068-4db6-b0ba-a267457cfc61",
+          "length": 199000,
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2012-03-02",
+          "title": "From The Darkness"
+      },
+      {
+          "title": "恋愛リアリティー症 Music Video",
+          "disambiguation": "",
+          "id": "7be5f164-5017-4115-b4d6-1098b5f8cb78",
+          "length": 247000,
+          "video": true,
+          "first-release-date": "2020-01-22"
+      },
+      {
+          "title": "Interconnect",
+          "first-release-date": "2012-03-02",
+          "video": false,
+          "id": "7c188112-5878-4c06-92d4-37d547fbf78d",
+          "length": 238000,
+          "disambiguation": ""
+      },
+      {
+          "title": "Selfish",
+          "first-release-date": "2010-03-03",
+          "id": "8017278a-6023-4e26-b220-2bbafcb7c5a0",
+          "length": 44053,
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2016-10-05",
+          "disambiguation": "",
+          "length": 259000,
+          "id": "86e633f9-2a1d-44f8-bfad-598fcc10b08d",
+          "video": false,
+          "title": "NANIMONO -Danny L Harle remix-"
+      },
+      {
+          "title": "FREE FREE",
+          "video": false,
+          "length": 310000,
+          "id": "882da464-93b4-4e14-94cc-09bb3aebc124",
+          "disambiguation": "",
+          "first-release-date": "2007-08-22"
+      },
+      {
+          "disambiguation": "",
+          "video": false,
+          "length": 324000,
+          "id": "8d7d7463-1aae-4712-8099-a4f69dd6b816",
+          "first-release-date": "2016-10-05",
+          "title": "NANIMONO -extended mix-"
+      },
+      {
+          "title": "DRINKER",
+          "video": false,
+          "length": 256000,
+          "id": "9037f9f0-96d3-4fd2-b808-737e35063eea",
+          "disambiguation": "",
+          "first-release-date": "2012-11-25"
+      },
+      {
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "video": false,
+          "length": 300706,
+          "id": "91c90e4e-93ed-47e0-8f61-7579a9e43c43",
+          "title": "LIAR GAME -Season2 edit-"
+      },
+      {
+          "title": "re: space age",
+          "first-release-date": "2003-10-22",
+          "id": "950c8ffe-85bf-448c-9e37-0f1a57ee661f",
+          "length": 203000,
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "video": false,
+          "id": "984bbdb1-71a4-47df-b75a-46c578ceb345",
+          "length": 35000,
+          "disambiguation": "",
+          "first-release-date": "2003-10-22",
+          "title": "contemode V.A. 〜コンテモード・フロム・トーキョー〜"
+      },
+      {
+          "video": false,
+          "length": 92000,
+          "id": "9bf10ee4-b19c-4f6c-9c7f-f24f21f8f4f8",
+          "disambiguation": "",
+          "first-release-date": "2012-03-02",
+          "title": "Share Together (Music Box Ver.)"
+      },
+      {
+          "video": false,
+          "id": "a423c91b-a98b-4b48-aac5-ded71e818fc6",
+          "length": 241000,
+          "disambiguation": "",
+          "first-release-date": "2012-03-02",
+          "title": "Stroke"
+      },
+      {
+          "title": "何者劇場",
+          "disambiguation": "",
+          "id": "a686ada7-519c-4db6-b2f6-d5907d385b48",
+          "length": 406000,
+          "video": false,
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "title": "NANIMONO -banvox remix-",
+          "disambiguation": "",
+          "id": "a7238151-ea91-4e74-9ee1-df0723542859",
+          "length": 246000,
+          "video": false,
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "title": "Dope Headz",
+          "first-release-date": "2007-05-23",
+          "disambiguation": "",
+          "video": false,
+          "id": "aef2123e-ff9a-439b-933d-98661d7c0807",
+          "length": 406826
+      },
+      {
+          "title": "恋愛リアリティー症",
+          "disambiguation": "",
+          "id": "b02f698e-d880-410c-8847-a8f24bb072f0",
+          "length": 246000,
+          "video": false,
+          "first-release-date": "2020-01-22"
+      },
+      {
+          "title": "Golden Rule",
+          "video": false,
+          "length": 288400,
+          "id": "b0c90422-98ca-4ee6-8e83-be88c9615cea",
+          "disambiguation": "",
+          "first-release-date": "2010-03-03"
+      },
+      {
+          "title": "ZEAL",
+          "first-release-date": "2012-12-12",
+          "disambiguation": "",
+          "id": "b15a4f68-a59e-4681-8095-f6d54a9ae8b0",
+          "length": 126000,
+          "video": false
+      },
+      {
+          "disambiguation": "",
+          "video": true,
+          "length": 206000,
+          "id": "b1eea0c4-9c43-4d42-bbf3-3deddadaa488",
+          "title": "あいがたりない"
+      },
+      {
+          "title": "光太郎の本音",
+          "first-release-date": "2016-10-05",
+          "disambiguation": "",
+          "video": false,
+          "id": "b20e92fa-ae6d-49af-b25d-7245bdf9bcbf",
+          "length": 154000
+      },
+      {
+          "title": "Game Changers",
+          "disambiguation": "",
+          "video": false,
+          "id": "b29a6ab1-d0b7-42dc-8ad6-0ac972e463cc",
+          "length": 336106,
+          "first-release-date": "2015-12-02"
+      },
+      {
+          "title": "キズナミ (cover)",
+          "first-release-date": "2019-08-16",
+          "video": false,
+          "length": 261000,
+          "id": "b4972862-99cb-4e87-8c6c-8e5d3297672e",
+          "disambiguation": ""
+      },
+      {
+          "disambiguation": "",
+          "length": 194520,
+          "id": "b5b1f305-bd4b-48e8-9a5c-1fb2b84633fc",
+          "video": false,
+          "first-release-date": "2010-03-03",
+          "title": "Coming Closer"
+      },
+      {
+          "first-release-date": "2016-10-05",
+          "length": 227000,
+          "id": "b6057172-6e52-48a0-8ff4-fa8bcbdc4971",
+          "video": false,
+          "disambiguation": "",
+          "title": "何者のテーマ"
+      },
+      {
+          "title": "The Battle Begins (Remix)",
+          "video": false,
+          "id": "b6e1e73f-6c8e-47b8-a1ca-260fded9cd5b",
+          "length": 298000,
+          "disambiguation": "",
+          "first-release-date": "2012-03-02"
+      },
+      {
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "id": "b8fed0e1-2bc2-4282-a2ac-4de969bb282f",
+          "length": 207293,
+          "video": false,
+          "title": "Steal up Behind"
+      },
+      {
+          "disambiguation": "",
+          "length": 258809,
+          "id": "b90f2670-74df-4c76-9cf9-c6048ce66a39",
+          "video": false,
+          "first-release-date": "2012-06-20",
+          "title": "ラブ◎○△▲ダービー ～Yasutaka Nakata Remix～"
+      },
+      {
+          "first-release-date": "2016-10-05",
+          "disambiguation": "",
+          "length": 230000,
+          "id": "bb121832-809d-49ba-9ef6-3fd40ec45770",
+          "video": false,
+          "title": "拓人と瑞月"
+      },
+      {
+          "first-release-date": "2012-04-24",
+          "disambiguation": "",
+          "id": "bc989a97-971c-4afa-9e39-4073bc28e386",
+          "length": 242346,
+          "video": false,
+          "title": "PONPONPON"
+      },
+      {
+          "title": "Share Together",
+          "first-release-date": "2012-03-02",
+          "disambiguation": "",
+          "video": false,
+          "length": 107000,
+          "id": "c0384429-6ed9-41c8-8162-2010a16ecc07"
+      },
+      {
+          "first-release-date": "2007-05-23",
+          "disambiguation": "",
+          "length": 132440,
+          "id": "c144f8ca-ea87-4fdd-9bb2-2b993a0f90fc",
+          "video": false,
+          "title": "Wonders of the World"
+      },
+      {
+          "title": "Give You More",
+          "first-release-date": "2018-02-07",
+          "video": false,
+          "id": "c7be220d-0646-4eac-9a61-a5c63e49fec7",
+          "length": 200000,
+          "disambiguation": ""
+      },
+      {
+          "title": "AIAIAI",
+          "length": 193000,
+          "id": "c994dd75-5692-4b08-bc3a-b1cbe578ccfc",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2019-03-22"
+      },
+      {
+          "title": "Wire Frame Baby",
+          "disambiguation": "",
+          "video": false,
+          "id": "c9d11f49-8d2f-4246-bae6-b7a871d7fcb5",
+          "length": 244000,
+          "first-release-date": "2018-02-07"
+      },
+      {
+          "length": 246000,
+          "id": "ca9967f2-4872-42bc-90ba-fa87007b2e8c",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2016-10-05",
+          "title": "NANIMONO"
+      },
+      {
+          "title": "パノラミック・エクスペリエンス",
+          "first-release-date": "2012-03-20",
+          "video": false,
+          "id": "cd25ba30-e11b-4fb9-b74d-5b717e8d81dd",
+          "length": 233373,
+          "disambiguation": ""
+      },
+      {
+          "title": "ルームシェア",
+          "video": false,
+          "id": "d81d403e-dd8f-4af1-a743-c6de370dde37",
+          "length": 63000,
+          "disambiguation": "",
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "first-release-date": "2007-05-23",
+          "disambiguation": "",
+          "video": false,
+          "id": "df4c7874-4ed2-4e94-ab58-9fb0dfd67c86",
+          "length": 422906,
+          "title": "Electrode Spark 0101"
+      },
+      {
+          "title": "3人の出会い",
+          "first-release-date": "2016-10-05",
+          "length": 60000,
+          "id": "dfd4ae57-bff7-44ef-9386-ec0b35364c9b",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "length": 138600,
+          "id": "e22959a3-7a3b-41e2-81bf-cc93c561f28c",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2007-05-23",
+          "title": "Prologue"
+      },
+      {
+          "video": false,
+          "length": 203000,
+          "id": "e343a95b-2742-4ff1-90e9-62f2c0ded47b",
+          "disambiguation": "",
+          "first-release-date": "2018-02-07",
+          "title": "Source of Light"
+      },
+      {
+          "title": "Crazy Crazy -remix-",
+          "first-release-date": "2017-01-18",
+          "disambiguation": "",
+          "length": 283000,
+          "id": "e486aefb-4fe7-4406-94de-af3e4eeaf225",
+          "video": false
+      },
+      {
+          "title": "SUPER MUSIC MAKER",
+          "first-release-date": "2007-08-22",
+          "disambiguation": "",
+          "id": "e661ded9-ba96-45f0-8797-0a360106625e",
+          "length": 445386,
+          "video": false
+      },
+      {
+          "length": 374533,
+          "id": "e675ff17-f0b8-4eb8-9a53-9ec1fadb167a",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2007-05-23",
+          "title": "The Force of Gravity"
+      },
+      {
+          "title": "Game Changers (Extended Mix)",
+          "first-release-date": "2015-12-02",
+          "disambiguation": "",
+          "id": "e91b613f-9e35-432c-af0d-a32254007846",
+          "length": 372706,
+          "video": false
+      },
+      {
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "length": 225306,
+          "id": "f856e73c-1cff-4ecb-afa1-9752d8645828",
+          "video": false,
+          "title": "Far Away"
+      },
+      {
+          "disambiguation": "",
+          "video": false,
+          "length": 101000,
+          "id": "f91908f7-a9aa-4099-95cb-75578eddc7be",
+          "first-release-date": "2012-03-02",
+          "title": "Tearful Voice"
+      },
+      {
+          "title": "Desert Road",
+          "first-release-date": "2010-03-03",
+          "disambiguation": "",
+          "length": 334333,
+          "id": "fa7782b6-928c-4a03-bf8c-5a2157b8fb1e",
+          "video": false
+      }
+  ],
+  "recording-count": 105,
+  "recording-offset": 0
+}

@@ -1,0 +1,702 @@
+{
+  "recordings": [
+      {
+          "first-release-date": "2017-07-05",
+          "title": "妄想悩殺お手ガール",
+          "length": 273000,
+          "video": false,
+          "id": "04913475-0a82-4520-8856-53af14e4d219",
+          "disambiguation": ""
+      },
+      {
+          "disambiguation": "",
+          "length": 92000,
+          "title": "悪魔の子 (TV Size Ver.)",
+          "video": false,
+          "id": "05b9658e-530c-41be-99b5-8505bba1f101",
+          "first-release-date": "2022-01-24"
+      },
+      {
+          "first-release-date": "2016-11-23",
+          "disambiguation": "",
+          "video": false,
+          "id": "1058fe94-2a29-49ad-9944-9aeb67cdd490",
+          "title": "ぼくとおばあさん",
+          "length": 302000
+      },
+      {
+          "title": "カランコエ・モノディ",
+          "length": 233760,
+          "video": false,
+          "id": "136810d0-2986-41f8-ac83-5f901fa18730",
+          "disambiguation": "",
+          "first-release-date": "2021-01-27"
+      },
+      {
+          "disambiguation": "",
+          "title": "聞いてる",
+          "length": 311000,
+          "id": "1c01d6e0-7ef0-4ca2-8357-905d0e638549",
+          "video": false,
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "title": "ポケット",
+          "length": null,
+          "id": "1c5d6209-4e99-4ecd-bbdd-1e2c65fca339",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2015-03-18"
+      },
+      {
+          "id": "1d92f754-ef5d-43e0-a069-826527526939",
+          "video": false,
+          "title": "縁",
+          "length": 222440,
+          "disambiguation": "",
+          "first-release-date": "2022-03-02"
+      },
+      {
+          "video": false,
+          "id": "1da077a5-d0cd-4eb0-89df-aa31f11e0728",
+          "length": null,
+          "title": "朝に夢を託した",
+          "disambiguation": "",
+          "first-release-date": "2015-03-18"
+      },
+      {
+          "id": "23cffdfd-1d9d-4979-b431-49a6808244e2",
+          "video": false,
+          "length": 215000,
+          "title": "ホームタウン",
+          "disambiguation": "",
+          "first-release-date": "2014-02-26"
+      },
+      {
+          "first-release-date": "2017-07-05",
+          "video": false,
+          "id": "26a0ecd7-d8ad-4d94-9cbc-dd8cdfb19b35",
+          "length": 286800,
+          "title": "猛暑です —e.p ver—",
+          "disambiguation": ""
+      },
+      {
+          "disambiguation": "",
+          "length": 195000,
+          "title": "黒い影",
+          "id": "2b22fcf2-d3ec-4aa1-8fb1-230ba299b082",
+          "video": false,
+          "first-release-date": "2014-02-26"
+      },
+      {
+          "disambiguation": "",
+          "video": false,
+          "id": "2c90ba87-4f14-4c1d-8d04-22da78278522",
+          "length": 260000,
+          "title": "わたしはわたしのためのわたしでありたい",
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "first-release-date": "2022-01-24",
+          "length": 92000,
+          "title": "悪魔の子 TV Size Ver. (Instrumental)",
+          "id": "3419d741-e35f-4999-824c-3e5772eaaaf4",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2020-09-02",
+          "disambiguation": "",
+          "video": false,
+          "id": "35e6e829-d4bc-499c-9694-5348d4adbcef",
+          "length": 403733,
+          "title": "まっすぐ"
+      },
+      {
+          "video": false,
+          "id": "38f0c8f1-751e-4476-98a4-ee327339d273",
+          "length": 329000,
+          "title": "ひとりきりのふたり",
+          "disambiguation": "",
+          "first-release-date": "2022-04-13"
+      },
+      {
+          "disambiguation": "",
+          "length": 260000,
+          "title": "かぜ薬",
+          "id": "3d6957ed-440b-4fd1-add6-eaf921d6f682",
+          "video": false,
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "id": "3f13314d-91c0-4225-83df-f77c480bf7d3",
+          "video": false,
+          "title": "街頭演説",
+          "length": 217000,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2020-09-02",
+          "title": "東京にて",
+          "length": 286680,
+          "video": false,
+          "id": "407ac757-84bd-4fe0-9fc6-49054d5af63e",
+          "disambiguation": ""
+      },
+      {
+          "disambiguation": "",
+          "length": 231000,
+          "title": "衝動",
+          "id": "4d918f3e-9883-4599-8c9e-efad0d359f9f",
+          "video": false,
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "disambiguation": "",
+          "length": 262000,
+          "title": "いちご",
+          "video": false,
+          "id": "53570f4b-5421-4d05-9bf3-860d6711fa0b",
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "first-release-date": "2022-03-02",
+          "title": "やめるなら今",
+          "length": 290200,
+          "id": "541e9277-aa14-4f45-8226-79c7dcf68331",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "title": "誰かの幸せは僕の不幸せ",
+          "length": 393000,
+          "video": false,
+          "id": "542d84a9-cdb0-47eb-be0b-10b6a7d90b5b",
+          "disambiguation": "",
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "disambiguation": "",
+          "id": "546dd5f7-3823-4bb8-96a9-8d73eaeca1e7",
+          "video": false,
+          "length": 160000,
+          "title": "シンプル",
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "first-release-date": "2014-02-26",
+          "disambiguation": "",
+          "id": "54e8167d-23c2-4835-a9d3-b178c497cc83",
+          "video": false,
+          "length": 288000,
+          "title": "わたくしごと"
+      },
+      {
+          "disambiguation": "",
+          "length": 250000,
+          "title": "恋人よ",
+          "video": false,
+          "id": "5877d48a-1658-4235-b3c4-311f534a03f3",
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "length": 239533,
+          "title": "黒い影",
+          "id": "5a03643f-c060-4d56-9ba6-2d5a0db90bf6",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2020-09-02"
+      },
+      {
+          "first-release-date": "2014-02-26",
+          "disambiguation": "",
+          "title": "書きかけのラブソング",
+          "length": 357000,
+          "video": false,
+          "id": "5ba6038b-6aa1-4c70-93ea-c5394d7f0086"
+      },
+      {
+          "id": "5e3e6bac-8732-4af9-a445-1424579a0f16",
+          "video": false,
+          "length": 370000,
+          "title": "アイカギ",
+          "disambiguation": "",
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "first-release-date": "2015-03-18",
+          "disambiguation": "",
+          "id": "5e52380f-6002-422b-89ee-22941d9dc0fa",
+          "video": false,
+          "length": null,
+          "title": "青春の日々"
+      },
+      {
+          "title": "前線 (Music video)",
+          "length": null,
+          "video": true,
+          "id": "615aeab4-5dc2-4413-9fea-f4dbf0434f0a",
+          "disambiguation": "",
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "disambiguation": "",
+          "length": 213000,
+          "title": "霙 —みぞれ—",
+          "video": false,
+          "id": "620b21ec-2250-4bb5-bb13-ff27749544b6",
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "disambiguation": "",
+          "id": "62d851cd-0665-4d25-bce0-72b96376fb09",
+          "video": false,
+          "title": "あなたが一番",
+          "length": null,
+          "first-release-date": "2015-03-18"
+      },
+      {
+          "first-release-date": "2015-03-18",
+          "title": "雨の交差点",
+          "length": null,
+          "id": "65473159-0633-418e-a345-e2e51ad78b00",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2018-06-20",
+          "title": "玉ねぎ",
+          "length": 228000,
+          "video": false,
+          "id": "69564827-4ece-4474-9887-50cbf10ade44",
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2015-03-18",
+          "disambiguation": "",
+          "title": "ツンデレ",
+          "length": null,
+          "video": false,
+          "id": "6a647b81-4fc8-4023-99b5-b0eaf1c86c20"
+      },
+      {
+          "title": "八月",
+          "length": 224733,
+          "video": false,
+          "id": "6e51618e-32cf-4f3a-ab72-93598df8ffe9",
+          "disambiguation": "",
+          "first-release-date": "2020-09-02"
+      },
+      {
+          "id": "6ecb4dd8-9a1f-4efb-ac72-5f7032f1119f",
+          "video": false,
+          "length": 207000,
+          "title": "永遠",
+          "disambiguation": "",
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "video": false,
+          "id": "76c92373-9acc-4834-912f-5d5bbd1c152b",
+          "length": 233000,
+          "title": "コインロッカーにて",
+          "disambiguation": "",
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "id": "7911411c-127a-47c1-b006-45d966cdf28b",
+          "video": false,
+          "title": "備忘録",
+          "length": 343640,
+          "disambiguation": "",
+          "first-release-date": "2016-11-23"
+      },
+      {
+          "disambiguation": "",
+          "title": "悪魔の子",
+          "length": 227679,
+          "id": "7bf7f8c4-db66-4354-a081-15b280051a3d",
+          "video": false,
+          "first-release-date": "2022-01-10"
+      },
+      {
+          "length": 232693,
+          "title": "火々",
+          "video": false,
+          "id": "7c40861d-64eb-412f-9a0a-527470099cbe",
+          "disambiguation": "",
+          "first-release-date": "2022-03-02"
+      },
+      {
+          "first-release-date": "2022-03-02",
+          "disambiguation": "",
+          "id": "7dfbc0e7-5c57-40b2-8abf-e533b6c91971",
+          "video": false,
+          "length": 282466,
+          "title": "距離"
+      },
+      {
+          "first-release-date": "2016-11-23",
+          "length": 282000,
+          "title": "ハダノアレ",
+          "video": false,
+          "id": "7ff0bb25-ecde-4d53-b667-2da5c82506ae",
+          "disambiguation": ""
+      },
+      {
+          "disambiguation": "",
+          "video": false,
+          "id": "8074c2d2-82b3-461b-a719-06cfb61d3460",
+          "title": "風と影",
+          "length": 275000,
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "disambiguation": "",
+          "video": false,
+          "id": "81e42170-53d1-4a7c-aa45-53b0c2c4cd33",
+          "length": 292093,
+          "title": "ハッピーバースデー",
+          "first-release-date": "2022-03-02"
+      },
+      {
+          "id": "83b8d973-296a-4cc3-836c-1b38825dfa72",
+          "video": false,
+          "length": 362000,
+          "title": "ラブソング",
+          "disambiguation": "",
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "id": "8508cfce-1cc0-4306-883d-5b5aa470af8e",
+          "video": false,
+          "title": "悪魔の子 (Instrumental)",
+          "length": 227000,
+          "disambiguation": "",
+          "first-release-date": "2022-01-24"
+      },
+      {
+          "first-release-date": "2020-09-02",
+          "disambiguation": "",
+          "title": "ココロジェリーフィッシュ",
+          "length": 259760,
+          "video": false,
+          "id": "89e9fccb-3d24-4394-a692-41d26696eed0"
+      },
+      {
+          "disambiguation": "",
+          "length": 270000,
+          "title": "バスタオル",
+          "id": "98fbdb81-898f-44bf-827f-29235b9b9feb",
+          "video": false,
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "disambiguation": "",
+          "id": "9e559d99-2cb5-4896-b57c-547da829b6e8",
+          "video": false,
+          "length": null,
+          "title": "まっすぐ",
+          "first-release-date": "2015-03-18"
+      },
+      {
+          "first-release-date": "2022-03-02",
+          "video": false,
+          "id": "a3469ac1-b8ea-40d6-87ab-fccc753d6557",
+          "title": "悪い女",
+          "length": 264906,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2018-06-20",
+          "id": "ad5dc54d-22f8-476e-ad93-3b64f27683d4",
+          "video": false,
+          "title": "最初のグー",
+          "length": 261000,
+          "disambiguation": ""
+      },
+      {
+          "video": false,
+          "id": "b030059b-467d-40f7-9070-0fe38c2b4419",
+          "length": 287480,
+          "title": "悲しい歌がある理由",
+          "disambiguation": "",
+          "first-release-date": "2022-03-02"
+      },
+      {
+          "first-release-date": "2018-06-20",
+          "disambiguation": "",
+          "id": "b228d77d-3f51-4de9-83b5-789876932dbe",
+          "video": false,
+          "length": 148000,
+          "title": "わたしのしあわせ"
+      },
+      {
+          "disambiguation": "",
+          "id": "b7e6cea8-52d4-4297-be8c-dd84ac67119b",
+          "video": false,
+          "length": null,
+          "title": "まぼろしの人",
+          "first-release-date": "2015-03-18"
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "video": false,
+          "id": "bbc19a27-c512-44ac-b92a-f5e15166d147",
+          "length": 307000,
+          "title": "どうかそのまま",
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2014-02-26",
+          "disambiguation": "",
+          "title": "東京",
+          "length": 285000,
+          "video": false,
+          "id": "bca30f38-5cf9-46a1-8409-02f392fd8404"
+      },
+      {
+          "first-release-date": "2017-07-05",
+          "video": false,
+          "id": "bff20cb3-d5bd-440c-acff-04d55c575c05",
+          "title": "夏のまぼろし",
+          "length": 286000,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "disambiguation": "",
+          "id": "c09dbde4-bbb3-4cdf-a67d-5de76312c48c",
+          "video": true,
+          "title": "ラブソング (Music video)",
+          "length": null
+      },
+      {
+          "disambiguation": "",
+          "title": "かぞえうた",
+          "length": 276000,
+          "id": "c2b4dd59-41f9-4250-965b-9a12ebfdcb96",
+          "video": false,
+          "first-release-date": "2014-02-26"
+      },
+      {
+          "video": false,
+          "id": "c44d9a2c-87df-4282-a4ef-07c478d4a37d",
+          "title": "劇場",
+          "length": 358666,
+          "disambiguation": "",
+          "first-release-date": "2022-03-02"
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "id": "c6a7c0ff-00f2-4ef6-a29f-09f6bb036d96",
+          "video": true,
+          "length": null,
+          "title": "どうかそのまま (Music video)",
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2016-11-23",
+          "length": 308000,
+          "title": "猛暑です",
+          "id": "c7eccae4-b263-4788-87a6-d591f4ced32a",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2022-01-10",
+          "disambiguation": "",
+          "id": "ce24eb5f-9f06-4b88-af7d-65126c97387c",
+          "video": false,
+          "title": "まっさらな大地",
+          "length": 288839
+      },
+      {
+          "first-release-date": "2022-03-02",
+          "disambiguation": "",
+          "video": false,
+          "id": "cecd0e42-d1d6-4605-8c28-6122d501e395",
+          "length": 298933,
+          "title": "サボテン"
+      },
+      {
+          "title": "きらいになっていく",
+          "length": 162000,
+          "id": "cf5c918c-3297-4e39-95fa-2128e2fb98c2",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2014-02-26"
+      },
+      {
+          "first-release-date": "2022-12-23",
+          "disambiguation": "",
+          "id": "cf78b066-6bfc-446b-916b-24cdc9a02a0c",
+          "video": false,
+          "length": 293000,
+          "title": "悪魔の子 - From THE FIRST TAKE"
+      },
+      {
+          "disambiguation": "",
+          "length": 228000,
+          "title": "メグルキオク",
+          "video": false,
+          "id": "d0bd6a41-0523-444d-a08a-1d11af474339",
+          "first-release-date": "2014-02-26"
+      },
+      {
+          "disambiguation": "",
+          "length": 265000,
+          "title": "不幸ちゃん",
+          "video": false,
+          "id": "d0fc2b13-a5c9-4f96-99c6-380101e5574a",
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "first-release-date": "2022-06-29",
+          "disambiguation": "",
+          "title": "悪魔の子 KOHTA YAMAMOTO Remix",
+          "length": 244000,
+          "video": false,
+          "id": "d372ffcd-adda-471d-9b49-6f4a261f9c2b"
+      },
+      {
+          "disambiguation": "",
+          "length": null,
+          "title": "ペーパームーン",
+          "video": false,
+          "id": "d3bba564-1e95-4060-bca3-064ed70eb593",
+          "first-release-date": "2015-03-18"
+      },
+      {
+          "first-release-date": "2014-02-26",
+          "disambiguation": "",
+          "video": false,
+          "id": "d4dcaccc-a4ba-48ee-91d9-d11aefb74cca",
+          "title": "ココロジェリーフィッシュ",
+          "length": 243000
+      },
+      {
+          "disambiguation": "",
+          "id": "d5e11af6-cc8a-4ea9-8f63-703c305d8368",
+          "video": false,
+          "length": 221000,
+          "title": "やわらかい仮面",
+          "first-release-date": "2017-07-05"
+      },
+      {
+          "first-release-date": "2015-03-18",
+          "disambiguation": "",
+          "length": null,
+          "title": "つばめの巣",
+          "id": "d906ef90-f699-4a51-9fdc-0f938569e7ed",
+          "video": false
+      },
+      {
+          "disambiguation": "",
+          "id": "dba4f2b2-26d5-40c9-a746-aae09bc4c4c6",
+          "video": false,
+          "title": "きっと大丈夫",
+          "length": 158000,
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "length": 396000,
+          "title": "ほしのなまえ",
+          "id": "dd97b29e-32e1-4d97-8c0b-3d3294416568",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2015-03-18",
+          "video": false,
+          "id": "e1b88bbe-24cd-4ce8-a0d6-05342006b660",
+          "title": "KOUSATEN",
+          "length": null,
+          "disambiguation": ""
+      },
+      {
+          "title": "癖",
+          "length": 212000,
+          "video": false,
+          "id": "e8e77f03-9ca6-4029-8aa5-a3f5dfa1048a",
+          "disambiguation": "",
+          "first-release-date": "2018-06-20"
+      },
+      {
+          "first-release-date": "2017-07-05",
+          "disambiguation": "",
+          "video": false,
+          "id": "ede29766-f2be-4530-9393-ab7d8ff0c14a",
+          "title": "みなみかぜ",
+          "length": 248000
+      },
+      {
+          "first-release-date": "2017-07-05",
+          "title": "残暑です",
+          "length": 249000,
+          "video": false,
+          "id": "ef9c16a2-7cef-4c68-be0f-6f9037001af2",
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "disambiguation": "",
+          "length": 230000,
+          "title": "一週間のうた",
+          "id": "f02331bb-6b2b-48ee-a818-5f9acde9d3b0",
+          "video": false
+      },
+      {
+          "first-release-date": "2017-07-05",
+          "disambiguation": "",
+          "title": "ラジオ体操",
+          "length": 350000,
+          "id": "f4e17c06-3124-49da-9697-49c8af8c9285",
+          "video": false
+      },
+      {
+          "first-release-date": "2016-11-23",
+          "disambiguation": "",
+          "title": "さっちゃん",
+          "length": 312000,
+          "id": "f7cc8fc7-f9b6-43ec-a332-9a1fa5c2d7a3",
+          "video": false
+      },
+      {
+          "length": 265000,
+          "title": "前線",
+          "video": false,
+          "id": "f93fefc8-2f5c-4bbd-8154-71f94c774dc6",
+          "disambiguation": "",
+          "first-release-date": "2019-09-25"
+      },
+      {
+          "first-release-date": "2015-03-18",
+          "length": null,
+          "title": "サクラ",
+          "id": "fb4cb004-102b-4a83-8f5b-1fd09507fdd2",
+          "video": false,
+          "disambiguation": ""
+      },
+      {
+          "first-release-date": "2019-09-25",
+          "disambiguation": "",
+          "video": false,
+          "id": "fd42e9ee-76ce-44b1-aecf-db2b8982cfd8",
+          "length": 252000,
+          "title": "走馬灯"
+      },
+      {
+          "disambiguation": "",
+          "id": "fe150239-d635-4235-ac75-6a6ed2537753",
+          "video": false,
+          "length": 377000,
+          "title": "ぽたり",
+          "first-release-date": "2018-06-20"
+      }
+  ],
+  "recording-offset": 0,
+  "recording-count": 87
+}

@@ -1,0 +1,577 @@
+{
+    "created": "2023-05-19T05:03:22.810Z",
+    "count": 3,
+    "offset": 0,
+    "recordings": [
+        {
+            "id": "30ed18b6-d95b-4efe-a332-6fcc0e07b087",
+            "score": 100,
+            "title": "ミックスナッツ",
+            "length": 213000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Official髭男dism",
+                    "artist": {
+                        "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                        "name": "Official髭男dism",
+                        "sort-name": "Official HIGE DANdism",
+                        "aliases": [
+                            {
+                                "sort-name": "オフィシャルヒゲダンディズム",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Official髭男dism",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "ヒゲダン",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "ヒゲダン",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "OfficialHigeDandism",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "OfficialHigeDandism",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "OfficialHigeDandism",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Official HIGE DANdism",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Official鬍子男dism",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Official鬍子男dism",
+                                "locale": "zh_Hant_TW",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2022-04-15",
+            "releases": [
+                {
+                    "id": "c3dc307b-e83b-4624-a433-befcd45bcde4",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Mixed Nuts EP",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Official HIGE DANdism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76f3b4f4-6558-4b81-86d5-e73364f54d7b",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "ミックスナッツ EP",
+                        "primary-type": "EP"
+                    },
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "f832ea7e-d85d-4c3a-becf-500406dda4c0",
+                                    "number": "1",
+                                    "title": "1 Mixed Nuts",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "6341b35d-462c-4b3d-a249-a7fdb9517544",
+                    "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+                    "count": 1,
+                    "title": "Mixed Nuts",
+                    "status": "Pseudo-Release",
+                    "artist-credit": [
+                        {
+                            "name": "Official HIGE DANdism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3f328b51-bbbe-4aba-a1d9-933ff04151eb",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "ミックスナッツ",
+                        "primary-type": "Single"
+                    },
+                    "track-count": 1,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "8dc15da1-0953-42ca-ba9f-308b18b1f007",
+                                    "number": "1",
+                                    "title": "Mixed Nuts",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 1,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "b6ccff85-1c9b-400a-bdbd-f0ffd0d91483",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "ミックスナッツEP",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Official髭男dism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76f3b4f4-6558-4b81-86d5-e73364f54d7b",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "ミックスナッツ EP",
+                        "primary-type": "EP"
+                    },
+                    "date": "2022-06-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2022-06-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "64a41d07-c1a6-4b26-b3fb-c0c9f51bc92c",
+                                    "number": "1",
+                                    "title": "ミックスナッツ",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "7e6a0cf0-8099-4f1d-8e9f-60b95a56f051",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "ミックスナッツ EP",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Official髭男dism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76f3b4f4-6558-4b81-86d5-e73364f54d7b",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "ミックスナッツ EP",
+                        "primary-type": "EP"
+                    },
+                    "date": "2022-06-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2022-06-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 4,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "660409c2-1f3c-4280-b789-38457f5e8849",
+                                    "number": "1",
+                                    "title": "ミックスナッツ",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "8cb10ef6-e15f-4842-aba1-f799a27d9b44",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "ミックスナッツ EP",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Official髭男dism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76f3b4f4-6558-4b81-86d5-e73364f54d7b",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "ミックスナッツ EP",
+                        "primary-type": "EP"
+                    },
+                    "date": "2022-06-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2022-06-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6137f227-937c-40a6-b005-9b93a4c0ea84",
+                                    "number": "1",
+                                    "title": "ミックスナッツ",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "c02586d8-2bb1-4da0-a935-be7b22c0dcef",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 2,
+                    "title": "ミックスナッツ EP",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Official髭男dism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "76f3b4f4-6558-4b81-86d5-e73364f54d7b",
+                        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+                        "title": "ミックスナッツ EP",
+                        "primary-type": "EP"
+                    },
+                    "date": "2022-06-22",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2022-06-22",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "0c5e23af-c2a7-4386-b2ab-f14a9992300b",
+                                    "number": "1",
+                                    "title": "ミックスナッツ",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 4,
+                            "track-offset": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "35ffdbf9-d519-45d6-ad4e-cd17e6edabdb",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "ミックスナッツ",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Official髭男dism",
+                            "artist": {
+                                "id": "6dddd7a2-5583-49d0-a8b2-9ee46d04f27e",
+                                "name": "Official髭男dism",
+                                "sort-name": "Official HIGE DANdism"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3f328b51-bbbe-4aba-a1d9-933ff04151eb",
+                        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                        "title": "ミックスナッツ",
+                        "primary-type": "Single"
+                    },
+                    "date": "2022-04-15",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2022-04-15",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 1,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "0b251366-532b-4434-8cc7-9fc1a3d17004",
+                                    "number": "1",
+                                    "title": "ミックスナッツ",
+                                    "length": 213000
+                                }
+                            ],
+                            "track-count": 1,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPPC02210469"
+            ]
+        },
+        {
+            "id": "39e31d91-a8b7-4f0d-9815-9fe4c4fd3857",
+            "score": 75,
+            "title": "横浜ミックスナッツ",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "乙三.",
+                    "artist": {
+                        "id": "92bb1627-76e6-40e8-8025-62a6948fc28b",
+                        "name": "乙三.",
+                        "sort-name": "Ossan"
+                    }
+                }
+            ],
+            "first-release-date": "2011-12-21",
+            "releases": [
+                {
+                    "id": "87139320-6194-450e-960c-68aa2d18205a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "横浜ミックスナッツ",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "e7218b93-71bd-49f3-ac92-33499260ac6b",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "横浜ミックスナッツ",
+                        "primary-type": "Album"
+                    },
+                    "date": "2011-12-21",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2011-12-21",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 5,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "6b9edb25-7b83-418f-b5ac-a7ef30e8dae8",
+                                    "number": "1",
+                                    "title": "横浜ミックスナッツ"
+                                }
+                            ],
+                            "track-count": 5,
+                            "track-offset": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c8744787-3847-474e-8044-3aa6da2fe18f",
+            "score": 55,
+            "title": "ミックスナッツ (from『SPY×FAMILY』) (Piano Ver.)",
+            "length": 211000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Piano Echoes",
+                    "artist": {
+                        "id": "5886258d-c227-4091-8717-c268d34ca937",
+                        "name": "Piano Echoes",
+                        "sort-name": "Piano Echoes"
+                    }
+                }
+            ],
+            "first-release-date": "2023-02-10",
+            "releases": [
+                {
+                    "id": "e7783e69-e8a5-4920-aa56-5989999f1c25",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "ANIME×PIANO ECHOES",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "77592808-803f-449e-87f1-450153f813e6",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "ANIME×PIANO ECHOES",
+                        "primary-type": "Album"
+                    },
+                    "date": "2023-02-10",
+                    "country": "JP",
+                    "release-events": [
+                        {
+                            "date": "2023-02-10",
+                            "area": {
+                                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                                "name": "Japan",
+                                "sort-name": "Japan",
+                                "iso-3166-1-codes": [
+                                    "JP"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "position": 1,
+                            "format": "Digital Media",
+                            "track": [
+                                {
+                                    "id": "37a3a359-fa7a-491a-910e-d9a27c632c83",
+                                    "number": "12",
+                                    "title": "ミックスナッツ (from『SPY×FAMILY』) (Piano Ver.)",
+                                    "length": 211000
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 11
+                        }
+                    ]
+                }
+            ],
+            "isrcs": [
+                "JPM402350063"
+            ]
+        }
+    ]
+}

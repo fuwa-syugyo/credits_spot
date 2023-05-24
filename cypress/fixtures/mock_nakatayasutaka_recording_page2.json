@@ -1,0 +1,46 @@
+{
+  "recording-offset": 100,
+  "recording-count": 105,
+  "recordings": [
+      {
+          "title": "透明 toumei",
+          "video": false,
+          "length": 79000,
+          "id": "0547c069-206b-4603-a6ec-5795f432af13",
+          "first-release-date": "2018-08-22",
+          "disambiguation": ""
+      },
+      {
+          "id": "5e30f6c4-8b7a-4411-8475-e4779faeffd6",
+          "length": 158000,
+          "title": "諦観 akirami",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2018-08-22"
+      },
+      {
+          "title": "閃聴 hirameki",
+          "video": false,
+          "length": 145000,
+          "id": "9989a517-6b43-42ff-84c8-12a8bc98e355",
+          "first-release-date": "2018-08-22",
+          "disambiguation": ""
+      },
+      {
+          "id": "cb459b77-e7d1-4027-8bcc-1fc835f2fd80",
+          "length": 161000,
+          "title": "瑞月のお母さんの話",
+          "video": false,
+          "disambiguation": "",
+          "first-release-date": "2016-10-05"
+      },
+      {
+          "id": "da70fcc6-c9b2-4a3c-8939-6006d00b2b5c",
+          "length": 112000,
+          "video": false,
+          "title": "熱愛発覚中",
+          "disambiguation": "",
+          "first-release-date": "2014-04-02"
+      }
+  ]
+}

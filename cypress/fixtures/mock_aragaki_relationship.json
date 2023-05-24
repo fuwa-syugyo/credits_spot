@@ -1,0 +1,71 @@
+{
+    "begin_area": {
+        "disambiguation": "",
+        "name": "Naha",
+        "id": "7040f2a6-1299-4561-b7b0-ac2a68343f17",
+        "type": null,
+        "sort-name": "Naha",
+        "type-id": null
+    },
+    "relations": [
+        {
+            "target-credit": "",
+            "attribute-values": {},
+            "artist": {
+                "disambiguation": "",
+                "name": "星野源",
+                "id": "2c6c53ea-09d4-4d98-b174-c9aa83d4fecf",
+                "type": "Person",
+                "sort-name": "Hoshino, Gen",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "source-credit": "",
+            "attribute-ids": {},
+            "begin": "2021-05-19",
+            "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+            "end": null,
+            "target-type": "artist",
+            "direction": "backward",
+            "type": "married",
+            "ended": false,
+            "attributes": []
+        }
+    ],
+    "begin-area": {
+        "disambiguation": "",
+        "name": "Naha",
+        "id": "7040f2a6-1299-4561-b7b0-ac2a68343f17",
+        "type": null,
+        "sort-name": "Naha",
+        "type-id": null
+    },
+    "ipis": [],
+    "area": {
+        "iso-3166-1-codes": [
+            "JP"
+        ],
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type": null,
+        "sort-name": "Japan",
+        "type-id": null,
+        "name": "Japan",
+        "disambiguation": ""
+    },
+    "id": "b784fc16-3467-4a5f-91e1-a231d9ca34ab",
+    "sort-name": "Aragaki, Yui",
+    "name": "新垣結衣",
+    "end-area": null,
+    "isnis": [],
+    "gender": "Female",
+    "disambiguation": "",
+    "type": "Person",
+    "end_area": null,
+    "life-span": {
+        "end": null,
+        "begin": "1988-06-11",
+        "ended": false
+    },
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+    "country": "JP"
+}

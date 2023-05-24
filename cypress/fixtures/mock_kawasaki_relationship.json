@@ -1,0 +1,104 @@
+{
+  "relations": [
+      {
+          "end": null,
+          "type": "member of band",
+          "ended": false,
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "artist",
+          "artist": {
+              "disambiguation": "Japanese rock band",
+              "sort-name": "band apart, the",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "name": "the band apart",
+              "type": "Group",
+              "id": "dd4ccf5c-f30d-4f94-b718-3a519699b99b"
+          },
+          "target-credit": "",
+          "direction": "forward",
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "begin": null,
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978",
+              "membranophone": "3bccb7eb-cbca-42cd-b0ac-a5e959df7221"
+          },
+          "attribute-credits": {},
+          "attributes": [
+              "guitar",
+              "membranophone"
+          ]
+      },
+      {
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-credits": {},
+          "begin": null,
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "direction": "forward",
+          "target-credit": "",
+          "target-type": "recording",
+          "recording": {
+              "video": false,
+              "disambiguation": "",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "坂本真綾",
+                      "artist": {
+                          "id": "b6c18308-82c7-4ec1-a42d-e8488bce6618",
+                          "type": null,
+                          "name": "坂本真綾",
+                          "type-id": null,
+                          "sort-name": "Sakamoto, Maaya",
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "id": "59c5ff51-aaf2-4b09-a99e-8c6a76fa8072",
+              "length": 242000,
+              "title": "Be mine!"
+          },
+          "attribute-values": {},
+          "source-credit": "",
+          "ended": false,
+          "type": "instrument",
+          "end": null
+      }
+  ],
+  "isnis": [],
+  "life-span": {
+      "begin": null,
+      "ended": false,
+      "end": null
+  },
+  "begin_area": null,
+  "gender": "Male",
+  "id": "6427deef-235d-4ddd-bc0a-4b40a25482e1",
+  "type": "Person",
+  "name": "川崎亘一",
+  "end-area": null,
+  "disambiguation": "the band apart",
+  "area": {
+      "type-id": null,
+      "sort-name": "Japan",
+      "disambiguation": "",
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "name": "Japan",
+      "type": null,
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+  },
+  "ipis": [],
+  "begin-area": null,
+  "end_area": null,
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "sort-name": "Kawasaki, Koichi",
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "country": "JP"
+}
