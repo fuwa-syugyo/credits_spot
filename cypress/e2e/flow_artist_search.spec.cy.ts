@@ -7,7 +7,7 @@ describe('template spec', () => {
     cy.contains('小室哲哉')
 
     // ページネーションを動かして検索ワードがUndefinedにならないか確認
-    cy.get(':nth-child(9) > .paginate-buttons').click();
+    cy.get(':nth-child(7) > .paginate-buttons').click();
     cy.get('body').should('not.contain', 'Undefined')
     cy.get('.back-button').click();
 
@@ -16,9 +16,8 @@ describe('template spec', () => {
 
     cy.get('.artist-table > tbody > :nth-child(1) > td > a ').click();
     cy.url().should('include', '/recordings/08cea5ad-09af-466a-b2f4-46ec63dd2d09')
-    cy.get('table tbody tr')
-    .contains('Dのテーマ (別れ)').parent()
-    .contains('小室哲哉')
+    cy.get('.text-2xl').contains('Dのテーマ (別れ)')
+    cy.get('.my-2 > tbody > tr > .px-4').contains('小室哲哉')
     cy.go('back')
 
     cy.get('.songwriter-table > tbody > :nth-child(43) > :nth-child(2) > a').click();
@@ -26,7 +25,7 @@ describe('template spec', () => {
     cy.get('table tbody tr')
     .contains('composer').parent().parent()
     .contains('小室哲哉')
-    cy.get(':nth-child(1) > :nth-child(5) > :nth-child(2) > a').contains('Spotifyで聴く');
+    cy.get(':nth-child(6) > :nth-child(2) > a').contains('Spotifyで聴く');
     cy.go('back')
     cy.go('back')
 
