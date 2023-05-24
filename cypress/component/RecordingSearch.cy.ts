@@ -30,7 +30,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.container > :nth-child(4)').should('not.be')
   })
   
-  it('More than 100 recording search result 1 page', () => {
+  it('More than 100 recording search result', () => {
     // iPhone SE2のサイズでテスト(リリース日が非表示)
     cy.viewport('iphone-se2')
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=0&limit=100&fmt=json', { fixture: 'mock_idol_page1.json' }).as('idol1PageRequest');
