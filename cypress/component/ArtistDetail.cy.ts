@@ -2,7 +2,7 @@ import { OptionsParam } from '../../cypress'
 import ArtistDetail from '../../src/components/artists/ArtistDetail.vue'
 
 describe('ArtistDetail tests', () => {
-  it('Artist have 3 tables page1', () => {
+  it('Artist have 3 tables', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/53bfc28e-2c48-4776-8949-1953c78dd187?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_nakatayasutaka_relationship.json'}).as('yasutakaRelationshipRequest')
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=0&limit=100&fmt=json', {fixture: 'mock_nakatayasutaka_recording_page1.json'}).as('yasutakaRecording1PageRequest')
     cy.mount(ArtistDetail, { props: { id: '53bfc28e-2c48-4776-8949-1953c78dd187' } } as OptionsParam )
@@ -50,24 +50,19 @@ describe('ArtistDetail tests', () => {
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
+    cy.get('p').contains('105 件中 1 〜 100件')
 
     //ページネーションのコンポーネントが表示されているかどうか
     cy.get('[data-v-app=""] > :nth-child(1) > :nth-child(7)')
     cy.get(':nth-child(2) > .paginate-buttons').contains('1')
-    cy.get(':nth-child(4) > .paginate-buttons').contains('>')
-    cy.get(':nth-child(5) > .paginate-buttons').should('not.be')
-  })
 
-  it('Artist have 3 tables page2', () => {
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/53bfc28e-2c48-4776-8949-1953c78dd187?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', {fixture: 'mock_nakatayasutaka_relationship.json'}).as('yasutakaRelationshipRequest')
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=0&limit=100&fmt=json', {fixture: 'mock_nakatayasutaka_recording_page2.json'}).as('yasutakaRecording2PageRequest')
-    cy.mount(ArtistDetail, { props: { id: '53bfc28e-2c48-4776-8949-1953c78dd187' } } as OptionsParam )
-    cy.wait('@yasutakaRelationshipRequest');
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=100&limit=100&fmt=json', {fixture: 'mock_nakatayasutaka_recording_page2.json'}).as('yasutakaRecording2PageRequest')
+    cy.get(':nth-child(4) > .paginate-buttons').contains('>').click()
     cy.wait('@yasutakaRecording2PageRequest');
 
     // 以下、アーティスト楽曲のページを切り替えてもRelationshipsのデータに変化がないかテスト
     cy.get('.text-2xl')
-      .contains('中田ヤスタカ')
+    .contains('中田ヤスタカ')
 
     cy.get(':nth-child(2) > .text-lg')
       .contains('作詞作曲した楽曲')
@@ -96,7 +91,6 @@ describe('ArtistDetail tests', () => {
     })
     // ここまで1ページ目のテストと同じ
 
-
     cy.get(':nth-child(6) > .text-lg')
       .contains('アーティストとして関わった楽曲')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4')
@@ -106,6 +100,7 @@ describe('ArtistDetail tests', () => {
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '5 items').to.have.length(5)
     })
+    cy.get('p').contains('105 件中 101 〜 105件')
 
     //ページネーションのコンポーネントが表示されているかどうか
     cy.get('[data-v-app=""] > :nth-child(1) > :nth-child(7)')
@@ -167,6 +162,12 @@ describe('ArtistDetail tests', () => {
       .contains('アーティストとして関わった楽曲')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4')
       .contains('妄想悩殺お手ガール')
+    
+    // アーティスト楽曲が87件か
+    cy.get('.artist-table > tbody > tr > td').should(($trs) => {
+      expect($trs, '87 items').to.have.length(87)
+    })
+    cy.get('p').contains('87 件中 1 〜 87件')
 
     //スタッフ楽曲の表が存在していないかどうか
     cy.get('.staff-table > tbody').should('not.be')
@@ -196,6 +197,12 @@ describe('ArtistDetail tests', () => {
       .contains('アーティストとして関わった楽曲')
     cy.get('.artist-table > tbody > :nth-child(2) > .px-4')
       .contains('ワルツ第6番 変ニ長調 作品64-1 「小犬のワルツ」')
+
+    // アーティスト楽曲が87件か
+    cy.get('.artist-table > tbody > tr > td').should(($trs) => {
+      expect($trs, '31 items').to.have.length(31)
+    })
+    cy.get('p').contains('31 件中 1 〜 31件')
 
     //作詞作曲の楽曲の表が存在していないかどうか
     cy.get('.songwriter-table > tbody').should('not.be')
@@ -272,6 +279,12 @@ describe('ArtistDetail tests', () => {
       .contains('アーティストとして関わった楽曲')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4')
       .contains('あいたい')
+    
+    // アーティスト楽曲が87件か
+    cy.get('.artist-table > tbody > tr > td').should(($trs) => {
+      expect($trs, '74 items').to.have.length(74)
+    })
+    cy.get('p').contains('74 件中 1 〜 74件')
 
     //作詞作曲の楽曲の表が存在していないかどうか
     cy.get('.songwriter-table > tbody').should('not.be')
