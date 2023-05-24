@@ -13,12 +13,13 @@ describe('ArtistSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '1 item').to.have.length(1)
     })
+    cy.get('p').contains('検索結果 1 件中 1 〜 1件')
 
     //ページネーションのコンポーネントが表示されていないかどうか
     cy.get('[data-v-app=""] > :nth-child(1) > div').should('not.be')
   })
   
-  it('More than 100 recording search result 1 page', () => {
+  it('More than 100 recording search result', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json', { fixture: 'mock_komurotetsuya_page1.json' }).as('komurotetsuya1PageRequest');
     cy.mount(ArtistSearch, { query: { term: '小室哲哉' } })
     cy.wait('@komurotetsuya1PageRequest');
@@ -30,33 +31,30 @@ describe('ArtistSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
+    cy.get('p').contains('検索結果 2479 件中 1 〜 100件')
 
     //ページネーションのコンポーネントが表示されているかどうか
     cy.get('[data-v-app=""] > :nth-child(1) > div')
     cy.get(':nth-child(2) > .paginate-buttons').contains('1')
     cy.get('.last-button').contains('25')
-    cy.get(':nth-child(7) > .paginate-buttons').contains('>')
-  })
 
-  it('More than 100 recording search result 2 page', () => {
     //2ページ目
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json', { fixture: 'mock_komurotetsuya_page2.json' }).as('komurotetsuya2PageRequest');
-    cy.mount(ArtistSearch, { query: { term: '小室哲哉' } })
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=100&limit=100&fmt=json', { fixture: 'mock_komurotetsuya_page2.json' }).as('komurotetsuya2PageRequest');
+    cy.get(':nth-child(7) > .paginate-buttons').contains('>').click()
     cy.wait('@komurotetsuya2PageRequest');
-    
+
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(1)')
-      .contains('小久保隆')
+    .contains('小久保隆')
 
     //検索結果が100件ちょうどか
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
-  })
+    cy.get('p').contains('検索結果 2479 件中 101 〜 200件')
 
-  it('More than 100 recording search result last page', () => {
     //最後のページ
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json', { fixture: 'mock_komurotetsuya_page_last.json' }).as('komurotetsuyaLastPageRequest');
-    cy.mount(ArtistSearch, { query: { term: '小室哲哉' } })
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=2400&limit=100&fmt=json', { fixture: 'mock_komurotetsuya_page_last.json' }).as('komurotetsuyaLastPageRequest');
+    cy.get('.last-button').click()
     cy.wait('@komurotetsuyaLastPageRequest');
     
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(1)')
@@ -64,8 +62,9 @@ describe('ArtistSearch tests', () => {
 
     //検索結果が79件か
     cy.get('.table-auto > tbody > tr').should(($trs) => {
-      expect($trs, '100 items').to.have.length(79)
+      expect($trs, '79 items').to.have.length(79)
     })
+    cy.get('p').contains('検索結果 2479 件中 2401 〜 2479件')
   })
 
   it('No result', () => {
@@ -83,5 +82,3 @@ describe('ArtistSearch tests', () => {
     })
   })
 })
-
-
