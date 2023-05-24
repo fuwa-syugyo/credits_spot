@@ -20,7 +20,6 @@
       isLoading.value = true;
       const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`)
       const relationshipsData = await relationshipsRes.json()
-      console.log(relationshipsData)
 
       const recording_credit: RecordingCredit[] = relationshipsData.relations.filter((rec: RecordingCredit) => rec["target-type"] === "recording").map((item: RecordingCredit) => ({
         type: item.type === 'instrument' ? item.attributes[0] : item.type,
@@ -60,7 +59,6 @@
     try {
       const recordingRes = await fetch(`https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`)
       const recordingData = await recordingRes.json()
-      console.log(recordingData)
 
       const artistRecordingData: ArtistRecording[] = recordingData.recordings.map((item: ArtistRecording) => ({
         id: item.id,
