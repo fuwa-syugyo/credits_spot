@@ -10,7 +10,7 @@ describe('Recording search and lookup artist', () => {
     cy.contains('結束バンド')
     
     // ページネーションを動かして検索ワードがUndefinedにならないか確認
-    cy.get(':nth-child(9) > .paginate-buttons').click();
+    cy.get(':nth-child(7) > .paginate-buttons').click();
     cy.get('body').should('not.contain', 'Undefined')
     cy.get('.back-button').click();
 
@@ -19,7 +19,7 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.contains('Spotifyで聴く')
 
-    cy.get('.my-2 > tbody > tr > :nth-child(2)').click()
+    cy.get('.my-2 > tbody > tr > .px-4').click()
     cy.contains('結束バンド')
     cy.contains('青春コンプレックス')
     cy.go('back')
@@ -77,8 +77,8 @@ describe('Recording search and lookup artist', () => {
     cy.contains('天体観測')
 
     //フィルター1(インスト音源除外フィルター)のみ
-    cy.get('form > :nth-child(1) > input').check();
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('#inst').check();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
     cy.wait(5000)
     cy.contains('天体観測')
     cy.get('table tbody tr').should('not.contain', '天体観測(Instrumental Version)')
@@ -86,8 +86,8 @@ describe('Recording search and lookup artist', () => {
 
     //フィルター2(部分一致フィルター)のみ
     cy.get('#filter').clear();
-    cy.get('form > :nth-child(2) > input').check();
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('#partial').check();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
 
     cy.wait(5000)
     cy.contains('天体観測')
@@ -97,7 +97,7 @@ describe('Recording search and lookup artist', () => {
     //フィルター3(アーティスト名フィルター)のみ
     cy.get('#filter').clear();
     cy.get('#filter').type('BUMP OF CHICKEN');
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
 
     cy.wait(5000)
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('BUMP OF CHICKEN')
@@ -108,15 +108,14 @@ describe('Recording search and lookup artist', () => {
 
     //フィルター1と2
     cy.get('#filter').clear();
-    cy.get('form > :nth-child(1) > input').check();
-    cy.get('form > :nth-child(2) > input').check();
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('#inst').check();
+    cy.get('#partial').check();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
 
     cy.wait(5000)
     cy.contains('真夏の天体観測')
     cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
     cy.get('tbody').should('not.contain', '真夏の天体観測 ～Instrumental～')
-    cy.go('back')
 
     //フィルター1と3
     cy.get('#search').focus().clear()
@@ -125,9 +124,9 @@ describe('Recording search and lookup artist', () => {
     cy.contains('CAN YOU CELEBRATE?')
 
     cy.get('#filter').clear();
-    cy.get('form > :nth-child(1) > input').check();
+    cy.get('#inst').check();
     cy.get('#filter').type('安室奈美恵');
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
 
     cy.wait(5000)
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
@@ -141,9 +140,9 @@ describe('Recording search and lookup artist', () => {
 
     //フィルター2と3
     cy.get('#filter').clear();
-    cy.get('form > :nth-child(2) > input').check();
+    cy.get('#partial').check();
     cy.get('#filter').type('安室奈美恵');
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
 
     cy.wait(5000)
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
@@ -157,10 +156,10 @@ describe('Recording search and lookup artist', () => {
 
     //フィルター1と2と3
     cy.get('#filter').clear();
-    cy.get('form > :nth-child(1) > input').check();
-    cy.get('form > :nth-child(2) > input').check();
+    cy.get('#inst').check();
+    cy.get('#partial').check();
     cy.get('#filter').type('安室奈美恵');
-    cy.get('main > .container > form > .relative > .text-white').click();
+    cy.get('.border-gray-500 > form > .relative > .text-white').click();
 
     cy.wait(5000)
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
