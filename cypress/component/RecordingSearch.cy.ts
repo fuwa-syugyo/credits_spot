@@ -20,6 +20,12 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(3)')
     .contains('2022-04-15').should('be.visible')
 
+    //曲名が3件ちょうどあるか
+    cy.get('.table-auto > tbody > tr').should(($trs) => {
+      expect($trs, '3 items').to.have.length(3)
+    })
+    cy.get('.container > :nth-child(2)').contains('検索結果 3 件中 1 〜 3件')
+
     //ページネーションのコンポーネントが表示されていないかどうか
     cy.get('.container > :nth-child(4)').should('not.be')
   })
@@ -36,7 +42,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)')
       .contains('星勝')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(3)')
-    .contains('1990-12-28').should('not.be.visible')
+      .contains('1990-12-28').should('not.be.visible')
 
     // PCサイズだとリリース日が表示される
     cy.viewport('macbook-16')
@@ -47,45 +53,41 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
+    cy.get('.container > :nth-child(2)').contains('検索結果 249 件中 1 〜 100件')
 
     //ページネーションのコンポーネントが表示されているかどうか
     cy.get('.container > :nth-child(4)')
     cy.get(':nth-child(4) > .paginate-buttons').contains('3')
-    cy.get(':nth-child(5) > .paginate-buttons').contains('>')
-  })
 
-  it('More than 100 recording search result 2 page', () => {
-    //2ページ目
-    cy.viewport('iphone-se2')
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=0&limit=100&fmt=json', { fixture: 'mock_idol_page2.json' }).as('idol2PageRequest');
-    cy.mount(RecordingSearch, { query: { term: 'アイドル' } })
+    //2ページ目に遷移
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=100&limit=100&fmt=json', { fixture: 'mock_idol_page2.json' }).as('idol2PageRequest');
+    cy.get(':nth-child(5) > .paginate-buttons').contains('>').click()
     cy.wait('@idol2PageRequest');
-    
+
+    cy.viewport('iphone-se2')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(1)')
-      .contains('アイドル活動！')
+    .contains('アイドル活動！')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)')
       .contains('風鈴ぼるけいの')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(3)')
     .contains('2018-03-04').should('not.be.visible')
 
-    // PCサイズだとリリース日が表示される
     cy.viewport('macbook-16')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(3)')
-      .contains('2018-03-04')
+    .contains('2018-03-04')
 
     //曲名が100件ちょうどあるか
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
-  })
+    cy.get('.container > :nth-child(2)').contains('検索結果 249 件中 101 〜 200件')
 
-  it('More than 100 recording search result 3 page', () => {
-    //3ページ目
-    cy.viewport('iphone-se2')
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=0&limit=100&fmt=json', { fixture: 'mock_idol_page3.json' }).as('idol3PageRequest');
-    cy.mount(RecordingSearch, { query: { term: 'アイドル' } })
+    //3ページ目に遷移
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=200&limit=100&fmt=json', { fixture: 'mock_idol_page3.json' }).as('idol3PageRequest');
+    cy.get(':nth-child(5) > .paginate-buttons').contains('>').click()
     cy.wait('@idol3PageRequest');
-    
+
+    cy.viewport('iphone-se2')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(1)')
       .contains('全力アイドル (M@STER VERSION) (オリジナル・カラオケ)')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)')
@@ -100,8 +102,9 @@ describe('RecordingSearch tests', () => {
 
     //曲名が49件か
     cy.get('.table-auto > tbody > tr').should(($trs) => {
-      expect($trs, '100 items').to.have.length(49)
+      expect($trs, '49 items').to.have.length(49)
     })
+    cy.get('.container > :nth-child(2)').contains('検索結果 249 件中 201 〜 249件')
   })
 
   it('No result', () => {
@@ -115,7 +118,7 @@ describe('RecordingSearch tests', () => {
 
     //1件も表示されていないか
     cy.get('.table-auto > tbody > tr').should(($trs) => {
-      expect($trs, '100 items').to.have.length(0)
+      expect($trs, '0 item').to.have.length(0)
     })
   })
 })
