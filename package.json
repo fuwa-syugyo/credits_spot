@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "tsc": "vue-tsc --noEmit",
     "cypress:open": "cypress open",
-    "start": "node index.ts"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
