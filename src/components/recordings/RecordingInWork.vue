@@ -19,7 +19,6 @@
       isLoading.value = true;
       const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
       const data = await res.json()
-      console.log(data)
 
       const recording_in_work: RecordInWork[] = data?.relations.filter((x: Array<object>) => x).map((item: RecordInWork) => ({
         id: item.recording.id,

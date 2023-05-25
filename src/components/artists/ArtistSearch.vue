@@ -27,7 +27,6 @@
       const offset = (page - 1) * 100
       const res = await fetch(`https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`)
       const data = await res.json();
-      console.log(data)
 
       const new_artist_data: ArtistData[] = data.artists.filter((rec:ArtistData) => rec).map((item: ArtistData) => ({
         id: item.id,
