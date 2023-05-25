@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "tsc": "vue-tsc --noEmit",
     "cypress:open": "cypress open",
-    "cy:run-ct": "cypress run-ct"
+    "cypress:component": "cypress run --component"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
