@@ -15,6 +15,6 @@ jobs:
           build: npm run build
           start: npx vite --host
           browser: chrome
-    env:
-      VITE_CLIENT_ID: ${{ secret.VITE_CLIENT_ID }}
-      VITE_CLIENT_SECRET: ${{ secret.VITE_CLIENT_SECRET }}
+        env:
+          VITE_CLIENT_ID: ${{ secret.VITE_CLIENT_ID }}
+          VITE_CLIENT_SECRET: ${{ secret.VITE_CLIENT_SECRET }}
