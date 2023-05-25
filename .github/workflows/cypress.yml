@@ -25,7 +25,7 @@ jobs:
           build: npm run build
           start: npx vite --host
           browser: chrome
-          spec: cypress/component/*cy.{js,ts}
+          spec: cypress/component/**/*cy.{js,ts}
         env:
           VITE_CLIENT_ID: ${{ secrets.VITE_CLIENT_ID }}
           VITE_CLIENT_SECRET: ${{ secrets.VITE_CLIENT_SECRET }}
