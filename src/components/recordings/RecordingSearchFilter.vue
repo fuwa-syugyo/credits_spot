@@ -29,6 +29,7 @@
     for(let i = 0; i < repeat + 1; i++) {
       const res = await fetch(`https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${ i * 100 }&limit=100&fmt=json`)
       const data = await res.json();
+      console.log(data)
 
       const new_recording_data: SearchRecordingData[] = data.recordings.filter((rec:SearchRecordingData) => rec).map((item: SearchRecordingData) => ({
         id: item.id,

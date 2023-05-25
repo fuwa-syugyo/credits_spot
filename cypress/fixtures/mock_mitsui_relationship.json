@@ -1,0 +1,3483 @@
+{
+  "type": "Person",
+  "gender-id": null,
+  "sort-name": "Mitsui, Ritsuo",
+  "area": {
+      "type": null,
+      "sort-name": "Japan",
+      "disambiguation": "",
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "type-id": null,
+      "name": "Japan",
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+  },
+  "disambiguation": "",
+  "end-area": null,
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "country": "JP",
+  "begin-area": null,
+  "name": "三井律郎",
+  "gender": null,
+  "relations": [
+      {
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "end": null,
+          "direction": "forward",
+          "ended": false,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "type": "member of band",
+          "target-type": "artist",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "artist": {
+              "type": "Group",
+              "sort-name": "YOUTH, THE",
+              "disambiguation": "Japanese band",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "name": "THE YOUTH",
+              "id": "8d1c253a-3fc7-4337-8362-ddb00bc6b8ba"
+          },
+          "begin": null
+      },
+      {
+          "ended": false,
+          "direction": "forward",
+          "end": null,
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "attribute-values": {},
+          "target-type": "artist",
+          "type": "member of band",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": null,
+          "artist": {
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "id": "259beb70-a6bd-48ad-a4fb-7e35ef6c0f23",
+              "name": "la la larks",
+              "type": "Group",
+              "sort-name": "la la larks",
+              "disambiguation": ""
+          },
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "id": "6a04afe4-cf2f-4052-a1e5-b6eea14eaefd",
+              "video": false,
+              "disambiguation": "",
+              "length": 203000,
+              "title": "Distortion!!",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "arranger",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "source-credit": "",
+          "attributes": [],
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "title": "Distortion!! (ノンクレジットED)",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "745ece70-eeb0-49bf-a1ce-9a9f6202c1d4",
+              "length": 92000,
+              "video": true,
+              "disambiguation": ""
+          },
+          "direction": "forward",
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {}
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "attributes": [],
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band"
+                      }
+                  }
+              ],
+              "title": "Distortion‼-instrumental-",
+              "disambiguation": "",
+              "video": false,
+              "length": 204493,
+              "id": "68ae782d-cb47-41b1-8af9-205a94eecbbc"
+          },
+          "direction": "forward",
+          "ended": false
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {},
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [],
+          "type": "arranger",
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "title": "あのバンド",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "789e5343-a625-4127-9661-1daf471f955b",
+              "video": false,
+              "disambiguation": "",
+              "length": 213000
+          }
+      },
+      {
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null,
+          "recording": {
+              "title": "あのバンド -Anime Ver.-",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type-id": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド"
+                      },
+                      "name": "結束バンド"
+                  }
+              ],
+              "id": "be3151d5-f907-462c-9f66-0230a75b3448",
+              "disambiguation": "",
+              "video": false,
+              "length": 123546
+          },
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "ended": false,
+          "direction": "forward",
+          "type": "arranger",
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "id": "6fd47aae-682d-4c00-b097-4e405f589762",
+              "video": false,
+              "disambiguation": "",
+              "length": 215293,
+              "title": "あのバンド -instrumental-",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      },
+                      "name": "結束バンド"
+                  }
+              ]
+          },
+          "direction": "forward",
+          "ended": false
+      },
+      {
+          "type": "arranger",
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！"
+                      }
+                  }
+              ],
+              "title": "カラカラ",
+              "length": 265000,
+              "video": false,
+              "disambiguation": "",
+              "id": "259a77d7-be8c-40a6-9267-54f93551202e"
+          },
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "ended": false,
+          "direction": "forward",
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {}
+      },
+      {
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "id": "fb971c6b-3a11-4b10-b04b-1c932afe7014",
+              "length": 92000,
+              "video": true,
+              "disambiguation": "",
+              "title": "カラカラ (ノンクレジットED)",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "type": "arranger",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "title": "カラカラ-instrumental-",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      },
+                      "name": "結束バンド"
+                  }
+              ],
+              "id": "48c78716-3d87-47c8-8d08-e19bf3a2e98a",
+              "video": false,
+              "disambiguation": "",
+              "length": 265746
+          },
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "ended": false,
+          "direction": "forward"
+      },
+      {
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null
+                      },
+                      "name": "結束バンド",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "なにが悪い",
+              "length": 227000,
+              "video": false,
+              "disambiguation": "",
+              "id": "929b0f97-a56a-4351-9eda-42bab52a0c6e"
+          },
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "type": "arranger",
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "recording": {
+              "title": "なにが悪い -instrumental-",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type-id": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド"
+                      },
+                      "name": "結束バンド",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "e68e7419-644a-4065-83f7-09793d28bc35",
+              "disambiguation": "",
+              "video": false,
+              "length": 227493
+          },
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "ended": false,
+          "direction": "forward",
+          "type": "arranger",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "type": "arranger",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "119c411a-d900-41d4-aaf7-b70a132fd185",
+              "video": true,
+              "disambiguation": "",
+              "length": 92000,
+              "title": "なにが悪い (ノンクレジットED)",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "ended": false,
+          "direction": "forward"
+      },
+      {
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null,
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "id": "9d505e7c-43bd-4da0-9155-8a7df4bf70e0",
+              "video": false,
+              "disambiguation": "",
+              "length": 232000,
+              "title": "ひとりぼっち東京",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "direction": "forward",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {}
+      },
+      {
+          "recording": {
+              "length": 232000,
+              "video": false,
+              "disambiguation": "",
+              "id": "001d10b3-46dc-45eb-880a-b4884436fd8b",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      }
+                  }
+              ],
+              "title": "ひみつ基地"
+          },
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "ended": false,
+          "direction": "forward",
+          "type": "arranger",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "recording": {
+              "id": "76efcb47-f4bf-4b89-b389-b587df7d1ef2",
+              "video": false,
+              "length": 275000,
+              "disambiguation": "",
+              "title": "フラッシュバッカー",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "type-id": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "disambiguation": "ぼっち・ざ・ろっく！"
+                      }
+                  }
+              ]
+          },
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {}
+      },
+      {
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "光の中へ",
+              "disambiguation": "",
+              "video": false,
+              "length": 258000,
+              "id": "dc65daeb-84bc-4973-88c4-669d49dcfbef"
+          },
+          "direction": "forward",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {},
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "arranger",
+          "source-credit": "",
+          "attributes": [],
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band"
+                      },
+                      "name": "結束バンド"
+                  }
+              ],
+              "title": "光の中へ -instrumental-",
+              "length": 258000,
+              "video": false,
+              "disambiguation": "",
+              "id": "77591995-5588-4be4-a0ce-f9ffa298194d"
+          },
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {},
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "arranger",
+          "attributes": [],
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "title": "小さな海",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "b0ba1301-ca31-4408-b301-59719ce55182",
+              "video": false,
+              "length": 223000,
+              "disambiguation": ""
+          },
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d"
+      },
+      {
+          "source-credit": "",
+          "attributes": [],
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "title": "忘れてやらない",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "type-id": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "disambiguation": "ぼっち・ざ・ろっく！"
+                      }
+                  }
+              ],
+              "id": "fbb4ccc1-2386-466e-a339-09594ac1bba6",
+              "video": false,
+              "disambiguation": "",
+              "length": 223000
+          },
+          "direction": "forward",
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {}
+      },
+      {
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "disambiguation": "ぼっち・ざ・ろっく！"
+                      },
+                      "name": "結束バンド",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "星座になれたら",
+              "video": false,
+              "disambiguation": "",
+              "length": 258000,
+              "id": "f340c332-8ceb-4d59-998e-a3adef7f4a00"
+          },
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "arranger",
+          "attributes": [],
+          "source-credit": ""
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "source-credit": "",
+          "attributes": [],
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "disambiguation": "",
+              "video": false,
+              "length": 271000,
+              "id": "161ae480-2ece-484c-a742-1df023223369",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！"
+                      }
+                  }
+              ],
+              "title": "転がる岩、君に朝が降る"
+          },
+          "direction": "forward",
+          "ended": false
+      },
+      {
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      }
+                  }
+              ],
+              "title": "青い春と西の空",
+              "video": false,
+              "length": 253000,
+              "disambiguation": "",
+              "id": "2e67c6d2-5335-4830-947c-7e6652f67c06"
+          },
+          "direction": "forward",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger",
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type-id": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド"
+                      }
+                  }
+              ],
+              "title": "青い春と西の空 -instrumental-",
+              "length": 251000,
+              "video": false,
+              "disambiguation": "",
+              "id": "e5b1aa07-a6b4-407b-9390-c05142629d48"
+          },
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {}
+      },
+      {
+          "recording": {
+              "id": "7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5",
+              "length": 205000,
+              "video": false,
+              "disambiguation": "",
+              "title": "青春コンプレックス",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null
+                      }
+                  }
+              ]
+          },
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "type": "arranger",
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": "",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "青春コンプレックス (ノンクレジットOP)",
+              "length": 31000,
+              "video": true,
+              "disambiguation": "",
+              "id": "b234921e-63eb-4a9e-8f69-4c9ad2847253"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type": "arranger"
+      },
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "recording": {
+              "id": "74d868dc-48d0-46fb-81bf-1e829f210f3e",
+              "video": false,
+              "length": 253000,
+              "disambiguation": "",
+              "title": "Brave Shine (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer"
+                  }
+              ]
+          },
+          "direction": "forward",
+          "ended": true,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2017-08-29"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "id": "714be2ec-f062-4780-97af-916dab5e1c46",
+              "length": 289000,
+              "video": false,
+              "disambiguation": "",
+              "title": "holLow wORlD (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "begin": "2017-08-29",
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "recording": {
+              "video": false,
+              "disambiguation": "",
+              "length": 324000,
+              "id": "2a7f9f9a-7f49-4e13-91b3-ec1c1d410eed",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "LAST STARDUST (from Live in BUDOKAN \"blanc et noir\")"
+          },
+          "direction": "forward",
+          "ended": true,
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2017-08-29",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "begin": "2017-08-29",
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "type": "instrument",
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "recording": {
+              "title": "March of Time (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "id": "9e990af0-148d-4cbe-9ec5-95ea2888513d",
+              "length": 302000,
+              "video": false,
+              "disambiguation": ""
+          }
+      },
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "RE:I AM (from Live in BUDOKAN \"blanc et noir\")",
+              "length": 364000,
+              "video": false,
+              "disambiguation": "",
+              "id": "b711f032-18c3-4765-b4f9-3b280f875f2d"
+          },
+          "direction": "forward",
+          "ended": true,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2017-08-29"
+      },
+      {
+          "end": "2017-08-29",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "title": "Re:pray (from Live in BUDOKAN \"blanc et noir\")",
+              "video": false,
+              "disambiguation": "",
+              "length": 311000,
+              "id": "24d535fb-b44a-4b6c-a2e3-9659c10b2d5e"
+          },
+          "direction": "forward",
+          "ended": true,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2017-08-29"
+      },
+      {
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "title": "Stars in the rain (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer"
+                      }
+                  }
+              ],
+              "id": "59d5f9d0-1555-42e8-9c14-67afe6c39335",
+              "disambiguation": "",
+              "video": false,
+              "length": 355000
+          },
+          "end": "2017-08-29",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2017-08-29",
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "end": "2017-08-29",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "video": false,
+              "length": 276000,
+              "disambiguation": "",
+              "id": "03d451c7-827b-4645-b0c1-2f04d2f9420c",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3"
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "title": "us (from Live in BUDOKAN \"blanc et noir\")"
+          },
+          "direction": "forward",
+          "ended": true,
+          "source-credit": "Ritsuo Mitsui",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2017-08-29"
+      },
+      {
+          "type": "instrument",
+          "source-credit": "Ritsuo Mitsui",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "3ea033af-1fb9-4031-b345-c9d347f99631",
+              "length": 198000,
+              "video": false,
+              "disambiguation": "",
+              "title": "zero (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "ended": true,
+          "direction": "forward",
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2017-08-29",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2017-08-29",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "source-credit": "Ritsuo Mitsui",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "recording": {
+              "id": "2688927f-2a92-4e1d-a503-49b3c9242a59",
+              "disambiguation": "",
+              "video": false,
+              "length": 367000,
+              "title": "あなたに出会わなければ～夏雪冬花～ (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null
+                      },
+                      "name": "Aimer"
+                  }
+              ]
+          },
+          "direction": "forward",
+          "ended": true
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2017-08-29",
+          "attribute-credits": {},
+          "target-credit": "",
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "カタオモイ (from Live in BUDOKAN \"blanc et noir\")",
+              "video": false,
+              "length": 230000,
+              "disambiguation": "",
+              "id": "f3ef6d6d-9bf8-4a9a-963b-780148b01af0"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "Ritsuo Mitsui",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument"
+      },
+      {
+          "begin": "2017-08-29",
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "Ritsuo Mitsui",
+          "attributes": [
+              "guitar"
+          ],
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "title": "スピカ (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "2b372051-ba33-4f2a-b8aa-06070e41bb64",
+              "video": false,
+              "disambiguation": "",
+              "length": 319000
+          },
+          "end": "2017-08-29",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+      },
+      {
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "disambiguation": "",
+              "video": false,
+              "length": 258000,
+              "id": "6e81fd9f-b2b9-4f95-94fd-c52567ecf01e",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer"
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "title": "星屑ビーナス (from Live in BUDOKAN \"blanc et noir\")"
+          },
+          "end": "2017-08-29",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "Ritsuo Mitsui",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2017-08-29",
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2017-08-29",
+          "target-credit": "",
+          "attribute-credits": {},
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "title": "蝶々結び (from Live in BUDOKAN \"blanc et noir\")",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "sort-name": "Aimer",
+                          "type": null
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "id": "5e32e233-6f83-44af-94b0-46887fead55e",
+              "disambiguation": "",
+              "video": false,
+              "length": 328000
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2017-08-29",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "Ritsuo Mitsui",
+          "attributes": [
+              "guitar"
+          ]
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2018-08-13",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "recording": {
+              "id": "24084abb-2e9d-4ad8-a16f-42be3d3643b4",
+              "disambiguation": "",
+              "video": true,
+              "length": null,
+              "title": "7月の翼 (Aimer Fan Club Tour “été”)",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer"
+                  }
+              ]
+          },
+          "direction": "forward",
+          "ended": true,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {}
+      },
+      {
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "recording": {
+              "video": true,
+              "length": null,
+              "disambiguation": "",
+              "id": "45aae7db-32de-4155-8fe3-1bcae90b6ece",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      }
+                  }
+              ],
+              "title": "After Rain (Aimer Fan Club Tour “été”)"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-08-13",
+          "attribute-credits": {},
+          "target-credit": ""
+      },
+      {
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "disambiguation": "",
+              "video": true,
+              "length": null,
+              "id": "fb9db3ef-61c4-4f93-9762-a579a0d8cc38",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer"
+                      }
+                  }
+              ],
+              "title": "Black Bird (Aimer Fan Club Tour “été”)"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-08-13",
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-08-13",
+          "recording": {
+              "video": true,
+              "disambiguation": "",
+              "length": null,
+              "id": "f0df74d9-ae58-4f2d-9d32-d4f9d880bc39",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "title": "Re:pray (Aimer Fan Club Tour “été”)"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "ended": true,
+          "direction": "forward",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "recording": {
+              "title": "Ref:rain (Aimer Fan Club Tour “été”)",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "id": "32227f77-d40e-4fcc-b268-d533a7c567eb",
+              "video": true,
+              "disambiguation": "",
+              "length": null
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "ended": true,
+          "direction": "forward",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-08-13"
+      },
+      {
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "recording": {
+              "id": "0f362171-595c-4f88-9774-8a3435d7ced3",
+              "video": true,
+              "disambiguation": "",
+              "length": null,
+              "title": "tone (Aimer Fan Club Tour “été”)",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3"
+                      }
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-08-13",
+          "attribute-credits": {},
+          "target-credit": ""
+      },
+      {
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-08-13",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "8c716361-f02c-4a37-b687-0b9bb949986d",
+              "disambiguation": "",
+              "video": true,
+              "length": null,
+              "title": "セプテンバーさん (Aimer Fan Club Tour “été”)",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "ended": true,
+          "direction": "forward"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "length": null,
+              "video": true,
+              "disambiguation": "",
+              "id": "5532e2f6-b3b1-4c39-8c9f-b23243d688b5",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "sort-name": "Aimer",
+                          "type": null
+                      }
+                  }
+              ],
+              "title": "夏草に君を想う (Aimer Fan Club Tour “été”)"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-08-13",
+          "begin": "2018-08-13",
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "title": "星の消えた夜に (Aimer Fan Club Tour “été”)",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "eaebec73-1ffd-4ebd-90e8-3aa4148fdbfc",
+              "disambiguation": "",
+              "video": true,
+              "length": null
+          },
+          "end": "2018-08-13",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-08-13",
+          "target-credit": "",
+          "attribute-credits": {}
+      },
+      {
+          "begin": "2018-12-19",
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "recording": {
+              "title": "3min",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "id": "2ec2aaf2-6be9-4b25-a363-a5a1ca0e0e0b",
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "video": true,
+              "length": 199000
+          }
+      },
+      {
+          "recording": {
+              "id": "5b2bd10a-9a63-4858-b050-baa73476abd2",
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "length": 304000,
+              "title": "After Rain -Scarlet ver.-",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      }
+                  }
+              ]
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "ended": true,
+          "direction": "forward",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-12-19"
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-12-19",
+          "attribute-credits": {},
+          "target-credit": "",
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      }
+                  }
+              ],
+              "title": "Believe Be:leave",
+              "video": true,
+              "length": 316000,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "id": "f6327595-159f-4e9d-bbec-8e28264aa9ac"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument"
+      },
+      {
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-12-19",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "length": 230000,
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "id": "c6864694-d48f-49a7-b5f5-1c69d98b367c",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Black Bird"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "ended": true,
+          "direction": "forward"
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-12-19",
+          "attribute-credits": {},
+          "target-credit": "",
+          "direction": "forward",
+          "ended": true,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "recording": {
+              "id": "84644aee-0293-4bd2-8fdd-e3e4fb5b3cef",
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "video": true,
+              "length": 422000,
+              "title": "Hz",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer"
+                      },
+                      "name": "Aimer"
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument"
+      },
+      {
+          "begin": "2018-12-19",
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "direction": "forward",
+          "ended": true,
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "title": "Monochrome Syndrome",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "07d17aeb-98da-42bb-94d5-73856b6b3edd",
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "length": 312000
+          }
+      },
+      {
+          "begin": "2018-12-19",
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "title": "ONE",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "df64efff-2c55-4e50-8759-bf523f7a50e7",
+              "video": true,
+              "length": 343000,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan"
+          },
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-12-19",
+          "target-credit": "",
+          "attribute-credits": {},
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "title": "Ref:rain",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "e836220f-0b9a-4a88-8f4d-1e41531003d7",
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "length": 331000
+          },
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ]
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "sort-name": "Aimer",
+                          "type": null
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "title": "soleil",
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "video": true,
+              "length": 66000,
+              "id": "b6359a79-fc20-46a1-8f28-661781bda9aa"
+          },
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "begin": "2018-12-19",
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-12-19",
+          "attribute-credits": {},
+          "target-credit": "",
+          "direction": "forward",
+          "ended": true,
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "title": "あなたに出会わなければ 〜夏雪冬花〜",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Aimer",
+                      "artist": {
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer"
+                      }
+                  }
+              ],
+              "id": "686d5648-3c75-49ac-b977-5ddc79b3167f",
+              "length": 378000,
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument"
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-12-19",
+          "recording": {
+              "title": "カタオモイ",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "c3908154-f5be-4303-addd-898a5d1c59a9",
+              "video": true,
+              "length": 233000,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan"
+          },
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": true,
+          "direction": "forward",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2018-12-19",
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "title": "今日から思い出 Evergreen ver.",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "9530f375-d3b8-4810-bf62-e3cdcfd2de6c",
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "video": true,
+              "length": 317000
+          },
+          "direction": "forward",
+          "ended": true,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {}
+      },
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "recording": {
+              "title": "思い出は奇麗で",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "sort-name": "Aimer",
+                          "type": null,
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "id": "410f03a0-8f29-4ed0-a6e1-ac22ba1ebf88",
+              "length": 240000,
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan"
+          },
+          "direction": "forward",
+          "ended": true,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": "2018-12-19"
+      },
+      {
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": "2018-12-19",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "abf6a18d-4aad-4561-8be9-f2b5073cc976",
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "length": 265000,
+              "title": "眩いばかり",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3"
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "ended": true,
+          "direction": "forward"
+      },
+      {
+          "direction": "forward",
+          "ended": true,
+          "end": "2018-12-19",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "title": "花の唄",
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer",
+                          "type-id": null,
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "ed7fd43c-26a9-49fc-9061-9013aaa89721",
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "video": true,
+              "length": 381000
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "RITSUO MITSUI",
+          "type": "instrument",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": "2018-12-19",
+          "attribute-credits": {},
+          "target-credit": ""
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "ended": true,
+          "direction": "forward",
+          "recording": {
+              "id": "9d2f1c11-e2bf-4917-ba61-62b80bfbb0f3",
+              "length": 349000,
+              "video": true,
+              "disambiguation": "live, 2018-12-19: Tokyo International Forum Hall A, Tokyo, Japan",
+              "title": "蝶々結び",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type-id": null
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": "2018-12-19",
+          "begin": "2018-12-19",
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": null,
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "title": "【LIVE映像】「青春コンプレックス」/ ぼっち・ざ・ろっく！-SPECIAL STUDIO LIVE-",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "Various Artists",
+                      "artist": {
+                          "disambiguation": "add compilations to this artist",
+                          "sort-name": "Various Artists",
+                          "type": null,
+                          "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                          "name": "Various Artists",
+                          "type-id": null
+                      }
+                  }
+              ],
+              "id": "ad62e849-04ad-40ad-bb35-f02a0e468220",
+              "disambiguation": "",
+              "video": true,
+              "length": 227000
+          },
+          "direction": "forward",
+          "ended": false,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {}
+      },
+      {
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "id": "ccfc1d5a-e1f0-4336-ac61-83b20285a9e7",
+              "video": false,
+              "disambiguation": "",
+              "length": 258000,
+              "title": "Dream hopper",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "逢田梨香子",
+                      "artist": {
+                          "type-id": null,
+                          "id": "a9aa2eda-b3a1-4c6b-9cb7-12d8afa2b0a3",
+                          "name": "逢田梨香子",
+                          "sort-name": "Aida, Rikako",
+                          "type": null,
+                          "disambiguation": ""
+                      }
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "type": "instrument",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": null,
+          "attribute-credits": {},
+          "target-credit": ""
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "",
+          "attributes": [
+              "guitar"
+          ],
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "sort-name": "ReoNa",
+                          "name": "ReoNa",
+                          "id": "4da158cc-4d03-48d6-aefc-6726e4f9a149",
+                          "type-id": null
+                      },
+                      "name": "ReoNa"
+                  }
+              ],
+              "title": "unknown",
+              "video": false,
+              "disambiguation": "",
+              "length": 260000,
+              "id": "1dbe09d8-ad0d-4ff5-a207-80f77ea3f3ca"
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": null,
+          "attribute-credits": {},
+          "target-credit": "",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "name": "Aimer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "disambiguation": "Japanese pop singer"
+                      },
+                      "name": "Aimer"
+                  }
+              ],
+              "title": "カタオモイ - From THE FIRST TAKE",
+              "length": 222804,
+              "video": false,
+              "disambiguation": "",
+              "id": "c7f13f23-be86-4faa-8b30-ca03b8fd50be"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "",
+          "attributes": [
+              "acoustic guitar",
+              "electric guitar"
+          ],
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "video": false,
+              "length": 293040,
+              "disambiguation": "",
+              "id": "66b84673-7844-460b-b8d0-215186e9f256",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "いきものがかり",
+                      "artist": {
+                          "type-id": null,
+                          "name": "いきものがかり",
+                          "id": "18191eea-369f-42e8-96ab-c1c24e4d0011",
+                          "type": null,
+                          "sort-name": "ikimonogakari",
+                          "disambiguation": ""
+                      }
+                  }
+              ],
+              "title": "ハルウタ"
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "acoustic guitar": "00beaf8e-a781-431c-8130-7c2871696b7d",
+              "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+          }
+      },
+      {
+          "attribute-ids": {
+              "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87",
+              "acoustic guitar": "00beaf8e-a781-431c-8130-7c2871696b7d"
+          },
+          "begin": null,
+          "attribute-credits": {},
+          "target-credit": "",
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "id": "9d2c945e-4941-4752-88ab-1c22f6a5b036",
+              "disambiguation": "",
+              "video": false,
+              "length": 291533,
+              "title": "ハルウタ -instrumental-",
+              "artist-credit": [
+                  {
+                      "name": "いきものがかり",
+                      "artist": {
+                          "disambiguation": "",
+                          "sort-name": "ikimonogakari",
+                          "type": null,
+                          "id": "18191eea-369f-42e8-96ab-c1c24e4d0011",
+                          "name": "いきものがかり",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "acoustic guitar",
+              "electric guitar"
+          ],
+          "source-credit": "",
+          "type": "instrument"
+      },
+      {
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "9d505e7c-43bd-4da0-9155-8a7df4bf70e0",
+              "video": false,
+              "disambiguation": "",
+              "length": 232000,
+              "title": "ひとりぼっち東京",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": false,
+          "direction": "forward",
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": null,
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": null,
+          "attribute-ids": {
+              "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87",
+              "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c"
+          },
+          "type": "instrument",
+          "source-credit": "",
+          "attributes": [
+              "electric guitar",
+              "guest"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "7d31bbbd-b486-4b48-aaac-b07c962135ea",
+              "disambiguation": "",
+              "video": false,
+              "length": 244066,
+              "title": "ホタルノヒカリ",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "sort-name": "ikimonogakari",
+                          "type": null,
+                          "disambiguation": "",
+                          "type-id": null,
+                          "id": "18191eea-369f-42e8-96ab-c1c24e4d0011",
+                          "name": "いきものがかり"
+                      },
+                      "name": "いきものがかり"
+                  }
+              ]
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": false,
+          "direction": "forward"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "acoustic guitar",
+              "guest"
+          ],
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "title": "ホタルノヒカリ",
+              "artist-credit": [
+                  {
+                      "name": "いきものがかり",
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "sort-name": "ikimonogakari",
+                          "name": "いきものがかり",
+                          "id": "18191eea-369f-42e8-96ab-c1c24e4d0011",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "7d31bbbd-b486-4b48-aaac-b07c962135ea",
+              "video": false,
+              "disambiguation": "",
+              "length": 244066
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "acoustic guitar": "00beaf8e-a781-431c-8130-7c2871696b7d",
+              "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c"
+          }
+      },
+      {
+          "direction": "forward",
+          "ended": false,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "name": "いきものがかり",
+                          "id": "18191eea-369f-42e8-96ab-c1c24e4d0011",
+                          "type": null,
+                          "sort-name": "ikimonogakari",
+                          "disambiguation": ""
+                      },
+                      "name": "いきものがかり"
+                  }
+              ],
+              "title": "ホタルノヒカリ -instrumental-",
+              "length": 242026,
+              "video": false,
+              "disambiguation": "",
+              "id": "61bb60ec-4f30-4f98-bab8-f3e75ce2727a"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "acoustic guitar",
+              "guest"
+          ],
+          "source-credit": "",
+          "type": "instrument",
+          "attribute-ids": {
+              "acoustic guitar": "00beaf8e-a781-431c-8130-7c2871696b7d",
+              "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c"
+          },
+          "begin": null,
+          "attribute-credits": {},
+          "target-credit": ""
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "electric guitar",
+              "guest"
+          ],
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "いきものがかり",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "ikimonogakari",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "name": "いきものがかり",
+                          "id": "18191eea-369f-42e8-96ab-c1c24e4d0011"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "ホタルノヒカリ -instrumental-",
+              "video": false,
+              "length": 242026,
+              "disambiguation": "",
+              "id": "61bb60ec-4f30-4f98-bab8-f3e75ce2727a"
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87",
+              "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c"
+          }
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "",
+          "attributes": [
+              "guitar"
+          ],
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "length": 258000,
+              "video": false,
+              "disambiguation": "",
+              "id": "dc65daeb-84bc-4973-88c4-669d49dcfbef",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f"
+                      }
+                  }
+              ],
+              "title": "光の中へ"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null,
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null,
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "光の中へ -instrumental-",
+              "video": false,
+              "disambiguation": "",
+              "length": 258000,
+              "id": "77591995-5588-4be4-a0ce-f9ffa298194d"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null
+      },
+      {
+          "direction": "forward",
+          "ended": false,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null,
+          "recording": {
+              "title": "星の消えた夜に -rit. ver.-",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "disambiguation": "Japanese pop singer",
+                          "type": null,
+                          "sort-name": "Aimer",
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null
+                      },
+                      "name": "Aimer",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "8d1ab427-7db0-4095-8c44-c137a1d9266d",
+              "video": false,
+              "disambiguation": "",
+              "length": 362000
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "type": "instrument",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "begin": null,
+          "attribute-credits": {},
+          "target-credit": ""
+      },
+      {
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": null,
+          "attribute-ids": {
+              "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+          },
+          "type": "instrument",
+          "source-credit": "",
+          "attributes": [
+              "electric guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "video": false,
+              "length": 273000,
+              "disambiguation": "",
+              "id": "7244b2db-3c60-4a31-b777-a45f322cba56",
+              "artist-credit": [
+                  {
+                      "name": "坂本真綾",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Sakamoto, Maaya",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "id": "b6c18308-82c7-4ec1-a42d-e8488bce6618",
+                          "name": "坂本真綾"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "色彩"
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": false,
+          "direction": "forward"
+      },
+      {
+          "recording": {
+              "title": "色彩 (Instrumental)",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "坂本真綾",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Sakamoto, Maaya",
+                          "disambiguation": "",
+                          "type-id": null,
+                          "name": "坂本真綾",
+                          "id": "b6c18308-82c7-4ec1-a42d-e8488bce6618"
+                      }
+                  }
+              ],
+              "id": "a8b4b67f-7a2f-4b09-acbf-bab23c8b340e",
+              "video": false,
+              "disambiguation": "",
+              "length": 270000
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": false,
+          "direction": "forward",
+          "type": "instrument",
+          "source-credit": "",
+          "attributes": [
+              "electric guitar"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {
+              "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+          },
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": null
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "instrument",
+          "source-credit": "RITSUO MITSUI",
+          "attributes": [
+              "guitar"
+          ],
+          "ended": false,
+          "direction": "forward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "name": "Aimer",
+                      "artist": {
+                          "name": "Aimer",
+                          "id": "9388cee2-7d57-4598-905f-106019b267d3",
+                          "type-id": null,
+                          "disambiguation": "Japanese pop singer",
+                          "sort-name": "Aimer",
+                          "type": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "蝶々結び (\"amazarashi × Aimer Asia Tour 2018\"@上海BANDAI NAMCO BASE)",
+              "disambiguation": "",
+              "video": true,
+              "length": null,
+              "id": "f5eb9a4e-0389-4e79-a998-6c1ab866b205"
+          },
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null
+      },
+      {
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "target-credit": "",
+          "attribute-credits": {},
+          "begin": null,
+          "recording": {
+              "video": false,
+              "disambiguation": "",
+              "length": 253000,
+              "id": "2e67c6d2-5335-4830-947c-7e6652f67c06",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "結束バンド",
+                      "artist": {
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "sort-name": "Kessoku Band",
+                          "type": null
+                      }
+                  }
+              ],
+              "title": "青い春と西の空"
+          },
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "ended": false,
+          "direction": "forward",
+          "type": "instrument",
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "type": "instrument",
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "recording": {
+              "id": "e5b1aa07-a6b4-407b-9390-c05142629d48",
+              "video": false,
+              "disambiguation": "",
+              "length": 251000,
+              "title": "青い春と西の空 -instrumental-",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "name": "結束バンド",
+                          "type-id": null,
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type": null,
+                          "sort-name": "Kessoku Band"
+                      },
+                      "name": "結束バンド"
+                  }
+              ]
+          },
+          "begin": null,
+          "attribute-credits": {},
+          "target-credit": "",
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          }
+      },
+      {
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null,
+          "recording": {
+              "title": "青春コンプレックス",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type": null,
+                          "sort-name": "Kessoku Band",
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "type-id": null,
+                          "name": "結束バンド",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f"
+                      },
+                      "name": "結束バンド",
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5",
+              "video": false,
+              "length": 205000,
+              "disambiguation": ""
+          },
+          "direction": "forward",
+          "ended": false,
+          "attributes": [
+              "guitar"
+          ],
+          "source-credit": "",
+          "type": "instrument",
+          "target-type": "recording",
+          "attribute-values": {},
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "attributes": [],
+          "source-credit": "",
+          "type": "composer",
+          "target-type": "work",
+          "attribute-values": {},
+          "end": null,
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "direction": "forward",
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "id": "7c90ac88-6266-46af-b91b-f55de0d00a07",
+              "type": "Song",
+              "attributes": [],
+              "iswcs": [
+                  "T-917.900.337-3"
+              ],
+              "title": "Q AND A",
+              "language": "jpn",
+              "disambiguation": ""
+          }
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "work": {
+              "id": "a1efddf5-c432-4d7c-8fee-4cc713546859",
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "disambiguation": "",
+              "type": "Song",
+              "language": "jpn",
+              "title": "ハレルヤ",
+              "attributes": [],
+              "iswcs": [
+                  "T-917.900.335-1"
+              ]
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "target-type": "work",
+          "type": "composer",
+          "attributes": [],
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "end": null,
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+      },
+      {
+          "ended": false,
+          "direction": "forward",
+          "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+          "end": null,
+          "attribute-values": {},
+          "target-type": "work",
+          "type": "composer",
+          "attributes": [],
+          "source-credit": "",
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "id": "090617db-b111-4775-a77f-5771bf6c0780",
+              "type": "Song",
+              "language": "jpn",
+              "title": "色彩",
+              "attributes": [],
+              "iswcs": [
+                  "T-916.831.751-9"
+              ],
+              "disambiguation": ""
+          },
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "work": {
+              "type": "Song",
+              "iswcs": [
+                  "T-917.900.337-3"
+              ],
+              "title": "Q AND A",
+              "attributes": [],
+              "language": "jpn",
+              "disambiguation": "",
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "id": "7c90ac88-6266-46af-b91b-f55de0d00a07"
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "target-type": "work",
+          "type": "lyricist",
+          "source-credit": "",
+          "attributes": [],
+          "ended": false,
+          "direction": "forward",
+          "end": null,
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "work",
+          "type": "lyricist",
+          "attributes": [],
+          "source-credit": "",
+          "ended": false,
+          "direction": "forward",
+          "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+          "end": null,
+          "begin": null,
+          "target-credit": "",
+          "work": {
+              "language": "jpn",
+              "iswcs": [
+                  "T-917.900.335-1"
+              ],
+              "attributes": [],
+              "title": "ハレルヤ",
+              "type": "Song",
+              "disambiguation": "",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [
+                  "jpn"
+              ],
+              "id": "a1efddf5-c432-4d7c-8fee-4cc713546859"
+          },
+          "attribute-ids": {}
+      }
+  ],
+  "ipis": [
+      "00570775133"
+  ],
+  "life-span": {
+      "end": null,
+      "ended": false,
+      "begin": null
+  },
+  "begin_area": null,
+  "end_area": null,
+  "id": "66dea38d-e16d-4774-b5c5-e0ee56808731",
+  "isnis": []
+}

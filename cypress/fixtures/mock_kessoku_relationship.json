@@ -1,0 +1,143 @@
+{
+  "begin_area": {
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "type-id": null,
+      "name": "Japan",
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "type": null,
+      "sort-name": "Japan",
+      "disambiguation": ""
+  },
+  "life-span": {
+      "end": null,
+      "ended": false,
+      "begin": "2022"
+  },
+  "ipis": [],
+  "gender": null,
+  "relations": [
+      {
+          "direction": "backward",
+          "ended": false,
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "end": null,
+          "target-type": "artist",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [],
+          "type": "member of band",
+          "attribute-ids": {},
+          "artist": {
+              "id": "2941695d-f585-442d-8c77-b36bfca992f2",
+              "name": "後藤ひとり",
+              "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+              "disambiguation": "ぼっち・ざ・ろっく！",
+              "sort-name": "Gotō, Hitori",
+              "type": "Character"
+          },
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null,
+          "artist": {
+              "disambiguation": "ぼっち・ざ・ろっく！",
+              "type": "Character",
+              "sort-name": "Ijichi, Nijika",
+              "id": "c62fb5d7-81f9-47cf-aae9-d7cc2f294dd1",
+              "name": "伊地知虹夏",
+              "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f"
+          },
+          "end": null,
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "direction": "backward",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type": "member of band",
+          "target-type": "artist",
+          "attribute-values": {}
+      },
+      {
+          "source-credit": "",
+          "attributes": [],
+          "type": "member of band",
+          "target-type": "artist",
+          "attribute-values": {},
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "end": null,
+          "direction": "backward",
+          "ended": false,
+          "target-credit": "",
+          "artist": {
+              "id": "5c2e2574-9027-47d7-a725-1864bf52bf20",
+              "name": "喜多郁代",
+              "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+              "disambiguation": "ぼっち・ざ・ろっく！",
+              "sort-name": "Kita, Ikuyo",
+              "type": "Character"
+          },
+          "begin": null,
+          "attribute-ids": {}
+      },
+      {
+          "target-credit": "",
+          "artist": {
+              "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+              "name": "山田リョウ",
+              "id": "25feadb9-9dc4-4737-b56c-540e311de59d",
+              "sort-name": "Yamada, Ryō",
+              "type": "Character",
+              "disambiguation": "ぼっち・ざ・ろっく！"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "type": "member of band",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "artist",
+          "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+          "end": null,
+          "ended": false,
+          "direction": "backward"
+      }
+  ],
+  "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+  "isnis": [],
+  "end_area": null,
+  "disambiguation": "ぼっち・ざ・ろっく！",
+  "sort-name": "Kessoku Band",
+  "area": {
+      "type-id": null,
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "name": "Japan",
+      "type": null,
+      "sort-name": "Japan",
+      "disambiguation": ""
+  },
+  "type": "Group",
+  "gender-id": null,
+  "name": "結束バンド",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+  "country": "JP",
+  "begin-area": {
+      "iso-3166-1-codes": [
+          "JP"
+      ],
+      "type-id": null,
+      "name": "Japan",
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "type": null,
+      "sort-name": "Japan",
+      "disambiguation": ""
+  },
+  "end-area": null
+}
