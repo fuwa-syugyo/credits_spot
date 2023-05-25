@@ -1,0 +1,65 @@
+{
+  "created": "2023-05-25T03:44:36.381Z",
+  "count": 2,
+  "offset": 0,
+  "artists": [
+      {
+          "id": "df6c619f-4334-43e2-8b6a-4a32af1e4f85",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "YOASOBI",
+          "sort-name": "YOASOBI",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000491367931"
+          ],
+          "life-span": {
+              "begin": "2019-09-30",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "j-pop"
+              },
+              {
+                  "count": 0,
+                  "name": "j-rock"
+              }
+          ]
+      },
+      {
+          "id": "57c040ba-4b4c-48de-b487-23b69b0d4aba",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 81,
+          "name": "YOASOBI バンド",
+          "sort-name": "YOASOBI Band",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      }
+  ]
+}

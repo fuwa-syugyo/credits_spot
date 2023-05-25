@@ -20,6 +20,7 @@
       isLoading.value = true;
       const relationshipsRes = await fetch(`https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`)
       const relationshipsData = await relationshipsRes.json()
+      console.log(relationshipsData)
 
       const artists: Artists[] = relationshipsData["artist-credit"]
 
@@ -86,6 +87,7 @@
             });
             const spotifyData = await spotifyRes.json()
             spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
+            console.log(spotifyData)
           } catch (error) {
             console.error(error);
           }

@@ -1,0 +1,146 @@
+{
+  "length": 366160,
+  "disambiguation": "",
+  "relations": [
+      {
+          "attribute-values": {},
+          "ended": false,
+          "type": "arranger",
+          "begin": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "attributes": [],
+          "attribute-ids": {},
+          "end": null,
+          "direction": "backward",
+          "target-credit": "",
+          "source-credit": "",
+          "artist": {
+              "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+              "sort-name": "Komuro, Tetsuya",
+              "disambiguation": "",
+              "type": "Person",
+              "name": "小室哲哉",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "target-type": "artist"
+      },
+      {
+          "attribute-ids": {},
+          "direction": "backward",
+          "end": null,
+          "source-credit": "",
+          "target-credit": "",
+          "target-type": "artist",
+          "artist": {
+              "id": "a48b9f88-0cc3-40c7-9a40-58db01ea7b73",
+              "sort-name": "TRF",
+              "disambiguation": "Japanese pop band",
+              "type": "Group",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "name": "TRF"
+          },
+          "ended": false,
+          "attribute-values": {},
+          "type": "performer",
+          "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+          "attributes": [],
+          "begin": null
+      },
+      {
+          "end": null,
+          "direction": "forward",
+          "attribute-ids": {},
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "language": "jpn",
+              "attributes": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "disambiguation": "",
+              "iswcs": [
+                  "T-071.011.917-7"
+              ],
+              "relations": [
+                  {
+                      "begin": null,
+                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                      "attributes": [],
+                      "type": "composer",
+                      "attribute-values": {},
+                      "ended": false,
+                      "artist": {
+                          "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+                          "sort-name": "Komuro, Tetsuya",
+                          "disambiguation": "",
+                          "type": "Person",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "name": "小室哲哉"
+                      },
+                      "target-type": "artist",
+                      "target-credit": "",
+                      "source-credit": "",
+                      "end": null,
+                      "direction": "backward",
+                      "attribute-ids": {}
+                  },
+                  {
+                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                      "attributes": [],
+                      "begin": null,
+                      "type": "lyricist",
+                      "ended": false,
+                      "attribute-values": {},
+                      "target-type": "artist",
+                      "artist": {
+                          "sort-name": "Komuro, Tetsuya",
+                          "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+                          "name": "小室哲哉",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "type": "Person",
+                          "disambiguation": ""
+                      },
+                      "source-credit": "",
+                      "target-credit": "",
+                      "direction": "backward",
+                      "end": null,
+                      "attribute-ids": {}
+                  }
+              ],
+              "type": "Song",
+              "title": "CRAZY GONNA CRAZY",
+              "id": "73d884ae-bdb1-466f-8585-23aeb4644bfb"
+          },
+          "target-type": "work",
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "begin": null,
+          "attributes": [],
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "type": "performance"
+      }
+  ],
+  "video": false,
+  "artist-credit": [
+      {
+          "artist": {
+              "sort-name": "TRF",
+              "id": "a48b9f88-0cc3-40c7-9a40-58db01ea7b73",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "name": "TRF",
+              "type": "Group",
+              "disambiguation": "Japanese pop band"
+          },
+          "name": "TRF",
+          "joinphrase": ""
+      }
+  ],
+  "title": "CRAZY GONNA CRAZY",
+  "isrcs": [
+      "JPB609520101"
+  ],
+  "id": "4f33f498-ecac-429a-87ee-ec6f74680fcc",
+  "first-release-date": "1995-03-27"
+}
