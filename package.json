@@ -8,7 +8,7 @@
     "build": "npm run && vite build",
     "preview": "vite preview",
     "tsc": "vue-tsc --noEmit",
-    "cypress:run": "cypress run && cypress run --component",
+    "cypress:run": "cypress run",
     "cypress:component": "cypress run --component"
   },
   "dependencies": {
