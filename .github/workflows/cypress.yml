@@ -12,6 +12,6 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           build: npm run build
-          start: npm run start
+          start: npm start
           browser: chrome
           wait-on: "http://localhost:5173"
