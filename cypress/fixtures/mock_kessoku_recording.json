@@ -1,0 +1,294 @@
+{
+  "recording-offset": 0,
+  "recording-count": 36,
+  "recordings": [
+      {
+          "video": false,
+          "id": "001d10b3-46dc-45eb-880a-b4884436fd8b",
+          "length": 232000,
+          "disambiguation": "",
+          "title": "ひみつ基地",
+          "first-release-date": "2022-12-25"
+      },
+      {
+          "id": "01ca1ae4-fa24-44a7-8fa3-56109ad47ec2",
+          "video": false,
+          "title": "ギターと孤独と蒼い惑星-Anime Ver.-",
+          "first-release-date": "2023-02-22",
+          "disambiguation": "",
+          "length": 107400
+      },
+      {
+          "video": false,
+          "id": "049f90df-2b19-4b6a-89f6-53fd03610582",
+          "disambiguation": "",
+          "length": 232000,
+          "title": "ひとりぼっち東京 -instrumental-",
+          "first-release-date": "2022-10-12"
+      },
+      {
+          "video": true,
+          "id": "119c411a-d900-41d4-aaf7-b70a132fd185",
+          "length": 92000,
+          "disambiguation": "",
+          "first-release-date": "2022-12-28",
+          "title": "なにが悪い (ノンクレジットED)"
+      },
+      {
+          "length": 271000,
+          "disambiguation": "",
+          "title": "転がる岩、君に朝が降る",
+          "first-release-date": "2022-12-25",
+          "video": false,
+          "id": "161ae480-2ece-484c-a742-1df023223369"
+      },
+      {
+          "video": false,
+          "id": "1d444824-b57f-49ba-8472-78dc7334ac45",
+          "length": 188000,
+          "disambiguation": "",
+          "title": "ラブソングが歌えない",
+          "first-release-date": "2022-12-25"
+      },
+      {
+          "title": "カラカラ",
+          "first-release-date": "2022-10-30",
+          "disambiguation": "",
+          "length": 265000,
+          "id": "259a77d7-be8c-40a6-9267-54f93551202e",
+          "video": false
+      },
+      {
+          "video": false,
+          "id": "2e67c6d2-5335-4830-947c-7e6652f67c06",
+          "length": 253000,
+          "disambiguation": "",
+          "first-release-date": "2023-05-22",
+          "title": "青い春と西の空"
+      },
+      {
+          "video": false,
+          "id": "48c78716-3d87-47c8-8d08-e19bf3a2e98a",
+          "disambiguation": "",
+          "length": 265746,
+          "first-release-date": "2023-02-22",
+          "title": "カラカラ-instrumental-"
+      },
+      {
+          "title": "忘れてやらない-Anime Ver.-",
+          "first-release-date": "2023-05-24",
+          "length": 152026,
+          "disambiguation": "",
+          "id": "617c7cf5-34ff-4688-910c-85404efd1431",
+          "video": false
+      },
+      {
+          "first-release-date": "2023-02-22",
+          "title": "Distortion‼-instrumental-",
+          "length": 204493,
+          "disambiguation": "",
+          "id": "68ae782d-cb47-41b1-8af9-205a94eecbbc",
+          "video": false
+      },
+      {
+          "title": "Distortion!!",
+          "first-release-date": "2022-10-09",
+          "disambiguation": "",
+          "length": 203000,
+          "id": "6a04afe4-cf2f-4052-a1e5-b6eea14eaefd",
+          "video": false
+      },
+      {
+          "video": false,
+          "id": "6b2766f8-57db-403a-b5cb-bd4c28a9eae7",
+          "disambiguation": "",
+          "length": 91213,
+          "title": "あのバンド-路上ライブinstrumental-",
+          "first-release-date": "2023-02-22"
+      },
+      {
+          "first-release-date": "2022-11-06",
+          "title": "ギターと孤独と蒼い惑星",
+          "length": 228000,
+          "disambiguation": "",
+          "id": "6bfa509c-b1c9-4878-89a8-6d1119b6137d",
+          "video": false
+      },
+      {
+          "first-release-date": "2023-03-22",
+          "title": "あのバンド -instrumental-",
+          "disambiguation": "",
+          "length": 215293,
+          "id": "6fd47aae-682d-4c00-b097-4e405f589762",
+          "video": false
+      },
+      {
+          "video": true,
+          "id": "745ece70-eeb0-49bf-a1ce-9a9f6202c1d4",
+          "length": 92000,
+          "disambiguation": "",
+          "first-release-date": "2022-12-28",
+          "title": "Distortion!! (ノンクレジットED)"
+      },
+      {
+          "disambiguation": "",
+          "length": 275000,
+          "title": "フラッシュバッカー",
+          "first-release-date": "2022-12-25",
+          "video": false,
+          "id": "76efcb47-f4bf-4b89-b389-b587df7d1ef2"
+      },
+      {
+          "id": "77591995-5588-4be4-a0ce-f9ffa298194d",
+          "video": false,
+          "title": "光の中へ -instrumental-",
+          "first-release-date": "2023-05-22",
+          "disambiguation": "",
+          "length": 258000
+      },
+      {
+          "video": false,
+          "id": "789e5343-a625-4127-9661-1daf471f955b",
+          "length": 213000,
+          "disambiguation": "",
+          "first-release-date": "2022-11-27",
+          "title": "あのバンド"
+      },
+      {
+          "id": "7bd3135d-d361-4c55-b77d-7fb923e1a21d",
+          "video": false,
+          "first-release-date": "2023-05-24",
+          "title": "星座になれたら-instrumental-",
+          "disambiguation": "",
+          "length": 259160
+      },
+      {
+          "id": "7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5",
+          "video": false,
+          "first-release-date": "2022-10-09",
+          "title": "青春コンプレックス",
+          "disambiguation": "",
+          "length": 205000
+      },
+      {
+          "title": "なにが悪い",
+          "first-release-date": "2022-11-27",
+          "disambiguation": "",
+          "length": 227000,
+          "id": "929b0f97-a56a-4351-9eda-42bab52a0c6e",
+          "video": false
+      },
+      {
+          "length": 232000,
+          "disambiguation": "",
+          "first-release-date": "2022-10-12",
+          "title": "ひとりぼっち東京",
+          "video": false,
+          "id": "9d505e7c-43bd-4da0-9155-8a7df4bf70e0"
+      },
+      {
+          "disambiguation": "",
+          "length": 271800,
+          "first-release-date": "2023-05-24",
+          "title": "転がる岩、君に朝が降る-instrumental-",
+          "video": false,
+          "id": "9f672a31-977c-45fc-9d0d-607d07dedfb3"
+      },
+      {
+          "id": "b0ba1301-ca31-4408-b301-59719ce55182",
+          "video": false,
+          "first-release-date": "2022-12-25",
+          "title": "小さな海",
+          "length": 223000,
+          "disambiguation": ""
+      },
+      {
+          "video": true,
+          "id": "b234921e-63eb-4a9e-8f69-4c9ad2847253",
+          "length": 31000,
+          "disambiguation": "",
+          "first-release-date": "2022-12-28",
+          "title": "青春コンプレックス (ノンクレジットOP)"
+      },
+      {
+          "video": false,
+          "id": "bd4d5872-f90d-43aa-be4d-e82e184fb647",
+          "length": 225373,
+          "disambiguation": "",
+          "first-release-date": "2023-05-24",
+          "title": "忘れてやらない-instrumental-"
+      },
+      {
+          "video": false,
+          "id": "be3151d5-f907-462c-9f66-0230a75b3448",
+          "length": 123546,
+          "disambiguation": "",
+          "title": "あのバンド -Anime Ver.-",
+          "first-release-date": "2023-03-22"
+      },
+      {
+          "disambiguation": "",
+          "length": 205000,
+          "first-release-date": "2022-10-12",
+          "title": "青春コンプレックス -instrumental-",
+          "video": false,
+          "id": "cf56a9f3-5b15-4282-adcb-5a9a6bf4cf67"
+      },
+      {
+          "disambiguation": "",
+          "length": 258000,
+          "title": "光の中へ",
+          "first-release-date": "2023-05-22",
+          "video": false,
+          "id": "dc65daeb-84bc-4973-88c4-669d49dcfbef"
+      },
+      {
+          "disambiguation": "",
+          "length": 188333,
+          "title": "星座になれたら-Anime Ver.-",
+          "first-release-date": "2023-05-24",
+          "video": false,
+          "id": "e28f8528-d775-48e4-a2be-6918fa1a01ed"
+      },
+      {
+          "disambiguation": "",
+          "length": 251000,
+          "first-release-date": "2023-05-22",
+          "title": "青い春と西の空 -instrumental-",
+          "video": false,
+          "id": "e5b1aa07-a6b4-407b-9390-c05142629d48"
+      },
+      {
+          "video": false,
+          "id": "e68e7419-644a-4065-83f7-09793d28bc35",
+          "length": 227493,
+          "disambiguation": "",
+          "title": "なにが悪い -instrumental-",
+          "first-release-date": "2023-03-22"
+      },
+      {
+          "video": false,
+          "id": "f340c332-8ceb-4d59-998e-a3adef7f4a00",
+          "disambiguation": "",
+          "length": 258000,
+          "title": "星座になれたら",
+          "first-release-date": "2022-12-25"
+      },
+      {
+          "first-release-date": "2022-12-28",
+          "title": "カラカラ (ノンクレジットED)",
+          "disambiguation": "",
+          "length": 92000,
+          "id": "fb971c6b-3a11-4b10-b04b-1c932afe7014",
+          "video": true
+      },
+      {
+          "video": false,
+          "id": "fbb4ccc1-2386-466e-a339-09594ac1bba6",
+          "length": 223000,
+          "disambiguation": "",
+          "title": "忘れてやらない",
+          "first-release-date": "2022-12-25"
+      }
+  ]
+}

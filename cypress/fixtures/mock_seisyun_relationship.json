@@ -1,0 +1,361 @@
+{
+  "title": "青春コンプレックス",
+  "first-release-date": "2022-10-09",
+  "relations": [
+      {
+          "end": null,
+          "attribute-values": {},
+          "type": "arranger",
+          "ended": false,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "target-type": "artist",
+          "artist": {
+              "name": "三井律郎",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Mitsui, Ritsuo",
+              "id": "66dea38d-e16d-4774-b5c5-e0ee56808731",
+              "disambiguation": ""
+          },
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-ids": {},
+          "attributes": [],
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "attributes": [
+              "drums (drum set)"
+          ],
+          "attribute-credits": {},
+          "target-credit": "",
+          "begin": null,
+          "end": null,
+          "attribute-values": {},
+          "type": "instrument",
+          "ended": false,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "target-type": "artist",
+          "artist": {
+              "disambiguation": "",
+              "id": "ed49871f-4dce-4d5b-b540-9d3fdacef55b",
+              "name": "比田井修",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Hidai, Osamu"
+          },
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-ids": {
+              "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+          }
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attributes": [
+              "guitar"
+          ],
+          "attribute-credits": {},
+          "direction": "backward",
+          "source-credit": "",
+          "target-type": "artist",
+          "artist": {
+              "type": "Person",
+              "name": "三井律郎",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Mitsui, Ritsuo",
+              "disambiguation": "",
+              "id": "66dea38d-e16d-4774-b5c5-e0ee56808731"
+          },
+          "attribute-ids": {
+              "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+          },
+          "ended": false,
+          "attribute-values": {},
+          "type": "instrument",
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null
+      },
+      {
+          "direction": "backward",
+          "source-credit": "",
+          "target-type": "artist",
+          "artist": {
+              "id": "2fc107d1-03fa-403d-a943-138868ee5ff1",
+              "disambiguation": "",
+              "sort-name": "Takama, Yuichi",
+              "name": "高間有一",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "attribute-ids": {
+              "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+          },
+          "attribute-values": {},
+          "type": "instrument",
+          "ended": false,
+          "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+          "end": null,
+          "begin": null,
+          "target-credit": "",
+          "attribute-credits": {},
+          "attributes": [
+              "bass guitar"
+          ]
+      },
+      {
+          "attributes": [],
+          "begin": null,
+          "target-credit": "GENDAM (WAVE RIDER)",
+          "attribute-values": {},
+          "type": "mix",
+          "ended": false,
+          "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+          "end": null,
+          "attribute-ids": {},
+          "direction": "backward",
+          "source-credit": "",
+          "target-type": "artist",
+          "artist": {
+              "id": "fbbc869b-6dad-482e-9394-754e94b906e5",
+              "disambiguation": "engineer",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "type": "Person",
+              "name": "岡村弦",
+              "sort-name": "Okamura, Gen"
+          }
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attributes": [],
+          "direction": "backward",
+          "source-credit": "",
+          "target-type": "artist",
+          "artist": {
+              "type": "Person",
+              "name": "山内真治",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Yamanouchi, Masaharu",
+              "id": "d263fa96-969f-41ef-a349-2cb33c477035",
+              "disambiguation": ""
+          },
+          "attribute-ids": {},
+          "type": "producer",
+          "attribute-values": {},
+          "ended": false,
+          "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+          "end": null
+      },
+      {
+          "target-credit": "GENDAM",
+          "begin": null,
+          "attributes": [],
+          "target-type": "artist",
+          "artist": {
+              "id": "fbbc869b-6dad-482e-9394-754e94b906e5",
+              "disambiguation": "engineer",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "岡村弦",
+              "type": "Person",
+              "sort-name": "Okamura, Gen"
+          },
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-ids": {},
+          "end": null,
+          "attribute-values": {},
+          "ended": false,
+          "type": "recording",
+          "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+      },
+      {
+          "end": null,
+          "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+          "attribute-values": {},
+          "ended": false,
+          "type": "vocal",
+          "attribute-ids": {
+              "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+          },
+          "artist": {
+              "id": "4abe415d-c8b8-484d-a689-509815f992f2",
+              "disambiguation": "",
+              "sort-name": "Hasegawa, Ikumi",
+              "type": "Person",
+              "name": "長谷川育美",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "target-type": "artist",
+          "source-credit": "",
+          "direction": "backward",
+          "attributes": [
+              "lead vocals"
+          ],
+          "attribute-credits": {},
+          "begin": null,
+          "target-credit": "喜多郁代(CV:長谷川育美)"
+      },
+      {
+          "target-credit": "山田リョウ(CV:水野朔)",
+          "begin": null,
+          "attribute-credits": {
+              "background vocals": "chorus"
+          },
+          "attributes": [
+              "background vocals"
+          ],
+          "attribute-ids": {
+              "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+          },
+          "source-credit": "",
+          "direction": "backward",
+          "artist": {
+              "sort-name": "Mizuno, Saku",
+              "name": "水野朔",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "id": "4abf8829-8559-4b93-9d58-658e98f63e72",
+              "disambiguation": "voice actress"
+          },
+          "target-type": "artist",
+          "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+          "type": "vocal",
+          "attribute-values": {},
+          "ended": false,
+          "end": null
+      },
+      {
+          "attributes": [],
+          "begin": null,
+          "target-credit": "",
+          "end": null,
+          "recording": {
+              "isrcs": [],
+              "length": 205000,
+              "title": "青春コンプレックス -instrumental-",
+              "artist-credit": [
+                  {
+                      "name": "結束バンド",
+                      "artist": {
+                          "disambiguation": "ぼっち・ざ・ろっく！",
+                          "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+                          "sort-name": "Kessoku Band",
+                          "name": "結束バンド",
+                          "type": null,
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "cf56a9f3-5b15-4282-adcb-5a9a6bf4cf67",
+              "video": false,
+              "disambiguation": ""
+          },
+          "type-id": "39a08d0e-26e4-44fb-ae19-906f5fe9435d",
+          "ended": false,
+          "attribute-values": {},
+          "type": "karaoke",
+          "attribute-ids": {},
+          "target-type": "recording",
+          "source-credit": "",
+          "direction": "forward"
+      },
+      {
+          "begin": null,
+          "target-credit": "",
+          "work": {
+              "id": "115f2677-39a8-4db9-bda3-381118765d32",
+              "disambiguation": "",
+              "type": "Song",
+              "languages": [
+                  "jpn"
+              ],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "青春コンプレックス",
+              "language": "jpn",
+              "attributes": [],
+              "relations": [
+                  {
+                      "attribute-ids": {},
+                      "target-type": "artist",
+                      "artist": {
+                          "disambiguation": "Japanese singer-songwriter and guitarist",
+                          "id": "779f1dee-35ca-4b75-8db5-9ae3ce3b16c8",
+                          "sort-name": "Otoha",
+                          "type": "Person",
+                          "name": "音羽-otoha-",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "direction": "backward",
+                      "source-credit": "",
+                      "end": null,
+                      "attribute-values": {},
+                      "ended": false,
+                      "type": "composer",
+                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                      "begin": null,
+                      "target-credit": "音羽-otoha-",
+                      "attributes": []
+                  },
+                  {
+                      "target-credit": "樋口愛",
+                      "begin": null,
+                      "attributes": [],
+                      "source-credit": "",
+                      "direction": "backward",
+                      "artist": {
+                          "id": "ae6c957d-c33e-4028-abdd-688bddec3be8",
+                          "disambiguation": "",
+                          "type": "Person",
+                          "name": "ヒグチアイ",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "sort-name": "Higuchi, Ai"
+                      },
+                      "target-type": "artist",
+                      "attribute-ids": {},
+                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                      "ended": false,
+                      "attribute-values": {},
+                      "type": "lyricist",
+                      "end": null
+                  }
+              ],
+              "iswcs": []
+          },
+          "attributes": [],
+          "attribute-ids": {},
+          "target-type": "work",
+          "source-credit": "",
+          "direction": "forward",
+          "end": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "ended": false,
+          "attribute-values": {},
+          "type": "performance"
+      }
+  ],
+  "isrcs": [
+      "JPE302200934"
+  ],
+  "length": 205000,
+  "disambiguation": "",
+  "video": false,
+  "artist-credit": [
+      {
+          "artist": {
+              "disambiguation": "ぼっち・ざ・ろっく！",
+              "id": "c1b0fe0a-779d-43ed-b193-4370f0d0f88f",
+              "type": "Group",
+              "name": "結束バンド",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+              "sort-name": "Kessoku Band"
+          },
+          "name": "結束バンド",
+          "joinphrase": ""
+      }
+  ],
+  "id": "7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5"
+}

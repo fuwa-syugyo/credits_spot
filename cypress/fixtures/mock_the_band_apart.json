@@ -1,0 +1,3955 @@
+{
+  "created": "2023-05-25T03:47:11.896Z",
+  "count": 186051,
+  "offset": 0,
+  "artists": [
+      {
+          "id": "0a0fb92c-02dc-4cc3-952a-60b55e863eb7",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Band Apart",
+          "sort-name": "Band Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "New York",
+              "sort-name": "New York",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "80s New York new wave band",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "dd4ccf5c-f30d-4f94-b718-3a519699b99b",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 90,
+          "name": "the band apart",
+          "sort-name": "band apart, the",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Japanese rock band",
+          "life-span": {
+              "begin": "1998",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "alternative rock"
+              },
+              {
+                  "count": 1,
+                  "name": "j-rock"
+              },
+              {
+                  "count": 1,
+                  "name": "pop punk"
+              }
+          ]
+      },
+      {
+          "id": "729bb072-4237-4984-890f-f195a4f7e315",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 88,
+          "name": "The Band Apart",
+          "sort-name": "The Band Apart",
+          "disambiguation": "Band from Spain.",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "5b837ed3-7a44-4ffe-8490-ff4ce0590ada",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 51,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "England",
+              "sort-name": "England",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "boys band",
+          "isnis": [
+              "0000000103680433"
+          ],
+          "life-span": {
+              "begin": "1993",
+              "end": "2008",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "World's Apart",
+                  "name": "World's Apart",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "boy band"
+              },
+              {
+                  "count": 1,
+                  "name": "aln-sh"
+              }
+          ]
+      },
+      {
+          "id": "5e377451-2116-4039-bd76-197cf275b0a3",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 50,
+          "name": "Apart",
+          "sort-name": "Apart",
+          "area": {
+              "id": "1bc1aeec-9eab-4517-aa23-1f59248590c1",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Greenville",
+              "sort-name": "Greenville",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "US screamo band",
+          "life-span": {
+              "begin": "2010",
+              "end": "2013",
+              "ended": true
+          }
+      },
+      {
+          "id": "7f69afb2-48c9-4031-8066-ee5bdc5dddff",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 50,
+          "name": "Apart",
+          "sort-name": "Apart",
+          "country": "ES",
+          "area": {
+              "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Spain",
+              "sort-name": "Spain",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "alternative band from Spain",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "2bb42b98-87f4-43d7-8d0b-07857e5a084f",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 48,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Apart",
+          "sort-name": "Apart",
+          "gender": "male",
+          "area": {
+              "id": "eb0f0077-3682-4ca0-b74c-10896e905e86",
+              "type": "Municipality",
+              "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20",
+              "name": "Figueira da Foz",
+              "sort-name": "Figueira da Foz",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "João Luís Simões",
+          "life-span": {
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Simões, João Luís",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "João Luís Simões",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "e228cd57-fd9c-4d5f-bdb7-28f9e89592f1",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 48,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Apart",
+          "sort-name": "Apart",
+          "gender": "male",
+          "country": "IT",
+          "area": {
+              "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Italy",
+              "sort-name": "Italy",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Switzerland",
+              "sort-name": "Switzerland",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "solo project of Francis M. Gri",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "4cff919f-ba2e-4d63-a1f9-e745a002a037",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 45,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "荒井岳史",
+          "sort-name": "Arai, Takeshi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the band apart",
+          "life-span": {
+              "begin": "1978",
+              "ended": null
+          }
+      },
+      {
+          "id": "704b95d0-a895-4093-950e-eacd2d39cd68",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 45,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "原昌和",
+          "sort-name": "Hara, Masakazu",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the band apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "6427deef-235d-4ddd-bc0a-4b40a25482e1",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 45,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "川崎亘一",
+          "sort-name": "Kawasaki, Koichi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the band apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "ef490328-c8bb-4d82-8207-90dab461f3ad",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 45,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "木暮栄一",
+          "sort-name": "Kogre, Eiichi",
+          "gender": "male",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "the band apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "b56c005c-78b7-4782-a640-8c331d7fa0e3",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 44,
+          "name": "Torn Apart",
+          "sort-name": "Torn Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "2fb5445d-3987-49fe-957a-f730a7acc4a2",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Baltimore",
+              "sort-name": "Baltimore",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "American metalcore band",
+          "life-span": {
+              "ended": true
+          }
+      },
+      {
+          "id": "e1ae4ec2-84c3-4c59-83bf-b5dfdc1ad972",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 43,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "country": "AU",
+          "area": {
+              "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Australia",
+              "sort-name": "Australia",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Australian hardcore band",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "8733df0b-57b2-4aa4-8b41-97f9f412d7aa",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 43,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "disambiguation": "Scottish pop punk band",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "048db618-c174-45a3-b1b6-4bbd325e5a50",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 43,
+          "name": "Torn Apart",
+          "sort-name": "Torn Apart",
+          "area": {
+              "id": "116e3eb1-2b14-42c9-91a1-7a2510dcc4b3",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Leeds",
+              "sort-name": "Leeds",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "116e3eb1-2b14-42c9-91a1-7a2510dcc4b3",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Leeds",
+              "sort-name": "Leeds",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "end-area": {
+              "id": "116e3eb1-2b14-42c9-91a1-7a2510dcc4b3",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Leeds",
+              "sort-name": "Leeds",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Powerviolence band from Leeds",
+          "life-span": {
+              "begin": "2009",
+              "end": "2011",
+              "ended": true
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "punk"
+              },
+              {
+                  "count": 1,
+                  "name": "hardcore punk"
+              },
+              {
+                  "count": 1,
+                  "name": "powerviolence"
+              }
+          ]
+      },
+      {
+          "id": "e06bb4b0-5a20-47be-82f9-69ed709cfbec",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 43,
+          "name": "Oceans Apart",
+          "sort-name": "Oceans Apart",
+          "area": {
+              "id": "f0b226db-8e22-40e6-9a53-d839cfec6228",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Cardiff",
+              "sort-name": "Cardiff",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f0b226db-8e22-40e6-9a53-d839cfec6228",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Cardiff",
+              "sort-name": "Cardiff",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Metalcore band from Cardiff, UK",
+          "life-span": {
+              "begin": "2013",
+              "ended": null
+          }
+      },
+      {
+          "id": "ac64d212-f8f2-4d60-9563-f4b9e1d67ecb",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 43,
+          "name": "Far Apart",
+          "sort-name": "Far Apart",
+          "area": {
+              "id": "6cfaa7af-8b96-4740-9780-ffc7f3c58977",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Luleå",
+              "sort-name": "Luleå",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Swedish emo band from Luleå",
+          "life-span": {
+              "begin": "1995",
+              "end": "1999",
+              "ended": true
+          }
+      },
+      {
+          "id": "35e8fe1e-3f03-4c8f-a739-9c2b86205275",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 42,
+          "name": "The Miles Apart",
+          "sort-name": "Miles Apart, The",
+          "country": "IT",
+          "area": {
+              "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Italy",
+              "sort-name": "Italy",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Italian punk band",
+          "life-span": {
+              "begin": "2000",
+              "ended": null
+          }
+      },
+      {
+          "id": "8063e4b4-b295-4dad-bd84-c56ed663f4a3",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 42,
+          "name": "Oceans Apart",
+          "sort-name": "Apart, Oceans",
+          "area": {
+              "id": "5ff9f2d3-b50a-4d7e-aa9f-af5f8ff1330f",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Indio",
+              "sort-name": "Indio",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Hardcore band from Indio, California",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3f6c4af4-bb50-4672-998e-5e806b696fb3",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 42,
+          "name": "Shades Apart",
+          "sort-name": "Shades Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "c8ee55f7-493b-48be-af81-bd14ae91df28",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Bridgewater",
+              "sort-name": "Bridgewater",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1988",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "punk"
+              }
+          ]
+      },
+      {
+          "id": "5d5754f3-09ee-4ab5-86b2-749ab1513c94",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 42,
+          "name": "Decades Apart",
+          "sort-name": "Decades Apart",
+          "area": {
+              "id": "279c5d9a-0165-493e-bed5-fc691be6a4e4",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Norwich",
+              "sort-name": "Norwich",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Norwich rock/pop guitar covers band",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "2beeb182-26b4-4080-81af-0005efb9a226",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 41,
+          "name": "Torn Apart",
+          "sort-name": "Torn Apart",
+          "country": "RU",
+          "area": {
+              "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Russia",
+              "sort-name": "Russia",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f310740c-ad62-48c0-839b-e86581b9f464",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Moscow",
+              "sort-name": "Moscow",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Russian death metal",
+          "life-span": {
+              "begin": "2015",
+              "end": "2019",
+              "ended": true
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "death metal"
+              }
+          ]
+      },
+      {
+          "id": "526b60fa-805d-4360-a936-8aadd4a954b2",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 41,
+          "name": "Ages Apart",
+          "sort-name": "Ages Apart",
+          "begin-area": {
+              "id": "cffc0190-1aa2-489f-b6f9-43b9a9e01a91",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Alabama",
+              "sort-name": "Alabama",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2006",
+              "ended": null
+          }
+      },
+      {
+          "id": "3463ffff-7d59-42d3-875c-f429c1b2459d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 41,
+          "name": "Bones Apart",
+          "sort-name": "Bones Apart",
+          "disambiguation": "All-female UK trombone quartet",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "b1ab2425-a1a9-4b00-97b3-1496b47dce5d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 41,
+          "name": "John Apart",
+          "sort-name": "John Apart",
+          "area": {
+              "id": "8e6d774f-482e-4c57-b852-3d9696498ae6",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Potsdam",
+              "sort-name": "Potsdam",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8e6d774f-482e-4c57-b852-3d9696498ae6",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Potsdam",
+              "sort-name": "Potsdam",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2009-11-01",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "indie pop"
+              }
+          ]
+      },
+      {
+          "id": "2fdd84bd-76eb-462b-9848-5c3a0f922338",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Fall Apart",
+          "sort-name": "Fall Apart",
+          "country": "CH",
+          "area": {
+              "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Switzerland",
+              "sort-name": "Switzerland",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Swiss hardcore",
+          "life-span": {
+              "ended": true
+          }
+      },
+      {
+          "id": "cb4d23db-ac54-4f1f-91e0-b6236faa636e",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Patched Apart",
+          "sort-name": "Patched Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2006",
+              "end": "2008",
+              "ended": true
+          }
+      },
+      {
+          "id": "5f953dfc-26dd-4bc8-9ae2-cb72d0049f60",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Fallen Apart",
+          "sort-name": "Fallen Apart",
+          "country": "DE",
+          "area": {
+              "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Germany",
+              "sort-name": "Germany",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1994",
+              "ended": null
+          }
+      },
+      {
+          "id": "44f8bda3-dea3-4f8b-a6ce-eb2b93567e53",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Leagues Apart",
+          "sort-name": "Leagues Apart",
+          "area": {
+              "id": "852531bf-3410-401f-b432-9c3157a386b9",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Manchester",
+              "sort-name": "Manchester",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "9760ef3b-b7cc-4831-8569-7ee6891ae01a",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d6ba9fac-4c7b-4289-9520-82ec0659c008",
+          "score": 40,
+          "name": "Apart Aside",
+          "sort-name": "Apart Aside",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "e1cc4b58-4c49-489c-8a90-2542fd5b903d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Centuries Apart",
+          "sort-name": "Centuries Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "27c3ba4c-60e9-4a76-9aeb-495c18bf7732",
+          "score": 40,
+          "name": "Together Apart",
+          "sort-name": "Together Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "758e0201-b813-4031-9021-912077c8bdf1",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Hearts Apart",
+          "sort-name": "Hearts Apart",
+          "area": {
+              "id": "79f5d780-4a62-4ba8-b984-d46f81c13874",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Vicenza",
+              "sort-name": "Vicenza",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "49e5b46d-4976-4a2d-80e7-e96a61770166",
+          "score": 40,
+          "name": "Futures Apart",
+          "sort-name": "Futures Apart",
+          "life-span": {
+              "begin": "2010-02",
+              "ended": null
+          }
+      },
+      {
+          "id": "8c90ad8c-9150-4c51-a1eb-342232e99d06",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "The Band",
+          "sort-name": "Band, The",
+          "country": "CA",
+          "area": {
+              "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Canada",
+              "sort-name": "Canada",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "74b24e62-d2fe-42d2-9d96-31f2da756c77",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Toronto",
+              "sort-name": "Toronto",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "000000012358764X"
+          ],
+          "life-span": {
+              "begin": "1967-09",
+              "end": "1999-12",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "Band",
+                  "name": "Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 0,
+                  "name": "singer-songwriter"
+              },
+              {
+                  "count": 7,
+                  "name": "folk rock"
+              },
+              {
+                  "count": 1,
+                  "name": "singer/songwriter"
+              },
+              {
+                  "count": 0,
+                  "name": "the band"
+              },
+              {
+                  "count": 1,
+                  "name": "americana"
+              },
+              {
+                  "count": 3,
+                  "name": "rock"
+              },
+              {
+                  "count": 0,
+                  "name": "classic pop and rock"
+              },
+              {
+                  "count": 0,
+                  "name": "american"
+              },
+              {
+                  "count": 4,
+                  "name": "country rock"
+              },
+              {
+                  "count": 0,
+                  "name": "canadian"
+              },
+              {
+                  "count": 1,
+                  "name": "north americana"
+              },
+              {
+                  "count": 4,
+                  "name": "roots rock"
+              },
+              {
+                  "count": 2,
+                  "name": "pop rock"
+              }
+          ]
+      },
+      {
+          "id": "f2847b60-9018-4706-a6cc-43a606d4dc32",
+          "score": 40,
+          "name": "Drift Apart",
+          "sort-name": "Drift Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d5261878-9a90-4096-a9cd-eb8f00e91c73",
+          "score": 40,
+          "name": "Class Apart",
+          "sort-name": "Class Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "4416303d-174b-41a0-9fbb-7a4eaaf3b1e0",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Miles Apart",
+          "sort-name": "Miles Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "9951a786-e0f2-4e08-a39c-346f99cb1e3c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 40,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "disambiguation": "House Music Artist",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "0d4d1a8b-dbbc-4cfe-9ccb-80ae91f831af",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 40,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Terror Apart",
+          "sort-name": "Terror Apart",
+          "gender": "female",
+          "area": {
+              "id": "2b748d6e-bc1c-4434-9f7b-ecd6332bc557",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Portland",
+              "sort-name": "Portland",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "5b2a44bd-bdc2-48d5-9761-7aa37a1fea6f",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Poles Apart",
+          "sort-name": "Poles Apart",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "based in North Wales",
+          "ipis": [
+              "00764307828"
+          ],
+          "life-span": {
+              "begin": "2016-01-01",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "poles apart band"
+              },
+              {
+                  "count": 1,
+                  "name": "poles apart"
+              },
+              {
+                  "count": 1,
+                  "name": "north wales"
+              },
+              {
+                  "count": 1,
+                  "name": "alternative rock"
+              },
+              {
+                  "count": 1,
+                  "name": "poles apart group"
+              }
+          ]
+      },
+      {
+          "id": "92eabf56-1005-4dbf-904b-5aaec77210c3",
+          "score": 40,
+          "name": "Falls Apart",
+          "sort-name": "Apart, Falls",
+          "area": {
+              "id": "7b2ca1e7-e7f6-4155-881d-c660a45c11e8",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Cleveland",
+              "sort-name": "Cleveland",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "b0d05021-baa9-4e25-8f33-a452489fedb0",
+          "score": 40,
+          "name": "Breed Apart",
+          "sort-name": "Breed Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "b098a5e4-4bc0-41ec-9803-cfb63ad430f7",
+          "score": 40,
+          "name": "Set Apart",
+          "sort-name": "Set Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "02a1b1c5-7394-49b6-b776-0d1278f313fd",
+          "score": 40,
+          "name": "Grown Apart",
+          "sort-name": "Grown Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "8b75f6bb-44cf-4ff3-8220-18f9e402b202",
+          "score": 40,
+          "name": "Joking Apart",
+          "sort-name": "Joking Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "fc1237b9-330d-494b-bc87-39c10287c109",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Lying Apart",
+          "sort-name": "Lying Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "5a7dc134-f0d1-4e42-8991-bcfb6d1f27a4",
+          "score": 40,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "disambiguation": "glam metal?",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "1a6bd97d-6411-474b-8628-bb39b7ee17f7",
+          "score": 40,
+          "name": "Appleseed Apart",
+          "sort-name": "Appleseed Apart",
+          "area": {
+              "id": "3b3c74f8-3863-4af6-b1af-5a523d9f3831",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Bellingham",
+              "sort-name": "Bellingham",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Bellingham, WA artist",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "0c520550-e5fa-4c54-b268-4f783e591a05",
+          "score": 40,
+          "name": "Falling Apart",
+          "sort-name": "Falling Apart",
+          "disambiguation": "Tassilo Schäfer, techno",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "8a001870-112b-42f4-9830-0eecaa089992",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 40,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Mode Apart",
+          "sort-name": "Mode Apart",
+          "gender": "male",
+          "country": "FI",
+          "area": {
+              "id": "6a264f94-6ff1-30b1-9a81-41f7bfabd616",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Finland",
+              "sort-name": "Finland",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Finnish house producer from Helsinki, Finland",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "6ff2ab26-6f50-4517-bca6-caf65c95fb2e",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Oceans Apart",
+          "sort-name": "Oceans Apart",
+          "country": "NO",
+          "area": {
+              "id": "6743d351-6f37-3049-9724-5041161fff4d",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Norway",
+              "sort-name": "Norway",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "6743d351-6f37-3049-9724-5041161fff4d",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Norway",
+              "sort-name": "Norway",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Norwegian group from Gjøvik active from the late 80s until the early 90s.",
+          "life-span": {
+              "ended": true
+          }
+      },
+      {
+          "id": "5b72c2f1-de33-4308-84b6-1099f13864d9",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Worlds Apart",
+          "sort-name": "Worlds Apart",
+          "disambiguation": "Electronic Music trio",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "112a1aed-2aa8-44a6-85ab-538240be1ca8",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 40,
+          "name": "Hacked Apart",
+          "sort-name": "Hacked Apart",
+          "area": {
+              "id": "191a72bd-2ff7-4505-85a4-da295b41f42c",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Squamish",
+              "sort-name": "Squamish",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "191a72bd-2ff7-4505-85a4-da295b41f42c",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Squamish",
+              "sort-name": "Squamish",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Grindcore from Squamish",
+          "life-span": {
+              "begin": "2021",
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "punk"
+              },
+              {
+                  "count": 1,
+                  "name": "metal"
+              },
+              {
+                  "count": 1,
+                  "name": "death metal"
+              },
+              {
+                  "count": 1,
+                  "name": "thrash"
+              },
+              {
+                  "count": 1,
+                  "name": "grindcore"
+              },
+              {
+                  "count": 1,
+                  "name": "grind"
+              }
+          ]
+      },
+      {
+          "id": "bd1513c7-cc80-425f-bede-b2a8b1212fdb",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 38,
+          "name": "Everything Falls Apart",
+          "sort-name": "Everything Falls Apart",
+          "country": "DE",
+          "area": {
+              "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Germany",
+              "sort-name": "Germany",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "89bbbab6-72de-43eb-81ba-e620ab207008",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "München",
+              "sort-name": "München",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "German 1980s hardcore band",
+          "life-span": {
+              "ended": true
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "germany"
+              },
+              {
+                  "count": 1,
+                  "name": "punk"
+              }
+          ]
+      },
+      {
+          "id": "aa1887d0-2ef6-4d6b-bf3b-e070ab1433ee",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 37,
+          "name": "Things Fall Apart",
+          "sort-name": "Things Fall Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Punk metal band from Madison, WI.",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d6652e7b-33fe-49ef-8336-4c863b4f996f",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 37,
+          "name": "The E Street Band",
+          "sort-name": "E Street Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "a36544c1-cb40-4f44-9e0e-7a5a69e403a8",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "New Jersey",
+              "sort-name": "New Jersey",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000101928722"
+          ],
+          "life-span": {
+              "begin": "1972-10",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "The E-Street Band",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "The E-Street Band",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Bruce Springsteen and the E-Street Band",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Bruce Springsteen and the E-Street Band",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Bruce Springsteen and the E Street Band",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Bruce Springsteen and the E Street Band",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Bruce Springsteen & The E Street Band",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Bruce Springsteen & The E Street Band",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Bruce Springsteen & The E-Street Band",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Bruce Springsteen & The E-Street Band",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "heartland rock"
+              },
+              {
+                  "count": 1,
+                  "name": "singer-songwriter"
+              },
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 1,
+                  "name": "rock"
+              }
+          ]
+      },
+      {
+          "id": "7867efdb-72d4-47a3-bf5d-74a9505b5930",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 36,
+          "name": "Band Aparte",
+          "sort-name": "Band Aparte",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "1752ab7f-8db8-4c14-8e23-44dc8223d43d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Things Falling Apart",
+          "sort-name": "Things Falling Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "e7dbfb63-d2dc-44c8-a737-d672aef32c3b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 35,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "two beats apart",
+          "sort-name": "two beats apart",
+          "gender": "male",
+          "area": {
+              "id": "d107417f-3659-4b21-92cf-b840af98c506",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "City of St Albans",
+              "sort-name": "City of St Albans",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "d107417f-3659-4b21-92cf-b840af98c506",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "City of St Albans",
+              "sort-name": "City of St Albans",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1984-09-27",
+              "ended": null
+          }
+      },
+      {
+          "id": "5a540fc9-6b8e-4e8a-b863-8cf609b6416a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 35,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Napoleon Born Apart",
+          "sort-name": "Napoleon Born Apart",
+          "gender": "male",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "84f83766-2168-409c-8028-6f7c69e280a6",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Just Seconds Apart",
+          "sort-name": "Just Seconds Apart",
+          "disambiguation": "Poulos Triplets",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "3ff30e6b-204f-4723-863a-11c55b6fb15f",
+          "score": 35,
+          "name": "St. Fall Apart",
+          "sort-name": "St. Fall Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "5a46ec16-2ff3-405b-90fe-4d1cd7a1a028",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "A Step Apart",
+          "sort-name": "A Step Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "943e884f-6165-4816-bc4e-59161e120ad0",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Apart From Rod",
+          "sort-name": "Apart From Rod",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "22a75def-9892-4398-85bc-fc747bcbeaba",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Apart From Us",
+          "sort-name": "Apart From Us",
+          "area": {
+              "id": "16560d3e-358b-4869-8a6d-727db2ee7b69",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Frankfurt am Main",
+              "sort-name": "Frankfurt am Main",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "16560d3e-358b-4869-8a6d-727db2ee7b69",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Frankfurt am Main",
+              "sort-name": "Frankfurt am Main",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "PopPunk Germany",
+          "life-span": {
+              "begin": "2017-10-25",
+              "ended": null
+          }
+      },
+      {
+          "id": "13eab732-06e2-46b8-991f-02e757a1d2c6",
+          "score": 35,
+          "name": "Things Fall Apart",
+          "sort-name": "Things Fall Apart",
+          "disambiguation": "'Bye Bye My Rose'",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "05c921e6-dbba-46be-8844-e7b96eb4eeb4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Torn the Fuck Apart",
+          "sort-name": "Torn the Fuck Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2004",
+              "ended": null
+          }
+      },
+      {
+          "id": "40d24896-3f07-4f6c-a6a6-b3063716ca0e",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Within the Torn Apart",
+          "sort-name": "Within the Torn Apart",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "58c03317-76ff-4801-9e0f-bb7fc71e8cb9",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 35,
+          "name": "Apart From the Crowd",
+          "sort-name": "Apart From the Crowd",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "39515237-2d70-436a-800c-fcbac974bec4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "The S.O.S. Band",
+          "sort-name": "S.O.S. Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Atlanta",
+              "sort-name": "Atlanta",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000121916526"
+          ],
+          "life-span": {
+              "begin": "1977",
+              "end": "1992",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "SOS Band",
+                  "name": "SOS Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "SOS Band, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The SOS Band",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "S.O.S Band, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The S.O.S Band",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "S.O.S. Band",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "S.O.S. Band",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "classic pop and rock"
+              },
+              {
+                  "count": 1,
+                  "name": "rhythm & blues"
+              },
+              {
+                  "count": 1,
+                  "name": "jazz"
+              },
+              {
+                  "count": 1,
+                  "name": "jazz-funk"
+              },
+              {
+                  "count": 1,
+                  "name": "funk"
+              },
+              {
+                  "count": 1,
+                  "name": "soul"
+              },
+              {
+                  "count": 1,
+                  "name": "80s"
+              }
+          ]
+      },
+      {
+          "id": "07e748f1-075e-428d-85dc-ce3be434e906",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "Dave Matthews Band",
+          "sort-name": "Matthews, Dave, Band",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "5643e356-bcd4-42ae-8e68-b75f88c347ec",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Charlottesville",
+              "sort-name": "Charlottesville",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000084164299"
+          ],
+          "life-span": {
+              "begin": "1991",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "dmb",
+                  "name": "dmb",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Dave Matthews Band",
+                  "name": "The Dave Matthews Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "dave mathews band",
+                  "name": "dave mathews band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Dave Mattews Band",
+                  "name": "Dave Mattews Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Matthews Band, Dave",
+                  "name": "Matthews Band, Dave",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 5,
+                  "name": "rock"
+              },
+              {
+                  "count": 4,
+                  "name": "alternative rock"
+              },
+              {
+                  "count": 0,
+                  "name": "american"
+              },
+              {
+                  "count": 1,
+                  "name": "jazz rock"
+              },
+              {
+                  "count": 2,
+                  "name": "jam band"
+              },
+              {
+                  "count": 0,
+                  "name": "acoustic rock"
+              },
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 1,
+                  "name": "2011-09-03"
+              }
+          ]
+      },
+      {
+          "id": "5aa9c40e-8561-4f91-a8f4-0bb513be27da",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "Math the Band",
+          "sort-name": "Math the Band",
+          "area": {
+              "id": "1b4c4320-f55b-47ca-84c6-6e95dc5493b4",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Providence",
+              "sort-name": "Providence",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "1b4c4320-f55b-47ca-84c6-6e95dc5493b4",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Providence",
+              "sort-name": "Providence",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "American chiptune-based synthpunk band",
+          "life-span": {
+              "begin": "2002",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Math",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Math",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2005",
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Matt the Band",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Matt the Band",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2021-04-01",
+                  "end-date": "2021-04-02"
+              },
+              {
+                  "sort-name": "Math the Band the Band",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Math the Band the Band",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2015",
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "punk"
+              },
+              {
+                  "count": 1,
+                  "name": "punk rock"
+              },
+              {
+                  "count": 1,
+                  "name": "indie rock"
+              },
+              {
+                  "count": 1,
+                  "name": "indie folk"
+              },
+              {
+                  "count": 1,
+                  "name": "electropunk"
+              },
+              {
+                  "count": 1,
+                  "name": "indietronica"
+              },
+              {
+                  "count": 1,
+                  "name": "chiptune"
+              },
+              {
+                  "count": 1,
+                  "name": "bitcore"
+              },
+              {
+                  "count": 1,
+                  "name": "bitpunk"
+              }
+          ]
+      },
+      {
+          "id": "00aab979-da36-4efd-9086-e409cda07f9c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "The Gap Band",
+          "sort-name": "Gap Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "1be74a46-6d7a-4285-9f41-9df7424319c9",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Tulsa",
+              "sort-name": "Tulsa",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "000000009755806X"
+          ],
+          "life-span": {
+              "begin": "1967",
+              "end": "2010",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "Gap Band",
+                  "name": "Gap Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "classic pop and rock"
+              },
+              {
+                  "count": 1,
+                  "name": "soul"
+              }
+          ]
+      },
+      {
+          "id": "74500d5a-2928-4f42-a0ad-20b4a48533e1",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 34,
+          "name": "Pulled Apart by Horses",
+          "sort-name": "Pulled Apart by Horses",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2007",
+              "ended": null
+          }
+      },
+      {
+          "id": "72359492-22be-4ed9-aaa0-efa434fb2b01",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "The Allman Brothers Band",
+          "sort-name": "Allman Brothers Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "1e067421-c08c-40db-aaff-07583602ead8",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Macon",
+              "sort-name": "Macon",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "end-area": {
+              "id": "aaef6ccc-52fb-4add-ae99-aded66a0b170",
+              "type": "District",
+              "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+              "name": "Upper West Side",
+              "sort-name": "Upper West Side",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000107195179"
+          ],
+          "life-span": {
+              "begin": "1969-03-26",
+              "end": "2014-10-28",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "The Allman Brothers",
+                  "name": "The Allman Brothers",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Allman Brothers",
+                  "name": "Allman Brothers",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Allman Brothers Band",
+                  "name": "Allman Brothers Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Allman Brothers Band, The",
+                  "name": "Allman Brothers Band, The",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Alman Brothers",
+                  "name": "Alman Brothers",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Allmon Brothers",
+                  "name": "The Allmon Brothers",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "country rock"
+              },
+              {
+                  "count": 0,
+                  "name": "american"
+              },
+              {
+                  "count": 1,
+                  "name": "instrumental rock"
+              },
+              {
+                  "count": 1,
+                  "name": "jam"
+              },
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 0,
+                  "name": "classic pop and rock"
+              },
+              {
+                  "count": 0,
+                  "name": "the allman brothers band"
+              },
+              {
+                  "count": 1,
+                  "name": "blues"
+              },
+              {
+                  "count": 6,
+                  "name": "southern rock"
+              },
+              {
+                  "count": 6,
+                  "name": "blues rock"
+              },
+              {
+                  "count": 1,
+                  "name": "rock"
+              },
+              {
+                  "count": 1,
+                  "name": "psychedelic rock"
+              },
+              {
+                  "count": 2,
+                  "name": "jam band"
+              },
+              {
+                  "count": 2,
+                  "name": "electric blues"
+              }
+          ]
+      },
+      {
+          "id": "0c6b687a-1225-47a1-b6a9-55381755ecf4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "HORSE the band",
+          "sort-name": "HORSE the band",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "10c367fb-8da9-47f5-8443-931debab0edc",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Lake Forest",
+              "sort-name": "Lake Forest",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "US metalcore band",
+          "life-span": {
+              "begin": "1998",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "HORSE the band",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "HORSE the band",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Wicked Decision",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Wicked Decision",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Horse",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Horse",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "1998",
+                  "end-date": "1999-07-06"
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "electronic"
+              },
+              {
+                  "count": 1,
+                  "name": "punk"
+              },
+              {
+                  "count": 2,
+                  "name": "metalcore"
+              },
+              {
+                  "count": 1,
+                  "name": "punk rock"
+              },
+              {
+                  "count": 1,
+                  "name": "hardcore punk"
+              },
+              {
+                  "count": 1,
+                  "name": "post-hardcore"
+              },
+              {
+                  "count": 0,
+                  "name": "post hardcore"
+              },
+              {
+                  "count": 1,
+                  "name": "chiptune"
+              },
+              {
+                  "count": 0,
+                  "name": "rock and indie"
+              },
+              {
+                  "count": 1,
+                  "name": "nintendocore"
+              },
+              {
+                  "count": 1,
+                  "name": "electronic rock"
+              },
+              {
+                  "count": 1,
+                  "name": "electronicore"
+              },
+              {
+                  "count": 1,
+                  "name": "bitcore"
+              }
+          ]
+      },
+      {
+          "id": "51dca3ab-7618-4816-9353-ac417462bb51",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "BAND‐MAID",
+          "sort-name": "BAND‐MAID",
+          "country": "JP",
+          "area": {
+              "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Japan",
+              "sort-name": "Japan",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+              "type": "Subdivision",
+              "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+              "name": "Tokyo",
+              "sort-name": "Tokyo",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2013-07",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "バンドメイド",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "BAND-MAID",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": "2016",
+                  "end-date": null
+              },
+              {
+                  "sort-name": "バンドメイド",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "BAND-MAID®",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": "2016"
+              }
+          ],
+          "tags": [
+              {
+                  "count": 4,
+                  "name": "rock"
+              },
+              {
+                  "count": 0,
+                  "name": "heavy metal"
+              },
+              {
+                  "count": 4,
+                  "name": "hard rock"
+              },
+              {
+                  "count": 1,
+                  "name": "j-rock"
+              }
+          ]
+      },
+      {
+          "id": "35885131-9d16-40cb-9289-e18997a8b77c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "The Charlie Daniels Band",
+          "sort-name": "Daniels, Charlie, Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "e68879f9-bd95-41ff-96ba-c082ff37cc74",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Nashville",
+              "sort-name": "Nashville",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1972",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Charlie Daniels Band",
+                  "name": "Charlie Daniels Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Charly Daniels Band",
+                  "name": "The Charly Daniels Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "rock"
+              },
+              {
+                  "count": 1,
+                  "name": "bluegrass"
+              },
+              {
+                  "count": 3,
+                  "name": "country"
+              },
+              {
+                  "count": 1,
+                  "name": "blues rock"
+              },
+              {
+                  "count": 1,
+                  "name": "country rock"
+              },
+              {
+                  "count": 2,
+                  "name": "southern rock"
+              },
+              {
+                  "count": 1,
+                  "name": "outlaw country"
+              }
+          ]
+      },
+      {
+          "id": "7963d557-3a87-4769-85d4-9b03db63be99",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "The Blues Band",
+          "sort-name": "Blues Band, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "British blues band",
+          "life-span": {
+              "begin": "1979",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Blues Band",
+                  "name": "Blues Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "blues"
+              },
+              {
+                  "count": 1,
+                  "name": "blues rock"
+              }
+          ]
+      },
+      {
+          "id": "76a5a114-ed6a-4eb6-8a81-ad5768d4b41c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "KC and the Sunshine Band",
+          "sort-name": "KC and the Sunshine Band",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "8635974f-c61f-4c6d-a5ba-46e53a87b2e6",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Hialeah",
+              "sort-name": "Hialeah",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "US funk, R&B & disco band",
+          "isnis": [
+              "0000000121492970"
+          ],
+          "life-span": {
+              "begin": "1973",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "K C & the Sunshine Band",
+                  "name": "K C & the Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "KC & the Sunshine Band",
+                  "name": "KC & the Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Sunshine Band",
+                  "name": "The Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "KC, the Sunshine Band",
+                  "name": "KC, the Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "K.C. & Sunshine Band",
+                  "name": "K.C. & Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "K. C. and the Sunshine Band",
+                  "name": "K. C. and the Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "K.C. and the Sunshine Band",
+                  "name": "K.C. and the Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "K.C. & the Sunshine Band",
+                  "name": "K.C. & the Sunshine Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "KC & the Sunshine Band",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "KC & the Sunshine Band",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "dance-pop"
+              },
+              {
+                  "count": 0,
+                  "name": "classic pop and rock"
+              },
+              {
+                  "count": 1,
+                  "name": "funk"
+              },
+              {
+                  "count": 1,
+                  "name": "pop"
+              },
+              {
+                  "count": 1,
+                  "name": "disco"
+              },
+              {
+                  "count": 1,
+                  "name": "pop soul"
+              }
+          ]
+      },
+      {
+          "id": "0d82f0cd-107a-403f-a726-ac7287cbea65",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 33,
+          "name": "The Beta Band",
+          "sort-name": "Beta Band, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "6658f787-692d-417f-852c-dcca728d5849",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Edinburgh",
+              "sort-name": "Edinburgh",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000110935051"
+          ],
+          "life-span": {
+              "begin": "1997",
+              "end": "2004",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "Beta Band",
+                  "name": "Beta Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 2,
+                  "name": "alternative rock"
+              },
+              {
+                  "count": 0,
+                  "name": "scottish"
+              },
+              {
+                  "count": 0,
+                  "name": "british"
+              },
+              {
+                  "count": 0,
+                  "name": "uk"
+              },
+              {
+                  "count": 2,
+                  "name": "indie rock"
+              },
+              {
+                  "count": 1,
+                  "name": "neo-psychedelia"
+              },
+              {
+                  "count": 1,
+                  "name": "trip hop"
+              },
+              {
+                  "count": 2,
+                  "name": "indietronica"
+              },
+              {
+                  "count": 0,
+                  "name": "classic pop and rock"
+              }
+          ]
+      },
+      {
+          "id": "9fac4087-8201-4b74-a619-e77b1602aaf4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "The Jeff Healey Band",
+          "sort-name": "Healey, Jeff Band, The",
+          "country": "CA",
+          "area": {
+              "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Canada",
+              "sort-name": "Canada",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "74b24e62-d2fe-42d2-9d96-31f2da756c77",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Toronto",
+              "sort-name": "Toronto",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000084165371"
+          ],
+          "life-span": {
+              "begin": "1986",
+              "end": "2000",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "Jeff Healey Band",
+                  "name": "Jeff Healey Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Jeff Healy Band",
+                  "name": "Jeff Healy Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "classic pop and rock"
+              },
+              {
+                  "count": 1,
+                  "name": "rock"
+              },
+              {
+                  "count": 1,
+                  "name": "jazz"
+              }
+          ]
+      },
+      {
+          "id": "43b9b30b-f719-464a-8bf3-07c294c257b2",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "The J. Geils Band",
+          "sort-name": "Geils, J., Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "947f837e-6dd5-4b36-bcd3-a3a32c6beb12",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Worcester",
+              "sort-name": "Worcester",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000120333716"
+          ],
+          "life-span": {
+              "begin": "1967",
+              "end": "2015",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "The J Geils Band",
+                  "name": "The J Geils Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The J. Geils Bands",
+                  "name": "The J. Geils Bands",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J Gelis Band",
+                  "name": "J Gelis Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J Geils Band",
+                  "name": "J Geils Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J.Geils Band",
+                  "name": "J.Geils Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J. Giles Band",
+                  "name": "J. Giles Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The J. Geils Dand",
+                  "name": "The J. Geils Dand",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J. Geils Band, The",
+                  "name": "J. Geils Band, The",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J. Geils Band",
+                  "name": "J. Geils Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "J. Geils",
+                  "name": "J. Geils",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Jay Giles Band",
+                  "name": "Jay Giles Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 3,
+                  "name": "blues rock"
+              },
+              {
+                  "count": 0,
+                  "name": "rock and indie"
+              },
+              {
+                  "count": 1,
+                  "name": "blue-eyed soul"
+              },
+              {
+                  "count": 1,
+                  "name": "new wave"
+              },
+              {
+                  "count": 1,
+                  "name": "boogie rock"
+              },
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 2,
+                  "name": "rock"
+              }
+          ]
+      },
+      {
+          "id": "f4efeed3-5999-4e45-a36b-812108b0f15a",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "The Glitter Band",
+          "sort-name": "Glitter Band, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000101405681"
+          ],
+          "life-span": {
+              "begin": "1973",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Glitter Band",
+                  "name": "Glitter Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "glam rock"
+              },
+              {
+                  "count": 1,
+                  "name": "pop"
+              }
+          ]
+      },
+      {
+          "id": "94df8e29-747c-4a74-b281-f2684926b9e8",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "Billy's Band",
+          "sort-name": "Billy's Band",
+          "country": "RU",
+          "area": {
+              "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Russia",
+              "sort-name": "Russia",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "808e1ef8-5390-4300-a615-c4df977cc349",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Sankt-Peterburg",
+              "sort-name": "Sankt-Peterburg",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2001-08",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Billy's Band",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Billy's Band",
+                  "locale": "ru",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "rock"
+              },
+              {
+                  "count": 1,
+                  "name": "jazz"
+              },
+              {
+                  "count": 1,
+                  "name": "blues"
+              }
+          ]
+      },
+      {
+          "id": "adca27d6-ebed-4d74-a1d2-5f3db4a43023",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "Television Keeps Us Apart",
+          "sort-name": "Television Keeps Us Apart",
+          "country": "SE",
+          "area": {
+              "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Sweden",
+              "sort-name": "Sweden",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "cb9ff699-5edd-4931-8904-fdcb06f1293a",
+          "type": "Orchestra",
+          "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+          "score": 32,
+          "name": "The Hanover Band",
+          "sort-name": "Hanover Band, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "London",
+              "sort-name": "London",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000109453717"
+          ],
+          "life-span": {
+              "begin": "1980",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Hanover Band",
+                  "name": "Hanover Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "568045b3-c3cb-4100-9bc5-ef9cdcebe643",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "The Marshall Tucker Band",
+          "sort-name": "Marshall Tucker Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "50dd961d-c011-4c1b-829b-f706768e516d",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Spartanburg",
+              "sort-name": "Spartanburg",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000105678062"
+          ],
+          "life-span": {
+              "begin": "1972",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Marshall Tucker Band",
+                  "name": "Marshall Tucker Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Marshal Tucker Band",
+                  "name": "Marshal Tucker Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Marshall Tucker Band, The",
+                  "name": "Marshall Tucker Band, The",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Marshall Tucker",
+                  "name": "Marshall Tucker",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "country"
+              },
+              {
+                  "count": 1,
+                  "name": "blues rock"
+              },
+              {
+                  "count": 2,
+                  "name": "country rock"
+              },
+              {
+                  "count": 4,
+                  "name": "southern rock"
+              },
+              {
+                  "count": 1,
+                  "name": "soft rock"
+              },
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 1,
+                  "name": "roots rock"
+              }
+          ]
+      },
+      {
+          "id": "e57f0cac-4f56-473c-8d7e-d93f753fd586",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "Steve Miller Band",
+          "sort-name": "Miller, Steve, Band",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "San Francisco",
+              "sort-name": "San Francisco",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "American rock band",
+          "isnis": [
+              "0000000106562256"
+          ],
+          "life-span": {
+              "begin": "1967",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Miller Band, Steve",
+                  "name": "Miller Band, Steve",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Steve Miller Band",
+                  "name": "The Steve Miller Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Miller, Steve Band",
+                  "name": "Miller, Steve Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Steve Miller Blues Band",
+                  "name": "Steve Miller Blues Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 4,
+                  "name": "rock"
+              },
+              {
+                  "count": 0,
+                  "name": "pop"
+              },
+              {
+                  "count": 1,
+                  "name": "new wave"
+              },
+              {
+                  "count": 4,
+                  "name": "psychedelic rock"
+              },
+              {
+                  "count": 6,
+                  "name": "blues rock"
+              },
+              {
+                  "count": 1,
+                  "name": "country rock"
+              },
+              {
+                  "count": 1,
+                  "name": "pop rock"
+              },
+              {
+                  "count": 0,
+                  "name": "rock and indie"
+              },
+              {
+                  "count": 0,
+                  "name": "pop/rock"
+              }
+          ]
+      },
+      {
+          "id": "276cfa71-caa8-4bf4-b522-39a8086e7c6b",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "The Bees",
+          "sort-name": "Bees, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "bec05cbf-96b0-4d8d-af32-86b465733ba0",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Ventnor",
+              "sort-name": "Ventnor",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "disambiguation": "Isle of Wight, UK band, known as “A Band of Bees” in the US",
+          "life-span": {
+              "begin": "2001",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Band of Bees, A",
+                  "name": "A Band of Bees",
+                  "locale": "en_US",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Bees, The",
+                  "name": "Bees, The",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Bees",
+                  "name": "Bees",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Band of Bees",
+                  "name": "Band of Bees",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "indie rock"
+              },
+              {
+                  "count": 1,
+                  "name": "indie pop"
+              },
+              {
+                  "count": 1,
+                  "name": "rock and indie"
+              }
+          ]
+      },
+      {
+          "id": "f67e14f0-aef9-4f3b-9d8c-89d6d8ac2898",
+          "score": 32,
+          "name": "Tear Your Soul Apart",
+          "sort-name": "Tear Your Soul Apart",
+          "country": "BE",
+          "area": {
+              "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "Belgium",
+              "sort-name": "Belgium",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "ended": null
+          },
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "noise"
+              },
+              {
+                  "count": 1,
+                  "name": "drone"
+              },
+              {
+                  "count": 1,
+                  "name": "dark ambient"
+              }
+          ]
+      },
+      {
+          "id": "2ac32a5e-ede6-4e14-90da-ef23ba649aab",
+          "score": 32,
+          "name": "A Life Set Apart",
+          "sort-name": "A Life Set Apart",
+          "life-span": {
+              "ended": null
+          }
+      },
+      {
+          "id": "d7bd015b-b473-4370-808e-2623fd58ec4f",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "death do us apart",
+          "sort-name": "death do us apart",
+          "area": {
+              "id": "729541ef-ff20-452b-ba8e-dc6748a7d026",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "South Bend",
+              "sort-name": "South Bend",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "2022-12-10",
+              "ended": null
+          }
+      },
+      {
+          "id": "a63b0be7-151d-497c-b564-dd6a3d8c6dc0",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 32,
+          "name": "The Albion Band",
+          "sort-name": "Albion Band, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1971-04",
+              "end": "2014",
+              "ended": true
+          },
+          "aliases": [
+              {
+                  "sort-name": "The Albion Dance Band",
+                  "name": "The Albion Dance Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Albion Christmas Band",
+                  "name": "The Albion Christmas Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The Albion Country Band",
+                  "name": "The Albion Country Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "folk"
+              },
+              {
+                  "count": 1,
+                  "name": "folk rock"
+              }
+          ]
+      },
+      {
+          "id": "23b194ef-b756-4a02-803b-bb89fd010f4a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 31,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Richard Band",
+          "sort-name": "Band, Richard",
+          "gender": "male",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Los Angeles",
+              "sort-name": "Los Angeles",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "life-span": {
+              "begin": "1953-12-28",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Brand, Richard",
+                  "name": "Richard Brand",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ]
+      },
+      {
+          "id": "4a2d7c6f-3fc4-4b66-9446-741cc6b51163",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 31,
+          "name": "The BBC Big Band",
+          "sort-name": "BBC Big Band, The",
+          "country": "GB",
+          "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "000000012169189X"
+          ],
+          "life-span": {
+              "begin": "1964",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "BBC Big Band Orchestra",
+                  "name": "BBC Big Band Orchestra",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "BBC Radio Big Band",
+                  "name": "BBC Radio Big Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "BBC Orch",
+                  "name": "BBC Orch",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "Performed by the BBC Big Band Orchestra",
+                  "name": "Performed by the BBC Big Band Orchestra",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "BBC Big Band",
+                  "name": "BBC Big Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The BBC Big Band Orchestra",
+                  "name": "The BBC Big Band Orchestra",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              },
+              {
+                  "sort-name": "The B.B.C. Big Band",
+                  "name": "The B.B.C. Big Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "jazz"
+              },
+              {
+                  "count": 1,
+                  "name": "big band"
+              }
+          ]
+      },
+      {
+          "id": "86c20d59-4cd7-4814-b6b7-e371c1016097",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 31,
+          "name": "The Spinto Band",
+          "sort-name": "Spinto Band, The",
+          "country": "US",
+          "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": "Country",
+              "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+              "name": "United States",
+              "sort-name": "United States",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "begin-area": {
+              "id": "791d0c22-5a31-410d-af12-5fd2553bb3a7",
+              "type": "City",
+              "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+              "name": "Wilmington",
+              "sort-name": "Wilmington",
+              "life-span": {
+                  "ended": null
+              }
+          },
+          "isnis": [
+              "0000000093629342"
+          ],
+          "life-span": {
+              "begin": "1996",
+              "ended": null
+          },
+          "aliases": [
+              {
+                  "sort-name": "Spinto Band",
+                  "name": "Spinto Band",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+              }
+          ],
+          "tags": [
+              {
+                  "count": 1,
+                  "name": "classic pop and rock"
+              }
+          ]
+      }
+  ]
+}

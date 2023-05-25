@@ -1,0 +1,752 @@
+{
+  "languages": [
+      "jpn"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "73d884ae-bdb1-466f-8585-23aeb4644bfb",
+  "type": "Song",
+  "relations": [
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "performance",
+          "attributes": [
+              "cover",
+              "live"
+          ],
+          "source-credit": "",
+          "ended": true,
+          "direction": "backward",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "AAA",
+                      "artist": {
+                          "sort-name": "AAA",
+                          "type": null,
+                          "disambiguation": "Attack All Around",
+                          "type-id": null,
+                          "id": "5d6047a8-f601-4157-a1ee-b8b87b162489",
+                          "name": "AAA"
+                      }
+                  }
+              ],
+              "title": "CRAZY GONNA CRAZY",
+              "disambiguation": "明日はFriday Party!!? @ Shibuya O-EAST 2005.11.3",
+              "video": true,
+              "length": null,
+              "id": "83ab8e5d-c207-48eb-9b5b-da96ca825706"
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": "2005-11-03",
+          "begin": "2005-11-03",
+          "target-credit": "",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          }
+      },
+      {
+          "attribute-ids": {},
+          "target-credit": "",
+          "begin": null,
+          "recording": {
+              "title": "CRAZY GONNA CRAZY",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "id": "a48b9f88-0cc3-40c7-9a40-58db01ea7b73",
+                          "name": "TRF",
+                          "type": null,
+                          "sort-name": "TRF",
+                          "disambiguation": "Japanese pop band"
+                      },
+                      "name": "TRF"
+                  }
+              ],
+              "id": "4f33f498-ecac-429a-87ee-ec6f74680fcc",
+              "video": false,
+              "disambiguation": "",
+              "length": 366160
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "ended": false,
+          "direction": "backward",
+          "type": "performance",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "type": "performance",
+          "attributes": [
+              "cover"
+          ],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "name": "DJ MAGIC DRAGON",
+                          "id": "91a73772-077c-43c3-9493-87dcb1f02d1f",
+                          "sort-name": "DJ MAGIC DRAGON",
+                          "type": null,
+                          "disambiguation": ""
+                      },
+                      "name": "DJ MAGIC DRAGON"
+                  }
+              ],
+              "title": "CRAZY GONNA CRAZY",
+              "video": false,
+              "length": null,
+              "disambiguation": "",
+              "id": "bb956917-c63e-42e7-a49d-4082bac0b105"
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "ended": false,
+          "direction": "backward"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "performance",
+          "source-credit": "",
+          "attributes": [
+              "cover"
+          ],
+          "ended": false,
+          "direction": "backward",
+          "recording": {
+              "id": "6ba99798-75be-4303-ba00-988f27ac9777",
+              "video": false,
+              "length": 365000,
+              "disambiguation": "",
+              "title": "CRAZY GONNA CRAZY",
+              "artist-credit": [
+                  {
+                      "joinphrase": "(CV:",
+                      "artist": {
+                          "disambiguation": "THE IDOLM@STER CINDERELLA GIRLS",
+                          "sort-name": "Fujimoto, Rina",
+                          "type": null,
+                          "name": "藤本里奈",
+                          "id": "f41ad7ed-b9a3-4fcd-b184-941826f1931f",
+                          "type-id": null
+                      },
+                      "name": "藤本里奈"
+                  },
+                  {
+                      "joinphrase": ")",
+                      "artist": {
+                          "type-id": null,
+                          "name": "金子真由美",
+                          "id": "59ac5b5b-6407-4a84-9f90-46ac13be55fc",
+                          "type": null,
+                          "sort-name": "Kaneko, Mayumi",
+                          "disambiguation": ""
+                      },
+                      "name": "金子真由美"
+                  }
+              ]
+          },
+          "end": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          }
+      },
+      {
+          "recording": {
+              "id": "1f9b12ed-7108-441b-9ae4-d4e14436c551",
+              "video": false,
+              "length": 310000,
+              "disambiguation": "",
+              "title": "CRAZY GONNA CRAZY",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "広瀬香美",
+                      "artist": {
+                          "id": "3597f215-1cc1-4395-97e5-c64cdae51ca1",
+                          "name": "広瀬香美",
+                          "type-id": null,
+                          "disambiguation": "",
+                          "sort-name": "Hirose, Kohmi",
+                          "type": null
+                      }
+                  }
+              ]
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "ended": false,
+          "direction": "backward",
+          "type": "performance",
+          "source-credit": "",
+          "attributes": [
+              "cover"
+          ],
+          "attribute-values": {},
+          "target-type": "recording",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-credit": "",
+          "begin": null
+      },
+      {
+          "source-credit": "",
+          "attributes": [
+              "cover",
+              "live"
+          ],
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-values": {},
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "recording": {
+              "length": null,
+              "video": true,
+              "disambiguation": "明日はFriday Party!!? @ Shibuya O-EAST 2005.11.3",
+              "id": "83ab8e5d-c207-48eb-9b5b-da96ca825706",
+              "artist-credit": [
+                  {
+                      "name": "AAA",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "AAA",
+                          "disambiguation": "Attack All Around",
+                          "type-id": null,
+                          "id": "5d6047a8-f601-4157-a1ee-b8b87b162489",
+                          "name": "AAA"
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "CRAZY GONNA CRAZY"
+          },
+          "direction": "backward",
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          }
+      },
+      {
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "end": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "recording": {
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "name": "AAA",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "AAA",
+                          "disambiguation": "Attack All Around",
+                          "type-id": null,
+                          "name": "AAA",
+                          "id": "5d6047a8-f601-4157-a1ee-b8b87b162489"
+                      }
+                  }
+              ],
+              "title": "CRAZY GONNA CRAZY",
+              "disambiguation": "2011 version",
+              "video": false,
+              "length": 356000,
+              "id": "17336381-69e8-4fde-a665-56990be8da68"
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [
+              "cover"
+          ],
+          "type": "performance"
+      },
+      {
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-credit": "",
+          "begin": null,
+          "recording": {
+              "title": "CRAZY GONNA CRAZY",
+              "artist-credit": [
+                  {
+                      "name": "HoneyWorks",
+                      "artist": {
+                          "disambiguation": "",
+                          "type": null,
+                          "sort-name": "HoneyWorks",
+                          "name": "HoneyWorks",
+                          "id": "1dc670f7-1a43-4a71-973a-2ad181f4edd4",
+                          "type-id": null
+                      },
+                      "joinphrase": " feat."
+                  },
+                  {
+                      "joinphrase": "",
+                      "name": "GUMI",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "GUMI",
+                          "disambiguation": "メグッポイド, Megpoid",
+                          "type-id": null,
+                          "name": "GUMI",
+                          "id": "ef46bbef-dba2-46e3-b534-1b44cbddf249"
+                      }
+                  }
+              ],
+              "id": "b11e7f1a-738f-4027-91b5-66b821e6c72b",
+              "disambiguation": "",
+              "video": false,
+              "length": 291773
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "ended": false,
+          "direction": "backward",
+          "type": "performance",
+          "attributes": [
+              "cover"
+          ],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording"
+      },
+      {
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "begin": null,
+          "target-credit": "",
+          "direction": "backward",
+          "ended": false,
+          "end": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "recording": {
+              "title": "CRAZY GONNA CRAZY",
+              "artist-credit": [
+                  {
+                      "joinphrase": " & ",
+                      "artist": {
+                          "id": "8c974dab-4296-4cec-a6e2-daf6400d19f1",
+                          "name": "秋奈",
+                          "type-id": null,
+                          "disambiguation": "",
+                          "sort-name": "Akina",
+                          "type": null
+                      },
+                      "name": "秋奈"
+                  },
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type-id": null,
+                          "name": "桐山智花",
+                          "id": "0ada4d10-826a-449c-844c-a1ba5fae7107",
+                          "type": null,
+                          "sort-name": "Kiriyama, Tomoka",
+                          "disambiguation": ""
+                      },
+                      "name": "桐山智花"
+                  }
+              ],
+              "id": "030396cc-1917-4716-b371-0a1651a9ca14",
+              "disambiguation": "King Record version",
+              "video": false,
+              "length": 290000
+          },
+          "target-type": "recording",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [
+              "cover"
+          ],
+          "type": "performance"
+      },
+      {
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          },
+          "target-credit": "",
+          "begin": null,
+          "end": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "recording": {
+              "video": false,
+              "length": 323493,
+              "disambiguation": "",
+              "id": "c8e23251-9b90-44ff-a54b-f8faf91546e1",
+              "artist-credit": [
+                  {
+                      "name": "TRF",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "TRF",
+                          "disambiguation": "Japanese pop band",
+                          "type-id": null,
+                          "id": "a48b9f88-0cc3-40c7-9a40-58db01ea7b73",
+                          "name": "TRF"
+                      },
+                      "joinphrase": " meets "
+                  },
+                  {
+                      "name": "AAA",
+                      "artist": {
+                          "disambiguation": "Attack All Around",
+                          "type": null,
+                          "sort-name": "AAA",
+                          "id": "5d6047a8-f601-4157-a1ee-b8b87b162489",
+                          "name": "AAA",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "CRAZY GONNA CRAZY"
+          },
+          "direction": "backward",
+          "ended": false,
+          "source-credit": "",
+          "attributes": [
+              "cover"
+          ],
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-values": {}
+      },
+      {
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {
+              "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+          },
+          "type": "performance",
+          "attributes": [
+              "live"
+          ],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "disambiguation": "",
+              "video": false,
+              "length": null,
+              "id": "5e5e787d-de37-491e-81f1-0ffb9928ff16",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "TRF",
+                          "disambiguation": "Japanese pop band",
+                          "type-id": null,
+                          "id": "a48b9f88-0cc3-40c7-9a40-58db01ea7b73",
+                          "name": "TRF"
+                      },
+                      "name": "TRF"
+                  }
+              ],
+              "title": "CRAZY GONNA CRAZY"
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "ended": false,
+          "direction": "backward"
+      },
+      {
+          "attribute-values": {},
+          "target-type": "recording",
+          "type": "performance",
+          "attributes": [
+              "cover"
+          ],
+          "source-credit": "",
+          "ended": false,
+          "direction": "backward",
+          "recording": {
+              "id": "7948e0c5-6970-4c5b-a3f8-d4ca0ae66a8b",
+              "video": false,
+              "disambiguation": "",
+              "length": 360000,
+              "title": "CRAZY GONNA CRAZY (cover)",
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "name": "YURiKA",
+                          "id": "029fed7c-f498-4db0-a9fb-64b21ba60632",
+                          "type-id": null,
+                          "disambiguation": "singer with TOHO animation RECORDS",
+                          "sort-name": "YURiKA",
+                          "type": null
+                      },
+                      "name": "YURiKA",
+                      "joinphrase": ""
+                  }
+              ]
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          }
+      },
+      {
+          "source-credit": "",
+          "attributes": [],
+          "type": "performance",
+          "target-type": "recording",
+          "attribute-values": {},
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "recording": {
+              "artist-credit": [
+                  {
+                      "artist": {
+                          "type-id": null,
+                          "name": "TRF",
+                          "id": "a48b9f88-0cc3-40c7-9a40-58db01ea7b73",
+                          "sort-name": "TRF",
+                          "type": null,
+                          "disambiguation": "Japanese pop band"
+                      },
+                      "name": "TRF",
+                      "joinphrase": ""
+                  }
+              ],
+              "title": "Crazy Gonna Crazy (Disco Mix)",
+              "disambiguation": "",
+              "video": false,
+              "length": 419906,
+              "id": "8a48481b-e510-41b6-8f12-072f2c051576"
+          },
+          "direction": "backward",
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {}
+      },
+      {
+          "type": "performance",
+          "attributes": [
+              "cover"
+          ],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-type": "recording",
+          "recording": {
+              "id": "7b7714d9-f44a-4bd3-a480-609bf606bc35",
+              "video": false,
+              "length": 348000,
+              "disambiguation": "",
+              "title": "CRAZY GONNA CRAZY (Instrumental)",
+              "artist-credit": [
+                  {
+                      "joinphrase": "",
+                      "artist": {
+                          "type": null,
+                          "sort-name": "AAA",
+                          "disambiguation": "Attack All Around",
+                          "type-id": null,
+                          "id": "5d6047a8-f601-4157-a1ee-b8b87b162489",
+                          "name": "AAA"
+                      },
+                      "name": "AAA"
+                  }
+              ]
+          },
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "end": null,
+          "ended": false,
+          "direction": "backward",
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          }
+      },
+      {
+          "target-type": "recording",
+          "attribute-values": {},
+          "attributes": [
+              "cover"
+          ],
+          "source-credit": "",
+          "type": "performance",
+          "direction": "backward",
+          "ended": false,
+          "end": null,
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "recording": {
+              "title": "CRAZY GONNA CRAZY (MUSIC CLIP)",
+              "artist-credit": [
+                  {
+                      "name": "AAA",
+                      "artist": {
+                          "disambiguation": "Attack All Around",
+                          "sort-name": "AAA",
+                          "type": null,
+                          "name": "AAA",
+                          "id": "5d6047a8-f601-4157-a1ee-b8b87b162489",
+                          "type-id": null
+                      },
+                      "joinphrase": ""
+                  }
+              ],
+              "id": "73f67956-1270-4953-ab82-cd9dfb2d1a4a",
+              "length": null,
+              "video": true,
+              "disambiguation": ""
+          },
+          "begin": null,
+          "target-credit": "",
+          "attribute-ids": {
+              "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+          }
+      }
+  ],
+  "title": "CRAZY GONNA CRAZY",
+  "iswcs": [
+      "T-071.011.917-7"
+  ],
+  "attributes": [
+      {
+          "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+          "type": "SUISA ID",
+          "value": "002551 505 86"
+      },
+      {
+          "type": "SPA ID",
+          "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+          "value": "3090382"
+      },
+      {
+          "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+          "type": "SOCAN ID",
+          "value": "79800643"
+      },
+      {
+          "type": "SIAE ID",
+          "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+          "value": "14837006400"
+      },
+      {
+          "value": "14.164.403",
+          "type": "SGAE ID",
+          "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+      },
+      {
+          "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+          "type": "SESAC ID",
+          "value": "988161"
+      },
+      {
+          "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+          "type": "SAYCO ID",
+          "value": "1081352"
+      },
+      {
+          "value": "1081352",
+          "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+          "type": "SAYCE ID"
+      },
+      {
+          "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+          "type": "SACVEN ID",
+          "value": "2263857"
+      },
+      {
+          "value": "28 638 873 11",
+          "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+          "type": "SACEM ID"
+      },
+      {
+          "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+          "type": "PRS tune code",
+          "value": "153732HP"
+      },
+      {
+          "value": "14973631-001",
+          "type": "GEMA ID",
+          "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+      },
+      {
+          "value": "10837686",
+          "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+          "type": "ECAD ID"
+      },
+      {
+          "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+          "type": "COMPASS ID",
+          "value": "1181913"
+      },
+      {
+          "value": "C-1024189960",
+          "type": "CASH ID",
+          "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec"
+      },
+      {
+          "value": "5017376",
+          "type": "BMI ID",
+          "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+      },
+      {
+          "value": "887279182",
+          "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+          "type": "ASCAP ID"
+      },
+      {
+          "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+          "type": "APRA ID",
+          "value": "GW46564598"
+      },
+      {
+          "type": "APDAYC ID",
+          "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+          "value": "4140698"
+      },
+      {
+          "type": "AGADU ID",
+          "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+          "value": "5286493"
+      },
+      {
+          "type": "JASRAC ID",
+          "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+          "value": "029-3775-1"
+      }
+  ],
+  "language": "jpn",
+  "disambiguation": ""
+}

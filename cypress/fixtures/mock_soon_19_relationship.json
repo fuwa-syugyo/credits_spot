@@ -1,0 +1,144 @@
+{
+  "video": false,
+  "disambiguation": "",
+  "artist-credit": [
+      {
+          "artist": {
+              "name": "安室奈美恵",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Amuro, Namie",
+              "disambiguation": "",
+              "id": "888994e5-6f53-4f53-bced-b20482aea42a"
+          },
+          "name": "安室奈美恵",
+          "joinphrase": ""
+      }
+  ],
+  "id": "ff0a6f14-14b2-4b32-b84b-b6961293b92c",
+  "first-release-date": "1996-07-22",
+  "relations": [
+      {
+          "end": null,
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+          "attribute-values": {},
+          "ended": false,
+          "type": "arranger",
+          "artist": {
+              "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+              "disambiguation": "",
+              "sort-name": "Komuro, Tetsuya",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "type": "Person",
+              "name": "小室哲哉"
+          },
+          "target-type": "artist",
+          "source-credit": "",
+          "direction": "backward",
+          "attribute-ids": {},
+          "attributes": [],
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "end": null,
+          "attribute-values": {},
+          "ended": false,
+          "type": "mix",
+          "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+          "target-type": "artist",
+          "artist": {
+              "id": "33e61d90-16cb-4c78-a53c-130804662be6",
+              "disambiguation": "",
+              "name": "Keith Cohen",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Cohen, Keith"
+          },
+          "direction": "backward",
+          "source-credit": "",
+          "attribute-ids": {},
+          "attributes": [],
+          "begin": null,
+          "target-credit": ""
+      },
+      {
+          "attributes": [],
+          "target-credit": "",
+          "begin": null,
+          "work": {
+              "languages": [
+                  "jpn"
+              ],
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "attributes": [],
+              "relations": [
+                  {
+                      "artist": {
+                          "disambiguation": "",
+                          "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "type": "Person",
+                          "name": "小室哲哉",
+                          "sort-name": "Komuro, Tetsuya"
+                      },
+                      "target-type": "artist",
+                      "source-credit": "",
+                      "direction": "backward",
+                      "attribute-ids": {},
+                      "end": null,
+                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                      "ended": false,
+                      "attribute-values": {},
+                      "type": "composer",
+                      "begin": null,
+                      "target-credit": "",
+                      "attributes": []
+                  },
+                  {
+                      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                      "ended": false,
+                      "attribute-values": {},
+                      "type": "lyricist",
+                      "end": null,
+                      "attribute-ids": {},
+                      "source-credit": "",
+                      "direction": "backward",
+                      "artist": {
+                          "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+                          "disambiguation": "",
+                          "sort-name": "Komuro, Tetsuya",
+                          "name": "小室哲哉",
+                          "type": "Person",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                      },
+                      "target-type": "artist",
+                      "attributes": [],
+                      "target-credit": "",
+                      "begin": null
+                  }
+              ],
+              "iswcs": [
+                  "T-101.316.081-9"
+              ],
+              "title": "... Soon Nineteen",
+              "language": "jpn",
+              "id": "df16de49-3eca-3527-9e8b-d470dade8d6b",
+              "disambiguation": ""
+          },
+          "end": null,
+          "ended": false,
+          "attribute-values": {},
+          "type": "performance",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attribute-ids": {},
+          "target-type": "work",
+          "direction": "forward",
+          "source-credit": ""
+      }
+  ],
+  "title": "...soon nineteen",
+  "length": 112026,
+  "isrcs": []
+}

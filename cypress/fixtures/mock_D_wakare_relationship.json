@@ -1,0 +1,96 @@
+{
+  "video": false,
+  "relations": [
+      {
+          "attribute-ids": {},
+          "end": null,
+          "direction": "backward",
+          "target-credit": "",
+          "source-credit": "",
+          "artist": {
+              "disambiguation": "",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "小室哲哉",
+              "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+              "sort-name": "Komuro, Tetsuya"
+          },
+          "target-type": "artist",
+          "attribute-values": {},
+          "ended": false,
+          "type": "arranger",
+          "begin": null,
+          "attributes": [],
+          "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d"
+      },
+      {
+          "type": "performance",
+          "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+          "attributes": [],
+          "begin": null,
+          "ended": false,
+          "attribute-values": {},
+          "source-credit": "",
+          "target-credit": "",
+          "target-type": "work",
+          "work": {
+              "type": null,
+              "relations": [
+                  {
+                      "direction": "backward",
+                      "end": null,
+                      "attribute-ids": {},
+                      "target-type": "artist",
+                      "artist": {
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "name": "小室哲哉",
+                          "type": "Person",
+                          "disambiguation": "",
+                          "sort-name": "Komuro, Tetsuya",
+                          "id": "de242082-2f3e-4ce5-99e1-7839559da089"
+                      },
+                      "source-credit": "",
+                      "target-credit": "",
+                      "ended": false,
+                      "attribute-values": {},
+                      "attributes": [],
+                      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                      "begin": null,
+                      "type": "composer"
+                  }
+              ],
+              "iswcs": [],
+              "disambiguation": "",
+              "attributes": [],
+              "type-id": null,
+              "languages": [],
+              "language": null,
+              "id": "88bb3a75-a349-4b99-a097-69b33b196f4b",
+              "title": "Dのテーマ (別れ)"
+          },
+          "attribute-ids": {},
+          "direction": "forward",
+          "end": null
+      }
+  ],
+  "disambiguation": "",
+  "length": 206000,
+  "id": "08cea5ad-09af-466a-b2f4-46ec63dd2d09",
+  "first-release-date": "1986-01-22",
+  "isrcs": [],
+  "title": "Dのテーマ (別れ)",
+  "artist-credit": [
+      {
+          "joinphrase": "",
+          "artist": {
+              "id": "de242082-2f3e-4ce5-99e1-7839559da089",
+              "sort-name": "Komuro, Tetsuya",
+              "type": "Person",
+              "disambiguation": "",
+              "name": "小室哲哉",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "name": "小室哲哉"
+      }
+  ]
+}
