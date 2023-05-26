@@ -51,7 +51,7 @@ describe('template spec', () => {
     cy.get('table tbody tr')
       .contains('composer').parent().parent()
       .contains('小室哲哉')
-    cy.get(':nth-child(6) > :nth-child(2) > a').contains('Spotifyで聴く');
+      cy.get('.bg-blue-400 > a').should('have.attr', 'href', 'https://open.spotify.com/track/40zhzdBp94MQDk5uRf4NDR')
     cy.go('back')
     cy.go('back')
 
@@ -65,8 +65,7 @@ describe('template spec', () => {
     cy.get('table tbody tr')
       .contains('arranger').parent().parent()
       .contains('小室哲哉')
-    cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a')
-      .should('not.be')
+    cy.get('.bg-blue-400').should('be.disabled')
     cy.go('back')
   });
 
