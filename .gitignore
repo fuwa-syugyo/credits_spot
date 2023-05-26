@@ -25,3 +25,4 @@ dist-ssr
 README.md
 
 .env
+cypress/videos/

@@ -1,5 +1,5 @@
 describe('Recording search and lookup artist', () => {
-  it('Visits recording search result has Spotify link', () => {
+  it('Visits recording search result', () => {
     cy.visit('http://127.0.0.1:5173/')
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=0&limit=100&fmt=json', { fixture: 'mock_seisyun_page1.json' }).as('seisyun1PageRequest');
     cy.get('input[type="search"]').should('be.visible').type('青春コンプレックス', {force: true})
@@ -23,7 +23,7 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@seisyunSpotifyRequest');
     cy.url().should('include', '/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
     cy.contains('青春コンプレックス')
-    cy.contains('Spotifyで聴く')
+    cy.get('.bg-blue-400 > a').should('have.attr', 'href', 'https://open.spotify.com/track/0jpP8AlQLVtaMwA3vQYpYB')
 
     //アーティスト詳細へ
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/c1b0fe0a-779d-43ed-b193-4370f0d0f88f?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json', { fixture: 'mock_kessoku_relationship.json' }).as('kessokuRelationshipRequest');
@@ -58,22 +58,21 @@ describe('Recording search and lookup artist', () => {
       .parent().parent()
       .contains('arranger');
     cy.go('back')
-  })
+    cy.go('back')
 
-  it('Continuously recording search', () => {
-    cy.visit('http://127.0.0.1:5173/')
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%8A%E3%83%83%E3%83%84&offset=0&limit=100&fmt=json', {fixture: 'mock_mixednuts.json'}).as('mixednutsRequest')
-    cy.get('#search').type('ミックスナッツ{enter}', {force: true});
-    cy.contains('検索').click();
-    cy.wait('@mixednutsRequest');
-    cy.contains('ミックスナッツ')
-
-    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=0&limit=100&fmt=json', { fixture: 'mock_seisyun_page1.json' }).as('seisyun1PageRequest');
+    // Spotifyがない曲へ
     cy.get('#search').focus().clear()
-    .type('青春コンプレックス{enter}', {force: true});
-    cy.contains('検索').first().click();
-    cy.wait('@seisyun1PageRequest');
-    cy.contains('青春コンプレックス')
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:Butter%20Sugar%20Cream%20(instrumental)&offset=0&limit=100&fmt=json', {fixture: 'mock_Butter_Sugar_Cream_inst_search.json'}).as('butterSugarCreamSearchRequest')
+    cy.get('#search').type('Butter Sugar Cream (instrumental){enter}', {force: true});
+    cy.contains('検索').click();
+    cy.wait('@butterSugarCreamSearchRequest');
+
+    cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/1aa67948-6be8-4d51-9526-054c75c651c4?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json', {fixture: 'mock_Butter_Sugar_Cream_inst.json'}).as('butterSugarCreamRequest')
+    cy.intercept('GET', 'https://api.spotify.com/v1/search?query=isrc%3Aundefined&type=track&offset=0&limit=20', {fixture: 'mock_spotify_Butter_Sugar_Cream.json'}).as('butterSugarCreamSpotifyRequest')
+    cy.contains('Butter Sugar Cream (instrumental)').click()
+    cy.wait('@butterSugarCreamRequest');
+    cy.wait('@butterSugarCreamSpotifyRequest');
+    cy.get('.bg-blue-400').should('be.disabled')
   })
 
   it('apply filter', () => {
@@ -90,6 +89,11 @@ describe('Recording search and lookup artist', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=200&limit=100&fmt=json', { fixture: 'mock_tentaikansoku3.json'}).as('tentaikansoku3Request');
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=300&limit=100&fmt=json', { fixture: 'mock_tentaikansoku4.json'}).as('tentaikansoku4Request');
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=400&limit=100&fmt=json', { fixture: 'mock_tentaikansoku5.json'}).as('tentaikansoku5Request');
+
+    //フィルターに何も設定しないとき「適用」がdisableになっているか
+    cy.get('.border-gray-500 > form > .relative > .text-white').should('be.disabled')
+
+    //フィルター1(インスト音源除外フィルター)のみ
     cy.get('#inst').check();
     cy.get('.border-gray-500 > form > .relative > .text-white').click();
     cy.wait('@tentaikansoku1Request');

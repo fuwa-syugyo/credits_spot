@@ -13,10 +13,7 @@ describe('RecordingDetail tests', () => {
       .contains('水平線')
     cy.get('.my-2 > tbody > tr > .px-4')
     .contains('back number')
-
-    cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a')
-    .contains('Spotifyで聴く')
-    .should('have.attr', 'href', 'https://open.spotify.com/track/3RvdkNMcSy71m0aT6UF9Uf')
+    cy.get('.bg-blue-400 > a').should('have.attr', 'href', 'https://open.spotify.com/track/3RvdkNMcSy71m0aT6UF9Uf')
   })
 
   it('Recording have not Spotify link test', () => {
@@ -30,9 +27,7 @@ describe('RecordingDetail tests', () => {
       .contains('Butter Sugar Cream (instrumental)')
     cy.get('.my-2 > tbody > tr > .px-4')
     .contains('Tomggg feat. tsvaci')
-
-    cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a')
-    .should('not.be')
+    cy.get('.bg-blue-400').should('be.disabled')
   })
 })
 
