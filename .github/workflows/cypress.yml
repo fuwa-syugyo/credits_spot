@@ -23,3 +23,6 @@ jobs:
         with:
           browser: chrome
           component: true
+        env:
+          VITE_CLIENT_ID: ${{ secrets.VITE_CLIENT_ID }}
+          VITE_CLIENT_SECRET: ${{ secrets.VITE_CLIENT_SECRET }}
