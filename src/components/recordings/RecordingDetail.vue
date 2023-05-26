@@ -171,13 +171,15 @@
       </table>
     </div>
     <br>
-    <div style="display: inline-block; vertical-align: middle;">
-        <img src="../../../public/Spotify_Logo_CMYK_Green.png" alt="SpotifyIcon" class="spotify__icon" style="height: 25px;">
-    </div>
-    <div style="display: inline-block; vertical-align: middle;">
-      <button :disabled="!spotifyLink" class="bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4  mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:cursor-not-allowed">
-        <a :href="spotifyLink" target="_blank" class="text-white">Play</a>
-      </button>
+    <div class="spotify-button">
+      <div style="display: inline-block; vertical-align: middle;">
+          <img src="../../../public/Spotify_Logo_CMYK_Green.png" alt="SpotifyIcon" class="spotify__icon" style="height: 25px;">
+      </div>
+      <div style="display: inline-block; vertical-align: middle;">
+        <button :disabled="!spotifyLink" class="bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4  mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:cursor-not-allowed">
+          <a :href="spotifyLink" target="_blank" class="text-white">Play</a>
+        </button>
+      </div>
     </div>
   </div>
   <div v-else>
