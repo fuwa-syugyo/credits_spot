@@ -101,6 +101,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="filteredDataLength !== 0">
+    <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
     <p>
       {{ '検索結果 '+ filteredDataLength + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + recording_data.length)+ '件'  }}
     </p>
@@ -135,6 +136,7 @@
     </div>
   </div>
   <div v-else>
+    <h1 class="text-2xl my-4 max-w-xl">Not Found!</h1>
     <p>条件に該当する楽曲はありませんでした。</p>
   </div>
 </template>
