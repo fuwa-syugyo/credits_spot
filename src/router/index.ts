@@ -7,7 +7,8 @@ export const routeSettings: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Home',
-    component: HomeView
+    component: HomeView,
+    meta: { title: 'Music Credit Search' }
   },
 
   {
@@ -16,13 +17,15 @@ export const routeSettings: RouteRecordRaw[] = [
     component: () => {
       return import("../components/recordings/RecordingSearch.vue");
     },
+    meta: { title: '楽曲検索結果'}
   },
     {
     path: '/recordings/filter',
     name: 'RecordingSearchFilter',
     component: () => {
       return import("../components/recordings/RecordingSearchFilter.vue");
-    }
+    },
+    meta: { title: '楽曲絞り込み結果'}
   },
 
   {
@@ -30,7 +33,8 @@ export const routeSettings: RouteRecordRaw[] = [
     name: 'ArtistSearch',
     component: () => {
       return import("../components/artists/ArtistSearch.vue");
-    }
+    },
+    meta: { title: '人物検索結果'}
   },
 
   {
@@ -44,7 +48,8 @@ export const routeSettings: RouteRecordRaw[] = [
       return {
         id: idStr
       };
-    }
+    },
+    meta: { title: '楽曲情報詳細'}
   },
 
   {
@@ -58,7 +63,8 @@ export const routeSettings: RouteRecordRaw[] = [
       return {
         id: idStr
       };
-    }
+    },
+    meta: { title: '曲群表示'}
   },
 
   {
@@ -72,19 +78,28 @@ export const routeSettings: RouteRecordRaw[] = [
       return {
         id: idStr
       };
-    }
+    },
+    meta: { title: '人物情報詳細'}
   },
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
-    component: NotFound
+    component: NotFound,
+    meta: { title: 'エラー'}
   },
 ]
-
+const DEFAULT_TITLE = 'Simple Music Credit'
+const DEFAULT_DESCRIPTION = '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  // history: createWebHistory(),
   routes: routeSettings
+})
+router.afterEach((to) => {
+  document.title = to.meta.title as string || DEFAULT_TITLE
+  const descriptionMeta = document.querySelector('meta[name="description"]');
+  if (descriptionMeta) {
+    descriptionMeta.setAttribute('content', DEFAULT_DESCRIPTION );
+  }
 })
 
 export default router
