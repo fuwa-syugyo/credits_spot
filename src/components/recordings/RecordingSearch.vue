@@ -80,6 +80,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="recording_data.length !== 0" class="container">
+    <h1 class="text-2xl my-4 max-w-xl">楽曲検索結果</h1>
     <div class="px-4 my-4 border border-gray-500 py-4  md:w-[350px] w-[250px] rounded-md">
       <form v-on:submit.prevent="applyFilter">
         <p class="text-xl mb-2">絞り込み</p>

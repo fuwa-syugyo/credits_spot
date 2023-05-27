@@ -55,6 +55,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="artist_data.length !== 0">
+    <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
     <p>
       {{ '検索結果 '+ totalItems + ' 件中 ' + ((currentPage - 1) * 100 + 1 ) + ' 〜 ' +  ((currentPage - 1) * 100  + artist_data.length)+ '件'  }}
     </p>

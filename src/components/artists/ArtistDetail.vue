@@ -79,7 +79,7 @@
     <NowLoading></NowLoading>
   </div>
   <div v-else-if="artist_data">
-    <p class="text-2xl my-4 max-w-xl">{{ artist_data?.name }}</p>
+    <h1 class="text-2xl my-4 max-w-xl">{{ artist_data?.name }}</h1>
 
     <div v-if="artist_data?.credit.song_writer_credit.length !== 0">
       <p class="text-lg my-4">作詞作曲した楽曲</p>

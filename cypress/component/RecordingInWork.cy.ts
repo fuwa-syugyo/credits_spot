@@ -6,6 +6,7 @@ describe('RecordingInWork tests', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/work/30a33711-0db8-3fc7-a3c8-f42426bdf43b?inc=recording-rels+artist-credits&fmt=json', {fixture: 'mock_debby.json'}).as('debbyRequest')
     cy.mount(RecordingInWork, { props: { id: '30a33711-0db8-3fc7-a3c8-f42426bdf43b' } } as OptionsParam )
     cy.wait('@debbyRequest');
+    cy.get('h1').contains('曲群一覧')
 
     //曲数が127件ちょうどか
     cy.get('.table-auto > tbody > tr').should(($trs) => {

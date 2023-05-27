@@ -5,6 +5,7 @@ describe('ArtistSearch tests', () => {
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/artist/?query=artist:%E3%82%B1%E3%83%B3%E3%83%A2%E3%83%81%E3%83%92%E3%83%87%E3%83%95%E3%83%9F&offset=0&limit=100&fmt=json', {fixture: 'mock_kenmochihidefumi.json'}).as('kenmochihidefumiRequest')
     cy.mount(ArtistSearch, { query: { term: 'ケンモチヒデフミ' } })
     cy.wait('@kenmochihidefumiRequest');
+    cy.get('h1').contains('人物検索結果')
 
     cy.get('.table-auto > tbody > :nth-child(1) >  > :nth-child(1)')
       .contains('ケンモチヒデフミ')
@@ -73,6 +74,7 @@ describe('ArtistSearch tests', () => {
     cy.mount(ArtistSearch, { query: { term: 'うぇｓｒｄｆｔｖｇｙｂｈんｊｋｍｌ、。、ｍんｇｂｆｄｖｓ' } })
     cy.wait('@noArtistRequest');
     
+    cy.get('h1').contains('Not Found!')
     cy.get('p')
       .contains('見つかりませんでした。')
 
