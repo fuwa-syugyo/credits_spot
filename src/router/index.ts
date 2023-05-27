@@ -88,8 +88,9 @@ export const routeSettings: RouteRecordRaw[] = [
     meta: { title: 'エラー'}
   },
 ]
+
 const DEFAULT_TITLE = 'Simple Music Credit'
-const DEFAULT_DESCRIPTION = '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: routeSettings
@@ -98,7 +99,7 @@ router.afterEach((to) => {
   document.title = to.meta.title as string || DEFAULT_TITLE
   const descriptionMeta = document.querySelector('meta[name="description"]');
   if (descriptionMeta) {
-    descriptionMeta.setAttribute('content', DEFAULT_DESCRIPTION );
+    descriptionMeta.setAttribute('content', '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。');
   }
 })
 
