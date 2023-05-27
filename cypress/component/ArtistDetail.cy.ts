@@ -9,8 +9,8 @@ describe('ArtistDetail tests', () => {
     cy.wait('@yasutakaRelationshipRequest');
     cy.wait('@yasutakaRecording1PageRequest');
 
-    cy.get('.text-2xl')
-      .contains('中田ヤスタカ')
+    cy.get('.text-2xl').contains('中田ヤスタカ')
+    cy.get('h1').contains('中田ヤスタカ')
 
     cy.get(':nth-child(2) > .text-lg')
       .contains('作詞作曲した楽曲')

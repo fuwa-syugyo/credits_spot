@@ -9,8 +9,8 @@ describe('RecordingDetail tests', () => {
     cy.wait('@suiheisenRequest');
     cy.wait('@suiheisenSpotifyRequest');
 
-    cy.get('.text-2xl')
-      .contains('水平線')
+    cy.get('.text-2xl').contains('水平線')
+    cy.get('h1').contains('水平線')
     cy.get('.my-2 > tbody > tr > .px-4')
     .contains('back number')
     cy.get('.bg-blue-400 > a').should('have.attr', 'href', 'https://open.spotify.com/track/3RvdkNMcSy71m0aT6UF9Uf')

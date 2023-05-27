@@ -8,6 +8,7 @@ describe('RecordingSearch tests', () => {
     cy.mount(RecordingSearch, { query: { term: 'ミックスナッツ' } })
     cy.wait('@mixednutsRequest');
 
+    cy.get('h1').contains('楽曲検索結果')
     cy.get('.table-auto > tbody > :nth-child(1) >  > :nth-child(1)')
       .contains('ミックスナッツ')
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)')
@@ -24,7 +25,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '3 items').to.have.length(3)
     })
-    cy.get('.container > :nth-child(2)').contains('検索結果 3 件中 1 〜 3件')
+    cy.get('.container > :nth-child(3)').contains('検索結果 3 件中 1 〜 3件')
 
     //ページネーションのコンポーネントが表示されていないかどうか
     cy.get('.container > :nth-child(4)').should('not.be')
@@ -53,7 +54,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
-    cy.get('.container > :nth-child(2)').contains('検索結果 249 件中 1 〜 100件')
+    cy.get('.container > :nth-child(3)').contains('検索結果 249 件中 1 〜 100件')
 
     //ページネーションのコンポーネントが表示されているかどうか
     cy.get('.container > :nth-child(4)')
@@ -80,7 +81,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
-    cy.get('.container > :nth-child(2)').contains('検索結果 249 件中 101 〜 200件')
+    cy.get('.container > :nth-child(3)').contains('検索結果 249 件中 101 〜 200件')
 
     //3ページ目に遷移
     cy.intercept('GET', 'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&offset=200&limit=100&fmt=json', { fixture: 'mock_idol_page3.json' }).as('idol3PageRequest');
@@ -104,7 +105,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > tr').should(($trs) => {
       expect($trs, '49 items').to.have.length(49)
     })
-    cy.get('.container > :nth-child(2)').contains('検索結果 249 件中 201 〜 249件')
+    cy.get('.container > :nth-child(3)').contains('検索結果 249 件中 201 〜 249件')
   })
 
   it('No result', () => {

@@ -14,6 +14,7 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request');
     cy.wait('@ue5Request');
 
+    cy.get('h1').contains('絞り込み結果')
     cy.get('p').contains('検索結果 124 件中 1 〜 100件')
 
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(1)')
