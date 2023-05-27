@@ -8,7 +8,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/',
     name: 'Home',
     component: HomeView,
-    meta: { title: 'Music Credit Search' }
+    meta: { title: 'Music Credit Search', desc: '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。' }
   },
 
   {
@@ -17,7 +17,7 @@ export const routeSettings: RouteRecordRaw[] = [
     component: () => {
       return import("../components/recordings/RecordingSearch.vue");
     },
-    meta: { title: '楽曲検索結果'}
+    meta: { title: '楽曲検索結果', desc: '楽曲検索結果表示画面です。' }
   },
     {
     path: '/recordings/filter',
@@ -25,7 +25,7 @@ export const routeSettings: RouteRecordRaw[] = [
     component: () => {
       return import("../components/recordings/RecordingSearchFilter.vue");
     },
-    meta: { title: '楽曲絞り込み結果'}
+    meta: { title: '楽曲絞り込み結果', desc: '楽曲検索結果の絞り込み結果画面です。' }
   },
 
   {
@@ -34,7 +34,7 @@ export const routeSettings: RouteRecordRaw[] = [
     component: () => {
       return import("../components/artists/ArtistSearch.vue");
     },
-    meta: { title: '人物検索結果'}
+    meta: { title: '人物検索結果', desc: '人物検索結果表示画面です。' }
   },
 
   {
@@ -49,7 +49,7 @@ export const routeSettings: RouteRecordRaw[] = [
         id: idStr
       };
     },
-    meta: { title: '楽曲情報詳細'}
+    meta: { title: '楽曲情報詳細', desc: '楽曲情報表示画面です。Spotifyで聴くことができる楽曲については、リンクがあります。' }
   },
 
   {
@@ -64,7 +64,7 @@ export const routeSettings: RouteRecordRaw[] = [
         id: idStr
       };
     },
-    meta: { title: '曲群表示'}
+    meta: { title: '曲群表示', desc: 'カバー曲やインストゥルメンタル音源なども含めて表示します。' }
   },
 
   {
@@ -79,18 +79,16 @@ export const routeSettings: RouteRecordRaw[] = [
         id: idStr
       };
     },
-    meta: { title: '人物情報詳細'}
+    meta: { title: '人物情報詳細', desc: '人物情報表示画面です。' }
   },
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound,
-    meta: { title: 'エラー'}
+    meta: { title: 'エラー', desc: 'エラー画面です。' }
   },
 ]
-
 const DEFAULT_TITLE = 'Simple Music Credit'
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: routeSettings
@@ -99,7 +97,7 @@ router.afterEach((to) => {
   document.title = to.meta.title as string || DEFAULT_TITLE
   const descriptionMeta = document.querySelector('meta[name="description"]');
   if (descriptionMeta) {
-    descriptionMeta.setAttribute('content', '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。');
+    descriptionMeta.setAttribute('content', to.meta.desc as string || '');
   }
 })
 
