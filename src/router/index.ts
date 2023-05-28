@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
 import HomeView from '../components/HomeView.vue'
 import NotFound from '../components/NotFound.vue'
+import Caution from '../components/Caution.vue'
 
 export const routeSettings: RouteRecordRaw[] = [
   {
@@ -86,6 +87,12 @@ export const routeSettings: RouteRecordRaw[] = [
     name: 'NotFound',
     component: NotFound,
     meta: { title: 'エラー', desc: 'エラー画面です。' }
+  },
+  {
+    path: '/caution',
+    name: 'Caution',
+    component: Caution,
+    meta: { title: 'ご利用上の注意', desc: 'ご利用上の注意です。' }
   },
 ]
 const DEFAULT_TITLE = 'Simple Music Credit'
