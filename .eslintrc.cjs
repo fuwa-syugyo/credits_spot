@@ -22,5 +22,6 @@ module.exports = {
         ignores: ['Header', 'Footer', 'Caution'],
       },
     ],
+    'camelcase': 'error'
   }
 };

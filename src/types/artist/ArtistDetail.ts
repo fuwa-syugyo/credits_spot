@@ -21,8 +21,8 @@ export type ArtistData = {
   id: string
   name: string
   credit: {
-    song_writer_credit: SongWriterCredit[]
-    recording_credit: RecordingCredit[]
+    song: SongWriterCredit[]
+    recording: RecordingCredit[]
   }
 }
 
