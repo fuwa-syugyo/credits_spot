@@ -19,7 +19,7 @@ export type SearchRecordingData = {
   title: string
   'artist-credit': ArtistCredit[]
   'first-release-date': string
-  first_release_date: string
+  firstReleaseDate: string
   releases: secondaryType[]
   'secondary-types': string
 }

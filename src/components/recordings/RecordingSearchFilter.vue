@@ -8,7 +8,7 @@ import {
 import NowLoading from '../NowLoading.vue'
 
 const route = useRoute()
-let recording_term = (route.query.term as string) || ''
+let recordingTerm = (route.query.term as string) || ''
 const getRidOfInstrumentValue = route.query.getRidOfInstrument
 const getPartialMatchValue = route.query.getPartialMatch
 const artistName = (route.query.artistName as string) || ''
@@ -17,29 +17,29 @@ let filteredDataLength = 0
 let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
 
-const recording_data = ref<SearchRecordingData[]>([])
-const all_recording_data = ref<Array<SearchRecordingData[]>>([])
+const recordingData = ref<SearchRecordingData[]>([])
+const allRecordingData = ref<Array<SearchRecordingData[]>>([])
 
 onMounted(async () => {
   try {
     isLoading.value = true
-    const first_res = await fetch(
-      `https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`
+    const firstRes = await fetch(
+      `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=0&limit=100&fmt=json`
     )
-    const first_data = await first_res.json()
+    const firstData = await firstRes.json()
 
-    totalItems.value = first_data.count
+    totalItems.value = firstData.count
     const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4
 
     for (let i = 0; i < repeat + 1; i++) {
       const res = await fetch(
-        `https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${
+        `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=${
           i * 100
         }&limit=100&fmt=json`
       )
       const data = await res.json()
 
-      const new_recording_data: SearchRecordingData[] = data.recordings
+      const newRecordingData: SearchRecordingData[] = data.recordings
         .filter((rec: SearchRecordingData) => rec)
         .map((item: SearchRecordingData) => ({
           id: item.id,
@@ -47,19 +47,19 @@ onMounted(async () => {
           'artist-credit': item['artist-credit'].map((credit) => ({
             id: credit.artist.id,
             name: credit.artist.name,
-            join_phrase: credit.joinphrase,
-            all_name:
+            joinPhrase: credit.joinphrase,
+            allName:
               credit.artist.name +
               (credit.joinphrase ? ' ' + credit.joinphrase : ''),
           })),
-          first_release_date: item['first-release-date'],
+          firstReleaseDate: item['first-release-date'],
           'secondary-types':
             item.releases?.[0]['release-group']['secondary-types']?.[0],
         }))
 
-      all_recording_data.value.push(new_recording_data)
+      allRecordingData.value.push(newRecordingData)
     }
-    recording_data.value = all_recording_data.value.flat()
+    recordingData.value = allRecordingData.value.flat()
 
     if (getRidOfInstrumentValue == 'true') {
       getRidOfInstrument()
@@ -72,7 +72,7 @@ onMounted(async () => {
     if (artistName !== '') {
       artistFilter()
     }
-    filteredData = recording_data.value
+    filteredData = recordingData.value
     filteredDataLength = filteredData.length
     onClickHandler(currentPage.value)
   } catch {
@@ -86,18 +86,18 @@ const onClickHandler = (page: number) => {
   let startIndex = (page - 1) * 100
   let endIndex = startIndex + 100
   const dataPerPage = filteredData.slice(startIndex, endIndex)
-  recording_data.value = dataPerPage
+  recordingData.value = dataPerPage
 }
 
 const artistFilter = () => {
-  const includeArtistData = recording_data.value.filter((data) =>
-    data['artist-credit'][0].all_name.includes(artistName)
+  const includeArtistData = recordingData.value.filter((data) =>
+    data['artist-credit'][0].allName.includes(artistName)
   )
-  recording_data.value = includeArtistData
+  recordingData.value = includeArtistData
 }
 
 const getRidOfInstrument = () => {
-  const cutData = recording_data.value.filter(
+  const cutData = recordingData.value.filter(
     (data) =>
       !data.title.toLocaleLowerCase().includes('instrumental') &&
       !data.title.toLocaleLowerCase().includes('(off vocal)') &&
@@ -107,14 +107,14 @@ const getRidOfInstrument = () => {
       !data.title.toLocaleLowerCase().includes('music video') &&
       !data.title.toLocaleLowerCase().includes('tv size')
   )
-  recording_data.value = cutData
+  recordingData.value = cutData
 }
 
 const getPartialMatch = () => {
-  const partialMatchData = recording_data.value.filter((data) =>
-    data.title.toLocaleLowerCase().includes(recording_term.toLocaleLowerCase())
+  const partialMatchData = recordingData.value.filter((data) =>
+    data.title.toLocaleLowerCase().includes(recordingTerm.toLocaleLowerCase())
   )
-  recording_data.value = partialMatchData
+  recordingData.value = partialMatchData
 }
 
 const currentPage = ref(1)
@@ -135,7 +135,7 @@ const currentPage = ref(1)
           ' 件中 ' +
           ((currentPage - 1) * 100 + 1) +
           ' 〜 ' +
-          ((currentPage - 1) * 100 + recording_data.length) +
+          ((currentPage - 1) * 100 + recordingData.length) +
           '件'
       }}
     </p>
@@ -157,7 +157,7 @@ const currentPage = ref(1)
       </thead>
       <tbody>
         <tr
-          v-for="recording in recording_data"
+          v-for="recording in recordingData"
           :key="recording.id"
           class="border px-4 py-2"
         >
@@ -174,12 +174,12 @@ const currentPage = ref(1)
           <td class="border px-4 py-2">
             {{
               recording['artist-credit']
-                .map((credit: ArtistCredit) => credit.all_name)
+                .map((credit: ArtistCredit) => credit.allName)
                 .join(' ')
             }}
           </td>
           <td class="text-center px-4 py-2 w-[130px] hidden md:inline-block">
-            {{ recording.first_release_date }}
+            {{ recording.firstReleaseDate }}
           </td>
         </tr>
       </tbody>

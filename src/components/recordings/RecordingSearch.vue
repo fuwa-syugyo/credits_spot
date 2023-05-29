@@ -50,7 +50,7 @@ const onClickHandler = async (page: number, recordingTerm: string) => {
             credit.artist.name +
             (credit.joinphrase ? ' ' + credit.joinphrase : ''),
         })),
-        first_release_date: item['first-release-date'],
+        firstReleaseDate: item['first-release-date'],
       }))
 
     recordingData.value = newRecordingData
@@ -191,7 +191,7 @@ onMounted(() => {
             }}
           </td>
           <td class="text-center px-4 py-2 w-[130px] hidden md:inline-block">
-            {{ recording.first_release_date }}
+            {{ recording.firstReleaseDate }}
           </td>
         </tr>
       </tbody>
