@@ -1,55 +1,54 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import NotFound from "../NotFound.vue";
-import NowLoading from "../NowLoading.vue";
+import { ref, onMounted } from 'vue'
+import NotFound from '../NotFound.vue'
+import NowLoading from '../NowLoading.vue'
 import {
   RecordingData,
   Artists,
   Staff,
   SongWriter,
   Player,
-} from "../../types/recording/RecordingDetail";
+} from '../../types/recording/RecordingDetail'
 
 interface Props {
-  id: string;
+  id: string
 }
-const props = defineProps<Props>();
-const recording_id = props.id;
-const credit_data = ref<RecordingData>();
-const spotifyLink = ref<string>();
-const clientId = import.meta.env.VITE_CLIENT_ID;
-const secretId = import.meta.env.VITE_CLIENT_SECRET;
-const isLoading = ref(false);
+const props = defineProps<Props>()
+const recording_id = props.id
+const credit_data = ref<RecordingData>()
+const spotifyLink = ref<string>()
+const clientId = import.meta.env.VITE_CLIENT_ID
+const secretId = import.meta.env.VITE_CLIENT_SECRET
+const isLoading = ref(false)
 
 onMounted(async () => {
   try {
-    isLoading.value = true;
+    isLoading.value = true
     const relationshipsRes = await fetch(
       `https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
-    );
-    const relationshipsData = await relationshipsRes.json();
+    )
+    const relationshipsData = await relationshipsRes.json()
 
-    const artists: Artists[] = relationshipsData["artist-credit"];
+    const artists: Artists[] = relationshipsData['artist-credit']
 
     const player: Player[] = relationshipsData.relations
-      .filter((rec: Player) => rec.type == "instrument" || rec.type == "vocal")
+      .filter((rec: Player) => rec.type == 'instrument' || rec.type == 'vocal')
       .map((item: Player) => ({
         id: item.artist.id,
         type: item.type,
         instrument: item.attributes[0] || item.type,
         name: item.artist.name,
-      }));
+      }))
 
     let songwriter: SongWriter[] =
-      relationshipsData?.relations.filter((item: SongWriter) => item.work) ||
-      [];
+      relationshipsData?.relations.filter((item: SongWriter) => item.work) || []
     if (songwriter.length && songwriter[0].work) {
       songwriter = songwriter[0].work.relations
         .filter(
           (artists) =>
-            artists.type === "composer" ||
-            artists.type === "lyricist" ||
-            artists.type === "writer"
+            artists.type === 'composer' ||
+            artists.type === 'lyricist' ||
+            artists.type === 'writer'
         )
         .map(
           (item: { artist: { id: string; name: string }; type: string }) => ({
@@ -57,29 +56,29 @@ onMounted(async () => {
             type: item.type,
             name: item.artist.name,
           })
-        );
+        )
     }
 
     const staff: Staff[] = relationshipsData.relations
       .filter(
         (rec: Staff) =>
-          rec.type == "arranger" ||
-          rec.type == "producer" ||
-          rec.type == "misc" ||
-          rec.type == "recording" ||
-          rec.type == "mix" ||
-          rec.type == "orchestrator"
+          rec.type == 'arranger' ||
+          rec.type == 'producer' ||
+          rec.type == 'misc' ||
+          rec.type == 'recording' ||
+          rec.type == 'mix' ||
+          rec.type == 'orchestrator'
       )
       .map((item: Staff) => ({
         id: item.artist.id,
         type: item.type,
         name: item.artist.name,
-      }));
+      }))
 
     const all_credit_data: RecordingData = {
       id: relationshipsData.id,
       title: relationshipsData.title,
-      release_date: relationshipsData?.["first-release-date"],
+      release_date: relationshipsData?.['first-release-date'],
       attribute: relationshipsData?.relations?.filter(
         (item: RecordingData) => item
       )[0]?.attributes,
@@ -91,27 +90,27 @@ onMounted(async () => {
         staff_credit: staff,
         player_credit: player,
       },
-    };
-    credit_data.value = all_credit_data;
+    }
+    credit_data.value = all_credit_data
 
     const authOptions = {
-      method: "POST",
+      method: 'POST',
       headers: {
-        Authorization: "Basic " + btoa(clientId + ":" + secretId),
-        "Content-Type": "application/x-www-form-urlencoded",
+        Authorization: 'Basic ' + btoa(clientId + ':' + secretId),
+        'Content-Type': 'application/x-www-form-urlencoded',
       },
-      body: "grant_type=client_credentials",
-    };
+      body: 'grant_type=client_credentials',
+    }
 
-    fetch("https://accounts.spotify.com/api/token", authOptions)
+    fetch('https://accounts.spotify.com/api/token', authOptions)
       .then((response) => {
         if (!response.ok) {
-          throw new Error("Failed to authenticate");
+          throw new Error('Failed to authenticate')
         }
-        return response.json();
+        return response.json()
       })
       .then(async (data) => {
-        const token = data.access_token;
+        const token = data.access_token
         try {
           const spotifyRes = await fetch(
             `https://api.spotify.com/v1/search?query=isrc%3A${credit_data.value?.isrcs}&type=track&offset=0&limit=20`,
@@ -120,23 +119,22 @@ onMounted(async () => {
                 Authorization: `Bearer ${token}`,
               },
             }
-          );
-          const spotifyData = await spotifyRes.json();
-          spotifyLink.value =
-            spotifyData.tracks.items[0]?.external_urls.spotify;
+          )
+          const spotifyData = await spotifyRes.json()
+          spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
         } catch (error) {
-          console.error(error);
+          console.error(error)
         }
       })
       .catch((error) => {
-        console.error(error);
-      });
+        console.error(error)
+      })
   } catch {
-    console.error("Error fetching data:", Error);
+    console.error('Error fetching data:', Error)
   } finally {
-    isLoading.value = false;
+    isLoading.value = false
   }
-});
+})
 </script>
 
 <template>

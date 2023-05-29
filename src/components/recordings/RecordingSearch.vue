@@ -1,94 +1,94 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { useRoute, RouterLink, onBeforeRouteUpdate } from "vue-router";
-import router from "../../router";
+import { ref, onMounted } from 'vue'
+import { useRoute, RouterLink, onBeforeRouteUpdate } from 'vue-router'
+import router from '../../router'
 import {
   ArtistCredit,
   SearchRecordingData,
-} from "../../types/recording/RecordingSearch";
-import NowLoading from "../NowLoading.vue";
-import NoResults from "../NoResults.vue";
+} from '../../types/recording/RecordingSearch'
+import NowLoading from '../NowLoading.vue'
+import NoResults from '../NoResults.vue'
 
 onBeforeRouteUpdate((to, from, next) => {
-  recording_term.value = (to.query.term as string) || "";
-  currentPage.value = 1;
+  recording_term.value = (to.query.term as string) || ''
+  currentPage.value = 1
   onClickHandler(currentPage.value, recording_term.value).then(() => {
-    next();
-  });
-});
+    next()
+  })
+})
 
-const route = useRoute();
-const recording_term = ref((route.query.term as string) || "");
-const recording_data = ref<SearchRecordingData[]>([]);
+const route = useRoute()
+const recording_term = ref((route.query.term as string) || '')
+const recording_data = ref<SearchRecordingData[]>([])
 
-const selectFilter = ref<Array<string>>([]);
-const artistName = ref();
-const isLoading = ref(false);
+const selectFilter = ref<Array<string>>([])
+const artistName = ref()
+const isLoading = ref(false)
 
 const onClickHandler = async (page: number, recording_term: string) => {
   if (!recording_term) {
-    recording_term = (route.query.term as string) || "";
+    recording_term = (route.query.term as string) || ''
   }
 
-  const offset = (page - 1) * 100;
+  const offset = (page - 1) * 100
   try {
-    isLoading.value = true;
+    isLoading.value = true
     const data = await fetch(
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${offset}&limit=100&fmt=json`
-    ).then((res) => res.json());
+    ).then((res) => res.json())
 
     const new_recording_data: SearchRecordingData[] = data.recordings
       .filter((rec: SearchRecordingData) => rec)
       .map((item: SearchRecordingData) => ({
         id: item.id,
         title: item.title,
-        "artist-credit": item["artist-credit"].map((credit) => ({
+        'artist-credit': item['artist-credit'].map((credit) => ({
           id: credit.artist.id,
           name: credit.artist.name,
           join_phrase: credit.joinphrase,
           all_name:
             credit.artist.name +
-            (credit.joinphrase ? " " + credit.joinphrase : ""),
+            (credit.joinphrase ? ' ' + credit.joinphrase : ''),
         })),
-        first_release_date: item["first-release-date"],
-      }));
+        first_release_date: item['first-release-date'],
+      }))
 
-    recording_data.value = new_recording_data;
-    totalItems.value = data.count;
+    recording_data.value = new_recording_data
+    totalItems.value = data.count
   } catch {
-    console.error("Error fetching data:", Error);
+    console.error('Error fetching data:', Error)
   } finally {
-    isLoading.value = false;
+    isLoading.value = false
   }
-};
+}
 
-const currentPage = ref(1);
-const totalItems = ref<number>(NaN);
+const currentPage = ref(1)
+const totalItems = ref<number>(NaN)
 
 const applyFilter = (): void => {
   const getRidOfInstrumentValue = selectFilter.value.includes(
-    "getRidOfInstrument"
+    'getRidOfInstrument'
   )
-    ? "true"
-    : "false";
-  const getPartialMatchValue = selectFilter.value.includes("getPartialMatch")
-    ? "true"
-    : "false";
+    ? 'true'
+    : 'false'
+  const getPartialMatchValue = selectFilter.value.includes('getPartialMatch')
+    ? 'true'
+    : 'false'
 
   router.push({
-    name: "RecordingSearchFilter",
+    name: 'RecordingSearchFilter',
     query: {
       term: recording_term.value,
       getRidOfInstrument: getRidOfInstrumentValue,
       getPartialMatch: getPartialMatchValue,
       artistName: artistName.value,
     },
-  });
-};
+  })
+}
 
 onMounted(() => {
-  onClickHandler(currentPage.value, recording_term.value);
-});
+  onClickHandler(currentPage.value, recording_term.value)
+})
 </script>
 
 <template>
@@ -146,13 +146,13 @@ onMounted(() => {
     </div>
     <p>
       {{
-        "検索結果 " +
+        '検索結果 ' +
         totalItems +
-        " 件中 " +
+        ' 件中 ' +
         ((currentPage - 1) * 100 + 1) +
-        " 〜 " +
+        ' 〜 ' +
         ((currentPage - 1) * 100 + recording_data.length) +
-        "件"
+        '件'
       }}
     </p>
     <table class="table-auto my-4">
@@ -185,9 +185,9 @@ onMounted(() => {
           </td>
           <td class="border px-4 py-2">
             {{
-              recording["artist-credit"]
+              recording['artist-credit']
                 .map((credit: ArtistCredit) => credit.all_name)
-                .join(" ")
+                .join(' ')
             }}
           </td>
           <td class="text-center px-4 py-2 w-[130px] hidden md:inline-block">

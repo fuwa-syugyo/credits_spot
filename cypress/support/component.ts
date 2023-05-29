@@ -21,40 +21,40 @@
 
 // import './component';
 
-import { mount } from "cypress/vue";
-import { createMemoryHistory, createRouter } from "vue-router";
-import { routeSettings as routes } from "../../src/router";
-import "../../src/style.css";
-import VueAwesomePaginate from "vue-awesome-paginate";
-import "vue-awesome-paginate/dist/style.css";
+import { mount } from 'cypress/vue'
+import { createMemoryHistory, createRouter } from 'vue-router'
+import { routeSettings as routes } from '../../src/router'
+import '../../src/style.css'
+import VueAwesomePaginate from 'vue-awesome-paginate'
+import 'vue-awesome-paginate/dist/style.css'
 
-Cypress.Commands.add("mount", (component, options = {}) => {
+Cypress.Commands.add('mount', (component, options = {}) => {
   // Setup options object
-  options.global = options.global || {};
-  options.global.plugins = options.global.plugins || [];
-  options.global.plugins.push(VueAwesomePaginate);
+  options.global = options.global || {}
+  options.global.plugins = options.global.plugins || []
+  options.global.plugins.push(VueAwesomePaginate)
 
   // create router if one is not provided
   if (!options.router) {
     options.router = createRouter({
       routes: routes,
       history: createMemoryHistory(),
-    });
+    })
   }
 
   // Add router plugin
   options.global.plugins.push({
     install(app) {
-      app.use(options.router);
+      app.use(options.router)
     },
-  });
+  })
 
   if (options.query) {
     options.router.push({
       query: options.query,
-    });
+    })
   }
-  cy.task("setOptions"); //options.queryをマウント前に反映させるため何もしないタスクを実行
+  cy.task('setOptions') //options.queryをマウント前に反映させるため何もしないタスクを実行
 
-  return mount(component, options);
-});
+  return mount(component, options)
+})

@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import { useRouter } from "vue-router";
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 
-const router = useRouter();
-const term = ref("");
-const searchType = ref("曲名");
+const router = useRouter()
+const term = ref('')
+const searchType = ref('曲名')
 
 const search = (): void => {
-  const type = searchType.value === "曲名" ? "Recording" : "Artist";
-  router.push({ name: type + "Search", query: { term: term.value } });
-};
+  const type = searchType.value === '曲名' ? 'Recording' : 'Artist'
+  router.push({ name: type + 'Search', query: { term: term.value } })
+}
 </script>
 
 <template>

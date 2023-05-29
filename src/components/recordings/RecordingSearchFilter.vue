@@ -1,123 +1,123 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { useRoute, RouterLink } from "vue-router";
+import { ref, onMounted } from 'vue'
+import { useRoute, RouterLink } from 'vue-router'
 import {
   ArtistCredit,
   SearchRecordingData,
-} from "../../types/recording/RecordingSearch";
-import NowLoading from "../NowLoading.vue";
+} from '../../types/recording/RecordingSearch'
+import NowLoading from '../NowLoading.vue'
 
-const route = useRoute();
-let recording_term = (route.query.term as string) || "";
-const getRidOfInstrumentValue = route.query.getRidOfInstrument;
-const getPartialMatchValue = route.query.getPartialMatch;
-const artistName = (route.query.artistName as string) || "";
-const totalItems = ref<number>(0);
-let filteredDataLength: number = 0;
-let filteredData: SearchRecordingData[] = [];
-const isLoading = ref(false);
+const route = useRoute()
+let recording_term = (route.query.term as string) || ''
+const getRidOfInstrumentValue = route.query.getRidOfInstrument
+const getPartialMatchValue = route.query.getPartialMatch
+const artistName = (route.query.artistName as string) || ''
+const totalItems = ref<number>(0)
+let filteredDataLength: number = 0
+let filteredData: SearchRecordingData[] = []
+const isLoading = ref(false)
 
-const recording_data = ref<SearchRecordingData[]>([]);
-const all_recording_data = ref<Array<SearchRecordingData[]>>([]);
+const recording_data = ref<SearchRecordingData[]>([])
+const all_recording_data = ref<Array<SearchRecordingData[]>>([])
 
 onMounted(async () => {
   try {
-    isLoading.value = true;
+    isLoading.value = true
     const first_res = await fetch(
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=0&limit=100&fmt=json`
-    );
-    const first_data = await first_res.json();
+    )
+    const first_data = await first_res.json()
 
-    totalItems.value = first_data.count;
-    const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4;
+    totalItems.value = first_data.count
+    const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4
 
     for (let i = 0; i < repeat + 1; i++) {
       const res = await fetch(
         `https://musicbrainz.org/ws/2/recording/?query=recording:${recording_term}&offset=${
           i * 100
         }&limit=100&fmt=json`
-      );
-      const data = await res.json();
+      )
+      const data = await res.json()
 
       const new_recording_data: SearchRecordingData[] = data.recordings
         .filter((rec: SearchRecordingData) => rec)
         .map((item: SearchRecordingData) => ({
           id: item.id,
           title: item.title,
-          "artist-credit": item["artist-credit"].map((credit) => ({
+          'artist-credit': item['artist-credit'].map((credit) => ({
             id: credit.artist.id,
             name: credit.artist.name,
             join_phrase: credit.joinphrase,
             all_name:
               credit.artist.name +
-              (credit.joinphrase ? " " + credit.joinphrase : ""),
+              (credit.joinphrase ? ' ' + credit.joinphrase : ''),
           })),
-          first_release_date: item["first-release-date"],
-          "secondary-types":
-            item.releases?.[0]["release-group"]["secondary-types"]?.[0],
-        }));
+          first_release_date: item['first-release-date'],
+          'secondary-types':
+            item.releases?.[0]['release-group']['secondary-types']?.[0],
+        }))
 
-      all_recording_data.value.push(new_recording_data);
+      all_recording_data.value.push(new_recording_data)
     }
-    recording_data.value = all_recording_data.value.flat();
+    recording_data.value = all_recording_data.value.flat()
 
-    if (getRidOfInstrumentValue == "true") {
-      getRidOfInstrument();
-    }
-
-    if (getPartialMatchValue == "true") {
-      getPartialMatch();
+    if (getRidOfInstrumentValue == 'true') {
+      getRidOfInstrument()
     }
 
-    if (artistName !== "") {
-      artistFilter();
+    if (getPartialMatchValue == 'true') {
+      getPartialMatch()
     }
-    filteredData = recording_data.value;
-    filteredDataLength = filteredData.length;
-    onClickHandler(currentPage.value);
+
+    if (artistName !== '') {
+      artistFilter()
+    }
+    filteredData = recording_data.value
+    filteredDataLength = filteredData.length
+    onClickHandler(currentPage.value)
   } catch {
-    console.error("Error fetching data:", Error);
+    console.error('Error fetching data:', Error)
   } finally {
-    isLoading.value = false;
+    isLoading.value = false
   }
-});
+})
 
 const onClickHandler = (page: number) => {
-  let startIndex = (page - 1) * 100;
-  let endIndex = startIndex + 100;
-  const dataPerPage = filteredData.slice(startIndex, endIndex);
-  recording_data.value = dataPerPage;
-};
+  let startIndex = (page - 1) * 100
+  let endIndex = startIndex + 100
+  const dataPerPage = filteredData.slice(startIndex, endIndex)
+  recording_data.value = dataPerPage
+}
 
 const artistFilter = () => {
   const includeArtistData = recording_data.value.filter((data) =>
-    data["artist-credit"][0].all_name.includes(artistName)
-  );
-  recording_data.value = includeArtistData;
-};
+    data['artist-credit'][0].all_name.includes(artistName)
+  )
+  recording_data.value = includeArtistData
+}
 
 const getRidOfInstrument = () => {
   const cutData = recording_data.value.filter(
     (data) =>
-      !data.title.toLocaleLowerCase().includes("instrumental") &&
-      !data.title.toLocaleLowerCase().includes("(off vocal)") &&
-      !data.title.includes("(カラオケ)") &&
-      !data.title.includes("(オリジナル・カラオケ)") &&
-      !data.title.toLocaleLowerCase().includes("(karaoke)") &&
-      !data.title.toLocaleLowerCase().includes("music video") &&
-      !data.title.toLocaleLowerCase().includes("tv size")
-  );
-  recording_data.value = cutData;
-};
+      !data.title.toLocaleLowerCase().includes('instrumental') &&
+      !data.title.toLocaleLowerCase().includes('(off vocal)') &&
+      !data.title.includes('(カラオケ)') &&
+      !data.title.includes('(オリジナル・カラオケ)') &&
+      !data.title.toLocaleLowerCase().includes('(karaoke)') &&
+      !data.title.toLocaleLowerCase().includes('music video') &&
+      !data.title.toLocaleLowerCase().includes('tv size')
+  )
+  recording_data.value = cutData
+}
 
 const getPartialMatch = () => {
   const partialMatchData = recording_data.value.filter((data) =>
     data.title.toLocaleLowerCase().includes(recording_term.toLocaleLowerCase())
-  );
-  recording_data.value = partialMatchData;
-};
+  )
+  recording_data.value = partialMatchData
+}
 
-const currentPage = ref(1);
+const currentPage = ref(1)
 </script>
 
 <template>
@@ -128,13 +128,13 @@ const currentPage = ref(1);
     <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
     <p>
       {{
-        "検索結果 " +
+        '検索結果 ' +
         filteredDataLength +
-        " 件中 " +
+        ' 件中 ' +
         ((currentPage - 1) * 100 + 1) +
-        " 〜 " +
+        ' 〜 ' +
         ((currentPage - 1) * 100 + recording_data.length) +
-        "件"
+        '件'
       }}
     </p>
     <table class="table-auto my-4">
@@ -167,9 +167,9 @@ const currentPage = ref(1);
           </td>
           <td class="border px-4 py-2">
             {{
-              recording["artist-credit"]
+              recording['artist-credit']
                 .map((credit: ArtistCredit) => credit.all_name)
-                .join(" ")
+                .join(' ')
             }}
           </td>
           <td class="text-center px-4 py-2 w-[130px] hidden md:inline-block">

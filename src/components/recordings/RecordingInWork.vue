@@ -1,51 +1,51 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { RouterLink } from "vue-router";
-import NotFound from "../NotFound.vue";
-import NowLoading from "../NowLoading.vue";
-import { RecordInWork } from "../../types/artist/ArtistDetail";
-import { ArtistCredit } from "../../types/recording/RecordingSearch";
+import { ref, onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
+import NotFound from '../NotFound.vue'
+import NowLoading from '../NowLoading.vue'
+import { RecordInWork } from '../../types/artist/ArtistDetail'
+import { ArtistCredit } from '../../types/recording/RecordingSearch'
 
 interface Props {
-  id: string;
+  id: string
 }
-const props = defineProps<Props>();
-const work_id = props.id;
-const recording_list = ref<RecordInWork[]>();
-const isLoading = ref(false);
+const props = defineProps<Props>()
+const work_id = props.id
+const recording_list = ref<RecordInWork[]>()
+const isLoading = ref(false)
 
 onMounted(async () => {
   try {
-    isLoading.value = true;
+    isLoading.value = true
     const res = await fetch(
       `https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`
-    );
-    const data = await res.json();
+    )
+    const data = await res.json()
 
     const recording_in_work: RecordInWork[] = data?.relations
       .filter((x: Array<object>) => x)
       .map((item: RecordInWork) => ({
         id: item.recording.id,
         title: item.recording.title,
-        "artist-credit": item.recording["artist-credit"].map(
+        'artist-credit': item.recording['artist-credit'].map(
           (credit: ArtistCredit) => ({
             id: credit.artist.id,
             name: credit.artist.name,
             join_phrase: credit.joinphrase,
             all_name:
               credit.artist.name +
-              (credit.joinphrase ? " " + credit.joinphrase : ""),
+              (credit.joinphrase ? ' ' + credit.joinphrase : ''),
           })
         ),
         attributes: item.attributes[0],
-      }));
-    recording_list.value = recording_in_work;
+      }))
+    recording_list.value = recording_in_work
   } catch {
-    console.error("Error fetching data:", Error);
+    console.error('Error fetching data:', Error)
   } finally {
-    isLoading.value = false;
+    isLoading.value = false
   }
-});
+})
 </script>
 
 <template>
@@ -76,9 +76,9 @@ onMounted(async () => {
           </td>
           <td class="px-4 py-2 border">
             {{
-              recording["artist-credit"]
+              recording['artist-credit']
                 .map((credit: ArtistCredit) => credit.all_name)
-                .join(" ")
+                .join(' ')
             }}
           </td>
           <td class="px-4 py-2 border text-center">

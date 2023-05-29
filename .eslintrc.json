@@ -15,7 +15,6 @@
     "parser": "@typescript-eslint/parser",
     "sourceType": "module"
   },
-  "ignorePatterns": ["*.cy.ts"],
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
     "vue/multi-word-component-names": "error",

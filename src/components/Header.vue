@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import SearchForm from "./SearchForm.vue";
-import { RouterLink } from "vue-router";
+import SearchForm from './SearchForm.vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>

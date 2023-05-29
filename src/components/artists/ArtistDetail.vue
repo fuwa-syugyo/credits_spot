@@ -1,52 +1,52 @@
 <script setup lang="ts">
-import { ref, onMounted, defineProps } from "vue";
-import NotFound from "../NotFound.vue";
-import NowLoading from "../NowLoading.vue";
+import { ref, onMounted, defineProps } from 'vue'
+import NotFound from '../NotFound.vue'
+import NowLoading from '../NowLoading.vue'
 import {
   ArtistData,
   RecordingCredit,
   SongWriterCredit,
   ArtistRecording,
-} from "../../types/artist/ArtistDetail";
+} from '../../types/artist/ArtistDetail'
 
 interface Props {
-  id: string;
+  id: string
 }
-const props = defineProps<Props>();
-const artist_data = ref<ArtistData>();
-const artistRecording = ref<ArtistRecording[]>();
-const isLoading = ref(false);
+const props = defineProps<Props>()
+const artist_data = ref<ArtistData>()
+const artistRecording = ref<ArtistRecording[]>()
+const isLoading = ref(false)
 
-const currentPage = ref(1);
-const totalItems = ref<number>(NaN);
+const currentPage = ref(1)
+const totalItems = ref<number>(NaN)
 
 onMounted(async () => {
   try {
-    isLoading.value = true;
+    isLoading.value = true
     const relationshipsRes = await fetch(
       `https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`
-    );
-    const relationshipsData = await relationshipsRes.json();
+    )
+    const relationshipsData = await relationshipsRes.json()
 
     const recording_credit: RecordingCredit[] = relationshipsData.relations
-      .filter((rec: RecordingCredit) => rec["target-type"] === "recording")
+      .filter((rec: RecordingCredit) => rec['target-type'] === 'recording')
       .map((item: RecordingCredit) => ({
-        type: item.type === "instrument" ? item.attributes[0] : item.type,
+        type: item.type === 'instrument' ? item.attributes[0] : item.type,
         recording: {
           id: item.recording.id,
           title: item.recording.title,
         },
-      }));
+      }))
 
     const song_writer_credit: SongWriterCredit[] = relationshipsData.relations
-      .filter((rec: SongWriterCredit) => rec["target-type"] === "work")
+      .filter((rec: SongWriterCredit) => rec['target-type'] === 'work')
       .map((item: SongWriterCredit) => ({
         type: item.type,
         work: {
           id: item.work.id,
           title: item.work.title,
         },
-      }));
+      }))
 
     const all_artist_data: ArtistData = {
       id: relationshipsData.id,
@@ -55,37 +55,37 @@ onMounted(async () => {
         song_writer_credit: song_writer_credit,
         recording_credit: recording_credit,
       },
-    };
-    artist_data.value = all_artist_data;
-    onClickHandler(1);
+    }
+    artist_data.value = all_artist_data
+    onClickHandler(1)
   } catch {
-    console.error("Error fetching data:", Error);
+    console.error('Error fetching data:', Error)
   } finally {
-    isLoading.value = false;
+    isLoading.value = false
   }
-});
+})
 
 const onClickHandler = async (page: number) => {
-  const offset = (page - 1) * 100;
+  const offset = (page - 1) * 100
   try {
     const recordingRes = await fetch(
       `https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`
-    );
-    const recordingData = await recordingRes.json();
+    )
+    const recordingData = await recordingRes.json()
 
     const artistRecordingData: ArtistRecording[] = recordingData.recordings.map(
       (item: ArtistRecording) => ({
         id: item.id,
         title: item.title,
       })
-    );
+    )
 
-    artistRecording.value = artistRecordingData;
-    totalItems.value = recordingData["recording-count"];
+    artistRecording.value = artistRecordingData
+    totalItems.value = recordingData['recording-count']
   } catch {
-    console.error("Error fetching data:", Error);
+    console.error('Error fetching data:', Error)
   }
-};
+}
 </script>
 
 <template>
@@ -166,11 +166,11 @@ const onClickHandler = async (page: number) => {
       <p>
         {{
           totalItems +
-          " 件中 " +
+          ' 件中 ' +
           ((currentPage - 1) * 100 + 1) +
-          " 〜 " +
+          ' 〜 ' +
           ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
-          "件"
+          '件'
         }}
       </p>
       <table class="artist-table table-auto my-4">
