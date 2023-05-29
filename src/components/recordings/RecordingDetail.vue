@@ -14,8 +14,8 @@ interface Props {
   id: string
 }
 const props = defineProps<Props>()
-const recording_id = props.id
-const credit_data = ref<RecordingData>()
+const recordingId = props.id
+const creditData = ref<RecordingData>()
 const spotifyLink = ref<string>()
 const clientId = import.meta.env.VITE_CLIENT_ID
 const secretId = import.meta.env.VITE_CLIENT_SECRET
@@ -25,7 +25,7 @@ onMounted(async () => {
   try {
     isLoading.value = true
     const relationshipsRes = await fetch(
-      `https://musicbrainz.org/ws/2/recording/${recording_id}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
+      `https://musicbrainz.org/ws/2/recording/${recordingId}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
     )
     const relationshipsData = await relationshipsRes.json()
 
@@ -40,10 +40,10 @@ onMounted(async () => {
         name: item.artist.name,
       }))
 
-    let songwriter: SongWriter[] =
+    let songWriter: SongWriter[] =
       relationshipsData?.relations.filter((item: SongWriter) => item.work) || []
-    if (songwriter.length && songwriter[0].work) {
-      songwriter = songwriter[0].work.relations
+    if (songWriter.length && songWriter[0].work) {
+      songWriter = songWriter[0].work.relations
         .filter(
           (artists) =>
             artists.type === 'composer' ||
@@ -75,23 +75,23 @@ onMounted(async () => {
         name: item.artist.name,
       }))
 
-    const all_credit_data: RecordingData = {
+    const allCreditData: RecordingData = {
       id: relationshipsData.id,
       title: relationshipsData.title,
-      release_date: relationshipsData?.['first-release-date'],
+      releaseDate: relationshipsData?.['first-release-date'],
       attribute: relationshipsData?.relations?.filter(
         (item: RecordingData) => item
       )[0]?.attributes,
       isrcs: relationshipsData?.isrcs[0],
 
       credit: {
-        artist_credit: artists,
-        songwriter_credit: songwriter,
-        staff_credit: staff,
-        player_credit: player,
+        artistCredit: artists,
+        songWriterCredit: songWriter,
+        staffCredit: staff,
+        playerCredit: player,
       },
     }
-    credit_data.value = all_credit_data
+    creditData.value = allCreditData
 
     const authOptions = {
       method: 'POST',
@@ -113,7 +113,7 @@ onMounted(async () => {
         const token = data.access_token
         try {
           const spotifyRes = await fetch(
-            `https://api.spotify.com/v1/search?query=isrc%3A${credit_data.value?.isrcs}&type=track&offset=0&limit=20`,
+            `https://api.spotify.com/v1/search?query=isrc%3A${creditData.value?.isrcs}&type=track&offset=0&limit=20`,
             {
               headers: {
                 Authorization: `Bearer ${token}`,
@@ -141,9 +141,9 @@ onMounted(async () => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="credit_data">
+  <div v-else-if="creditData">
     <h1 class="text-2xl my-4 max-w-xl">
-      {{ credit_data?.title }}
+      {{ creditData?.title }}
     </h1>
     <table class="table-auto my-2 max-w-xl">
       <thead>
@@ -154,10 +154,10 @@ onMounted(async () => {
         </tr>
       </thead>
       <tbody>
-        <tr v-if="credit_data?.credit">
+        <tr v-if="creditData?.credit">
           <td class="px-4 py-2 border solid">
             <span
-              v-for="artist in credit_data.credit.artist_credit"
+              v-for="artist in creditData.credit.artistCredit"
               :key="artist.artist.id"
               :name="artist.artist.name"
               :joinphrase="artist.joinphrase"
@@ -180,11 +180,11 @@ onMounted(async () => {
     <br>
     <div
       v-if="
-        credit_data &&
-          credit_data.credit &&
-          (credit_data.credit.songwriter_credit.length !== 0 ||
-            credit_data.credit.staff_credit.length !== 0 ||
-            credit_data.credit.player_credit.length !== 0)
+        creditData &&
+          creditData.credit &&
+          (creditData.credit.songWriterCredit.length !== 0 ||
+            creditData.credit.staffCredit.length !== 0 ||
+            creditData.credit.playerCredit.length !== 0)
       "
     >
       <table class="table-auto">
@@ -198,29 +198,29 @@ onMounted(async () => {
             </th>
           </tr>
         </thead>
-        <tbody v-if="credit_data?.credit.songwriter_credit">
+        <tbody v-if="creditData?.credit.songWriterCredit">
           <tr
-            v-for="songwriter in credit_data.credit.songwriter_credit"
-            :key="songwriter.id"
+            v-for="songWriter in creditData.credit.songWriterCredit"
+            :key="songWriter.id"
           >
             <td class="text-center px-4 py-2 border solid">
-              {{ songwriter.type }}
+              {{ songWriter.type }}
             </td>
             <td class="px-4 py-2 border solid">
               <RouterLink
                 :to="{
                   name: 'ArtistDetail',
-                  params: { id: songwriter.id },
+                  params: { id: songWriter.id },
                 }"
               >
-                {{ songwriter.name }}
+                {{ songWriter.name }}
               </RouterLink>
             </td>
           </tr>
         </tbody>
-        <tbody v-if="credit_data?.credit.staff_credit">
+        <tbody v-if="creditData?.credit.staffCredit">
           <tr
-            v-for="staff in credit_data.credit.staff_credit"
+            v-for="staff in creditData.credit.staffCredit"
             :key="staff.id"
           >
             <td class="text-center px-4 py-2 border solid">
@@ -235,9 +235,9 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="credit_data?.credit.player_credit">
+        <tbody v-if="creditData?.credit.playerCredit">
           <tr
-            v-for="player in credit_data.credit.player_credit"
+            v-for="player in creditData.credit.playerCredit"
             :key="player.id"
           >
             <td class="text-center px-4 py-2 border solid">
@@ -260,7 +260,7 @@ onMounted(async () => {
         <img
           src="../../../public/Spotify_Logo_CMYK_Green.png"
           alt="Spotify Logo"
-          class="spotify__icon"
+          class="spotify Logo"
           style="height: 25px"
         >
       </div>

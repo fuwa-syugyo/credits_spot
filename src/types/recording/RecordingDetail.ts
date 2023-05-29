@@ -45,17 +45,17 @@ export type Artists = {
 }
 
 export type Credit = {
-  artist_credit: Artists[]
-  songwriter_credit: SongWriter[]
-  staff_credit: Staff[]
-  player_credit: Player[]
+  artistCredit: Artists[]
+  songWriterCredit: SongWriter[]
+  staffCredit: Staff[]
+  playerCredit: Player[]
 }
 
 export type RecordingData = {
   id: string
   title: string
   attribute: string
-  release_date: string
+  releaseDate: string
   isrcs: Array<string>
   credit: Credit
 }
