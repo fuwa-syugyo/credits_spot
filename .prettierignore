@@ -2,5 +2,5 @@
 build
 coverage
 
-# Ignore all HTML files:
+cypress/fixtures
 *.html

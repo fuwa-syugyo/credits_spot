@@ -8,7 +8,8 @@
     "build": "npm run && vite build",
     "preview": "vite preview",
     "tsc": "vue-tsc --noEmit",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "lint:prettier": "prettier --check ."
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.3.0",

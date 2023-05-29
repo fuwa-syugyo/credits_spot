@@ -4,18 +4,18 @@ export type RecordingCredit = {
   recording: {
     id: string;
     title: string;
-  }
-  'target-type': string;
-}
+  };
+  "target-type": string;
+};
 
 export type SongWriterCredit = {
   type: string;
   work: {
     id: string;
     title: string;
-  }
-  'target-type': string;
-}
+  };
+  "target-type": string;
+};
 
 export type ArtistData = {
   id: string;
@@ -23,8 +23,8 @@ export type ArtistData = {
   credit: {
     song_writer_credit: SongWriterCredit[];
     recording_credit: RecordingCredit[];
-  }
-}
+  };
+};
 
 export type ArtistCredit = {
   id: string;
@@ -32,25 +32,24 @@ export type ArtistCredit = {
   artist: {
     id: string;
     name: string;
-  }
+  };
   joinphrase: string;
   all_name: string;
-}
+};
 
 export type RecordInWork = {
   recording: {
     id: string;
     title: string;
-    'artist-credit': ArtistCredit[];
-  }
+    "artist-credit": ArtistCredit[];
+  };
   id: string;
   title: string;
   attributes: Array<string>;
-  'artist-credit': ArtistCredit[];
-}
+  "artist-credit": ArtistCredit[];
+};
 
 export type ArtistRecording = {
   id: string;
   title: string;
-}
-
+};
