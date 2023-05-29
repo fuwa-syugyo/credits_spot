@@ -13,7 +13,7 @@ const getRidOfInstrumentValue = route.query.getRidOfInstrument
 const getPartialMatchValue = route.query.getPartialMatch
 const artistName = (route.query.artistName as string) || ''
 const totalItems = ref<number>(0)
-let filteredDataLength: number = 0
+let filteredDataLength = 0
 let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
 
@@ -122,26 +122,32 @@ const currentPage = ref(1)
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
   <div v-else-if="filteredDataLength !== 0">
-    <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
+    <h1 class="text-2xl my-4 max-w-xl">
+      絞り込み結果
+    </h1>
     <p>
       {{
         '検索結果 ' +
-        filteredDataLength +
-        ' 件中 ' +
-        ((currentPage - 1) * 100 + 1) +
-        ' 〜 ' +
-        ((currentPage - 1) * 100 + recording_data.length) +
-        '件'
+          filteredDataLength +
+          ' 件中 ' +
+          ((currentPage - 1) * 100 + 1) +
+          ' 〜 ' +
+          ((currentPage - 1) * 100 + recording_data.length) +
+          '件'
       }}
     </p>
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">
+            曲名
+          </th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">
+            アーティスト
+          </th>
           <th
             class="px-4 py-2 border w-[130px] bg-blue-100 hidden md:inline-block"
           >
@@ -157,7 +163,7 @@ const currentPage = ref(1)
         >
           <td class="border px-4 py-2 max-w-[600px]">
             <RouterLink
-              v-bind:to="{
+              :to="{
                 name: 'RecordingDetail',
                 params: { id: recording.id },
               }"
@@ -180,16 +186,18 @@ const currentPage = ref(1)
     </table>
     <div v-if="filteredDataLength > 100">
       <vue-awesome-paginate
+        v-model="currentPage"
         :total-items="filteredDataLength"
         :items-per-page="100"
         :max-pages-shown="3"
-        v-model="currentPage"
         :on-click="onClickHandler"
       />
     </div>
   </div>
   <div v-else>
-    <h1 class="text-2xl my-4 max-w-xl">Not Found!</h1>
+    <h1 class="text-2xl my-4 max-w-xl">
+      Not Found!
+    </h1>
     <p>条件に該当する楽曲はありませんでした。</p>
   </div>
 </template>

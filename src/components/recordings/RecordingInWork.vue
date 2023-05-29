@@ -50,23 +50,34 @@ onMounted(async () => {
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
   <div v-else-if="recording_list">
-    <h1 class="text-2xl my-4 max-w-xl">曲群一覧</h1>
+    <h1 class="text-2xl my-4 max-w-xl">
+      曲群一覧
+    </h1>
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
-          <th class="px-4 py-2 border bg-blue-100">属性</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">
+            曲名
+          </th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">
+            アーティスト
+          </th>
+          <th class="px-4 py-2 border bg-blue-100">
+            属性
+          </th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="recording in recording_list" :key="recording.id">
+        <tr
+          v-for="recording in recording_list"
+          :key="recording.id"
+        >
           <td class="px-4 py-2 border max-w-[600px]">
             <RouterLink
-              v-bind:to="{
+              :to="{
                 name: 'RecordingDetail',
                 params: { id: recording.id },
               }"
@@ -89,6 +100,6 @@ onMounted(async () => {
     </table>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <NotFound />
   </div>
 </template>

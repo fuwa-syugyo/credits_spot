@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router'
             alt="Site Logo"
             class="header__logo"
             style="height: 100px"
-          />
+          >
         </div>
       </router-link>
       <div class="my-4">

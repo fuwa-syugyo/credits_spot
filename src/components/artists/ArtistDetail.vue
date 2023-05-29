@@ -90,31 +90,39 @@ const onClickHandler = async (page: number) => {
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
   <div v-else-if="artist_data">
-    <h1 class="text-2xl my-4 max-w-xl">{{ artist_data?.name }}</h1>
+    <h1 class="text-2xl my-4 max-w-xl">
+      {{ artist_data?.name }}
+    </h1>
 
     <div v-if="artist_data?.credit.song_writer_credit.length !== 0">
-      <p class="text-lg my-4">作詞作曲した楽曲</p>
+      <p class="text-lg my-4">
+        作詞作曲した楽曲
+      </p>
       <table class="songwriter-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
+              担当
+            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">
+              曲名
+            </th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.song_writer_credit">
           <tr
             v-for="songwriter in artist_data.credit.song_writer_credit"
-            v-bind:key="songwriter.work.id"
+            :key="songwriter.work.id"
           >
             <td class="text-center px-4 py-2 border solid">
               {{ songwriter.type }}
             </td>
             <td class="px-4 py-2 border solid">
               <RouterLink
-                v-bind:to="{
+                :to="{
                   name: 'RecordingInWork',
                   params: { id: songwriter.work.id },
                 }"
@@ -126,28 +134,34 @@ const onClickHandler = async (page: number) => {
         </tbody>
       </table>
     </div>
-    <br />
+    <br>
 
     <div v-if="artist_data?.credit.recording_credit.length !== 0">
-      <p class="text-lg my-4">スタッフとして関わった楽曲</p>
+      <p class="text-lg my-4">
+        スタッフとして関わった楽曲
+      </p>
       <table class="staff-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
+              担当
+            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">
+              曲名
+            </th>
           </tr>
         </thead>
         <tbody v-if="artist_data?.credit.recording_credit">
           <tr
             v-for="recording in artist_data.credit.recording_credit"
-            v-bind:key="recording.recording.id"
+            :key="recording.recording.id"
           >
             <td class="text-center px-4 py-2 border solid">
               {{ recording.type }}
             </td>
             <td class="px-4 py-2 border solid">
               <RouterLink
-                v-bind:to="{
+                :to="{
                   name: 'RecordingDetail',
                   params: { id: recording.recording.id },
                 }"
@@ -160,30 +174,37 @@ const onClickHandler = async (page: number) => {
       </table>
     </div>
 
-    <br />
+    <br>
     <div v-if="artistRecording?.length !== 0">
-      <p class="text-lg my-4">アーティストとして関わった楽曲</p>
+      <p class="text-lg my-4">
+        アーティストとして関わった楽曲
+      </p>
       <p>
         {{
           totalItems +
-          ' 件中 ' +
-          ((currentPage - 1) * 100 + 1) +
-          ' 〜 ' +
-          ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
-          '件'
+            ' 件中 ' +
+            ((currentPage - 1) * 100 + 1) +
+            ' 〜 ' +
+            ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
+            '件'
         }}
       </p>
       <table class="artist-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">
+              曲名
+            </th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="recording in artistRecording" v-bind:key="recording.id">
+          <tr
+            v-for="recording in artistRecording"
+            :key="recording.id"
+          >
             <td class="px-4 py-2 border solid">
               <RouterLink
-                v-bind:to="{
+                :to="{
                   name: 'RecordingDetail',
                   params: { id: recording.id },
                 }"
@@ -197,16 +218,16 @@ const onClickHandler = async (page: number) => {
     </div>
     <div v-if="totalItems > 100">
       <vue-awesome-paginate
+        v-model="currentPage"
         :total-items="totalItems"
         :items-per-page="100"
         :max-pages-shown="3"
-        v-model="currentPage"
         :on-click="onClickHandler"
       />
     </div>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <NotFound />
   </div>
 </template>
 

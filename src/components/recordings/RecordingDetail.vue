@@ -139,14 +139,18 @@ onMounted(async () => {
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
   <div v-else-if="credit_data">
-    <h1 class="text-2xl my-4 max-w-xl">{{ credit_data?.title }}</h1>
+    <h1 class="text-2xl my-4 max-w-xl">
+      {{ credit_data?.title }}
+    </h1>
     <table class="table-auto my-2 max-w-xl">
       <thead>
         <tr>
-          <th class="px-4 py-2 border solid bg-red-100">アーティスト</th>
+          <th class="px-4 py-2 border solid bg-red-100">
+            アーティスト
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -154,11 +158,12 @@ onMounted(async () => {
           <td class="px-4 py-2 border solid">
             <span
               v-for="artist in credit_data.credit.artist_credit"
-              v-bind:name="artist.artist.name"
-              v-bind:joinphrase="artist.joinphrase"
+              :key="artist.artist.id"
+              :name="artist.artist.name"
+              :joinphrase="artist.joinphrase"
             >
               <RouterLink
-                v-bind:to="{
+                :to="{
                   name: 'ArtistDetail',
                   params: { id: artist.artist.id },
                 }"
@@ -172,34 +177,38 @@ onMounted(async () => {
       </tbody>
     </table>
 
-    <br />
+    <br>
     <div
       v-if="
         credit_data &&
-        credit_data.credit &&
-        (credit_data.credit.songwriter_credit.length !== 0 ||
-          credit_data.credit.staff_credit.length !== 0 ||
-          credit_data.credit.player_credit.length !== 0)
+          credit_data.credit &&
+          (credit_data.credit.songwriter_credit.length !== 0 ||
+            credit_data.credit.staff_credit.length !== 0 ||
+            credit_data.credit.player_credit.length !== 0)
       "
     >
       <table class="table-auto">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
+              担当
+            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
+              名前
+            </th>
           </tr>
         </thead>
         <tbody v-if="credit_data?.credit.songwriter_credit">
           <tr
             v-for="songwriter in credit_data.credit.songwriter_credit"
-            v-bind:key="songwriter.id"
+            :key="songwriter.id"
           >
             <td class="text-center px-4 py-2 border solid">
               {{ songwriter.type }}
             </td>
             <td class="px-4 py-2 border solid">
               <RouterLink
-                v-bind:to="{
+                :to="{
                   name: 'ArtistDetail',
                   params: { id: songwriter.id },
                 }"
@@ -212,12 +221,14 @@ onMounted(async () => {
         <tbody v-if="credit_data?.credit.staff_credit">
           <tr
             v-for="staff in credit_data.credit.staff_credit"
-            v-bind:key="staff.id"
+            :key="staff.id"
           >
-            <td class="text-center px-4 py-2 border solid">{{ staff.type }}</td>
+            <td class="text-center px-4 py-2 border solid">
+              {{ staff.type }}
+            </td>
             <td class="px-4 py-2 border solid">
               <RouterLink
-                v-bind:to="{ name: 'ArtistDetail', params: { id: staff.id } }"
+                :to="{ name: 'ArtistDetail', params: { id: staff.id } }"
               >
                 {{ staff.name }}
               </RouterLink>
@@ -227,14 +238,14 @@ onMounted(async () => {
         <tbody v-if="credit_data?.credit.player_credit">
           <tr
             v-for="player in credit_data.credit.player_credit"
-            v-bind:key="player.id"
+            :key="player.id"
           >
             <td class="text-center px-4 py-2 border solid">
               {{ player.instrument }}
             </td>
             <td class="px-4 py-2 border solid">
               <RouterLink
-                v-bind:to="{ name: 'ArtistDetail', params: { id: player.id } }"
+                :to="{ name: 'ArtistDetail', params: { id: player.id } }"
               >
                 {{ player.name }}
               </RouterLink>
@@ -243,7 +254,7 @@ onMounted(async () => {
         </tbody>
       </table>
     </div>
-    <br />
+    <br>
     <div class="spotify-button">
       <div style="display: inline-block; vertical-align: middle">
         <img
@@ -251,19 +262,23 @@ onMounted(async () => {
           alt="Spotify Logo"
           class="spotify__icon"
           style="height: 25px"
-        />
+        >
       </div>
       <div style="display: inline-block; vertical-align: middle">
         <button
           :disabled="!spotifyLink"
           class="bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <a :href="spotifyLink" target="_blank" class="text-white">Play</a>
+          <a
+            :href="spotifyLink"
+            target="_blank"
+            class="text-white"
+          >Play</a>
         </button>
       </div>
     </div>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <NotFound />
   </div>
 </template>

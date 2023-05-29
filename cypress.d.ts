@@ -12,7 +12,7 @@ declare global {
   namespace Cypress {
     interface Chainable {
       // mount: typeof mount;
-      mount(component: any, options?: OptionsParam): Chainable<any>
+      mount(component: component, options?: OptionsParam): Chainable<JQuery<HTMLElement>>
     }
   }
 }

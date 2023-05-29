@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:vue/vue3-recommended'
   ],
   plugins: ['@typescript-eslint'],
@@ -17,6 +16,11 @@ module.exports = {
   },
   root: true,
   rules:{
-    "vue/multi-word-component-names": "error"
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['Header', 'Footer', 'Caution'],
+      },
+    ],
   }
 };

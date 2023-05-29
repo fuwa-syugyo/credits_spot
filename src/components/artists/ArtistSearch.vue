@@ -56,32 +56,39 @@ onMounted(() => {
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
   <div v-else-if="artist_data.length !== 0">
-    <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
+    <h1 class="text-2xl my-4 max-w-xl">
+      人物検索結果
+    </h1>
     <p>
       {{
         '検索結果 ' +
-        totalItems +
-        ' 件中 ' +
-        ((currentPage - 1) * 100 + 1) +
-        ' 〜 ' +
-        ((currentPage - 1) * 100 + artist_data.length) +
-        '件'
+          totalItems +
+          ' 件中 ' +
+          ((currentPage - 1) * 100 + 1) +
+          ' 〜 ' +
+          ((currentPage - 1) * 100 + artist_data.length) +
+          '件'
       }}
     </p>
     <table class="table-auto my-4 max-w-xl">
       <thead>
         <tr>
-          <th class="px-4 py-2 border bg-blue-100">人物名</th>
+          <th class="px-4 py-2 border bg-blue-100">
+            人物名
+          </th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="artist in artist_data" :key="artist.id">
+        <tr
+          v-for="artist in artist_data"
+          :key="artist.id"
+        >
           <td class="border px-4 py-2">
             <RouterLink
-              v-bind:to="{ name: 'ArtistDetail', params: { id: artist.id } }"
+              :to="{ name: 'ArtistDetail', params: { id: artist.id } }"
             >
               {{ artist.name }}
             </RouterLink>
@@ -91,16 +98,16 @@ onMounted(() => {
     </table>
     <div v-if="totalItems > 100">
       <vue-awesome-paginate
+        v-model="currentPage"
         :total-items="totalItems"
         :items-per-page="100"
         :max-pages-shown="3"
-        v-model="currentPage"
         :on-click="onClickHandler"
       />
     </div>
   </div>
   <div v-else>
-    <NoResults></NoResults>
+    <NoResults />
   </div>
 </template>
 

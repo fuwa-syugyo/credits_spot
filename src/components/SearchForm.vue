@@ -14,24 +14,38 @@ const search = (): void => {
 
 <template>
   <div class="container my-4">
-    <form v-on:submit.prevent="search" id="search-form">
-      <label for="recording" class="mr-[5px]"
-        ><input type="radio" v-model="searchType" value="曲名" id="recording" />
+    <form
+      id="search-form"
+      @submit.prevent="search"
+    >
+      <label
+        for="recording"
+        class="mr-[5px]"
+      ><input
+         id="recording"
+         v-model="searchType"
+         type="radio"
+         value="曲名"
+       >
         <span>曲名</span>
       </label>
-      <label for="artist"
-        ><input type="radio" v-model="searchType" value="人物名" id="artist" />
+      <label for="artist"><input
+                            id="artist"
+                            v-model="searchType"
+                            type="radio"
+                            value="人物名"
+                          >
         <span>人物名</span>
       </label>
       <div class="relative md:w-3/4">
         <input
+          id="search"
           v-model="term"
           type="search"
-          id="search"
           class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="検索"
           required
-        />
+        >
         <div
           class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
         >
@@ -48,7 +62,7 @@ const search = (): void => {
               stroke-linejoin="round"
               stroke-width="2"
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            ></path>
+            />
           </svg>
         </div>
         <button

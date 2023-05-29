@@ -93,47 +93,58 @@ onMounted(() => {
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
-  <div v-else-if="recording_data.length !== 0" class="container">
-    <h1 class="text-2xl my-4 max-w-xl">楽曲検索結果</h1>
+  <div
+    v-else-if="recording_data.length !== 0"
+    class="container"
+  >
+    <h1 class="text-2xl my-4 max-w-xl">
+      楽曲検索結果
+    </h1>
     <div
       class="px-4 my-4 border border-gray-500 py-4 md:w-[350px] w-[250px] rounded-md"
     >
-      <form v-on:submit.prevent="applyFilter">
-        <p class="text-xl mb-2">絞り込み</p>
+      <form @submit.prevent="applyFilter">
+        <p class="text-xl mb-2">
+          絞り込み
+        </p>
         <div class="bg-slate-100 flex-col mb-2">
-          <label for="inst" class="mr-[10px] flex"
-            ><input
-              type="checkbox"
-              v-model="selectFilter"
-              value="getRidOfInstrument"
-              id="inst"
-            />
+          <label
+            for="inst"
+            class="mr-[10px] flex"
+          ><input
+             id="inst"
+             v-model="selectFilter"
+             type="checkbox"
+             value="getRidOfInstrument"
+           >
             <span>インスト音源以外</span>
           </label>
-          <label for="partial" class="flex"
-            ><input
-              type="checkbox"
-              v-model="selectFilter"
-              value="getPartialMatch"
-              id="partial"
-            />
+          <label
+            for="partial"
+            class="flex"
+          ><input
+             id="partial"
+             v-model="selectFilter"
+             type="checkbox"
+             value="getPartialMatch"
+           >
             <span>部分一致の曲</span>
           </label>
         </div>
         <label>アーティスト名</label>
         <div class="relative">
           <input
+            id="filter"
             v-model="artistName"
             type="search"
-            id="filter"
             class="p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 my-1"
             placeholder="アーティスト名を入力"
-          />
+          >
           <div
             class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
-          ></div>
+          />
           <button
             type="submit"
             :disabled="!selectFilter[0] && !artistName"
@@ -147,19 +158,23 @@ onMounted(() => {
     <p>
       {{
         '検索結果 ' +
-        totalItems +
-        ' 件中 ' +
-        ((currentPage - 1) * 100 + 1) +
-        ' 〜 ' +
-        ((currentPage - 1) * 100 + recording_data.length) +
-        '件'
+          totalItems +
+          ' 件中 ' +
+          ((currentPage - 1) * 100 + 1) +
+          ' 〜 ' +
+          ((currentPage - 1) * 100 + recording_data.length) +
+          '件'
       }}
     </p>
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">
+            曲名
+          </th>
+          <th class="px-4 py-2 border w-[400px] bg-blue-100">
+            アーティスト
+          </th>
           <th
             class="px-4 py-2 border w-[130px] bg-blue-100 hidden md:inline-block"
           >
@@ -175,7 +190,7 @@ onMounted(() => {
         >
           <td class="border px-4 py-2 max-w-[600px]">
             <RouterLink
-              v-bind:to="{
+              :to="{
                 name: 'RecordingDetail',
                 params: { id: recording.id },
               }"
@@ -198,16 +213,16 @@ onMounted(() => {
     </table>
     <div v-if="totalItems > 100">
       <vue-awesome-paginate
+        v-model="currentPage"
         :total-items="totalItems"
         :items-per-page="100"
         :max-pages-shown="3"
-        v-model="currentPage"
         :on-click="onClickHandler"
       />
     </div>
   </div>
   <div v-else>
-    <NoResults></NoResults>
+    <NoResults />
   </div>
 </template>
 

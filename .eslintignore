@@ -1,2 +1,2 @@
 **/*.js
-cypress/**/*.d.ts
+**/cypress/**/*.d.ts
