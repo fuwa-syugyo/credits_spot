@@ -6,38 +6,38 @@ import NowLoading from '../NowLoading.vue'
 import NoResults from '../NoResults.vue'
 
 onBeforeRouteUpdate((to, from, next) => {
-  artist_term.value = (to.query.term as string) || ''
+  artistTerm.value = (to.query.term as string) || ''
   currentPage.value = 1
-  onClickHandler(currentPage.value, artist_term.value).then(() => {
+  onClickHandler(currentPage.value, artistTerm.value).then(() => {
     next()
   })
 })
 
 const route = useRoute()
-const artist_term = ref((route.query.term as string) || '')
-const artist_data = ref<ArtistData[]>([])
+const artistTerm = ref((route.query.term as string) || '')
+const artistData = ref<ArtistData[]>([])
 const isLoading = ref(false)
 
-const onClickHandler = async (page: number, artist_term: string) => {
-  if (!artist_term) {
-    artist_term = (route.query.term as string) || ''
+const onClickHandler = async (page: number, artistTerm: string) => {
+  if (!artistTerm) {
+    artistTerm = (route.query.term as string) || ''
   }
   try {
     isLoading.value = true
     const offset = (page - 1) * 100
     const res = await fetch(
-      `https://musicbrainz.org/ws/2/artist/?query=artist:${artist_term}&offset=${offset}&limit=100&fmt=json`
+      `https://musicbrainz.org/ws/2/artist/?query=artist:${artistTerm}&offset=${offset}&limit=100&fmt=json`
     )
     const data = await res.json()
 
-    const new_artist_data: ArtistData[] = data.artists
+    const newArtistData: ArtistData[] = data.artists
       .filter((rec: ArtistData) => rec)
       .map((item: ArtistData) => ({
         id: item.id,
         name: item.name,
       }))
 
-    artist_data.value = new_artist_data
+    artistData.value = newArtistData
     totalItems.value = data.count
   } catch {
     console.error('Error fetching data:', Error)
@@ -50,7 +50,7 @@ const currentPage = ref(1)
 const totalItems = ref(0)
 
 onMounted(() => {
-  onClickHandler(currentPage.value, artist_term.value)
+  onClickHandler(currentPage.value, artistTerm.value)
 })
 </script>
 
@@ -58,7 +58,7 @@ onMounted(() => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="artist_data.length !== 0">
+  <div v-else-if="artistData.length !== 0">
     <h1 class="text-2xl my-4 max-w-xl">
       人物検索結果
     </h1>
@@ -69,7 +69,7 @@ onMounted(() => {
           ' 件中 ' +
           ((currentPage - 1) * 100 + 1) +
           ' 〜 ' +
-          ((currentPage - 1) * 100 + artist_data.length) +
+          ((currentPage - 1) * 100 + artistData.length) +
           '件'
       }}
     </p>
@@ -83,7 +83,7 @@ onMounted(() => {
       </thead>
       <tbody>
         <tr
-          v-for="artist in artist_data"
+          v-for="artist in artistData"
           :key="artist.id"
         >
           <td class="border px-4 py-2">
