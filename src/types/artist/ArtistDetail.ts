@@ -5,7 +5,7 @@ export type RecordingCredit = {
     id: string;
     title: string;
   }
-  "target-type": string;
+  'target-type': string;
 }
 
 export type SongWriterCredit = {
@@ -14,7 +14,7 @@ export type SongWriterCredit = {
     id: string;
     title: string;
   }
-  "target-type": string;
+  'target-type': string;
 }
 
 export type ArtistData = {
@@ -41,12 +41,12 @@ export type RecordInWork = {
   recording: {
     id: string;
     title: string;
-    "artist-credit": ArtistCredit[];
+    'artist-credit': ArtistCredit[];
   }
   id: string;
   title: string;
   attributes: Array<string>;
-  "artist-credit": ArtistCredit[];
+  'artist-credit': ArtistCredit[];
 }
 
 export type ArtistRecording = {

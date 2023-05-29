@@ -16,7 +16,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/recordings',
     name: 'RecordingSearch',
     component: () => {
-      return import("../components/recordings/RecordingSearch.vue");
+      return import('../components/recordings/RecordingSearch.vue');
     },
     meta: { title: '楽曲検索結果', desc: '楽曲検索結果表示画面です。' }
   },
@@ -24,7 +24,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/recordings/filter',
     name: 'RecordingSearchFilter',
     component: () => {
-      return import("../components/recordings/RecordingSearchFilter.vue");
+      return import('../components/recordings/RecordingSearchFilter.vue');
     },
     meta: { title: '楽曲絞り込み結果', desc: '楽曲検索結果の絞り込み結果画面です。' }
   },
@@ -33,7 +33,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/artists',
     name: 'ArtistSearch',
     component: () => {
-      return import("../components/artists/ArtistSearch.vue");
+      return import('../components/artists/ArtistSearch.vue');
     },
     meta: { title: '人物検索結果', desc: '人物検索結果表示画面です。' }
   },
@@ -42,7 +42,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/recordings/:id',
     name: 'RecordingDetail',
     component: () => {
-      return import("../components/recordings/RecordingDetail.vue");
+      return import('../components/recordings/RecordingDetail.vue');
     },
     props: (routes) => {
       const idStr = String(routes.params.id);
@@ -57,7 +57,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/recordings/work/:id',
     name: 'RecordingInWork',
     component: () => {
-      return import("../components/recordings/RecordingInWork.vue");
+      return import('../components/recordings/RecordingInWork.vue');
     },
     props: (routes) => {
       const idStr = String(routes.params.id);
@@ -72,7 +72,7 @@ export const routeSettings: RouteRecordRaw[] = [
     path: '/artists/:id',
     name: 'ArtistDetail',
     component: () => {
-      return import("../components/artists/ArtistDetail.vue");
+      return import('../components/artists/ArtistDetail.vue');
     },
     props: (routes) => {
       const idStr = String(routes.params.id);
