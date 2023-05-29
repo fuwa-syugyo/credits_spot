@@ -34,7 +34,7 @@ export type ArtistCredit = {
     name: string
   }
   joinphrase: string
-  all_name: string
+  allName: string
 }
 
 export type RecordInWork = {

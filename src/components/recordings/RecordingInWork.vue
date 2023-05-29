@@ -10,19 +10,19 @@ interface Props {
   id: string
 }
 const props = defineProps<Props>()
-const work_id = props.id
-const recording_list = ref<RecordInWork[]>()
+const workId = props.id
+const recordingList = ref<RecordInWork[]>()
 const isLoading = ref(false)
 
 onMounted(async () => {
   try {
     isLoading.value = true
     const res = await fetch(
-      `https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`
+      `https://musicbrainz.org/ws/2/work/${workId}?inc=recording-rels+artist-credits&fmt=json`
     )
     const data = await res.json()
 
-    const recording_in_work: RecordInWork[] = data?.relations
+    const recordingInWork: RecordInWork[] = data?.relations
       .filter((x: Array<object>) => x)
       .map((item: RecordInWork) => ({
         id: item.recording.id,
@@ -31,15 +31,15 @@ onMounted(async () => {
           (credit: ArtistCredit) => ({
             id: credit.artist.id,
             name: credit.artist.name,
-            join_phrase: credit.joinphrase,
-            all_name:
+            joinphrase: credit.joinphrase,
+            allName:
               credit.artist.name +
               (credit.joinphrase ? ' ' + credit.joinphrase : ''),
           })
         ),
         attributes: item.attributes[0],
       }))
-    recording_list.value = recording_in_work
+    recordingList.value = recordingInWork
   } catch {
     console.error('Error fetching data:', Error)
   } finally {
@@ -52,7 +52,7 @@ onMounted(async () => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="recording_list">
+  <div v-else-if="recordingList">
     <h1 class="text-2xl my-4 max-w-xl">
       曲群一覧
     </h1>
@@ -72,7 +72,7 @@ onMounted(async () => {
       </thead>
       <tbody>
         <tr
-          v-for="recording in recording_list"
+          v-for="recording in recordingList"
           :key="recording.id"
         >
           <td class="px-4 py-2 border max-w-[600px]">
@@ -88,7 +88,7 @@ onMounted(async () => {
           <td class="px-4 py-2 border">
             {{
               recording['artist-credit']
-                .map((credit: ArtistCredit) => credit.all_name)
+                .map((credit: ArtistCredit) => credit.allName)
                 .join(' ')
             }}
           </td>
