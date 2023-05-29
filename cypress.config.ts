@@ -14,12 +14,12 @@ export default defineConfig({
       bundler: "vite",
     },
     setupNodeEvents(on, config) {
-      on('task', {
+      on("task", {
         // deconstruct the individual properties
         setOptions() {
-          return null
+          return null;
         },
-      })
+      });
     },
   },
 });
