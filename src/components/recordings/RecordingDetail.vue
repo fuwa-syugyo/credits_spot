@@ -14,7 +14,7 @@ interface Props {
   id: string
 }
 const props = defineProps<Props>()
-const recordingId = props.id
+const recordingId = ref(props.id)
 const creditData = ref<RecordingData>()
 const spotifyLink = ref<string>()
 const clientId = import.meta.env.VITE_CLIENT_ID
@@ -25,7 +25,7 @@ onMounted(async () => {
   try {
     isLoading.value = true
     const relationshipsRes = await fetch(
-      `https://musicbrainz.org/ws/2/recording/${recordingId}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
+      `https://musicbrainz.org/ws/2/recording/${recordingId.value}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
     )
     const relationshipsData = await relationshipsRes.json()
 

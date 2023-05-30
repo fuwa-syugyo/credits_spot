@@ -10,7 +10,7 @@ interface Props {
   id: string
 }
 const props = defineProps<Props>()
-const workId = props.id
+const workId = ref(props.id)
 const recordingList = ref<RecordInWork[]>()
 const isLoading = ref(false)
 
@@ -18,7 +18,7 @@ onMounted(async () => {
   try {
     isLoading.value = true
     const res = await fetch(
-      `https://musicbrainz.org/ws/2/work/${workId}?inc=recording-rels+artist-credits&fmt=json`
+      `https://musicbrainz.org/ws/2/work/${workId.value}?inc=recording-rels+artist-credits&fmt=json`
     )
     const data = await res.json()
 
