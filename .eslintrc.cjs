@@ -15,7 +15,6 @@ module.exports = {
     extraFileExtensions: ['.vue'],
   },
   root: true,
-  ignorePatterns: ["**/cypress/**/*.d.ts", "**/*.js"],
   rules:{
     'vue/multi-word-component-names': [
       'error',
