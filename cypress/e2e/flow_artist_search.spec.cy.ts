@@ -151,3 +151,4 @@ describe('template spec', () => {
     cy.contains('the band apart')
   })
 })
+export {}

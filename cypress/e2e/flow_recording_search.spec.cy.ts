@@ -325,3 +325,4 @@ describe('Recording search and lookup artist', () => {
     cy.go('back')
   })
 })
+export {}
