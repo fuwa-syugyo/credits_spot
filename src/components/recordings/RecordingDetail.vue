@@ -15,7 +15,7 @@ interface Props {
 }
 const props = defineProps<Props>()
 const recordingId = ref(props.id)
-const creditData = ref<RecordingData>()
+const refRecordingData = ref<RecordingData>()
 const spotifyLink = ref<string>()
 const clientId = import.meta.env.VITE_CLIENT_ID
 const secretId = import.meta.env.VITE_CLIENT_SECRET
@@ -74,7 +74,7 @@ onMounted(async () => {
         name: item.artist.name,
       }))
 
-    const allCreditData: RecordingData = {
+    const recordingData: RecordingData = {
       id: relationshipsData.id,
       title: relationshipsData.title,
       releaseDate: relationshipsData?.['first-release-date'],
@@ -90,7 +90,7 @@ onMounted(async () => {
         playerCredit: player,
       },
     }
-    creditData.value = allCreditData
+    refRecordingData.value = recordingData
 
     const authOptions = {
       method: 'POST',
@@ -112,7 +112,7 @@ onMounted(async () => {
         const token = data.access_token
         try {
           const spotifyRes = await fetch(
-            `https://api.spotify.com/v1/search?query=isrc%3A${creditData.value?.isrcs}&type=track&offset=0&limit=20`,
+            `https://api.spotify.com/v1/search?query=isrc%3A${refRecordingData.value?.isrcs}&type=track&offset=0&limit=20`,
             {
               headers: {
                 Authorization: `Bearer ${token}`,
@@ -140,9 +140,9 @@ onMounted(async () => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="creditData">
+  <div v-else-if="refRecordingData">
     <h1 class="text-2xl my-4 max-w-xl">
-      {{ creditData?.title }}
+      {{ refRecordingData?.title }}
     </h1>
     <table class="table-auto my-2 max-w-xl">
       <thead>
@@ -151,10 +151,10 @@ onMounted(async () => {
         </tr>
       </thead>
       <tbody>
-        <tr v-if="creditData.credit">
+        <tr v-if="refRecordingData.credit">
           <td class="px-4 py-2 border solid">
             <span
-              v-for="artist in creditData.credit.artistCredit"
+              v-for="artist in refRecordingData.credit.artistCredit"
               :key="artist.artist.id"
               :name="artist.artist.name"
               :joinphrase="artist.joinphrase"
@@ -177,9 +177,9 @@ onMounted(async () => {
     <br />
     <div
       v-if="
-        (creditData.credit.songWriterCredit.length !== 0 ||
-          creditData.credit.staffCredit.length !== 0 ||
-          creditData.credit.playerCredit.length !== 0)
+        (refRecordingData.credit.songWriterCredit.length !== 0 ||
+          refRecordingData.credit.staffCredit.length !== 0 ||
+          refRecordingData.credit.playerCredit.length !== 0)
       "
     >
       <table class="table-auto">
@@ -189,9 +189,9 @@ onMounted(async () => {
             <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
           </tr>
         </thead>
-        <tbody v-if="creditData.credit.songWriterCredit">
+        <tbody v-if="refRecordingData.credit.songWriterCredit">
           <tr
-            v-for="songWriter in creditData.credit.songWriterCredit"
+            v-for="songWriter in refRecordingData.credit.songWriterCredit"
             :key="songWriter.id"
           >
             <td class="text-center px-4 py-2 border solid">
@@ -209,8 +209,8 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="creditData.credit.staffCredit">
-          <tr v-for="staff in creditData.credit.staffCredit" :key="staff.id">
+        <tbody v-if="refRecordingData.credit.staffCredit">
+          <tr v-for="staff in refRecordingData.credit.staffCredit" :key="staff.id">
             <td class="text-center px-4 py-2 border solid">
               {{ staff.type }}
             </td>
@@ -223,8 +223,8 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="creditData.credit.playerCredit">
-          <tr v-for="player in creditData.credit.playerCredit" :key="player.id">
+        <tbody v-if="refRecordingData.credit.playerCredit">
+          <tr v-for="player in refRecordingData.credit.playerCredit" :key="player.id">
             <td class="text-center px-4 py-2 border solid">
               {{ player.instrument }}
             </td>
