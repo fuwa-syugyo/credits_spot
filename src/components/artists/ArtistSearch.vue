@@ -25,10 +25,9 @@ const onClickHandler = async (page: number, artistTerm: string) => {
   try {
     isLoading.value = true
     const offset = (page - 1) * 100
-    const res = await fetch(
+    const data = await fetch(
       `https://musicbrainz.org/ws/2/artist/?query=artist:${artistTerm}&offset=${offset}&limit=100&fmt=json`
-    )
-    const data = await res.json()
+    ).then((res) => res.json())
 
     const newArtistData: ArtistData[] = data.artists
       .filter((rec: ArtistData) => rec)

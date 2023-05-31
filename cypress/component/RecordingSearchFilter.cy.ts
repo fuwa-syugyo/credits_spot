@@ -28,7 +28,7 @@ describe('RecordingSearchFilter tests', () => {
       { fixture: 'mock_ue5.json' }
     ).as('ue5Request')
     cy.mount(RecordingSearchFilter, {
-      query: { term: '上を向いて歩こう', getPartialMatch: 'true' },
+      query: { term: '上を向いて歩こう', partialMatch: 'true' },
     })
     cy.wait('@ue1Request')
     cy.wait('@ue2Request')
@@ -97,7 +97,7 @@ describe('RecordingSearchFilter tests', () => {
       { fixture: 'mock_ue5.json' }
     ).as('ue5Request')
     cy.mount(RecordingSearchFilter, {
-      query: { term: '上を向いて歩こう', getRidOfInstrument: 'true' },
+      query: { term: '上を向いて歩こう', excludeInst: 'true' },
     })
     cy.wait('@ue1Request')
     cy.wait('@ue2Request')
@@ -222,8 +222,8 @@ describe('RecordingSearchFilter tests', () => {
     cy.mount(RecordingSearchFilter, {
       query: {
         term: '上を向いて歩こう',
-        getPartialMatch: 'true',
-        getRidOfInstrument: 'true',
+        partialMatch: 'true',
+        excludeInst: 'true',
       },
     })
     cy.wait('@ue1Request')
@@ -287,7 +287,7 @@ describe('RecordingSearchFilter tests', () => {
     cy.mount(RecordingSearchFilter, {
       query: {
         term: '上を向いて歩こう',
-        getPartialMatch: 'true',
+        partialMatch: 'true',
         artistName: '坂本九',
       },
     })
@@ -344,7 +344,7 @@ describe('RecordingSearchFilter tests', () => {
     cy.mount(RecordingSearchFilter, {
       query: {
         term: '上を向いて歩こう',
-        getRidOfInstrument: 'true',
+        excludeInst: 'true',
         artistName: '坂本九',
       },
     })
@@ -401,8 +401,8 @@ describe('RecordingSearchFilter tests', () => {
     cy.mount(RecordingSearchFilter, {
       query: {
         term: '上を向いて歩こう',
-        getPartialMatch: 'true',
-        getRidOfInstrument: 'true',
+        partialMatch: 'true',
+        excludeInst: 'true',
         artistName: '坂本九',
       },
     })

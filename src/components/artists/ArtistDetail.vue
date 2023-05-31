@@ -23,10 +23,9 @@ const totalItems = ref<number>(NaN)
 onMounted(async () => {
   try {
     isLoading.value = true
-    const relationshipsRes = await fetch(
+    const relationshipsData = await fetch(
       `https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`
-    )
-    const relationshipsData = await relationshipsRes.json()
+    ).then((res) => res.json())
 
     const recordingCredit: RecordingCredit[] = relationshipsData.relations
       .filter((rec: RecordingCredit) => rec['target-type'] === 'recording')
@@ -68,10 +67,9 @@ onMounted(async () => {
 const onClickHandler = async (page: number) => {
   const offset = (page - 1) * 100
   try {
-    const recordingRes = await fetch(
+    const recordingData = await fetch(
       `https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`
-    )
-    const recordingData = await recordingRes.json()
+    ).then((res) => res.json())
 
     const artistRecordingData: ArtistRecording[] = recordingData.recordings.map(
       (item: ArtistRecording) => ({

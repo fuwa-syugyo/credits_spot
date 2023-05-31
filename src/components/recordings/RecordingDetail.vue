@@ -24,10 +24,9 @@ const isLoading = ref(false)
 onMounted(async () => {
   try {
     isLoading.value = true
-    const relationshipsRes = await fetch(
+    const relationshipsData = await fetch(
       `https://musicbrainz.org/ws/2/recording/${recordingId.value}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
-    )
-    const relationshipsData = await relationshipsRes.json()
+    ).then((res) => res.json())
 
     const artists: Artists[] = relationshipsData['artist-credit']
 
