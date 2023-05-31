@@ -23,10 +23,9 @@ const allRecordingData = ref<Array<SearchRecordingData[]>>([])
 onMounted(async () => {
   try {
     isLoading.value = true
-    const firstRes = await fetch(
+    const firstData  = await fetch(
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=0&limit=100&fmt=json`
-    )
-    const firstData = await firstRes.json()
+    ).then((res) => res.json())
 
     totalItems.value = firstData.count
     const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4
