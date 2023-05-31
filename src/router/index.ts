@@ -10,7 +10,7 @@ export const routeSettings: RouteRecordRaw[] = [
     name: 'Home',
     component: HomeView,
     meta: {
-      title: 'Music Credit Search',
+      title: 'CreditsSpot',
       desc: '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。',
     },
   },
@@ -107,7 +107,7 @@ export const routeSettings: RouteRecordRaw[] = [
     meta: { title: 'ご利用上の注意', desc: 'ご利用上の注意です。' },
   },
 ]
-const DEFAULT_TITLE = 'Simple Music Credit'
+const DEFAULT_TITLE = 'CreditsSpot'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: routeSettings,
