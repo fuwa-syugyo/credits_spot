@@ -15,7 +15,7 @@ onBeforeRouteUpdate((to, from, next) => {
 
 const route = useRoute()
 const artistTerm = ref((route.query.term as string) || '')
-const artistData = ref<ArtistData[]>([])
+const refArtistData = ref<ArtistData[]>([])
 const isLoading = ref(false)
 
 const onClickHandler = async (page: number, artistTerm: string) => {
@@ -29,14 +29,14 @@ const onClickHandler = async (page: number, artistTerm: string) => {
       `https://musicbrainz.org/ws/2/artist/?query=artist:${artistTerm}&offset=${offset}&limit=100&fmt=json`
     ).then((res) => res.json())
 
-    const newArtistData: ArtistData[] = data.artists
+    const artistData: ArtistData[] = data.artists
       .filter((rec: ArtistData) => rec)
       .map((item: ArtistData) => ({
         id: item.id,
         name: item.name,
       }))
 
-    artistData.value = newArtistData
+    refArtistData.value = artistData
     totalItems.value = data.count
   } catch {
     console.error('Error fetching data:', Error)
@@ -57,7 +57,7 @@ onMounted(() => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="artistData.length !== 0">
+  <div v-else-if="refArtistData.length !== 0">
     <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
     <p>
       {{
@@ -66,7 +66,7 @@ onMounted(() => {
         ' 件中 ' +
         ((currentPage - 1) * 100 + 1) +
         ' 〜 ' +
-        ((currentPage - 1) * 100 + artistData.length) +
+        ((currentPage - 1) * 100 + refArtistData.length) +
         '件'
       }}
     </p>
@@ -77,7 +77,7 @@ onMounted(() => {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="artist in artistData" :key="artist.id">
+        <tr v-for="artist in refArtistData" :key="artist.id">
           <td class="border px-4 py-2">
             <RouterLink
               :to="{ name: 'ArtistDetail', params: { id: artist.id } }"
