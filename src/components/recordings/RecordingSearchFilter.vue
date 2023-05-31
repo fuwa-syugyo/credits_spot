@@ -32,14 +32,13 @@ onMounted(async () => {
     const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4
 
     for (let i = 0; i < repeat + 1; i++) {
-      const res = await fetch(
+      const data = await fetch(
         `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=${
           i * 100
         }&limit=100&fmt=json`
-      )
-      const data = await res.json()
+      ).then((res) => res.json())
 
-      const newRecordingData: SearchRecordingData[] = data.recordings
+      const searchRecordingData: SearchRecordingData[] = data.recordings
         .filter((rec: SearchRecordingData) => rec)
         .map((item: SearchRecordingData) => ({
           id: item.id,
@@ -57,7 +56,7 @@ onMounted(async () => {
             item.releases?.[0]['release-group']['secondary-types']?.[0],
         }))
 
-      allRecordingData.value.push(newRecordingData)
+      allRecordingData.value.push(searchRecordingData)
     }
     recordingData.value = allRecordingData.value.flat()
 
