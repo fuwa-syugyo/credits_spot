@@ -13,8 +13,8 @@ interface Props {
   id: string
 }
 const props = defineProps<Props>()
-const artistData = ref<ArtistData>()
-const artistRecording = ref<ArtistRecording[]>()
+const refArtistData = ref<ArtistData>()
+const refArtistRecording = ref<ArtistRecording[]>()
 const isLoading = ref(false)
 
 const currentPage = ref(1)
@@ -23,10 +23,9 @@ const totalItems = ref<number>(NaN)
 onMounted(async () => {
   try {
     isLoading.value = true
-    const relationshipsRes = await fetch(
+    const relationshipsData = await fetch(
       `https://musicbrainz.org/ws/2/artist/${props.id}?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json`
-    )
-    const relationshipsData = await relationshipsRes.json()
+    ).then((res) => res.json())
 
     const recordingCredit: RecordingCredit[] = relationshipsData.relations
       .filter((rec: RecordingCredit) => rec['target-type'] === 'recording')
@@ -48,7 +47,7 @@ onMounted(async () => {
         },
       }))
 
-    const allArtistData: ArtistData = {
+    const artistData: ArtistData = {
       id: relationshipsData.id,
       name: relationshipsData.name,
       credit: {
@@ -56,7 +55,7 @@ onMounted(async () => {
         recording: recordingCredit,
       },
     }
-    artistData.value = allArtistData
+    refArtistData.value = artistData
     onClickHandler(1)
   } catch {
     console.error('Error fetching data:', Error)
@@ -68,19 +67,18 @@ onMounted(async () => {
 const onClickHandler = async (page: number) => {
   const offset = (page - 1) * 100
   try {
-    const recordingRes = await fetch(
+    const recordingData = await fetch(
       `https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`
-    )
-    const recordingData = await recordingRes.json()
+    ).then((res) => res.json())
 
-    const artistRecordingData: ArtistRecording[] = recordingData.recordings.map(
+    const artistRecording: ArtistRecording[] = recordingData.recordings.map(
       (item: ArtistRecording) => ({
         id: item.id,
         title: item.title,
       })
     )
 
-    artistRecording.value = artistRecordingData
+    refArtistRecording.value = artistRecording
     totalItems.value = recordingData['recording-count']
   } catch {
     console.error('Error fetching data:', Error)
@@ -92,12 +90,12 @@ const onClickHandler = async (page: number) => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="artistData">
+  <div v-else-if="refArtistData || refArtistRecording">
     <h1 class="text-2xl my-4 max-w-xl">
-      {{ artistData?.name }}
+      {{ refArtistData?.name }}
     </h1>
 
-    <div v-if="artistData?.credit.song.length !== 0">
+    <div v-if="refArtistData?.credit.song.length !== 0">
       <p class="text-lg my-4">作詞作曲した楽曲</p>
       <table class="songwriter-table table-auto my-4">
         <thead>
@@ -106,9 +104,9 @@ const onClickHandler = async (page: number) => {
             <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
-        <tbody v-if="artistData?.credit.song">
+        <tbody v-if="refArtistData?.credit.song">
           <tr
-            v-for="songwriter in artistData.credit.song"
+            v-for="songwriter in refArtistData.credit.song"
             :key="songwriter.work.id"
           >
             <td class="text-center px-4 py-2 border solid">
@@ -130,7 +128,7 @@ const onClickHandler = async (page: number) => {
     </div>
     <br />
 
-    <div v-if="artistData?.credit.recording.length !== 0">
+    <div v-if="refArtistData?.credit.recording.length !== 0">
       <p class="text-lg my-4">スタッフとして関わった楽曲</p>
       <table class="staff-table table-auto my-4">
         <thead>
@@ -139,9 +137,9 @@ const onClickHandler = async (page: number) => {
             <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
-        <tbody v-if="artistData?.credit.recording">
+        <tbody v-if="refArtistData?.credit.recording">
           <tr
-            v-for="recording in artistData.credit.recording"
+            v-for="recording in refArtistData.credit.recording"
             :key="recording.recording.id"
           >
             <td class="text-center px-4 py-2 border solid">
@@ -163,7 +161,7 @@ const onClickHandler = async (page: number) => {
     </div>
 
     <br />
-    <div v-if="artistRecording?.length !== 0">
+    <div v-if="refArtistRecording?.length !== 0">
       <p class="text-lg my-4">アーティストとして関わった楽曲</p>
       <p>
         {{
@@ -171,7 +169,7 @@ const onClickHandler = async (page: number) => {
           ' 件中 ' +
           ((currentPage - 1) * 100 + 1) +
           ' 〜 ' +
-          ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
+          ((currentPage - 1) * 100 + (refArtistRecording?.length ?? 0)) +
           '件'
         }}
       </p>
@@ -182,7 +180,7 @@ const onClickHandler = async (page: number) => {
           </tr>
         </thead>
         <tbody>
-          <tr v-for="recording in artistRecording" :key="recording.id">
+          <tr v-for="recording in refArtistRecording" :key="recording.id">
             <td class="px-4 py-2 border solid">
               <RouterLink
                 :to="{

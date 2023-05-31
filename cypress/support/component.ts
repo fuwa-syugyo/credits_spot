@@ -29,12 +29,10 @@ import VueAwesomePaginate from 'vue-awesome-paginate'
 import 'vue-awesome-paginate/dist/style.css'
 
 Cypress.Commands.add('mount', (component, options = {}) => {
-  // Setup options object
   options.global = options.global || {}
   options.global.plugins = options.global.plugins || []
   options.global.plugins.push(VueAwesomePaginate)
 
-  // create router if one is not provided
   if (!options.router) {
     options.router = createRouter({
       routes: routes,
@@ -42,7 +40,6 @@ Cypress.Commands.add('mount', (component, options = {}) => {
     })
   }
 
-  // Add router plugin
   options.global.plugins.push({
     install(app) {
       app.use(options.router as Router)

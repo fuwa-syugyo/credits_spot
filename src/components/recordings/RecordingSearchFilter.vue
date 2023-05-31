@@ -8,38 +8,36 @@ import {
 import NowLoading from '../NowLoading.vue'
 
 const route = useRoute()
-let recordingTerm = (route.query.term as string) || ''
-const getRidOfInstrumentValue = route.query.getRidOfInstrument
-const getPartialMatchValue = route.query.getPartialMatch
+const recordingTerm = (route.query.term as string) || ''
+const excludeInstValue = route.query.excludeInst
+const partialMatchValue = route.query.partialMatch
 const artistName = (route.query.artistName as string) || ''
 const totalItems = ref<number>(0)
 let filteredDataLength = 0
 let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
 
-const recordingData = ref<SearchRecordingData[]>([])
-const allRecordingData = ref<Array<SearchRecordingData[]>>([])
+const refRecordingData = ref<SearchRecordingData[]>([])
+const refRecordingDataArray = ref<Array<SearchRecordingData[]>>([])
 
 onMounted(async () => {
   try {
     isLoading.value = true
-    const firstRes = await fetch(
+    const firstData = await fetch(
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=0&limit=100&fmt=json`
-    )
-    const firstData = await firstRes.json()
+    ).then((res) => res.json()) //fetchを行う回数を決めるために、検索結果が何件か調べる
 
     totalItems.value = firstData.count
     const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4
 
     for (let i = 0; i < repeat + 1; i++) {
-      const res = await fetch(
+      const data = await fetch(
         `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=${
           i * 100
         }&limit=100&fmt=json`
-      )
-      const data = await res.json()
+      ).then((res) => res.json())
 
-      const newRecordingData: SearchRecordingData[] = data.recordings
+      const searchRecordingData: SearchRecordingData[] = data.recordings
         .filter((rec: SearchRecordingData) => rec)
         .map((item: SearchRecordingData) => ({
           id: item.id,
@@ -57,22 +55,22 @@ onMounted(async () => {
             item.releases?.[0]['release-group']['secondary-types']?.[0],
         }))
 
-      allRecordingData.value.push(newRecordingData)
+      refRecordingDataArray.value.push(searchRecordingData)
     }
-    recordingData.value = allRecordingData.value.flat()
+    refRecordingData.value = refRecordingDataArray.value.flat()
 
-    if (getRidOfInstrumentValue == 'true') {
-      getRidOfInstrument()
+    if (excludeInstValue == 'true') {
+      excludeInstFilter()
     }
 
-    if (getPartialMatchValue == 'true') {
-      getPartialMatch()
+    if (partialMatchValue == 'true') {
+      partialMatchFilter()
     }
 
     if (artistName !== '') {
       artistFilter()
     }
-    filteredData = recordingData.value
+    filteredData = refRecordingData.value
     filteredDataLength = filteredData.length
     onClickHandler(currentPage.value)
   } catch {
@@ -86,18 +84,18 @@ const onClickHandler = (page: number) => {
   let startIndex = (page - 1) * 100
   let endIndex = startIndex + 100
   const dataPerPage = filteredData.slice(startIndex, endIndex)
-  recordingData.value = dataPerPage
+  refRecordingData.value = dataPerPage
 }
 
 const artistFilter = () => {
-  const includeArtistData = recordingData.value.filter((data) =>
+  const includeArtistData = refRecordingData.value.filter((data) =>
     data['artist-credit'][0].allName.includes(artistName)
   )
-  recordingData.value = includeArtistData
+  refRecordingData.value = includeArtistData
 }
 
-const getRidOfInstrument = () => {
-  const cutData = recordingData.value.filter(
+const excludeInstFilter = () => {
+  const cutData = refRecordingData.value.filter(
     (data) =>
       !data.title.toLocaleLowerCase().includes('instrumental') &&
       !data.title.toLocaleLowerCase().includes('(off vocal)') &&
@@ -107,14 +105,14 @@ const getRidOfInstrument = () => {
       !data.title.toLocaleLowerCase().includes('music video') &&
       !data.title.toLocaleLowerCase().includes('tv size')
   )
-  recordingData.value = cutData
+  refRecordingData.value = cutData
 }
 
-const getPartialMatch = () => {
-  const partialMatchData = recordingData.value.filter((data) =>
+const partialMatchFilter = () => {
+  const partialMatchData = refRecordingData.value.filter((data) =>
     data.title.toLocaleLowerCase().includes(recordingTerm.toLocaleLowerCase())
   )
-  recordingData.value = partialMatchData
+  refRecordingData.value = partialMatchData
 }
 
 const currentPage = ref(1)
@@ -133,7 +131,7 @@ const currentPage = ref(1)
         ' 件中 ' +
         ((currentPage - 1) * 100 + 1) +
         ' 〜 ' +
-        ((currentPage - 1) * 100 + recordingData.length) +
+        ((currentPage - 1) * 100 + refRecordingData.length) +
         '件'
       }}
     </p>
@@ -151,7 +149,7 @@ const currentPage = ref(1)
       </thead>
       <tbody>
         <tr
-          v-for="recording in recordingData"
+          v-for="recording in refRecordingData"
           :key="recording.id"
           class="border px-4 py-2"
         >

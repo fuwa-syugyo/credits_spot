@@ -26,3 +26,4 @@ README.md
 
 .env
 cypress/videos/
+cypress/screenshots/
