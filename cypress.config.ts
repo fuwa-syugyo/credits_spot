@@ -1,8 +1,8 @@
-import { defineConfig } from "cypress";
+import { defineConfig } from 'cypress'
 
 export default defineConfig({
   e2e: {
-    setupNodeEvents(on, config) {
+    setupNodeEvents() {
       // implement node event listeners here
     },
     experimentalStudio: true,
@@ -10,10 +10,10 @@ export default defineConfig({
 
   component: {
     devServer: {
-      framework: "vue",
-      bundler: "vite",
+      framework: 'vue',
+      bundler: 'vite',
     },
-    setupNodeEvents(on, config) {
+    setupNodeEvents(on) {
       on('task', {
         // deconstruct the individual properties
         setOptions() {
@@ -22,4 +22,4 @@ export default defineConfig({
       })
     },
   },
-});
+})

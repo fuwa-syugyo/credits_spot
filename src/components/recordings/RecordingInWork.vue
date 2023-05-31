@@ -1,50 +1,58 @@
 <script setup lang="ts">
-  import { ref, onMounted } from "vue";
-  import { RouterLink } from "vue-router";
-  import NotFound from "../NotFound.vue";
-  import NowLoading from "../NowLoading.vue"
-  import { RecordInWork } from "../../types/artist/ArtistDetail"
-  import { ArtistCredit } from "../../types/recording/RecordingSearch"
+import { ref, onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
+import NotFound from '../NotFound.vue'
+import NowLoading from '../NowLoading.vue'
+import { RecordInWork } from '../../types/artist/ArtistDetail'
+import { ArtistCredit } from '../../types/recording/RecordingSearch'
 
-  interface Props {
-    id: string;
-  }
-  const props = defineProps<Props>();
-  const work_id = props.id
-  const recording_list = ref<RecordInWork[]>();
-  const isLoading = ref(false);
+interface Props {
+  id: string
+}
+const props = defineProps<Props>()
+const workId = ref(props.id)
+const recordingList = ref<RecordInWork[]>()
+const isLoading = ref(false)
 
-  onMounted(async () => {
-    try {
-      isLoading.value = true;
-      const res = await fetch(`https://musicbrainz.org/ws/2/work/${work_id}?inc=recording-rels+artist-credits&fmt=json`)
-      const data = await res.json()
+onMounted(async () => {
+  try {
+    isLoading.value = true
+    const res = await fetch(
+      `https://musicbrainz.org/ws/2/work/${workId.value}?inc=recording-rels+artist-credits&fmt=json`
+    )
+    const data = await res.json()
 
-      const recording_in_work: RecordInWork[] = data?.relations.filter((x: Array<object>) => x).map((item: RecordInWork) => ({
+    const recordingInWork: RecordInWork[] = data?.relations
+      .filter((x: Array<object>) => x)
+      .map((item: RecordInWork) => ({
         id: item.recording.id,
         title: item.recording.title,
-        "artist-credit": item.recording["artist-credit"].map((credit: ArtistCredit) => ({
+        'artist-credit': item.recording['artist-credit'].map(
+          (credit: ArtistCredit) => ({
             id: credit.artist.id,
             name: credit.artist.name,
-            join_phrase: credit.joinphrase,
-            all_name: credit.artist.name + (credit.joinphrase ? ' ' + credit.joinphrase : '')
-          })),
+            joinphrase: credit.joinphrase,
+            allName:
+              credit.artist.name +
+              (credit.joinphrase ? ' ' + credit.joinphrase : ''),
+          })
+        ),
         attributes: item.attributes[0],
       }))
-      recording_list.value = recording_in_work;
-    } catch {
-      console.error('Error fetching data:', Error);
-    } finally {
-      isLoading.value = false;
-    }
-  })
+    recordingList.value = recordingInWork
+  } catch {
+    console.error('Error fetching data:', Error)
+  } finally {
+    isLoading.value = false
+  }
+})
 </script>
 
 <template>
   <div v-if="isLoading">
-    <NowLoading></NowLoading>
+    <NowLoading />
   </div>
-  <div v-else-if="recording_list">
+  <div v-else-if="recordingList">
     <h1 class="text-2xl my-4 max-w-xl">曲群一覧</h1>
     <table class="table-auto my-4">
       <thead>
@@ -55,19 +63,32 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="recording in recording_list" :key="recording.id">
+        <tr v-for="recording in recordingList" :key="recording.id">
           <td class="px-4 py-2 border max-w-[600px]">
-            <RouterLink v-bind:to="{name: 'RecordingDetail', params: {id: recording.id}}">
+            <RouterLink
+              :to="{
+                name: 'RecordingDetail',
+                params: { id: recording.id },
+              }"
+            >
               {{ recording.title }}
             </RouterLink>
           </td>
-          <td class="px-4 py-2 border">{{ recording["artist-credit"].map((credit: ArtistCredit) => credit.all_name).join(' ') }}</td>
-          <td class="px-4 py-2 border text-center">{{ recording.attributes }}</td>
+          <td class="px-4 py-2 border">
+            {{
+              recording['artist-credit']
+                .map((credit: ArtistCredit) => credit.allName)
+                .join(' ')
+            }}
+          </td>
+          <td class="px-4 py-2 border text-center">
+            {{ recording.attributes }}
+          </td>
         </tr>
       </tbody>
     </table>
   </div>
   <div v-else>
-    <NotFound></NotFound>
+    <NotFound />
   </div>
 </template>

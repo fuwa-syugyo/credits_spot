@@ -1,14 +1,17 @@
-import { RouteRecordRaw } from 'vue-router';
+import { RouteRecordRaw } from 'vue-router'
 
 declare module '*.vue' {
-  import { DefineComponent } from 'vue';
-  const component: DefineComponent<{}, {}, any>;
-  export default component;
+  import { DefineComponent } from 'vue'
+  const component: DefineComponent<{}, {}, any>
+  export default component
 }
 
 declare module Cypress {
   interface Chainable {
-    mount(component: unknown, options?: any): Cypress.Chainable<JQuery<HTMLElement>>;
+    mount(
+      component: unknown,
+      options?: any
+    ): Cypress.Chainable<JQuery<HTMLElement>>
   }
 }
 
@@ -20,15 +23,15 @@ declare global {
   }
 }
 
-declare module "cypress/vue" {
+declare module 'cypress/vue' {
   export function mount(
     component: unknown,
     options?: {
-      [key: string]: unknown;
+      [key: string]: unknown
       router?: {
-        routes: RouteRecordRaw[];
-        history?: unknown;
-      };
+        routes: RouteRecordRaw[]
+        history?: unknown
+      }
     }
-  ): Cypress.Chainable<JQuery<HTMLElement>>;
+  ): Cypress.Chainable<JQuery<HTMLElement>>
 }
