@@ -8,7 +8,7 @@ import {
 import NowLoading from '../NowLoading.vue'
 
 const route = useRoute()
-let recordingTerm = (route.query.term as string) || ''
+const recordingTerm = (route.query.term as string) || ''
 const excludeInstValue = route.query.excludeInst
 const partialMatchValue = route.query.partialMatch
 const artistName = (route.query.artistName as string) || ''
@@ -17,7 +17,7 @@ let filteredDataLength = 0
 let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
 
-const recordingData = ref<SearchRecordingData[]>([])
+const refRecordingData = ref<SearchRecordingData[]>([])
 const allRecordingData = ref<Array<SearchRecordingData[]>>([])
 
 onMounted(async () => {
@@ -25,7 +25,7 @@ onMounted(async () => {
     isLoading.value = true
     const firstData  = await fetch(
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=0&limit=100&fmt=json`
-    ).then((res) => res.json())
+    ).then((res) => res.json()) //fetchを行う回数を決めるために、検索結果が何件か調べる
 
     totalItems.value = firstData.count
     const repeat = totalItems.value < 500 ? totalItems.value / 100 : 4
@@ -57,7 +57,7 @@ onMounted(async () => {
 
       allRecordingData.value.push(searchRecordingData)
     }
-    recordingData.value = allRecordingData.value.flat()
+    refRecordingData.value = allRecordingData.value.flat()
 
     if (excludeInstValue == 'true') {
       excludeInstFilter()
@@ -70,7 +70,7 @@ onMounted(async () => {
     if (artistName !== '') {
       artistFilter()
     }
-    filteredData = recordingData.value
+    filteredData = refRecordingData.value
     filteredDataLength = filteredData.length
     onClickHandler(currentPage.value)
   } catch {
@@ -84,18 +84,18 @@ const onClickHandler = (page: number) => {
   let startIndex = (page - 1) * 100
   let endIndex = startIndex + 100
   const dataPerPage = filteredData.slice(startIndex, endIndex)
-  recordingData.value = dataPerPage
+  refRecordingData.value = dataPerPage
 }
 
 const artistFilter = () => {
-  const includeArtistData = recordingData.value.filter((data) =>
+  const includeArtistData = refRecordingData.value.filter((data) =>
     data['artist-credit'][0].allName.includes(artistName)
   )
-  recordingData.value = includeArtistData
+  refRecordingData.value = includeArtistData
 }
 
 const excludeInstFilter = () => {
-  const cutData = recordingData.value.filter(
+  const cutData = refRecordingData.value.filter(
     (data) =>
       !data.title.toLocaleLowerCase().includes('instrumental') &&
       !data.title.toLocaleLowerCase().includes('(off vocal)') &&
@@ -105,14 +105,14 @@ const excludeInstFilter = () => {
       !data.title.toLocaleLowerCase().includes('music video') &&
       !data.title.toLocaleLowerCase().includes('tv size')
   )
-  recordingData.value = cutData
+  refRecordingData.value = cutData
 }
 
 const partialMatchFilter = () => {
-  const partialMatchData = recordingData.value.filter((data) =>
+  const partialMatchData = refRecordingData.value.filter((data) =>
     data.title.toLocaleLowerCase().includes(recordingTerm.toLocaleLowerCase())
   )
-  recordingData.value = partialMatchData
+  refRecordingData.value = partialMatchData
 }
 
 const currentPage = ref(1)
@@ -131,7 +131,7 @@ const currentPage = ref(1)
         ' 件中 ' +
         ((currentPage - 1) * 100 + 1) +
         ' 〜 ' +
-        ((currentPage - 1) * 100 + recordingData.length) +
+        ((currentPage - 1) * 100 + refRecordingData.length) +
         '件'
       }}
     </p>
@@ -149,7 +149,7 @@ const currentPage = ref(1)
       </thead>
       <tbody>
         <tr
-          v-for="recording in recordingData"
+          v-for="recording in refRecordingData"
           :key="recording.id"
           class="border px-4 py-2"
         >
