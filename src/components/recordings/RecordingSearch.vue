@@ -21,7 +21,7 @@ const route = useRoute()
 const recordingTerm = ref((route.query.term as string) || '')
 const refRecordingData = ref<SearchRecordingData[]>([])
 
-const selectFilter = ref<Array<string>>([])
+const selectedFilter = ref<Array<string>>([])
 const artistName = ref()
 const isLoading = ref(false)
 
@@ -66,12 +66,12 @@ const currentPage = ref(1)
 const totalItems = ref<number>(NaN)
 
 const applyFilter = (): void => {
-  const getRidOfInstrumentValue = selectFilter.value.includes(
-    'getRidOfInstrument'
+  const excludeInstValue = selectedFilter.value.includes(
+    'excludeInst'
   )
     ? 'true'
     : 'false'
-  const getPartialMatchValue = selectFilter.value.includes('getPartialMatch')
+  const partialMatchValue = selectedFilter.value.includes('partialMatch')
     ? 'true'
     : 'false'
 
@@ -79,8 +79,8 @@ const applyFilter = (): void => {
     name: 'RecordingSearchFilter',
     query: {
       term: recordingTerm.value,
-      getRidOfInstrument: getRidOfInstrumentValue,
-      getPartialMatch: getPartialMatchValue,
+      excludeInst: excludeInstValue,
+      partialMatch: partialMatchValue,
       artistName: artistName.value,
     },
   })
@@ -106,18 +106,18 @@ onMounted(() => {
           <label for="inst" class="mr-[10px] flex"
             ><input
               id="inst"
-              v-model="selectFilter"
+              v-model="selectedFilter"
               type="checkbox"
-              value="getRidOfInstrument"
+              value="excludeInst"
             />
             <span>インスト音源以外</span>
           </label>
           <label for="partial" class="flex"
             ><input
               id="partial"
-              v-model="selectFilter"
+              v-model="selectedFilter"
               type="checkbox"
-              value="getPartialMatch"
+              value="partialMatch"
             />
             <span>部分一致の曲</span>
           </label>
@@ -136,7 +136,7 @@ onMounted(() => {
           />
           <button
             type="submit"
-            :disabled="!selectFilter[0] && !artistName"
+            :disabled="!selectedFilter[0] && !artistName"
             class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800 md:mx-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             適用

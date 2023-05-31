@@ -9,8 +9,8 @@ import NowLoading from '../NowLoading.vue'
 
 const route = useRoute()
 let recordingTerm = (route.query.term as string) || ''
-const getRidOfInstrumentValue = route.query.getRidOfInstrument
-const getPartialMatchValue = route.query.getPartialMatch
+const excludeInstValue = route.query.excludeInst
+const partialMatchValue = route.query.partialMatch
 const artistName = (route.query.artistName as string) || ''
 const totalItems = ref<number>(0)
 let filteredDataLength = 0
@@ -61,12 +61,12 @@ onMounted(async () => {
     }
     recordingData.value = allRecordingData.value.flat()
 
-    if (getRidOfInstrumentValue == 'true') {
-      getRidOfInstrument()
+    if (excludeInstValue == 'true') {
+      excludeInstFilter()
     }
 
-    if (getPartialMatchValue == 'true') {
-      getPartialMatch()
+    if (partialMatchValue == 'true') {
+      partialMatchFilter()
     }
 
     if (artistName !== '') {
@@ -96,7 +96,7 @@ const artistFilter = () => {
   recordingData.value = includeArtistData
 }
 
-const getRidOfInstrument = () => {
+const excludeInstFilter = () => {
   const cutData = recordingData.value.filter(
     (data) =>
       !data.title.toLocaleLowerCase().includes('instrumental') &&
@@ -110,7 +110,7 @@ const getRidOfInstrument = () => {
   recordingData.value = cutData
 }
 
-const getPartialMatch = () => {
+const partialMatchFilter = () => {
   const partialMatchData = recordingData.value.filter((data) =>
     data.title.toLocaleLowerCase().includes(recordingTerm.toLocaleLowerCase())
   )
