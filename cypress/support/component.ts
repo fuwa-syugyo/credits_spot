@@ -22,7 +22,7 @@
 // import './component';
 
 import { mount } from 'cypress/vue'
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createMemoryHistory, createRouter, Router } from 'vue-router'
 import { routeSettings as routes } from '../../src/router'
 import '../../src/style.css'
 import VueAwesomePaginate from 'vue-awesome-paginate'
@@ -45,7 +45,7 @@ Cypress.Commands.add('mount', (component, options = {}) => {
   // Add router plugin
   options.global.plugins.push({
     install(app) {
-      app.use(options.router)
+      app.use(options.router as Router)
     },
   })
 
