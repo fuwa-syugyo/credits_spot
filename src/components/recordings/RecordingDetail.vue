@@ -177,9 +177,9 @@ onMounted(async () => {
     <br />
     <div
       v-if="
-        (refRecordingData.credit.songWriterCredit.length !== 0 ||
-          refRecordingData.credit.staffCredit.length !== 0 ||
-          refRecordingData.credit.playerCredit.length !== 0)
+        refRecordingData.credit.songWriterCredit.length !== 0 ||
+        refRecordingData.credit.staffCredit.length !== 0 ||
+        refRecordingData.credit.playerCredit.length !== 0
       "
     >
       <table class="table-auto">
@@ -210,7 +210,10 @@ onMounted(async () => {
           </tr>
         </tbody>
         <tbody v-if="refRecordingData.credit.staffCredit">
-          <tr v-for="staff in refRecordingData.credit.staffCredit" :key="staff.id">
+          <tr
+            v-for="staff in refRecordingData.credit.staffCredit"
+            :key="staff.id"
+          >
             <td class="text-center px-4 py-2 border solid">
               {{ staff.type }}
             </td>
@@ -224,7 +227,10 @@ onMounted(async () => {
           </tr>
         </tbody>
         <tbody v-if="refRecordingData.credit.playerCredit">
-          <tr v-for="player in refRecordingData.credit.playerCredit" :key="player.id">
+          <tr
+            v-for="player in refRecordingData.credit.playerCredit"
+            :key="player.id"
+          >
             <td class="text-center px-4 py-2 border solid">
               {{ player.instrument }}
             </td>

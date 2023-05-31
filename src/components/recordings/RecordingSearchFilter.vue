@@ -23,7 +23,7 @@ const refRecordingDataArray = ref<Array<SearchRecordingData[]>>([])
 onMounted(async () => {
   try {
     isLoading.value = true
-    const firstData  = await fetch(
+    const firstData = await fetch(
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=0&limit=100&fmt=json`
     ).then((res) => res.json()) //fetchを行う回数を決めるために、検索結果が何件か調べる
 

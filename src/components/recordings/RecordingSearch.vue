@@ -66,9 +66,7 @@ const currentPage = ref(1)
 const totalItems = ref<number>(NaN)
 
 const applyFilter = (): void => {
-  const excludeInstValue = selectedFilter.value.includes(
-    'excludeInst'
-  )
+  const excludeInstValue = selectedFilter.value.includes('excludeInst')
     ? 'true'
     : 'false'
   const partialMatchValue = selectedFilter.value.includes('partialMatch')
