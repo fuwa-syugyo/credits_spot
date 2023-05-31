@@ -18,7 +18,7 @@ let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
 
 const refRecordingData = ref<SearchRecordingData[]>([])
-const allRecordingData = ref<Array<SearchRecordingData[]>>([])
+const refRecordingDataArray = ref<Array<SearchRecordingData[]>>([])
 
 onMounted(async () => {
   try {
@@ -55,9 +55,9 @@ onMounted(async () => {
             item.releases?.[0]['release-group']['secondary-types']?.[0],
         }))
 
-      allRecordingData.value.push(searchRecordingData)
+      refRecordingDataArray.value.push(searchRecordingData)
     }
-    refRecordingData.value = allRecordingData.value.flat()
+    refRecordingData.value = refRecordingDataArray.value.flat()
 
     if (excludeInstValue == 'true') {
       excludeInstFilter()
