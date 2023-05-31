@@ -19,7 +19,7 @@ onBeforeRouteUpdate((to, from, next) => {
 
 const route = useRoute()
 const recordingTerm = ref((route.query.term as string) || '')
-const recordingData = ref<SearchRecordingData[]>([])
+const refRecordingData = ref<SearchRecordingData[]>([])
 
 const selectFilter = ref<Array<string>>([])
 const artistName = ref()
@@ -37,7 +37,7 @@ const onClickHandler = async (page: number, recordingTerm: string) => {
       `https://musicbrainz.org/ws/2/recording/?query=recording:${recordingTerm}&offset=${offset}&limit=100&fmt=json`
     ).then((res) => res.json())
 
-    const newRecordingData: SearchRecordingData[] = data.recordings
+    const searchRecordingData: SearchRecordingData[] = data.recordings
       .filter((rec: SearchRecordingData) => rec)
       .map((item: SearchRecordingData) => ({
         id: item.id,
@@ -53,7 +53,7 @@ const onClickHandler = async (page: number, recordingTerm: string) => {
         firstReleaseDate: item['first-release-date'],
       }))
 
-    recordingData.value = newRecordingData
+    refRecordingData.value = searchRecordingData
     totalItems.value = data.count
   } catch {
     console.error('Error fetching data:', Error)
@@ -95,7 +95,7 @@ onMounted(() => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="recordingData.length !== 0" class="container">
+  <div v-else-if="refRecordingData.length !== 0" class="container">
     <h1 class="text-2xl my-4 max-w-xl">楽曲検索結果</h1>
     <div
       class="px-4 my-4 border border-gray-500 py-4 md:w-[350px] w-[250px] rounded-md"
@@ -151,7 +151,7 @@ onMounted(() => {
         ' 件中 ' +
         ((currentPage - 1) * 100 + 1) +
         ' 〜 ' +
-        ((currentPage - 1) * 100 + recordingData.length) +
+        ((currentPage - 1) * 100 + refRecordingData.length) +
         '件'
       }}
     </p>
@@ -169,7 +169,7 @@ onMounted(() => {
       </thead>
       <tbody>
         <tr
-          v-for="recording in recordingData"
+          v-for="recording in refRecordingData"
           :key="recording.id"
           class="border px-4 py-2"
         >
