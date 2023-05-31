@@ -14,7 +14,7 @@ interface Props {
 }
 const props = defineProps<Props>()
 const refArtistData = ref<ArtistData>()
-const artistRecording = ref<ArtistRecording[]>()
+const refArtistRecording = ref<ArtistRecording[]>()
 const isLoading = ref(false)
 
 const currentPage = ref(1)
@@ -71,14 +71,14 @@ const onClickHandler = async (page: number) => {
       `https://musicbrainz.org/ws/2/recording?artist=${props.id}&offset=${offset}&limit=100&fmt=json`
     ).then((res) => res.json())
 
-    const artistRecordingData: ArtistRecording[] = recordingData.recordings.map(
+    const artistRecording: ArtistRecording[] = recordingData.recordings.map(
       (item: ArtistRecording) => ({
         id: item.id,
         title: item.title,
       })
     )
 
-    artistRecording.value = artistRecordingData
+    refArtistRecording.value = artistRecording
     totalItems.value = recordingData['recording-count']
   } catch {
     console.error('Error fetching data:', Error)
@@ -90,7 +90,7 @@ const onClickHandler = async (page: number) => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="refArtistData">
+  <div v-else-if="refArtistData || refArtistRecording">
     <h1 class="text-2xl my-4 max-w-xl">
       {{ refArtistData?.name }}
     </h1>
@@ -161,7 +161,7 @@ const onClickHandler = async (page: number) => {
     </div>
 
     <br />
-    <div v-if="artistRecording?.length !== 0">
+    <div v-if="refArtistRecording?.length !== 0">
       <p class="text-lg my-4">アーティストとして関わった楽曲</p>
       <p>
         {{
@@ -169,7 +169,7 @@ const onClickHandler = async (page: number) => {
           ' 件中 ' +
           ((currentPage - 1) * 100 + 1) +
           ' 〜 ' +
-          ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
+          ((currentPage - 1) * 100 + (refArtistRecording?.length ?? 0)) +
           '件'
         }}
       </p>
@@ -180,7 +180,7 @@ const onClickHandler = async (page: number) => {
           </tr>
         </thead>
         <tbody>
-          <tr v-for="recording in artistRecording" :key="recording.id">
+          <tr v-for="recording in refArtistRecording" :key="recording.id">
             <td class="px-4 py-2 border solid">
               <RouterLink
                 :to="{
