@@ -151,7 +151,7 @@ onMounted(async () => {
         </tr>
       </thead>
       <tbody>
-        <tr v-if="creditData?.credit">
+        <tr v-if="creditData.credit">
           <td class="px-4 py-2 border solid">
             <span
               v-for="artist in creditData.credit.artistCredit"
@@ -177,8 +177,6 @@ onMounted(async () => {
     <br />
     <div
       v-if="
-        creditData &&
-        creditData.credit &&
         (creditData.credit.songWriterCredit.length !== 0 ||
           creditData.credit.staffCredit.length !== 0 ||
           creditData.credit.playerCredit.length !== 0)
@@ -191,7 +189,7 @@ onMounted(async () => {
             <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
           </tr>
         </thead>
-        <tbody v-if="creditData?.credit.songWriterCredit">
+        <tbody v-if="creditData.credit.songWriterCredit">
           <tr
             v-for="songWriter in creditData.credit.songWriterCredit"
             :key="songWriter.id"
@@ -211,7 +209,7 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="creditData?.credit.staffCredit">
+        <tbody v-if="creditData.credit.staffCredit">
           <tr v-for="staff in creditData.credit.staffCredit" :key="staff.id">
             <td class="text-center px-4 py-2 border solid">
               {{ staff.type }}
@@ -225,7 +223,7 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="creditData?.credit.playerCredit">
+        <tbody v-if="creditData.credit.playerCredit">
           <tr v-for="player in creditData.credit.playerCredit" :key="player.id">
             <td class="text-center px-4 py-2 border solid">
               {{ player.instrument }}
