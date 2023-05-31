@@ -13,7 +13,7 @@ interface Props {
   id: string
 }
 const props = defineProps<Props>()
-const artistData = ref<ArtistData>()
+const refArtistData = ref<ArtistData>()
 const artistRecording = ref<ArtistRecording[]>()
 const isLoading = ref(false)
 
@@ -47,7 +47,7 @@ onMounted(async () => {
         },
       }))
 
-    const allArtistData: ArtistData = {
+    const artistData: ArtistData = {
       id: relationshipsData.id,
       name: relationshipsData.name,
       credit: {
@@ -55,7 +55,7 @@ onMounted(async () => {
         recording: recordingCredit,
       },
     }
-    artistData.value = allArtistData
+    refArtistData.value = artistData
     onClickHandler(1)
   } catch {
     console.error('Error fetching data:', Error)
@@ -90,12 +90,12 @@ const onClickHandler = async (page: number) => {
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="artistData">
+  <div v-else-if="refArtistData">
     <h1 class="text-2xl my-4 max-w-xl">
-      {{ artistData?.name }}
+      {{ refArtistData?.name }}
     </h1>
 
-    <div v-if="artistData?.credit.song.length !== 0">
+    <div v-if="refArtistData?.credit.song.length !== 0">
       <p class="text-lg my-4">作詞作曲した楽曲</p>
       <table class="songwriter-table table-auto my-4">
         <thead>
@@ -104,9 +104,9 @@ const onClickHandler = async (page: number) => {
             <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
-        <tbody v-if="artistData?.credit.song">
+        <tbody v-if="refArtistData?.credit.song">
           <tr
-            v-for="songwriter in artistData.credit.song"
+            v-for="songwriter in refArtistData.credit.song"
             :key="songwriter.work.id"
           >
             <td class="text-center px-4 py-2 border solid">
@@ -128,7 +128,7 @@ const onClickHandler = async (page: number) => {
     </div>
     <br />
 
-    <div v-if="artistData?.credit.recording.length !== 0">
+    <div v-if="refArtistData?.credit.recording.length !== 0">
       <p class="text-lg my-4">スタッフとして関わった楽曲</p>
       <table class="staff-table table-auto my-4">
         <thead>
@@ -137,9 +137,9 @@ const onClickHandler = async (page: number) => {
             <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
-        <tbody v-if="artistData?.credit.recording">
+        <tbody v-if="refArtistData?.credit.recording">
           <tr
-            v-for="recording in artistData.credit.recording"
+            v-for="recording in refArtistData.credit.recording"
             :key="recording.recording.id"
           >
             <td class="text-center px-4 py-2 border solid">
