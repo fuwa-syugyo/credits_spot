@@ -98,18 +98,12 @@ const onClickHandler = async (page: number) => {
     </h1>
 
     <div v-if="artistData?.credit.song.length !== 0">
-      <p class="text-lg my-4">
-        作詞作曲した楽曲
-      </p>
+      <p class="text-lg my-4">作詞作曲した楽曲</p>
       <table class="songwriter-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
-              担当
-            </th>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">
-              曲名
-            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artistData?.credit.song">
@@ -134,21 +128,15 @@ const onClickHandler = async (page: number) => {
         </tbody>
       </table>
     </div>
-    <br>
+    <br />
 
     <div v-if="artistData?.credit.recording.length !== 0">
-      <p class="text-lg my-4">
-        スタッフとして関わった楽曲
-      </p>
+      <p class="text-lg my-4">スタッフとして関わった楽曲</p>
       <table class="staff-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
-              担当
-            </th>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">
-              曲名
-            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
         <tbody v-if="artistData?.credit.recording">
@@ -174,34 +162,27 @@ const onClickHandler = async (page: number) => {
       </table>
     </div>
 
-    <br>
+    <br />
     <div v-if="artistRecording?.length !== 0">
-      <p class="text-lg my-4">
-        アーティストとして関わった楽曲
-      </p>
+      <p class="text-lg my-4">アーティストとして関わった楽曲</p>
       <p>
         {{
           totalItems +
-            ' 件中 ' +
-            ((currentPage - 1) * 100 + 1) +
-            ' 〜 ' +
-            ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
-            '件'
+          ' 件中 ' +
+          ((currentPage - 1) * 100 + 1) +
+          ' 〜 ' +
+          ((currentPage - 1) * 100 + (artistRecording?.length ?? 0)) +
+          '件'
         }}
       </p>
       <table class="artist-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">
-              曲名
-            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
           </tr>
         </thead>
         <tbody>
-          <tr
-            v-for="recording in artistRecording"
-            :key="recording.id"
-          >
+          <tr v-for="recording in artistRecording" :key="recording.id">
             <td class="px-4 py-2 border solid">
               <RouterLink
                 :to="{

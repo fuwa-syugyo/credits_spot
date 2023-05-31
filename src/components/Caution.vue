@@ -1,7 +1,5 @@
 <template>
-  <h1 class="font-bold">
-    ご利用上の注意
-  </h1>
+  <h1 class="font-bold">ご利用上の注意</h1>
   <div>
     <li>
       このサイトは

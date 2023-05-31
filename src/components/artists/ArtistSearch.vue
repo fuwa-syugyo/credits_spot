@@ -59,33 +59,26 @@ onMounted(() => {
     <NowLoading />
   </div>
   <div v-else-if="artistData.length !== 0">
-    <h1 class="text-2xl my-4 max-w-xl">
-      人物検索結果
-    </h1>
+    <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
     <p>
       {{
         '検索結果 ' +
-          totalItems +
-          ' 件中 ' +
-          ((currentPage - 1) * 100 + 1) +
-          ' 〜 ' +
-          ((currentPage - 1) * 100 + artistData.length) +
-          '件'
+        totalItems +
+        ' 件中 ' +
+        ((currentPage - 1) * 100 + 1) +
+        ' 〜 ' +
+        ((currentPage - 1) * 100 + artistData.length) +
+        '件'
       }}
     </p>
     <table class="table-auto my-4 max-w-xl">
       <thead>
         <tr>
-          <th class="px-4 py-2 border bg-blue-100">
-            人物名
-          </th>
+          <th class="px-4 py-2 border bg-blue-100">人物名</th>
         </tr>
       </thead>
       <tbody>
-        <tr
-          v-for="artist in artistData"
-          :key="artist.id"
-        >
+        <tr v-for="artist in artistData" :key="artist.id">
           <td class="border px-4 py-2">
             <RouterLink
               :to="{ name: 'ArtistDetail', params: { id: artist.id } }"

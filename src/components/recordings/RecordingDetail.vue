@@ -148,9 +148,7 @@ onMounted(async () => {
     <table class="table-auto my-2 max-w-xl">
       <thead>
         <tr>
-          <th class="px-4 py-2 border solid bg-red-100">
-            アーティスト
-          </th>
+          <th class="px-4 py-2 border solid bg-red-100">アーティスト</th>
         </tr>
       </thead>
       <tbody>
@@ -177,25 +175,21 @@ onMounted(async () => {
       </tbody>
     </table>
 
-    <br>
+    <br />
     <div
       v-if="
         creditData &&
-          creditData.credit &&
-          (creditData.credit.songWriterCredit.length !== 0 ||
-            creditData.credit.staffCredit.length !== 0 ||
-            creditData.credit.playerCredit.length !== 0)
+        creditData.credit &&
+        (creditData.credit.songWriterCredit.length !== 0 ||
+          creditData.credit.staffCredit.length !== 0 ||
+          creditData.credit.playerCredit.length !== 0)
       "
     >
       <table class="table-auto">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
-              担当
-            </th>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">
-              名前
-            </th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
           </tr>
         </thead>
         <tbody v-if="creditData?.credit.songWriterCredit">
@@ -219,10 +213,7 @@ onMounted(async () => {
           </tr>
         </tbody>
         <tbody v-if="creditData?.credit.staffCredit">
-          <tr
-            v-for="staff in creditData.credit.staffCredit"
-            :key="staff.id"
-          >
+          <tr v-for="staff in creditData.credit.staffCredit" :key="staff.id">
             <td class="text-center px-4 py-2 border solid">
               {{ staff.type }}
             </td>
@@ -236,10 +227,7 @@ onMounted(async () => {
           </tr>
         </tbody>
         <tbody v-if="creditData?.credit.playerCredit">
-          <tr
-            v-for="player in creditData.credit.playerCredit"
-            :key="player.id"
-          >
+          <tr v-for="player in creditData.credit.playerCredit" :key="player.id">
             <td class="text-center px-4 py-2 border solid">
               {{ player.instrument }}
             </td>
@@ -254,7 +242,7 @@ onMounted(async () => {
         </tbody>
       </table>
     </div>
-    <br>
+    <br />
     <div class="spotify-button">
       <div style="display: inline-block; vertical-align: middle">
         <img
@@ -262,18 +250,14 @@ onMounted(async () => {
           alt="Spotify Logo"
           class="spotify Logo"
           style="height: 25px"
-        >
+        />
       </div>
       <div style="display: inline-block; vertical-align: middle">
         <button
           :disabled="!spotifyLink"
           class="bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <a
-            :href="spotifyLink"
-            target="_blank"
-            class="text-white"
-          >Play</a>
+          <a :href="spotifyLink" target="_blank" class="text-white">Play</a>
         </button>
       </div>
     </div>
