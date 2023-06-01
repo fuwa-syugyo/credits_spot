@@ -15,7 +15,7 @@ const search = (): void => {
 <template>
   <div class="container my-4">
     <form id="search-form" @submit.prevent="search">
-      <label for="recording" class="mr-[5px]"
+      <label for="recording" class="mr-[30px]"
         ><input id="recording" v-model="searchType" type="radio" value="曲名" />
         <span>曲名</span>
       </label>
@@ -29,7 +29,7 @@ const search = (): void => {
           v-model="term"
           type="search"
           class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="検索"
+          :placeholder="searchType === '曲名' ? '曲名で検索' : '人物名で検索'"
           required
         />
         <div
