@@ -6,7 +6,7 @@
         <RouterLink :to="{ name: 'Caution' }"> ご利用上の注意 </RouterLink>
       </div>
       <div class="px-2">
-        <a href="https://github.com/fuwa-syugyo/credits_spot">GitHub</a>
+        <a href="https://github.com/fuwa-syugyo/credit_search">GitHub</a>
       </div>
       <div class="px-2">
         <a href="https://twitter.com/fuwa_syugyo">Twitter</a>
