@@ -15,7 +15,7 @@ const search = (): void => {
 <template>
   <div class="container my-4">
     <form id="search-form" @submit.prevent="search">
-      <label for="recording" class="mr-[5px]"
+      <label for="recording" class="mr-[30px]"
         ><input id="recording" v-model="searchType" type="radio" value="曲名" />
         <span>曲名</span>
       </label>
@@ -28,8 +28,8 @@ const search = (): void => {
           id="search"
           v-model="term"
           type="search"
-          class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="検索"
+          class="block w-3/4 md:w-4/5 p-2 pl-8 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          :placeholder="searchType === '曲名' ? '曲名で検索' : '人物名で検索'"
           required
         />
         <div
@@ -53,7 +53,7 @@ const search = (): void => {
         </div>
         <button
           type="submit"
-          class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          class="text-white absolute right-0 md:right-1.5 bottom-0 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
           検索
         </button>
