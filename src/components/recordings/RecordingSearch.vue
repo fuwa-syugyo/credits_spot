@@ -129,13 +129,10 @@ onMounted(() => {
             class="p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 my-1"
             placeholder="アーティスト名を入力"
           />
-          <div
-            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
-          />
           <button
             type="submit"
             :disabled="!selectedFilter[0] && !artistName"
-            class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-800 md:mx-2 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 md:mx-2 disabled:opacity-50 disabled:pointer-events-none"
           >
             適用
           </button>
