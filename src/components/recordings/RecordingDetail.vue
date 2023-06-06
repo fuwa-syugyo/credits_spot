@@ -141,7 +141,7 @@ onMounted(async () => {
     <NowLoading />
   </div>
   <div v-else-if="refRecordingData">
-    <h1 class="text-2xl my-4 max-w-xl">
+    <h1 class="text-2xl my-4 max-w-xl break-all">
       {{ refRecordingData?.title }}
     </h1>
     <table class="table-auto my-2 max-w-xl">
@@ -152,7 +152,7 @@ onMounted(async () => {
       </thead>
       <tbody>
         <tr v-if="refRecordingData.credit">
-          <td class="px-4 py-2 border solid">
+          <td class="px-4 py-2 border break-all">
             <span
               v-for="artist in refRecordingData.credit.artistCredit"
               :key="artist.artist.id"
@@ -197,7 +197,7 @@ onMounted(async () => {
             <td class="text-center px-4 py-2 border solid">
               {{ songWriter.type }}
             </td>
-            <td class="px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid break-all">
               <RouterLink
                 :to="{
                   name: 'ArtistDetail',
@@ -217,7 +217,7 @@ onMounted(async () => {
             <td class="text-center px-4 py-2 border solid">
               {{ staff.type }}
             </td>
-            <td class="px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid break-all">
               <RouterLink
                 :to="{ name: 'ArtistDetail', params: { id: staff.id } }"
               >
@@ -234,7 +234,7 @@ onMounted(async () => {
             <td class="text-center px-4 py-2 border solid">
               {{ player.instrument }}
             </td>
-            <td class="px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid break-all">
               <RouterLink
                 :to="{ name: 'ArtistDetail', params: { id: player.id } }"
               >

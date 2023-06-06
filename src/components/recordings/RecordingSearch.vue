@@ -171,7 +171,7 @@ onMounted(() => {
           :key="recording.id"
           class="border px-4 py-2"
         >
-          <td class="border px-4 py-2 max-w-[600px]">
+          <td class="border px-4 py-2 max-w-[600px] break-all">
             <RouterLink
               :to="{
                 name: 'RecordingDetail',
@@ -181,7 +181,7 @@ onMounted(() => {
               {{ recording.title }}
             </RouterLink>
           </td>
-          <td class="border px-4 py-2">
+          <td class="border px-4 py-2 break-all">
             {{
               recording['artist-credit']
                 .map((credit: ArtistCredit) => credit.allName)
