@@ -96,49 +96,56 @@ onMounted(() => {
   <div v-else-if="refRecordingData.length !== 0" class="container">
     <h1 class="text-2xl my-4 max-w-xl">楽曲検索結果</h1>
     <div
-      class="px-4 my-4 border border-gray-500 py-4 md:w-[350px] w-[250px] rounded-md"
+      class="my-4 border md:w-[450px] w-[250px] rounded-md"
     >
       <form @submit.prevent="applyFilter">
-        <p class="text-xl mb-2">絞り込み</p>
-        <div class="bg-slate-100 flex-col mb-2">
-          <label for="inst" class="mr-[10px] flex"
-            ><input
-              id="inst"
-              v-model="selectedFilter"
-              type="checkbox"
-              value="excludeInst"
-            />
-            <span>インスト音源以外</span>
-          </label>
-          <label for="partial" class="flex"
-            ><input
-              id="partial"
-              v-model="selectedFilter"
-              type="checkbox"
-              value="partialMatch"
-            />
-            <span>部分一致の曲</span>
-          </label>
+        <div class="border-b-2 px-4 bg-blue-200">
+        <p class="text-lg mb-2 font-bold pt-2">絞り込み</p>
         </div>
-        <label>アーティスト名</label>
-        <div class="relative">
-          <input
-            id="filter"
-            v-model="artistName"
-            type="search"
-            class="p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 my-1"
-            placeholder="アーティスト名を入力"
-          />
-          <div
-            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
-          />
-          <button
-            type="submit"
-            :disabled="!selectedFilter[0] && !artistName"
-            class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 md:mx-2 disabled:opacity-50 disabled:pointer-events-none"
-          >
-            適用
-          </button>
+        <div class="border-b-2 px-4">
+          <div class="flex-col mb-2 pt-1">
+            <label for="inst" class="mr-[10px] flex"
+              ><input
+                id="inst"
+                v-model="selectedFilter"
+                type="checkbox"
+                value="excludeInst"
+              />
+              <span class="mx-1">インスト音源以外</span>
+            </label>
+            <label for="partial" class="flex"
+              ><input
+                id="partial"
+                v-model="selectedFilter"
+                type="checkbox"
+                value="partialMatch"
+              />
+              <span class="mx-1">部分一致の曲</span>
+            </label>
+          </div>
+        </div>
+        <div class="px-4 pt-2">
+          <label>アーティスト名で絞り込む</label>
+          <div class="relative">
+            <input
+              id="filter"
+              v-model="artistName"
+              type="search"
+              class="p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 my-2 md:w-[350px] w-full "
+              placeholder="アーティスト名を入力"
+            />
+            <div
+              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+            />
+            <button
+            id="apply"
+              type="submit"
+              :disabled="!selectedFilter[0] && !artistName"
+              class="text-white right-3.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:w-[50px] w-full py-2 mx-auto md:mx-2 disabled:opacity-50 disabled:pointer-events-none mb-2"
+            >
+              適用
+            </button>
+          </div>
         </div>
       </form>
     </div>
@@ -171,7 +178,7 @@ onMounted(() => {
           :key="recording.id"
           class="border px-4 py-2"
         >
-          <td class="border px-4 py-2 max-w-[600px]">
+          <td class="border px-4 py-2 max-w-[600px] break-all">
             <RouterLink
               :to="{
                 name: 'RecordingDetail',
@@ -181,7 +188,7 @@ onMounted(() => {
               {{ recording.title }}
             </RouterLink>
           </td>
-          <td class="border px-4 py-2">
+          <td class="border px-4 py-2 break-all">
             {{
               recording['artist-credit']
                 .map((credit: ArtistCredit) => credit.allName)

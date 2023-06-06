@@ -17,11 +17,11 @@ const search = (): void => {
     <form id="search-form" @submit.prevent="search">
       <label for="recording" class="mr-[30px]"
         ><input id="recording" v-model="searchType" type="radio" value="曲名" />
-        <span>曲名</span>
+        <span class="mx-2">曲名</span>
       </label>
       <label for="artist"
         ><input id="artist" v-model="searchType" type="radio" value="人物名" />
-        <span>人物名</span>
+        <span class="mx-2">人物名</span>
       </label>
       <div class="relative md:w-3/4">
         <input

@@ -63,7 +63,7 @@ onMounted(async () => {
       </thead>
       <tbody>
         <tr v-for="recording in recordingList" :key="recording.id">
-          <td class="px-4 py-2 border max-w-[600px]">
+          <td class="px-4 py-2 border max-w-[600px] break-all">
             <RouterLink
               :to="{
                 name: 'RecordingDetail',
@@ -73,7 +73,7 @@ onMounted(async () => {
               {{ recording.title }}
             </RouterLink>
           </td>
-          <td class="px-4 py-2 border">
+          <td class="px-4 py-2 border break-all">
             {{
               recording['artist-credit']
                 .map((credit: ArtistCredit) => credit.allName)

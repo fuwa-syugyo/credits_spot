@@ -180,13 +180,13 @@ describe('Recording search and lookup artist', () => {
     ).as('tentaikansoku5Request')
 
     //フィルターに何も設定しないとき「適用」がdisableになっているか
-    cy.get('.border-gray-500 > form > .relative > .text-white').should(
+    cy.get('#apply').should(
       'be.disabled'
     )
 
     //フィルター1(インスト音源除外フィルター)のみ
     cy.get('#inst').check()
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
     cy.wait('@tentaikansoku1Request')
     cy.wait('@tentaikansoku2Request')
     cy.wait('@tentaikansoku3Request')
@@ -202,7 +202,7 @@ describe('Recording search and lookup artist', () => {
     //フィルター2(部分一致フィルター)のみ
     cy.get('#filter').clear()
     cy.get('#partial').check()
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
 
     cy.contains('天体観測')
     cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
@@ -211,7 +211,7 @@ describe('Recording search and lookup artist', () => {
     //フィルター3(アーティスト名フィルター)のみ
     cy.get('#filter').clear()
     cy.get('#filter').type('BUMP OF CHICKEN')
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
 
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('BUMP OF CHICKEN')
     cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
@@ -223,7 +223,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('#filter').clear()
     cy.get('#inst').check()
     cy.get('#partial').check()
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
 
     cy.contains('真夏の天体観測')
     cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
@@ -271,7 +271,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('#filter').clear()
     cy.get('#inst').check()
     cy.get('#filter').type('安室奈美恵')
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
     cy.wait('@celebrate1Request')
     cy.wait('@celebrate2Request')
     cy.wait('@celebrate3Request')
@@ -291,7 +291,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('#filter').clear()
     cy.get('#partial').check()
     cy.get('#filter').type('安室奈美恵')
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
 
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
     cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
@@ -310,7 +310,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('#inst').check()
     cy.get('#partial').check()
     cy.get('#filter').type('安室奈美恵')
-    cy.get('.border-gray-500 > form > .relative > .text-white').click()
+    cy.get('#apply').click()
 
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
     cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {

@@ -91,7 +91,7 @@ const onClickHandler = async (page: number) => {
     <NowLoading />
   </div>
   <div v-else-if="refArtistData || refArtistRecording">
-    <h1 class="text-2xl my-4 max-w-xl">
+    <h1 class="text-2xl my-4 max-w-xl break-all">
       {{ refArtistData?.name }}
     </h1>
 
@@ -112,7 +112,7 @@ const onClickHandler = async (page: number) => {
             <td class="text-center px-4 py-2 border solid">
               {{ songwriter.type }}
             </td>
-            <td class="px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid break-all">
               <RouterLink
                 :to="{
                   name: 'RecordingInWork',
@@ -145,7 +145,7 @@ const onClickHandler = async (page: number) => {
             <td class="text-center px-4 py-2 border solid">
               {{ recording.type }}
             </td>
-            <td class="px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid break-all">
               <RouterLink
                 :to="{
                   name: 'RecordingDetail',
@@ -181,7 +181,7 @@ const onClickHandler = async (page: number) => {
         </thead>
         <tbody>
           <tr v-for="recording in refArtistRecording" :key="recording.id">
-            <td class="px-4 py-2 border solid">
+            <td class="px-4 py-2 border solid break-all">
               <RouterLink
                 :to="{
                   name: 'RecordingDetail',
