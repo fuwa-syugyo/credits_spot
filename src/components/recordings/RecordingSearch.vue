@@ -135,7 +135,7 @@ onMounted(() => {
           <button
             type="submit"
             :disabled="!selectedFilter[0] && !artistName"
-            class="text-white right-3.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 md:mx-2 disabled:opacity-50 disabled:pointer-events-none"
+            class="text-white right-3.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:mx-2 disabled:opacity-50 disabled:pointer-events-none"
           >
             適用
           </button>
