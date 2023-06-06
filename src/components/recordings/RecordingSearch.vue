@@ -138,6 +138,7 @@ onMounted(() => {
               class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
             />
             <button
+            id="apply"
               type="submit"
               :disabled="!selectedFilter[0] && !artistName"
               class="text-white right-3.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:w-[50px] w-full py-2 mx-auto md:mx-2 disabled:opacity-50 disabled:pointer-events-none mb-2"
