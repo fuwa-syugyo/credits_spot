@@ -108,7 +108,7 @@ onMounted(() => {
               type="checkbox"
               value="excludeInst"
             />
-            <span>インスト音源以外</span>
+            <span class="mx-1">インスト音源以外</span>
           </label>
           <label for="partial" class="flex"
             ><input
@@ -117,7 +117,7 @@ onMounted(() => {
               type="checkbox"
               value="partialMatch"
             />
-            <span>部分一致の曲</span>
+            <span class="mx-1">部分一致の曲</span>
           </label>
         </div>
         <label>アーティスト名</label>
