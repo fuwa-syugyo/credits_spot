@@ -188,7 +188,7 @@ const currentPage = ref(1)
   </div>
   <div v-else>
     <h1 class="text-2xl my-4 max-w-xl">Not Found!</h1>
-    <p>条件に該当する楽曲はありませんでした。</p>
+    <p>条件に該当する音源はありませんでした。</p>
   </div>
 </template>
 

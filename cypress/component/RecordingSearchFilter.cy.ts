@@ -468,7 +468,7 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('p').contains('条件に該当する楽曲はありませんでした。')
+    cy.get('p').contains('条件に該当する音源はありませんでした。')
 
     //1件も表示されていないか
     cy.get('.table-auto > tbody > tr').should(($trs) => {

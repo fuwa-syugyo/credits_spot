@@ -14,7 +14,7 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.contains('結束バンド')
 
-    //楽曲詳細へ
+    //音源詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -216,7 +216,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
     cy.get('tbody').should('not.contain', '真夏の天体観測 ～Instrumental～')
 
-    //検索楽曲変更
+    //検索音源変更
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:can%20you%20celebrate&offset=0&limit=100&fmt=json',

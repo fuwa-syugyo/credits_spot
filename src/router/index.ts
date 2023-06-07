@@ -11,7 +11,7 @@ export const routeSettings: RouteRecordRaw[] = [
     component: HomeView,
     meta: {
       title: 'CreditsSpot',
-      desc: '曲に関わった人から楽曲を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。',
+      desc: '曲に関わった人から音源を調べたい人向けの検索サイトです。すぐにSpotifyで気になる曲を聴くことができます。',
     },
   },
 
@@ -21,7 +21,7 @@ export const routeSettings: RouteRecordRaw[] = [
     component: () => {
       return import('../components/recordings/RecordingSearch.vue')
     },
-    meta: { title: '楽曲検索結果', desc: '楽曲検索結果表示画面です。' },
+    meta: { title: '音源検索結果', desc: '音源検索結果表示画面です。' },
   },
   {
     path: '/recordings/filter',
@@ -30,8 +30,8 @@ export const routeSettings: RouteRecordRaw[] = [
       return import('../components/recordings/RecordingSearchFilter.vue')
     },
     meta: {
-      title: '楽曲絞り込み結果',
-      desc: '楽曲検索結果の絞り込み結果画面です。',
+      title: '音源絞り込み結果',
+      desc: '音源検索結果の絞り込み結果画面です。',
     },
   },
 
@@ -57,8 +57,8 @@ export const routeSettings: RouteRecordRaw[] = [
       }
     },
     meta: {
-      title: '楽曲情報詳細',
-      desc: '楽曲情報表示画面です。Spotifyで聴くことができる楽曲については、リンクがあります。',
+      title: '音源情報詳細',
+      desc: '音源情報表示画面です。Spotifyで聴くことができる音源については、リンクがあります。',
     },
   },
 

@@ -29,7 +29,7 @@ describe('Artist search spec', () => {
     cy.wait('@komurotetsuyaRecording1PageRequest')
     cy.contains('小室哲哉')
 
-    //アーティスト楽曲の詳細へ
+    //アーティスト音源の詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/08cea5ad-09af-466a-b2f4-46ec63dd2d09?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',

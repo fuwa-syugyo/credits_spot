@@ -12,7 +12,7 @@ describe('RecordingSearch tests', () => {
     cy.mount(RecordingSearch, { query: { term: 'ミックスナッツ' } })
     cy.wait('@mixednutsRequest')
 
-    cy.get('h1').contains('楽曲検索結果')
+    cy.get('h1').contains('音源検索結果')
     cy.get('.table-auto > tbody > :nth-child(1) >  > :nth-child(1)').contains(
       'ミックスナッツ'
     )
