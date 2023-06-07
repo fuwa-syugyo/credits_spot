@@ -174,8 +174,8 @@ onMounted(async () => {
       <table class="table-auto">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
+            <th class="px-4 py-2 border solid w-[250px] md:w-[300px] bg-blue-100">担当</th>
+            <th class="px-4 py-2 border solid w-[550px] md:w-[630px] bg-blue-100">名前</th>
           </tr>
         </thead>
         <tbody v-if="refRecordingData.credit.songWriterCredit">
