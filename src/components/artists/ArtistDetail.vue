@@ -96,12 +96,12 @@ const onClickHandler = async (page: number) => {
     </h1>
 
     <div v-if="refArtistData?.credit.song.length !== 0">
-      <p class="text-lg my-4">作詞作曲した音源</p>
+      <p class="text-xl my-4">作詞作曲した音源</p>
       <table class="songwriter-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[250px] md:w-[300px]">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[550px] md:w-[630px]">曲名</th>
           </tr>
         </thead>
         <tbody v-if="refArtistData?.credit.song">
@@ -129,12 +129,12 @@ const onClickHandler = async (page: number) => {
     <br />
 
     <div v-if="refArtistData?.credit.recording.length !== 0">
-      <p class="text-lg my-4">スタッフとして関わった音源</p>
+      <p class="text-xl my-4">スタッフとして関わった音源</p>
       <table class="staff-table table-auto my-4">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 w-[400px]">曲名</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[250px] md:w-[300px]">担当</th>
+            <th class="px-4 py-2 border solid bg-blue-100 w-[550px] md:w-[630px]">曲名</th>
           </tr>
         </thead>
         <tbody v-if="refArtistData?.credit.recording">
@@ -162,7 +162,7 @@ const onClickHandler = async (page: number) => {
 
     <br />
     <div v-if="refArtistRecording?.length !== 0">
-      <p class="text-lg my-4">アーティストとして関わった音源</p>
+      <p class="text-xl my-4">アーティストとして関わった音源</p>
       <p>
         {{
           totalItems +
