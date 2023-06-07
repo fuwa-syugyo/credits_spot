@@ -14,17 +14,6 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.contains('結束バンド')
 
-    // ページネーションを動かして検索ワードがUndefinedにならないか確認
-    cy.intercept(
-      'GET',
-      'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=100&limit=100&fmt=json',
-      { fixture: 'mock_seisyun_page2.json' }
-    ).as('seisyun2PageRequest')
-    cy.get(':nth-child(7) > .paginate-buttons').click()
-    cy.wait('@seisyun2PageRequest')
-    cy.get('body').should('not.contain', 'Undefined')
-    cy.get('.back-button').click()
-
     //楽曲詳細へ
     cy.intercept(
       'GET',
@@ -180,9 +169,7 @@ describe('Recording search and lookup artist', () => {
     ).as('tentaikansoku5Request')
 
     //フィルターに何も設定しないとき「適用」がdisableになっているか
-    cy.get('#apply').should(
-      'be.disabled'
-    )
+    cy.get('#apply').should('be.disabled')
 
     //フィルター1(インスト音源除外フィルター)のみ
     cy.get('#inst').check()
@@ -323,6 +310,31 @@ describe('Recording search and lookup artist', () => {
       'Dreaming I was dreaming (Subconscious mix)'
     )
     cy.go('back')
+  })
+
+  it('Pagination button', () => {
+    cy.visit('http://127.0.0.1:5173/')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=0&limit=100&fmt=json',
+      { fixture: 'mock_seisyun_page1.json' }
+    ).as('seisyun1PageRequest')
+    cy.get('input[type="search"]')
+      .should('be.visible')
+      .type('青春コンプレックス', { force: true })
+    cy.get('button[type="submit"]').click()
+    cy.wait('@seisyun1PageRequest')
+
+    // ページネーションを動かして検索ワードがUndefinedにならないか確認
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=100&limit=100&fmt=json',
+      { fixture: 'mock_seisyun_page2.json' }
+    ).as('seisyun2PageRequest')
+    cy.get(':nth-child(7) > .paginate-buttons').click()
+    cy.wait('@seisyun2PageRequest')
+    cy.get('body').should('not.contain', 'Undefined')
+    cy.get('.back-button').click()
   })
 })
 export {}

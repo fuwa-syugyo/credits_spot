@@ -95,12 +95,10 @@ onMounted(() => {
   </div>
   <div v-else-if="refRecordingData.length !== 0" class="container">
     <h1 class="text-2xl my-4 max-w-xl">楽曲検索結果</h1>
-    <div
-      class="my-4 border md:w-[450px] w-[250px] rounded-md"
-    >
+    <div class="my-4 border md:w-[450px] w-[250px] rounded-md">
       <form @submit.prevent="applyFilter">
         <div class="border-b-2 px-4 bg-blue-200">
-        <p class="text-lg mb-2 font-bold pt-2">絞り込み</p>
+          <p class="text-lg mb-2 font-bold pt-2">絞り込み</p>
         </div>
         <div class="border-b-2 px-4">
           <div class="flex-col mb-2 pt-1">
@@ -131,14 +129,14 @@ onMounted(() => {
               id="filter"
               v-model="artistName"
               type="search"
-              class="p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 my-2 md:w-[350px] w-full "
+              class="p-2 pl-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 my-2 md:w-[350px] w-full"
               placeholder="アーティスト名を入力"
             />
             <div
               class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
             />
             <button
-            id="apply"
+              id="apply"
               type="submit"
               :disabled="!selectedFilter[0] && !artistName"
               class="text-white right-3.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:w-[50px] w-full py-2 mx-auto md:mx-2 disabled:opacity-50 disabled:pointer-events-none mb-2"
