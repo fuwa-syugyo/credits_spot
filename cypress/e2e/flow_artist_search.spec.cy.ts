@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('Artist search spec', () => {
   it('Visits artist search result', function () {
     cy.visit('http://127.0.0.1:5173/')
     cy.intercept(
@@ -12,17 +12,6 @@ describe('template spec', () => {
     cy.get('.text-white').click()
     cy.wait('@komurotetsuya1PageRequest')
     cy.contains('小室哲哉')
-
-    // ページネーションを動かして検索ワードがUndefinedにならないか確認
-    cy.intercept(
-      'GET',
-      'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=100&limit=100&fmt=json',
-      { fixture: 'mock_komurotetsuya_page2.json' }
-    ).as('komurotetsuya2PageRequest')
-    cy.get(':nth-child(7) > .paginate-buttons').click()
-    cy.wait('@komurotetsuya2PageRequest')
-    cy.get('body').should('not.contain', 'Undefined')
-    cy.get('.back-button').click()
 
     //小室哲哉をクリック
     cy.intercept(
@@ -149,6 +138,33 @@ describe('template spec', () => {
     cy.contains('検索').first().click()
     cy.wait('@theBandApartRequest')
     cy.contains('the band apart')
+  })
+
+  it('Pagination button ', () => {
+    cy.visit('http://127.0.0.1:5173/')
+
+    // ページネーションを動かして検索ワードがUndefinedにならないか確認
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
+      { fixture: 'mock_komurotetsuya_page1.json' }
+    ).as('komurotetsuya1PageRequest')
+
+    cy.get('[value="人物名"]').check()
+    cy.get('#search').type('小室哲哉{enter}', { force: true })
+    cy.get('.text-white').click()
+    cy.wait('@komurotetsuya1PageRequest')
+    cy.contains('小室哲哉')
+
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=100&limit=100&fmt=json',
+      { fixture: 'mock_komurotetsuya_page2.json' }
+    ).as('komurotetsuya2PageRequest')
+    cy.get(':nth-child(7) > .paginate-buttons').click()
+    cy.wait('@komurotetsuya2PageRequest')
+    cy.get('body').should('not.contain', 'Undefined')
+    cy.get('.back-button').click()
   })
 })
 export {}

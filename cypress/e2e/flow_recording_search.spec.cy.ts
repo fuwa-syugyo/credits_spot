@@ -180,9 +180,7 @@ describe('Recording search and lookup artist', () => {
     ).as('tentaikansoku5Request')
 
     //フィルターに何も設定しないとき「適用」がdisableになっているか
-    cy.get('#apply').should(
-      'be.disabled'
-    )
+    cy.get('#apply').should('be.disabled')
 
     //フィルター1(インスト音源除外フィルター)のみ
     cy.get('#inst').check()
