@@ -162,6 +162,7 @@ onMounted(async () => {
               {{ artist.joinphrase }}
       </span>
     </p>
+    <p>{{ 'リリース日: ' + refRecordingData.releaseDate }}</p>
     <br />
     <div
       v-if="
