@@ -254,6 +254,9 @@ onMounted(async () => {
           >
         </button>
       </div>
+        <div v-if="!spotifyLink" class="my-2 text-xs">
+          <p>登録されているSpotifyでの音源情報がないため再生ができません。</p>
+        </div>
     </div>
   </div>
   <div v-else>
