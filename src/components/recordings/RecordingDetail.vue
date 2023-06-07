@@ -144,16 +144,8 @@ onMounted(async () => {
     <h1 class="text-2xl my-4 max-w-xl break-all">
       {{ refRecordingData?.title }}
     </h1>
-    <table class="table-auto my-2 max-w-xl">
-      <thead>
-        <tr>
-          <th class="px-4 py-2 border solid bg-red-100">アーティスト</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-if="refRecordingData.credit">
-          <td class="px-4 py-2 border break-all">
-            <span
+    <p class="break-all">アーティスト:
+      <span
               v-for="artist in refRecordingData.credit.artistCredit"
               :key="artist.artist.id"
               :name="artist.artist.name"
@@ -168,12 +160,8 @@ onMounted(async () => {
                 {{ artist.artist.name }}
               </RouterLink>
               {{ artist.joinphrase }}
-            </span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
+      </span>
+    </p>
     <br />
     <div
       v-if="
