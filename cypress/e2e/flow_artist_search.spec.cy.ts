@@ -44,7 +44,7 @@ describe('Artist search spec', () => {
     cy.wait('@komurotetsuyaDWakareRelationshipRequest')
     cy.wait('@komurotetsuyaDWakareSpotifyRequest')
     cy.get('.text-2xl').contains('Dのテーマ (別れ)')
-    cy.get('.my-2 > tbody > tr > .px-4').contains('小室哲哉')
+    cy.get('p.break-all').contains('小室哲哉')
     cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a').should('not.be')
     cy.go('back')
 
