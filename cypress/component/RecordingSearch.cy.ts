@@ -17,8 +17,9 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)').contains(
       'Official髭男dism'
     )
-    cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2) > .my-1')
-      .contains('2022-04-15')
+    cy.get(
+      '.table-auto > tbody > :nth-child(1) > :nth-child(2) > .my-1'
+    ).contains('2022-04-15')
 
     //曲名が3件ちょうどあるか
     cy.get('.table-auto > tbody > tr').should(($trs) => {
@@ -45,8 +46,9 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)').contains(
       '星勝'
     )
-    cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2) > .my-1')
-      .contains('1990-12-28')
+    cy.get(
+      '.table-auto > tbody > :nth-child(1) > :nth-child(2) > .my-1'
+    ).contains('1990-12-28')
 
     //曲名が100件ちょうどあるか
     cy.get('.table-auto > tbody > tr').should(($trs) => {
@@ -76,8 +78,9 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)').contains(
       '風鈴ぼるけいの'
     )
-    cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)  > .my-1')
-      .contains('2018-03-04')
+    cy.get(
+      '.table-auto > tbody > :nth-child(1) > :nth-child(2)  > .my-1'
+    ).contains('2018-03-04')
 
     //曲名が100件ちょうどあるか
     cy.get('.table-auto > tbody > tr').should(($trs) => {
@@ -102,8 +105,9 @@ describe('RecordingSearch tests', () => {
     cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2)').contains(
       '水瀬伊織 (CV: 釘宮理恵 )'
     )
-    cy.get('.table-auto > tbody > :nth-child(1) > :nth-child(2) > .my-1')
-      .contains('2015-06-03')
+    cy.get(
+      '.table-auto > tbody > :nth-child(1) > :nth-child(2) > .my-1'
+    ).contains('2015-06-03')
 
     //曲名が49件か
     cy.get('.table-auto > tbody > tr').should(($trs) => {

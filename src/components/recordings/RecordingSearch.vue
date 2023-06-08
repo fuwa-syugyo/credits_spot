@@ -162,8 +162,12 @@ onMounted(() => {
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border w-[410px] md:w-[470px] bg-blue-100">アーティスト</th>
+          <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">
+            曲名
+          </th>
+          <th class="px-4 py-2 border w-[410px] md:w-[470px] bg-blue-100">
+            アーティスト
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -184,12 +188,15 @@ onMounted(() => {
           </td>
           <td class="border px-4 py-2 break-all">
             <p>
-            {{
-              recording['artist-credit']
-                .map((credit: ArtistCredit) => credit.allName)
-                .join(' ')
-            }}</p>
-            <p class="my-1 text-xs">{{ 'リリース日: ' + recording.firstReleaseDate }}</p>
+              {{
+                recording['artist-credit']
+                  .map((credit: ArtistCredit) => credit.allName)
+                  .join(' ')
+              }}
+            </p>
+            <p class="my-1 text-xs">
+              {{ 'リリース日: ' + recording.firstReleaseDate }}
+            </p>
           </td>
         </tr>
       </tbody>
