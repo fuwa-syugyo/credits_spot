@@ -21,7 +21,7 @@ describe('RecordingDetail tests', () => {
 
     cy.get('.text-2xl').contains('水平線')
     cy.get('h1').contains('水平線')
-    cy.get('.my-2 > tbody > tr > .px-4').contains('back number')
+    cy.get('p.break-all > span > a').contains('back number')
     cy.get('.bg-blue-400 > a').should(
       'have.attr',
       'href',
@@ -47,7 +47,7 @@ describe('RecordingDetail tests', () => {
     cy.wait('@butterSugarCreamSpotifyRequest')
 
     cy.get('.text-2xl').contains('Butter Sugar Cream (instrumental)')
-    cy.get('.my-2 > tbody > tr > .px-4').contains('Tomggg feat. tsvaci')
+    cy.get('p.break-all').contains('Tomggg feat. tsvaci')
     cy.get('.bg-blue-400').should('be.disabled')
   })
 })

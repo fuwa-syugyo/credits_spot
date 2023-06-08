@@ -22,7 +22,7 @@ describe('ArtistDetail tests', () => {
     cy.get('.text-2xl').contains('中田ヤスタカ')
     cy.get('h1').contains('中田ヤスタカ')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した音源')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -44,7 +44,7 @@ describe('ArtistDetail tests', () => {
         expect($trs, '310 items').to.have.length(310)
       })
 
-    cy.get(':nth-child(4) > .text-lg').contains('スタッフとして関わった音源')
+    cy.get(':nth-child(4) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(2) > .text-center').contains(
       'arranger'
     )
@@ -59,7 +59,7 @@ describe('ArtistDetail tests', () => {
         expect($trs, '172 items').to.have.length(172)
       })
 
-    cy.get(':nth-child(6) > .text-lg').contains(
+    cy.get(':nth-child(6) > .text-xl').contains(
       'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
@@ -87,7 +87,7 @@ describe('ArtistDetail tests', () => {
     // 以下、アーティスト音源のページを切り替えてもRelationshipsのデータに変化がないかテスト
     cy.get('.text-2xl').contains('中田ヤスタカ')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した音源')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -107,7 +107,7 @@ describe('ArtistDetail tests', () => {
         expect($trs, '310 items').to.have.length(310)
       })
 
-    cy.get(':nth-child(4) > .text-lg').contains('スタッフとして関わった音源')
+    cy.get(':nth-child(4) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(2) > .text-center').contains(
       'arranger'
     )
@@ -122,7 +122,7 @@ describe('ArtistDetail tests', () => {
       })
     // ここまで1ページ目のテストと同じ
 
-    cy.get(':nth-child(6) > .text-lg').contains(
+    cy.get(':nth-child(6) > .text-xl').contains(
       'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
@@ -162,7 +162,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('音羽-otoha-')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した音源')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -170,7 +170,7 @@ describe('ArtistDetail tests', () => {
       '.songwriter-table > tbody > :nth-child(1) > :nth-child(2)'
     ).contains('ギターと孤独と蒼い惑星')
 
-    cy.get(':nth-child(4) > .text-lg').contains('スタッフとして関わった音源')
+    cy.get(':nth-child(4) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(1) > .text-center').contains(
       'guitar'
     )
@@ -204,7 +204,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('ヒグチアイ')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した音源')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -212,7 +212,7 @@ describe('ArtistDetail tests', () => {
       '.songwriter-table > tbody > :nth-child(1) > :nth-child(2)'
     ).contains('悪魔の子')
 
-    cy.get(':nth-child(5) > .text-lg').contains(
+    cy.get(':nth-child(5) > .text-xl').contains(
       'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
@@ -251,7 +251,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('反田恭平')
 
-    cy.get(':nth-child(3) > .text-lg').contains('スタッフとして関わった音源')
+    cy.get(':nth-child(3) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(1) > .text-center').contains(
       'piano'
     )
@@ -259,7 +259,7 @@ describe('ArtistDetail tests', () => {
       'Rhapsody on a Theme of Paganini, op. 43: 1. Introduction. Allegro vivace'
     )
 
-    cy.get(':nth-child(5) > .text-lg').contains(
+    cy.get(':nth-child(5) > .text-xl').contains(
       'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(2) > .px-4').contains(
@@ -298,7 +298,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('仰木日向')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した音源')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -335,7 +335,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('川崎亘一')
 
-    cy.get(':nth-child(3) > .text-lg').contains('スタッフとして関わった音源')
+    cy.get(':nth-child(3) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(1) > .text-center').contains(
       'guitar'
     )
@@ -372,7 +372,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('新垣結衣')
 
-    cy.get('.text-lg').contains('アーティストとして関わった音源')
+    cy.get('.text-xl').contains('アーティストとして関わった音源')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains('あいたい')
 
     // アーティスト音源が87件か
