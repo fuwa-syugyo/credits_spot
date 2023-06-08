@@ -38,6 +38,7 @@ describe('Recording search and lookup artist', () => {
       'href',
       'https://open.spotify.com/track/0jpP8AlQLVtaMwA3vQYpYB'
     )
+    cy.get('.my-2 > p').should('not.be')
 
     //アーティスト詳細へ
     cy.intercept(
@@ -127,6 +128,7 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@butterSugarCreamRequest')
     cy.wait('@butterSugarCreamSpotifyRequest')
     cy.get('.bg-blue-400').should('be.disabled')
+    cy.get('.my-2 > p').contains('登録されているSpotifyでの音源情報がないため再生ができません。')
   })
 
   it('apply filter', () => {
