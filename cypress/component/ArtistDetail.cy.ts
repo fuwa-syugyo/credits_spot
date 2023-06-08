@@ -22,7 +22,7 @@ describe('ArtistDetail tests', () => {
     cy.get('.text-2xl').contains('中田ヤスタカ')
     cy.get('h1').contains('中田ヤスタカ')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した楽曲')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -44,7 +44,7 @@ describe('ArtistDetail tests', () => {
         expect($trs, '310 items').to.have.length(310)
       })
 
-    cy.get(':nth-child(4) > .text-lg').contains('スタッフとして関わった楽曲')
+    cy.get(':nth-child(4) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(2) > .text-center').contains(
       'arranger'
     )
@@ -59,14 +59,14 @@ describe('ArtistDetail tests', () => {
         expect($trs, '172 items').to.have.length(172)
       })
 
-    cy.get(':nth-child(6) > .text-lg').contains(
-      'アーティストとして関わった楽曲'
+    cy.get(':nth-child(6) > .text-xl').contains(
+      'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
       '一番歌 (Extend-mix)'
     )
 
-    // アーティスト楽曲1ページ目が100件か
+    // アーティスト音源1ページ目が100件か
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
@@ -84,10 +84,10 @@ describe('ArtistDetail tests', () => {
     cy.get(':nth-child(4) > .paginate-buttons').contains('>').click()
     cy.wait('@yasutakaRecording2PageRequest')
 
-    // 以下、アーティスト楽曲のページを切り替えてもRelationshipsのデータに変化がないかテスト
+    // 以下、アーティスト音源のページを切り替えてもRelationshipsのデータに変化がないかテスト
     cy.get('.text-2xl').contains('中田ヤスタカ')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した楽曲')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -107,7 +107,7 @@ describe('ArtistDetail tests', () => {
         expect($trs, '310 items').to.have.length(310)
       })
 
-    cy.get(':nth-child(4) > .text-lg').contains('スタッフとして関わった楽曲')
+    cy.get(':nth-child(4) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(2) > .text-center').contains(
       'arranger'
     )
@@ -122,14 +122,14 @@ describe('ArtistDetail tests', () => {
       })
     // ここまで1ページ目のテストと同じ
 
-    cy.get(':nth-child(6) > .text-lg').contains(
-      'アーティストとして関わった楽曲'
+    cy.get(':nth-child(6) > .text-xl').contains(
+      'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
       '透明 toumei'
     )
 
-    // アーティスト楽曲2ページ目が5件か
+    // アーティスト音源2ページ目が5件か
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '5 items').to.have.length(5)
     })
@@ -162,7 +162,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('音羽-otoha-')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した楽曲')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -170,7 +170,7 @@ describe('ArtistDetail tests', () => {
       '.songwriter-table > tbody > :nth-child(1) > :nth-child(2)'
     ).contains('ギターと孤独と蒼い惑星')
 
-    cy.get(':nth-child(4) > .text-lg').contains('スタッフとして関わった楽曲')
+    cy.get(':nth-child(4) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(1) > .text-center').contains(
       'guitar'
     )
@@ -178,7 +178,7 @@ describe('ArtistDetail tests', () => {
       '【LIVE映像】「青春コンプレックス」/ ぼっち・ざ・ろっく！-SPECIAL STUDIO LIVE-'
     )
 
-    //アーティスト楽曲の表が存在していないかどうか
+    //アーティスト音源の表が存在していないかどうか
     cy.get('.artist-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか
@@ -204,7 +204,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('ヒグチアイ')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した楽曲')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -212,20 +212,20 @@ describe('ArtistDetail tests', () => {
       '.songwriter-table > tbody > :nth-child(1) > :nth-child(2)'
     ).contains('悪魔の子')
 
-    cy.get(':nth-child(5) > .text-lg').contains(
-      'アーティストとして関わった楽曲'
+    cy.get(':nth-child(5) > .text-xl').contains(
+      'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
       '妄想悩殺お手ガール'
     )
 
-    // アーティスト楽曲が87件か
+    // アーティスト音源が87件か
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '87 items').to.have.length(87)
     })
     cy.get('p').contains('87 件中 1 〜 87件')
 
-    //スタッフ楽曲の表が存在していないかどうか
+    //スタッフ音源の表が存在していないかどうか
     cy.get('.staff-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか
@@ -251,7 +251,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('反田恭平')
 
-    cy.get(':nth-child(3) > .text-lg').contains('スタッフとして関わった楽曲')
+    cy.get(':nth-child(3) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(1) > .text-center').contains(
       'piano'
     )
@@ -259,20 +259,20 @@ describe('ArtistDetail tests', () => {
       'Rhapsody on a Theme of Paganini, op. 43: 1. Introduction. Allegro vivace'
     )
 
-    cy.get(':nth-child(5) > .text-lg').contains(
-      'アーティストとして関わった楽曲'
+    cy.get(':nth-child(5) > .text-xl').contains(
+      'アーティストとして関わった音源'
     )
     cy.get('.artist-table > tbody > :nth-child(2) > .px-4').contains(
       'ワルツ第6番 変ニ長調 作品64-1 「小犬のワルツ」'
     )
 
-    // アーティスト楽曲が87件か
+    // アーティスト音源が87件か
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '31 items').to.have.length(31)
     })
     cy.get('p').contains('31 件中 1 〜 31件')
 
-    //作詞作曲の楽曲の表が存在していないかどうか
+    //作詞作曲の音源の表が存在していないかどうか
     cy.get('.songwriter-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか
@@ -298,7 +298,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('仰木日向')
 
-    cy.get(':nth-child(2) > .text-lg').contains('作詞作曲した楽曲')
+    cy.get(':nth-child(2) > .text-xl').contains('作詞作曲した音源')
     cy.get('.songwriter-table > tbody > :nth-child(1) > .text-center').contains(
       'composer'
     )
@@ -306,10 +306,10 @@ describe('ArtistDetail tests', () => {
       '.songwriter-table > tbody > :nth-child(1) > :nth-child(2)'
     ).contains('彩花囃子（イロドリハナバヤシ）')
 
-    //スタッフ楽曲の表が存在していないかどうか
+    //スタッフ音源の表が存在していないかどうか
     cy.get('.staff-table > tbody').should('not.be')
 
-    //アーティスト楽曲の表が存在していないかどうか
+    //アーティスト音源の表が存在していないかどうか
     cy.get('.artist-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか
@@ -335,7 +335,7 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('川崎亘一')
 
-    cy.get(':nth-child(3) > .text-lg').contains('スタッフとして関わった楽曲')
+    cy.get(':nth-child(3) > .text-xl').contains('スタッフとして関わった音源')
     cy.get('.staff-table > tbody > :nth-child(1) > .text-center').contains(
       'guitar'
     )
@@ -343,10 +343,10 @@ describe('ArtistDetail tests', () => {
       'Be mine!'
     )
 
-    //作詞作曲の楽曲の表が存在していないかどうか
+    //作詞作曲の音源の表が存在していないかどうか
     cy.get('.songwriter-table > tbody').should('not.be')
 
-    //アーティスト楽曲の表が存在していないかどうか
+    //アーティスト音源の表が存在していないかどうか
     cy.get('.artist-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか
@@ -372,19 +372,19 @@ describe('ArtistDetail tests', () => {
 
     cy.get('.text-2xl').contains('新垣結衣')
 
-    cy.get('.text-lg').contains('アーティストとして関わった楽曲')
+    cy.get('.text-xl').contains('アーティストとして関わった音源')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains('あいたい')
 
-    // アーティスト楽曲が87件か
+    // アーティスト音源が87件か
     cy.get('.artist-table > tbody > tr > td').should(($trs) => {
       expect($trs, '74 items').to.have.length(74)
     })
     cy.get('p').contains('74 件中 1 〜 74件')
 
-    //作詞作曲の楽曲の表が存在していないかどうか
+    //作詞作曲の音源の表が存在していないかどうか
     cy.get('.songwriter-table > tbody').should('not.be')
 
-    //スタッフ楽曲の表が存在していないかどうか
+    //スタッフ音源の表が存在していないかどうか
     cy.get('.staff-table > tbody').should('not.be')
 
     //ページネーションのコンポーネントが表示されていないかどうか

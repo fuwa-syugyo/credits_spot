@@ -94,8 +94,9 @@ onMounted(() => {
     <NowLoading />
   </div>
   <div v-else-if="refRecordingData.length !== 0" class="container">
-    <h1 class="text-2xl my-4 max-w-xl">楽曲検索結果</h1>
-    <div class="my-4 border md:w-[450px] w-[250px] rounded-md">
+    <h1 class="text-2xl my-4 max-w-xl">音源検索結果</h1>
+    <p>音源をクリックすると、その音源に関わったスタッフを確認できます。</p>
+    <div class="my-2 border md:w-[450px] w-[250px] rounded-md">
       <form @submit.prevent="applyFilter">
         <div class="border-b-2 px-4 bg-blue-200">
           <p class="text-lg mb-2 font-bold pt-2">絞り込み</p>
@@ -161,12 +162,11 @@ onMounted(() => {
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
-          <th
-            class="px-4 py-2 border w-[130px] bg-blue-100 hidden md:inline-block"
-          >
-            リリース日
+          <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">
+            曲名
+          </th>
+          <th class="px-4 py-2 border w-[410px] md:w-[470px] bg-blue-100">
+            アーティスト
           </th>
         </tr>
       </thead>
@@ -176,7 +176,7 @@ onMounted(() => {
           :key="recording.id"
           class="border px-4 py-2"
         >
-          <td class="border px-4 py-2 max-w-[600px] break-all">
+          <td class="border px-4 py-2 break-all">
             <RouterLink
               :to="{
                 name: 'RecordingDetail',
@@ -187,14 +187,16 @@ onMounted(() => {
             </RouterLink>
           </td>
           <td class="border px-4 py-2 break-all">
-            {{
-              recording['artist-credit']
-                .map((credit: ArtistCredit) => credit.allName)
-                .join(' ')
-            }}
-          </td>
-          <td class="text-center px-4 py-2 w-[130px] hidden md:inline-block">
-            {{ recording.firstReleaseDate }}
+            <p>
+              {{
+                recording['artist-credit']
+                  .map((credit: ArtistCredit) => credit.allName)
+                  .join(' ')
+              }}
+            </p>
+            <p class="my-1 text-xs">
+              {{ 'リリース日: ' + recording.firstReleaseDate }}
+            </p>
           </td>
         </tr>
       </tbody>

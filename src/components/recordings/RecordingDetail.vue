@@ -144,36 +144,26 @@ onMounted(async () => {
     <h1 class="text-2xl my-4 max-w-xl break-all">
       {{ refRecordingData?.title }}
     </h1>
-    <table class="table-auto my-2 max-w-xl">
-      <thead>
-        <tr>
-          <th class="px-4 py-2 border solid bg-red-100">アーティスト</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-if="refRecordingData.credit">
-          <td class="px-4 py-2 border break-all">
-            <span
-              v-for="artist in refRecordingData.credit.artistCredit"
-              :key="artist.artist.id"
-              :name="artist.artist.name"
-              :joinphrase="artist.joinphrase"
-            >
-              <RouterLink
-                :to="{
-                  name: 'ArtistDetail',
-                  params: { id: artist.artist.id },
-                }"
-              >
-                {{ artist.artist.name }}
-              </RouterLink>
-              {{ artist.joinphrase }}
-            </span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
+    <p class="break-all">
+      アーティスト:
+      <span
+        v-for="artist in refRecordingData.credit.artistCredit"
+        :key="artist.artist.id"
+        :name="artist.artist.name"
+        :joinphrase="artist.joinphrase"
+      >
+        <RouterLink
+          :to="{
+            name: 'ArtistDetail',
+            params: { id: artist.artist.id },
+          }"
+        >
+          {{ artist.artist.name }}
+        </RouterLink>
+        {{ artist.joinphrase }}
+      </span>
+    </p>
+    <p>{{ 'リリース日: ' + refRecordingData.releaseDate }}</p>
     <br />
     <div
       v-if="
@@ -185,8 +175,16 @@ onMounted(async () => {
       <table class="table-auto">
         <thead>
           <tr>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">担当</th>
-            <th class="px-4 py-2 border solid bg-blue-100 max-w-xs">名前</th>
+            <th
+              class="px-4 py-2 border solid w-[250px] md:w-[300px] bg-blue-100"
+            >
+              担当
+            </th>
+            <th
+              class="px-4 py-2 border solid w-[550px] md:w-[630px] bg-blue-100"
+            >
+              名前
+            </th>
           </tr>
         </thead>
         <tbody v-if="refRecordingData.credit.songWriterCredit">
@@ -264,6 +262,9 @@ onMounted(async () => {
             >この曲を再生する</a
           >
         </button>
+      </div>
+      <div v-if="!spotifyLink" class="my-2 text-xs">
+        <p>登録されているSpotifyでの音源情報がないため再生ができません。</p>
       </div>
     </div>
   </div>

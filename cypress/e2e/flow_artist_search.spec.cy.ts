@@ -29,7 +29,7 @@ describe('Artist search spec', () => {
     cy.wait('@komurotetsuyaRecording1PageRequest')
     cy.contains('小室哲哉')
 
-    //アーティスト楽曲の詳細へ
+    //アーティスト音源の詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/08cea5ad-09af-466a-b2f4-46ec63dd2d09?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -44,7 +44,7 @@ describe('Artist search spec', () => {
     cy.wait('@komurotetsuyaDWakareRelationshipRequest')
     cy.wait('@komurotetsuyaDWakareSpotifyRequest')
     cy.get('.text-2xl').contains('Dのテーマ (別れ)')
-    cy.get('.my-2 > tbody > tr > .px-4').contains('小室哲哉')
+    cy.get('p.break-all').contains('小室哲哉')
     cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a').should('not.be')
     cy.go('back')
 

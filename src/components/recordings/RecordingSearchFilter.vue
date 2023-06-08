@@ -138,12 +138,11 @@ const currentPage = ref(1)
     <table class="table-auto my-4">
       <thead>
         <tr>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">曲名</th>
-          <th class="px-4 py-2 border w-[400px] bg-blue-100">アーティスト</th>
-          <th
-            class="px-4 py-2 border w-[130px] bg-blue-100 hidden md:inline-block"
-          >
-            リリース日
+          <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">
+            曲名
+          </th>
+          <th class="px-4 py-2 border w-[410px] md:w-[470px] bg-blue-100">
+            アーティスト
           </th>
         </tr>
       </thead>
@@ -153,7 +152,7 @@ const currentPage = ref(1)
           :key="recording.id"
           class="border px-4 py-2"
         >
-          <td class="border px-4 py-2 max-w-[600px] break-all">
+          <td class="border px-4 py-2 break-all">
             <RouterLink
               :to="{
                 name: 'RecordingDetail',
@@ -164,14 +163,16 @@ const currentPage = ref(1)
             </RouterLink>
           </td>
           <td class="border px-4 py-2 break-all">
-            {{
-              recording['artist-credit']
-                .map((credit: ArtistCredit) => credit.allName)
-                .join(' ')
-            }}
-          </td>
-          <td class="text-center px-4 py-2 w-[130px] hidden md:inline-block">
-            {{ recording.firstReleaseDate }}
+            <p>
+              {{
+                recording['artist-credit']
+                  .map((credit: ArtistCredit) => credit.allName)
+                  .join(' ')
+              }}
+            </p>
+            <p class="my-1 text-xs">
+              {{ 'リリース日: ' + recording.firstReleaseDate }}
+            </p>
           </td>
         </tr>
       </tbody>
@@ -188,7 +189,7 @@ const currentPage = ref(1)
   </div>
   <div v-else>
     <h1 class="text-2xl my-4 max-w-xl">Not Found!</h1>
-    <p>条件に該当する楽曲はありませんでした。</p>
+    <p>条件に該当する音源はありませんでした。</p>
   </div>
 </template>
 
