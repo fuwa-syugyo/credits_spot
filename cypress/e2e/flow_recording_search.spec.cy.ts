@@ -314,7 +314,7 @@ describe('Recording search and lookup artist', () => {
     cy.go('back')
   })
 
-  it('Pagination button', () => {
+  it('Check search word is not undefined by using pagination', () => {
     cy.visit('http://127.0.0.1:5173/')
     cy.intercept(
       'GET',
@@ -327,7 +327,6 @@ describe('Recording search and lookup artist', () => {
     cy.get('button[type="submit"]').click()
     cy.wait('@seisyun1PageRequest')
 
-    // ページネーションを動かして検索ワードがUndefinedにならないか確認
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=100&limit=100&fmt=json',
