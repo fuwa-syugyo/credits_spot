@@ -50,7 +50,7 @@ describe('Recording search and lookup artist', () => {
       'https://musicbrainz.org/ws/2/recording?artist=c1b0fe0a-779d-43ed-b193-4370f0d0f88f&offset=0&limit=100&fmt=json',
       { fixture: 'mock_kessoku_recording.json' }
     ).as('kessokuRecordingRequest')
-    cy.get('.my-2 > tbody > tr > .px-4').click()
+    cy.get('p.break-all > span > a').click()
     cy.wait('@kessokuRelationshipRequest')
     cy.wait('@kessokuRecordingRequest')
     cy.contains('結束バンド')
