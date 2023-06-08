@@ -1,4 +1,4 @@
-describe('Artist search spec', () => {
+describe('Artist search and lookup recordings', () => {
   it('Visits artist search result', function () {
     cy.visit('http://127.0.0.1:5173/')
     cy.intercept(
@@ -140,10 +140,9 @@ describe('Artist search spec', () => {
     cy.contains('the band apart')
   })
 
-  it('Pagination button ', () => {
+  it('Check search word is not undefined by using pagination', () => {
     cy.visit('http://127.0.0.1:5173/')
 
-    // ページネーションを動かして検索ワードがUndefinedにならないか確認
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
