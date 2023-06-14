@@ -11,7 +11,7 @@ describe('Artist search and lookup recordings', () => {
     cy.get('#search').type('小室哲哉{enter}', { force: true })
     cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
-    cy.contains('小室哲哉')
+    cy.get('.artist-search-table > tbody').contains('小室哲哉')
 
     cy.intercept(
       'GET',
@@ -41,8 +41,8 @@ describe('Artist search and lookup recordings', () => {
     cy.get('.artist-table > tbody > :nth-child(1) > td > a ').click()
     cy.wait('@komurotetsuyaDWakareRelationshipRequest')
     cy.wait('@komurotetsuyaDWakareSpotifyRequest')
-    cy.get('.text-2xl').contains('Dのテーマ (別れ)')
-    cy.get('p.break-all').contains('小室哲哉')
+    cy.get('.recording-title').contains('Dのテーマ (別れ)')
+    cy.get('.artist-name').contains('小室哲哉')
     cy.get('.spotify-button').should('be.disabled')
     cy.go('back')
 
@@ -70,8 +70,8 @@ describe('Artist search and lookup recordings', () => {
     cy.wait('@komurotetsuyaCrazyRelationshipRequest')
     cy.wait('@komurotetsuyaCrazySpotifyRequest')
 
-    cy.get('.text-2xl').contains('CRAZY GONNA CRAZY')
-    cy.get('table tbody tr')
+    cy.get('.recording-title').contains('CRAZY GONNA CRAZY')
+    cy.get('.songwriter-data > tr')
       .contains('composer')
       .parent()
       .parent()
@@ -97,8 +97,8 @@ describe('Artist search and lookup recordings', () => {
     cy.get('.staff-table > tbody > :nth-child(1) > :nth-child(2) > a').click()
     cy.wait('@komurotetsuyaSoon19RelationshipRequest')
     cy.wait('@komurotetsuyaSoon19SpotifyRequest')
-    cy.get('.text-2xl').contains('...soon nineteen')
-    cy.get('table tbody tr')
+    cy.get('.recording-title').contains('...soon nineteen')
+    cy.get('.staff-data > tr')
       .contains('arranger')
       .parent()
       .parent()
@@ -119,7 +119,7 @@ describe('Artist search and lookup recordings', () => {
     cy.get('#search').type('YOASOBI{enter}', { force: true })
     cy.get('.search-button').click()
     cy.wait('@yoasobiRequest')
-    cy.contains('YOASOBI')
+    cy.get('.artist-search-table > tbody').contains('YOASOBI')
 
     cy.intercept(
       'GET',
@@ -132,7 +132,7 @@ describe('Artist search and lookup recordings', () => {
       .type('the band apart{enter}', { force: true })
     cy.get('.search-button').first().click()
     cy.wait('@theBandApartRequest')
-    cy.contains('the band apart')
+    cy.get('.artist-search-table > tbody').contains('the band apart')
   })
 
   it('Check search word is not undefined by using pagination', () => {
@@ -148,7 +148,7 @@ describe('Artist search and lookup recordings', () => {
     cy.get('#search').type('小室哲哉{enter}', { force: true })
     cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
-    cy.contains('小室哲哉')
+    cy.get('.artist-search-table > tbody').contains('小室哲哉')
 
     cy.intercept(
       'GET',
