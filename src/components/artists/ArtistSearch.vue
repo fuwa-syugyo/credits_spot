@@ -70,7 +70,7 @@ onMounted(() => {
         '件'
       }}
     </p>
-    <table class="table-auto my-4 max-w-xl">
+    <table class="artist-search-table table-auto my-4 max-w-xl">
       <thead>
         <tr>
           <th class="px-4 py-2 border bg-blue-100 break-all">人物名</th>

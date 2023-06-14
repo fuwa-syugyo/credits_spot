@@ -23,7 +23,7 @@ describe('Artist search and lookup recordings', () => {
       'https://musicbrainz.org/ws/2/recording?artist=de242082-2f3e-4ce5-99e1-7839559da089&offset=0&limit=100&fmt=json',
       { fixture: 'mock_komurotetsuya_recording_page1.json' }
     ).as('komurotetsuyaRecording1PageRequest')
-    cy.get(':nth-child(1) > .border > a').click() //検索結果の表の名前をつけた方が良いかも
+    cy.get('.artist-search-table > tbody > :nth-child(1) > td > a').click()
     cy.wait('@komurotetsuyaRelationshipRequest')
     cy.wait('@komurotetsuyaRecording1PageRequest')
     cy.contains('小室哲哉')
