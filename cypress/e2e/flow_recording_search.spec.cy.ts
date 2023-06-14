@@ -9,7 +9,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('input[type="search"]')
       .should('be.visible')
       .type('青春コンプレックス', { force: true })
-    cy.get('button[type="submit"]').click()
+    cy.get('.search-button').click()
     cy.wait('@seisyun1PageRequest')
     cy.get('.recording-search-table > tbody').contains('青春コンプレックス')
     cy.get('.recording-search-table > tbody').contains('結束バンド')
@@ -306,7 +306,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('input[type="search"]')
       .should('be.visible')
       .type('青春コンプレックス', { force: true })
-    cy.get('button[type="submit"]').click()
+    cy.get('.search-button').click()
     cy.wait('@seisyun1PageRequest')
 
     cy.intercept(

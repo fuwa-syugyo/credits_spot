@@ -9,7 +9,7 @@ describe('Artist search and lookup recordings', () => {
 
     cy.get('[value="人物名"]').check()
     cy.get('#search').type('小室哲哉{enter}', { force: true })
-    cy.get('.text-white').click()
+    cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
     cy.contains('小室哲哉')
 
@@ -146,7 +146,7 @@ describe('Artist search and lookup recordings', () => {
 
     cy.get('[value="人物名"]').check()
     cy.get('#search').type('小室哲哉{enter}', { force: true })
-    cy.get('.text-white').click()
+    cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
     cy.contains('小室哲哉')
 
