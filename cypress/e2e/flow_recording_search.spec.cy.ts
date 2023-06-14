@@ -106,7 +106,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('#search').type('Butter Sugar Cream (instrumental){enter}', {
       force: true,
     })
-    cy.contains('検索').click()
+    cy.get('.search-button').click()
     cy.wait('@butterSugarCreamSearchRequest')
 
     cy.intercept(
@@ -134,7 +134,7 @@ describe('Recording search and lookup artist', () => {
       { fixture: 'mock_result_tentaikansoku.json' }
     ).as('resultTentaikansokuRequest')
     cy.get('#search').type('天体観測{enter}', { force: true })
-    cy.contains('検索').click()
+    cy.get('.search-button').click()
     cy.wait('@resultTentaikansokuRequest')
     cy.contains('天体観測')
 
@@ -211,7 +211,7 @@ describe('Recording search and lookup artist', () => {
     ).as('resultCelebrateRequest')
     cy.get('#search').focus().clear()
     cy.get('#search').type('can you celebrate{enter}', { force: true })
-    cy.contains('検索').click()
+    cy.get('.search-button').click()
     cy.wait('@resultCelebrateRequest')
     cy.contains('CAN YOU CELEBRATE?')
 
