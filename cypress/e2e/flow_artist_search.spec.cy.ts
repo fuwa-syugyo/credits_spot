@@ -43,7 +43,7 @@ describe('Artist search and lookup recordings', () => {
     cy.wait('@komurotetsuyaDWakareSpotifyRequest')
     cy.get('.text-2xl').contains('Dのテーマ (別れ)')
     cy.get('p.break-all').contains('小室哲哉')
-    cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a').should('not.be') //spotifyのやつ
+    cy.get('.spotify-button').should('be.disabled')
     cy.go('back')
 
     cy.intercept(
@@ -66,7 +66,7 @@ describe('Artist search and lookup recordings', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPB609520101&type=track&offset=0&limit=20',
       { fixture: 'mock_crazy_spotify.json' }
     ).as('komurotetsuyaCrazySpotifyRequest')
-    cy.get(':nth-child(2) > .max-w-\\[600px\\] > a').click() //workの表もわかりやすくした方がよさそう
+    cy.get('.work-table > tbody > :nth-child(2) > :nth-child(1) > a').click()
     cy.wait('@komurotetsuyaCrazyRelationshipRequest')
     cy.wait('@komurotetsuyaCrazySpotifyRequest')
 
@@ -76,7 +76,7 @@ describe('Artist search and lookup recordings', () => {
       .parent()
       .parent()
       .contains('小室哲哉')
-    cy.get('.bg-blue-400 > a').should(
+    cy.get('.spotify-button > a').should(
       'have.attr',
       'href',
       'https://open.spotify.com/track/40zhzdBp94MQDk5uRf4NDR'
@@ -103,7 +103,7 @@ describe('Artist search and lookup recordings', () => {
       .parent()
       .parent()
       .contains('小室哲哉')
-    cy.get('.bg-blue-400').should('be.disabled')
+    cy.get('.spotify-button').should('be.disabled')
     cy.go('back')
   })
 
@@ -155,10 +155,10 @@ describe('Artist search and lookup recordings', () => {
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=100&limit=100&fmt=json',
       { fixture: 'mock_komurotetsuya_page2.json' }
     ).as('komurotetsuya2PageRequest')
-    cy.get(':nth-child(7) > .paginate-buttons').click()
+    cy.get('.pagination').contains('>').click()
     cy.wait('@komurotetsuya2PageRequest')
     cy.get('body').should('not.contain', 'Undefined')
-    cy.get('.back-button').click()
+    cy.get('.pagination').contains('<').click()
   })
 })
 export {}

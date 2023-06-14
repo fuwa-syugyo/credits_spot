@@ -32,7 +32,7 @@ describe('Recording search and lookup artist', () => {
       '/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5'
     )
     cy.contains('青春コンプレックス')
-    cy.get('.bg-blue-400 > a').should(
+    cy.get('.spotify-button > a').should(
       'have.attr',
       'href',
       'https://open.spotify.com/track/0jpP8AlQLVtaMwA3vQYpYB'
