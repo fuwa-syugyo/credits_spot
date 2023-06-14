@@ -141,10 +141,10 @@ onMounted(async () => {
     <NowLoading />
   </div>
   <div v-else-if="refRecordingData">
-    <h1 class="text-2xl my-4 max-w-xl break-all">
+    <h1 class="recording-title text-2xl my-4 max-w-xl break-all">
       {{ refRecordingData?.title }}
     </h1>
-    <p class="break-all">
+    <p class="artist-name break-all">
       アーティスト:
       <span
         v-for="artist in refRecordingData.credit.artistCredit"
@@ -187,7 +187,7 @@ onMounted(async () => {
             </th>
           </tr>
         </thead>
-        <tbody v-if="refRecordingData.credit.songWriterCredit">
+        <tbody v-if="refRecordingData.credit.songWriterCredit" class="songwriter-data">
           <tr
             v-for="songWriter in refRecordingData.credit.songWriterCredit"
             :key="songWriter.id"
@@ -207,7 +207,7 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="refRecordingData.credit.staffCredit">
+        <tbody v-if="refRecordingData.credit.staffCredit" class="staff-data">
           <tr
             v-for="staff in refRecordingData.credit.staffCredit"
             :key="staff.id"
@@ -224,7 +224,7 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="refRecordingData.credit.playerCredit">
+        <tbody v-if="refRecordingData.credit.playerCredit" class="player-data">
           <tr
             v-for="player in refRecordingData.credit.playerCredit"
             :key="player.id"

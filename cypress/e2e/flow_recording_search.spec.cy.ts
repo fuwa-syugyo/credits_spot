@@ -11,8 +11,8 @@ describe('Recording search and lookup artist', () => {
       .type('青春コンプレックス', { force: true })
     cy.get('button[type="submit"]').click()
     cy.wait('@seisyun1PageRequest')
-    cy.contains('青春コンプレックス')
-    cy.contains('結束バンド')
+    cy.get('.recording-search-table > tbody').contains('青春コンプレックス')
+    cy.get('.recording-search-table > tbody').contains('結束バンド')
 
     cy.intercept(
       'GET',
@@ -24,7 +24,7 @@ describe('Recording search and lookup artist', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPE302200934&type=track&offset=0&limit=20',
       { fixture: 'mock_seisyun_spotify.json' }
     ).as('seisyunSpotifyRequest')
-    cy.contains('青春コンプレックス').click()
+    cy.get('.recording-search-table > tbody > :nth-child(1) > td').contains('青春コンプレックス').click()
     cy.wait('@seisyunRelationshipRequest')
     cy.wait('@seisyunSpotifyRequest')
     cy.url().should(
@@ -49,11 +49,11 @@ describe('Recording search and lookup artist', () => {
       'https://musicbrainz.org/ws/2/recording?artist=c1b0fe0a-779d-43ed-b193-4370f0d0f88f&offset=0&limit=100&fmt=json',
       { fixture: 'mock_kessoku_recording.json' }
     ).as('kessokuRecordingRequest')
-    cy.get('p.break-all > span > a').click()
+    cy.get('p.artist-name > span > a').click()
     cy.wait('@kessokuRelationshipRequest')
     cy.wait('@kessokuRecordingRequest')
-    cy.contains('結束バンド')
-    cy.contains('青春コンプレックス')
+    cy.get('.artist-name').contains('結束バンド')
+    cy.get('.artist-table > tbody').contains('青春コンプレックス')
     cy.go('back')
 
     cy.intercept(
@@ -66,10 +66,10 @@ describe('Recording search and lookup artist', () => {
       'https://musicbrainz.org/ws/2/recording?artist=779f1dee-35ca-4b75-8db5-9ae3ce3b16c8&offset=0&limit=100&fmt=json',
       { fixture: 'mock_otoha_recording.json' }
     ).as('otohaRecordingRequest')
-    cy.contains('音羽-otoha-').click()
+    cy.get('.songwriter-data').contains('音羽-otoha-').click()
     cy.wait('@otohaRelationshipRequest')
     cy.wait('@otohaRecordingRequest')
-    cy.get('table tbody tr')
+    cy.get('.songwriter-table > tbody > tr')
       .contains('青春コンプレックス')
       .parent()
       .parent()
@@ -86,10 +86,10 @@ describe('Recording search and lookup artist', () => {
       'https://musicbrainz.org/ws/2/recording?artist=66dea38d-e16d-4774-b5c5-e0ee56808731&offset=0&limit=100&fmt=json',
       { fixture: 'mock_mitsui_recording.json' }
     ).as('mitsuiRecordingRequest')
-    cy.contains('三井律郎').click()
+    cy.get('.staff-data').contains('三井律郎').click()
     cy.wait('@mitsuiRelationshipRequest')
     cy.wait('@mitsuiRecordingRequest')
-    cy.get('table tbody tr')
+    cy.get('.staff-table > tbody > tr')
       .contains('青春コンプレックス')
       .parent()
       .parent()
@@ -173,7 +173,7 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@tentaikansoku4Request')
     cy.wait('@tentaikansoku5Request')
     cy.contains('天体観測')
-    cy.get('table tbody tr').should(
+    cy.get('.filtered-recording-search-table > tbody > tr').should(
       'not.contain',
       '天体観測(Instrumental Version)'
     )
@@ -183,7 +183,7 @@ describe('Recording search and lookup artist', () => {
     cy.get('#partial').check()
     cy.get('#apply').click()
     cy.contains('天体観測')
-    cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
+    cy.get('.filtered-recording-search-table > tbody > tr').should('not.contain', 'スカイクラッドの観測者')
     cy.go('back')
 
     cy.get('#filter').clear()
@@ -200,8 +200,8 @@ describe('Recording search and lookup artist', () => {
     cy.get('#partial').check()
     cy.get('#apply').click()
     cy.contains('真夏の天体観測')
-    cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
-    cy.get('tbody').should('not.contain', '真夏の天体観測 ～Instrumental～')
+    cy.get('.filtered-recording-search-table > tbody > tr').should('not.contain', 'スカイクラッドの観測者')
+    cy.get('.filtered-recording-search-table > tbody > tr').should('not.contain', '真夏の天体観測 ～Instrumental～')
 
     //検索音源変更
     cy.intercept(
@@ -251,13 +251,13 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@celebrate4Request')
     cy.wait('@celebrate5Request')
 
-    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
-    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
+    cy.get('.filtered-recording-search-table > tbody > tr > td:nth-child(2)').each(($td) => {
       expect($td.text()).not.to.include('白鳥英美子')
     })
     cy.contains('CAN YOU CELEBRATE?')
     cy.contains('Dreaming I was dreaming (Subconscious mix)')
-    cy.get('tbody').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
+    cy.get('.filtered-recording-search-table > tbody > tr').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
     cy.go('back')
 
     cy.get('#filter').clear()
@@ -265,8 +265,8 @@ describe('Recording search and lookup artist', () => {
     cy.get('#filter').type('安室奈美恵')
     cy.get('#apply').click()
 
-    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
-    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
+    cy.get('.filtered-recording-search-table > tbody > tr > td:nth-child(2)').each(($td) => {
       expect($td.text()).not.to.include('白鳥英美子')
     })
     cy.contains('CAN YOU CELEBRATE?')
@@ -283,13 +283,13 @@ describe('Recording search and lookup artist', () => {
     cy.get('#filter').type('安室奈美恵')
     cy.get('#apply').click()
 
-    cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
-    cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
+    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains('安室奈美恵')
+    cy.get('.filtered-recording-search-table > tbody > tr > td:nth-child(2)').each(($td) => {
       expect($td.text()).not.to.include('白鳥英美子')
     })
     cy.contains('CAN YOU CELEBRATE?')
-    cy.get('tbody').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
-    cy.get('tbody').should(
+    cy.get('.filtered-recording-search-table > tbody').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
+    cy.get('.filtered-recording-search-table > tbody').should(
       'not.contain',
       'Dreaming I was dreaming (Subconscious mix)'
     )
@@ -316,7 +316,7 @@ describe('Recording search and lookup artist', () => {
     ).as('seisyun2PageRequest')
     cy.get('.pagination').contains('>').click()
     cy.wait('@seisyun2PageRequest')
-    cy.get('body').should('not.contain', 'Undefined')
+    cy.get('.recording-search-table > tbody > tr').should('not.contain', 'Undefined')
     cy.get('.pagination').contains('<').click()
   })
 })

@@ -91,7 +91,7 @@ const onClickHandler = async (page: number) => {
     <NowLoading />
   </div>
   <div v-else-if="refArtistData || refArtistRecording">
-    <h1 class="text-2xl my-4 max-w-xl break-all">
+    <h1 class="artist-name text-2xl my-4 max-w-xl break-all">
       {{ refArtistData?.name }}
     </h1>
 

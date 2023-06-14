@@ -96,7 +96,7 @@ onMounted(() => {
   <div v-else-if="refRecordingData.length !== 0" class="container">
     <h1 class="text-2xl my-4 max-w-xl">音源検索結果</h1>
     <p>音源をクリックすると、その音源に関わったスタッフを確認できます。</p>
-    <div class="my-2 border md:w-[450px] w-[250px] rounded-md">
+    <div class="recording-filter my-2 border md:w-[450px] w-[250px] rounded-md">
       <form @submit.prevent="applyFilter">
         <div class="border-b-2 px-4 bg-blue-200">
           <p class="text-lg mb-2 font-bold pt-2">絞り込み</p>
@@ -159,7 +159,7 @@ onMounted(() => {
         '件'
       }}
     </p>
-    <table class="table-auto my-4">
+    <table class="recording-search-table table-auto my-4">
       <thead>
         <tr>
           <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">

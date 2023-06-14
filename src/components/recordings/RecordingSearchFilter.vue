@@ -135,7 +135,7 @@ const currentPage = ref(1)
         '件'
       }}
     </p>
-    <table class="table-auto my-4">
+    <table class="filtered-recording-search-table table-auto my-4">
       <thead>
         <tr>
           <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">
