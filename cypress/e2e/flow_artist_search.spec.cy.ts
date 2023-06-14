@@ -117,7 +117,7 @@ describe('Artist search and lookup recordings', () => {
     ).as('yoasobiRequest')
     cy.get('[value="人物名"]').check()
     cy.get('#search').type('YOASOBI{enter}', { force: true })
-    cy.contains('検索').click()
+    cy.get('.search-button').click()
     cy.wait('@yoasobiRequest')
     cy.contains('YOASOBI')
 
@@ -130,7 +130,7 @@ describe('Artist search and lookup recordings', () => {
       .focus()
       .clear()
       .type('the band apart{enter}', { force: true })
-    cy.contains('検索').first().click()
+    cy.get('.search-button').first().click()
     cy.wait('@theBandApartRequest')
     cy.contains('the band apart')
   })
