@@ -88,7 +88,7 @@ onMounted(() => {
         </tr>
       </tbody>
     </table>
-    <div v-if="totalItems > 100">
+    <div v-if="totalItems > 100" class="pagination">
       <vue-awesome-paginate
         v-model="currentPage"
         :total-items="totalItems"

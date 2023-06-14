@@ -177,7 +177,7 @@ const currentPage = ref(1)
         </tr>
       </tbody>
     </table>
-    <div v-if="filteredDataLength > 100">
+    <div v-if="filteredDataLength > 100" class="pagination">
       <vue-awesome-paginate
         v-model="currentPage"
         :total-items="filteredDataLength"
