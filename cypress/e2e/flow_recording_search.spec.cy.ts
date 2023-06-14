@@ -14,7 +14,6 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.contains('結束バンド')
 
-    //音源詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -38,9 +37,8 @@ describe('Recording search and lookup artist', () => {
       'href',
       'https://open.spotify.com/track/0jpP8AlQLVtaMwA3vQYpYB'
     )
-    cy.get('.my-2 > p').should('not.be')
+    cy.get('.pagination').should('not.be')
 
-    //アーティスト詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/c1b0fe0a-779d-43ed-b193-4370f0d0f88f?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
@@ -58,7 +56,6 @@ describe('Recording search and lookup artist', () => {
     cy.contains('青春コンプレックス')
     cy.go('back')
 
-    //作詞作曲者詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/779f1dee-35ca-4b75-8db5-9ae3ce3b16c8?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
@@ -79,7 +76,6 @@ describe('Recording search and lookup artist', () => {
       .contains('composer')
     cy.go('back')
 
-    //スタッフ詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/66dea38d-e16d-4774-b5c5-e0ee56808731?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
@@ -101,7 +97,6 @@ describe('Recording search and lookup artist', () => {
     cy.go('back')
     cy.go('back')
 
-    // Spotifyがない曲へ
     cy.get('#search').focus().clear()
     cy.intercept(
       'GET',
@@ -127,7 +122,7 @@ describe('Recording search and lookup artist', () => {
     cy.contains('Butter Sugar Cream (instrumental)').click()
     cy.wait('@butterSugarCreamRequest')
     cy.wait('@butterSugarCreamSpotifyRequest')
-    cy.get('.bg-blue-400').should('be.disabled')
+    cy.get('.bg-blue-400').should('be.disabled') //spotifyボタンを明確に指定すべし
     cy.get('.my-2 > p').contains('登録されているSpotifyでの音源情報がないため再生ができません。')
   })
 
@@ -143,7 +138,6 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@resultTentaikansokuRequest')
     cy.contains('天体観測')
 
-    //フィルター1(インスト音源除外フィルター)のみ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
@@ -169,11 +163,8 @@ describe('Recording search and lookup artist', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=400&limit=100&fmt=json',
       { fixture: 'mock_tentaikansoku5.json' }
     ).as('tentaikansoku5Request')
-
-    //フィルターに何も設定しないとき「適用」がdisableになっているか
     cy.get('#apply').should('be.disabled')
 
-    //フィルター1(インスト音源除外フィルター)のみ
     cy.get('#inst').check()
     cy.get('#apply').click()
     cy.wait('@tentaikansoku1Request')
@@ -188,32 +179,26 @@ describe('Recording search and lookup artist', () => {
     )
     cy.go('back')
 
-    //フィルター2(部分一致フィルター)のみ
     cy.get('#filter').clear()
     cy.get('#partial').check()
     cy.get('#apply').click()
-
     cy.contains('天体観測')
     cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
     cy.go('back')
 
-    //フィルター3(アーティスト名フィルター)のみ
     cy.get('#filter').clear()
     cy.get('#filter').type('BUMP OF CHICKEN')
     cy.get('#apply').click()
-
     cy.get('tbody > :nth-child(1) > :nth-child(2)').contains('BUMP OF CHICKEN')
     cy.get('.table-auto tbody tr td:nth-child(2)').each(($td) => {
       expect($td.text()).not.to.include('入尾信充')
     })
     cy.go('back')
 
-    //フィルター1と2
     cy.get('#filter').clear()
     cy.get('#inst').check()
     cy.get('#partial').check()
     cy.get('#apply').click()
-
     cy.contains('真夏の天体観測')
     cy.get('tbody').should('not.contain', 'スカイクラッドの観測者')
     cy.get('tbody').should('not.contain', '真夏の天体観測 ～Instrumental～')
@@ -230,7 +215,6 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@resultCelebrateRequest')
     cy.contains('CAN YOU CELEBRATE?')
 
-    //フィルター1と3
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:can%20you%20celebrate&offset=0&limit=100&fmt=json',
@@ -276,7 +260,6 @@ describe('Recording search and lookup artist', () => {
     cy.get('tbody').should('not.contain', 'CAN YOU CELEBRATE? (instrumental)')
     cy.go('back')
 
-    //フィルター2と3
     cy.get('#filter').clear()
     cy.get('#partial').check()
     cy.get('#filter').type('安室奈美恵')
@@ -294,7 +277,6 @@ describe('Recording search and lookup artist', () => {
     )
     cy.go('back')
 
-    //フィルター1と2と3
     cy.get('#filter').clear()
     cy.get('#inst').check()
     cy.get('#partial').check()
@@ -332,10 +314,10 @@ describe('Recording search and lookup artist', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&offset=100&limit=100&fmt=json',
       { fixture: 'mock_seisyun_page2.json' }
     ).as('seisyun2PageRequest')
-    cy.get(':nth-child(7) > .paginate-buttons').click()
+    cy.get('.pagination').contains('>').click()
     cy.wait('@seisyun2PageRequest')
     cy.get('body').should('not.contain', 'Undefined')
-    cy.get('.back-button').click()
+    cy.get('.pagination').contains('<').click()
   })
 })
 export {}
