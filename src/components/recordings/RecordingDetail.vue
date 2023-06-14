@@ -244,7 +244,7 @@ onMounted(async () => {
       </table>
     </div>
     <br />
-    <div class="spotify-button">
+    <div class="spotify-content">
       <div style="display: inline-block; vertical-align: middle">
         <img
           src="../../../public/Spotify_Logo_CMYK_Green.png"
@@ -256,14 +256,14 @@ onMounted(async () => {
       <div style="display: inline-block; vertical-align: middle">
         <button
           :disabled="!spotifyLink"
-          class="bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:pointer-events-none"
+          class="spotify-button bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:pointer-events-none"
         >
           <a :href="spotifyLink" target="_blank" class="text-white"
             >この曲を再生する</a
           >
         </button>
       </div>
-      <div v-if="!spotifyLink" class="my-2 text-xs">
+      <div v-if="!spotifyLink" class="no-spotify my-2 text-xs">
         <p>登録されているSpotifyでの音源情報がないため再生ができません。</p>
       </div>
     </div>

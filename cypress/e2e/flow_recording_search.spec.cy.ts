@@ -122,8 +122,8 @@ describe('Recording search and lookup artist', () => {
     cy.contains('Butter Sugar Cream (instrumental)').click()
     cy.wait('@butterSugarCreamRequest')
     cy.wait('@butterSugarCreamSpotifyRequest')
-    cy.get('.bg-blue-400').should('be.disabled') //spotifyボタンを明確に指定すべし
-    cy.get('.my-2 > p').contains('登録されているSpotifyでの音源情報がないため再生ができません。')
+    cy.get('.spotify-button').should('be.disabled')
+    cy.get('.no-spotify > p').contains('登録されているSpotifyでの音源情報がないため再生ができません。')
   })
 
   it('apply filter', () => {
