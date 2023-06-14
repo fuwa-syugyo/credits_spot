@@ -96,7 +96,7 @@ const onClickHandler = async (page: number) => {
     </h1>
 
     <div v-if="refArtistData?.credit.song.length !== 0">
-      <p class="text-xl my-4 border-l-8 border-indigo-200 pl-2">
+      <p class="songwriter-caption text-xl my-4 border-l-8 border-indigo-200 pl-2">
         作詞作曲した音源
       </p>
       <table class="songwriter-table table-auto my-4">
@@ -139,7 +139,7 @@ const onClickHandler = async (page: number) => {
     <br />
 
     <div v-if="refArtistData?.credit.recording.length !== 0">
-      <p class="text-xl my-4 border-l-8 border-indigo-200 pl-2">
+      <p class="staff-caption text-xl my-4 border-l-8 border-indigo-200 pl-2">
         スタッフとして関わった音源
       </p>
       <table class="staff-table table-auto my-4">
@@ -182,10 +182,10 @@ const onClickHandler = async (page: number) => {
 
     <br />
     <div v-if="refArtistRecording?.length !== 0">
-      <p class="text-xl my-4 border-l-8 border-indigo-200 pl-2">
+      <p class="artist-caption text-xl my-4 border-l-8 border-indigo-200 pl-2">
         アーティストとして関わった音源
       </p>
-      <p>
+      <p class="artist-recording-number">
         {{
           totalItems +
           ' 件中 ' +
