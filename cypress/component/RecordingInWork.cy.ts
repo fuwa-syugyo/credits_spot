@@ -14,8 +14,7 @@ describe('RecordingInWork tests', () => {
     cy.wait('@debbyRequest')
     cy.get('h1').contains('曲群一覧')
 
-    //曲数が127件ちょうどか
-    cy.get('.table-auto > tbody > tr').should(($trs) => {
+    cy.get('.work-table > tbody > tr').should(($trs) => {
       expect($trs, '127 items').to.have.length(127)
     })
   })
@@ -31,8 +30,7 @@ describe('RecordingInWork tests', () => {
     } as OptionsParam)
     cy.wait('@umaRequest')
 
-    //曲数が44件ちょうどか
-    cy.get('.table-auto > tbody > tr').should(($trs) => {
+    cy.get('.work-table > tbody > tr').should(($trs) => {
       expect($trs, '44 items').to.have.length(44)
     })
   })
