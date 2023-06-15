@@ -59,7 +59,7 @@ onMounted(() => {
   </div>
   <div v-else-if="refArtistData.length !== 0">
     <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
-    <p>
+    <p class="artist-search-number">
       {{
         '検索結果 ' +
         totalItems +

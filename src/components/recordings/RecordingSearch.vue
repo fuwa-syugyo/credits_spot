@@ -148,7 +148,7 @@ onMounted(() => {
         </div>
       </form>
     </div>
-    <p>
+    <p class="recording-search-number">
       {{
         '検索結果 ' +
         totalItems +

@@ -124,7 +124,7 @@ const currentPage = ref(1)
   </div>
   <div v-else-if="filteredDataLength !== 0">
     <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
-    <p>
+    <p class="filtered-recording-search-number">
       {{
         '検索結果 ' +
         filteredDataLength +
