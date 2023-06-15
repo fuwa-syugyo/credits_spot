@@ -59,7 +59,7 @@ onMounted(() => {
   </div>
   <div v-else-if="refArtistData.length !== 0">
     <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
-    <p>
+    <p class="artist-search-number">
       {{
         '検索結果 ' +
         totalItems +
@@ -70,7 +70,7 @@ onMounted(() => {
         '件'
       }}
     </p>
-    <table class="table-auto my-4 max-w-xl">
+    <table class="artist-search-table table-auto my-4 max-w-xl">
       <thead>
         <tr>
           <th class="px-4 py-2 border bg-blue-100 break-all">人物名</th>
@@ -88,7 +88,7 @@ onMounted(() => {
         </tr>
       </tbody>
     </table>
-    <div v-if="totalItems > 100">
+    <div v-if="totalItems > 100" class="pagination">
       <vue-awesome-paginate
         v-model="currentPage"
         :total-items="totalItems"

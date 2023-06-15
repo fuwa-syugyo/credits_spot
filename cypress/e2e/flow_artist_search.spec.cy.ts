@@ -9,11 +9,10 @@ describe('Artist search and lookup recordings', () => {
 
     cy.get('[value="人物名"]').check()
     cy.get('#search').type('小室哲哉{enter}', { force: true })
-    cy.get('.text-white').click()
+    cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
-    cy.contains('小室哲哉')
+    cy.get('.artist-search-table > tbody').contains('小室哲哉')
 
-    //小室哲哉をクリック
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/de242082-2f3e-4ce5-99e1-7839559da089?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
@@ -24,12 +23,11 @@ describe('Artist search and lookup recordings', () => {
       'https://musicbrainz.org/ws/2/recording?artist=de242082-2f3e-4ce5-99e1-7839559da089&offset=0&limit=100&fmt=json',
       { fixture: 'mock_komurotetsuya_recording_page1.json' }
     ).as('komurotetsuyaRecording1PageRequest')
-    cy.get(':nth-child(1) > .border > a').click()
+    cy.get('.artist-search-table > tbody > :nth-child(1) > td > a').click()
     cy.wait('@komurotetsuyaRelationshipRequest')
     cy.wait('@komurotetsuyaRecording1PageRequest')
     cy.contains('小室哲哉')
 
-    //アーティスト音源の詳細へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/08cea5ad-09af-466a-b2f4-46ec63dd2d09?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -43,12 +41,11 @@ describe('Artist search and lookup recordings', () => {
     cy.get('.artist-table > tbody > :nth-child(1) > td > a ').click()
     cy.wait('@komurotetsuyaDWakareRelationshipRequest')
     cy.wait('@komurotetsuyaDWakareSpotifyRequest')
-    cy.get('.text-2xl').contains('Dのテーマ (別れ)')
-    cy.get('p.break-all').contains('小室哲哉')
-    cy.get(':nth-child(1) > :nth-child(6) > :nth-child(2) > a').should('not.be')
+    cy.get('.recording-title').contains('Dのテーマ (別れ)')
+    cy.get('.artist-name').contains('小室哲哉')
+    cy.get('.spotify-button').should('be.disabled')
     cy.go('back')
 
-    //workへ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/work/73d884ae-bdb1-466f-8585-23aeb4644bfb?inc=recording-rels+artist-credits&fmt=json',
@@ -59,7 +56,6 @@ describe('Artist search and lookup recordings', () => {
     ).click()
     cy.wait('@komurotetsuyaCrazyWorkRequest')
 
-    //作詞作曲した曲へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/4f33f498-ecac-429a-87ee-ec6f74680fcc?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -70,17 +66,17 @@ describe('Artist search and lookup recordings', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPB609520101&type=track&offset=0&limit=20',
       { fixture: 'mock_crazy_spotify.json' }
     ).as('komurotetsuyaCrazySpotifyRequest')
-    cy.get(':nth-child(2) > .max-w-\\[600px\\] > a').click()
+    cy.get('.work-table > tbody > :nth-child(2) > :nth-child(1) > a').click()
     cy.wait('@komurotetsuyaCrazyRelationshipRequest')
     cy.wait('@komurotetsuyaCrazySpotifyRequest')
 
-    cy.get('.text-2xl').contains('CRAZY GONNA CRAZY')
-    cy.get('table tbody tr')
+    cy.get('.recording-title').contains('CRAZY GONNA CRAZY')
+    cy.get('.songwriter-data > tr')
       .contains('composer')
       .parent()
       .parent()
       .contains('小室哲哉')
-    cy.get('.bg-blue-400 > a').should(
+    cy.get('.spotify-button > a').should(
       'have.attr',
       'href',
       'https://open.spotify.com/track/40zhzdBp94MQDk5uRf4NDR'
@@ -88,7 +84,6 @@ describe('Artist search and lookup recordings', () => {
     cy.go('back')
     cy.go('back')
 
-    //スタッフ曲へ
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/ff0a6f14-14b2-4b32-b84b-b6961293b92c?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -102,13 +97,13 @@ describe('Artist search and lookup recordings', () => {
     cy.get('.staff-table > tbody > :nth-child(1) > :nth-child(2) > a').click()
     cy.wait('@komurotetsuyaSoon19RelationshipRequest')
     cy.wait('@komurotetsuyaSoon19SpotifyRequest')
-    cy.get('.text-2xl').contains('...soon nineteen')
-    cy.get('table tbody tr')
+    cy.get('.recording-title').contains('...soon nineteen')
+    cy.get('.staff-data > tr')
       .contains('arranger')
       .parent()
       .parent()
       .contains('小室哲哉')
-    cy.get('.bg-blue-400').should('be.disabled')
+    cy.get('.spotify-button').should('be.disabled')
     cy.go('back')
   })
 
@@ -122,9 +117,9 @@ describe('Artist search and lookup recordings', () => {
     ).as('yoasobiRequest')
     cy.get('[value="人物名"]').check()
     cy.get('#search').type('YOASOBI{enter}', { force: true })
-    cy.contains('検索').click()
+    cy.get('.search-button').click()
     cy.wait('@yoasobiRequest')
-    cy.contains('YOASOBI')
+    cy.get('.artist-search-table > tbody').contains('YOASOBI')
 
     cy.intercept(
       'GET',
@@ -135,9 +130,9 @@ describe('Artist search and lookup recordings', () => {
       .focus()
       .clear()
       .type('the band apart{enter}', { force: true })
-    cy.contains('検索').first().click()
+    cy.get('.search-button').first().click()
     cy.wait('@theBandApartRequest')
-    cy.contains('the band apart')
+    cy.get('.artist-search-table > tbody').contains('the band apart')
   })
 
   it('Check search word is not undefined by using pagination', () => {
@@ -151,19 +146,19 @@ describe('Artist search and lookup recordings', () => {
 
     cy.get('[value="人物名"]').check()
     cy.get('#search').type('小室哲哉{enter}', { force: true })
-    cy.get('.text-white').click()
+    cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
-    cy.contains('小室哲哉')
+    cy.get('.artist-search-table > tbody').contains('小室哲哉')
 
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=100&limit=100&fmt=json',
       { fixture: 'mock_komurotetsuya_page2.json' }
     ).as('komurotetsuya2PageRequest')
-    cy.get(':nth-child(7) > .paginate-buttons').click()
+    cy.get('.pagination').contains('>').click()
     cy.wait('@komurotetsuya2PageRequest')
     cy.get('body').should('not.contain', 'Undefined')
-    cy.get('.back-button').click()
+    cy.get('.pagination').contains('<').click()
   })
 })
 export {}

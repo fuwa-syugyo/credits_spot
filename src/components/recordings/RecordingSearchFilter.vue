@@ -124,7 +124,7 @@ const currentPage = ref(1)
   </div>
   <div v-else-if="filteredDataLength !== 0">
     <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
-    <p>
+    <p class="filtered-recording-search-number">
       {{
         '検索結果 ' +
         filteredDataLength +
@@ -135,7 +135,7 @@ const currentPage = ref(1)
         '件'
       }}
     </p>
-    <table class="table-auto my-4">
+    <table class="filtered-recording-search-table table-auto my-4">
       <thead>
         <tr>
           <th class="px-4 py-2 border w-[390px] md:w-[460px] bg-blue-100">
@@ -170,14 +170,14 @@ const currentPage = ref(1)
                   .join(' ')
               }}
             </p>
-            <p class="my-1 text-xs">
+            <p class="release-date my-1 text-xs">
               {{ 'リリース日: ' + recording.firstReleaseDate }}
             </p>
           </td>
         </tr>
       </tbody>
     </table>
-    <div v-if="filteredDataLength > 100">
+    <div v-if="filteredDataLength > 100" class="pagination">
       <vue-awesome-paginate
         v-model="currentPage"
         :total-items="filteredDataLength"
@@ -187,7 +187,7 @@ const currentPage = ref(1)
       />
     </div>
   </div>
-  <div v-else>
+  <div v-else class="no-filtered-recording">
     <h1 class="text-2xl my-4 max-w-xl">Not Found!</h1>
     <p>条件に該当する音源はありませんでした。</p>
   </div>

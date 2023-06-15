@@ -141,10 +141,10 @@ onMounted(async () => {
     <NowLoading />
   </div>
   <div v-else-if="refRecordingData">
-    <h1 class="text-2xl my-4 max-w-xl break-all">
+    <h1 class="recording-title text-2xl my-4 max-w-xl break-all">
       {{ refRecordingData?.title }}
     </h1>
-    <p class="break-all">
+    <p class="artist-name break-all">
       アーティスト:
       <span
         v-for="artist in refRecordingData.credit.artistCredit"
@@ -187,7 +187,10 @@ onMounted(async () => {
             </th>
           </tr>
         </thead>
-        <tbody v-if="refRecordingData.credit.songWriterCredit">
+        <tbody
+          v-if="refRecordingData.credit.songWriterCredit"
+          class="songwriter-data"
+        >
           <tr
             v-for="songWriter in refRecordingData.credit.songWriterCredit"
             :key="songWriter.id"
@@ -207,7 +210,7 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="refRecordingData.credit.staffCredit">
+        <tbody v-if="refRecordingData.credit.staffCredit" class="staff-data">
           <tr
             v-for="staff in refRecordingData.credit.staffCredit"
             :key="staff.id"
@@ -224,7 +227,7 @@ onMounted(async () => {
             </td>
           </tr>
         </tbody>
-        <tbody v-if="refRecordingData.credit.playerCredit">
+        <tbody v-if="refRecordingData.credit.playerCredit" class="player-data">
           <tr
             v-for="player in refRecordingData.credit.playerCredit"
             :key="player.id"
@@ -244,7 +247,7 @@ onMounted(async () => {
       </table>
     </div>
     <br />
-    <div class="spotify-button">
+    <div class="spotify-content">
       <div style="display: inline-block; vertical-align: middle">
         <img
           src="../../../public/Spotify_Logo_CMYK_Green.png"
@@ -256,14 +259,14 @@ onMounted(async () => {
       <div style="display: inline-block; vertical-align: middle">
         <button
           :disabled="!spotifyLink"
-          class="bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:pointer-events-none"
+          class="spotify-button bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:pointer-events-none"
         >
           <a :href="spotifyLink" target="_blank" class="text-white"
             >この曲を再生する</a
           >
         </button>
       </div>
-      <div v-if="!spotifyLink" class="my-2 text-xs">
+      <div v-if="!spotifyLink" class="no-spotify my-2 text-xs">
         <p>登録されているSpotifyでの音源情報がないため再生ができません。</p>
       </div>
     </div>
