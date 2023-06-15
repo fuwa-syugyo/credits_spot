@@ -64,6 +64,7 @@ describe('RecordingSearchFilter tests', () => {
       .should(($trs) => {
         expect($trs, '24 items').to.have.length(24)
       })
+    cy.get('.pagination')
   })
 
   it('Only exclude inst', () => {
@@ -130,6 +131,7 @@ describe('RecordingSearchFilter tests', () => {
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '91 items').to.have.length(91)
     })
+    cy.get('.pagination')
   })
 
   it('Only artist filter', () => {
@@ -248,6 +250,7 @@ describe('RecordingSearchFilter tests', () => {
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '22 items').to.have.length(22)
     })
+    cy.get('.pagination')
   })
 
   it('Partial and artist filter', () => {

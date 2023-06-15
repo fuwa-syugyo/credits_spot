@@ -136,8 +136,6 @@ describe('ArtistDetail tests', () => {
       expect($trs, '5 items').to.have.length(5)
     })
     cy.get('.artist-recording-number').contains('105 件中 101 〜 105件')
-
-    cy.get('.pagination')
   })
 
   it('Artist have songwriter and staff tables', () => {

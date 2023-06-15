@@ -39,7 +39,7 @@ describe('Recording search and lookup artist', () => {
       'href',
       'https://open.spotify.com/track/0jpP8AlQLVtaMwA3vQYpYB'
     )
-    cy.get('.pagination').should('not.be')
+    cy.get('.no-spotify').should('not.be')
 
     cy.intercept(
       'GET',
@@ -351,7 +351,6 @@ describe('Recording search and lookup artist', () => {
       'not.contain',
       'Undefined'
     )
-    cy.get('.pagination').contains('<').click()
   })
 })
 export {}

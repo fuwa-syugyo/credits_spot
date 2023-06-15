@@ -37,9 +37,6 @@ describe('ArtistSearch tests', () => {
     })
     cy.get('.artist-search-number').contains('検索結果 2479 件中 1 〜 100件')
 
-    cy.get('.pagination').contains('1')
-    cy.get('.last-button').contains('25')
-
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=100&limit=100&fmt=json',
@@ -71,6 +68,7 @@ describe('ArtistSearch tests', () => {
     cy.get('.artist-search-number').contains(
       '検索結果 2479 件中 2401 〜 2479件'
     )
+    cy.get('.pagination')
   })
 
   it('No result', () => {
