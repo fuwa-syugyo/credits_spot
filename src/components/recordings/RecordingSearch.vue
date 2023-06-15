@@ -194,7 +194,7 @@ onMounted(() => {
                   .join(' ')
               }}
             </p>
-            <p class="my-1 text-xs">
+            <p class="release-date my-1 text-xs">
               {{ 'リリース日: ' + recording.firstReleaseDate }}
             </p>
           </td>
