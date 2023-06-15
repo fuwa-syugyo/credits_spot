@@ -170,7 +170,7 @@ const currentPage = ref(1)
                   .join(' ')
               }}
             </p>
-            <p class="my-1 text-xs">
+            <p class="release-date my-1 text-xs">
               {{ 'リリース日: ' + recording.firstReleaseDate }}
             </p>
           </td>
@@ -187,7 +187,7 @@ const currentPage = ref(1)
       />
     </div>
   </div>
-  <div v-else>
+  <div v-else class="no-filtered-recording">
     <h1 class="text-2xl my-4 max-w-xl">Not Found!</h1>
     <p>条件に該当する音源はありませんでした。</p>
   </div>
