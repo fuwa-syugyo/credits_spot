@@ -19,10 +19,9 @@ describe('RecordingDetail tests', () => {
     cy.wait('@suiheisenRequest')
     cy.wait('@suiheisenSpotifyRequest')
 
-    cy.get('.text-2xl').contains('水平線')
-    cy.get('h1').contains('水平線')
-    cy.get('p.break-all > span > a').contains('back number')
-    cy.get('.bg-blue-400 > a').should(
+    cy.get('.recording-title').contains('水平線')
+    cy.get('.artist-name').contains('back number')
+    cy.get('.spotify-button > a').should(
       'have.attr',
       'href',
       'https://open.spotify.com/track/3RvdkNMcSy71m0aT6UF9Uf'
@@ -46,8 +45,8 @@ describe('RecordingDetail tests', () => {
     cy.wait('@butterSugarCreamRequest')
     cy.wait('@butterSugarCreamSpotifyRequest')
 
-    cy.get('.text-2xl').contains('Butter Sugar Cream (instrumental)')
-    cy.get('p.break-all').contains('Tomggg feat. tsvaci')
-    cy.get('.bg-blue-400').should('be.disabled')
+    cy.get('.recording-title').contains('Butter Sugar Cream (instrumental)')
+    cy.get('.artist-name').contains('Tomggg feat. tsvaci')
+    cy.get('.spotify-button').should('be.disabled')
   })
 })
