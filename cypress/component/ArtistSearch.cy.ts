@@ -11,9 +11,7 @@ describe('ArtistSearch tests', () => {
     cy.wait('@kenmochihidefumiRequest')
     cy.get('h1').contains('人物検索結果')
 
-    cy.get('.artist-search-table > tbody').contains(
-      'ケンモチヒデフミ'
-    )
+    cy.get('.artist-search-table > tbody').contains('ケンモチヒデフミ')
 
     cy.get('.artist-search-table > tbody > tr').should(($trs) => {
       expect($trs, '1 item').to.have.length(1)
@@ -32,9 +30,7 @@ describe('ArtistSearch tests', () => {
     cy.mount(ArtistSearch, { query: { term: '小室哲哉' } })
     cy.wait('@komurotetsuya1PageRequest')
 
-    cy.get('.artist-search-table > tbody').contains(
-      '小室哲哉'
-    )
+    cy.get('.artist-search-table > tbody').contains('小室哲哉')
 
     cy.get('.artist-search-table > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
@@ -52,9 +48,7 @@ describe('ArtistSearch tests', () => {
     cy.get('.pagination').contains('>').click()
     cy.wait('@komurotetsuya2PageRequest')
 
-    cy.get('.artist-search-table > tbody').contains(
-      '小久保隆'
-    )
+    cy.get('.artist-search-table > tbody').contains('小久保隆')
 
     cy.get('.artist-search-table > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
@@ -69,14 +63,14 @@ describe('ArtistSearch tests', () => {
     cy.get('.last-button').click()
     cy.wait('@komurotetsuyaLastPageRequest')
 
-    cy.get('.artist-search-table > tbody').contains(
-      '小山田祐治'
-    )
+    cy.get('.artist-search-table > tbody').contains('小山田祐治')
 
     cy.get('.artist-search-table > tbody > tr').should(($trs) => {
       expect($trs, '79 items').to.have.length(79)
     })
-    cy.get('.artist-search-number').contains('検索結果 2479 件中 2401 〜 2479件')
+    cy.get('.artist-search-number').contains(
+      '検索結果 2479 件中 2401 〜 2479件'
+    )
   })
 
   it('No result', () => {

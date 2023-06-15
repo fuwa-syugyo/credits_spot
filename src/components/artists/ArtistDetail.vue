@@ -96,7 +96,9 @@ const onClickHandler = async (page: number) => {
     </h1>
 
     <div v-if="refArtistData?.credit.song.length !== 0">
-      <p class="songwriter-caption text-xl my-4 border-l-8 border-indigo-200 pl-2">
+      <p
+        class="songwriter-caption text-xl my-4 border-l-8 border-indigo-200 pl-2"
+      >
         作詞作曲した音源
       </p>
       <table class="songwriter-table table-auto my-4">

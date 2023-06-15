@@ -56,9 +56,7 @@ describe('ArtistDetail tests', () => {
         expect($trs, '172 items').to.have.length(172)
       })
 
-    cy.get('.artist-caption').contains(
-      'アーティストとして関わった音源'
-    )
+    cy.get('.artist-caption').contains('アーティストとして関わった音源')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
       '一番歌 (Extend-mix)'
     )
@@ -129,19 +127,17 @@ describe('ArtistDetail tests', () => {
       .should(($trs) => {
         expect($trs, '172 items').to.have.length(172)
       })
-      cy.get('.artist-caption').contains(
-        'アーティストとして関わった音源'
-      )
-      cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
-        '透明 toumei'
-      )
+    cy.get('.artist-caption').contains('アーティストとして関わった音源')
+    cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
+      '透明 toumei'
+    )
 
-      cy.get('.artist-table > tbody > tr > td').should(($trs) => {
-        expect($trs, '5 items').to.have.length(5)
-      })
-      cy.get('.artist-recording-number').contains('105 件中 101 〜 105件')
+    cy.get('.artist-table > tbody > tr > td').should(($trs) => {
+      expect($trs, '5 items').to.have.length(5)
+    })
+    cy.get('.artist-recording-number').contains('105 件中 101 〜 105件')
 
-      cy.get('.pagination')
+    cy.get('.pagination')
   })
 
   it('Artist have songwriter and staff tables', () => {
@@ -211,9 +207,7 @@ describe('ArtistDetail tests', () => {
       '.songwriter-table > tbody > :nth-child(1) > :nth-child(2)'
     ).contains('悪魔の子')
 
-    cy.get('.artist-caption').contains(
-      'アーティストとして関わった音源'
-    )
+    cy.get('.artist-caption').contains('アーティストとして関わった音源')
     cy.get('.artist-table > tbody > :nth-child(1) > .px-4').contains(
       '妄想悩殺お手ガール'
     )
@@ -254,9 +248,7 @@ describe('ArtistDetail tests', () => {
       'Rhapsody on a Theme of Paganini, op. 43: 1. Introduction. Allegro vivace'
     )
 
-    cy.get('.artist-caption').contains(
-      'アーティストとして関わった音源'
-    )
+    cy.get('.artist-caption').contains('アーティストとして関わった音源')
     cy.get('.artist-table > tbody > :nth-child(2) > .px-4').contains(
       'ワルツ第6番 変ニ長調 作品64-1 「小犬のワルツ」'
     )

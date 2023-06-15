@@ -187,7 +187,10 @@ onMounted(async () => {
             </th>
           </tr>
         </thead>
-        <tbody v-if="refRecordingData.credit.songWriterCredit" class="songwriter-data">
+        <tbody
+          v-if="refRecordingData.credit.songWriterCredit"
+          class="songwriter-data"
+        >
           <tr
             v-for="songWriter in refRecordingData.credit.songWriterCredit"
             :key="songWriter.id"

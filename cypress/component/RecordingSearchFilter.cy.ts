@@ -37,14 +37,16 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue5Request')
 
     cy.get('h1').contains('絞り込み結果')
-    cy.get('.filtered-recording-search-number').contains('検索結果 124 件中 1 〜 100件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 124 件中 1 〜 100件'
+    )
 
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(1)').contains(
-      '上を向いて歩こう'
-    )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains(
-      '長渕剛'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)'
+    ).contains('長渕剛')
 
     cy.get('.filtered-recording-search-table > tbody > tr')
       .filter(':contains("上を向いて歩こう")')
@@ -53,7 +55,9 @@ describe('RecordingSearchFilter tests', () => {
       })
 
     cy.get('.pagination').contains('2').click()
-    cy.get('.filtered-recording-search-number').contains('検索結果 124 件中 101 〜 124件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 124 件中 101 〜 124件'
+    )
 
     cy.get('.filtered-recording-search-table > tbody > tr')
       .filter(':contains("上を向いて歩こう")')
@@ -97,26 +101,32 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.filtered-recording-search-number').contains('検索結果 491 件中 1 〜 100件')
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)').contains(
-      '上を向いて歩こう'
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 491 件中 1 〜 100件'
     )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)').contains(
-      'トータス松本'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)'
+    ).contains('トータス松本')
 
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
 
     cy.get('.pagination').contains('>').click()
-    cy.get('.filtered-recording-search-number').contains('検索結果 491 件中 101 〜 200件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 491 件中 101 〜 200件'
+    )
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
 
     cy.get('.last-button').click()
-    cy.get('.filtered-recording-search-number').contains('検索結果 491 件中 401 〜 491件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 491 件中 401 〜 491件'
+    )
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '91 items').to.have.length(91)
     })
@@ -157,14 +167,16 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.filtered-recording-search-number').contains('検索結果 36 件中 1 〜 36件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 36 件中 1 〜 36件'
+    )
 
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(1)').contains(
-      '上を向いて歩こう'
-    )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains(
-      '坂本九'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(1) > :nth-child(2)'
+    ).contains('坂本九')
 
     cy.get('.filtered-recording-search-table > tbody > tr')
       .filter(':contains("坂本九")')
@@ -214,21 +226,25 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.filtered-recording-search-number').contains('検索結果 122 件中 1 〜 100件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 122 件中 1 〜 100件'
+    )
 
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)').contains(
-      '上を向いて歩こう'
-    )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)').contains(
-      'トータス松本'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)'
+    ).contains('トータス松本')
 
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
 
     cy.get('.pagination').contains('>').click()
-    cy.get('.filtered-recording-search-number').contains('検索結果 122 件中 101 〜 122件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 122 件中 101 〜 122件'
+    )
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '22 items').to.have.length(22)
     })
@@ -273,14 +289,16 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.filtered-recording-search-number').contains('検索結果 31 件中 1 〜 31件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 31 件中 1 〜 31件'
+    )
 
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)').contains(
-      '上を向いて歩こう'
-    )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)').contains(
-      '坂本九'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)'
+    ).contains('坂本九')
 
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '31 items').to.have.length(31)
@@ -328,14 +346,16 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.filtered-recording-search-number').contains('検索結果 35 件中 1 〜 35件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 35 件中 1 〜 35件'
+    )
 
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)').contains(
-      '上を向いて歩こう'
-    )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)').contains(
-      '坂本九'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)'
+    ).contains('坂本九')
 
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '35 items').to.have.length(35)
@@ -384,14 +404,16 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.filtered-recording-search-number').contains('検索結果 30 件中 1 〜 30件')
+    cy.get('.filtered-recording-search-number').contains(
+      '検索結果 30 件中 1 〜 30件'
+    )
 
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)').contains(
-      '上を向いて歩こう'
-    )
-    cy.get('.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)').contains(
-      '坂本九'
-    )
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(1)'
+    ).contains('上を向いて歩こう')
+    cy.get(
+      '.filtered-recording-search-table > tbody > :nth-child(2) > :nth-child(2)'
+    ).contains('坂本九')
 
     cy.get('.filtered-recording-search-table > tbody > tr')
       .filter(':contains("坂本九")')
@@ -437,7 +459,9 @@ describe('RecordingSearchFilter tests', () => {
     cy.wait('@ue4Request')
     cy.wait('@ue5Request')
 
-    cy.get('.no-filtered-recording > p').contains('条件に該当する音源はありませんでした。')
+    cy.get('.no-filtered-recording > p').contains(
+      '条件に該当する音源はありませんでした。'
+    )
 
     cy.get('.filtered-recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '0 item').to.have.length(0)

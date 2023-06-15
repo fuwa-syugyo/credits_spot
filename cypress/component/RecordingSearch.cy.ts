@@ -11,12 +11,12 @@ describe('RecordingSearch tests', () => {
     cy.wait('@mixednutsRequest')
 
     cy.get('h1').contains('音源検索結果')
-    cy.get('.recording-search-table > tbody > :nth-child(1) >  > :nth-child(1)').contains(
-      'ミックスナッツ'
-    )
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains(
-      'Official髭男dism'
-    )
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) >  > :nth-child(1)'
+    ).contains('ミックスナッツ')
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(2)'
+    ).contains('Official髭男dism')
     cy.get(
       '.recording-search-table > tbody > :nth-child(1) > :nth-child(2) > .release-date'
     ).contains('2022-04-15')
@@ -38,12 +38,12 @@ describe('RecordingSearch tests', () => {
     cy.mount(RecordingSearch, { query: { term: 'アイドル' } })
     cy.wait('@idol1PageRequest')
 
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(1)').contains(
-      'アイドル'
-    )
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains(
-      '星勝'
-    )
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(1)'
+    ).contains('アイドル')
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(2)'
+    ).contains('星勝')
     cy.get(
       '.recording-search-table > tbody > :nth-child(1) > :nth-child(2) > .release-date'
     ).contains('1990-12-28')
@@ -51,9 +51,7 @@ describe('RecordingSearch tests', () => {
     cy.get('.recording-search-table > tbody > tr').should(($trs) => {
       expect($trs, '100 items').to.have.length(100)
     })
-    cy.get('.recording-search-number').contains(
-      '検索結果 249 件中 1 〜 100件'
-    )
+    cy.get('.recording-search-number').contains('検索結果 249 件中 1 〜 100件')
 
     cy.intercept(
       'GET',
@@ -63,12 +61,12 @@ describe('RecordingSearch tests', () => {
     cy.get('.pagination').contains('>').click()
     cy.wait('@idol2PageRequest')
 
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(1)').contains(
-      'アイドル活動！'
-    )
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains(
-      '風鈴ぼるけいの'
-    )
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(1)'
+    ).contains('アイドル活動！')
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(2)'
+    ).contains('風鈴ぼるけいの')
     cy.get(
       '.recording-search-table > tbody > :nth-child(1) > :nth-child(2)  > .release-date'
     ).contains('2018-03-04')
@@ -88,12 +86,12 @@ describe('RecordingSearch tests', () => {
     cy.get('.pagination').contains('>').click()
     cy.wait('@idol3PageRequest')
 
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(1)').contains(
-      '全力アイドル (M@STER VERSION) (オリジナル・カラオケ)'
-    )
-    cy.get('.recording-search-table > tbody > :nth-child(1) > :nth-child(2)').contains(
-      '水瀬伊織 (CV: 釘宮理恵 )'
-    )
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(1)'
+    ).contains('全力アイドル (M@STER VERSION) (オリジナル・カラオケ)')
+    cy.get(
+      '.recording-search-table > tbody > :nth-child(1) > :nth-child(2)'
+    ).contains('水瀬伊織 (CV: 釘宮理恵 )')
     cy.get(
       '.recording-search-table> tbody > :nth-child(1) > :nth-child(2) > .release-date'
     ).contains('2015-06-03')
