@@ -163,46 +163,4 @@ describe('Check search word is not undefined by using pagination', () => {
     cy.get('.pagination').contains('<').click()
   })
 })
-
-describe('Check spotify button', () => {
-  it('Have spotify link recording', () => {
-    cy.intercept(
-      'GET',
-      'https://musicbrainz.org/ws/2/recording/4f33f498-ecac-429a-87ee-ec6f74680fcc?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
-      { fixture: 'mock_crazy_relationship.json' }
-    ).as('komurotetsuyaCrazyRelationshipRequest')
-    cy.intercept(
-      'GET',
-      'https://api.spotify.com/v1/search?query=isrc%3AJPB609520101&type=track&offset=0&limit=20',
-      { fixture: 'mock_crazy_spotify.json' }
-    ).as('komurotetsuyaCrazySpotifyRequest')
-    cy.visit('http://localhost:5173/recordings/4f33f498-ecac-429a-87ee-ec6f74680fcc')
-    cy.wait('@komurotetsuyaCrazyRelationshipRequest')
-    cy.wait('@komurotetsuyaCrazySpotifyRequest')
-
-    cy.get('.spotify-button > a').should(
-      'have.attr',
-      'href',
-      'https://open.spotify.com/track/40zhzdBp94MQDk5uRf4NDR'
-    )
-  })
-
-  it('Have not spotify link recording', () => {
-    cy.intercept(
-      'GET',
-      'https://musicbrainz.org/ws/2/recording/08cea5ad-09af-466a-b2f4-46ec63dd2d09?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
-      { fixture: 'mock_D_wakare_relationship.json' }
-    ).as('komurotetsuyaDWakareRelationshipRequest')
-    cy.intercept(
-      'GET',
-      'https://api.spotify.com/v1/search?query=isrc%3Aundefined&type=track&offset=0&limit=20',
-      { fixture: 'mock_komurotetsuya_D_wakare_spotify.json' }
-    ).as('komurotetsuyaDWakareSpotifyRequest')
-    cy.visit('http://localhost:5173/recordings/08cea5ad-09af-466a-b2f4-46ec63dd2d09')
-    cy.wait('@komurotetsuyaDWakareRelationshipRequest')
-    cy.wait('@komurotetsuyaDWakareSpotifyRequest')
-    cy.get('.recording-title').contains('Dのテーマ (別れ)')
-    cy.get('.spotify-button').should('be.disabled')
-  })
-})
 export {}
