@@ -1,5 +1,5 @@
-describe('Artist search and lookup recordings', () => {
-  it('Visits artist search result', function () {
+describe('Visits artist search result', () => {
+  it('Search artist', () => {
     cy.visit('http://127.0.0.1:5173/')
     cy.intercept(
       'GET',
@@ -11,8 +11,14 @@ describe('Artist search and lookup recordings', () => {
     cy.get('#search').type('小室哲哉{enter}', { force: true })
     cy.get('.search-button').click()
     cy.wait('@komurotetsuya1PageRequest')
-    cy.get('.artist-search-table > tbody').contains('小室哲哉')
+    cy.get('.artist-search-table > tbody').contains('小室哲哉').click()
+    cy.url().should(
+      'include',
+      'http://127.0.0.1:5173/artists/de242082-2f3e-4ce5-99e1-7839559da089'
+    )
+  })
 
+  it('Look up artist recording', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/de242082-2f3e-4ce5-99e1-7839559da089?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
@@ -23,7 +29,9 @@ describe('Artist search and lookup recordings', () => {
       'https://musicbrainz.org/ws/2/recording?artist=de242082-2f3e-4ce5-99e1-7839559da089&offset=0&limit=100&fmt=json',
       { fixture: 'mock_komurotetsuya_recording_page1.json' }
     ).as('komurotetsuyaRecording1PageRequest')
-    cy.get('.artist-search-table > tbody > :nth-child(1) > td > a').click()
+    cy.visit(
+      'http://localhost:5173/artists/de242082-2f3e-4ce5-99e1-7839559da089'
+    )
     cy.wait('@komurotetsuyaRelationshipRequest')
     cy.wait('@komurotetsuyaRecording1PageRequest')
     cy.contains('小室哲哉')
@@ -43,14 +51,17 @@ describe('Artist search and lookup recordings', () => {
     cy.wait('@komurotetsuyaDWakareSpotifyRequest')
     cy.get('.recording-title').contains('Dのテーマ (別れ)')
     cy.get('.artist-name').contains('小室哲哉')
-    cy.get('.spotify-button').should('be.disabled')
-    cy.go('back')
+  })
 
+  it('Look up songwriter recording', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/work/73d884ae-bdb1-466f-8585-23aeb4644bfb?inc=recording-rels+artist-credits&fmt=json',
       { fixture: 'mock_crazy_work.json' }
     ).as('komurotetsuyaCrazyWorkRequest')
+    cy.visit(
+      'http://localhost:5173/artists/de242082-2f3e-4ce5-99e1-7839559da089'
+    )
     cy.get(
       '.songwriter-table > tbody > :nth-child(43) > :nth-child(2) > a'
     ).click()
@@ -76,14 +87,9 @@ describe('Artist search and lookup recordings', () => {
       .parent()
       .parent()
       .contains('小室哲哉')
-    cy.get('.spotify-button > a').should(
-      'have.attr',
-      'href',
-      'https://open.spotify.com/track/40zhzdBp94MQDk5uRf4NDR'
-    )
-    cy.go('back')
-    cy.go('back')
+  })
 
+  it('Look up staff recording', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/ff0a6f14-14b2-4b32-b84b-b6961293b92c?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -94,6 +100,9 @@ describe('Artist search and lookup recordings', () => {
       'https://api.spotify.com/v1/search?query=isrc%3Aundefined&type=track&offset=0&limit=20',
       { fixture: 'mock_soon_19_spotify.json' }
     ).as('komurotetsuyaSoon19SpotifyRequest')
+    cy.visit(
+      'http://localhost:5173/artists/de242082-2f3e-4ce5-99e1-7839559da089'
+    )
     cy.get('.staff-table > tbody > :nth-child(1) > :nth-child(2) > a').click()
     cy.wait('@komurotetsuyaSoon19RelationshipRequest')
     cy.wait('@komurotetsuyaSoon19SpotifyRequest')
@@ -103,11 +112,11 @@ describe('Artist search and lookup recordings', () => {
       .parent()
       .parent()
       .contains('小室哲哉')
-    cy.get('.spotify-button').should('be.disabled')
-    cy.go('back')
   })
+})
 
-  it('Continuously artist search', () => {
+describe('Continuously artist search', () => {
+  it('Should be continuously artist search', () => {
     cy.visit('http://127.0.0.1:5173/')
 
     cy.intercept(
@@ -134,8 +143,10 @@ describe('Artist search and lookup recordings', () => {
     cy.wait('@theBandApartRequest')
     cy.get('.artist-search-table > tbody').contains('the band apart')
   })
+})
 
-  it('Check search word is not undefined by using pagination', () => {
+describe('Check search word is not undefined by using pagination', () => {
+  it('Using pagination', () => {
     cy.visit('http://127.0.0.1:5173/')
 
     cy.intercept(

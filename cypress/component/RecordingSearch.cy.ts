@@ -103,8 +103,10 @@ describe('RecordingSearch tests', () => {
       '検索結果 249 件中 201 〜 249件'
     )
   })
+})
 
-  it('No result', () => {
+describe('No result', () => {
+  it('Search with 0 results', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%81%84%E3%81%88%E3%81%98%E3%81%8A%E3%81%88%E3%81%AC%EF%BD%82%E3%81%AE%E3%81%84%E3%81%BF%E3%81%8A%E3%81%88%EF%BD%8E&offset=0&limit=100&fmt=json',

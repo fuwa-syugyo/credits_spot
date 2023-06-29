@@ -426,8 +426,10 @@ describe('RecordingSearchFilter tests', () => {
 
     cy.get('.pagination').should('not.be')
   })
+})
 
-  it('No result', () => {
+describe('No results', () => {
+  it('Apply filter with 0 results ', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6%E6%AD%A9%E3%81%93%E3%81%86&offset=0&limit=100&fmt=json',

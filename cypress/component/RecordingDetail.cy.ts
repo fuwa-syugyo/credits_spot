@@ -1,8 +1,8 @@
 import { OptionsParam } from '../../cypress'
 import RecordingDetail from '../../src/components/recordings/RecordingDetail.vue'
 
-describe('RecordingDetail tests', () => {
-  it('Recording have Spotify link test', () => {
+describe('Recording have Spotify link test', () => {
+  it('Have Spotify link recording', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/02689e6a-9a9f-4415-9218-bb3da1dc1a87?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -26,9 +26,10 @@ describe('RecordingDetail tests', () => {
       'href',
       'https://open.spotify.com/track/3RvdkNMcSy71m0aT6UF9Uf'
     )
+    cy.get('.no-spotify').should('not.be')
   })
 
-  it('Recording have not Spotify link test', () => {
+  it('Have not Spotify link recording', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/1aa67948-6be8-4d51-9526-054c75c651c4?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
@@ -48,5 +49,8 @@ describe('RecordingDetail tests', () => {
     cy.get('.recording-title').contains('Butter Sugar Cream (instrumental)')
     cy.get('.artist-name').contains('Tomggg feat. tsvaci')
     cy.get('.spotify-button').should('be.disabled')
+    cy.get('.no-spotify > p').contains(
+      '登録されているSpotifyでの音源情報がないため再生ができません。'
+    )
   })
 })
