@@ -22,8 +22,8 @@ describe('Less than 100 recording search result', () => {
   })
 })
 
-describe('More than 100 recording search result', () => {
-  it('1 page', () => {
+describe('More than 100 recording search result with pagination', () => {
+  it('Search more than 100 recording results', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
@@ -38,9 +38,7 @@ describe('More than 100 recording search result', () => {
       expect($trs, '100 items').to.have.length(100)
     })
     cy.get('.artist-search-number').contains('検索結果 2479 件中 1 〜 100件')
-  })
 
-  it('2 page', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
@@ -63,9 +61,7 @@ describe('More than 100 recording search result', () => {
       expect($trs, '100 items').to.have.length(100)
     })
     cy.get('.artist-search-number').contains('検索結果 2479 件中 101 〜 200件')
-  })
 
-  it('Last page', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
@@ -94,7 +90,7 @@ describe('More than 100 recording search result', () => {
   })
 })
 
-describe('No result', () => {
+describe('No results', () => {
   it('Search with 0 results', () => {
     cy.intercept(
       'GET',
