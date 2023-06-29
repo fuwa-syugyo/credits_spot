@@ -330,7 +330,7 @@ describe('Artist have staff and artist tables', () => {
     } as OptionsParam)
     cy.wait('@soritaRelationshipRequest')
     cy.wait('@soritaRecordingRequest')
-    
+
     cy.get('.songwriter-table > tbody').should('not.be')
     cy.get('.pagination').should('not.be')
   })

@@ -47,7 +47,9 @@ describe('Recording search and lookup artist', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPE302200934&type=track&offset=0&limit=20',
       { fixture: 'mock_seisyun_spotify.json' }
     ).as('seisyunSpotifyRequest')
-    cy.visit('http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5'
+    )
     cy.wait('@seisyunRelationshipRequest')
     cy.wait('@seisyunSpotifyRequest')
 
@@ -80,7 +82,9 @@ describe('Recording search and lookup artist', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPE302200934&type=track&offset=0&limit=20',
       { fixture: 'mock_seisyun_spotify.json' }
     ).as('seisyunSpotifyRequest')
-    cy.visit('http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5'
+    )
     cy.wait('@seisyunRelationshipRequest')
     cy.wait('@seisyunSpotifyRequest')
 
@@ -115,7 +119,9 @@ describe('Recording search and lookup artist', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPE302200934&type=track&offset=0&limit=20',
       { fixture: 'mock_seisyun_spotify.json' }
     ).as('seisyunSpotifyRequest')
-    cy.visit('http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5'
+    )
     cy.wait('@seisyunRelationshipRequest')
     cy.wait('@seisyunSpotifyRequest')
 
@@ -147,7 +153,9 @@ describe('Apply filter', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
       { fixture: 'mock_result_tentaikansoku.json' }
     ).as('resultTentaikansokuRequest')
-    cy.visit('http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC'
+    )
     cy.get('#apply').should('be.disabled')
   })
 
@@ -157,7 +165,9 @@ describe('Apply filter', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
       { fixture: 'mock_result_tentaikansoku.json' }
     ).as('resultTentaikansokuRequest')
-    cy.visit('http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC'
+    )
 
     cy.intercept(
       'GET',
@@ -205,7 +215,9 @@ describe('Apply filter', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
       { fixture: 'mock_result_tentaikansoku.json' }
     ).as('resultTentaikansokuRequest')
-    cy.visit('http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC'
+    )
 
     cy.intercept(
       'GET',
@@ -254,8 +266,10 @@ describe('Apply filter', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
       { fixture: 'mock_result_tentaikansoku.json' }
     ).as('resultTentaikansokuRequest')
-    cy.visit('http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC')
-    
+    cy.visit(
+      'http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC'
+    )
+
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
@@ -303,8 +317,10 @@ describe('Apply filter', () => {
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
       { fixture: 'mock_result_tentaikansoku.json' }
     ).as('resultTentaikansokuRequest')
-    cy.visit('http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC')
-    
+    cy.visit(
+      'http://127.0.0.1:5173/recordings?term=%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC'
+    )
+
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:%E5%A4%A9%E4%BD%93%E8%A6%B3%E6%B8%AC&offset=0&limit=100&fmt=json',
@@ -358,7 +374,7 @@ describe('Apply filter', () => {
       { fixture: 'mock_result_celebrate.json' }
     ).as('resultCelebrateRequest')
     cy.visit('http://127.0.0.1:5173/recordings?term=can+you+celebrate')
-    
+
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:can%20you%20celebrate&offset=0&limit=100&fmt=json',
@@ -410,14 +426,14 @@ describe('Apply filter', () => {
     )
   })
 
-    it('Partial and artist filter', () => {
+  it('Partial and artist filter', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:can%20you%20celebrate&offset=0&limit=100&fmt=json',
       { fixture: 'mock_result_celebrate.json' }
     ).as('resultCelebrateRequest')
     cy.visit('http://127.0.0.1:5173/recordings?term=can+you+celebrate')
-    
+
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:can%20you%20celebrate&offset=0&limit=100&fmt=json',
@@ -476,7 +492,7 @@ describe('Apply filter', () => {
       { fixture: 'mock_result_celebrate.json' }
     ).as('resultCelebrateRequest')
     cy.visit('http://127.0.0.1:5173/recordings?term=can+you+celebrate')
-    
+
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/?query=recording:can%20you%20celebrate&offset=0&limit=100&fmt=json',
@@ -573,7 +589,9 @@ describe('Check spotify button', () => {
       'https://api.spotify.com/v1/search?query=isrc%3AJPE302200934&type=track&offset=0&limit=20',
       { fixture: 'mock_seisyun_spotify.json' }
     ).as('seisyunSpotifyRequest')
-    cy.visit('http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5'
+    )
     cy.wait('@seisyunRelationshipRequest')
     cy.wait('@seisyunSpotifyRequest')
 
@@ -596,7 +614,9 @@ describe('Check spotify button', () => {
       'https://api.spotify.com/v1/search?query=isrc%3Aundefined&type=track&offset=0&limit=20',
       { fixture: 'mock_spotify_Butter_Sugar_Cream.json' }
     ).as('butterSugarCreamSpotifyRequest')
-    cy.visit('http://127.0.0.1:5173/recordings/1aa67948-6be8-4d51-9526-054c75c651c4')
+    cy.visit(
+      'http://127.0.0.1:5173/recordings/1aa67948-6be8-4d51-9526-054c75c651c4'
+    )
     cy.wait('@butterSugarCreamRequest')
     cy.wait('@butterSugarCreamSpotifyRequest')
 
