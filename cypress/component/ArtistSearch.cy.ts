@@ -1,7 +1,7 @@
 import ArtistSearch from '../../src/components/artists/ArtistSearch.vue'
 
-describe('ArtistSearch tests', () => {
-  it('Less than 100 recording search result', () => {
+describe('Less than 100 recording search result', () => {
+  it('1 result', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E3%82%B1%E3%83%B3%E3%83%A2%E3%83%81%E3%83%92%E3%83%87%E3%83%95%E3%83%9F&offset=0&limit=100&fmt=json',
@@ -20,8 +20,10 @@ describe('ArtistSearch tests', () => {
 
     cy.get('.pagination').should('not.be')
   })
+})
 
-  it('More than 100 recording search result', () => {
+describe('More than 100 recording search result', () => {
+  it('1 page', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
@@ -36,6 +38,16 @@ describe('ArtistSearch tests', () => {
       expect($trs, '100 items').to.have.length(100)
     })
     cy.get('.artist-search-number').contains('検索結果 2479 件中 1 〜 100件')
+  })
+
+  it('2 page', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
+      { fixture: 'mock_komurotetsuya_page1.json' }
+    ).as('komurotetsuya1PageRequest')
+    cy.mount(ArtistSearch, { query: { term: '小室哲哉' } })
+    cy.wait('@komurotetsuya1PageRequest')
 
     cy.intercept(
       'GET',
@@ -51,6 +63,16 @@ describe('ArtistSearch tests', () => {
       expect($trs, '100 items').to.have.length(100)
     })
     cy.get('.artist-search-number').contains('検索結果 2479 件中 101 〜 200件')
+  })
+
+  it('Last page', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/artist/?query=artist:%E5%B0%8F%E5%AE%A4%E5%93%B2%E5%93%89&offset=0&limit=100&fmt=json',
+      { fixture: 'mock_komurotetsuya_page1.json' }
+    ).as('komurotetsuya1PageRequest')
+    cy.mount(ArtistSearch, { query: { term: '小室哲哉' } })
+    cy.wait('@komurotetsuya1PageRequest')
 
     cy.intercept(
       'GET',
@@ -70,8 +92,10 @@ describe('ArtistSearch tests', () => {
     )
     cy.get('.pagination')
   })
+})
 
-  it('No result', () => {
+describe('No result', () => {
+  it('Search with 0 results', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/?query=artist:%E3%81%86%E3%81%87%EF%BD%93%EF%BD%92%EF%BD%84%EF%BD%86%EF%BD%94%EF%BD%96%EF%BD%87%EF%BD%99%EF%BD%82%EF%BD%88%E3%82%93%EF%BD%8A%EF%BD%8B%EF%BD%8D%EF%BD%8C%E3%80%81%E3%80%82%E3%80%81%EF%BD%8D%E3%82%93%EF%BD%87%EF%BD%82%EF%BD%86%EF%BD%84%EF%BD%96%EF%BD%93&offset=0&limit=100&fmt=json',
