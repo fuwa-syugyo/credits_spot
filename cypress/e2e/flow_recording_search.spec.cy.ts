@@ -13,6 +13,27 @@ describe('Recording search and lookup artist', () => {
     cy.wait('@seisyun1PageRequest')
     cy.get('.recording-search-table > tbody').contains('青春コンプレックス')
     cy.get('.recording-search-table > tbody').contains('結束バンド')
+
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
+      { fixture: 'mock_seisyun_relationship.json' }
+    ).as('seisyunRelationshipRequest')
+    cy.intercept(
+      'GET',
+      'https://api.spotify.com/v1/search?query=isrc%3AJPE302200934&type=track&offset=0&limit=20',
+      { fixture: 'mock_seisyun_spotify.json' }
+    ).as('seisyunSpotifyRequest')
+    cy.get('.recording-search-table > tbody > :nth-child(1) > td')
+      .contains('青春コンプレックス')
+      .click()
+    cy.wait('@seisyunRelationshipRequest')
+    cy.wait('@seisyunSpotifyRequest')
+    cy.url().should(
+      'include',
+      '/recordings/7c8ca692-d78a-4785-a7f4-7cc9ed0fb0f5'
+    )
+    cy.contains('青春コンプレックス')
   })
 
   it('Artist look up', () => {
