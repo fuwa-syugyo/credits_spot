@@ -28,9 +28,7 @@ describe('Recording have Spotify link test', () => {
     )
     cy.get('.no-spotify').should('not.be')
   })
-})
 
-describe('RecordingDetail tests', () => {
   it('Have not Spotify link recording', () => {
     cy.intercept(
       'GET',
