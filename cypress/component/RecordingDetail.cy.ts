@@ -2,7 +2,6 @@ import { OptionsParam } from '../../cypress'
 import RecordingDetail from '../../src/components/recordings/RecordingDetail.vue'
 
 describe('Recording have Spotify link test', () => {
-  //Spotifyリンクがあるやつ
   it('Have Spotify link recording', () => {
     cy.intercept(
       'GET',
@@ -32,7 +31,6 @@ describe('Recording have Spotify link test', () => {
 })
 
 describe('RecordingDetail tests', () => {
-  //Spotifyリンクがないやつ
   it('Have not Spotify link recording', () => {
     cy.intercept(
       'GET',
