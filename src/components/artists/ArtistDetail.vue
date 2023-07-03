@@ -85,6 +85,7 @@ const onClickHandler = async (page: number) => {
     totalItems.value = recordingData['recording-count']
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   }
 }
 </script>
