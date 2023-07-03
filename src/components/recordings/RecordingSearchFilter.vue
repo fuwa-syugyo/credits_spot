@@ -16,6 +16,7 @@ const totalItems = ref<number>(0)
 let filteredDataLength = 0
 let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
+const fetchError = ref(false)
 
 const refRecordingData = ref<SearchRecordingData[]>([])
 const refRecordingDataArray = ref<Array<SearchRecordingData[]>>([])
@@ -75,6 +76,7 @@ onMounted(async () => {
     onClickHandler(currentPage.value)
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -121,6 +123,10 @@ const currentPage = ref(1)
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError" class="fetch-error">
+    <h1 class="text-2xl my-4 max-w-xl">Temporarily Error!</h1>
+    <p>時間を置いて再度お試しください。</p>
   </div>
   <div v-else-if="filteredDataLength !== 0">
     <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
