@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 import NotFound from '../NotFound.vue'
 import NowLoading from '../NowLoading.vue'
+import FetchError from '../FetchError.vue'
 import {
   RecordingData,
   Artists,
@@ -20,6 +21,8 @@ const spotifyLink = ref<string>()
 const clientId = import.meta.env.VITE_CLIENT_ID
 const secretId = import.meta.env.VITE_CLIENT_SECRET
 const isLoading = ref(false)
+const fetchError = ref(false)
+const spotifyFetchError = ref(false)
 
 onMounted(async () => {
   try {
@@ -123,13 +126,16 @@ onMounted(async () => {
           spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
         } catch (error) {
           console.error(error)
+          spotifyFetchError.value = true
         }
       })
       .catch((error) => {
         console.error(error)
+        spotifyFetchError.value = true
       })
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -139,6 +145,9 @@ onMounted(async () => {
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="refRecordingData">
     <h1 class="recording-title text-2xl my-4 max-w-xl break-all">
@@ -258,7 +267,7 @@ onMounted(async () => {
       </div>
       <div style="display: inline-block; vertical-align: middle">
         <button
-          :disabled="!spotifyLink"
+          :disabled="!spotifyLink || spotifyFetchError"
           class="spotify-button bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:pointer-events-none"
         >
           <a :href="spotifyLink" target="_blank" class="text-white"
@@ -268,6 +277,9 @@ onMounted(async () => {
       </div>
       <div v-if="!spotifyLink" class="no-spotify my-2 text-xs">
         <p>登録されているSpotifyでの音源情報がないため再生ができません。</p>
+      </div>
+      <div v-else-if="spotifyFetchError" class="spotify-fetch-error my-2 text-xs">
+        <p>一時的なエラーによりSpotifyへのリンクが取得できません。</p>
       </div>
     </div>
   </div>
