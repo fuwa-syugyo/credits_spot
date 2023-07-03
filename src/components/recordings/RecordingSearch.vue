@@ -8,6 +8,7 @@ import {
 } from '../../types/recording/RecordingSearch'
 import NowLoading from '../NowLoading.vue'
 import NoResults from '../NoResults.vue'
+import FetchError from '../FetchError.vue'
 
 onBeforeRouteUpdate((to, from, next) => {
   recordingTerm.value = (to.query.term as string) || ''
@@ -24,6 +25,7 @@ const refRecordingData = ref<SearchRecordingData[]>([])
 const selectedFilter = ref<Array<string>>([])
 const artistName = ref()
 const isLoading = ref(false)
+const fetchError = ref(false)
 
 const onClickHandler = async (page: number, recordingTerm: string) => {
   if (!recordingTerm) {
@@ -57,6 +59,7 @@ const onClickHandler = async (page: number, recordingTerm: string) => {
     totalItems.value = data.count
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -92,6 +95,9 @@ onMounted(() => {
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="refRecordingData.length !== 0" class="container">
     <h1 class="text-2xl my-4 max-w-xl">音源検索結果</h1>
