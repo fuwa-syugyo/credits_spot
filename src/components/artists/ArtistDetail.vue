@@ -2,6 +2,7 @@
 import { ref, onMounted, defineProps } from 'vue'
 import NotFound from '../NotFound.vue'
 import NowLoading from '../NowLoading.vue'
+import FetchError from '../FetchError.vue'
 import {
   ArtistData,
   RecordingCredit,
@@ -16,6 +17,7 @@ const props = defineProps<Props>()
 const refArtistData = ref<ArtistData>()
 const refArtistRecording = ref<ArtistRecording[]>()
 const isLoading = ref(false)
+const fetchError = ref(false)
 
 const currentPage = ref(1)
 const totalItems = ref<number>(NaN)
@@ -59,6 +61,7 @@ onMounted(async () => {
     onClickHandler(1)
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -89,6 +92,9 @@ const onClickHandler = async (page: number) => {
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="refArtistData || refArtistRecording">
     <h1 class="artist-name text-2xl my-4 max-w-xl break-all">
