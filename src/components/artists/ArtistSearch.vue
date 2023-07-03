@@ -4,6 +4,7 @@ import { useRoute, RouterLink, onBeforeRouteUpdate } from 'vue-router'
 import { ArtistData } from '../../types/artist/ArtistSearch'
 import NowLoading from '../NowLoading.vue'
 import NoResults from '../NoResults.vue'
+import FetchError from '../FetchError.vue'
 
 onBeforeRouteUpdate((to, from, next) => {
   artistTerm.value = (to.query.term as string) || ''
@@ -17,6 +18,7 @@ const route = useRoute()
 const artistTerm = ref((route.query.term as string) || '')
 const refArtistData = ref<ArtistData[]>([])
 const isLoading = ref(false)
+const fetchError = ref(false)
 
 const onClickHandler = async (page: number, artistTerm: string) => {
   if (!artistTerm) {
@@ -40,6 +42,7 @@ const onClickHandler = async (page: number, artistTerm: string) => {
     totalItems.value = data.count
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -56,6 +59,9 @@ onMounted(() => {
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="refArtistData.length !== 0">
     <h1 class="text-2xl my-4 max-w-xl">人物検索結果</h1>
