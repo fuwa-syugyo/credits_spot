@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 import NotFound from '../NotFound.vue'
 import NowLoading from '../NowLoading.vue'
+import FetchError from '../FetchError.vue'
 import { RecordInWork } from '../../types/artist/ArtistDetail'
 import { ArtistCredit } from '../../types/recording/RecordingSearch'
 
@@ -13,6 +14,7 @@ const props = defineProps<Props>()
 const workId = ref(props.id)
 const recordingList = ref<RecordInWork[]>()
 const isLoading = ref(false)
+const fetchError = ref(false)
 
 onMounted(async () => {
   try {
@@ -41,6 +43,7 @@ onMounted(async () => {
     recordingList.value = recordingInWork
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -50,6 +53,9 @@ onMounted(async () => {
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="recordingList">
     <h1 class="text-2xl my-4 max-w-xl">曲群一覧</h1>
