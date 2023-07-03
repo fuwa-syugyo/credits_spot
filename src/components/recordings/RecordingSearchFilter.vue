@@ -6,6 +6,7 @@ import {
   SearchRecordingData,
 } from '../../types/recording/RecordingSearch'
 import NowLoading from '../NowLoading.vue'
+import FetchError from '../FetchError.vue'
 
 const route = useRoute()
 const recordingTerm = (route.query.term as string) || ''
@@ -124,9 +125,8 @@ const currentPage = ref(1)
   <div v-if="isLoading">
     <NowLoading />
   </div>
-  <div v-else-if="fetchError" class="fetch-error">
-    <h1 class="text-2xl my-4 max-w-xl">Temporarily Error!</h1>
-    <p>時間を置いて再度お試しください。</p>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="filteredDataLength !== 0">
     <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>
