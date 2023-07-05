@@ -621,3 +621,52 @@ describe('Check recording of songwriter and staff results are not change by usin
     cy.get('.artist-recording-number').contains('105 件中 101 〜 105件')
   })
 })
+
+describe('False fetch request', () => {
+  it('False songwriter and staff recording request', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/artist/53bfc28e-2c48-4776-8949-1953c78dd187?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
+      { forceNetworkError: true,
+        fixture: 'mock_nakatayasutaka_relationship.json' }
+    ).as('yasutakaRelationshipRequest')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=0&limit=100&fmt=json',
+      { fixture: 'mock_nakatayasutaka_recording_page1.json' }
+    ).as('yasutakaRecording1PageRequest')
+    cy.mount(ArtistDetail, {
+      props: { id: '53bfc28e-2c48-4776-8949-1953c78dd187' },
+    } as OptionsParam)
+    cy.wait('@yasutakaRelationshipRequest')
+
+    cy.contains('時間を置いて再度お試しください。')
+    cy.contains('作詞作曲した音源').should('not.be')
+    cy.contains('スタッフとして関わった音源').should('not.be')
+    cy.contains('アーティストとして関わった音源').should('not.be')
+  })
+
+  it('False artist recording request', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/artist/53bfc28e-2c48-4776-8949-1953c78dd187?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
+      { fixture: 'mock_nakatayasutaka_relationship.json' }
+    ).as('yasutakaRelationshipRequest')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=0&limit=100&fmt=json',
+      { forceNetworkError: true,
+        fixture: 'mock_nakatayasutaka_recording_page1.json' }
+    ).as('yasutakaRecording1PageRequest')
+    cy.mount(ArtistDetail, {
+      props: { id: '53bfc28e-2c48-4776-8949-1953c78dd187' },
+    } as OptionsParam)
+    cy.wait('@yasutakaRelationshipRequest')
+    cy.wait('@yasutakaRecording1PageRequest')
+
+    cy.contains('時間を置いて再度お試しください。')
+    cy.contains('作詞作曲した音源').should('not.be')
+    cy.contains('スタッフとして関わった音源').should('not.be')
+    cy.contains('アーティストとして関わった音源').should('not.be')
+  })
+})
