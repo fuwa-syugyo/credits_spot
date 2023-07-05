@@ -6,6 +6,7 @@ import {
   SearchRecordingData,
 } from '../../types/recording/RecordingSearch'
 import NowLoading from '../NowLoading.vue'
+import FetchError from '../FetchError.vue'
 
 const route = useRoute()
 const recordingTerm = (route.query.term as string) || ''
@@ -16,6 +17,7 @@ const totalItems = ref<number>(0)
 let filteredDataLength = 0
 let filteredData: SearchRecordingData[] = []
 const isLoading = ref(false)
+const fetchError = ref(false)
 
 const refRecordingData = ref<SearchRecordingData[]>([])
 const refRecordingDataArray = ref<Array<SearchRecordingData[]>>([])
@@ -75,6 +77,7 @@ onMounted(async () => {
     onClickHandler(currentPage.value)
   } catch {
     console.error('Error fetching data:', Error)
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -121,6 +124,9 @@ const currentPage = ref(1)
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="filteredDataLength !== 0">
     <h1 class="text-2xl my-4 max-w-xl">絞り込み結果</h1>

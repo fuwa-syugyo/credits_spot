@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 import NotFound from '../NotFound.vue'
 import NowLoading from '../NowLoading.vue'
+import FetchError from '../FetchError.vue'
 import {
   RecordingData,
   Artists,
@@ -20,13 +21,55 @@ const spotifyLink = ref<string>()
 const clientId = import.meta.env.VITE_CLIENT_ID
 const secretId = import.meta.env.VITE_CLIENT_SECRET
 const isLoading = ref(false)
+const fetchError = ref(false)
+const spotifyFetchError = ref(false)
 
 onMounted(async () => {
+  async function fetchSpotify() {
+    const authOptions = {
+      method: 'POST',
+      headers: {
+        Authorization: 'Basic ' + btoa(clientId + ':' + secretId),
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: 'grant_type=client_credentials',
+    }
+
+    fetch('https://accounts.spotify.com/api/token', authOptions)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Failed to authenticate')
+        }
+        return response.json()
+      })
+      .then(async (data) => {
+        const token = data.access_token
+        try {
+          const spotifyRes = await fetch(
+            `https://api.spotify.com/v1/search?query=isrc%3A${refRecordingData.value?.isrcs}&type=track&offset=0&limit=20`,
+            {
+              headers: {
+                Authorization: `Bearer ${token}`,
+              },
+            }
+          )
+          const spotifyData = await spotifyRes.json()
+          spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
+        } catch (error) {
+          console.error(error)
+          spotifyFetchError.value = true
+        }
+      })
+  }
+
   try {
     isLoading.value = true
     const relationshipsData = await fetch(
       `https://musicbrainz.org/ws/2/recording/${recordingId.value}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
-    ).then((res) => res.json())
+    ).then((res) => {
+      fetchSpotify()
+      return res.json()
+    })
 
     const artists: Artists[] = relationshipsData['artist-credit']
 
@@ -91,45 +134,10 @@ onMounted(async () => {
       },
     }
     refRecordingData.value = recordingData
-
-    const authOptions = {
-      method: 'POST',
-      headers: {
-        Authorization: 'Basic ' + btoa(clientId + ':' + secretId),
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: 'grant_type=client_credentials',
-    }
-
-    fetch('https://accounts.spotify.com/api/token', authOptions)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Failed to authenticate')
-        }
-        return response.json()
-      })
-      .then(async (data) => {
-        const token = data.access_token
-        try {
-          const spotifyRes = await fetch(
-            `https://api.spotify.com/v1/search?query=isrc%3A${refRecordingData.value?.isrcs}&type=track&offset=0&limit=20`,
-            {
-              headers: {
-                Authorization: `Bearer ${token}`,
-              },
-            }
-          )
-          const spotifyData = await spotifyRes.json()
-          spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
-        } catch (error) {
-          console.error(error)
-        }
-      })
-      .catch((error) => {
-        console.error(error)
-      })
   } catch {
     console.error('Error fetching data:', Error)
+    spotifyLink.value = 'error'
+    fetchError.value = true
   } finally {
     isLoading.value = false
   }
@@ -139,6 +147,9 @@ onMounted(async () => {
 <template>
   <div v-if="isLoading">
     <NowLoading />
+  </div>
+  <div v-else-if="fetchError">
+    <FetchError />
   </div>
   <div v-else-if="refRecordingData">
     <h1 class="recording-title text-2xl my-4 max-w-xl break-all">
@@ -258,7 +269,7 @@ onMounted(async () => {
       </div>
       <div style="display: inline-block; vertical-align: middle">
         <button
-          :disabled="!spotifyLink"
+          :disabled="!spotifyLink || spotifyFetchError"
           class="spotify-button bg-blue-400 hover:bg-blue-600 font-bold py-1 px-4 mx-2 border border-blue-600 rounded disabled:opacity-50 disabled:pointer-events-none"
         >
           <a :href="spotifyLink" target="_blank" class="text-white"
@@ -266,8 +277,13 @@ onMounted(async () => {
           >
         </button>
       </div>
-      <div v-if="!spotifyLink" class="no-spotify my-2 text-xs">
-        <p>登録されているSpotifyでの音源情報がないため再生ができません。</p>
+      <div
+        v-if="!spotifyLink || spotifyFetchError"
+        class="no-spotify my-2 text-xs"
+      >
+        <p>
+          登録されているSpotifyでの音源情報がないか、一時的なエラーのため再生ができません。
+        </p>
       </div>
     </div>
   </div>

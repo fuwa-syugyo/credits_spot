@@ -473,3 +473,44 @@ describe('No results', () => {
     })
   })
 })
+
+describe('False fetch request', () => {
+  it('False recording fetch', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6%E6%AD%A9%E3%81%93%E3%81%86&offset=0&limit=100&fmt=json',
+      { fixture: 'mock_ue1.json' }
+    ).as('ue1Request')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6%E6%AD%A9%E3%81%93%E3%81%86&offset=100&limit=100&fmt=json',
+      { fixture: 'mock_ue2.json' }
+    ).as('ue2Request')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6%E6%AD%A9%E3%81%93%E3%81%86&offset=200&limit=100&fmt=json',
+      { fixture: 'mock_ue3.json' }
+    ).as('ue3Request')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6%E6%AD%A9%E3%81%93%E3%81%86&offset=300&limit=100&fmt=json',
+      { fixture: 'mock_ue4.json' }
+    ).as('ue4Request')
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6%E6%AD%A9%E3%81%93%E3%81%86&offset=400&limit=100&fmt=json',
+      { forceNetworkError: true, fixture: 'mock_ue5.json' }
+    ).as('ue5Request')
+    cy.mount(RecordingSearchFilter, {
+      query: { term: '上を向いて歩こう', partialMatch: 'true' },
+    })
+    cy.wait('@ue1Request')
+    cy.wait('@ue2Request')
+    cy.wait('@ue3Request')
+    cy.wait('@ue4Request')
+    cy.wait('@ue5Request')
+
+    cy.contains('時間を置いて再度お試しください。')
+    cy.contains('上を向いて歩こう').should('not.be')
+  })
+})
