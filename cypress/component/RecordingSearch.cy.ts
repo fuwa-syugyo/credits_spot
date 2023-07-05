@@ -123,3 +123,19 @@ describe('No result', () => {
     })
   })
 })
+
+describe('RecordingSearch tests', () => {
+  it('Less than 100 recording search result', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/?query=recording:%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%8A%E3%83%83%E3%83%84&offset=0&limit=100&fmt=json',
+      { forceNetworkError: true,
+        fixture: 'mock_mixednuts.json' }
+    ).as('mixednutsRequest')
+    cy.mount(RecordingSearch, { query: { term: 'ミックスナッツ' } })
+    cy.wait('@mixednutsRequest')
+
+    cy.contains('時間を置いて再度お試しください。')
+    cy.contains('ミックスナッツ').should('not.be')
+  })
+})
