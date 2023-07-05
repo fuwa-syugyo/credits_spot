@@ -21,8 +21,8 @@ describe('More than 100 recordings', () => {
   })
 })
 
-describe('More than 100 recordings', () => {
-  it('False fetch request', () => {
+describe('False fetch request', () => {
+  it('False fetch work', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/work/30a33711-0db8-3fc7-a3c8-f42426bdf43b?inc=recording-rels+artist-credits&fmt=json',
