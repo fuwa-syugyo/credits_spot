@@ -55,7 +55,6 @@ async function fetchSpotify() {
         )
         const spotifyData = await spotifyRes.json()
         spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
-        console.log(spotifyLink.value)
       } catch (error) {
         console.error(error)
         spotifyFetchError.value = true
