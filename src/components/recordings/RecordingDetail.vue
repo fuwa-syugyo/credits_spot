@@ -25,44 +25,44 @@ const fetchError = ref(false)
 const spotifyFetchError = ref(false)
 
 onMounted(async () => {
-async function fetchSpotify() {
-  const authOptions = {
-    method: 'POST',
-    headers: {
-      Authorization: 'Basic ' + btoa(clientId + ':' + secretId),
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: 'grant_type=client_credentials',
+  async function fetchSpotify() {
+    const authOptions = {
+      method: 'POST',
+      headers: {
+        Authorization: 'Basic ' + btoa(clientId + ':' + secretId),
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: 'grant_type=client_credentials',
+    }
+
+    fetch('https://accounts.spotify.com/api/token', authOptions)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Failed to authenticate')
+        }
+        return response.json()
+      })
+      .then(async (data) => {
+        const token = data.access_token
+        try {
+          const spotifyRes = await fetch(
+            `https://api.spotify.com/v1/search?query=isrc%3A${refRecordingData.value?.isrcs}&type=track&offset=0&limit=20`,
+            {
+              headers: {
+                Authorization: `Bearer ${token}`,
+              },
+            }
+          )
+          const spotifyData = await spotifyRes.json()
+          spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
+        } catch (error) {
+          console.error(error)
+          spotifyFetchError.value = true
+        }
+      })
   }
 
-  fetch('https://accounts.spotify.com/api/token', authOptions)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error('Failed to authenticate')
-      }
-      return response.json()
-    })
-    .then(async (data) => {
-      const token = data.access_token
-      try {
-        const spotifyRes = await fetch(
-          `https://api.spotify.com/v1/search?query=isrc%3A${refRecordingData.value?.isrcs}&type=track&offset=0&limit=20`,
-          {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          }
-        )
-        const spotifyData = await spotifyRes.json()
-        spotifyLink.value = spotifyData.tracks.items[0]?.external_urls.spotify
-      } catch (error) {
-        console.error(error)
-        spotifyFetchError.value = true
-      }
-    })
-}
-
-try {
+  try {
     isLoading.value = true
     const relationshipsData = await fetch(
       `https://musicbrainz.org/ws/2/recording/${recordingId.value}?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json`
@@ -277,8 +277,13 @@ try {
           >
         </button>
       </div>
-      <div v-if="!spotifyLink || spotifyFetchError" class="no-spotify my-2 text-xs">
-        <p>登録されているSpotifyでの音源情報がないか、一時的なエラーのため再生ができません。</p>
+      <div
+        v-if="!spotifyLink || spotifyFetchError"
+        class="no-spotify my-2 text-xs"
+      >
+        <p>
+          登録されているSpotifyでの音源情報がないか、一時的なエラーのため再生ができません。
+        </p>
       </div>
     </div>
   </div>

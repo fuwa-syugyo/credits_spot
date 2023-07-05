@@ -26,8 +26,7 @@ describe('False fetch request', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/work/30a33711-0db8-3fc7-a3c8-f42426bdf43b?inc=recording-rels+artist-credits&fmt=json',
-      { forceNetworkError: true,
-        fixture: 'mock_debby.json' }
+      { forceNetworkError: true, fixture: 'mock_debby.json' }
     ).as('debbyRequest')
     cy.mount(RecordingInWork, {
       props: { id: '30a33711-0db8-3fc7-a3c8-f42426bdf43b' },

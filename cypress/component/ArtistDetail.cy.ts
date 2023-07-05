@@ -627,8 +627,10 @@ describe('False fetch request', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/artist/53bfc28e-2c48-4776-8949-1953c78dd187?inc=recording-rels+artist-rels+artist-credits+work-rels&fmt=json',
-      { forceNetworkError: true,
-        fixture: 'mock_nakatayasutaka_relationship.json' }
+      {
+        forceNetworkError: true,
+        fixture: 'mock_nakatayasutaka_relationship.json',
+      }
     ).as('yasutakaRelationshipRequest')
     cy.intercept(
       'GET',
@@ -655,8 +657,10 @@ describe('False fetch request', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording?artist=53bfc28e-2c48-4776-8949-1953c78dd187&offset=0&limit=100&fmt=json',
-      { forceNetworkError: true,
-        fixture: 'mock_nakatayasutaka_recording_page1.json' }
+      {
+        forceNetworkError: true,
+        fixture: 'mock_nakatayasutaka_recording_page1.json',
+      }
     ).as('yasutakaRecording1PageRequest')
     cy.mount(ArtistDetail, {
       props: { id: '53bfc28e-2c48-4776-8949-1953c78dd187' },

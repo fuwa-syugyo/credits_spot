@@ -60,8 +60,7 @@ describe('False fetch request', () => {
     cy.intercept(
       'GET',
       'https://musicbrainz.org/ws/2/recording/02689e6a-9a9f-4415-9218-bb3da1dc1a87?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
-      { forceNetworkError: true,
-        fixture: 'mock_suiheisen.json' }
+      { forceNetworkError: true, fixture: 'mock_suiheisen.json' }
     ).as('suiheisenRequest')
     cy.intercept(
       'GET',
@@ -86,8 +85,7 @@ describe('False fetch request', () => {
     cy.intercept(
       'GET',
       'https://api.spotify.com/v1/search?query=isrc%3AJPPO02100907&type=track&offset=0&limit=20',
-      { forceNetworkError: true ,
-        fixture: 'mock_spotify_suiheisen.json' }
+      { forceNetworkError: true, fixture: 'mock_spotify_suiheisen.json' }
     ).as('suiheisenSpotifyRequest')
     cy.mount(RecordingDetail, {
       props: { id: '02689e6a-9a9f-4415-9218-bb3da1dc1a87' },
