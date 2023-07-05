@@ -622,7 +622,7 @@ describe('Check spotify button', () => {
 
     cy.get('.spotify-button').should('be.disabled')
     cy.get('.no-spotify > p').contains(
-      '登録されているSpotifyでの音源情報がないため再生ができません。'
+      '登録されているSpotifyでの音源情報がないか、一時的なエラーのため再生ができません。'
     )
   })
 })

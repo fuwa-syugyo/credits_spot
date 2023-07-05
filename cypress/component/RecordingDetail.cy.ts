@@ -50,7 +50,56 @@ describe('Recording have Spotify link test', () => {
     cy.get('.artist-name').contains('Tomggg feat. tsvaci')
     cy.get('.spotify-button').should('be.disabled')
     cy.get('.no-spotify > p').contains(
-      '登録されているSpotifyでの音源情報がないため再生ができません。'
+      '登録されているSpotifyでの音源情報がないか、一時的なエラーのため再生ができません。'
+    )
+  })
+})
+
+describe('False fetch request', () => {
+  it('False relationship request', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/02689e6a-9a9f-4415-9218-bb3da1dc1a87?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
+      { forceNetworkError: true,
+        fixture: 'mock_suiheisen.json' }
+    ).as('suiheisenRequest')
+    cy.intercept(
+      'GET',
+      'https://api.spotify.com/v1/search?query=isrc%3AJPPO02100907&type=track&offset=0&limit=20',
+      { fixture: 'mock_spotify_suiheisen.json' }
+    ).as('suiheisenSpotifyRequest')
+    cy.mount(RecordingDetail, {
+      props: { id: '02689e6a-9a9f-4415-9218-bb3da1dc1a87' },
+    } as OptionsParam)
+    cy.wait('@suiheisenRequest')
+
+    cy.contains('時間を置いて再度お試しください。')
+    cy.contains('水平線').should('not.be')
+  })
+
+  it('False spotify request', () => {
+    cy.intercept(
+      'GET',
+      'https://musicbrainz.org/ws/2/recording/02689e6a-9a9f-4415-9218-bb3da1dc1a87?inc=artist-credits+recording-rels+work-rels+work-level-rels+artist-rels+isrcs&fmt=json',
+      { fixture: 'mock_suiheisen.json' }
+    ).as('suiheisenRequest')
+    cy.intercept(
+      'GET',
+      'https://api.spotify.com/v1/search?query=isrc%3AJPPO02100907&type=track&offset=0&limit=20',
+      { forceNetworkError: true ,
+        fixture: 'mock_spotify_suiheisen.json' }
+    ).as('suiheisenSpotifyRequest')
+    cy.mount(RecordingDetail, {
+      props: { id: '02689e6a-9a9f-4415-9218-bb3da1dc1a87' },
+    } as OptionsParam)
+    cy.wait('@suiheisenRequest')
+    cy.wait('@suiheisenSpotifyRequest')
+
+    cy.get('.recording-title').contains('水平線')
+    cy.get('.artist-name').contains('back number')
+    cy.get('.spotify-button').should('be.disabled')
+    cy.contains(
+      '登録されているSpotifyでの音源情報がないか、一時的なエラーのため再生ができません。'
     )
   })
 })
