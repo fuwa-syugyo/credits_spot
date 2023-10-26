@@ -4,7 +4,9 @@ export type RecordingCredit = {
   recording: {
     id: string
     title: string
+    'artist-credit': ArtistCredit[]
   }
+  'artist-credit': ArtistCredit[]
   'target-type': string
 }
 

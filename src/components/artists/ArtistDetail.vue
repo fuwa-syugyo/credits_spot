@@ -9,6 +9,7 @@ import {
   SongWriterCredit,
   ArtistRecording,
 } from '../../types/artist/ArtistDetail'
+import { ArtistCredit } from '../../types/recording/RecordingSearch'
 
 interface Props {
   id: string
@@ -37,6 +38,16 @@ onMounted(async () => {
           id: item.recording.id,
           title: item.recording.title,
         },
+        'artist-credit': item.recording['artist-credit'].map(
+          (credit: ArtistCredit) => ({
+            id: credit.artist.id,
+            name: credit.artist.name,
+            joinphrase: credit.joinphrase,
+            allName:
+              credit.artist.name +
+              (credit.joinphrase ? ' ' + credit.joinphrase : ''),
+          })
+        ),
       }))
 
     const songWriterCredit: SongWriterCredit[] = relationshipsData.relations
@@ -164,6 +175,11 @@ const onClickHandler = async (page: number) => {
             >
               曲名
             </th>
+            <th
+              class="px-4 py-2 border solid bg-blue-100 w-[550px] md:w-[630px]"
+            >
+              アーティスト
+            </th>
           </tr>
         </thead>
         <tbody v-if="refArtistData?.credit.recording">
@@ -183,6 +199,13 @@ const onClickHandler = async (page: number) => {
               >
                 {{ recording.recording.title }}
               </RouterLink>
+            </td>
+            <td class="text-center px-4 py-2 border solid">
+              {{
+              recording['artist-credit']
+                .map((credit: ArtistCredit) => credit.allName)
+                .join(' ')
+            }}
             </td>
           </tr>
         </tbody>
