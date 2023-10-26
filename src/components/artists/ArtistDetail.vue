@@ -166,17 +166,17 @@ const onClickHandler = async (page: number) => {
         <thead>
           <tr>
             <th
-              class="px-4 py-2 border solid bg-blue-100 w-[100px] md:w-[100px]"
+              class="px-4 py-2 border solid bg-blue-100 w-[70px] md:w-[100px]"
             >
               担当
             </th>
             <th
-              class="px-4 py-2 border solid bg-blue-100 w-[300px] md:w-[400px]"
+              class="px-4 py-2 border solid bg-blue-100 w-[200px] md:w-[400px]"
             >
               曲名
             </th>
             <th
-              class="px-4 py-2 border solid bg-blue-100 w-[300px] md:w-[400px]"
+              class="px-4 py-2 border solid bg-blue-100 w-[200px] md:w-[400px]"
             >
               アーティスト
             </th>
